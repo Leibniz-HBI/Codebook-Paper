@@ -1,0 +1,947 @@
+response,model,created_at,done_reason,total_duration,load_duration,prompt_eval_count,prompt_eval_duration,eval_count,eval_duration,input_text,gold_label,label_count,mentioned_labels
+"COMMUNITY/SOCIATAL_EFFECTS 
+",gemma2:27b,2024-09-11T14:48:22.600349307Z,stop,11361691133,10857157233,218,203271000,11,258954000,"But Pace , the father of three young children , dismissed the idea that the cannabis industry had fundamentally changed the feel of the community .",['COMMUNITY/SOCIATAL_EFFECTS'],1,['COMMUNITY/SOCIATAL_EFFECTS']
+"DRUG_POLICY 
+ PERSONAL_FREEDOM 
+
+
+Let me explain why these labels apply:
+
+* **DRUG_POLICY:** The sentence directly discusses marijuana prohibition, which is a key element of drug policy. 
+* **PERSONAL_FREEDOM:**  The comparison to alcohol prohibition implies an argument for personal freedom to use marijuana, suggesting it shouldn't be legally restricted. 
+",gemma2:27b,2024-09-11T14:48:24.884003754Z,stop,2236559955,55352785,214,51536000,81,2085118000,“ Marijuana prohibition makes no more sense than alcohol prohibition did in the early 1900s . ”,['LEGAL_DRUGS'],2,"['DRUG_POLICY', 'PERSONAL_FREEDOM']"
+"HEALTH/PSYCHOLOGICAL_EFFECTS, HARM 
+",gemma2:27b,2024-09-11T14:48:25.501367938Z,stop,529788012,55346604,241,73817000,13,312502000,"Marijuana use raises the heart rate from 20 to 100 percent for up to three hours after it has been smoked , increasing the risk of getting other health problems , such as arrhythmia , heart palpitations and heart attack .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],2,"['HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"LEGAL_DRUGS, DRUG_POLICY 
+",gemma2:27b,2024-09-11T14:48:25.992327099Z,stop,485865181,56017872,258,80045000,11,260755000,"Decriminalization or re-legalization would mean that certain drugs would be legally available , but regulated by the government which would mean restrictions on advertising , age limitations , restrictions on the amount purchased at one time , requirements on the form in which certain drugs would be supplied and maybe a ban on sales to intoxicated persons , etc .",['DRUG_POLICY'],2,"['DRUG_POLICY', 'LEGAL_DRUGS']"
+"GATEWAY_DRUG 
+HARM 
+ADDICTION 
+DRUG_ABUSE 
+
+
+Let me explain why:
+
+* **GATEWAY_DRUG:** The sentence explicitly states that marijuana is ""the starter drug of choice for most criminals,""  aligning with the argument that it leads to harder drug use.
+* **HARM:** Implying a link between marijuana and criminal activity suggests harm to individuals and society.
+* **ADDICTION:** The phrase ""starter drug"" alludes to the potential for addiction, as users may progress to more dangerous substances. 
+* **DRUG_ABUSE:** This label fits because the sentence frames marijuana use within the context of criminal behavior, implying abuse. 
+
+",gemma2:27b,2024-09-11T14:48:30.048559181Z,stop,4008908495,56701859,207,47158000,149,3862135000,They also know that marijuana is the starter drug of choice for most criminals .,['GATEWAY_DRUG'],4,"['DRUG_ABUSE', 'HARM', 'ADDICTION', 'GATEWAY_DRUG']"
+"DRUG_POLICY, HARM 
+",gemma2:27b,2024-09-11T14:48:30.576775332Z,stop,440860053,55286283,233,64456000,10,234090000,"This may require changes in drug policy , and perhaps in sentencing guidelines for marijuana users charged with simple possession , but simply legalizing a harmful drug — that is , giving up — is not a responsible option .","['DRUG_POLICY', 'HARM']",2,"['DRUG_POLICY', 'HARM']"
+"Here's a breakdown of the labels for the given text:
+
+* **LEGAL_DRUGS:**  The text explicitly compares marijuana to tobacco and alcohol, both legal substances. 
+* **HEALTH/PSYCHOLOGICAL_EFFECTS:** The phrase ""health effects"" directly references this aspect.
+* **NATIONAL_BUDGET:** The mention of ""the balance...falls squarely on the side of national legalization"" implies consideration of economic impact, including potential tax revenue and reduced enforcement costs.
+
+Let me know if you have any other text snippets you'd like coded! 
+",gemma2:27b,2024-09-11T14:48:33.839355705Z,stop,3257543143,57701865,237,71542000,117,3036876000,"But neither are there such answers about tobacco or alcohol , and we believe that on every level — health effects , the impact on society and law-and-order issues — the balance falls squarely on the side of national legalization .",['LEGAL_DRUGS'],3,"['LEGAL_DRUGS', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'NATIONAL_BUDGET']"
+"Here's the breakdown of the labels for the given text:
+
+* **LEGAL_DRUGS:**  The text directly discusses the ""legalization of marijuana"".
+* **HARM:** The argument highlights potential harm to workplace performance (""drug users will not be able to perform at work""). 
+* **COMMUNITY/SOCIATAL_EFFECTS:** The concern about creating a ""new class of protected California citizens"" points to potential societal shifts and implications.  
+
+
+Let me know if you have any other text snippets you'd like me to code! 
+",gemma2:27b,2024-09-11T14:48:37.054690603Z,stop,3166974704,54921694,233,62174000,116,3005091000,"The California Chamber of Commerce has also expressed its opposition to the legalization of marijuana , citing that drug users will not be able to perform at work and that passage could create a new class of protected California citizens .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],3,"['LEGAL_DRUGS', 'HARM', 'COMMUNITY/SOCIATAL_EFFECTS']"
+"HEALTH/PSYCHOLOGICAL_EFFECTS 
+",gemma2:27b,2024-09-11T14:48:37.574136597Z,stop,430850715,53833846,213,51880000,10,236132000,A recent survey of all the medical literature concluded that regular use of cannabis actually doubled your risk of psychosis .,['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"NATIONAL_BUDGET 
+",gemma2:27b,2024-09-11T14:48:37.903972144Z,stop,325346391,47591614,220,58158000,6,130044000,"Ducey 's argument that the costs "" will far , far outweigh any tax revenue "" is a guess , according to the JLBC .",['NATIONAL_BUDGET'],1,['NATIONAL_BUDGET']
+"HARM 
+ADDICTION 
+ILLEGAL_TRADE  
+CHILD_AND_TEEN_SAFETY 
+
+
+Let me explain why these labels apply:
+
+* **HARM:** The text directly links drug use increases (implied consequence of legalization) to ""related violent crime,"" indicating potential harm to individuals and society.
+* **ADDICTION:** The mention of ""drug use increases"" suggests a concern about addiction rates potentially rising with legalization.
+* **ILLEGAL TRADE:** While not explicitly stated, the connection between increased drug use and crimes like ""drugged driving"" and ""child abuse"" implies a potential growth in illegal drug trade to meet the higher demand.
+* **CHILD_AND_TEEN_SAFETY:**  The specific mention of ""child abuse"" as a consequence directly relates to this label, highlighting concerns about the safety of children in a context of increased drug availability. 
+
+
+",gemma2:27b,2024-09-11T14:48:42.841003059Z,stop,4889721358,56221367,221,57861000,182,4731907000,"If drug use increases with legalization , so will such forms of related violent crime as assaults , drugged driving , child abuse , and domestic violence .","['COMMUNITY/SOCIATAL_EFFECTS', 'DRUG_ABUSE', 'CHILD_AND_TEEN_SAFETY']",4,"['CHILD_AND_TEEN_SAFETY', 'HARM', 'ADDICTION', 'ILLEGAL_TRADE']"
+"GATEWAY_DRUG 
+
+
+Let me know if you'd like me to code more examples!  
+",gemma2:27b,2024-09-11T14:48:43.734306395Z,stop,806536142,57979322,229,61836000,24,597317000,"And when I 'm saying that , I 'm talking about big peer reviewed studies done by reputable places that have shown us , without a doubt , that it is a gateway substance .",['GATEWAY_DRUG'],1,['GATEWAY_DRUG']
+"DRUG_POLICY 
+
+Let me explain my reasoning:
+
+* **Drug Policy:** The sentence directly references the ""United Nations Office on Drugs and Crime"" and mentions  ""unintended negative consequences"" of ""drug enforcement"". This strongly suggests a discussion about policies related to drug control. 
+
+
+",gemma2:27b,2024-09-11T14:48:45.492555895Z,stop,1753055266,57339385,214,48454000,61,1560546000,"The United Nations Office of Drugs and Crime has also acknowledged the many "" unintended negative consequences "" of drug enforcement .",['COMMUNITY/SOCIATAL_EFFECTS'],1,['DRUG_POLICY']
+"LEGAL_DRUGS, HARM 
+
+**Explanation:**
+
+* **LEGAL_DRGS:** The statement discusses the impact of marijuana legalization (""retail passage"") in Colorado.  
+* **HARM:** The speaker argues that there has been no increase in negative outcomes (marijuana use, youth use, criminal activity) since legalization, implying that legalization hasn't caused harm. 
+
+
+",gemma2:27b,2024-09-11T14:48:47.772817504Z,stop,2228992990,54917023,238,72768000,80,2056753000,""" We have not seen any statistical increase in marijuana use in Colorado since retail passage , we have not seen an increase in youth use since passage , we have not seen an increase in criminal activity since its passage , "" he said .","['COMMUNITY/SOCIATAL_EFFECTS', 'CHILD_AND_TEEN_SAFETY']",2,"['LEGAL_DRUGS', 'HARM']"
+"HARM 
+DRUG_ABUSE 
+ILLEGAL_TRADE  
+
+
+Let me explain why these labels apply:
+
+* **HARM:** The sentence directly links drug use to a serious harmful outcome: homicides.
+* **DRUG_ABUSE:** The phrasing ""people under the influence of drugs"" suggests a pattern of problematic drug use, aligning with the concept of drug abuse. 
+* **ILLEGAL_TRADE:** The mention of people seeking money ""to buy drugs"" implies involvement in illegal drug markets.  ",gemma2:27b,2024-09-11T14:48:50.903818351Z,stop,3044447111,55336694,220,57503000,110,2843093000,"Six times as many homicides are committed by people under the influence of drugs , as by those who are looking for money to buy drugs .",['COMMUNITY/SOCIATAL_EFFECTS'],3,"['DRUG_ABUSE', 'HARM', 'ILLEGAL_TRADE']"
+"Here's a breakdown of the coding for the provided sentence:
+
+* **ADDICTION:** The sentence clearly discusses an ""addicted"" individual who relies on drugs.
+* **DRUG_ABUSE:** The phrase ""helpless addict"" and the need to resort to crime to obtain the drug point towards drug abuse.
+* **HARM:**  The sentence highlights negative consequences associated with drug addiction, specifically crime as a result of needing the drug. 
+
+
+Let me know if you have any other sentences you'd like coded! 
+",gemma2:27b,2024-09-11T14:48:54.042300144Z,stop,3133417203,57802637,232,61845000,113,2924362000,"Finally , and not the least of the evils associated with repression , the helpless addict has been forced to resort to crime in order to get money for the drug which is absolutely indispensable for his comfortable existence .",['ADDICTION'],3,"['DRUG_ABUSE', 'HARM', 'ADDICTION']"
+"HARM, CHILD_AND_TEEN_SAFETY, DRUG_ABUSE 
+",gemma2:27b,2024-09-11T14:48:54.734615397Z,stop,602855021,60142386,216,52190000,18,443726000,2.1 million children in the United States live with at least one parent who was dependent on or abused illicit drugs .,"['ADDICTION', 'DRUG_ABUSE', 'CHILD_AND_TEEN_SAFETY']",3,"['DRUG_ABUSE', 'CHILD_AND_TEEN_SAFETY', 'HARM']"
+"MEDICAL_MARIJUANA 
+HEALTH/PSYCHOLOGICAL_EFFECTS  
+",gemma2:27b,2024-09-11T14:48:55.46501783Z,stop,684111612,57099930,209,46895000,18,443976000,"Again , the argument is for people like Patsy Rodriguez , who believes marijuana is medicine .",['MEDICAL_MARIJUANA'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'MEDICAL_MARIJUANA']"
+"Here's the coding for the provided text based on your codebook:
+
+* **HARM:**  The sentence explicitly mentions increased crime and worsening health as negative consequences of legalization.
+* **COMMUNITY/SOCIATAL_EFFECTS:** The phrase ""danger to public safety"" indicates a concern about the broader societal impact of legalization. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-11T14:48:57.953303162Z,stop,2442423643,59072561,230,61428000,88,2276651000,"Of course , opponents of drug legalization argue that passage of the ballot would increase crime and ultimately worsen peoples ' health , rendering legalization a danger to public safety , offsetting the potential economic gains .","['HEALTH/PSYCHOLOGICAL_EFFECTS', 'NATIONAL_BUDGET', 'COMMUNITY/SOCIATAL_EFFECTS']",2,"['HARM', 'COMMUNITY/SOCIATAL_EFFECTS']"
+"HEALTH/PSYCHOLOGICAL_EFFECTS, HARM 
+",gemma2:27b,2024-09-11T14:48:58.557948657Z,stop,514672581,56366210,224,58910000,13,311828000,"It states that drug abuse in the U.S. is at "" epidemic proportions , and the dangers of marijuana to public health and safety are well documented . ""","['COMMUNITY/SOCIATAL_EFFECTS', 'DRUG_ABUSE']",2,"['HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"Here's the coding for the provided text:
+
+* **LEGAL_DRUGS** 
+* **DRUG_POLICY** 
+* **HARM**  
+
+
+**Explanation:**
+
+* **LEGAL_DRUGS:** The text discusses reclassifying ecstasy, a controlled substance, suggesting a debate about its legal status.
+* **DRUG_POLICY:** The mention of the Advisory Council on the Misuse of Drugs (ACMD) and their report clearly points to drug policy discussions.
+* **HARM:** The comparison of ecstasy's harm to heroin and crack cocaine highlights the central argument about the relative danger of different drugs. 
+",gemma2:27b,2024-09-11T14:49:02.257663429Z,stop,3653864701,55167538,256,82211000,134,3471332000,"The Advisory Council on the Misuse of Drugs ( ACMD ) report on ecstasy , based on a 12-month study of 4,000 academic papers , concluded that it is nowhere near as dangerous as other class A drugs such as heroin and crack cocaine , and should be downgraded to class B .",['HARM'],3,"['DRUG_POLICY', 'LEGAL_DRUGS', 'HARM']"
+"HEALTH/PSYCHOLOGICAL_EFFECTS 
+HARM 
+DRUG_POLICY 
+",gemma2:27b,2024-09-11T14:49:03.054875511Z,stop,703207313,56769701,235,62419000,20,494234000,"Anonymous says2013-04-08T13 :56:09.417 Report Post Marijuana does n't kill as much people as drinking , or smoking cigarettes .",['LEGAL_DRUGS'],3,"['DRUG_POLICY', 'HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"PERSONAL_FREEDOM 
+",gemma2:27b,2024-09-11T14:49:03.413740514Z,stop,353813942,55451327,212,52156000,7,157907000,As a general rule I believe we should let people make their own choices — and their own mistakes .,['PERSONAL_FREEDOM'],1,['PERSONAL_FREEDOM']
+"HEALTH/PSYCHOLOGICAL_EFFECTS 
+HARM 
+",gemma2:27b,2024-09-11T14:49:03.951296925Z,stop,491741452,55342254,215,51933000,14,340124000,"Similarly , hydrogen cyanide was found in marijuana smoke at concentrations three to five times greater than those found in tobacco smoke .","['HEALTH/PSYCHOLOGICAL_EFFECTS', 'LEGAL_DRUGS']",2,"['HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"Here's how I would code the provided text:
+
+* **PERSONAL_FREEDOM**  The statement focuses on individual choice and comfort regarding marijuana use in private settings.
+
+
+Let me know if you have any other sentences you'd like coded! 
+",gemma2:27b,2024-09-11T14:49:05.629802951Z,stop,1589896636,55736794,242,74384000,54,1373277000,"On the other hand , a majority of opponents of legalization ( 65 % ) say they would not be bothered if people used marijuana in their own homes ; virtually all supporters of legalization ( 97 % ) would not be bothered by this .",['PERSONAL_FREEDOM'],1,['PERSONAL_FREEDOM']
+"NATIONAL_BUDGET 
+",gemma2:27b,2024-09-11T14:49:05.969604603Z,stop,294198229,54727517,231,62140000,6,131207000,"The National Organization for the Reform of Marijuana Laws ( NORML ) , for example , claims that legalization “ could yield California taxpayers over $ 1.2 billion per year ” in tax benefits .",['NATIONAL_BUDGET'],1,['NATIONAL_BUDGET']
+"GATEWAY_DRUG, ADDICTION 
+",gemma2:27b,2024-09-11T14:49:06.442186002Z,stop,426744639,57739445,227,59201000,11,259649000,"Then , after using it for a while , a bigger "" high "" is sought ; thus , users then turn to the harder stuff like heroin , LSD , cocaine , etc .",['GATEWAY_DRUG'],2,"['ADDICTION', 'GATEWAY_DRUG']"
+"LEGAL_DRUGS, NATIONAL_BUDGET 
+",gemma2:27b,2024-09-11T14:49:06.90653563Z,stop,418790075,55491056,225,58681000,11,260689000,""" We need a safer system of marijuana sales in mass and the best way to do that is make it regulated and taxed and licensed , "" Borghesani said .",['DRUG_POLICY'],2,"['LEGAL_DRUGS', 'NATIONAL_BUDGET']"
+"HEALTH/PSYCHOLOGICAL_EFFECTS 
+",gemma2:27b,2024-09-11T14:49:07.334403618Z,stop,382990454,56344081,206,46549000,10,236509000,I know it ’s not good for her health or brain . ”,['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"HEALTH/PSYCHOLOGICAL_EFFECTS 
+",gemma2:27b,2024-09-11T14:49:07.77518488Z,stop,395588417,55185078,229,61909000,10,234054000,"Experts say that marijuana increases the heart rate and the volume of blood pumped by the heart , but that poses a risk mostly to older users who already have cardiac or other health problems . ”",['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"PERSONAL_FREEDOM 
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-11T14:49:08.635650368Z,stop,812041232,57760745,222,58244000,26,649348000,"The retired book editor from Boston 's Mission Hill neighborhood says it ’s not about getting high , it ’s really about giving people their freedom .",['PERSONAL_FREEDOM'],1,['PERSONAL_FREEDOM']
+"HEALTH/PSYCHOLOGICAL_EFFECTS, CHILD_AND_TEEN_SAFETY 
+",gemma2:27b,2024-09-11T14:49:09.273805768Z,stop,590482555,56108005,205,46675000,18,443836000,There are legitimate concerns about marijuana on the development of adolescent brains .,['CHILD_AND_TEEN_SAFETY'],2,"['CHILD_AND_TEEN_SAFETY', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"Here's the coding breakdown for the given sentence:
+
+* **DRUG_POLICY:** The sentence discusses the White House's response regarding marijuana criminalization, clearly indicating a focus on drug policy.
+* **HARM:** The phrase ""supposed social ills"" suggests an argument framing marijuana as harmful to society. 
+
+
+Let me know if you have any other sentences you'd like coded! 
+",gemma2:27b,2024-09-11T14:49:11.734626913Z,stop,2371302341,55655462,227,59206000,84,2168232000,"The White House issued a response to the New York Times , trotting out weak , largely debunked justifications for criminalization , focusing on marijuana ’s supposed social ills .",['COMMUNITY/SOCIATAL_EFFECTS'],2,"['DRUG_POLICY', 'HARM']"
+"NATIONAL_BUDGET 
+",gemma2:27b,2024-09-11T14:49:12.111645553Z,stop,372213096,54545373,273,93454000,6,131221000,"Dr. Rosalie Liccardo Pacula , an expert with the RAND Corporation who has studied the economics of drug policy for over 15 years , has explained that the California “ Board of Equalization ’s estimate of $ 1.4 billion [ in ] potential revenue for the state is based on a series of assumptions that are in some instances subject to tremendous uncertainty and in other cases not validated . ”",['NATIONAL_BUDGET'],1,['NATIONAL_BUDGET']
+"Here's the coding for the provided text based on the given codebook:
+
+* **LEGAL_DRUGS**
+* **NATIONAL_BUDGET** (Implied by ""wasted resources"")
+* **COMMUNITY/SOCIATAL_EFFECTS**  (Addressing ""social costs"" and ""racist history"") 
+
+
+Let me know if you have any other text snippets you'd like coded! 
+",gemma2:27b,2024-09-11T14:49:14.507513246Z,stop,2347566581,53997039,225,58728000,85,2189510000,"The paper of record is continuing to make the case for legalization over a series of editorials , addressing the social costs , racist history and wasted resources from cannabis prohibition .","['NATIONAL_BUDGET', 'COMMUNITY/SOCIATAL_EFFECTS']",3,"['LEGAL_DRUGS', 'NATIONAL_BUDGET', 'COMMUNITY/SOCIATAL_EFFECTS']"
+"GATEWAY_DRUG 
+",gemma2:27b,2024-09-11T14:49:14.895773137Z,stop,336198041,58509027,211,47995000,8,184576000,Even the gateway effect — the theory that cannabis leads to other drugs — was discarded long ago .,['GATEWAY_DRUG'],1,['GATEWAY_DRUG']
+"HEALTH/PSYCHOLOGICAL_EFFECTS 
+HARM 
+ADDICTION  
+
+
+**Explanation:**
+
+* **HEALTH/PSYCHOLOGICAL_EFFECTS:** The text discusses deaths related to cannabis use, implying a focus on the drug's potential health impacts.
+* **HARM:**  The mention of ""deaths from using cannabis"" directly points to the harm associated with the drug. 
+* **ADDICTION:** The comparison to tobacco and the rarity of overdose suggest a discussion about the addictive properties and long-term effects of cannabis use. 
+",gemma2:27b,2024-09-11T14:49:18.051563286Z,stop,3108428058,64034328,238,73232000,113,2927043000,"Many of the deaths from using cannabis , other than from car accidents while intoxicated or violence and aggression , are more likely to figure in the longer term , just as with tobacco , where both nicotine overdose and cannabis overdose are extremely rare .","['LEGAL_DRUGS', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'DRUG_ABUSE']",3,"['HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION']"
+"HEALTH/PSYCHOLOGICAL_EFFECTS, MEDICAL_MARIJUANA 
+
+
+**Explanation:**
+
+* **HEALTH/PSYCHOLOGICAL_EFFECTS:** The sentence discusses the impact of peyote use on mental health.
+* **MEDICAL_MARIJUANA:** While the text mentions peyote, a hallucinogen used in religious contexts, it's relevant to the broader discussion of medical marijuana as it explores the potential psychological benefits of psychoactive substances. 
+",gemma2:27b,2024-09-11T14:49:20.691678645Z,stop,2592200835,53721341,231,62673000,94,2429029000,Researchers at Harvard-affiliated McLean Hospital found members of a religious group regularly using peyote scored significantly better on several measures of overall mental health than did subjects who did not use the hallucinogen .,['HEALTH/PSYCHOLOGICAL_EFFECTS'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'MEDICAL_MARIJUANA']"
+"HEALTH/PSYCHOLOGICAL_EFFECTS 
+
+
+Let me know if you have more sentences for me to code! I'm ready.  
+",gemma2:27b,2024-09-11T14:49:21.738639142Z,stop,958896312,59380479,225,58326000,30,754152000,"They include : memory loss , distorted perception , trouble with thinking and problem solving , loss of motor skills , decrease in muscle strength , increased heart rate , and anxiety .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"HARM, PERSONAL_FREEDOM 
+",gemma2:27b,2024-09-11T14:49:22.182546302Z,stop,439122208,56194466,235,60583000,10,234563000,"The same sort of analysis today would show that the harm caused by drug prohibition far outweighs the harm it prevents , even without taking into account the value to each individual of being sovereign over his own body and mind .","['PERSONAL_FREEDOM', 'HARM']",2,"['HARM', 'PERSONAL_FREEDOM']"
+"NATIONAL_BUDGET 
+",gemma2:27b,2024-09-11T14:49:22.506257834Z,stop,278610690,54824750,205,46167000,6,132798000,Taxed and regulated systems are working in Colorado and other states .,['DRUG_POLICY'],1,['NATIONAL_BUDGET']
+"HEALTH/PSYCHOLOGICAL_EFFECTS, CHILD_AND_TEEN_SAFETY  
+",gemma2:27b,2024-09-11T14:49:23.174333261Z,stop,622706780,59206534,242,74521000,18,443497000,""" A continued area of concern is the high rate of daily marijuana smoking seen especially among 12th graders , because of marijuana ’s potential deleterious effects on the developing brains of teenagers , ” NIDA 's Volkow said in a statement .",['CHILD_AND_TEEN_SAFETY'],2,"['CHILD_AND_TEEN_SAFETY', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"This example should be coded as:
+
+* **LEGAL_DRUGS** 
+* **DRUG_POLICY**  
+
+
+The text discusses arguments in favor of the ""Regulation and Taxation of Marijuana Act,"" which implies a stance on marijuana legalization and policy. 
+",gemma2:27b,2024-09-11T14:49:24.879653289Z,stop,1615945697,57118570,229,61550000,55,1407919000,"Eight people or groups turned in arguments for the "" pro "" side 's six pages in the publication , urging voters to approve the Regulation and Taxation of Marijuana Act ( RTMA ) .",['DRUG_POLICY'],2,"['DRUG_POLICY', 'LEGAL_DRUGS']"
+"HARM, ILLEGAL_TRADE, COMMUNITY/SOCIATAL_EFFECTS 
+",gemma2:27b,2024-09-11T14:49:25.580146061Z,stop,695224886,59120521,255,81217000,19,467192000,"In Los Angeles , police report that areas surrounding cannabis clubs have experienced a 200 percent increase in robberies , a 52.2 percent increase in burglaries , a 57.1 percent increase in aggravated assault , and a 130.8 percent increase in burglaries from automobiles .",['COMMUNITY/SOCIATAL_EFFECTS'],3,"['HARM', 'ILLEGAL_TRADE', 'COMMUNITY/SOCIATAL_EFFECTS']"
+"LEGAL_DRUGS, CHILD_AND_TEEN_SAFETY 
+
+**Explanation:**
+
+* **LEGAL_DRUGS:** The example mentions alcohol and cigarettes, which are legal drugs.
+* **CHILD_AND_TEEN_SAFETY:**  The sentence highlights the prohibition of selling these substances to children. This directly relates to concerns about child and teen safety regarding drug access. 
+
+
+",gemma2:27b,2024-09-11T14:49:27.818501771Z,stop,2150744436,54962086,213,51457000,78,2000940000,"Even unhealthy items that are legal , such as alcohol and cigarettes , are prohibited from being sold to children .","['LEGAL_DRUGS', 'CHILD_AND_TEEN_SAFETY']",2,"['CHILD_AND_TEEN_SAFETY', 'LEGAL_DRUGS']"
+"ADDICTION, HEALTH/PSYCHOLOGICAL_EFFECTS, NATIONAL_BUDGET 
+",gemma2:27b,2024-09-11T14:49:28.533144999Z,stop,667102795,55858928,224,58894000,17,416033000,Opponents of legal recreational pot argue that any savings that would arise from legalization would be offset by the cost of treating the additional users who become addicted to marijuana .,"['ADDICTION', 'NATIONAL_BUDGET']",3,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION', 'NATIONAL_BUDGET']"
+"MEDICAL_MARIJUANA 
+HEALTH/PSYCHOLOGICAL_EFFECTS  
+",gemma2:27b,2024-09-11T14:49:29.175622641Z,stop,596042846,56161605,214,52656000,18,443699000,"Some in the Legalization Lobby even claim such drugs have medical value , despite the lack of conclusive scientific evidence .",['MEDICAL_MARIJUANA'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'MEDICAL_MARIJUANA']"
+"HARM 
+
+
+Let me explain why:
+
+* **The focus is on potential harm:** The sentence highlights that even typically harmless things (like pizza and donuts) can become detrimental to health if misused. This aligns directly with the ""HARM"" category.
+* **Other labels don't fit:**  None of the other categories like legality, addiction, societal effects, or drug policy are relevant to this statement. 
+
+Let me know if you have more sentences to code!",gemma2:27b,2024-09-11T14:49:32.025636681Z,stop,2761930345,56932024,211,47575000,99,2563061000,Even legal substances like pizza and donuts can be harmful to a person if not consumed in moderation .,['HARM'],1,['HARM']
+"This example sentence fits these labels: 
+
+* **LEGAL_DRUGS** (The sentence discusses marijuana use in the context of law enforcement and legal offenses)
+* **HARM** (It implies that marijuana use is not a strong indicator of violent or dangerous behavior, thus challenging the notion of harm associated with it)
+* **DRUG_POLICY** (The sentence touches on the policy implications of using marijuana possession as an indicator for more serious crimes) 
+
+
+",gemma2:27b,2024-09-11T14:49:34.714866773Z,stop,2684233425,55447497,224,58962000,96,2480159000,"If law enforcement agencies wanted to find a good “ minor offense ” correlate for violent , dangerous crimes , marijuana use does n’t make a lot of sense .",['COMMUNITY/SOCIATAL_EFFECTS'],3,"['DRUG_POLICY', 'LEGAL_DRUGS', 'HARM']"
+"HARM, COMMUNITY/SOCIATAL_EFFECTS 
+",gemma2:27b,2024-09-11T14:49:35.298502199Z,stop,494685016,59016698,212,51612000,14,340782000,Illegal drugs such as marijuana are responsible for a disproportionate share of violence and social decline in America .,['COMMUNITY/SOCIATAL_EFFECTS'],2,"['HARM', 'COMMUNITY/SOCIATAL_EFFECTS']"
+"HEALTH/PSYCHOLOGICAL_EFFECTS 
+",gemma2:27b,2024-09-11T14:49:35.729457944Z,stop,386132543,58613938,209,45819000,10,236369000,"However , it is clear that marijuana use plays some role in the mental health picture .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"ADDICTION 
+",gemma2:27b,2024-09-11T14:49:36.025981524Z,stop,246476973,59994134,202,39415000,5,103436000,It 's not very addictive for many people .,['ADDICTION'],1,['ADDICTION']
+"Here's a breakdown of the coding for the given text:
+
+* **LEGAL_DRUGS:** This sentence references the legality of marijuana (""pot was made illegal"") and compares it to legal substances like alcohol and cigarettes. 
+* **DRUG_POLICY:** The sentence implicitly discusses drug policy by questioning the reasoning behind the legal status of certain drugs.
+
+
+Let me know if you'd like me to analyze more text examples!",gemma2:27b,2024-09-11T14:49:38.54625586Z,stop,2474789505,55274322,239,73054000,89,2301855000,"There 's a reason pot was made illegal in the first place and quite frankly , the only reason alcohol and cigarettes are legal is because they 're so deeply ingrained in our society that we ca n't get rid of them .",['LEGAL_DRUGS'],2,"['DRUG_POLICY', 'LEGAL_DRUGS']"
+"NATIONAL_BUDGET 
+",gemma2:27b,2024-09-11T14:49:38.957471907Z,stop,321882949,57606642,201,42870000,6,132505000,That money can go towards public school construction .,['NATIONAL_BUDGET'],1,['NATIONAL_BUDGET']
+"HEALTH/PSYCHOLOGICAL_EFFECTS 
+ADDICTION 
+
+
+Let me explain my reasoning:
+
+* **HEALTH/PSYCHOLOGICAL_EFFECTS:** The statement focuses on the potency of marijuana and its potential dangers (""10 times more potent than what people think is safe""). This directly relates to the health impacts and psychological effects of marijuana use.
+* **ADDICTION:** The concern about potency exceeding perceived safety levels implies a risk of addiction, as highly potent substances can increase the likelihood of dependence. 
+",gemma2:27b,2024-09-11T14:49:41.828058314Z,stop,2825092637,56075643,219,50745000,103,2674117000,"We are looking at marijuana that ’s 10 times more potent than what people think is safe , ” said Dr. Spencer .",['HARM'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION']"
+"HEALTH/PSYCHOLOGICAL_EFFECTS, HARM, CHILD_AND_TEEN_SAFETY 
+",gemma2:27b,2024-09-11T14:49:42.639731338Z,stop,724824259,56089564,228,60706000,21,520825000,"The negative effects of it includes , slowed reaction time , and brain damage on young users who are still in major development of their brain until the age of at least 25 .","['HEALTH/PSYCHOLOGICAL_EFFECTS', 'CHILD_AND_TEEN_SAFETY']",3,"['CHILD_AND_TEEN_SAFETY', 'HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"HARM, HEALTH/PSYCHOLOGICAL_EFFECTS, ADDICTION 
+
+
+Let me explain why:
+
+* **HARM:** The statement implies marijuana use leads to negative consequences for individuals (""emotionally crippled adults"").
+* **HEALTH/PSYCHOLOGICAL_EFFECTS:**  The phrase ""psychoactive substances produce emotionally crippled adults"" directly refers to the mental and emotional health impacts of drug use.
+* **ADDICTION:** While not explicitly stated, the term ""emotionally crippled adults"" suggests a potential outcome of substance abuse, which often includes addiction. 
+",gemma2:27b,2024-09-11T14:49:45.805979657Z,stop,3161921458,57364467,216,51541000,114,2958780000,There is n't an argument in the world that will change the fact that psychoactive substances produce emotionally crippled adults .,['HEALTH/PSYCHOLOGICAL_EFFECTS'],3,"['HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION']"
+"HEALTH/PSYCHOLOGICAL_EFFECTS 
+",gemma2:27b,2024-09-11T14:49:46.279055639Z,stop,383155400,55647823,211,48084000,10,236798000,3 ) Marijuana is terrible for your mental health : Marijuana may even be WORSE than cigarettes .,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'LEGAL_DRUGS']",1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"LEGAL_DRUGS, DRUG_POLICY 
+",gemma2:27b,2024-09-11T14:49:46.740292446Z,stop,417258796,56210327,227,56968000,11,260114000,The punishment for selling recreational marijuana would be reduced from a maximum of four years in prison or jail to six months in jail and/or a $ 500 fine .,['DRUG_POLICY'],2,"['DRUG_POLICY', 'LEGAL_DRUGS']"
+"NATIONAL_BUDGET, ILLEGAL_TRADE 
+",gemma2:27b,2024-09-11T14:49:47.206909293Z,stop,419822943,54013800,223,57348000,11,261251000,"While such profits might not be possible if marijuana was legalized at the national level and these gangs were undercut by mass production , that is unlikely ever to happen .",['ILLEGAL_TRADE'],2,"['ILLEGAL_TRADE', 'NATIONAL_BUDGET']"
+"LEGAL_DRUGS, HEALTH/PSYCHOLOGICAL_EFFECTS 
+",gemma2:27b,2024-09-11T14:49:47.771876228Z,stop,520388531,50038017,222,58767000,15,364825000,Botticelli made no mention of the long list of legal pharmaceutical drugs — many with dangerous side effects — that also advertise directly to consumers with cartoon characters .,['MEDICAL_MARIJUANA'],2,"['LEGAL_DRUGS', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"NATIONAL_BUDGET, HARM 
+",gemma2:27b,2024-09-11T14:49:48.175540075Z,stop,355928949,57914401,209,43709000,9,207743000,Another 15 BILLION is wasted on the capture and persecution simple cannabis consumers .,['NATIONAL_BUDGET'],2,"['HARM', 'NATIONAL_BUDGET']"
+"NATIONAL_BUDGET, HARM  
+",gemma2:27b,2024-09-11T14:49:48.60526611Z,stop,381494735,55586910,242,73193000,9,208861000,"County courts — the lower-level venues that normally handle misdemeanor crimes — saw a dip in new criminal cases filed between the 2012 fiscal year and the 2013 fiscal year , coinciding with voters ’ approval of legalization .",['COMMUNITY/SOCIATAL_EFFECTS'],2,"['HARM', 'NATIONAL_BUDGET']"
+"Here's the coding for the given text:
+
+* **HEALTH/PSYCHOLOGICAL_EFFECTS:**  The phrase ""go into class stoned"" directly refers to marijuana use and its impact on cognitive function.
+* **HARM:** The sentence implies negative consequences from marijuana use, specifically mentioning ""learn nothing"" and teachers feeling ""increasingly helpless,"" suggesting harm to the students' education.
+* **CHILD_AND_TEEN_SAFETY:** The text focuses on students using marijuana, making child and teen safety a relevant concern. 
+
+
+Let me know if you have any other sentences you'd like coded! 
+",gemma2:27b,2024-09-11T14:49:52.102735587Z,stop,3451038722,57218752,216,53649000,127,3297839000,""" Students suck on lollipops between classes , go into class stoned , learn nothing , and teachers are increasingly helpless .",['CHILD_AND_TEEN_SAFETY'],3,"['CHILD_AND_TEEN_SAFETY', 'HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"PERSONAL_FREEDOM 
+",gemma2:27b,2024-09-11T14:49:52.539494656Z,stop,347649316,57422728,205,44429000,7,156880000,Limiting the use of the drug intrudes on personal freedom .,['PERSONAL_FREEDOM'],1,['PERSONAL_FREEDOM']
+"ADDICTION 
+",gemma2:27b,2024-09-11T14:49:52.845349495Z,stop,257946327,59329567,206,47218000,5,106899000,It would be malpractice to say that cannabis is n't addictive .,['ADDICTION'],1,['ADDICTION']
+"MEDICAL_MARIJUANA, HEALTH/PSYCHOLOGICAL_EFFECTS 
+",gemma2:27b,2024-09-11T14:49:53.483857245Z,stop,592589751,55242794,247,75051000,17,417328000,"Anonymous says2013-05-28T02 :41:12.043 Report Post Cannabinoids , including THC and Cannabidiol , promote the re-emergence of apoptosis so that tumors will stop dividing and die .",['MEDICAL_MARIJUANA'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'MEDICAL_MARIJUANA']"
+"ILLEGAL_TRADE, HARM 
+",gemma2:27b,2024-09-11T14:49:54.001117447Z,stop,429586486,59584244,210,46201000,10,236658000,Also it is very dangerous while dealing with a drug dealer because they are a wild card .,['ILLEGAL_TRADE'],2,"['HARM', 'ILLEGAL_TRADE']"
+"HEALTH/PSYCHOLOGICAL_EFFECTS 
+",gemma2:27b,2024-09-11T14:49:54.428483412Z,stop,423406554,55764185,208,45679000,10,235208000,"The drug is making them stupider , even when they 're not high .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"HARM 
+",gemma2:27b,2024-09-11T14:49:54.733743326Z,stop,258174183,60337693,211,46911000,5,106802000,They also say that it is n’t as dangerous or harmful as alcohol and other drugs .,"['LEGAL_DRUGS', 'HARM']",1,['HARM']
+"HARM, ILLEGAL_TRADE, COMMUNITY/SOCIATAL_EFFECTS 
+",gemma2:27b,2024-09-11T14:49:55.404215088Z,stop,624654954,57203812,221,57362000,19,467419000,"In Amsterdam , officials are in the process of closing marijuana dispensaries , or “ coffee shops , ” because of the crime associated with their operation .",['COMMUNITY/SOCIATAL_EFFECTS'],3,"['HARM', 'ILLEGAL_TRADE', 'COMMUNITY/SOCIATAL_EFFECTS']"
+"NATIONAL_BUDGET, LEGAL_DRUGS 
+",gemma2:27b,2024-09-11T14:49:55.949185739Z,stop,457577052,56574035,219,52957000,11,262066000,"A regulated and taxed system would move commerce from street dealers to licensed , taxpaying businesses under the control of state regulators and local authorities .","['ILLEGAL_TRADE', 'DRUG_POLICY']",2,"['LEGAL_DRUGS', 'NATIONAL_BUDGET']"
+"HARM 
+HEALTH/PSYCHOLOGICAL_EFFECTS 
+",gemma2:27b,2024-09-11T14:49:56.491693136Z,stop,538443682,55060106,222,58255000,14,337817000,These side effects are why several large studies find that that drivers high on marijuana are three to seven times more likely to be responsible for a car accident .,['DRUG_ABUSE'],2,"['HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"NATIONAL_BUDGET 
+",gemma2:27b,2024-09-11T14:49:56.833747147Z,stop,294510798,59357267,226,59526000,6,130869000,"Drug legalization would yield tax revenues of $ 46.7 billion annually , assuming legal drugs were taxed at rates comparable to those on alcohol and tobacco , they said .","['LEGAL_DRUGS', 'NATIONAL_BUDGET']",1,['NATIONAL_BUDGET']
+"HEALTH/PSYCHOLOGICAL_EFFECTS, NATIONAL_BUDGET 
+",gemma2:27b,2024-09-11T14:49:57.460192336Z,stop,536596130,54386872,219,52994000,14,340023000,"Increased use would also send health care costs skyrocketing — costs borne not just by individual users , but also by the entire society .",['NATIONAL_BUDGET'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'NATIONAL_BUDGET']"
+"HARM, DRUG_ABUSE, ILLEGAL_TRADE 
+
+
+Let me explain my reasoning:
+
+* **HARM:** The sentence links marijuana use to violent crimes, suggesting a harmful consequence.
+* **DRUG_ABUSE:**  The phrase ""test positive for illegal drugs"" implies drug abuse.
+* **ILLEGAL_TRADE:** The reference to ""defendants arrested"" points towards the illegal trade and market of marijuana. 
+",gemma2:27b,2024-09-11T14:50:00.045799371Z,stop,2580965216,56082413,230,62150000,92,2375913000,"Prosecutors , judges , police officers , detectives , parole or probation officers , and even defense attorneys know that the vast majority of defendants arrested for violent crimes test positive for illegal drugs , including marijuana .",['COMMUNITY/SOCIATAL_EFFECTS'],3,"['DRUG_ABUSE', 'HARM', 'ILLEGAL_TRADE']"
+"HARM 
+
+**Explanation:**
+
+The sentence argues that legalizing marijuana will have a negative impact (""disastrous"") on academic achievement, implying harm to society and individuals. 
+
+
+Let me know if you have any more text you'd like me to code!",gemma2:27b,2024-09-11T14:50:01.696978377Z,stop,1561185801,59660666,218,51029000,55,1407757000,"At a time when we ’re concerned about our lack of academic achievement relative to other countries , legalizing marijuana will be disastrous .",['COMMUNITY/SOCIATAL_EFFECTS'],1,['HARM']
+"DRUG_POLICY 
+",gemma2:27b,2024-09-11T14:50:02.150182578Z,stop,408304227,59993485,218,52901000,7,158241000,"Most people understand that correlation and causation are not the same thing , but this fact seems lost on many politicians arguing against marijuana reform .",['DRUG_POLICY'],1,['DRUG_POLICY']
+"ILLEGAL_TRADE 
+
+**Explanation:**
+
+The sentence focuses on the removal of profit motivation leading to the disappearance of drug peddlers. This directly addresses the issue of illegal trade surrounding marijuana. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-11T14:50:03.895259277Z,stop,1700000730,58210087,222,57447000,60,1537542000,"With the profit motive gone , no effort would be made to encourage its use by private dispensers of narcotics , and the drug peddler would disappear .",['ILLEGAL_TRADE'],1,['ILLEGAL_TRADE']
+"HEALTH/PSYCHOLOGICAL_EFFECTS 
+
+**Explanation:**
+
+The sentence focuses on young people using substances (implied as marijuana) for self-medication, highlighting the potential psychological effects and reasons behind seeking such methods. 
+",gemma2:27b,2024-09-11T14:50:05.380293747Z,stop,1397037386,55968900,216,53240000,47,1200914000,We are living in a country where young people everywhere are actively seeking out new and creative ways to self-medicate .,['MEDICAL_MARIJUANA'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"ILLEGAL_TRADE, HARM, COMMUNITY/SOCIATAL_EFFECTS  
+",gemma2:27b,2024-09-11T14:50:06.059651566Z,stop,674187397,56303099,224,58320000,19,469519000,"Jason White , 44 , owns a property management company and expressed frustration he has had to deal with marijuana-smoking squatters in some of his properties .",['COMMUNITY/SOCIATAL_EFFECTS'],3,"['HARM', 'ILLEGAL_TRADE', 'COMMUNITY/SOCIATAL_EFFECTS']"
+"NATIONAL_BUDGET 
+",gemma2:27b,2024-09-11T14:50:06.431345627Z,stop,283631846,55967091,213,52453000,6,132841000,"Furthermore , studies have shown that legalized marijuana will provide nowhere near the economic windfall proclaimed by some proponents .",['NATIONAL_BUDGET'],1,['NATIONAL_BUDGET']
+"NATIONAL_BUDGET 
+",gemma2:27b,2024-09-11T14:50:06.75597778Z,stop,280563921,58423104,202,43295000,6,132505000,It could be a source of additional tax revenues .,['NATIONAL_BUDGET'],1,['NATIONAL_BUDGET']
+"HARM 
+
+Let me know if you have other sentences for me to code!  I'm ready. 
+",gemma2:27b,2024-09-11T14:50:07.614802077Z,stop,806925982,60347352,213,51902000,26,651776000,McPheeters bristles at the potent smell of marijuana when she drives past some of the cultivation facilities .,['PERSONAL_FREEDOM'],1,['HARM']
+"ILLEGAL_TRADE 
+HARM 
+",gemma2:27b,2024-09-11T14:50:08.165002132Z,stop,460634743,59501060,217,52172000,11,261627000,"“ You ’re forcing the individuals to go back to the drug dealers , and the black market will flourish even more . ”",['ILLEGAL_TRADE'],2,"['HARM', 'ILLEGAL_TRADE']"
+"HARM, CHILD_AND_TEEN_SAFETY, COMMUNITY/SOCIATAL_EFFECTS 
+",gemma2:27b,2024-09-11T14:50:08.914261519Z,stop,744639509,59415810,219,49612000,22,545926000,"It is a poorly constructed initiative that will cause harm to Californians on our roadways , and in our schools , workplaces and communities . ”","['COMMUNITY/SOCIATAL_EFFECTS', 'DRUG_ABUSE', 'HARM']",3,"['CHILD_AND_TEEN_SAFETY', 'HARM', 'COMMUNITY/SOCIATAL_EFFECTS']"
+"COMMUNITY/SOCIATAL_EFFECTS 
+CHILD_AND_TEEN_SAFETY 
+HARM  
+",gemma2:27b,2024-09-11T14:50:09.753430579Z,stop,749959626,58248768,208,47577000,24,599729000,Would you want to live in a neighborhood filled with people who regularly smoke marijuana ?,['COMMUNITY/SOCIATAL_EFFECTS'],3,"['CHILD_AND_TEEN_SAFETY', 'HARM', 'COMMUNITY/SOCIATAL_EFFECTS']"
+"ADDICTION 
+",gemma2:27b,2024-09-11T14:50:10.037409553Z,stop,237873839,43270573,203,43466000,5,106786000,"First , marijuana is far more likely to cause addiction .",['ADDICTION'],1,['ADDICTION']
+"HEALTH/PSYCHOLOGICAL_EFFECTS, HARM 
+",gemma2:27b,2024-09-11T14:50:10.556544549Z,stop,472719581,61218575,221,56727000,13,311723000,"Consumption of marijuana impairs the immune system and short-term memory , elevates the risk of heart attack , and causes respiratory and brain damage .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],2,"['HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"HARM, CHILD_AND_TEEN_SAFETY 
+",gemma2:27b,2024-09-11T14:50:11.059515828Z,stop,456321249,55963380,203,42058000,13,314074000,Increased marijuana use will mean millions more damaged young people .,['CHILD_AND_TEEN_SAFETY'],2,"['CHILD_AND_TEEN_SAFETY', 'HARM']"
+"HEALTH/PSYCHOLOGICAL_EFFECTS 
+",gemma2:27b,2024-09-11T14:50:11.494764487Z,stop,387043500,58573888,207,46750000,10,236713000,Popular culture reinforces this view portraying use generally as a risk-free endeavor .,['HARM'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"ADDICTION, HEALTH/PSYCHOLOGICAL_EFFECTS 
+",gemma2:27b,2024-09-11T14:50:12.009787576Z,stop,470455304,59131641,212,52452000,13,313898000,Scientific research is clear that marijuana is addictive and that its use significantly impairs bodily and mental functions .,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION']",2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION']"
+"HEALTH/PSYCHOLOGICAL_EFFECTS 
+
+
+Let me know if you'd like me to code another sentence! 
+",gemma2:27b,2024-09-11T14:50:12.859389885Z,stop,799628713,57119609,209,46857000,26,653165000,"So , there 's a good reason most habitual marijuana users come off as stupid .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"This example sentence would be coded with the following labels:
+
+* **DRUG_POLICY** 
+* **LEGAL_DRUGS**
+* **PERSONAL_FREEDOM** 
+
+
+Let me know if you'd like me to code more examples! 
+",gemma2:27b,2024-09-11T14:50:14.535211223Z,stop,1586601072,58978548,199,42461000,55,1398588000,Time to End the Drug War .,['DRUG_POLICY'],3,"['DRUG_POLICY', 'LEGAL_DRUGS', 'PERSONAL_FREEDOM']"
+"GATEWAY_DRUG, ADDICTION 
+",gemma2:27b,2024-09-11T14:50:14.982498671Z,stop,443286784,37295019,220,58529000,11,260298000,"Opponents have cited the state ’s opioid addiction crisis , warning that marijuana is a “ gateway drug ” that leads to more dangerous habits .",['GATEWAY_DRUG'],2,"['ADDICTION', 'GATEWAY_DRUG']"
+"HARM 
+ADDICTION 
+DRUG_ABUSE
+COMMUNITY/SOCIATAL_EFFECTS  
+",gemma2:27b,2024-09-11T14:50:15.809385887Z,stop,781755943,56067331,221,57575000,25,624445000,"It is reaffirmed by several studies that have linked marijuana use to criminal behavior , unemployment , lower incomes , greater welfare dependence , and lower life satisfaction .",['COMMUNITY/SOCIATAL_EFFECTS'],4,"['DRUG_ABUSE', 'HARM', 'ADDICTION', 'COMMUNITY/SOCIATAL_EFFECTS']"
+"This sentence relates to:
+
+* **ILLEGAL_TRADE** (referring to ""drug busts"") 
+* **HARM** (highlighting the negative consequences of the justice system on young people) 
+
+
+Let me know if you have any other sentences you'd like coded! 
+",gemma2:27b,2024-09-11T14:50:17.68005535Z,stop,1779937738,55826127,209,47856000,62,1588999000,Drug busts often trap young people in a flawed system that turns them into lifelong criminals .,['COMMUNITY/SOCIATAL_EFFECTS'],2,"['HARM', 'ILLEGAL_TRADE']"
+"CHILD_AND_TEEN_SAFETY 
+COMMUNITY/SOCIATAL_EFFECTS  
+
+
+Let me know if you have other sentences you'd like coded! I'm ready. 
+",gemma2:27b,2024-09-11T14:50:18.917120678Z,stop,1232012247,59916971,204,42742000,41,1039335000,"Public places , such as bars , would expose innocent patrons .",['PERSONAL_FREEDOM'],2,"['CHILD_AND_TEEN_SAFETY', 'COMMUNITY/SOCIATAL_EFFECTS']"
+"NATIONAL_BUDGET, HEALTH/PSYCHOLOGICAL_EFFECTS 
+",gemma2:27b,2024-09-11T14:50:19.516336646Z,stop,508557465,54339788,239,71988000,14,337492000,The economic argument is also based on poor fiscal logic : any reduction in the cost of drug control ( due to lower law enforcement expenditure ) will be offset by much higher expenditure on public health ( due to the surge of drug consumption ) .,['NATIONAL_BUDGET'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'NATIONAL_BUDGET']"
+"HEALTH/PSYCHOLOGICAL_EFFECTS 
+",gemma2:27b,2024-09-11T14:50:20.056043154Z,stop,494175006,57978062,244,72259000,10,233591000,"Researchers at the University of Mississippi ’s Natural Center for Natural Products Research have found that marijuana available today may be up to five times stronger than the stuff available back in the 1970s , ’80s , and ’90s .",['HARM'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"HEALTH/PSYCHOLOGICAL_EFFECTS, HARM, CHILD_AND_TEEN_SAFETY 
+",gemma2:27b,2024-09-11T14:50:20.795767378Z,stop,692709353,56760110,239,71884000,21,520615000,"Furthermore , the Dutch Ministry of Health , Welfare and Sport has expressed “ concern about drug and alcohol use among young people and the social consequences , which range from poor school performance and truancy to serious impairment , including brain damage . ”","['HEALTH/PSYCHOLOGICAL_EFFECTS', 'COMMUNITY/SOCIATAL_EFFECTS', 'CHILD_AND_TEEN_SAFETY']",3,"['CHILD_AND_TEEN_SAFETY', 'HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"Here's a breakdown of the coding for the sentence:
+
+**DRUG_POLICY** - The phrase ""experiment in marijuana prohibition"" directly refers to a specific drug policy. 
+
+
+Let me know if you have more sentences to code! 
+",gemma2:27b,2024-09-11T14:50:22.409608582Z,stop,1526157128,57278114,205,46686000,52,1327743000,The United States ’ experiment in marijuana prohibition has failed spectacularly .,['DRUG_POLICY'],1,['DRUG_POLICY']
+"ILLEGAL_TRADE 
+",gemma2:27b,2024-09-11T14:50:22.765475848Z,stop,309915844,64542791,205,45116000,7,157298000,If the product were outlawed there the mob would gladly step in .,['ILLEGAL_TRADE'],1,['ILLEGAL_TRADE']
+"HEALTH/PSYCHOLOGICAL_EFFECTS 
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-11T14:50:23.693101686Z,stop,881494781,59389197,211,46968000,29,731025000,The 62-year-old says she has given up on most of her prescriptions .,['MEDICAL_MARIJUANA'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"LEGAL_DRUGS, HEALTH/PSYCHOLOGICAL_EFFECTS, HARM 
+
+
+**Explanation:**
+
+* **LEGAL_DRUGS:** The text directly references federal law's stance on marijuana, implying a legal context.
+* **HEALTH/PSYCHOLOGICAL_EFFECTS:**  The phrase ""marijuana is dangerous"" points to concerns about the drug's potential negative impact on health and psychology.
+* **HARM:** The statement explicitly labels marijuana as ""dangerous,"" indicating a belief that it causes harm. 
+",gemma2:27b,2024-09-11T14:50:26.768002403Z,stop,2984543543,57272194,230,62086000,107,2771760000,"Accordingly , federal law , representing the considered judgment of medical science and the nation ’s two political branches of government , takes the unequivocal position that marijuana is dangerous and has no significant beneficial uses .",['HARM'],3,"['LEGAL_DRUGS', 'HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"ILLEGAL_TRADE 
+NATIONAL_BUDGET 
+DRUG_POLICY 
+",gemma2:27b,2024-09-11T14:50:27.398342171Z,stop,624699253,43381155,219,51723000,18,443085000,The huge profits to be made from cocaine and other South American-grown drugs are largely because they are illegal in the wealthy neighbouring nation .,['ILLEGAL_TRADE'],3,"['DRUG_POLICY', 'ILLEGAL_TRADE', 'NATIONAL_BUDGET']"
+"HARM, GATEWAY_DRUG, CHILD_AND_TEEN_SAFETY 
+
+
+Let's break down why:
+
+* **HARM:** The sentence highlights a negative outcome (increased marijuana use among teens) associated with legalization.
+* **GATEWAY_DRUG:**  The implication is that marijuana use could lead to other drug use, a common argument against legalization.
+* **CHILD_AND_TEEN_SAFETY:** The focus on teenagers using marijuana at a higher rate directly relates to concerns about the safety and well-being of young people. 
+",gemma2:27b,2024-09-11T14:50:30.608867266Z,stop,3165351525,59150052,226,58511000,116,3002889000,Alaska 's experiment with legalization in the 1970s led to the state 's teens using marijuana at more than twice the rate of other youths nationally .,['CHILD_AND_TEEN_SAFETY'],3,"['CHILD_AND_TEEN_SAFETY', 'HARM', 'GATEWAY_DRUG']"
+"Here's a breakdown of the coding for the sentence:
+
+* **GATEWAY_DRUG:** The phrase ""use of many different types of drugs will increase"" suggests the argument that marijuana legalization leads to harder drug use. 
+* **HARM:**  The sentence implies negative consequences from increased drug use (""as will marijuana use"").
+
+
+Let me know if you'd like me to analyze more sentences! 
+",gemma2:27b,2024-09-11T14:50:33.137269332Z,stop,2441525490,54805221,220,58487000,87,2240691000,"As cheap marijuana floods the market both in and outside of California , use of many different types of drugs will increase , as will marijuana use .",['COMMUNITY/SOCIATAL_EFFECTS'],2,"['HARM', 'GATEWAY_DRUG']"
+"HARM, ILLEGAL_TRADE 
+",gemma2:27b,2024-09-11T14:50:33.572328457Z,stop,428949557,59839869,210,46026000,10,234359000,"At a minimum , they will be off the streets , unable to wreak more havoc .",['ILLEGAL_TRADE'],2,"['HARM', 'ILLEGAL_TRADE']"
+"Here's the coding for the provided text:
+
+* **LEGAL_DRUGS** 
+* **GATEWAY_DRUG**
+* **DRUG_POLICY** 
+
+
+**Explanation:**
+
+* **LEGAL_DRUGS:** The sentence discusses the potential legalization of ""harder drugs,"" implying a shift towards accepting more drugs legally.
+* **GATEWAY_DRUG:**  The phrase ""with advocacy of the legalization of harder drugs"" suggests a concern about marijuana potentially leading to the acceptance and use of more dangerous substances (the gateway drug argument).
+* **DRUG_POLICY:** The sentence directly addresses policy changes regarding drug legality, making this label applicable. 
+",gemma2:27b,2024-09-11T14:50:37.375174675Z,stop,3755405137,49559446,213,51971000,140,3607127000,"Step-by-step , more drugs will gain acceptance , with advocacy of the legalization of harder drugs .","['GATEWAY_DRUG', 'GATEWAY_DRUG']",3,"['DRUG_POLICY', 'LEGAL_DRUGS', 'GATEWAY_DRUG']"
+"ILLEGAL_TRADE, COMMUNITY/SOCIATAL_EFFECTS 
+
+**Explanation:**
+
+The example discusses the negative societal consequences (gang warfare, rise of notorious criminals) that resulted from prohibiting alcohol. This directly relates to the potential for illegal markets and broader social harms when a substance is outlawed. 
+
+
+",gemma2:27b,2024-09-11T14:50:39.283025694Z,stop,1819521047,55689814,230,61523000,63,1615393000,"When alcohol use was outlawed during prohibition , it gave rise to gang warfare and spurred the formation of some of the most well known criminals of the era , among them the infamous Al Capone .",['LEGAL_DRUGS'],2,"['ILLEGAL_TRADE', 'COMMUNITY/SOCIATAL_EFFECTS']"
+"HARM, DRUG_ABUSE 
+",gemma2:27b,2024-09-11T14:50:39.737452765Z,stop,401744875,55168999,236,69796000,10,232502000,"While drunk driving is a major problem in society , despite all the stiff penalties and education , equally dangerous is “ driving high ” , but this is more difficult to detect , unless the user has been smoking in the car .",['DRUG_ABUSE'],2,"['DRUG_ABUSE', 'HARM']"
+"HARM, ILLEGAL_TRADE, COMMUNITY/SOCIATAL_EFFECTS 
+
+
+Let me break down why these labels apply:
+
+* **HARM:** The sentence explicitly states that marijuana legalization will lead to increased crime, drug use, and social dislocation. These are all seen as harmful consequences.
+* **ILLEGAL_TRADE:**  While the focus is on potential negative outcomes of legalization, it implies the existence of an illegal marijuana trade that would continue or be affected by legalization. 
+* **COMMUNITY/SOCIATAL_EFFECTS:** The phrase ""across the state of California"" highlights the broad societal impact the argument predicts. Increased crime and social dislocation are concerns about the well-being of the community. 
+",gemma2:27b,2024-09-11T14:50:43.812800724Z,stop,4029084147,60272750,224,57807000,149,3867669000,"Thus , marijuana legalization will increase crime , drug use , and social dislocation across the state of California — the exact opposite of what pro-legalization advocates promise .",['COMMUNITY/SOCIATAL_EFFECTS'],3,"['HARM', 'ILLEGAL_TRADE', 'COMMUNITY/SOCIATAL_EFFECTS']"
+"MEDICAL_MARIJUANA 
+ILLEGAL_TRADE  
+",gemma2:27b,2024-09-11T14:50:44.465836956Z,stop,566282801,55310784,231,59835000,15,362941000,"Three of the commission members would be representatives of current , nonprofit medical-marijuana dispensary companies ; presumably , they would not be in a rush to create a whole bunch of new competition for themselves .",['MEDICAL_MARIJUANA'],2,"['MEDICAL_MARIJUANA', 'ILLEGAL_TRADE']"
+"MEDICAL_MARIJUANA 
+
+HEALTH/PSYCHOLOGICAL_EFFECTS 
+",gemma2:27b,2024-09-11T14:50:45.094446211Z,stop,624315834,54779199,203,41660000,18,441334000,Smoking marijuana may also help slow the progression of glaucoma .,['MEDICAL_MARIJUANA'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'MEDICAL_MARIJUANA']"
+"HEALTH/PSYCHOLOGICAL_EFFECTS 
+",gemma2:27b,2024-09-11T14:50:45.56192878Z,stop,378274492,56995015,201,41281000,10,234555000,Increased drug use leads to negative health effects .,['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"PERSONAL_FREEDOM 
+",gemma2:27b,2024-09-11T14:50:45.920504635Z,stop,309083373,55021606,212,51955000,7,157236000,Would you want the government limiting how much coffee you can drink or how much cheesecake you take in ?,['PERSONAL_FREEDOM'],1,['PERSONAL_FREEDOM']
+"HEALTH/PSYCHOLOGICAL_EFFECTS 
+",gemma2:27b,2024-09-11T14:50:46.358755402Z,stop,391082394,56387982,223,57909000,10,233572000,"In fact , one study has shown that blood vessels in the brain of a marijuana smoker experience restricted flow , which can continue even after a month of abstinence .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"MEDICAL_MARIJUANA 
+HEALTH/PSYCHOLOGICAL_EFFECTS 
+",gemma2:27b,2024-09-11T14:50:46.989262846Z,stop,585735031,54203184,205,44032000,18,441908000,She claims where prescriptions failed her but marijuana has n’t .,['MEDICAL_MARIJUANA'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'MEDICAL_MARIJUANA']"
+"LEGAL_DRUGS, HARM, DRUG_POLICY 
+",gemma2:27b,2024-09-11T14:50:47.62760752Z,stop,543951936,58379113,222,58194000,14,338264000,"“ After three decades , criminalization has not affected general usage ; about 30 million Americans use marijuana every year , ” the Times points out .",['COMMUNITY/SOCIATAL_EFFECTS'],3,"['DRUG_POLICY', 'LEGAL_DRUGS', 'HARM']"
+"NATIONAL_BUDGET 
+",gemma2:27b,2024-09-11T14:50:47.965998286Z,stop,289973932,55260573,229,60917000,6,129897000,"This $ 30 billion figure rises dramatically once other issues , such as the economic impact of holding 400,000 prisoners on prohibition violations , are factored in .",['NATIONAL_BUDGET'],1,['NATIONAL_BUDGET']
+"Here's the coding for the given sentence:
+
+**HARM**, **CHILD_AND_TEEN_SAFETY**, **DRUG_POLICY** 
+
+
+**Explanation:**
+
+* **HARM:**  The phrase ""robbed children of their futures"" implies a harmful consequence.
+* **CHILD_AND_TEEN_SAFETY:** The focus on ""children"" directly relates to this aspect.
+* **DRUG_POLICY:** The sentence critiques ""Prohibition,"" which is a drug policy stance. 
+",gemma2:27b,2024-09-11T14:50:50.862364919Z,stop,2850810581,55431606,210,47090000,105,2703891000,"Prohibition has robbed children of their futures , while building a huge prison-industrial complex .",['COMMUNITY/SOCIATAL_EFFECTS'],3,"['CHILD_AND_TEEN_SAFETY', 'DRUG_POLICY', 'HARM']"
+"CHILD_AND_TEEN_SAFETY 
+",gemma2:27b,2024-09-11T14:50:51.38790797Z,stop,435958366,54127903,225,59098000,10,233548000,"In a display window , scrumptious-looking , pink pot candies entice a little girl on her way to the toy store next door , mortifying her mother .",['CHILD_AND_TEEN_SAFETY'],1,['CHILD_AND_TEEN_SAFETY']
+"MEDICAL_MARIJUANA 
+DRUG_POLICY 
+",gemma2:27b,2024-09-11T14:50:51.953894194Z,stop,561179059,55924678,219,53394000,15,364750000,"Now , countries all over the world have licensed the drug for medical purposes , and a few are going still further ( see article ) .",['MEDICAL_MARIJUANA'],2,"['DRUG_POLICY', 'MEDICAL_MARIJUANA']"
+"HARM, COMMUNITY/SOCIATAL_EFFECTS 
+",gemma2:27b,2024-09-11T14:50:52.487324968Z,stop,487664036,58157496,211,45557000,14,338477000,"Legalization of marijuana would further shift the culture to more of a "" anything goes "" mentality .",['COMMUNITY/SOCIATAL_EFFECTS'],2,"['HARM', 'COMMUNITY/SOCIATAL_EFFECTS']"
+"Here's the coding for the provided sentence:
+
+* **CHILD_AND_TEEN_SAFETY:**  The argument centers on the potential increase in marijuana use among children due to perceived decreased danger after legalization.
+* **GATEWAY_DRUG:** The statement implies that legalizing marijuana could lead to increased use of harder drugs, hence the ""gateway drug"" concern. 
+
+
+Let me know if you have any other sentences you'd like coded! 
+",gemma2:27b,2024-09-11T14:50:55.226368265Z,stop,2650505198,55087598,227,58965000,95,2448264000,"It should be intuitively obvious to everyone that if you legalize marijuana for adults , more children will use marijuana because the message that it 's dangerous will be blunted . """,['CHILD_AND_TEEN_SAFETY'],2,"['CHILD_AND_TEEN_SAFETY', 'GATEWAY_DRUG']"
+"ILLEGAL_TRADE 
+
+**Explanation:**
+
+The sentence focuses on the potential for individuals to exploit a legalized marijuana market (""enter the marketplace and game the system""). This points directly to concerns about illegal trade practices that could arise if marijuana were legalized.  
+",gemma2:27b,2024-09-11T14:50:56.773860304Z,stop,1542128211,54476782,214,48703000,53,1348714000,"Furthermore , should California legalize marijuana , other entrepreneurs will inevitably attempt to enter the marketplace and game the system .",['ILLEGAL_TRADE'],1,['ILLEGAL_TRADE']
+"ILLEGAL_TRADE, DRUG_POLICY  
+
+
+Let me explain why:
+
+* **ILLEGAL_TRADE:** The sentence discusses the concern of the casino industry potentially getting involved in the ""recreational pot industry."" This implies a worry about blurring lines between legal gambling and potentially illegal marijuana trade.
+
+* **DRUG_POLICY:** The mention of ""state gambling regulators"" being ""wary"" of businesses entering the recreational marijuana market points directly to concerns about drug policy and regulation. 
+",gemma2:27b,2024-09-11T14:50:59.643540171Z,stop,2780173805,57022047,230,62662000,101,2614681000,"The casino industry lobby , which registered its opposition on Friday , noted that state gambling regulators who are strict about offering up casino licenses are wary of those businesses getting involved in the recreational pot industry .",['DRUG_POLICY'],2,"['DRUG_POLICY', 'ILLEGAL_TRADE']"
+"Here's the coding for the provided text:
+
+* **LEGAL_DRUGS** 
+* **PERSONAL_FREEDOM**
+* **MEDICAL_MARIJUANA** (Implied - ""help many of these people"" suggests medical benefits) 
+
+
+Let me explain the reasoning:
+
+* **LEGAL_DRUGS:** The phrase ""loosening marijuana laws"" directly refers to changing the legal status of marijuana.
+* **PERSONAL_FREEDOM:** The argument implies that individuals should have the freedom to choose whether or not to use marijuana.
+* **MEDICAL_MARIJUANA:** While not explicitly stated, the sentence structure suggests that some of the people who would benefit are those seeking relief from medical conditions.  
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-11T14:51:04.317402087Z,stop,4626609581,55811555,214,48454000,169,4390722000,"Loosening marijuana laws would help many of these people , and repealing prohibition would help all of them .",['DRUG_POLICY'],3,"['LEGAL_DRUGS', 'MEDICAL_MARIJUANA', 'PERSONAL_FREEDOM']"
+"NATIONAL_BUDGET 
+",gemma2:27b,2024-09-11T14:51:04.642585422Z,stop,278739372,55663261,212,49221000,6,130037000,"This argument is gaining favour , as national administrations seek new sources of revenue during the current economic crisis .",['NATIONAL_BUDGET'],1,['NATIONAL_BUDGET']
+"HEALTH/PSYCHOLOGICAL_EFFECTS, HARM 
+
+
+Let me know if you have more examples! I'm ready to code. 
+",gemma2:27b,2024-09-11T14:51:05.622800402Z,stop,935110919,54892742,222,56029000,31,779417000,Alchohol kills 30k-40k Americans each year and cigars/cigarettes kill 480k americans each year .,['LEGAL_DRUGS'],2,"['HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"HEALTH/PSYCHOLOGICAL_EFFECTS 
+",gemma2:27b,2024-09-11T14:51:06.139061705Z,stop,427131339,55977850,215,49852000,10,233959000,"Some of the most common ones include dry mouth , red eyes , psychosis , fatigue , dizziness and increased heart rate .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"CHILD_AND_TEEN_SAFETY 
+",gemma2:27b,2024-09-11T14:51:06.570205839Z,stop,426426382,57066688,215,49455000,10,233041000,So that argument to me that you 're going to keep it out of the hands of kids is completely illogical .,['CHILD_AND_TEEN_SAFETY'],1,['CHILD_AND_TEEN_SAFETY']
+"ADDICTION 
+",gemma2:27b,2024-09-11T14:51:06.888906309Z,stop,273233331,57926991,233,63760000,5,104916000,"1 ) It 's extremely addictive for some people : If you do n't want to take my word for it , listen to Dr. Drew Pinsky who has been working with addicts for decades .",['ADDICTION'],1,['ADDICTION']
+"ILLEGAL_TRADE 
+",gemma2:27b,2024-09-11T14:51:07.238390271Z,stop,303247443,56547255,208,44650000,7,158380000,The culprits are often from other states or countries and sometimes affiliated with cartels .,['ILLEGAL_TRADE'],1,['ILLEGAL_TRADE']
+"GATEWAY_DRUG 
+
+
+Let me know if you'd like me to code any more sentences! I'm ready.  
+",gemma2:27b,2024-09-11T14:51:08.198608137Z,stop,915135417,56000781,219,54273000,30,760847000,"In the sense that marijuana use typically precedes rather than follows initiation of other illicit drug use , it is indeed a “ gateway ” drug .",['GATEWAY_DRUG'],1,['GATEWAY_DRUG']
+"DRUG_ABUSE, ADDICTION 
+",gemma2:27b,2024-09-11T14:51:08.750156128Z,stop,462468359,53197138,224,58781000,11,261175000,"The humorous stories about pot users having a horrible memory are not an urban legend that is simply put forward by everyone , from Hollywood films to treatment centers for addiction .","['HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION']",2,"['DRUG_ABUSE', 'ADDICTION']"
+"ADDICTION, HEALTH/PSYCHOLOGICAL_EFFECTS 
+",gemma2:27b,2024-09-11T14:51:09.26016313Z,stop,464490201,61290515,207,46022000,13,314769000,"This is especially true of addictive , mind-altering drugs like marijuana .","['HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION']",2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION']"
+"MEDICAL_MARIJUANA, HEALTH/PSYCHOLOGICAL_EFFECTS 
+",gemma2:27b,2024-09-11T14:51:09.883898497Z,stop,576294398,56221177,221,58711000,17,417814000,"The narrative of cannabis as a harmful drug has been dominant for so long , that many people had trouble accepting the plant ’s demonstrated medicinal effects .","['HARM', 'MEDICAL_MARIJUANA']",2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'MEDICAL_MARIJUANA']"
+"Here's the coding for the provided text:
+
+* **HEALTH/PSYCHOLOGICAL_EFFECTS**  (The mention of ""dangers of weed"" and comparison to ""LEGAL drugs"" points to a discussion about potential health impacts.)
+* **MEDICAL_MARIJUANA** (The reference to medical studies and ""weed"" suggests a debate around marijuana's medicinal use.)
+* **LEGAL_DRUGS** (The text explicitly compares marijuana to other ""LEGAL drugs,"" framing the debate within legal contexts.) 
+
+
+Let me know if you have any more text snippets to code! 
+",gemma2:27b,2024-09-11T14:51:13.336914502Z,stop,3405271308,69990210,277,94851000,123,3194792000,"Check out this article which lists just some of the medical studies showing the dangers of weed : https://www.tremr.com/marty-nemko/should-marijuana-be-kept-illegal crypt0 says2016-04-03T14 :47:54.157 Report Post Marijuana is n't bad compared to many other "" LEGAL "" drugs .",['HARM'],3,"['LEGAL_DRUGS', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'MEDICAL_MARIJUANA']"
+"ILLEGAL_TRADE, NATIONAL_BUDGET 
+
+**Explanation:**
+
+* **ILLEGAL_TRADE:** The sentence discusses the black market for marijuana.
+* **NATIONAL_BUDGET:**  The suggestion involves lowering prices through regulated sales, which would impact tax revenue and thus the national budget. 
+
+
+Let me know if you have more sentences to code! 
+",gemma2:27b,2024-09-11T14:51:15.545385805Z,stop,2121687032,57859109,241,73623000,74,1900783000,"The only way California could effectively eliminate the black market for marijuana , according to Dr. Pacula , “ is to take away the substantial profits in the market and allow the price of marijuana to fall to an amount close to the cost of production .",['ILLEGAL_TRADE'],2,"['ILLEGAL_TRADE', 'NATIONAL_BUDGET']"
+"HEALTH/PSYCHOLOGICAL_EFFECTS, LEGAL_DRUGS  
+
+
+Let me explain why:
+
+* **HEALTH/PSYCHOLOGICAL_EFFECTS:** The phrase ""too dangerous to use"" directly relates to concerns about the potential negative health impacts of marijuana. 
+* **LEGAL_DRUGS:** The statement ""various legal drugs make marijuana use unnecessary"" implies a comparison between marijuana and other legally available substances, suggesting this argument falls under the category of legal drugs. 
+",gemma2:27b,2024-09-11T14:51:18.232129454Z,stop,2681921874,55223310,221,57827000,96,2479098000,"Opponents of medical marijuana argue that it is too dangerous to use , lacks FDA-approval , and that various legal drugs make marijuana use unnecessary .",['MEDICAL_MARIJUANA'],2,"['LEGAL_DRUGS', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"CHILD_AND_TEEN_SAFETY, HARM 
+",gemma2:27b,2024-09-11T14:51:18.798389242Z,stop,478649044,59575622,233,63172000,13,313039000,"“ It is putting our children at risk and has exposed children from communities of color to more racial discrimination than before , ” said Kennedy , who represented part of Rhode Island in Congress , about the legalization movement .",['CHILD_AND_TEEN_SAFETY'],2,"['CHILD_AND_TEEN_SAFETY', 'HARM']"
+"HARM, CHILD_AND_TEEN_SAFETY 
+",gemma2:27b,2024-09-11T14:51:19.402086454Z,stop,555827141,59205104,214,50297000,13,312740000,"The more weed that teens consume at a younger age , the more problems they tend to have later in life .",['CHILD_AND_TEEN_SAFETY'],2,"['CHILD_AND_TEEN_SAFETY', 'HARM']"
+"COMMUNITY/SOCIATAL_EFFECTS 
+",gemma2:27b,2024-09-11T14:51:19.852712189Z,stop,404552239,54775728,199,42632000,11,262102000,Prohibition has enormous social costs .,['COMMUNITY/SOCIATAL_EFFECTS'],1,['COMMUNITY/SOCIATAL_EFFECTS']
+"HEALTH/PSYCHOLOGICAL_EFFECTS 
+ADDICTION  
+
+",gemma2:27b,2024-09-11T14:51:20.499163672Z,stop,559854326,60787455,236,73186000,14,338862000,"A study of 129 college students found that , among those who smoked the drug at least twenty-seven of the thirty days before being surveyed , critical skills related to attention , memory and learning were seriously diminished .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION']"
+"Here's a breakdown of the coding for the given text:
+
+* **LEGAL_DRUGS:**  The text discusses the ""legal marijuana industry"" directly, making this label highly relevant.
+* **ILLEGAL_TRADE:** The phrase ""only had to prove itself more worthy than organized criminals"" implies a comparison between the legal industry and the illegal drug trade. 
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-11T14:51:23.214525857Z,stop,2710637914,55461127,245,74444000,96,2488990000,"Legalisers , meanwhile , should open their eyes to the fact that the legal marijuana industry , which until now has only had to prove itself more worthy than organised criminals , now needs as much scrutiny as the other “ sin ” industries that defend their turf jealously .","['ILLEGAL_TRADE', 'ILLEGAL_TRADE']",2,"['LEGAL_DRUGS', 'ILLEGAL_TRADE']"
+"MEDICAL_MARIJUANA, HARM, HEALTH/PSYCHOLOGICAL_EFFECTS 
+",gemma2:27b,2024-09-11T14:51:23.960252195Z,stop,656419710,55517598,232,63187000,20,494930000,Our position is that California Proposition 215 was misrepresented under the misguided claim that there is substantial “ medical ” benefit from ingesting marijuana and that the harm and negative impacts would be negligible .,"['HARM', 'MEDICAL_MARIJUANA']",3,"['HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'MEDICAL_MARIJUANA']"
+"DRUG_POLICY 
+",gemma2:27b,2024-09-11T14:51:24.410970223Z,stop,405608598,56843283,230,60461000,7,156358000,"There is no correlation between the harshness of drug laws and the incidence of drug-taking : citizens living under tough regimes ( notably America but also Britain ) take more drugs , not fewer .",['COMMUNITY/SOCIATAL_EFFECTS'],1,['DRUG_POLICY']
+"ILLEGAL_TRADE 
+",gemma2:27b,2024-09-11T14:51:24.772751539Z,stop,317675662,60058034,220,56458000,7,157045000,"Under the state scheme , she testified , there would be “ tremendous profit motive for the existing black market providers to stay in the market . ”",['ILLEGAL_TRADE'],1,['ILLEGAL_TRADE']
+"HEALTH/PSYCHOLOGICAL_EFFECTS 
+HARM  
+ADDICTION 
+DRUG_ABUSE 
+
+
+",gemma2:27b,2024-09-11T14:51:25.602142969Z,stop,782484994,58845665,218,53195000,25,625593000,"Marijuana use is associated with memory loss , cancer , immune system deficiencies , heart disease , and birth defects , among other conditions .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],4,"['DRUG_ABUSE', 'HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION']"
+"MEDICAL_MARIJUANA 
+",gemma2:27b,2024-09-11T14:51:26.09106336Z,stop,399509781,57225013,202,42512000,9,210350000,Medical marijuana is important to a lot of people .,['MEDICAL_MARIJUANA'],1,['MEDICAL_MARIJUANA']
+"Here's the coding for the provided text:
+
+* **LEGAL_DRUGS** 
+* **HARM**
+* **ADDICTION**  
+* **DRUG_POLICY** 
+
+
+**Explanation:**
+
+* **LEGAL_DRUGS:** The sentence discusses changing legal consequences for possession of marijuana, implying a debate about its legality.
+* **HARM:** It highlights the potential harm of prison sentences on first-time offenders, suggesting concern about the negative impacts of current drug policy.
+* **ADDICTION:** The mention of ""getting them the help they truly need"" points towards an understanding that some individuals might struggle with addiction and require support rather than punishment.
+* **DRUG_POLICY:** The overall focus is on the effects of drug policy, particularly regarding sentencing for possession and the potential for alternative approaches like rehabilitation. 
+",gemma2:27b,2024-09-11T14:51:30.856366871Z,stop,4720723285,58114655,267,82052000,174,4535127000,"It would mean significantly changing what would happen to people who were arrested for possession of the drug ( s ) in question ( to my thinking , a sentence that would fit the crime as opposed to arbitrarily sending first-time offenders to prison for an egregious amount of time instead of getting them the help they truly need ) , and perhaps helping more people instead of damaging them for life .",['COMMUNITY/SOCIATAL_EFFECTS'],4,"['DRUG_POLICY', 'LEGAL_DRUGS', 'HARM', 'ADDICTION']"
+"HARM, CHILD_AND_TEEN_SAFETY 
+
+**Explanation:**
+
+* **HARM:** The text highlights the widespread negative consequences of illicit drug use, affecting individuals and society as a whole.
+* **CHILD_AND_TEEN_SAFETY:**  The mention of children, parents, grandparents, friends, and colleagues emphasizes the potential harm to vulnerable populations due to illicit drug use. 
+",gemma2:27b,2024-09-11T14:51:33.192180863Z,stop,2288386332,69827768,230,61365000,82,2111639000,"Affected by an individual 's illicit drug use are children , parents , grandparents , friends , colleagues , work , victims of drugged drivers , crime victims , elder abuse , sexual victims etc .","['COMMUNITY/SOCIATAL_EFFECTS', 'DRUG_ABUSE', 'CHILD_AND_TEEN_SAFETY']",2,"['CHILD_AND_TEEN_SAFETY', 'HARM']"
+"HEALTH/PSYCHOLOGICAL_EFFECTS 
+HARM  
+",gemma2:27b,2024-09-11T14:51:33.740267374Z,stop,500478626,69844135,202,43458000,14,340168000,"Fourth , it is toxic and deleterious to health .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],2,"['HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"NATIONAL_BUDGET 
+
+**Explanation:**
+
+The sentence implies a connection between marijuana legalization and its effect on usage levels, which could indirectly impact national budget considerations related to drug enforcement or healthcare. 
+",gemma2:27b,2024-09-11T14:51:35.061659995Z,stop,1233978701,57356427,203,43224000,41,1044332000,Marijuana use basically got smaller after it was legalized .,['COMMUNITY/SOCIATAL_EFFECTS'],1,['NATIONAL_BUDGET']
+"HEALTH/PSYCHOLOGICAL_EFFECTS 
+",gemma2:27b,2024-09-11T14:51:35.513565792Z,stop,446369105,57940141,226,59568000,10,234133000,"Even though you can not count it as a health benefit , it should be taken as a positive mental effect that spurs creativity in the brain and helps you find new ideas .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"HARM 
+ILLEGAL_TRADE  
+",gemma2:27b,2024-09-11T14:51:35.969168063Z,stop,409459883,54765578,207,47240000,11,262395000,"To begin with , an astonishingly high percentage of criminals are marijuana users .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],2,"['HARM', 'ILLEGAL_TRADE']"
+"MEDICAL_MARIJUANA, DRUG_POLICY 
+",gemma2:27b,2024-09-11T14:51:36.498687647Z,stop,483319026,57922181,235,62647000,13,312636000,"Meno points out that with respect to medical marijuana ( which is legal in fourteen states and D.C. , but illegal on federal levels ) , he hopes the federal government will defer to state laws and not intervene .",['MEDICAL_MARIJUANA'],2,"['DRUG_POLICY', 'MEDICAL_MARIJUANA']"
+"HEALTH/PSYCHOLOGICAL_EFFECTS 
+",gemma2:27b,2024-09-11T14:51:36.92985842Z,stop,385388676,59621944,205,46190000,10,236412000,Will it make you depressed and a have higher risk of cancer ?,['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"NATIONAL_BUDGET 
+",gemma2:27b,2024-09-11T14:51:37.263728739Z,stop,288057280,55574219,226,57762000,6,130747000,"Of those savings , $ 25.7 billion would accrue to state and local governments , while $ 15.6 billion would accrue to the federal government .",['NATIONAL_BUDGET'],1,['NATIONAL_BUDGET']
+"NATIONAL_BUDGET, HARM 
+",gemma2:27b,2024-09-11T14:51:37.679639643Z,stop,367891907,55580120,230,60293000,9,208096000,"One of the strangest aspects of the war on drugs is how completely it has failed at reducing drug use , despite costing over $ 51 billion annually , according to the Drug Policy Alliance .","['DRUG_POLICY', 'COMMUNITY/SOCIATAL_EFFECTS']",2,"['HARM', 'NATIONAL_BUDGET']"
+"HEALTH/PSYCHOLOGICAL_EFFECTS, DRUG_POLICY 
+
+
+Let me explain why:
+
+* **HEALTH/PSYCHOLOGICAL_EFFECTS:** Framing cannabis use as a ""public health issue"" directly relates to potential health and psychological effects.
+* **DRUG_POLICY:** The statement discusses legalization as part of a larger shift in drug policy, moving away from a criminal justice approach towards a public health one. 
+",gemma2:27b,2024-09-11T14:51:40.094139078Z,stop,2366476301,55515238,212,50186000,86,2216618000,Legalization is the first step in a broader initiative of treating cannabis use as a public health issue .,['HEALTH/PSYCHOLOGICAL_EFFECTS'],2,"['DRUG_POLICY', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"HEALTH/PSYCHOLOGICAL_EFFECTS, HARM 
+",gemma2:27b,2024-09-11T14:51:40.7133228Z,stop,529457684,55157630,241,74267000,13,312915000,"The Administration — widely viewed as more liberal than any other in recent memory and , for a time , as embodying the hopes of pro-legalization activists — has weighed the costs and benefits and concluded that marijuana legalization would compromise public health and safety .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],2,"['HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"HARM, HEALTH/PSYCHOLOGICAL_EFFECTS 
+",gemma2:27b,2024-09-11T14:51:41.226502724Z,stop,466515133,60757224,211,48728000,13,314205000,We affirm the 2006 FDA finding and vast scientific evidence that marijuana causes harm .,['HARM'],2,"['HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"NATIONAL_BUDGET, ILLEGAL_TRADE  
+",gemma2:27b,2024-09-11T14:51:41.706450104Z,stop,434912230,56870593,241,74440000,11,260812000,"A significant portion of the local economy of the Emerald Triangle is already connected to marijuana , which generates about a $ 500-million in untaxed income every year , according to Beth Wilson , professor of economics at Humboldt State University .",['NATIONAL_BUDGET'],2,"['ILLEGAL_TRADE', 'NATIONAL_BUDGET']"
+"LEGAL_DRUGS 
+
+DRUG_POLICY 
+",gemma2:27b,2024-09-11T14:51:42.225733094Z,stop,474342625,59262735,222,58636000,13,311690000,Those ( including this newspaper ) who have argued that legalisation is better than prohibition will welcome the beginning of the end of the futile war on weed .,['DRUG_POLICY'],2,"['DRUG_POLICY', 'LEGAL_DRUGS']"
+"CHILD_AND_TEEN_SAFETY, HEALTH/PSYCHOLOGICAL_EFFECTS 
+",gemma2:27b,2024-09-11T14:51:42.872998739Z,stop,597295029,51626289,232,60736000,18,441003000,"The primary reason for this is because children , in general , do not exhibit the same responsibility , reasoning and judgment of adults , and their bodies are not as equipped to handle the intake of such substances .",['CHILD_AND_TEEN_SAFETY'],2,"['CHILD_AND_TEEN_SAFETY', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"NATIONAL_BUDGET, HARM 
+",gemma2:27b,2024-09-11T14:51:43.362313462Z,stop,402205501,56849634,207,46035000,9,210190000,The increased use will increase the multitude of costs that come with marijuana use .,['NATIONAL_BUDGET'],2,"['HARM', 'NATIONAL_BUDGET']"
+"HARM, HEALTH/PSYCHOLOGICAL_EFFECTS  
+",gemma2:27b,2024-09-11T14:51:43.88075446Z,stop,473008250,55981731,230,61307000,13,311502000,Employees who test positive for marijuana had 55 percent more industrial accidents and 85 percent more injuries and they had absenteeism rates 75 percent higher than those that tested negative .,['DRUG_ABUSE'],2,"['HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"HEALTH/PSYCHOLOGICAL_EFFECTS, HARM  
+
+**Explanation:**
+
+This text compares the dangers of marijuana to those of alcohol, specifically citing statistics on drunk driving deaths and research suggesting alcohol's greater harm. This directly relates to the health and psychological effects of both substances, as well as a broader discussion about harm reduction. 
+
+
+",gemma2:27b,2024-09-11T14:51:45.901847305Z,stop,1974333831,56741879,242,71910000,70,1802659000,"In addition to anecdotal evidence , they cite statistics to show more deaths caused by drunk driving under the influence of alcohol than by drivers under the influence of marijuana , and research which suggests that alcohol is more harmful than all but the most "" dangerous "" drugs .","['LEGAL_DRUGS', 'DRUG_ABUSE', 'HARM']",2,"['HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"LEGAL_DRUGS, HARM 
+",gemma2:27b,2024-09-11T14:51:46.424505003Z,stop,432921260,56135834,218,53468000,10,235964000,"But alcohol leads to drunk driving accidents , deaths in the process and rapes of women , etc. and it 's legal .",['LEGAL_DRUGS'],2,"['LEGAL_DRUGS', 'HARM']"
+"HARM, DRUG_ABUSE, ILLEGAL_TRADE 
+",gemma2:27b,2024-09-11T14:51:46.996340876Z,stop,524589858,58521277,224,57100000,15,363973000,"Anyone who commits drug-related felonies is n't likely to be constrained in committing other felonies , such as robbery , rape , murder , etc .",['COMMUNITY/SOCIATAL_EFFECTS'],3,"['DRUG_ABUSE', 'HARM', 'ILLEGAL_TRADE']"
+"HEALTH/PSYCHOLOGICAL_EFFECTS, CHILD_AND_TEEN_SAFETY 
+",gemma2:27b,2024-09-11T14:51:47.727476329Z,stop,643940331,55481971,225,58731000,18,441655000,It cites recent students that it says has shed light on the risks marijuana use poses to brain development in youth and the dangers of accessibility of recreational marijuana in the home .,['CHILD_AND_TEEN_SAFETY'],2,"['CHILD_AND_TEEN_SAFETY', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"MEDICAL_MARIJUANA 
+HEALTH/PSYCHOLOGICAL_EFFECTS  
+",gemma2:27b,2024-09-11T14:51:48.372448944Z,stop,640519620,54502733,223,55252000,18,441580000,"Despite the growing number of states with some form of medical law , cannabis is still difficult and risky to obtain for millions of people who could benefit from it .","['ILLEGAL_TRADE', 'DRUG_POLICY']",2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'MEDICAL_MARIJUANA']"
+"NATIONAL_BUDGET 
+",gemma2:27b,2024-09-11T14:51:48.758660972Z,stop,298863050,56395971,233,62454000,6,130094000,"The state collected $ 70 million in taxes on pot from June 2014 to July 2015 , $ 30 million more than amount raised from taxes on alcohol .",['NATIONAL_BUDGET'],1,['NATIONAL_BUDGET']
+"HEALTH/PSYCHOLOGICAL_EFFECTS, HARM 
+",gemma2:27b,2024-09-11T14:51:49.288831705Z,stop,484806433,55577169,237,72820000,13,312695000,"Medical researchers in Sweden , Holland ( see this study and this one ) and New Zealand ( see this research and this paper ) found that people who used marijuana for a long time were more likely to suffer medical psychosis or schizophrenia .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],2,"['HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"CHILD_AND_TEEN_SAFETY 
+",gemma2:27b,2024-09-11T14:51:49.719798732Z,stop,384107562,54697698,210,47312000,10,236158000,"For that reason , we advocate the prohibition of sales to people under 21 . ”",['CHILD_AND_TEEN_SAFETY'],1,['CHILD_AND_TEEN_SAFETY']
+"Here's the breakdown of the coding for the provided sentence:
+
+* **HARM:** The sentence explicitly discusses ""harms of increased addictive drug use"" 
+* **ADDICTION:** The phrase ""increased addictive drug use"" directly points to this category.
+* **LEGALIZATION:** The sentence mentions legalization as a factor leading to potential negative consequences.  
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-11T14:51:52.349780322Z,stop,2582351404,58329051,226,57209000,94,2421217000,"Secondly , the harms of increased addictive drug use , which as previously outlined would be a consequence of legalization and its cheaper prices , far outweigh the current crime harms of prohibition .","['ADDICTION', 'COMMUNITY/SOCIATAL_EFFECTS']",2,"['HARM', 'ADDICTION']"
+"MEDICAL_MARIJUANA, HEALTH/PSYCHOLOGICAL_EFFECTS 
+",gemma2:27b,2024-09-11T14:51:53.03716721Z,stop,597646568,43925390,209,47704000,17,418325000,This means more people will be free to use the drug for its believed health benefits .,['HEALTH/PSYCHOLOGICAL_EFFECTS'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'MEDICAL_MARIJUANA']"
+"GATEWAY_DRUG 
+
+
+Let me explain why:
+
+* **The sentence focuses on marijuana use preceding other drug use.**  This directly aligns with the concept of a ""gateway drug,"" where using marijuana is posited as an initial step towards trying harder drugs. 
+",gemma2:27b,2024-09-11T14:51:54.694086253Z,stop,1609787561,56884915,206,46700000,57,1459383000,"Not surprisingly , most users of other illicit drugs have used marijuana first .",['GATEWAY_DRUG'],1,['GATEWAY_DRUG']
+"CHILD_AND_TEEN_SAFETY 
+HARM  
+",gemma2:27b,2024-09-11T14:51:55.232316094Z,stop,492431851,58279740,217,50615000,14,338385000,"First one , "" You think I want to be on the road driving and some one high on pot is out there driving ?",['DRUG_ABUSE'],2,"['CHILD_AND_TEEN_SAFETY', 'HARM']"
+"MEDICAL_MARIJUANA 
+HEALTH/PSYCHOLOGICAL_EFFECTS  
+",gemma2:27b,2024-09-11T14:51:55.869807185Z,stop,590024040,56006871,206,46098000,18,444382000,It can be a blessing for someone suffering from nightmares associated with PTSD .,['MEDICAL_MARIJUANA'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'MEDICAL_MARIJUANA']"
+"HEALTH/PSYCHOLOGICAL_EFFECTS, HARM 
+",gemma2:27b,2024-09-11T14:51:56.476938206Z,stop,517229368,56732820,222,58190000,13,312504000,Most people talk about legalizing pot as if it were no worse than alcohol -- as if no one has ever died as the result of using marijuana .,['LEGAL_DRUGS'],2,"['HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"MEDICAL_MARIJUANA, HEALTH/PSYCHOLOGICAL_EFFECTS 
+",gemma2:27b,2024-09-11T14:51:57.103039934Z,stop,621218914,57785838,223,58561000,17,416804000,Though it only lasts for 3-4 hours with more research and studying it could possibly help treat and prevent it all together along with Alzheimer ’s .,['MEDICAL_MARIJUANA'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'MEDICAL_MARIJUANA']"
+"NATIONAL_BUDGET, HARM 
+
+
+Let me explain why:
+
+* **NATIONAL_BUDGET:** The text explicitly mentions savings for state and local governments due to reduced expenditures on law enforcement, prosecution, and corrections related to marijuana offenses. This directly relates to the financial implications of legalization.
+* **HARM:**  The phrasing ""freeing police to chase after more dangerous and violent criminals"" implies that current drug enforcement resources are misallocated and could be better used addressing more serious crimes. This suggests a harm reduction argument in favor of legalization. 
+
+Let me know if you have any other text samples you'd like coded!",gemma2:27b,2024-09-11T14:52:00.702377006Z,stop,3510566738,54341408,261,84403000,128,3327816000,"For state and local governments , savings would result from : the reduction of expenditures of police resources by eliminating drug arrests ( thereby freeing police to chase after more dangerous and violent criminals ) ; the reduction in prosecutorial and judicial resources by eliminating drug-related prosecutions ; and the reduction in correctional resources by eliminating drug-related incarcerations , Miron added .",['NATIONAL_BUDGET'],2,"['HARM', 'NATIONAL_BUDGET']"
+"DRUG_POLICY 
+LEGAL_DRUGS 
+",gemma2:27b,2024-09-11T14:52:01.327938944Z,stop,576337570,57913309,236,72588000,13,312057000,"Gil Kerlikowske , Director of the White House Office of National Drug Control Policy ( ONDCP ) , recently stated , “ Marijuana legalization , for any purpose , is a non-starter in the Obama Administration . ”",['DRUG_POLICY'],2,"['DRUG_POLICY', 'LEGAL_DRUGS']"
+"ILLEGAL_TRADE 
+
+
+Let me know if you have any other sentences you'd like coded! 
+",gemma2:27b,2024-09-11T14:52:02.12225909Z,stop,746522497,55504489,210,46073000,24,600783000,"It is quite ironic , but perhaps the worst opponents of weed legalization are drug dealers themselves .",['ILLEGAL_TRADE'],1,['ILLEGAL_TRADE']
+"Here's the coding for the provided text based on your codebook:
+
+* **GATEWAY_DRUG:**  The phrase ""It tends to be a starter drug"" directly refers to the argument that marijuana acts as a gateway to harder drugs. 
+* **HARM:** The statement ""...something that we really want for our society..."" implies concern about negative societal consequences associated with marijuana use.
+* **COMMUNITY/SOCIATAL_EFFECTS:**  The speaker expresses worry about ""heathenistic activity"" and the rapid societal changes marijuana legalization might bring, highlighting concerns about broader community and social impacts.
+
+
+Let me know if you'd like me to analyze any other text examples! 
+",gemma2:27b,2024-09-11T14:52:06.201347146Z,stop,3989990394,55599091,270,92192000,144,3754997000,"It tends to be a starter drug for people who move on to heavier duty drugs — sometimes legal , sometimes illegal — and I do n't think this is something that we really want for our society to heathenistic [ sic ] activity and you know , it 's just , we 're changing so rapidly to a different type of society and nobody is getting a chance to discuss it .",['GATEWAY_DRUG'],3,"['HARM', 'GATEWAY_DRUG', 'COMMUNITY/SOCIATAL_EFFECTS']"
+"HEALTH/PSYCHOLOGICAL_EFFECTS, MEDICAL_MARIJUANA 
+",gemma2:27b,2024-09-11T14:52:06.834081335Z,stop,627080413,55245191,223,56891000,17,425155000,"MDMA ( Ecstasy ) has been used for cognitive enhancement in people with Parkinson 's disease , and has shown potential in treating posttraumatic stress disorder .",['MEDICAL_MARIJUANA'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'MEDICAL_MARIJUANA']"
+"ILLEGAL_TRADE 
+DRUG_POLICY 
+",gemma2:27b,2024-09-11T14:52:07.33985708Z,stop,460228163,56486293,208,46675000,13,313680000,"The dramatically lower level of marijuana use reflects its illegal status , not its appeal .",['COMMUNITY/SOCIATAL_EFFECTS'],2,"['DRUG_POLICY', 'ILLEGAL_TRADE']"
+"NATIONAL_BUDGET 
+",gemma2:27b,2024-09-11T14:52:07.666759091Z,stop,279142131,56239207,209,46488000,6,133044000,The argument that we can tax and regulate marijuana and derive income from it is false .,['NATIONAL_BUDGET'],1,['NATIONAL_BUDGET']
+"ADDICTION 
+",gemma2:27b,2024-09-11T14:52:07.968393194Z,stop,256317605,58029832,209,46133000,5,106857000,Research suggests as many as 10 % of users will develop dependence over time .,['ADDICTION'],1,['ADDICTION']
+"MEDICAL_MARIJUANA 
+HEALTH/PSYCHOLOGICAL_EFFECTS 
+DRUG_POLICY  
+",gemma2:27b,2024-09-11T14:52:08.776754134Z,stop,761255738,58264910,228,58638000,24,598825000,"Opinions on medical marijuana have shifted dramatically in the last two decades : this year , a slew of mostly conservative states passed laws permitting epilepsy patients to use strains of cannabis high in CBD .","['DRUG_POLICY', 'MEDICAL_MARIJUANA']",3,"['DRUG_POLICY', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'MEDICAL_MARIJUANA']"
+"ILLEGAL_TRADE 
+NATIONAL_BUDGET 
+",gemma2:27b,2024-09-11T14:52:09.258192361Z,stop,434468009,54440032,208,47008000,12,287837000,Drug dealers ( including some terrorists ) would lose most or all of their business .,['ILLEGAL_TRADE'],2,"['ILLEGAL_TRADE', 'NATIONAL_BUDGET']"
+"MEDICAL_MARIJUANA, HEALTH/PSYCHOLOGICAL_EFFECTS 
+",gemma2:27b,2024-09-11T14:52:09.872642851Z,stop,569143283,54202525,216,50664000,17,417708000,"Also , the National Cancer Institute announced in a study that patients who ingested a cannabis plant extract spray reported more restful sleep .",['MEDICAL_MARIJUANA'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'MEDICAL_MARIJUANA']"
+"MEDICAL_MARIJUANA 
+HEALTH/PSYCHOLOGICAL_EFFECTS 
+",gemma2:27b,2024-09-11T14:52:10.511050587Z,stop,591299843,51452974,212,51409000,18,444262000,It can help treat Glaucoma by lowering the intraocular pressure ( IOP ) in people with glaucoma .,['MEDICAL_MARIJUANA'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'MEDICAL_MARIJUANA']"
+"HEALTH/PSYCHOLOGICAL_EFFECTS 
+ADDICTION 
+DRUG_ABUSE 
+
+
+Let me explain my reasoning:
+
+* **HEALTH/PSYCHOLOGICAL_EFFECTS:** The phrase ""lots of benefits"" and ""a few non-beneficial issues"" directly implies a discussion about the impact of marijuana on health and psychology.
+* **ADDICTION:**  The term ""smoking pot"" often carries connotations related to substance use and potential addiction, making this label relevant.
+* **DRUG_ABUSE:** Similar to addiction, the context suggests a conversation about the misuse or harmful consumption of marijuana. 
+
+
+Let me know if you have any other text snippets you'd like me to code!",gemma2:27b,2024-09-11T14:52:14.558668065Z,stop,3959290844,55580460,212,51973000,145,3764462000,"So , there are lots of benefits to smoking pot with only a few non-beneficial issues .",['HARM'],3,"['DRUG_ABUSE', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION']"
+"GATEWAY_DRUG 
+
+
+Let me know if you have any other sentences you'd like coded! 
+",gemma2:27b,2024-09-11T14:52:15.390100747Z,stop,825471569,59108651,216,52192000,25,625044000,There is no conclusive evidence that the drug effects of marijuana are causally linked to the subsequent abuse of other illicit drugs .,['GATEWAY_DRUG'],1,['GATEWAY_DRUG']
+"Based on the provided text snippet, here are the relevant codes:
+
+* **HEALTH/PSYCHOLOGICAL_EFFECTS** 
+* **HARM**
+* **CHILD_AND_TEEN_SAFETY**
+* **ADDICTION**
+* **DRUG_ABUSE**
+* **COMMUNITY/SOCIATAL_EFFECTS**
+* **DRUG_POLICY**
+
+
+The text is a speech by the Director of ONDCP (Office of National Drug Control Policy) specifically arguing against marijuana legalization. The title and context strongly suggest arguments will focus on potential negative health outcomes, harm to individuals and society, concerns about addiction and abuse, especially among youth, and the broader implications for drug policy. 
+",gemma2:27b,2024-09-11T14:52:19.432074998Z,stop,3952383356,56484493,263,84421000,145,3761491000,"R. Gil Kerlikowske , ONDCP Director , Remarks to the California Police Chiefs Conference : Why Marijuana Legalization Would Compromise Public Health and Public Safety ( March 4 , 2010 ) , available at http://www.ondcp.gov/news/speech10/030410_Chief.pdf .","['HEALTH/PSYCHOLOGICAL_EFFECTS', 'COMMUNITY/SOCIATAL_EFFECTS']",7,"['DRUG_ABUSE', 'CHILD_AND_TEEN_SAFETY', 'DRUG_POLICY', 'HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION', 'COMMUNITY/SOCIATAL_EFFECTS']"
+"LEGAL_DRUGS, DRUG_POLICY  
+",gemma2:27b,2024-09-11T14:52:19.981164794Z,stop,502283843,56369370,208,46847000,11,263100000,War on drugs and imprisonment of people for non violent offences would be significantly reduced .,['DRUG_POLICY'],2,"['DRUG_POLICY', 'LEGAL_DRUGS']"
+"NATIONAL_BUDGET 
+",gemma2:27b,2024-09-11T14:52:20.337713978Z,stop,310507128,56006221,253,80212000,6,130190000,"In her testimony before the committee , Dr. Pacula stated that prohibition raises the cost of production by at least 400 percent and that legalizing marijuana would cause the price of marijuana to fall considerably — much more than the 50 percent price reduction incorporated into the state ’s revenue model .",['NATIONAL_BUDGET'],1,['NATIONAL_BUDGET']
+"HARM 
+
+**Explanation:**
+
+The sentence highlights the potential danger of marijuana, stating that ""most reputable producers would not survive the tort liability from such a dangerous product."" This directly points to concerns about the harm associated with marijuana use. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-11T14:52:22.280685703Z,stop,1897037460,56406852,213,52215000,68,1744448000,"Even without the federal prohibition , most reputable producers would not survive the tort liability from such a dangerous product .",['HARM'],1,['HARM']
+"HEALTH/PSYCHOLOGICAL_EFFECTS 
+
+
+This sentence focuses on the physiological and psychological benefits of the endocannabinoid system, which is closely tied to the effects of marijuana. 
+",gemma2:27b,2024-09-11T14:52:23.560003539Z,stop,1192384509,57280504,225,58463000,39,987284000,"The endocannabinoid system influences our immune system , protects nerve cells from premature death , and influences mood , memory , appetite , sleep , sensation , and movement .",['MEDICAL_MARIJUANA'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"This example sentence would be coded with these labels: 
+
+* **HARM** (Implying legalization won't increase negative consequences)
+* **DRUG_POLICY** (The statement is directly about the policy of legalization) 
+
+
+Let me know if you have more sentences to code! 
+",gemma2:27b,2024-09-11T14:52:25.366012228Z,stop,1800268821,55626771,203,39475000,63,1611104000,Legalization wo n’t lead to increased use .,['COMMUNITY/SOCIATAL_EFFECTS'],2,"['DRUG_POLICY', 'HARM']"
+"DRUG_POLICY, ILLEGAL_TRADE 
+",gemma2:27b,2024-09-11T14:52:25.900959561Z,stop,445237856,55612130,229,60986000,12,285826000,By far the best option is to commit itself seriously to the federal approach and pursue a strategy that attempts to prevent illegal drug use in the first place and reduce the number of drug users .,['DRUG_POLICY'],2,"['DRUG_POLICY', 'ILLEGAL_TRADE']"
+"LEGAL_DRUGS, MEDICAL_MARIJUANA 
+",gemma2:27b,2024-09-11T14:52:26.540407413Z,stop,594182939,54986015,227,60059000,14,338152000,"Teen marijuana use has fallen slightly over the past five years , at a time when four states and the District of Columbia have legalized marijuana and 23 others allow medical use .","['CHILD_AND_TEEN_SAFETY', 'MEDICAL_MARIJUANA']",2,"['LEGAL_DRUGS', 'MEDICAL_MARIJUANA']"
+"HARM 
+ADDICTION 
+DRUG_ABUSE 
+",gemma2:27b,2024-09-11T14:52:27.135937008Z,stop,548615639,57446659,223,57890000,16,390696000,"The high itself does n’t inspire violence , and there is no real case to be made that smoking pot causes one to go on to worse crimes .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],3,"['DRUG_ABUSE', 'HARM', 'ADDICTION']"
+"DRUG_POLICY 
+
+**Explanation:**
+
+The sentence focuses on the approach towards addressing drug use, specifically advocating for targeting dealers instead of users. This aligns with the concept of drug policy.  
+
+
+Let me know if you have more sentences to code! I'm ready. 
+",gemma2:27b,2024-09-11T14:52:28.94939128Z,stop,1725889108,55435466,209,47083000,60,1536103000,Many people argue that only drug dealers should be fought and not the drug users themselves .,['ILLEGAL_TRADE'],1,['DRUG_POLICY']
+"Here's the coding for the provided sentence:
+
+* **GATEWAY_DRUG** 
+* **HARM** 
+* **COMMUNITY/SOCIATAL_EFFECTS**
+
+
+Let me explain why:
+
+* **GATEWAY_DRUG:** The sentence explicitly states that legalization could lead to people being introduced to ""heavier drugs"" after starting with marijuana, reflecting the gateway drug argument.
+* **HARM:**  The phrase ""increase societal and financial costs for treating"" implies potential negative consequences and harm associated with marijuana use.
+* **COMMUNITY/SOCIATAL_EFFECTS:** The mention of increased ""societal and financial costs"" points to broader impacts on society beyond individual users. 
+",gemma2:27b,2024-09-11T14:52:32.989109954Z,stop,4034792078,53232220,216,53020000,148,3840328000,"Legalization , then , could increase societal and financial costs for treating those who are introduced to heavier drugs by smoking marijuana .","['NATIONAL_BUDGET', 'GATEWAY_DRUG']",3,"['HARM', 'GATEWAY_DRUG', 'COMMUNITY/SOCIATAL_EFFECTS']"
+"HARM 
+HEALTH/PSYCHOLOGICAL_EFFECTS 
+",gemma2:27b,2024-09-11T14:52:33.572848192Z,stop,489061224,55602122,216,51552000,14,339204000,Medical researchers at Columbia University found that drivers who had used marijuana were more than twice as likely to have a car crash .,['DRUG_ABUSE'],2,"['HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"HARM, LEGAL_DRUGS, HEALTH/PSYCHOLOGICAL_EFFECTS 
+",gemma2:27b,2024-09-11T14:52:34.328972686Z,stop,711734101,59958204,249,74294000,18,444505000,"Borghesani added , “ What I think the archdiocese is missing is the terrible harm that ( marijuana ) prohibition has done to people of color , to people who have chosen a substance that is less dangerous than alcohol and have had their lives ruined because they ’ve been arrested . ”","['LEGAL_DRUGS', 'COMMUNITY/SOCIATAL_EFFECTS']",3,"['LEGAL_DRUGS', 'HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"HEALTH/PSYCHOLOGICAL_EFFECTS 
+",gemma2:27b,2024-09-11T14:52:34.75856425Z,stop,382926323,55814026,212,48299000,10,235017000,"Marijuana use is associated with cognitive difficulties and influences attention , concentration , and short-term memory .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"MEDICAL_MARIJUANA 
+",gemma2:27b,2024-09-11T14:52:35.165701336Z,stop,362201930,54273866,214,51361000,9,210289000,There have been a handful of polls over the last year and all of them show overwhelming support for medical marijuana .,['MEDICAL_MARIJUANA'],1,['MEDICAL_MARIJUANA']
+"HEALTH/PSYCHOLOGICAL_EFFECTS 
+HARM 
+",gemma2:27b,2024-09-11T14:52:35.692866859Z,stop,481512370,57584822,204,43559000,14,337922000,"In fact , compared to alcohol , marijuana is not safe .","['LEGAL_DRUGS', 'HARM']",2,"['HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"

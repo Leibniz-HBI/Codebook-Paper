@@ -1,0 +1,53 @@
+
+# The models must be pulled before using them. You can plug any ollama model, or create
+# Your own ollama models and run them from disk (see ollama docs for instructions)
+models:
+  - llama3.1:8b-instruct-fp16
+  - mistral:7b-instruct-v0.3-fp16
+  - gemma2:27b
+
+# change mode to example generation instead of prediction:
+# mode: icl_generation
+# check out the config in `experiments/generate_icl_codebook_CoT` for more information
+
+# how often experiments are run.
+number_of_runs: 3
+
+# Datasets can have many entries that all need the same fields
+datasets:
+  - name: marijuana_legalization # name for the results folder
+    path: datasets/AAC/marijuana_legalization_original_test.csv # path to the test file
+    columns: # classification needs text as input as well as labels. Put in the column index.
+      text: 0
+      label: 1
+    single_label: True # deprecated
+    label_list: True # whether the labels are provided as lists, needed for parsing and results creation
+    # the prefix is added in front of every text unit from the the test file and prompted to the LLM
+    prefix: |
+      You are a well-trained social scientist with a speciality for coding data for scientific research.
+      You have been handed the following markdown codebook as instructions to code example sentences for their aspects.
+      these are the labels for a  coding task regarding arguments in the debate about marijuana legalization:
+      LEGAL_DRUGS,
+      HEALTH/PSYCHOLOGICAL_EFFECTS,NATIONAL_BUDGET,
+      HARM,
+      MEDICAL_MARIJUANA,
+      GATEWAY_DRUG,
+      CHILD_AND_TEEN_SAFETY,
+      ADDICTION,
+      DRUG_ABUSE,
+      PERSONAL_FREEDOM,
+      ILLEGAL_TRADE,
+      COMMUNITY/SOCIATAL_EFFECTS,
+      DRUG_POLICY,
+      In some cases, more than one label applies.
+      Do not mention labels, that do not apply.
+      Assign one or more of the labels from the codebook to the following text:
+    # optional:
+    # add_icl_examples: 1 # how many In context learning examples per class are added to the prompt
+    # icl_path: datasets/AAC/mj_icl_sample.csv # path to a csv that has icl examples. can either be from datasets path, or from generated examples (see experiments folder)
+
+
+
+
+
+

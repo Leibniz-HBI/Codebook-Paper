@@ -1,0 +1,1319 @@
+response,model,created_at,done_reason,total_duration,load_duration,prompt_eval_count,prompt_eval_duration,eval_count,eval_duration,input_text,gold_label,label_count,mentioned_labels
+"After analyzing the text, I have assigned the following codes:
+
+* ECONOMIC_IMPACT (stimulates consumption and puts more money into the economy)
+* LOW-SKILLED (low-paid workers, implying a focus on the economic situation of low-skilled or low-wage workers)
+
+I did not assign any other labels because they do not directly relate to the content of the text. The mention of ""low paid workers"" is specific enough to imply a focus on the economic situation of low-skilled workers, but it does not necessarily evoke concerns about unemployment rates, turnover, youth and secondary wage earners, etc.
+
+However, I did consider assigning CAPITAL_VS_LABOR because the discussion of minimum wage often touches on the relationship between capital (employers) and labor (workers). However, in this specific text, the focus is more on the economic benefits for low-paid workers rather than a direct confrontation between capital and labor.",llama3.1:8b-instruct-fp16,2024-09-11T12:40:27.382364716Z,stop,4249706750,30018440,214,27674000,186,4060536000,Supporters of minimum wage also believe that a minimum wage stimulates consumption and thus puts more money into the economy by allowing low paid workers to spend more .,['ECONOMIC_IMPACT'],3,"['ECONOMIC_IMPACT', 'CAPITAL_VS_LABOR', 'LOW']"
+"Based on the provided codebook, I would assign the following labels to the text:
+
+* ECONOMIC_IMPACT
+* LABOR_MARKET_RIGIDITIES (not explicitly listed in the codebook, but implied by the concept of ""labor market rigidities"" which is closely related to the label UN/EMPLOYMENT_RATE)
+ 
+However, I will not include LABOR_MARKET_RIGIDITIES as an answer because it was not present in the original list.",llama3.1:8b-instruct-fp16,2024-09-11T12:40:29.702946292Z,stop,2275279704,69962961,227,28809000,98,2130877000,"Seth Zimmerman , PhD , Assistant Professor of Economics at the University of Chicago , stated : "" minimum wage laws can lead to labor market rigidities that make it more difficult for people to move up the economic ladder .",['MOTIVATION/CHANCES'],2,"['ECONOMIC_IMPACT', 'UN/EMPLOYMENT_RATE']"
+"Here are the assigned labels for the given text:
+
+* PRICES
+* LOW-SKILLED (inferred through mention of ""diners at McDonald's"" and ""shoppers at Walmart"", which suggests that the customers are likely to be low-skilled workers or members of low-income families)
+
+Note: I didn't assign any other label as the primary focus of the text seems to be on the relationship between labor costs, prices, and their impact on low-income individuals. However, it's possible to argue for a broader interpretation that also involves SOCIAL_JUSTICE/INJUSTICE (e.g., highlighting the burden of high prices on vulnerable populations), but I've kept the label selection more specific and focused on the primary themes presented in the text.",llama3.1:8b-instruct-fp16,2024-09-11T12:40:33.258285427Z,stop,3466754919,30700827,230,28979000,152,3318127000,"Discussing the fact that higher labor costs often cause higher prices , Christina writes “ Often , the customers paying those prices — including some of the diners at McDonald ’s and the shoppers at Walmart — have very low family incomes .",['PRICES'],3,"['PRICES', 'LOW', 'SOCIAL_JUSTICE/INJUSTICE']"
+"Based on the provided text, I would assign the following labels:
+
+* LOW-SKILLED: This label applies because the text mentions ""low-skill"" workers.
+* YOUTH_AND_SECONDARY_WAGE_EARNERS: This label also applies as it refers to younger workers.
+
+Both of these labels capture the economic implications of raising the minimum wage on specific groups, so I consider them relevant and applicable.",llama3.1:8b-instruct-fp16,2024-09-11T12:40:35.226022971Z,stop,1962997301,70599823,205,28846000,82,1774091000,-SKILLED Raising the wage will make it more expensive to hire younger and low-skill workers .,['LOW'],2,"['YOUTH_AND_SECONDARY_WAGE_EARNERS', 'LOW']"
+"Based on the provided markdown codebook, I would assign the following labels to the given text:
+
+* TURNOVER
+* ECONOMIC_IMPACT (specifically, the positive economic impact of higher productivity and customer satisfaction)
+
+The text suggests that a higher minimum wage could lead to lower employee turnover, which is a direct reference to the label ""TURNOVER"". Additionally, the potential benefits of increased productivity and customer satisfaction are related to the broader concept of ECONOMIC_IMPACT.",llama3.1:8b-instruct-fp16,2024-09-11T12:40:37.632025597Z,stop,2316316749,69967872,222,28554000,100,2173299000,"A 2014 survey found that 53 % of small business owners believed that "" with a higher minimum wage , businesses would benefit from lower employee turnover and increased productivity and customer satisfaction . ""","['TURNOVER', 'MOTIVATION/CHANCES']",2,"['ECONOMIC_IMPACT', 'TURNOVER']"
+"For the given sentence:
+
+""But no one argues that increasing the minimum wage increases the number of unemployed workers who find jobs.""
+
+I would assign the following label(s):
+
+* UN/EMPLOYMENT_RATE
+* ECONOMIC_IMPACT 
+
+This is because the sentence discusses the potential effect of increasing the minimum wage on unemployment rates, which falls under UN/EMPLOYMENT_RATE. Additionally, it touches upon a broader economic impact of raising the minimum wage, making ECONOMIC_IMPACT applicable as well.",llama3.1:8b-instruct-fp16,2024-09-11T12:40:40.010931679Z,stop,2331341245,70058805,203,28197000,101,2187322000,But no one argues that increasing the minimum wage increases the number of unemployed workers who find jobs .,['UN/EMPLOYMENT_RATE'],2,"['ECONOMIC_IMPACT', 'UN/EMPLOYMENT_RATE']"
+"Based on the provided markdown codebook, I would assign the following labels to the given text:
+
+* LOW-SKILLED
+* CAPITAL_VS_LABOR
+
+The text suggests that employers have been using undocumented immigrants to keep wages low, implying a focus on exploiting lower-skilled workers. Additionally, this action is an example of capital (employers) seeking to maintain power and control over labor (workers), which aligns with the CAPTIAL_VS_LABOR label.
+
+Note: The text also touches on GOVERNMENT (in the sense that employers are violating the law), but since it's not a central theme, I did not assign this label.",llama3.1:8b-instruct-fp16,2024-09-11T12:40:43.181590896Z,stop,3082134063,31119843,212,28647000,135,2934731000,"They 've been uusing undocumented immigrants for DECADES ( in violation of the law ) to keep wages down , and unions out .",['CAPITAL_VS_LABOR'],3,"['CAPITAL_VS_LABOR', 'LOW', 'GOVERNMENT']"
+"Based on the provided codebook, I would assign the following labels to the given text:
+
+None of the economic impact-related labels appear directly applicable in this context. The text discusses income inequality across OECD member countries, which does not explicitly address the economic impact of minimum wage.
+
+However, the label SOCIAL_JUSTICE/INJUSTICE seems relevant here because it touches on issues related to income distribution and inequality, which are often framed as a matter of social justice or injustice.
+
+Therefore, I would assign: 
+
+SOCIAL_JUSTICE/INJUSTICE",llama3.1:8b-instruct-fp16,2024-09-11T12:40:45.787993332Z,stop,2601392515,71024957,228,27534000,111,2413398000,"Among the 34 Organisation for Economic Cooperation and Development ( OECD ) member countries , the United States has one of the highest levels of income inequality , with only Chile , Mexico , and Turkey having higher levels of income inequality .",['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"Based on the provided markdown codebook, I would assign the following label(s) to the given text:
+
+* ECONOMIC_IMPACT
+
+This is because the sentence discusses how an increase in wages (funneled back into the economy) would have a positive impact on the economy as a whole.",llama3.1:8b-instruct-fp16,2024-09-11T12:40:47.340347511Z,stop,1464635304,77972039,212,28522000,61,1313718000,Of course that money that was paid in the form of higher wage would be funneled back into the economy which was improve the economy .,['ECONOMIC_IMPACT'],1,['ECONOMIC_IMPACT']
+"Based on the provided text, I would assign the label:
+
+WELFARE
+
+The reasoning behind this choice is that the text mentions ""actual dollars and cents"", implying a concern for the financial well-being of individuals who received the 10 percent raise. This suggests that the text is discussing the impact of the raise on welfare, specifically the financial situation of those affected.
+
+Note: I did not assign any other labels as they do not seem to apply directly to this specific text.",llama3.1:8b-instruct-fp16,2024-09-11T12:40:49.677578535Z,stop,2292602919,30051336,220,26943000,97,2104398000,"But the median raise for those lucky enough to get one was just 10 percent — which is to say , kind of a pittance , in terms of actual dollars and cents .",['SOCIAL_JUSTICE/INJUSTICE'],1,['WELFARE']
+"Based on the provided text, I would assign the following labels:
+
+* ECONOMIC_IMPACT: This label applies as the text discusses adjusting entire wage scales, indicating a potential economic impact.
+* WELFARE: This label also applies, as the discussion revolves around the potential benefits for workers (11.1 million people) who might benefit from increased wages.
+
+The other labels do not directly apply to this specific sentence.",llama3.1:8b-instruct-fp16,2024-09-11T12:40:51.736746569Z,stop,2013281840,74172174,215,27890000,86,1864799000,"( Another 11.1 million might theoretically benefit if companies adjusted their whole wage scales upwards , which is what the light blue section on the chart shows .",['SOCIAL_JUSTICE/INJUSTICE'],2,"['WELFARE', 'ECONOMIC_IMPACT']"
+"Based on the provided markdown codebook, I would assign the following labels:
+
+* GOVERNMENT (due to the mention of a ""nonprofit"" that is likely backed by businesses, implying some level of government influence or regulation)
+* WELFARE/SOCIAL_JUSTICE/INJUSTICE (as the text discusses the impact of minimum wage on poverty rates, which relates to welfare and social justice)
+
+Additionally, I would not assign ECONOMIC_IMPACT as a primary label, although it is indirectly mentioned. The main focus of the sentence appears to be on the effectiveness or ineffectiveness of increasing the minimum wage rather than its economic impact.
+
+The following labels are not applicable:
+
+* UN/EMPLOYMENT_RATE
+* TURNOVER
+* LOW-SKILLED
+* YOUTH_AND_SECONDARY_WAGE_EARNERS
+* CAPITAL_VS_LABOR
+* PRICES
+* COMPETITION/BUSINESS_CHALLENGES
+* MOTIVATION/CHANCES",llama3.1:8b-instruct-fp16,2024-09-11T12:40:56.354283697Z,stop,4570655542,77979654,212,28099000,202,4417883000,"Furthermore , increasing the minimum wage has not proven to be effective at lowering the poverty rate , according to the business-backed nonprofit Employment Policies Institute .",['SOCIAL_JUSTICE/INJUSTICE'],12,"['WELFARE', 'ECONOMIC_IMPACT', 'COMPETITION/BUSINESS_CHALLENGES', 'PRICES', 'TURNOVER', 'YOUTH_AND_SECONDARY_WAGE_EARNERS', 'MOTIVATION/CHANCES', 'UN/EMPLOYMENT_RATE', 'CAPITAL_VS_LABOR', 'LOW', 'SOCIAL_JUSTICE/INJUSTICE', 'GOVERNMENT']"
+"Based on the provided codebook, I would assign the following label(s) to the given text:
+
+* UN/EMPLOYMENT_RATE
+* ECONOMIC_IMPACT (in the context of employment rate)
+
+The text suggests that there is no significant impact of minimum wage on unemployment rates, which aligns with the first label. The phrase ""economic impact"" can be inferred as it pertains to the effects of minimum wage on employment, making it a relevant label.
+
+I did not assign other labels such as SOCIAL_JUSTICE/INJUSTICE or GOVERNMENT, as they are not directly mentioned in the text and do not seem to apply.",llama3.1:8b-instruct-fp16,2024-09-11T12:40:59.463581936Z,stop,3019922823,31712756,203,27778000,132,2872575000,"The authors found "" little or no evidence of a negative association between minimum wages and employment . """,['UN/EMPLOYMENT_RATE'],4,"['ECONOMIC_IMPACT', 'UN/EMPLOYMENT_RATE', 'SOCIAL_JUSTICE/INJUSTICE', 'GOVERNMENT']"
+"Based on the provided markdown codebook and the example sentence:
+
+""Another casualty here could be worker benefits, such as paid vacation, reimbursed parking, or even gym memberships.""
+
+I would assign the following labels:
+
+* LOW-SKILLED (assuming ""worker benefits"" implies low-skilled workers)
+* WELFARE (since these benefits can be considered part of a broader welfare system for employees)
+
+Note that I did not consider other labels like ECONOMIC_IMPACT, as it is too broad and does not specifically relate to the context of worker benefits.",llama3.1:8b-instruct-fp16,2024-09-11T12:41:02.10579597Z,stop,2637659258,73468033,206,27260000,113,2447551000,"Another casualty here could be worker benefits , such as paid vacation , reimbursed parking , or even gym memberships .",['MOTIVATION/CHANCES'],3,"['WELFARE', 'ECONOMIC_IMPACT', 'LOW']"
+"After analyzing the given sentence, I would assign the following codes:
+
+* SOCIAL_JUSTICE/INJUSTICE
+* WELFARE 
+
+This is because the sentence suggests a shift in focus towards supporting individuals and families, implying an effort to address social injustices or promote social welfare.",llama3.1:8b-instruct-fp16,2024-09-11T12:41:03.612421151Z,stop,1416723427,73960102,203,28097000,59,1270162000,"Over time , the focus changed to helping people , especially families , become more self-sufficient .",['SOCIAL_JUSTICE/INJUSTICE'],2,"['WELFARE', 'SOCIAL_JUSTICE/INJUSTICE']"
+"Based on the provided text and the codebook, I would assign the following labels:
+
+* UN/EMPLOYMENT_RATE
+* ECONOMIC_IMPACT 
+
+The text suggests that an increase in the minimum wage may lead to a decrease in employment rates (UN/EMPLOYMENT_RATE), which is an economic impact (ECONOMIC_IMPACT).",llama3.1:8b-instruct-fp16,2024-09-11T12:41:05.341952942Z,stop,1681497527,73173829,206,28706000,71,1532805000,"According to the Econ 101 model of the world , increasing the minimum wage should cost some people their jobs .",['UN/EMPLOYMENT_RATE'],2,"['ECONOMIC_IMPACT', 'UN/EMPLOYMENT_RATE']"
+"After carefully examining the text, I assign the following labels:
+
+* LOW-SKILLED: This label applies because the text references the 1968 minimum wage, which is likely being used to make a point about how wages for low-skilled workers have changed over time.
+
+Note that I did not assign any other labels as they do not seem to apply directly to the text. The text does not explicitly mention economic impact, unemployment rate, turnover, youth and secondary wage earners, capital vs labor, social justice/injustice, prices, welfare, government, competition/business challenges, or motivation/chances.",llama3.1:8b-instruct-fp16,2024-09-11T12:41:08.194884432Z,stop,2763172654,36177728,215,28601000,120,2612001000,"The 1968 minimum wage , to take a high-water mark , was , in real 2014 dollars , $ 10.95 an hour .",['SOCIAL_JUSTICE/INJUSTICE'],1,['LOW']
+"Based on the provided text, I would assign the following labels:
+
+* ECONOMIC_IMPACT
+* PRICES 
+
+These two labels apply as the text discusses how large companies' profit margins might be affected by a wage increase, and whether or not they would need to pass these costs on to consumers in the form of higher prices.",llama3.1:8b-instruct-fp16,2024-09-11T12:41:09.853829585Z,stop,1654211432,70009594,209,27931000,68,1466867000,The profit margins that these large companies experience can easily withstand an increase in wages without having to pass it on to the consumer .,"['COMPETITION/BUSINESS_CHALLENGES', 'PRICES']",2,"['ECONOMIC_IMPACT', 'PRICES']"
+"After carefully examining the text, I would assign the following codes:
+
+* LOW-SKILLED: This label applies because the text implies that low-skilled workers are likely to be affected by the debate around minimum wage.
+* ECONOMIC_IMPACT: The text mentions a negative association between minimum wages and employment, which is an economic impact related to the policy.
+
+I do not assign any other labels as they are not directly relevant to this specific sentence.",llama3.1:8b-instruct-fp16,2024-09-11T12:41:12.027226729Z,stop,2127523712,77885313,213,28503000,91,1974391000,"Moreover , they concluded , "" Once this publication selection is corrected , little or no evidence of a negative association between minimum wages and employment remains . """,['UN/EMPLOYMENT_RATE'],2,"['ECONOMIC_IMPACT', 'LOW']"
+"Based on the provided text, I will assign the following labels:
+
+* PRICES
+* CAPITAL_VS_LABOR (as the cost increase is likely to be passed on to consumers, implying a shift from labor costs to capital costs)
+
+These two labels capture the main idea of the text, which is that employers may respond to the minimum wage hike by raising prices.",llama3.1:8b-instruct-fp16,2024-09-11T12:41:13.884931738Z,stop,1769489509,29994795,209,29064000,75,1621639000,And 62 percent of Seattle employers responded in an initial survey before the wage hike took effect that they would likely raise prices .,['PRICES'],2,"['PRICES', 'CAPITAL_VS_LABOR']"
+"After analyzing the given sentence, I would assign the following labels:
+
+* ECONOMIC_IMPACT: The text mentions a specific economic phenomenon (decrease in the inflation-adjusted value of the minimum wage) as a contributor to social inequality.
+* SOCIAL_JUSTICE/INJUSTICE: The text implies that the economic phenomenon mentioned has led to high levels of inequality, which can be seen as an issue of social justice/injustice.
+
+No other labels seem directly applicable based on this sentence.",llama3.1:8b-instruct-fp16,2024-09-11T12:41:16.228934387Z,stop,2339498066,72188500,222,27205000,99,2150706000,A 2015 study found that the decrease in the inflation-adjusted value of the minimum wage since the 1980s has been a contributor to America 's high levels of inequality .,['SOCIAL_JUSTICE/INJUSTICE'],2,"['ECONOMIC_IMPACT', 'SOCIAL_JUSTICE/INJUSTICE']"
+"After reviewing the text, I have assigned the following codes:
+
+* PRICES
+* ECONOMIC_IMPACT
+
+The text suggests that raising room rates is a potential economic impact of the minimum wage debate. This implies an effect on prices.",llama3.1:8b-instruct-fp16,2024-09-11T12:41:17.509748806Z,stop,1194074412,69966504,212,28502000,49,1051040000,"And nearly 90 percent of franchised hotels said they would raise room rates , compared with 70 percent of nonfranchised hotels .","['COMPETITION/BUSINESS_CHALLENGES', 'PRICES']",2,"['ECONOMIC_IMPACT', 'PRICES']"
+"Based on the provided codebook and example sentence, I would assign the following labels:
+
+* SOCIAL_JUSTICE/INJUSTICE
+* LOW-SKILLED (presumably referring to low-skilled workers who earn inadequate wages)
+
+The sentence highlights a concern about the fairness of current wage levels, suggesting that they are insufficient for individuals. This aligns with the themes of social justice/injustice and the struggles faced by low-skilled workers.",llama3.1:8b-instruct-fp16,2024-09-11T12:41:19.680914193Z,stop,2123648456,33098763,192,26850000,89,1926816000,Their present wages are hopelessly inadequate .,['SOCIAL_JUSTICE/INJUSTICE'],2,"['LOW', 'SOCIAL_JUSTICE/INJUSTICE']"
+"After analyzing the provided text, I have assigned the following codes:
+
+* **SOCIAL_JUSTICE/INJUSTICE**: This label applies as the text implies that raising the minimum wage is necessary to ensure that low-wage workers can afford a standard of living ""commensurate with the current economy"", suggesting an issue of social injustice.
+* **LOW-SKILLED**: This label applies as the text specifically mentions ""low-wage workers"", indicating that they are likely individuals in low-skilled jobs.
+
+These codes reflect the themes of fairness and equity, as well as the specific focus on the impact on low-skilled workers.",llama3.1:8b-instruct-fp16,2024-09-11T12:41:22.597825995Z,stop,2869857155,73647329,214,28001000,125,2721535000,Raising the minimum wage and indexing it to inflation would ensure that low-wage workers could adopt a standard of living commensurate with the current economy .,['SOCIAL_JUSTICE/INJUSTICE'],2,"['LOW', 'SOCIAL_JUSTICE/INJUSTICE']"
+"Based on the provided codebook, I would assign the following labels to the given text:
+
+* ECONOMIC_IMPACT: This label applies as the text discusses how a higher minimum wage might affect the labor market and the availability of entry-level jobs.
+* YOUTH_AND_SECONDARY_WAGE_EARNERS: This label is relevant because the text specifically mentions young people and those with limited work experience, who are likely to be youth or secondary wage earners.
+
+The other labels do not appear to apply in this case.",llama3.1:8b-instruct-fp16,2024-09-11T12:41:25.096303131Z,stop,2408714529,31688195,223,28461000,104,2260638000,"-SKILLED • The possibility that a higher minimum wage would attract more experienced workers and keep them in lower-wage jobs longer , blocking young people or people with limited work experience from entry-level jobs .","['LOW', 'MOTIVATION/CHANCES']",2,"['ECONOMIC_IMPACT', 'YOUTH_AND_SECONDARY_WAGE_EARNERS']"
+"Based on the provided text, I would assign the following codes:
+
+* YOUTH_AND_SECONDARY_WAGE_EARNERS (part-time workers are often a category that includes youth and secondary wage earners)
+* COMPETITION/BUSINESS_CHALLENGES (giving part-time workers full-time opportunities could be seen as a business strategy to reduce costs and increase efficiency, thereby gaining a competitive advantage)",llama3.1:8b-instruct-fp16,2024-09-11T12:41:27.01776312Z,stop,1917046769,72899999,210,27511000,80,1726991000,Part-time workers making minimum wage could be given full-time opportunity to help save an employer the cost of hiring and training new employees .,"['TURNOVER', 'MOTIVATION/CHANCES']",2,"['COMPETITION/BUSINESS_CHALLENGES', 'YOUTH_AND_SECONDARY_WAGE_EARNERS']"
+"After carefully reading the sentence, I would assign the label **SOCIAL_JUSTICE/INJUSTICE**. The tone of the sentence suggests a sense of frustration and empathy for those struggling to make ends meet, implying that there is an issue with social justice or fairness in the system.",llama3.1:8b-instruct-fp16,2024-09-11T12:41:28.519661179Z,stop,1412371261,70317506,200,27788000,59,1269776000,""" Why ca n't they just figure it out and make ends meet ? """,['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"Based on the provided codebook, I would assign the label PRICES to this text.
+
+The reasoning is that the text discusses how the federal minimum wage lost purchasing power due to inflation, which directly relates to changes in prices. This suggests a focus on economic impacts and the effects of price fluctuations on the minimum wage. 
+
+No other labels from the codebook appear to be relevant to this specific text.",llama3.1:8b-instruct-fp16,2024-09-11T12:41:30.467460432Z,stop,1899331207,73473144,219,28550000,81,1751500000,"Between July 2015 and the last increase in the minimum wage in 2009 , the federal minimum wage lost 8.1 % of its purchasing power to inflation .",['SOCIAL_JUSTICE/INJUSTICE'],1,['PRICES']
+"After analyzing the given text, I would assign the following labels:
+
+* ECONOMIC_IMPACT: This label applies because the text mentions a potential negative impact on ""economic prospects"".
+* LOW-SKILLED: This label is relevant as the text implies that the vulnerable people who will be affected are likely low-skilled workers.
+* SOCIAL_JUSTICE/INJUSTICE: Although not explicitly stated, this label seems to be implied in the context of protecting ""vulnerable"" people from economic harm.
+
+I have not assigned any other labels because they do not seem to directly apply to the given text.",llama3.1:8b-instruct-fp16,2024-09-11T12:41:33.335364571Z,stop,2779758602,30002180,211,28099000,121,2632108000,I can think of only one good reason : that increasing the minimum wage so dramatically will damage the economic prospects of millions of vulnerable people .,"['COMPETITION/BUSINESS_CHALLENGES', 'UN/EMPLOYMENT_RATE']",3,"['ECONOMIC_IMPACT', 'LOW', 'SOCIAL_JUSTICE/INJUSTICE']"
+"Based on the provided text, I would assign the following labels:
+
+* WELFARE: The text mentions that workers need a certain hourly wage to be able to afford rent, which is related to their welfare and living standards.
+* GOVERNMENT: The mention of federal minimum wage implies government involvement in setting labor laws and regulations.
+* PRICES: The text discusses the affordability of renting apartments and how it relates to wages, indicating that prices are a relevant factor.
+
+Note that I did not assign ECONOMIC_IMPACT as it is a more general label, and while it could be argued that the text implies some economic impact, the other labels mentioned above seem to capture more specific aspects related to the issue of minimum wage.",llama3.1:8b-instruct-fp16,2024-09-11T12:41:36.740585278Z,stop,3400717484,69747084,259,31845000,147,3209719000,"According to a 2015 report from the National Low Income Housing Coalition , a worker must earn at least $ 15.50 an hour ( over twice the federal minimum wage ) to be able to afford to rent a "" modest "" one-bedroom apartment , and $ 19.35 for a two-bedroom unit ( more than 2.5 times the minimum wage ) .",['SOCIAL_JUSTICE/INJUSTICE'],4,"['WELFARE', 'ECONOMIC_IMPACT', 'PRICES', 'GOVERNMENT']"
+"Based on the provided text, I would assign the following labels:
+
+* SOCIAL_JUSTICE/INJUSTICE
+* LOW-SKILLED (implied by ""labor"", which likely refers to low-skilled workers)
+* WELFARE (the right to a living wage is a welfare concern)
+
+These labels are based on my interpretation of the text as advocating for labor rights and social justice, with a focus on ensuring that low-skilled workers have access to a fair wage.",llama3.1:8b-instruct-fp16,2024-09-11T12:41:39.128699322Z,stop,2301105728,74043766,228,29000000,99,2153481000,"In 1940 , US Catholic Bishops stated : "" The first claims of labor , WHICH TAKES PRIORITY OVER ANY CLAIMS OF THE OWNERS TO PROFITS , respects the right to a living wage . """,['SOCIAL_JUSTICE/INJUSTICE'],3,"['WELFARE', 'LOW', 'SOCIAL_JUSTICE/INJUSTICE']"
+"After carefully examining the text, I would assign the following labels:
+
+* WELFARE: This label applies as the text mentions ""pay the bills"", indicating that minimum wage work is essential for household welfare.
+* YOUTH_AND_SECONDARY_WAGE_EARNERS: This label also applies as the text describes households relying on full-time minimum-wage work, which often involves younger or secondary wage earners.
+
+These labels capture the aspect of economic necessity and the vulnerability of certain groups (youth and secondary wage earners) who may be disproportionately affected by minimum wage policies.",llama3.1:8b-instruct-fp16,2024-09-11T12:41:41.82076388Z,stop,2647177863,30083198,217,26694000,113,2455085000,"In other words , minimum-wage work is n’t just supplemental ; many households are relying either fully or substantially on full-time , minimum-wage work to pay the bills .",['YOUTH_AND_SECONDARY_WAGE_EARNERS'],2,"['WELFARE', 'YOUTH_AND_SECONDARY_WAGE_EARNERS']"
+"Based on the provided codebook, I would assign the following labels:
+
+* ECONOMIC_IMPACT: This label is relevant as the text mentions that increasing the federal minimum wage will have a negative impact on the economy.
+* TURNOVER: The text implies that small businesses may not be able to afford to increase wages for all workers, which could lead to business closures or reduced operations (i.e., turnover).
+* CAPITAL_VS_LABOR: This label is relevant as the text suggests that increasing labor costs (wages) will put pressure on businesses' ability to maintain profitability and compete in the market.
+
+These labels capture the main themes and concerns expressed in the text, which relate to the potential economic consequences of raising the minimum wage.",llama3.1:8b-instruct-fp16,2024-09-11T12:41:45.309127223Z,stop,3441747654,74252488,222,27427000,151,3293416000,"Some argue that by increasing the federal minimum wage , however , the economy will be adversely affected due to small businesses not being able to keep up with the need to subsequently increase all workers wages .","['COMPETITION/BUSINESS_CHALLENGES', 'ECONOMIC_IMPACT']",3,"['ECONOMIC_IMPACT', 'TURNOVER', 'CAPITAL_VS_LABOR']"
+"Based on the provided codebook, I would assign the following labels:
+
+* GOVERNMENT: This label applies as the text mentions ""government's books"" and the implication that raising the minimum wage does not increase direct government expenses.
+* COMPETITION/BUSINESS_CHALLENGES: Although subtle, the text suggests a comparison between different policy solutions (tax credit vs. minimum wage) in terms of their political feasibility, which might be related to competition or business challenges.
+
+No other labels seem to directly apply based on this specific text snippet.",llama3.1:8b-instruct-fp16,2024-09-11T12:41:47.913701826Z,stop,2514271104,31904293,222,27405000,109,2368069000,"A tax credit is less politically palatable because it takes money directly out of federal coffers , while the minimum wage can be raised without it showing up directly on the government ’s books .",['WELFARE'],2,"['COMPETITION/BUSINESS_CHALLENGES', 'GOVERNMENT']"
+"Based on the provided codebook and the given sentence, I would assign the following labels:
+
+* TURNOVER
+* CAPITAL_VS_LABOR",llama3.1:8b-instruct-fp16,2024-09-11T12:41:48.787478036Z,stop,869300909,75459741,202,26855000,32,676834000,"In other words , one theory holds that increasing the minimum wage forces businesses to get thinner .","['COMPETITION/BUSINESS_CHALLENGES', 'UN/EMPLOYMENT_RATE']",2,"['TURNOVER', 'CAPITAL_VS_LABOR']"
+"Based on the provided markdown codebook, I would assign the following labels to the given sentence:
+
+* YOUTH_AND_SECONDARY_WAGE_EARNERS: Although not explicitly mentioned in the text, this label is related to low-skilled workers. Since the minimum wage benefits low-skilled workers, it can be inferred that it also benefits youth and secondary wage earners.
+* SOCIAL_JUSTICE/INJUSTICE: The sentence implies that a minimum wage promotes fairness and justice for low-skilled workers by ensuring they receive a guaranteed minimum amount of pay.
+* ECONOMIC_IMPACT: A minimum wage has economic implications, including potentially affecting employment rates or business costs.
+
+Note that I did not assign the label LOW-SKILLED as it is already implied in the sentence.",llama3.1:8b-instruct-fp16,2024-09-11T12:41:52.395389582Z,stop,3519704106,69955319,211,27944000,155,3377300000,A minimum wage ensures low-skilled workers that they will be paid a guaranteed minimum and encourages them to find work and provide for themselves .,"['SOCIAL_JUSTICE/INJUSTICE', 'MOTIVATION/CHANCES']",4,"['ECONOMIC_IMPACT', 'YOUTH_AND_SECONDARY_WAGE_EARNERS', 'LOW', 'SOCIAL_JUSTICE/INJUSTICE']"
+"After carefully reading the provided sentence, I would assign the following labels:
+
+* SOCIAL_JUSTICE/INJUSTICE: This label applies as the proponents are arguing that increasing the minimum wage is a fair thing to do for American workers, implying an argument about fairness and justice.
+* GOVERNMENT: This label is applicable since the text mentions ""removing future increases from the realm of politics"", which indicates government involvement in setting policies related to the minimum wage.
+
+Let me know if I'm correct!",llama3.1:8b-instruct-fp16,2024-09-11T12:41:54.827623474Z,stop,2386033322,33796091,224,27233000,101,2194173000,"Proponents of an increase argue that the fair thing to do for American workers is to increase the minimum wage and , ideally , tie it to inflation , thus removing future increases from the realm of politics .",['SOCIAL_JUSTICE/INJUSTICE'],2,"['SOCIAL_JUSTICE/INJUSTICE', 'GOVERNMENT']"
+"After analyzing the given text, I have assigned the following labels:
+
+* PRICES: This label applies as the text mentions that the minimum wage hasn't kept up with inflation, which is a price-related issue.
+* ECONOMIC_IMPACT: This label also applies as the text implies that the minimum wage has had an economic impact by not keeping pace with inflation.
+
+These two labels capture the essence of the argument presented in the text.",llama3.1:8b-instruct-fp16,2024-09-11T12:41:56.923273756Z,stop,2047514253,69876160,202,27095000,88,1903961000,"No matter how you slice it , the minimum wage has n’t kept up with inflation .",['SOCIAL_JUSTICE/INJUSTICE'],2,"['ECONOMIC_IMPACT', 'PRICES']"
+"Based on the provided markdown codebook and the example sentence, I would assign the following codes:
+
+* UN/EMPLOYMENT_RATE
+* ECONOMIC_IMPACT
+
+The text suggests that economists were worried about the potential negative impact of minimum wage on employment rates. The economic implications are also relevant as it implies a consideration of how the policy might affect the economy.
+
+Note: The label YOUTH_AND_SECONDARY_WAGE_EARNERS could be considered as potentially applicable, but given the general nature of the statement and the focus on economists' skepticism, I did not include it in my selection.",llama3.1:8b-instruct-fp16,2024-09-11T12:41:59.736581078Z,stop,2764895228,77929200,202,27504000,120,2609664000,"Historically , economists ' scepticism was rooted in the worry that wage floors reduce employment .",['UN/EMPLOYMENT_RATE'],3,"['ECONOMIC_IMPACT', 'YOUTH_AND_SECONDARY_WAGE_EARNERS', 'UN/EMPLOYMENT_RATE']"
+"Based on the provided markdown codebook, I would assign the following codes:
+
+* CAPITAL_VS_LABOR
+* COMPETITION/BUSINESS_CHALLENGES 
+* GOVERNMENT 
+
+These labels seem to be most relevant because they refer to the interests of corporate America and retailers/ fast-food restaurants which oppose an increase in minimum wage. This implies a conflict between capital (interests of corporate America) and labor, as well as business challenges and government policies affecting these businesses.",llama3.1:8b-instruct-fp16,2024-09-11T12:42:02.094857065Z,stop,2270839990,30220136,207,29236000,98,2123428000,But those predisposed to defending the interests of corporate America – including retailers and fast-food restaurants – oppose any increase .,"['COMPETITION/BUSINESS_CHALLENGES', 'CAPITAL_VS_LABOR']",3,"['COMPETITION/BUSINESS_CHALLENGES', 'CAPITAL_VS_LABOR', 'GOVERNMENT']"
+"After analyzing the provided sentence, I would assign the following codes:
+
+* TURNOVER: This label applies as the sentence explicitly mentions ""high employee turnover"" and its associated costs.
+* CAPITAL_VS_LABOR: While not directly stated, the context implies a trade-off between labor costs (associated with high turnover) and capital investments (e.g., time and money spent on recruiting and training new workers).",llama3.1:8b-instruct-fp16,2024-09-11T12:42:04.11039498Z,stop,2011146849,74376114,199,27905000,84,1818746000,High employee turnover costs businesses time and money in recruiting and training new workers .,"['COMPETITION/BUSINESS_CHALLENGES', 'TURNOVER']",2,"['TURNOVER', 'CAPITAL_VS_LABOR']"
+"Based on the provided codebook and the example sentence, I would assign the following codes:
+
+* PRICES: The text mentions ""costs of living"", which relates to prices.
+* WELFARE: The mention of ending up ""right back where we started"" implies a concern about people's overall well-being or standard of living, which is related to welfare.
+
+These two labels seem to be the most relevant to the given sentence.",llama3.1:8b-instruct-fp16,2024-09-11T12:42:06.270004047Z,stop,2070362781,70001926,204,28114000,89,1927704000,"Overall , if costs of living go up , then we may end up right back where we started .",['PRICES'],2,"['WELFARE', 'PRICES']"
+"Based on the provided markdown codebook, I assign the following labels to the given text:
+
+* PRICES
+* ECONOMIC_IMPACT
+* COMPETITION/BUSINESS_CHALLENGES
+
+These labels seem to be applicable as the text mentions that fast-food restaurants would pass on increased labor costs to consumers (prices), which is an economic impact. Additionally, this situation could lead to business challenges for firms that may struggle with increased costs.",llama3.1:8b-instruct-fp16,2024-09-11T12:42:08.466215094Z,stop,2148852359,32590717,232,29142000,90,1954934000,"A 2013 article by the Federal Reserve Bank of Chicago stated that if the minimum wage is increased , fast-food restaurants would pass on almost 100 % of their increased labor costs on to consumers and that other firms may do the same .",['PRICES'],3,"['ECONOMIC_IMPACT', 'COMPETITION/BUSINESS_CHALLENGES', 'PRICES']"
+"Based on the provided text, I would assign the following labels:
+
+* ECONOMIC_IMPACT: The text mentions that the cost of the minimum wage hike will be passed on to consumers in the form of higher prices, which indicates an economic impact.
+* PRICES: This label is directly mentioned in the text as a consequence of the minimum wage hike.
+* COMPETITION/BUSINESS_CHALLENGES: Raising wages may lead to increased costs for businesses, potentially affecting their competitiveness and business challenges.",llama3.1:8b-instruct-fp16,2024-09-11T12:42:10.874924711Z,stop,2363133627,73838503,230,28064000,102,2214469000,"In Mississippi , by contrast , many employers will have to raise their wages , and it ’s a safe bet that virtually all of the cost of this minimum wage hike will be passed on to consumers in the form of higher prices .",['PRICES'],3,"['ECONOMIC_IMPACT', 'COMPETITION/BUSINESS_CHALLENGES', 'PRICES']"
+"Based on the provided codebook, I would assign the following labels to the given text:
+
+* LOW-SKILLED (as the text mentions ""making as little as $9/hour"", implying that the individuals in question may be in low-skilled jobs)
+* YOUTH_AND_SECONDARY_WAGE_EARNERS (since 9 million people making as little as $9/hour likely includes many young or secondary wage earners who are not at a higher skill level)
+
+I would not assign any other labels, as the text does not explicitly mention unemployment rates, economic impact, prices, welfare, government policies, competition/business challenges, social justice/injustice, turnover, capital vs labor, motivation/chances, or ECONOMIC_IMPACT in relation to the wage increases.",llama3.1:8b-instruct-fp16,2024-09-11T12:42:14.487898653Z,stop,3523847495,30035096,215,27463000,155,3378254000,"With an estimated 9 million people making as little as $ 9/hour in these two states , the immediate effects of the wage increases are undeniable .",['SOCIAL_JUSTICE/INJUSTICE'],3,"['ECONOMIC_IMPACT', 'YOUTH_AND_SECONDARY_WAGE_EARNERS', 'LOW']"
+"Based on the provided markdown codebook, I would assign the following labels to the given sentence:
+
+* ECONOMIC_IMPACT
+* LOW-SKILLED
+* UN/EMPLOYMENT_RATE 
+
+These labels apply because the text discusses potential economic consequences (ECONOMIC_IMPACT) of increasing the minimum wage, specifically mentioning unskilled workers being affected (LOW-SKILLED). Additionally, it implies that some employees might be squeezed out of the job market due to this effect (UN/EMPLOYMENT_RATE).
+
+No other labels from the codebook seem to fit as well.",llama3.1:8b-instruct-fp16,2024-09-11T12:42:17.250606715Z,stop,2758128349,73149466,223,27540000,118,2568048000,"-SKILLED If the minimum wage is increased , employers might not want to invest as much money in unskilled workers , which can lead to those employees being squeezed out of the job market .","['LOW', 'UN/EMPLOYMENT_RATE']",3,"['ECONOMIC_IMPACT', 'UN/EMPLOYMENT_RATE', 'LOW']"
+"After analyzing the sentence, I assigned the following labels:
+
+* UN/EMPLOYMENT_RATE: This label applies as the speaker suggests they wouldn't have been able to get jobs at a high minimum wage, implying that raising the minimum wage might lead to higher unemployment.
+
+I did not assign any other labels from the codebook as they do not seem to directly relate to the sentiment and argument presented in the sentence.",llama3.1:8b-instruct-fp16,2024-09-11T12:42:19.283100207Z,stop,1943389783,73935954,204,28083000,83,1796812000,But I would not have gotten those jobs if someone had to pay me a large amount of money .,['MOTIVATION/CHANCES'],1,['UN/EMPLOYMENT_RATE']
+"After analyzing the sentence, I would assign the following labels:
+
+* CAPITAL_VS_LABOR: This label applies because the sentence mentions mutually advantageous, voluntary labor agreements between employers and employees. This implies a conflict or trade-off between capital (employers) and labor (employees).
+* ECONOMIC_IMPACT: The sentence suggests that minimum wage laws have an economic impact on labor agreements between employers and employees.
+* GOVERNMENT: Although not explicitly stated, the mention of ""minimum wage laws"" implies government intervention in the labor market.
+
+These labels capture the main ideas presented in the sentence.",llama3.1:8b-instruct-fp16,2024-09-11T12:42:22.12662759Z,stop,2797428980,30137656,202,27882000,120,2608579000,"Minimum wage laws prevent mutually advantageous , voluntary labor agreements between employers and employees from taking place .",['GOVERNMENT'],3,"['ECONOMIC_IMPACT', 'CAPITAL_VS_LABOR', 'GOVERNMENT']"
+"Based on the provided codebook, I would assign the following labels to the given sentence:
+
+* ECONOMIC_IMPACT
+* PRICES
+
+The sentence suggests that raising the minimum wage could lead to an economic impact (ECONOMIC_IMPACT) by increasing the cost of products. This, in turn, would likely result in higher prices for consumers (PRICES). 
+
+Note: I have only assigned labels that are relevant and applicable based on the given codebook.",llama3.1:8b-instruct-fp16,2024-09-11T12:42:24.375095385Z,stop,2203485188,74012266,195,27234000,95,2056244000,Raising minimum wage can increase the cost of product .,['PRICES'],2,"['ECONOMIC_IMPACT', 'PRICES']"
+"Based on the provided markdown codebook, I would assign the following labels to the text:
+
+* GOVERNMENT: This is because Robert Dresser is addressing Congressmen, indicating a government-related context.
+* CAPITAL_VS_LABOR: As a representative of the National Association of Manufacturers (an organization that likely represents business interests), Dresser's statement can be seen as advocating for capital over labor, highlighting the tension between these two groups.
+
+No other labels from the codebook seem to apply directly to this text.",llama3.1:8b-instruct-fp16,2024-09-11T12:42:26.873175208Z,stop,2409368093,30421352,231,29129000,104,2261836000,"As Robert Dresser of the National Association of Manufacturers ( NAM ) — an anti-union organization of assorted businesses that fought various New Deal laws — told the congressmen : "" you can not legislate a nation into prosperity . ""","['GOVERNMENT', 'CAPITAL_VS_LABOR']",2,"['CAPITAL_VS_LABOR', 'GOVERNMENT']"
+"After analyzing the sentence, I would assign the following labels:
+
+* ECONOMIC_IMPACT: This label applies as the sentence mentions that workers can make more money, implying a positive economic impact.
+* TURNOVER: This label also applies as the sentence suggests that with higher wages, fewer people are likely to quit (i.e., turnover rate decreases).
+ 
+
+The following labels do not apply:
+UN/EMPLOYMENT_RATE
+LOW-SKILLED
+YOUTH_AND_SECONDARY_WAGE_EARNERS
+CAPITAL_VS_LABOR
+SOCIAL_JUSTICE/INJUSTICE
+PRICES
+WELFARE
+GOVERNMENT
+COMPETITION/BUSINESS_CHALLENGES
+MOTIVATION/CHANCES",llama3.1:8b-instruct-fp16,2024-09-11T12:42:30.346681569Z,stop,3468495005,71432164,200,26533000,151,3281176000,This important because they can make more money because less people are likely to quit .,['TURNOVER'],12,"['WELFARE', 'ECONOMIC_IMPACT', 'COMPETITION/BUSINESS_CHALLENGES', 'PRICES', 'TURNOVER', 'YOUTH_AND_SECONDARY_WAGE_EARNERS', 'MOTIVATION/CHANCES', 'UN/EMPLOYMENT_RATE', 'CAPITAL_VS_LABOR', 'LOW', 'SOCIAL_JUSTICE/INJUSTICE', 'GOVERNMENT']"
+"Based on the provided markdown codebook, I would assign the following codes to the given sentence:
+
+* COMPETITION/BUSINESS_CHALLENGES
+* CAPITAL_VS_LABOR
+
+The sentence suggests that the speaker believes the economy is functioning properly through private industry and the free market, implying a perspective of competition between businesses. Additionally, it implies a focus on capital (private industry) versus labor (minimum wage earners), highlighting a key aspect of the debate about minimum wage.",llama3.1:8b-instruct-fp16,2024-09-11T12:42:32.688976497Z,stop,2253138889,77779267,197,27628000,97,2103182000,Private industry and the free market are already taking care of it .,['GOVERNMENT'],2,"['COMPETITION/BUSINESS_CHALLENGES', 'CAPITAL_VS_LABOR']"
+"Based on the provided markdown codebook, I would assign the following labels to the given text:
+
+* GOVERNMENT (as it mentions a federal policy decision)
+* COMPETITION/BUSINESS_CHALLENGES (as Jamie Richardson is expressing potential negative consequences for his business)
+* TURNOVER (implied by the statement that the company would have to close ""almost half its stores"" and let go of workers)
+
+These labels capture the key aspects mentioned in the text: the government's proposed policy change, the potential economic challenges faced by businesses like White Castle, and the predicted outcome of increased labor costs on store operations.",llama3.1:8b-instruct-fp16,2024-09-11T12:42:35.65418756Z,stop,2918542821,73981939,229,28898000,127,2769771000,"Jamie Richardson , MBA , Vice President of fast food chain White Castle , said that the company would be forced to close almost half its stores and let go thousands of workers if the federal minimum wage were raised to $ 15 .","['COMPETITION/BUSINESS_CHALLENGES', 'UN/EMPLOYMENT_RATE']",3,"['COMPETITION/BUSINESS_CHALLENGES', 'TURNOVER', 'GOVERNMENT']"
+"Based on the provided codebook, I would assign the following labels to the given text:
+
+* WELFARE (referring to the impact of minimum wage on the economic well-being of the middle class and poor)
+* ECONOMIC_IMPACT (as the sentence discusses the potential outcome of increasing minimum wage in terms of income)
+
+The label UN/EMPLOYMENT_RATE could be considered as well, but it's not explicitly mentioned in the text. The mention of ""job losses"" is a hint at unemployment rate implications, but the focus is more on the overall economic impact and welfare aspects rather than employment rates specifically.
+
+I did not assign labels related to business or competition (such as COMPETITION/BUSINESS_CHALLENGES) since there's no indication that the debate is about businesses' challenges or competitiveness. 
+
+Let me know if you need further clarification!",llama3.1:8b-instruct-fp16,2024-09-11T12:42:39.703769868Z,stop,3960127433,29776030,214,28419000,175,3813153000,"And even if there are job some losses , the math seems to suggest that the middle class and poor would still earn more income collectively in the deal .","['UN/EMPLOYMENT_RATE', 'SOCIAL_JUSTICE/INJUSTICE']",4,"['WELFARE', 'ECONOMIC_IMPACT', 'COMPETITION/BUSINESS_CHALLENGES', 'UN/EMPLOYMENT_RATE']"
+"Based on the provided codebook, I would assign the following labels to the given text:
+
+* ECONOMIC_IMPACT
+* MOTIVATION/CHANCES (specifically, the motivation of businesses to hire more employees due to increased demand)
+
+The reasoning behind these assignments is as follows:
+
+* The text implies that a higher minimum wage leads to increased economic activity (more people spending money), which in turn benefits businesses. This is an example of ECONOMIC_IMPACT.
+* Additionally, the text suggests that this economic boost will motivate businesses to hire more employees, indicating that there are more job opportunities available. This is an example of MOTIVATION/CHANCES.
+
+Note that I did not assign any other labels as they do not appear to be relevant to the given text. For instance, there is no discussion about unemployment rates, prices, or social justice/injustice in this passage.",llama3.1:8b-instruct-fp16,2024-09-11T12:42:43.816279363Z,stop,4106533139,75869030,226,28841000,179,3911497000,"More opportunity for jobs : If these minimum wage employees are spending more , then businesses are earning more and need to hire more employees to keep up with the increased sales from the minimum wage employees who are buying more .","['UN/EMPLOYMENT_RATE', 'ECONOMIC_IMPACT']",2,"['ECONOMIC_IMPACT', 'MOTIVATION/CHANCES']"
+"Based on the provided markdown codebook, I would assign the following labels to the given sentence:
+
+* MOTIVATION/CHANCES (referring to ""more efficient workers"" and the potential for increased productivity)
+* ECONOMIC_IMPACT (considering the broader economic implications of a higher minimum wage)
+
+These two labels capture the main points in the sentence: that a higher minimum wage can attract more productive employees, which has both individual and macroeconomic consequences.",llama3.1:8b-instruct-fp16,2024-09-11T12:42:46.071970403Z,stop,2168191256,77865839,206,28885000,93,2016873000,But it ’s possible that productivity also rises because the higher minimum attracts more efficient workers to the labor pool .,['COMPETITION/BUSINESS_CHALLENGES'],2,"['ECONOMIC_IMPACT', 'MOTIVATION/CHANCES']"
+"Based on the provided codebook and the given text, I would assign the following labels:
+
+* PRICES
+* ECONOMIC_IMPACT
+
+The reason for assigning these labels is that the text specifically mentions an ""increase in consumer prices"" as a direct result of companies offsetting increased labor costs. This implies a connection between the economic impact (in this case, an increase in prices) and the potential effects on consumers.
+
+Note that I have not assigned ECONOMIC_IMPACT alone, but rather in combination with PRICES, as the former is a broader category that encompasses various aspects of economic activity, while the latter specifically highlights one of those aspects.",llama3.1:8b-instruct-fp16,2024-09-11T12:42:49.188938539Z,stop,3071488058,32641085,200,28118000,132,2874580000,"• An increase in consumer prices , driven by companies offsetting increased labor costs .",['PRICES'],2,"['ECONOMIC_IMPACT', 'PRICES']"
+"Based on the provided instructions and codebook, I would assign the following codes to the given text:
+
+* MENTIONED is not explicitly listed as a label, but since it asks for labels from the codebook, I will look at ""LOW-SKILLED"" as it relates closely to this aspect.
+* LOW-SKILLED 
+
+This sentence implies that the individual being discussed is looking to acquire skills and move away from minimum wage jobs, which are often associated with low-skilled work.",llama3.1:8b-instruct-fp16,2024-09-11T12:42:51.531141591Z,stop,2295287819,73761390,214,28130000,99,2147589000,"The goal , then , is to get in at that wage , develop skills and quickly work your way out of minimum wage and up the pay scale .",['MOTIVATION/CHANCES'],1,['LOW']
+"Based on the provided text, I would assign the following codes:
+
+* UN/EMPLOYMENT_RATE (as it implies creating jobs to address unemployment and poverty)
+* GOVERNMENT (as it mentions a policy solution that involves government intervention or action)
+
+These two labels seem to be the most relevant to the argument presented in the text.",llama3.1:8b-instruct-fp16,2024-09-11T12:42:53.236666348Z,stop,1616828981,30825537,216,28776000,68,1468645000,Some suggest that creating more jobs for people who need them rather than raising earnings for people who already have them is a better solution for reducing the national poverty rate .,"['UN/EMPLOYMENT_RATE', 'SOCIAL_JUSTICE/INJUSTICE']",2,"['UN/EMPLOYMENT_RATE', 'GOVERNMENT']"
+"Based on the provided markdown codebook, I would assign the following labels to the given text:
+
+* ECONOMIC_IMPACT
+* UN/EMPLOYMENT_RATE
+
+These two labels apply because the text mentions that increasing the minimum wage will cause ""people to lose their jobs"", which is related to economic impact and unemployment rates.",llama3.1:8b-instruct-fp16,2024-09-11T12:42:54.871720854Z,stop,1630662021,72566917,199,26491000,67,1442195000,Myth : Increasing the minimum wage will cause people to lose their jobs .,['UN/EMPLOYMENT_RATE'],2,"['ECONOMIC_IMPACT', 'UN/EMPLOYMENT_RATE']"
+"After analyzing the sentence, I have assigned the following labels:
+
+* SOCIAL_JUSTICE/INJUSTICE: The text mentions supporting oneself without relying on social programs, which implies a concern for social justice and reducing economic inequality.
+* WELFARE: The text specifically mentions ""social programs"" and ""lower taxes or a reallocation of those funds to support other needs"", indicating a connection to welfare policies.
+* GOVERNMENT: Although not explicitly mentioned, the text's focus on government policies (minimum wage) and its potential impact on social programs and taxes implies a connection to government action.
+
+Note that I did not assign ECONOMIC_IMPACT as it is more of an overarching category that could apply to many aspects of the debate. Similarly, while the sentence mentions supporting oneself, which could be related to low-skilled workers, it's not specific enough to justify assigning LOW-SKILLED.",llama3.1:8b-instruct-fp16,2024-09-11T12:42:59.023289883Z,stop,4103795723,74119445,226,27823000,181,3956132000,Raising minimum wage means some of these people would be able to better support themselves without leaning as heavily on social programs and this would ultimately mean lower taxes or a reallocation of those funds to support other needs .,['WELFARE'],5,"['WELFARE', 'ECONOMIC_IMPACT', 'LOW', 'SOCIAL_JUSTICE/INJUSTICE', 'GOVERNMENT']"
+"Based on the provided codebook, I would assign the following labels to the given sentence:
+
+* ECONOMIC_IMPACT
+* GOVERNMENT (implied by ""raising the federal minimum wage"", which suggests a government policy)
+
+These two labels capture the economic and governmental aspects of the statement.",llama3.1:8b-instruct-fp16,2024-09-11T12:43:00.512201144Z,stop,1436564316,73986376,199,26984000,60,1289938000,Raising the federal minimum wage is an important part of strengthening the economy .,['ECONOMIC_IMPACT'],2,"['ECONOMIC_IMPACT', 'GOVERNMENT']"
+"After analyzing the text, I would assign the following labels:
+
+* SOCIAL_JUSTICE/INJUSTICE
+* ECONOMIC_IMPACT (implying that the denigration of fast food workers is motivated by economic self-interest)
+ 
+
+The text implies a moral judgment about the behavior of those who oppose increasing the minimum wage for fast food workers, framing it as an act of preserving a false sense of superiority. This suggests that the speaker views this opposition as unjust or morally wrong.",llama3.1:8b-instruct-fp16,2024-09-11T12:43:02.87541446Z,stop,2275648363,30309329,223,28654000,98,2127314000,"Yes , there are actually people so hell-bent on denigrating fast food workers they are willing to give up an increase in their own hourly wage purely to preserve a false sense of superiority .",['SOCIAL_JUSTICE/INJUSTICE'],2,"['ECONOMIC_IMPACT', 'SOCIAL_JUSTICE/INJUSTICE']"
+"After analyzing the sentence, I would assign the following codes:
+
+* WELFARE: The sentence implies that the current situation (poorly paid workforce) is a form of subsidy for companies, which is related to welfare.
+* ECONOMIC_IMPACT: The sentence discusses the economic consequences of the poorly paid workforce.
+* UN/EMPLOYMENT_RATE: While not explicitly mentioned, the poorly paid workforce could be seen as contributing to unemployment or underemployment.
+
+Additionally, I would consider assigning CAPITAL_VS_LABOR, as the sentence highlights a situation where labor costs (or lack thereof) may be subsidized by government policies, but this connection is not immediately clear. 
+
+However, I would not assign LOW-SKILLED, YOUTH_AND_SECONDARY_WAGE_EARNERS, SOCIAL_JUSTICE/INJUSTICE, PRICES, GOVERNMENT, COMPETITION/BUSINESS_CHALLENGES, or MOTIVATION/CHANCES to this sentence.",llama3.1:8b-instruct-fp16,2024-09-11T12:43:07.352810653Z,stop,4472090541,72903943,210,28033000,196,4281782000,"As a result , we end up subsidizing companies like McDonald ’s or Walmart that have a large , poorly paid work force .",['WELFARE'],11,"['WELFARE', 'ECONOMIC_IMPACT', 'COMPETITION/BUSINESS_CHALLENGES', 'PRICES', 'YOUTH_AND_SECONDARY_WAGE_EARNERS', 'MOTIVATION/CHANCES', 'UN/EMPLOYMENT_RATE', 'CAPITAL_VS_LABOR', 'LOW', 'SOCIAL_JUSTICE/INJUSTICE', 'GOVERNMENT']"
+"Based on the provided markdown codebook, I assign the following label(s) to the given text:
+
+LOW-SKILLED 
+
+This is because the sentence mentions ""people who live in poverty"", which implies they might have limited skills or education. The statement does not explicitly mention economic impact, unemployment rate, or any other labels directly.",llama3.1:8b-instruct-fp16,2024-09-11T12:43:09.027815276Z,stop,1588011204,73818074,209,27274000,67,1442412000,"First , many people who live in poverty do not work , and would thus be unaffected by an increase in the minimum wage .",['SOCIAL_JUSTICE/INJUSTICE'],1,['LOW']
+"Based on the provided codebook, I would assign the following labels to the given text:
+
+* ECONOMIC_IMPACT: This label applies as the text mentions job creation, which is an economic outcome.
+* GOVERNMENT: This label applies as the minimum wage and its impact are being discussed in a state context, implying government involvement.
+
+No other labels appear to be relevant based on the provided information.",llama3.1:8b-instruct-fp16,2024-09-11T12:43:11.042918312Z,stop,1969469054,29523621,217,28606000,82,1775166000,"In 2014 , supporters of minimum wage cited news organizations who reported the state with the highest minimum-wage garnered more job creation than the rest of the United States .",['UN/EMPLOYMENT_RATE'],2,"['ECONOMIC_IMPACT', 'GOVERNMENT']"
+"Based on the codebook, I would assign the following labels to this text:
+
+* ECONOMIC_IMPACT (referring to the impact of the minimum wage increase on teenage employment)
+* UN/EMPLOYMENT_RATE (specifically, the rate of teenage employment)
+* LOW-SKILLED (implying that low-skilled workers, such as teenagers, are disproportionately affected by the minimum wage increase)
+
+These labels capture the main argument being made in the text about the negative economic impact of the minimum wage increase on teenage employment.",llama3.1:8b-instruct-fp16,2024-09-11T12:43:13.591481833Z,stop,2503961549,74105281,265,32848000,108,2351172000,"-SKILLED Casey B. Mulligan , PhD , economics professor at the University of Chicago , stated that the teenage employment index fell sharply after the minimum wage increase of July 2009 ( a fall of about 8 % in three months , while the previous drop of 8 % took over a year ) : "" This suggests that the 2009 minimum-wage increase did significantly reduce teenage employment . """,['LOW'],3,"['ECONOMIC_IMPACT', 'UN/EMPLOYMENT_RATE', 'LOW']"
+"Based on the provided markdown codebook, I would assign the following labels to the given sentence:
+
+* CAPITAL_VS_LABOR: This label applies as the sentence mentions the potential consequence of raising the minimum wage on companies' decisions regarding labor costs.
+* COMPETITION/BUSINESS_CHALLENGES: This label is also applicable as the sentence suggests that companies may respond to a higher minimum wage by outsourcing jobs, implying changes in business practices and competition.
+
+These two labels capture the economic implications and potential consequences for businesses mentioned in the sentence.",llama3.1:8b-instruct-fp16,2024-09-11T12:43:16.192748256Z,stop,2513207989,30053817,204,28034000,109,2366521000,Raising the minimum wage would encourage companies to outsource jobs to countries where costs would be lower .,['UN/EMPLOYMENT_RATE'],2,"['COMPETITION/BUSINESS_CHALLENGES', 'CAPITAL_VS_LABOR']"
+"For the given sentence ""Raise the min wage and costs increase"", I would assign the following labels:
+
+* ECONOMIC_IMPACT (the sentence implies that raising the minimum wage would lead to increased economic costs)
+* PRICES (the sentence mentions a specific outcome of raising the minimum wage, which is an increase in costs)
+
+Note that I did not assign any other labels as they do not seem to directly apply to this particular sentence.",llama3.1:8b-instruct-fp16,2024-09-11T12:43:18.288024405Z,stop,2090607658,76170793,192,25771000,88,1899142000,Raise the min wage and costs increase .,['PRICES'],2,"['ECONOMIC_IMPACT', 'PRICES']"
+"Based on the provided codebook and the given text, I assign the following labels:
+
+* UN/EMPLOYMENT_RATE
+* ECONOMIC_IMPACT
+
+These two labels capture the idea that the Congressional Budget Office estimated a reduction in employment (UN/EMPLOYMENT_RATE) as a result of implementing the proposed $10.10 wage, which would have an economic impact (ECONOMIC_IMPACT).",llama3.1:8b-instruct-fp16,2024-09-11T12:43:20.321762101Z,stop,1946116687,73982615,223,28435000,83,1799108000,"The nonpartisan Congressional Budget Office estimated that President Obama ’s proposed $ 10.10 wage , once fully implemented , “ would reduce total employment by about 500,000 workers . ”",['UN/EMPLOYMENT_RATE'],2,"['ECONOMIC_IMPACT', 'UN/EMPLOYMENT_RATE']"
+"Based on the given text, I would assign the following labels:
+
+* PRICES
+* COMPETITION/BUSINESS_CHALLENGES (implied by ""raise their prices incrementally"", suggesting that businesses are adjusting to changing market conditions)
+
+The text does not appear to mention any of the other categories, so I have not assigned those labels.",llama3.1:8b-instruct-fp16,2024-09-11T12:43:22.068463845Z,stop,1699200035,30568779,217,28736000,70,1509495000,"Restaurants ( and in particular fast food eateries ) raise their prices incrementally all the time , and the vast majority of them still have extremely healthy profit margins .","['COMPETITION/BUSINESS_CHALLENGES', 'PRICES']",2,"['COMPETITION/BUSINESS_CHALLENGES', 'PRICES']"
+"For the given text ""Thus this price effect may harm the very people whom a minimum wage is supposed to help."", I would assign the following labels:
+
+* PRICES
+* SOCIAL_JUSTICE/INJUSTICE
+* LOW-SKILLED (implied, as the people being harmed are those the minimum wage is intended to help, likely low-skilled workers)
+
+These three labels apply because the text mentions a ""price effect"" which suggests an economic impact on prices, and it frames this effect as potentially harming the target group of minimum wage policies, which aligns with concerns around social justice/injustice. The implication that the price effect may harm low-skilled workers also supports the LOW-SKILLED label.",llama3.1:8b-instruct-fp16,2024-09-11T12:43:25.400716353Z,stop,3285142754,78050924,203,27174000,144,3133249000,Thus this price effect may harm the very people whom a minimum wage is supposed to help . ”,['PRICES'],3,"['PRICES', 'LOW', 'SOCIAL_JUSTICE/INJUSTICE']"
+"Based on the provided codebook and the given sentence, I assign the following labels:
+
+* WELFARE: This label applies as the text mentions the federally determined poverty level, indicating a concern for economic welfare.
+* SOCIAL_JUSTICE/INJUSTICE: The reference to the minimum wage being greater than the federally determined poverty level suggests that there is an argument related to social justice or injustice.
+
+Note that I have not assigned ECONOMIC_IMPACT as it is a more general label and WELFARE already captures the economic aspect.",llama3.1:8b-instruct-fp16,2024-09-11T12:43:28.02030557Z,stop,2532800019,25757713,216,27371000,110,2389749000,"At $ 7.25 per hour a minimum wage workers earns $ 15,080 per year , which is already greater than the federally determined poverty level .",['SOCIAL_JUSTICE/INJUSTICE'],3,"['WELFARE', 'ECONOMIC_IMPACT', 'SOCIAL_JUSTICE/INJUSTICE']"
+"Based on the provided codebook, I would assign the following labels to the given text:
+
+* ECONOMIC_IMPACT
+* PRICES
+* COMPETITION/BUSINESS_CHALLENGES
+
+My reasoning is as follows:
+
+* ""force employers to hire fewer people"" suggests an economic impact, as it implies a change in employment rates or job availability.
+* ""pass the new costs on to consumers by raising prices on goods and services"" directly refers to changes in prices.
+* The phrase also implies that businesses may face challenges in competing with others if they have to raise their prices, which falls under COMPETITION/BUSINESS_CHALLENGES.",llama3.1:8b-instruct-fp16,2024-09-11T12:43:31.08957414Z,stop,3021566290,73619094,214,28715000,132,2873376000,Opponents say raising the minimum wage will force employers to hire fewer people or pass the new costs on to consumers by raising prices on goods and services .,"['UN/EMPLOYMENT_RATE', 'PRICES']",3,"['ECONOMIC_IMPACT', 'COMPETITION/BUSINESS_CHALLENGES', 'PRICES']"
+"After analyzing the provided text, I assign the following labels:
+
+* YOUTH_AND_SECONDARY_WAGE_EARNERS: This label applies as the text specifically mentions ""teens"" and their schooling experience being impacted by minimum wage.
+* LOW-SKILLED: The text implies that low-skilled workers are at a disadvantage due to poverty and the potential benefits of raising the minimum wage for lifting families out of poverty, suggesting this label is applicable.
+* SOCIAL_JUSTICE/INJUSTICE: Raising the minimum wage and addressing poverty can be seen as an issue of social justice, implying this label applies.",llama3.1:8b-instruct-fp16,2024-09-11T12:43:33.961203241Z,stop,2825423680,69820517,231,29140000,123,2680751000,Teens who live in poverty are twice as likely to miss three or more days of school per month compared to those who do not ; thus raising the minimum wage and lifting families out of poverty would mean children would miss fewer school days .,"['SOCIAL_JUSTICE/INJUSTICE', 'MOTIVATION/CHANCES']",3,"['YOUTH_AND_SECONDARY_WAGE_EARNERS', 'LOW', 'SOCIAL_JUSTICE/INJUSTICE']"
+"For the given sentence: ""It creates a certain amount of structural unemployment""
+
+I would assign the following labels:
+
+* UN/EMPLOYMENT_RATE
+* ECONOMIC_IMPACT 
+
+The term ""structural unemployment"" is related to unemployment rates, which falls under the label UN/EMPLOYMENT_RATE. Additionally, this concept has an economic impact, as implied by the sentence's structure and the context of discussing unemployment.",llama3.1:8b-instruct-fp16,2024-09-11T12:43:36.033678673Z,stop,1981657500,30062452,193,27241000,85,1836200000,It creates a certain amount of structural unemployment .,['UN/EMPLOYMENT_RATE'],2,"['ECONOMIC_IMPACT', 'UN/EMPLOYMENT_RATE']"
+"Based on the provided text, I would assign the following label(s):
+
+* ECONOMIC_IMPACT (due to the mention of ""stimulate the economy"" and ""job creation"")
+
+No other labels appear to be relevant based on this specific text.",llama3.1:8b-instruct-fp16,2024-09-11T12:43:37.319446586Z,stop,1281625497,71783463,206,27642000,51,1092772000,"This increased demand for goods and services tends to stimulate the economy which , in turn , leads to job creation .","['UN/EMPLOYMENT_RATE', 'ECONOMIC_IMPACT']",1,['ECONOMIC_IMPACT']
+"Based on the provided markdown codebook, I would assign the following labels to the given sentence:
+
+* WELFARE
+* ECONOMIC_IMPACT
+* SOCIAL_JUSTICE/INJUSTICE
+
+These labels are applicable as they relate to the potential outcomes of raising the minimum wage, specifically the reduction in poverty and the increase in incomes for 7.5 million families, which can be linked to improved welfare and social justice.",llama3.1:8b-instruct-fp16,2024-09-11T12:43:39.481231114Z,stop,2073708551,70113683,222,28137000,89,1930893000,"A 2014 study found that raising the Californian minimum wage to $ 13 an hour would increase the incomes of 7.5 million families , meaning fewer would live in poverty .",['SOCIAL_JUSTICE/INJUSTICE'],3,"['WELFARE', 'ECONOMIC_IMPACT', 'SOCIAL_JUSTICE/INJUSTICE']"
+"Based on the provided text, I assign the following labels:
+
+* COMPETITION/BUSINESS_CHALLENGES: This label applies as the text mentions that franchise owners in the fast food sector are considering reducing hiring due to business challenges.
+* CAPITAL_VS_LABOR: This label also applies as the reduction of hiring is a labor-related decision made by capital (the business/franchise owners) in response to economic pressures.",llama3.1:8b-instruct-fp16,2024-09-11T12:43:41.591591826Z,stop,2060479441,29965945,229,28097000,86,1865259000,"This trend was more pronounced in the fast food and hotel sectors — more than 80 percent of franchised fast food owners said they would be more likely to reduce hiring , versus 58 percent of non-fast-food restaurant owners .",['UN/EMPLOYMENT_RATE'],2,"['COMPETITION/BUSINESS_CHALLENGES', 'CAPITAL_VS_LABOR']"
+"Based on the provided text, I would assign the following labels:
+
+* LOW-SKILLED: This label is relevant because the manager mentions ""men"" in the context of being potentially eliminated due to increased wages, implying that the workers being referred to are likely low-skilled laborers.
+* ECONOMIC_IMPACT: The manager's statement about wage increases forcing them to use labor-saving machinery and eliminating men suggests a concern about the economic impact of raising the minimum wage on their business.
+
+These two labels capture the essence of the manager's argument, which is centered around the potential negative economic consequences of increasing wages for low-skilled workers.",llama3.1:8b-instruct-fp16,2024-09-11T12:43:44.579337893Z,stop,2939746215,74011257,242,30178000,128,2789784000,"The manager of one Louisiana lumber company claimed that while the low cost of living in the South meant employers had n’t resorted to “ labor-saving machinery ” thus far , wage increases beyond a certain point would force them into doing so and “ eliminating over half of [ their ] men . ”",['UN/EMPLOYMENT_RATE'],2,"['ECONOMIC_IMPACT', 'LOW']"
+"Based on the provided codebook, I assign the following labels to the given text:
+
+* SOCIAL_JUSTICE/INJUSTICE
+* WELFARE (note: this label is applicable as reducing inequality can have positive effects on overall welfare)
+
+I did not assign ECONOMIC_IMPACT, UN/EMPLOYMENT_RATE, TURNOVER, LOW-SKILLED, YOUTH_AND_SECONDARY_WAGE_EARNERS, CAPITAL_VS_LABOR, PRICES, GOVERNMENT, COMPETITION/BUSINESS_CHALLENGES, or MOTIVATION/CHANCES as they do not seem directly relevant to the text's argument about reducing inequality.",llama3.1:8b-instruct-fp16,2024-09-11T12:43:47.772306421Z,stop,3104680321,29542322,197,27748000,136,2958342000,A minimum wage increase would help to reduce race and gender inequality .,['SOCIAL_JUSTICE/INJUSTICE'],12,"['WELFARE', 'ECONOMIC_IMPACT', 'COMPETITION/BUSINESS_CHALLENGES', 'PRICES', 'TURNOVER', 'YOUTH_AND_SECONDARY_WAGE_EARNERS', 'MOTIVATION/CHANCES', 'UN/EMPLOYMENT_RATE', 'CAPITAL_VS_LABOR', 'LOW', 'SOCIAL_JUSTICE/INJUSTICE', 'GOVERNMENT']"
+"Based on the provided markdown codebook, I would assign the following labels to the given text:
+
+* WELFARE
+* GOVERNMENT
+
+My reasoning is as follows:
+
+* The mention of ""federal poverty level"" implies a concern with welfare and the well-being of individuals who are struggling financially.
+* The reference to a Congressional Research Service report suggests that the discussion is taking place within a government context, where policymakers and researchers are exploring the economic implications of raising the minimum wage.
+
+I have not assigned any other labels because they do not seem directly relevant to this specific text. For example, while the topic of minimum wage might be related to employment rates or economic impact in general, these labels are not explicitly mentioned in the provided text.",llama3.1:8b-instruct-fp16,2024-09-11T12:43:51.241291577Z,stop,3464329095,72675103,231,28669000,150,3272832000,"According to a 2013 Congressional Research Service report , a single parent with two children who works full time at the current minimum wage would be earning around $ 15,000 and living at 76 percent of the federal poverty level .",['SOCIAL_JUSTICE/INJUSTICE'],2,"['WELFARE', 'GOVERNMENT']"
+"Based on the provided text, I would assign the following codes:
+
+* PRICES
+* CAPITAL_VS_LABOR
+
+My reasoning is as follows: The text mentions ""price effects"" which suggests that prices are being discussed. Additionally, the phrase ""relative unimportance of labor in a business's cost structure"" implies a comparison between labor costs and other costs ( likely capital costs), which falls under the label CAPITAL_VS_LABOR.",llama3.1:8b-instruct-fp16,2024-09-11T12:43:53.452850927Z,stop,2121287900,74053573,217,28652000,91,1973997000,"However , the researchers note , “ in other cases … the absence of price effects shows the relative unimportance of labor in a business ’s cost structure . ”",['PRICES'],2,"['PRICES', 'CAPITAL_VS_LABOR']"
+"Based on the provided text, I would assign the following labels:
+
+* YOUTH_AND_SECONDARY_WAGE_EARNERS (this label applies as the text specifically mentions ""teens"" and their schooling enrollment being affected by a change in minimum wage)
+* ECONOMIC_IMPACT (this label is relevant as the study reports an increase in minimum wage leading to a drop in teenage school enrollment, implying economic consequences)
+
+Note that I did not assign any other labels from the codebook, as they do not appear to be directly relevant to this specific text.",llama3.1:8b-instruct-fp16,2024-09-11T12:43:56.086835421Z,stop,2587101621,73905083,238,28938000,112,2438447000,"According to a 2003 study by economists David Neumark , PhD , and William Wascher , PhD , in states where teens can leave school before 18 , a 10 % increase in the minimum wage caused teenage school enrollment to drop by 2 % .",['MOTIVATION/CHANCES'],2,"['ECONOMIC_IMPACT', 'YOUTH_AND_SECONDARY_WAGE_EARNERS']"
+"After carefully reading the sentence, I would assign the following codes:
+
+* UN/EMPLOYMENT_RATE
+* CAPITAL_VS_LABOR
+* SOCIAL_JUSTICE/INJUSTICE 
+
+The argument presented suggests that raising minimum wages too high will lead to a negative impact on employment (UN/EMPLOYMENT_RATE), which is likely due to increased labor costs and potentially decreased competitiveness, implying a conflict between capital (employers) and labor interests (CAPITAL_VS_LABOR). Additionally, the sentence implies that harming employment would be an injustice to those who are intended to benefit from the policy (SOCIAL_JUSTICE/INJUSTICE).",llama3.1:8b-instruct-fp16,2024-09-11T12:43:59.219994646Z,stop,3044247389,30119927,211,28357000,133,2897498000,"Raise minimum wages too high , and you ’ll eventually choke off employment , harming the very people that the policy is intended to help .",['UN/EMPLOYMENT_RATE'],3,"['UN/EMPLOYMENT_RATE', 'CAPITAL_VS_LABOR', 'SOCIAL_JUSTICE/INJUSTICE']"
+"After analyzing the text, I assigned the following labels:
+
+* PRICES: The text mentions that raising the minimum wage would lead to an increase in rental prices.
+* LOW-SKILLED: The text specifically mentions ""700,000 minimum wage workers"", implying that these are low-skilled individuals who would be affected by the change.
+
+Note that I did not assign other labels such as ECONOMIC_IMPACT or COMPETITION/BUSINESS_CHALLENGES because while they may be related to the topic of raising the minimum wage, they do not directly apply to the specific text.",llama3.1:8b-instruct-fp16,2024-09-11T12:44:01.964527925Z,stop,2696910628,73991485,250,30974000,117,2546265000,"In cities such as Los Angeles with a limited housing supply , raising the minimum wage but not increasing housing stock would lead to an increase in rental prices as "" 700,000 minimum wage workers will have more money to compete for the same low inventory of rental units , "" according to researchers from the University of California in Los Angeles .",['PRICES'],4,"['ECONOMIC_IMPACT', 'COMPETITION/BUSINESS_CHALLENGES', 'PRICES', 'LOW']"
+"Based on the provided instructions and codebook, I would assign the following labels to the given text:
+
+* SOCIAL_JUSTICE/INJUSTICE
+* GOVERNMENT
+* COMPETITION/BUSINESS_CHALLENGES
+
+The reasoning behind these assignments is as follows:
+
+* The mention of ""legal restriction"" suggests a government-imposed regulation, which aligns with the GOVERNMENT label.
+* The implication that workers may not be able to find employers willing to hire them at the legislated wage could be seen as a form of competition or business challenge for the workers, thus the COMPETITION/BUSINESS_CHALLENGES label applies.
+* The text also touches on themes of fairness and justice in the labor market, with the implication that workers may be unfairly excluded from employment if they cannot secure jobs at the legislated wage. This aligns with the SOCIAL_JUSTICE/INJUSTICE label.
+
+Note that I did not assign labels related to economic impact or prices, as the text does not explicitly mention these concepts.",llama3.1:8b-instruct-fp16,2024-09-11T12:44:06.750357107Z,stop,4698588112,31144066,228,28867000,208,4551308000,The legal restriction that employers can not pay less than a legislated wage is equivalent to the legal restriction that workers can not work at all in the protected sector unless they can find employers willing to hire them at that wage .,['UN/EMPLOYMENT_RATE'],3,"['COMPETITION/BUSINESS_CHALLENGES', 'SOCIAL_JUSTICE/INJUSTICE', 'GOVERNMENT']"
+"Based on the provided text, I would assign the label **PRICES**.
+
+This label applies because the text mentions that the minimum wage ""actually becomes worth a little bit less"", which implies a decrease in purchasing power due to inflation or price changes. This suggests an economic impact on low-wage earners, making PRICES the most relevant label for this sentence.",llama3.1:8b-instruct-fp16,2024-09-11T12:44:08.503085918Z,stop,1702746062,73273030,211,27604000,72,1555299000,"So it ’s not just that the minimum wage is staying the same : every day , it actually becomes worth a little bit less .",['SOCIAL_JUSTICE/INJUSTICE'],1,['PRICES']
+"Based on the provided markdown codebook, I would assign the following labels:
+
+* PRICES: This label applies as the text mentions ""increasing menu prices"", which is a direct reference to price changes.
+* ECONOMIC_IMPACT: This label also applies as the increase in menu prices due to minimum wage is an economic consequence.
+
+Let me know if you'd like me to proceed with another example!",llama3.1:8b-instruct-fp16,2024-09-11T12:44:10.473136479Z,stop,1921370342,73852787,201,27208000,82,1773564000,Restaurants especially have passed the cost of minimum wage onto consumers by increasing menu prices .,['PRICES'],2,"['ECONOMIC_IMPACT', 'PRICES']"
+"Based on the provided codebook, I would assign the following labels to the given text:
+
+* ECONOMIC_IMPACT
+* WELFARE 
+
+These two labels seem most relevant as they directly relate to the economic analysis mentioned in the text, which aims to understand the effects of a higher minimum wage on the economy and its potential impact on poverty.",llama3.1:8b-instruct-fp16,2024-09-11T12:44:12.264361827Z,stop,1700850359,30396870,207,27865000,72,1554353000,"Rather , economic analysis raises questions about whether a higher minimum wage will achieve better outcomes for the economy and reduce poverty .","['ECONOMIC_IMPACT', 'SOCIAL_JUSTICE/INJUSTICE']",2,"['WELFARE', 'ECONOMIC_IMPACT']"
+"Based on the provided text, I would assign the following labels:
+
+* CAPITAL_VS_LABOR: This label applies because the text is discussing market-determined wages versus government-mandated minimum wages, implying a tension between the interests of capital (e.g. businesses) and labor.
+* GOVERNMENT: The text explicitly mentions ""government-mandated"" minimum wages, indicating that government policies are being discussed.
+* ECONOMIC_IMPACT: The text implies that government-mandated minimum wages have an economic impact, as Mark Perry is discussing the arbitrary nature of these wages and their lack of sound economic analysis.
+
+Note that I did not assign labels such as COMPETITION/BUSINESS_CHALLENGES or MOTIVATION/CHANCES, as they do not seem to apply directly to the text.",llama3.1:8b-instruct-fp16,2024-09-11T12:44:16.053237934Z,stop,3783779865,72177961,255,31903000,164,3586269000,"According to Mark J. Perry , PhD , of the American Enterprise Institute , government-mandated minimum wages "" are always arbitrary and almost never based on any sound economic/cost-benefit analysis ... [ I ] n contrast market-determined wages reflect supply and demand conditions that are specific to local market conditions and vary widely by geographic region and by industry . """,['GOVERNMENT'],5,"['ECONOMIC_IMPACT', 'COMPETITION/BUSINESS_CHALLENGES', 'MOTIVATION/CHANCES', 'CAPITAL_VS_LABOR', 'GOVERNMENT']"
+"After analyzing the text, I would assign the following labels:
+
+* ECONOMIC_IMPACT (due to the mention of ""adds to the economy"" and the implication that a $15 minimum wage has an economic effect)
+* PRICES (as the text mentions that it's a ""tax on everyone"", implying that prices may increase as a result of implementing a higher minimum wage)
+
+Note: I did not assign LOW-SKILLED, YOUTH_AND_SECONDARY_WAGE_EARNERS, or MOTIVATION/CHANCES as these labels do not seem to be directly relevant to the text.",llama3.1:8b-instruct-fp16,2024-09-11T12:44:18.884052375Z,stop,2740468706,58058536,222,28336000,120,2609552000,"In essence , a $ 15 minimum wage is a tax on everyone , but the upside is that the worker will have more money to buy things for their family that adds to the economy .",['ECONOMIC_IMPACT'],5,"['ECONOMIC_IMPACT', 'PRICES', 'YOUTH_AND_SECONDARY_WAGE_EARNERS', 'MOTIVATION/CHANCES', 'LOW']"
+"Based on the provided text, I would assign the following labels:
+
+* GOVERNMENT: This label applies as the text mentions a study involving Chief Financial Officers (CFOs), implying a response to government policy or proposal (raising the minimum wage).
+* COMPETITION/BUSINESS_CHALLENGES: The threat of reducing employee benefits if the minimum wage is raised suggests that businesses are anticipating challenges and potential negative impacts on their operations, which would be classified under this label.
+* MOTIVATION/CHANCES: This label applies as the text highlights a specific response (reducing employee benefits) of CFOs to the proposed policy change, indicating their motivation or chances in responding to such a policy.
+
+I have not assigned labels related to economic impact, unemployment rates, turnover, low-skilled, youth and secondary wage earners, capital vs. labor, social justice/injustice, prices, welfare, as they do not directly apply to the specific response (reducing employee benefits) mentioned in the text.",llama3.1:8b-instruct-fp16,2024-09-11T12:44:23.564663639Z,stop,4635468744,31194533,244,30481000,203,4440073000,"A 2014 study of 400 US Chief Financial Officers ( CFOs ) by Campbell Harvey , PhD , J. Paul Sticht Professor of International Business at Duke University , found that 40 % of CFOs would reduce employee benefits if the minimum wage were raised to $ 10 an hour .",['MOTIVATION/CHANCES'],3,"['COMPETITION/BUSINESS_CHALLENGES', 'MOTIVATION/CHANCES', 'GOVERNMENT']"
+"Based on the provided text, I would assign the following labels:
+
+* LOW-SKILLED (likely referring to ""entry-level jobs"")
+* MOTIVATION/CHANCES (as the text mentions workers getting ""stuck"" and wanting to move on to something ""more rewarding"", implying a lack of motivation or limited chances for advancement)
+
+These two labels seem to be the most relevant, as they relate to the potential consequences of increasing minimum wage for low-skilled workers.",llama3.1:8b-instruct-fp16,2024-09-11T12:44:25.815486209Z,stop,2203857229,70001251,212,27472000,95,2059975000,Making the entry-level jobs higher paying increases the risk that workers will get stuck in them for longer instead of moving on to something more rewarding .,['MOTIVATION/CHANCES'],2,"['MOTIVATION/CHANCES', 'LOW']"
+"Based on the provided markdown codebook and the example sentence ""Thus this price effect may harm the very people whom a minimum wage is supposed to help"", I would assign the following labels:
+
+* PRICES
+* SOCIAL_JUSTICE/INJUSTICE 
+
+The reasoning behind these assignments is as follows: 
+
+* The phrase ""price effect"" directly relates to the impact of prices, which aligns with the label PRICES.
+* The statement that the price effect may harm people whom a minimum wage is supposed to help implies an issue related to social justice or injustice, making SOCIAL_JUSTICE/INJUSTICE a fitting label.",llama3.1:8b-instruct-fp16,2024-09-11T12:44:28.809735704Z,stop,2906308709,31355315,202,27992000,127,2759536000,Thus this price effect may harm the very people whom a minimum wage is supposed to help .,['PRICES'],2,"['PRICES', 'SOCIAL_JUSTICE/INJUSTICE']"
+"Based on the provided instructions, I will assign the relevant labels from the codebook to the given text.
+
+The following labels apply:
+
+* LOW-SKILLED
+* ECONOMIC_IMPACT
+* UN/EMPLOYMENT_RATE
+
+Explanation:
+- The text specifically mentions ""low skill employment"" which matches with the LOW-SKILLED label.
+- The statement mentions a 10% increase in minimum wage, which is an economic concept that affects various aspects of the economy. This matches with the ECONOMIC_IMPACT label.
+- The decrease in employment rates (2-4% for low-skilled and 1-3% for total restaurant employment) is related to unemployment rates, making UN/EMPLOYMENT_RATE a relevant label.
+
+I did not assign any other labels as they do not directly apply to the provided text.",llama3.1:8b-instruct-fp16,2024-09-11T12:44:32.667956342Z,stop,3853372793,71019449,230,27697000,168,3665438000,"-SKILLED According to a Federal Reserve Bank of Chicago study , “ 10 percent increase in the minimum wage lowers low skill employment by 2 to 4 percent and total restaurant employment by 1 to 3 percent . ”","['LOW', 'UN/EMPLOYMENT_RATE']",3,"['ECONOMIC_IMPACT', 'UN/EMPLOYMENT_RATE', 'LOW']"
+"Based on the provided codebook, I would assign the label LOW-SKILLED to this sentence. 
+
+The reasoning behind this choice is that the text focuses on the minimum wage being commensurate with the work skills, education, and productivity of people entering the workforce, implying a concern for those who are less skilled or unskilled in comparison to others.
+
+No other labels appear applicable at first glance; however, it could be argued that CAPITAL_VS_LABOR is also relevant since the text implies a potential trade-off between paying a higher wage and maintaining competitiveness. Nevertheless, given the primary focus on low-skilled individuals, LOW-SKILLED stands out as the most directly related label.",llama3.1:8b-instruct-fp16,2024-09-11T12:44:35.930259143Z,stop,3214447256,69789208,223,28606000,141,3069262000,"The core of the argument here is that the minimum wage is meant to be commensurate with the work skills , education and productivity — at that point in time — of people entering the workforce .",['SOCIAL_JUSTICE/INJUSTICE'],2,"['CAPITAL_VS_LABOR', 'LOW']"
+"Based on the provided text, I would assign the following codes:
+
+* ECONOMIC_IMPACT: The sentence suggests that the economic impact of minimum wage is limited or negligible.
+* PRICES: The text mentions ""cost of living"", which implies a connection to price increases.
+ 
+
+The labels UN/EMPLOYMENT_RATE and YOUTH_AND_SECONDARY_WAGE_EARNERS do not seem to be directly relevant to this specific sentence.",llama3.1:8b-instruct-fp16,2024-09-11T12:44:38.069689037Z,stop,2049940521,30142118,203,27078000,88,1904509000,As the cost of living has jumped by leaps and bounds minimum wage has barely made an impact .,['SOCIAL_JUSTICE/INJUSTICE'],4,"['ECONOMIC_IMPACT', 'PRICES', 'YOUTH_AND_SECONDARY_WAGE_EARNERS', 'UN/EMPLOYMENT_RATE']"
+"For the given sentence, I would assign the following codes:
+
+* PRICES: This label is relevant because the sentence mentions ""price increases"", indicating that the speaker is discussing the potential impact of increased minimum wage on prices.
+
+Note that none of the other labels seem to be directly applicable in this case.",llama3.1:8b-instruct-fp16,2024-09-11T12:44:39.581943767Z,stop,1466316537,77972570,205,28723000,61,1313716000,"On the other hand , consumers with higher wages have more spending power , which may also offset price increases .",['PRICES'],1,['PRICES']
+"Based on the provided codebook, I would assign the following labels to the given text:
+
+* SOCIAL_JUSTICE/INJUSTICE
+* WELFARE
+
+The argument presented suggests that ensuring a higher wage floor is justified because it allows workers to earn enough to ""live on,"" which implies a concern for social justice and welfare.",llama3.1:8b-instruct-fp16,2024-09-11T12:44:41.30794431Z,stop,1635757573,29827746,213,28388000,69,1489334000,"Advocates for a higher wage floor argue , first and foremost , that it is right to ensure that workers to earn enough to live on .",['SOCIAL_JUSTICE/INJUSTICE'],2,"['WELFARE', 'SOCIAL_JUSTICE/INJUSTICE']"
+"Based on the provided sentence, I would assign the following labels:
+
+* UN/EMPLOYMENT_RATE: This label applies as the sentence suggests reducing entry-level employment.
+* YOUTH_AND_SECONDARY_WAGE_EARNERS: This label also applies as it refers specifically to young workers and those in secondary wage earning positions.
+
+These two labels capture the sentiment expressed in the sentence, which is focused on the potential negative impact of higher minimum wage on youth and low-skilled workers' chances of employment.",llama3.1:8b-instruct-fp16,2024-09-11T12:44:43.674332338Z,stop,2361817452,73069932,206,28602000,100,2170505000,"-SKILLED If we want to greatly reduce entry level employment , that ’s the way to do it .","['LOW', 'UN/EMPLOYMENT_RATE']",2,"['YOUTH_AND_SECONDARY_WAGE_EARNERS', 'UN/EMPLOYMENT_RATE']"
+"Based on the provided text, I would assign the following codes:
+
+* ECONOMIC_IMPACT: This label applies as the text mentions a potential reduction in employment and its impact on the economy.
+* UN/EMPLOYMENT_RATE: Similarly, this label is relevant as it directly relates to the potential increase in unemployment rate due to job loss.
+
+I have not assigned any other labels as they do not seem to be applicable to this specific text.",llama3.1:8b-instruct-fp16,2024-09-11T12:44:45.861739678Z,stop,2098119749,73965346,219,28450000,90,1951132000,"San Francisco 's Office of Economic Analysis said that an increase to $ 15 would reduce the city 's employment by about "" 15,270 private sector jobs . """,['UN/EMPLOYMENT_RATE'],2,"['ECONOMIC_IMPACT', 'UN/EMPLOYMENT_RATE']"
+"Based on the provided codebook and the example sentence, I would assign the following codes:
+
+* SOCIAL_JUSTICE/INJUSTICE
+* YOUTH_AND_SECONDARY_WAGE_EARNERS 
+* WELFARE 
+
+These labels apply because the text expresses concern for hard-working families who are struggling to make ends meet, implying an issue of social justice/injustice. Additionally, it suggests that some families may be low-skilled or secondary wage earners (youth and others in similar positions), and there's a mention of very little income, which relates to welfare concerns.
+
+Note: I have not assigned ECONOMIC_IMPACT as a code because while the text mentions economic conditions, the focus is more on social implications rather than direct economic impact.",llama3.1:8b-instruct-fp16,2024-09-11T12:44:49.401302698Z,stop,3491905187,30691822,209,27935000,152,3303250000,"Even if workers are getting a competitive wage , many of us are deeply disturbed that some hard-working families still have very little .",['SOCIAL_JUSTICE/INJUSTICE'],4,"['WELFARE', 'ECONOMIC_IMPACT', 'YOUTH_AND_SECONDARY_WAGE_EARNERS', 'SOCIAL_JUSTICE/INJUSTICE']"
+"Based on the provided codebook, I would assign the following labels to the given sentence:
+
+* WELFARE: This label is relevant because the text mentions getting a ""feeling of financial security"", which relates to individual or collective well-being.
+* PRICES: This label applies as the text mentions the ""rising cost of living"", implying that changes in prices are affecting the economic situation.",llama3.1:8b-instruct-fp16,2024-09-11T12:44:51.331399122Z,stop,1883527413,77745506,216,28607000,80,1731371000,"With the rising cost of living , those who get a minimum wage increase are more likely to get a feeling of financial security ( at least to some degree ) .",['SOCIAL_JUSTICE/INJUSTICE'],2,"['WELFARE', 'PRICES']"
+"Based on the provided codebook, I would assign the following labels to the given sentence:
+
+* CAPITAL_VS_LABOR: This label applies because the text suggests that the economy (represented by ""the free market"") should play a role in determining minimum wages, rather than government intervention.
+* GOVERNMENT: This label is applicable as well, since the text mentions that it's not the federal government that should determine minimum wages.
+
+I have excluded other labels, such as ECONOMIC_IMPACT and SOCIAL_JUSTICE/INJUSTICE, because they are not directly mentioned or implied in the sentence.",llama3.1:8b-instruct-fp16,2024-09-11T12:44:54.238602619Z,stop,2818833210,30313647,197,27674000,123,2672727000,"The free market should determine minimum wages , not the federal government .",['GOVERNMENT'],4,"['ECONOMIC_IMPACT', 'CAPITAL_VS_LABOR', 'SOCIAL_JUSTICE/INJUSTICE', 'GOVERNMENT']"
+"Based on the provided codebook, I would assign the following labels to the given sentence:
+
+* ECONOMIC_IMPACT: The sentence mentions ""anti-poverty initiative"" which implies an economic effect of increasing the minimum wage.
+* GOVERNMENT: The context suggests a government policy or intervention is being discussed.
+
+These two labels seem most relevant as they address the potential outcomes and implementation of a higher minimum wage.",llama3.1:8b-instruct-fp16,2024-09-11T12:44:56.229403834Z,stop,1986286992,74520615,203,26754000,83,1794936000,"If a higher minimum wage were the only anti-poverty initiative available , I would support it .",['SOCIAL_JUSTICE/INJUSTICE'],2,"['ECONOMIC_IMPACT', 'GOVERNMENT']"
+"After carefully reading the text, I would assign the following labels:
+
+* LOW-SKILLED (referring to ""join the workforce at the low end of the wage scale"")
+* MOTIVATION/CHANCES (referring to ""build your skills"" and ""get an education and move up the ladder"", suggesting that the individual has agency and can improve their situation with hard work and effort)
+
+These labels are relevant because they relate directly to the themes presented in the text: improving one's economic circumstances by working at a low wage job, acquiring skills and education, and potentially moving up the career ladder.",llama3.1:8b-instruct-fp16,2024-09-11T12:44:59.123363202Z,stop,2803725460,74016128,230,28919000,122,2656126000,"A more practical solution is to join the workforce at the low end of the wage scale , build your skills , get an education and move up the ladder to a better paying job just as members of the workforce have done for generations .",['MOTIVATION/CHANCES'],2,"['MOTIVATION/CHANCES', 'LOW']"
+"Based on the provided codebook, I would assign the following labels to the given sentence:
+
+* COMPETITION/BUSINESS_CHALLENGES
+* ECONOMIC_IMPACT
+* CAPITAL_VS_LABOR
+
+The sentence suggests that increasing wages may impose business challenges (COMPETITION/BUSINESS_CHALLENGES) on employers, making it harder for them to offer incentives and bonuses. This implies an economic impact (ECONOMIC_IMPACT) on businesses, specifically in terms of labor costs versus other expenditures (CAPITAL_VS_LABOR).",llama3.1:8b-instruct-fp16,2024-09-11T12:45:01.820847017Z,stop,2651742664,30402209,219,28926000,113,2457633000,"What we mean by this is that if wages are risen too much , employers may find it hard to offer sign on incentives , Christmas bonuses or extra commission for projects well done .",['MOTIVATION/CHANCES'],3,"['ECONOMIC_IMPACT', 'COMPETITION/BUSINESS_CHALLENGES', 'CAPITAL_VS_LABOR']"
+"Based on the provided codebook, I would assign the following labels to the given sentence:
+
+* ECONOMIC_IMPACT: The sentence mentions that minimum wages reduce employment and hurt those they are supposed to help, which implies an economic impact.
+* UN/EMPLOYMENT_RATE: This label is relevant as the sentence specifically states that minimum wages ""reduce employment"", which directly relates to unemployment rates.
+
+I would not assign any other labels from the codebook as they do not seem to apply to this particular text.",llama3.1:8b-instruct-fp16,2024-09-11T12:45:04.251484009Z,stop,2383757667,73883264,211,28424000,103,2235576000,"Economists have tended to oppose minimum wages on the grounds that they reduce employment , hurting many of those they are supposed to help .",['UN/EMPLOYMENT_RATE'],2,"['ECONOMIC_IMPACT', 'UN/EMPLOYMENT_RATE']"
+"Based on the given markdown codebook, I would assign the following codes to the sentence:
+
+* SOCIAL_JUSTICE/INJUSTICE: The phrase ""ease present hardship"" implies a concern for the welfare of those affected by the current low minimum wage and suggests that increasing it would alleviate their struggles.
+* GOVERNMENT: Although not explicitly stated, the mention of a ""proposed hike"" implies government involvement in setting or altering the minimum wage.
+
+These codes capture the essence of the argument presented in the sentence, which focuses on alleviating hardship and potentially involves government intervention.",llama3.1:8b-instruct-fp16,2024-09-11T12:45:07.005538968Z,stop,2666228777,29888533,196,27351000,116,2519972000,"The proposed hike would ease present hardship , not abolish it .",['SOCIAL_JUSTICE/INJUSTICE'],2,"['SOCIAL_JUSTICE/INJUSTICE', 'GOVERNMENT']"
+"Based on the provided text, I would assign the following labels:
+
+* LOW-SKILLED: This label applies as Thomas Sowell mentions that the minimum wage makes ""less skilled"" workers more expensive.
+* ECONOMIC_IMPACT: The text discusses the net economic effect of minimum wage laws, indicating a focus on their economic implications.
+* UN/EMPLOYMENT_RATE: The phrase ""pricing many of them out of jobs"" suggests a relationship between minimum wage and unemployment rates.
+
+No other labels appear to be directly applicable based on this specific text.",llama3.1:8b-instruct-fp16,2024-09-11T12:45:09.62243374Z,stop,2612778301,75961062,232,29222000,111,2417340000,"-SKILLED Economist Thomas Sowell sums it up well : “ The net economic effect of minimum wage laws is to make less skilled , less experienced , or otherwise less desired workers more expensive — thereby pricing many of them out of jobs . ”","['LOW', 'UN/EMPLOYMENT_RATE']",3,"['ECONOMIC_IMPACT', 'UN/EMPLOYMENT_RATE', 'LOW']"
+"After carefully analyzing the sentence, I would assign the following labels:
+
+* ECONOMIC_IMPACT
+* GOVERNMENT (specifically referencing the US federal minimum wage)
+* COMPETITION/BUSINESS_CHALLENGES
+* LOW-SKILLED (implying that employers are disinclined to hire workers due to labor costs)
+
+These labels capture the essence of the sentence, which suggests that the high minimum wage has a negative economic impact on employers, making it challenging for them to compete in the business environment.",llama3.1:8b-instruct-fp16,2024-09-11T12:45:12.142304083Z,stop,2430096745,73446085,216,29131000,105,2282969000,One study concluded that 'Em ployers are disinclined to hire workers because the US federal minimum wage is very high relative to the local average ' .,['UN/EMPLOYMENT_RATE'],4,"['ECONOMIC_IMPACT', 'COMPETITION/BUSINESS_CHALLENGES', 'LOW', 'GOVERNMENT']"
+"Based on the text, I would assign the following labels:
+
+* ECONOMIC_IMPACT
+* PRICES
+
+The text mentions that employers might raise prices of their product due to increased labor costs, which could lead to a ripple effect and higher cost of living. This indicates an economic impact on businesses and consumers.
+
+I do not see any mention of unemployment rate, turnover, low-skilled workers, youth and secondary wage earners, capital vs labor, social justice/injustice, welfare, government, competition/business challenges, or motivation/chances in the provided text.",llama3.1:8b-instruct-fp16,2024-09-11T12:45:14.850306565Z,stop,2660884223,32141157,243,30328000,113,2461728000,"Price increase : Employers might raise prices of their product in order to generate enough income to support their more highly paid minimum wage employees , which could ultimately create a ripple effect for other shops and industries , resulting in a slightly higher cost of living , resulting in another push to raise minimum wage again .",['PRICES'],2,"['ECONOMIC_IMPACT', 'PRICES']"
+"After analyzing the provided sentence, I would assign the following codes:
+
+* YOUTH_AND_SECONDARY_WAGE_EARNERS ( potentially applicable, but with a note: The text does not explicitly mention youth and secondary wage earners, but it could be inferred that increasing minimum wage might encourage them to join the workforce)
+
+No other labels appear to apply directly.",llama3.1:8b-instruct-fp16,2024-09-11T12:45:16.574509191Z,stop,1678939594,74041560,210,28755000,71,1529615000,"It also encourages people to join the work force , rather than seek other illegal means of earning money such as selling drugs or prostitution .",['MOTIVATION/CHANCES'],1,['YOUTH_AND_SECONDARY_WAGE_EARNERS']
+"Based on the provided codebook, I assign the following label(s) to the given text:
+
+* WELFARE
+* GOVERNMENT 
+
+The mention of ""income-support programs"" indicates a connection to welfare policies, and the reference to ""government spending"" is clearly related to government intervention.",llama3.1:8b-instruct-fp16,2024-09-11T12:45:18.128155155Z,stop,1464833959,32689161,205,28579000,61,1313378000,They report the increase would shave $ 7.6 billion off annual government spending on income-support programs .,['WELFARE'],2,"['WELFARE', 'GOVERNMENT']"
+"Based on the provided markdown codebook, I would assign the following labels to the given sentence:
+
+* LOW-SKILLED: This label is applicable as the speaker mentions ""skilled"" workers, implying a concern for the impact of a minimum wage increase on low-skilled labor.
+* MOTIVATION/CHANCES: The speaker's interest in enabling people to enter the job market and take advantage of opportunities suggests that they value providing motivation and chances for individuals, particularly those who may be entering the workforce.
+
+I did not assign other labels as they do not seem to directly relate to the content of the sentence.",llama3.1:8b-instruct-fp16,2024-09-11T12:45:21.000440291Z,stop,2867888327,73069738,218,28615000,123,2676737000,"-SKILLED I would not raise it , specifically because I 'm interested in making sure that people are able to enter the job market and take advantage of opportunities . ""","['LOW', 'MOTIVATION/CHANCES']",2,"['MOTIVATION/CHANCES', 'LOW']"
+"Based on the provided text, I would assign the following labels:
+
+* ECONOMIC_IMPACT: This label applies because the text mentions a potential reduction in total employment and slowdown of hiring, which is an economic consequence.
+* UN/EMPLOYMENT_RATE: This label also applies as the text specifically mentions that minimum wages can reduce total employment, which is related to unemployment rates.
+
+Note that I did not assign labels like CAPITAL_VS_LABOR or SOCIAL_JUSTICE/INJUSTICE because they do not seem to be directly relevant to the economic impact of minimum wages on employment mentioned in the text.",llama3.1:8b-instruct-fp16,2024-09-11T12:45:23.913141199Z,stop,2825612350,74117948,224,28661000,123,2678221000,"Meanwhile , Jonathan Meer and Jeremy West of Texas A&M University have recently added a new wrinkle to the controversy with a paper that says minimum wages can noticeably bring reduce total employment by slowing down hiring .",['UN/EMPLOYMENT_RATE'],4,"['ECONOMIC_IMPACT', 'UN/EMPLOYMENT_RATE', 'CAPITAL_VS_LABOR', 'SOCIAL_JUSTICE/INJUSTICE']"
+"Based on the provided codebook, I would assign the following codes to the given sentence:
+
+* ECONOMIC_IMPACT: This label applies as the sentence implies that a lower minimum wage (or an ""unlivable"" wage) has an economic impact on the individuals affected.
+
+However, upon further analysis, I notice that the focus is more on the motivational aspect of low wages rather than their economic impact. Therefore, another relevant code is:
+
+* MOTIVATION/CHANCES: This label fits well as the sentence suggests that a lower minimum wage would motivate people to improve their circumstances or pursue alternative opportunities.
+
+Considering the context and tone of the statement, I would not assign any other labels from the provided codebook.",llama3.1:8b-instruct-fp16,2024-09-11T12:45:27.304446051Z,stop,3342489267,30458104,205,26836000,145,3155426000,"“ Minimum wage should be unlivable , so the people making it are motivated to do something better !","['SOCIAL_JUSTICE/INJUSTICE', 'MOTIVATION/CHANCES']",2,"['ECONOMIC_IMPACT', 'MOTIVATION/CHANCES']"
+"After carefully reading the text, I assign the following codes:
+
+* ECONOMIC_IMPACT: This label applies as the argument is making a claim about the potential economic impact of raising the federal tipped minimum wage on restaurants and their employment.
+* UN/EMPLOYMENT_RATE: Although the text doesn't explicitly mention unemployment rates, it implies that job losses could lead to an increase in unemployment rates. Therefore, I assign this code.
+* GOVERNMENT: This label applies as the argument is related to a government policy decision (raising the federal tipped minimum wage).
+
+I did not assign any other labels as they do not directly apply to the text.",llama3.1:8b-instruct-fp16,2024-09-11T12:45:30.326488606Z,stop,2975233234,70330273,214,28548000,130,2829566000,Myth : Raising the federal tipped minimum wage ( $ 2.13 per hour since 1991 ) would lead to restaurant job losses .,['UN/EMPLOYMENT_RATE'],3,"['ECONOMIC_IMPACT', 'UN/EMPLOYMENT_RATE', 'GOVERNMENT']"
+"Based on the given text, I would assign the following codes:
+
+* ECONOMIC_IMPACT
+* COMPETITION/BUSINESS_CHALLENGES
+
+My reasoning is as follows:
+
+* The statement ""hurt unions"" implies that the minimum wage law has a negative economic impact on unions, suggesting an adverse effect on their power or influence.
+* Additionally, the mention of unions may imply that employers are experiencing business challenges (e.g., increased labor costs) due to the minimum wage law, which could be affecting their ability to compete.",llama3.1:8b-instruct-fp16,2024-09-11T12:45:32.927498596Z,stop,2511851456,30067112,192,26893000,109,2366377000,The minimum wage law actually hurts unions .,['CAPITAL_VS_LABOR'],2,"['ECONOMIC_IMPACT', 'COMPETITION/BUSINESS_CHALLENGES']"
+"Based on the provided instructions and the given sentence, I would assign the label YOUTH_AND_SECONDARY_WAGE_EARNERS. This label applies because the sentence specifically mentions a high school student as a typical minimum wage worker, indicating that this group is relevant to the discussion about minimum wage.
+
+I will not assign any other labels from the codebook at this time since they do not directly apply to the given sentence.",llama3.1:8b-instruct-fp16,2024-09-11T12:45:34.939260657Z,stop,2007179127,73543464,203,26714000,84,1817439000,Not true : The typical minimum wage worker is not a high school student earning weekend pocket money .,['YOUTH_AND_SECONDARY_WAGE_EARNERS'],1,['YOUTH_AND_SECONDARY_WAGE_EARNERS']
+"Based on the provided markdown codebook, I would assign the following labels to the given text:
+
+* ECONOMIC_IMPACT
+* LOW-SKILLED
+
+The text mentions that the minimum wage will ""price the services"" of the least productive (and therefore lowest-wage) workers out of the market, which suggests an economic impact. Additionally, it specifically refers to ""least skilled"" and ""lowest-wage"" workers, indicating a focus on low-skilled labor.
+
+I did not assign any other labels as they do not seem to directly apply to this text. For example:
+
+* UN/EMPLOYMENT_RATE is not relevant here, as the text does not discuss employment rates.
+* TURNOVER is not mentioned at all in the text.
+* YOUTH_AND_SECONDARY_WAGE_EARNERS is not relevant, as there is no mention of youth or secondary wage earners.
+* CAPITAL_VS_LABOR is not directly applicable, although it could be tangentially related to the economic impact discussion. However, I did not assign this label as it's not the primary focus of the text.
+* SOCIAL_JUSTICE/INJUSTICE and WELFARE are not relevant here, as the text does not discuss social justice or welfare.
+* PRICES is mentioned indirectly through ""price the services"", but it's more related to economic impact than a standalone concept.
+* GOVERNMENT is not mentioned at all in the text.
+* COMPETITION/BUSINESS_CHALLENGES and MOTIVATION/CHANCES are also not relevant, as they do not appear in the text.
+
+Please let me know if you have any further questions or if there's anything else I can help with!",llama3.1:8b-instruct-fp16,2024-09-11T12:45:42.68109381Z,stop,7653563057,74102638,210,28748000,342,7506172000,-SKILLED The minimum wage will price the services of the least productive ( and therefore lowest-wage ) workers out of the market .,['LOW'],12,"['WELFARE', 'ECONOMIC_IMPACT', 'COMPETITION/BUSINESS_CHALLENGES', 'PRICES', 'TURNOVER', 'YOUTH_AND_SECONDARY_WAGE_EARNERS', 'MOTIVATION/CHANCES', 'UN/EMPLOYMENT_RATE', 'CAPITAL_VS_LABOR', 'LOW', 'SOCIAL_JUSTICE/INJUSTICE', 'GOVERNMENT']"
+"Based on the provided text, I would assign the following labels:
+
+* SOCIAL_JUSTICE/INJUSTICE: This label applies because the argument revolves around the social implications of a higher minimum wage, specifically its potential to discourage further education among low-income individuals.
+
+Note that while YOUTH_AND_SECONDARY_WAGE_EARNERS is also related to the topic, it's not explicitly mentioned in this specific text. The focus here is on the poor and further education, which makes SOCIAL_JUSTICE/INJUSTICE a more fitting label.",llama3.1:8b-instruct-fp16,2024-09-11T12:45:45.29233769Z,stop,2561423953,30095210,196,27750000,109,2366320000,They also believe it discourages further education of the poor .,['MOTIVATION/CHANCES'],2,"['YOUTH_AND_SECONDARY_WAGE_EARNERS', 'SOCIAL_JUSTICE/INJUSTICE']"
+"Based on the provided codebook, I would assign the following labels to the sentence:
+
+* ECONOMIC_IMPACT
+* PRICES
+
+These two labels apply because the sentence discusses the potential economic outcome of a minimum wage hike (inflation) and mentions prices. 
+
+Note that some other labels, such as CAPTIAL_VS_LABOR or WELFARE, do not appear to be relevant in this context.",llama3.1:8b-instruct-fp16,2024-09-11T12:45:47.369027767Z,stop,2028941700,73525178,196,28230000,87,1881372000,A minimum wage hike will only help to foster more inflation .,['PRICES'],3,"['WELFARE', 'ECONOMIC_IMPACT', 'PRICES']"
+"Based on the provided markdown codebook, I would assign the following codes to the given sentence:
+
+* PRICES
+* COMPETITION/BUSINESS_CHALLENGES 
+
+The sentence mentions that some companies will ""absorb the increased labor costs"", implying a concern about how businesses can manage their finances. It also states that others with thin profit margins might ""cut their workforce or raise prices"", which suggests a competitive challenge for these businesses.
+
+Note that I did not assign codes related to employment, motivation, or social justice, as they are not directly implied by the sentence.",llama3.1:8b-instruct-fp16,2024-09-11T12:45:50.104806983Z,stop,2649248810,30128630,210,28868000,115,2501749000,"Some companies will be able to absorb the increased labor costs , while others with thin profit margins might cut their workforce or raise prices .","['COMPETITION/BUSINESS_CHALLENGES', 'UN/EMPLOYMENT_RATE', 'PRICES']",2,"['COMPETITION/BUSINESS_CHALLENGES', 'PRICES']"
+"Based on the provided codebook and the given text, I would assign the following labels:
+
+* ECONOMIC_IMPACT
+* TURNOVER
+
+The reasoning behind these assignments is as follows:
+
+* ECONOMIC_IMPACT: The text implies that a higher wage will lead to fewer hours demanded by employers, which could have economic implications such as reduced labor costs or increased productivity. This suggests a consideration of the economic impact of raising the minimum wage.
+* TURNOVER: The relationship between wage and hours worked may also imply an effect on employee turnover, as employees working fewer hours might be more likely to seek alternative employment or leave their current job.
+
+The other labels do not seem to directly apply to this specific text.",llama3.1:8b-instruct-fp16,2024-09-11T12:45:53.497613942Z,stop,3388261146,72270348,204,27025000,147,3199286000,"It is assumed that the higher the wage , the fewer hours an employer will demand of an employee .",['UN/EMPLOYMENT_RATE'],2,"['ECONOMIC_IMPACT', 'TURNOVER']"
+"After carefully analyzing the text, I would assign the following labels:
+
+* GOVERNMENT
+* PRICES 
+
+These two labels capture the main points being made in the sentence. The phrase ""government price controls"" directly relates to the label GOVERNMENT, and the concept of minimum wage laws affecting prices is captured by the label PRICES.",llama3.1:8b-instruct-fp16,2024-09-11T12:45:55.226154599Z,stop,1638716566,78205569,197,27749000,69,1488191000,"Like all government price controls , minimum wage laws are distortionary .",['GOVERNMENT'],2,"['PRICES', 'GOVERNMENT']"
+"After analyzing the provided sentence, I would assign the following labels:
+
+* WELFARE: The sentence mentions the impact of a higher minimum wage on individuals' financial situations, implying a concern for their well-being and economic security.
+* SOCIAL_JUSTICE/INJUSTICE: The text suggests that some people are struggling to make ends meet, which implies an element of social injustice or inequality.
+
+These labels capture the main themes and concerns expressed in the sentence.",llama3.1:8b-instruct-fp16,2024-09-11T12:45:57.480786689Z,stop,2207588879,30229261,218,28631000,93,2017993000,"While making a dollar more an hour may not sound like much to many of us , for someone who is tight on finances that forty dollars a week can really add up .",['SOCIAL_JUSTICE/INJUSTICE'],2,"['WELFARE', 'SOCIAL_JUSTICE/INJUSTICE']"
+"Based on the provided codebook, I would assign the following labels to the given sentence:
+
+* ECONOMIC_IMPACT
+* LOW-SKILLED (implied, as ""minimum wage"" often refers to low-skilled workers)
+* YOUTH_AND_SECONDARY_WAGE_EARNERS (similarly implied)
+
+These labels are based on the idea that increasing the minimum wage would have economic consequences (ECONOMIC_IMPACT), and would primarily affect low-skilled workers (LOW-SKILLED) and possibly younger or secondary wage earners who are often employed in low-wage jobs (YOUTH_AND_SECONDARY_WAGE_EARNERS).",llama3.1:8b-instruct-fp16,2024-09-11T12:46:00.462411189Z,stop,2934846329,74032408,207,28768000,128,2785362000,"Increasing the minimum wage would have a ripple effect , raising the incomes of people who make slightly above the minimum wage .",['ECONOMIC_IMPACT'],3,"['ECONOMIC_IMPACT', 'YOUTH_AND_SECONDARY_WAGE_EARNERS', 'LOW']"
+"After analyzing the sentence, I would assign the following labels:
+
+* ECONOMIC_IMPACT
+* UN/EMPLOYMENT_RATE
+* TURNOVER (since job loss implies a change in workforce turnover)
+
+These labels capture the main idea of the sentence, which is that raising the minimum wage could lead to significant economic consequences, including a decrease in employment and potentially a loss of jobs.",llama3.1:8b-instruct-fp16,2024-09-11T12:46:02.432140086Z,stop,1880537251,30108768,220,28959000,80,1733007000,"The main potential negative impact of raising the minimum wage is the loss of close to 500,000 jobs , which comes out to around 0.3 % decrease in employment .",['UN/EMPLOYMENT_RATE'],3,"['ECONOMIC_IMPACT', 'TURNOVER', 'UN/EMPLOYMENT_RATE']"
+"Based on the given instruction, I will assign the following labels to the provided text:
+
+1. ECONOMIC_IMPACT
+2. SOCIAL_JUSTICE/INJUSTICE
+3. LOW-SKILLED (not explicitly mentioned in the sentence, but it can be inferred that basic income recipients are likely low-skilled workers who might otherwise struggle with destitution)
+4. YOUTH_AND_SECONDARY_WAGE_EARNERS 
+
+Note: These labels apply because the text suggests that implementing a basic income could lead to an economic impact on wages and bargaining power, raise questions of social justice/injustice (given the risk of destitution), and potentially benefit low-skilled workers and youth/secondary wage earners.",llama3.1:8b-instruct-fp16,2024-09-11T12:46:05.711799377Z,stop,3275511571,73340713,221,28124000,142,3084622000,It is argued that recipients of the basic income would have considerably more bargaining power when negotiating a wage with an employer as there would be no risk of destitution for not taking the employment .,['CAPITAL_VS_LABOR'],4,"['ECONOMIC_IMPACT', 'YOUTH_AND_SECONDARY_WAGE_EARNERS', 'LOW', 'SOCIAL_JUSTICE/INJUSTICE']"
+"Based on the provided codebook, I would assign the following labels to the given sentence:
+
+* CAPITAL_VS_LABOR (The text suggests a dichotomy between corporate interests and those of workers)
+* SOCIAL_JUSTICE/INJUSTICE (The phrase ""hurts one group"" implies an issue with social justice or injustice)
+
+Note that I have not assigned any other labels as they do not seem to apply directly to the sentence.",llama3.1:8b-instruct-fp16,2024-09-11T12:46:07.876876745Z,stop,2077149843,73916988,215,28730000,89,1929993000,But it ’s still important to remember that raising the minimum wage ultimately really only hurts one group : major corporations and the assholes in charge of them .,['COMPETITION/BUSINESS_CHALLENGES'],2,"['CAPITAL_VS_LABOR', 'SOCIAL_JUSTICE/INJUSTICE']"
+"Based on the provided codebook and the given sentence, I would assign the label ECONOMIC_IMPACT. The sentence suggests a consideration of how increased minimum wage might affect businesses' expenses (labor costs), which in turn could have broader economic implications. 
+
+However, since it also mentions ""higher labor costs"", it implies that the speaker is considering the impact on business operations due to higher employee compensation. Therefore, I would assign an additional label: COMPETITION/BUSINESS_CHALLENGES.
+
+So, the final assignment would be:
+
+ECONOMIC_IMPACT
+COMPETITION/BUSINESS_CHALLENGES",llama3.1:8b-instruct-fp16,2024-09-11T12:46:10.769118754Z,stop,2846060268,74534445,203,28289000,124,2696457000,Perhaps the fact that workers will have more to spend will blunt any impact from higher labor costs .,"['COMPETITION/BUSINESS_CHALLENGES', 'SOCIAL_JUSTICE/INJUSTICE']",2,"['ECONOMIC_IMPACT', 'COMPETITION/BUSINESS_CHALLENGES']"
+"Based on the text, I would assign the following labels:
+
+* GOVERNMENT: The sentence mentions government involvement in setting wages.
+* ECONOMIC_IMPACT: The speaker is referencing how wage-setting by government can have broader economic implications (i.e., intervention).
+* CAPITAL_VS_LABOR: The speaker's statement implies a tension between government regulation of labor and the natural market forces of capital (e.g., businesses' ability to set wages).
+
+Note that I did not assign any other labels as they do not directly apply to this text. For example, the sentence does not explicitly mention unemployment rates, social justice/injustice, or prices.",llama3.1:8b-instruct-fp16,2024-09-11T12:46:13.863102561Z,stop,3003215381,29640300,239,29092000,131,2855768000,"I mean , nobody works for minimum wage , back to this whole notion of showing up on time and wearing clean clothes gets you way above the minimum wage … I just think when government gets involved in setting wages , there 's no stopping what government will intervene in doing . """,['GOVERNMENT'],3,"['ECONOMIC_IMPACT', 'CAPITAL_VS_LABOR', 'GOVERNMENT']"
+"Based on the provided markdown codebook, I will assign the following codes to the given text:
+
+* UN/EMPLOYMENT_RATE
+* ECONOMIC_IMPACT 
+
+These labels apply because the Chamber of Commerce is warning about a potential increase in unemployment (UN/EMPLOYMENT_RATE) as a result of minimum wage rises (ECONOMIC_IMPACT).",llama3.1:8b-instruct-fp16,2024-09-11T12:46:15.640049332Z,stop,1772133591,77714775,214,27294000,73,1577059000,The Chamber of Commerce warned on no less than four separate occasions from 1975 to 1989 that minimum wage rises would cost millions of jobs .,['UN/EMPLOYMENT_RATE'],2,"['ECONOMIC_IMPACT', 'UN/EMPLOYMENT_RATE']"
+"Here are my assignments:
+
+* ECONOMIC_IMPACT: This label applies as the text mentions ""significant economic stimulus"" which is a direct reference to the potential positive impact on the economy.
+* GOVERNMENT: I assign this label because Los Angeles Mayor Eric Garcetti commissioned a study, indicating that government involvement is being discussed in the context of minimum wage.
+
+These are the only labels that apply from the provided codebook.",llama3.1:8b-instruct-fp16,2024-09-11T12:46:17.700414096Z,stop,2012254669,73459521,231,29227000,86,1862747000,"It obviously varies by location — but Los Angeles Mayor Eric Garcetti commissioned a study on the issue , and found that a citywide minimum wage of $ 13.25 an hour would provide a significant economic stimulus with negligible job loss .","['UN/EMPLOYMENT_RATE', 'ECONOMIC_IMPACT']",2,"['ECONOMIC_IMPACT', 'GOVERNMENT']"
+"Based on the provided markdown codebook, I would assign the following codes to the given sentence:
+
+* ECONOMIC_IMPACT
+* PRICES (implied by the mention of ""outpacing"" and ""increases"", suggesting a relationship between wages and prices)
+
+The reasoning behind these choices is as follows:
+
+* The phrase ""Improvements in productivity and economic growth"" suggests that there are broader economic implications to consider, which aligns with ECONOMIC_IMPACT.
+* The sentence states that the minimum wage has increased, but at a slower rate than economic growth. This implies an impact on prices, as wages can influence price levels. Therefore, PRICES is also applicable.
+
+No other labels seem directly relevant or implied in this sentence.",llama3.1:8b-instruct-fp16,2024-09-11T12:46:21.20241904Z,stop,3414796375,31888293,200,27928000,150,3268253000,Improvements in productivity and economic growth have outpaced increases in the minimum wage .,['PRICES'],2,"['ECONOMIC_IMPACT', 'PRICES']"
+"Based on the provided sentence, I would assign the label LOW-SKILLED. This is because the sentence specifically mentions that companies can be more selective in their hiring process, leading to the exclusion of ""the least skilled and least experienced"" individuals.
+
+However, I should note that another applicable label could be UN/EMPLOYMENT_RATE, as the exclusion of the least skilled and least experienced workers might contribute to unemployment among this group. 
+
+But given the sentence's focus on the specific aspect of companies being selective in their hiring process due to skill level, LOW-SKILLED is the primary label I would assign.",llama3.1:8b-instruct-fp16,2024-09-11T12:46:24.066747706Z,stop,2859385913,70262485,209,27520000,123,2672225000,-SKILLED Companies can be more selective in those whom they employ thus the least skilled and least experienced will typically be excluded .,['LOW'],2,"['UN/EMPLOYMENT_RATE', 'LOW']"
+"Based on the provided markdown codebook, I would assign the following labels to the given text:
+
+* ECONOMIC_IMPACT
+* UN/EMPLOYMENT_RATE
+* MOTIVATION/CHANCES 
+
+The reasoning behind this is as follows:
+- ""If a wage increase for all their employees is going to financially hurt the company"" suggests an economic impact on the company, which aligns with the label **ECONOMIC_IMPACT**.
+- The phrase ""until it can adjust or permanently"" implies that the economic impact could lead to job losses (temporary or permanent layoffs), connecting it to **UN/EMPLOYMENT_RATE**.
+- ""employers are more likely to give temporary or permanent layoffs"" suggests a potential motivation for employers to take this action due to the expected economic consequences, which falls under **MOTIVATION/CHANCES**.",llama3.1:8b-instruct-fp16,2024-09-11T12:46:28.102417469Z,stop,3946573976,73822536,220,28825000,174,3799350000,"If employers find that a wage increase for all their employees if going to financially hurt the company until it can adjust or permanently , employers are more likely to give temporary or permanent layoffs .","['COMPETITION/BUSINESS_CHALLENGES', 'UN/EMPLOYMENT_RATE']",3,"['ECONOMIC_IMPACT', 'MOTIVATION/CHANCES', 'UN/EMPLOYMENT_RATE']"
+"Based on the provided text, I assign the following codes:
+
+* YOUTH_AND_SECONDARY_WAGE_EARNERS: This label applies as the text specifically mentions a 16-year-old worker with their first job, indicating that they are a secondary wage earner.
+* GOVERNMENT: The imposition of minimum wage suggests government involvement or regulation in this context.
+
+These two labels capture the essence of the argument presented in the text.",llama3.1:8b-instruct-fp16,2024-09-11T12:46:30.223776453Z,stop,2073846890,30124021,211,28351000,87,1885176000,"Thus , minimum wage is more often imposed on the sixteen-year-old worker with his first job than on people who would otherwise be unemployed .",['YOUTH_AND_SECONDARY_WAGE_EARNERS'],2,"['YOUTH_AND_SECONDARY_WAGE_EARNERS', 'GOVERNMENT']"
+"Based on the provided markdown codebook, I would assign the following labels to the given text:
+
+* SOCIAL_JUSTICE/INJUSTICE
+* LOW-SKILLED 
+
+These two labels apply because the text mentions ""low-wage workers"", implying a concern for the economic well-being of low-skilled or low-wage individuals, which is related to social justice/injustice.",llama3.1:8b-instruct-fp16,2024-09-11T12:46:32.041689131Z,stop,1770135788,74068441,205,28615000,75,1620497000,So might a handful of Republicans looking to demonstrate that they too care about stagnant incomes for low-wage workers .,['SOCIAL_JUSTICE/INJUSTICE'],2,"['LOW', 'SOCIAL_JUSTICE/INJUSTICE']"
+"Based on the given text, I would assign the following labels:
+
+* ECONOMIC_IMPACT (since it mentions the contribution to household income)
+* GOVERNMENT (as it references the Department of Labor)
+
+These two labels seem most relevant to me as they pertain directly to the information provided in the sentence.",llama3.1:8b-instruct-fp16,2024-09-11T12:46:33.660009591Z,stop,1528642640,30038738,220,28671000,64,1381141000,"According to the Department of Labor , over half of people paid at minimum wage work a full-time schedule , and minimum wage workers contribute 46 percent of their household ’s income .",['YOUTH_AND_SECONDARY_WAGE_EARNERS'],2,"['ECONOMIC_IMPACT', 'GOVERNMENT']"
+"Based on the provided markdown codebook, I will assign the following labels to the given text:
+
+* SOCIAL_JUSTICE/INJUSTICE
+* WELFARE
+* GOVERNMENT
+
+These labels apply because the text mentions raising people out of the poverty level and removing the need for government assistance, which is related to social justice/injustice, welfare, and government.",llama3.1:8b-instruct-fp16,2024-09-11T12:46:35.526582433Z,stop,1818802942,77838669,228,27735000,77,1666763000,When it was developed as a guideline the theory was that it would offset poverty by requiring business owners and corporate entities to pay a wage that would raise people up out of the poverty level and remove the need for government assistance .,"['SOCIAL_JUSTICE/INJUSTICE', 'WELFARE']",3,"['WELFARE', 'SOCIAL_JUSTICE/INJUSTICE', 'GOVERNMENT']"
+"After analyzing the sentence, I have assigned the following codes:
+
+* YOUTH_AND_SECONDARY_WAGE_EARNERS: The mention of ""young workers"" directly points to this label.
+* LOW-SKILLED: Although not explicitly stated, the context implies that these young and female workers may be low-skilled, as they are employed in sweatshops.
+* SOCIAL_JUSTICE/INJUSTICE: The use of ""substandard wages"" suggests an issue of social injustice.
+
+Note that I have excluded other labels that may seem relevant but do not directly apply to the text.",llama3.1:8b-instruct-fp16,2024-09-11T12:46:38.307797986Z,stop,2692456110,29940024,207,28667000,117,2544938000,"The sweatshops employed large numbers of women and young workers , paying them what were considered to be substandard wages .",['CAPITAL_VS_LABOR'],3,"['YOUTH_AND_SECONDARY_WAGE_EARNERS', 'LOW', 'SOCIAL_JUSTICE/INJUSTICE']"
+"Based on the provided codebook, I would assign the following labels to the given text:
+
+* ECONOMIC_IMPACT (due to the mention of reducing employment and training costs)
+* TURNOVER (directly mentioned as a consequence of higher wages)
+
+These two labels capture the main points made in the sentence about the economic implications of increasing minimum wage.",llama3.1:8b-instruct-fp16,2024-09-11T12:46:40.083695556Z,stop,1771065901,72994767,205,28566000,73,1576109000,Academic research also has shown that higher wages sharply reduce employee turnover which can reduce employment and training costs .,['TURNOVER'],2,"['ECONOMIC_IMPACT', 'TURNOVER']"
+"Based on the provided text, I would assign the following labels:
+
+* SOCIAL_JUSTICE/INJUSTICE: The mention of ""poverty"" and the suggestion of alternative solutions implies a concern with social justice and reducing economic inequality.
+* WELFARE: The discussion of income tax credits for low-income workers and asset development policies suggests that the author is considering ways to improve the welfare of vulnerable populations.
+
+These labels seem to be the most relevant, as the text does not directly address employment rates, economic impact, turnover, or other specific aspects related to minimum wage.",llama3.1:8b-instruct-fp16,2024-09-11T12:46:42.838122716Z,stop,2666499625,70013499,215,28468000,116,2523445000,"There are better ways to address poverty , such as income tax credits for low-income workers or tax policies that encourage asset development and savings for low-income families .","['SOCIAL_JUSTICE/INJUSTICE', 'WELFARE']",2,"['WELFARE', 'SOCIAL_JUSTICE/INJUSTICE']"
+"Based on the provided markdown codebook and the given example sentence, I would assign the following labels:
+
+* PRICES
+* COMPETITION/BUSINESS_CHALLENGES 
+
+The text mentions that a business partner might have to increase prices by 40 percent, which directly relates to the label ""PRICES"". Additionally, this potential price increase is implied to be a consequence of the minimum wage debate, suggesting that it's related to business challenges or competition (COMPETITION/BUSINESS_CHALLENGES).",llama3.1:8b-instruct-fp16,2024-09-11T12:46:45.281768144Z,stop,2396798539,31445866,207,26865000,102,2208646000,I have a business partner who said he will have to increase his prices by 40 percent if it happens . ”,['PRICES'],2,"['COMPETITION/BUSINESS_CHALLENGES', 'PRICES']"
+"Based on the provided markdown codebook, I would assign the following codes:
+
+* WELFARE
+
+My reasoning is that the concept of a ""minimum standard of living"" implies a level of economic security and well-being that is essential for individuals to meet their basic needs. This aligns with the idea of welfare, which concerns the provision of support and assistance to ensure people's basic needs are met.
+
+The other labels do not seem directly relevant to this statement.",llama3.1:8b-instruct-fp16,2024-09-11T12:46:47.508187035Z,stop,2180338451,73768685,195,26407000,94,2034512000,Minimum wage has long been a minimum standard of living .,['SOCIAL_JUSTICE/INJUSTICE'],1,['WELFARE']
+"Based on the provided codebook, I would assign the following label(s) to the given text:
+
+* ECONOMIC_IMPACT
+* CAPITAL_VS_LABOR 
+
+The text suggests that increasing the minimum wage may have a limited impact on employers' expenses (ECONOMIC_IMPACT), and this is likely related to the relationship between labor costs and business operations, which falls under CAPITAL_VS_LABOR.",llama3.1:8b-instruct-fp16,2024-09-11T12:46:49.586861188Z,stop,1991469335,36744728,205,28578000,85,1840073000,Reich and Cooper both said research has shown such increases have small overall effects on employers ' operating costs .,['COMPETITION/BUSINESS_CHALLENGES'],2,"['ECONOMIC_IMPACT', 'CAPITAL_VS_LABOR']"
+"After carefully analyzing the provided sentence, I have assigned the following labels:
+
+* ECONOMIC_IMPACT: This label applies as the statement discusses the expected minimum wage based on America's economic performance (GDP per person).
+* CAPITAL_VS_LABOR: This label is also applicable as the discussion around the expected minimum wage implies a consideration of labor costs and their relationship with capital.
+
+These labels are selected because they relate to the economic implications of setting a minimum wage, which is the main focus of the statement.",llama3.1:8b-instruct-fp16,2024-09-11T12:46:52.004862555Z,stop,2413972341,35216953,232,27903000,104,2261234000,"The Economist stated in 2015 that "" America as a whole is an outlier among advanced economies ... one would expect America , where GDP per person is $ 53,000 , to pay a minimum wage around $ 12 an hour .",['SOCIAL_JUSTICE/INJUSTICE'],2,"['ECONOMIC_IMPACT', 'CAPITAL_VS_LABOR']"
+"Based on the provided markdown codebook, I would assign the following labels to the given text:
+
+* GOVERNMENT
+* COMPETITION/BUSINESS_CHALLENGES 
+
+The phrase ""businesses like his"" suggests that Ngoussou is speaking from the perspective of a business owner, and ""need a break on taxes and fees"" implies that he believes government policies or regulations are affecting businesses negatively. The mention of taxes and fees further supports the relevance of the GOVERNMENT label.
+
+Additionally, the phrase ""need a break"" can be interpreted as implying that businesses face challenges in terms of competition or business challenges (COMPETITION/BUSINESS_CHALLENGES), possibly due to government policies or regulations.",llama3.1:8b-instruct-fp16,2024-09-11T12:46:55.368323763Z,stop,3276940030,70213338,200,27916000,144,3134187000,Ngoussou says businesses like his need a break on taxes and fees .,['COMPETITION/BUSINESS_CHALLENGES'],2,"['COMPETITION/BUSINESS_CHALLENGES', 'GOVERNMENT']"
+"Based on the provided text, I would assign the following codes:
+
+* WELFARE (due to the mention of ""paid safe and sick leave"", which implies a benefit for employees' well-being)
+* GOVERNMENT (since the implementation of paid safe and sick leave is likely tied to government regulations or policies)
+
+I did not code ECONOMIC_IMPACT, UN/EMPLOYMENT_RATE, TURNOVER, LOW-SKILLED, YOUTH_AND_SECONDARY_WAGE_EARNERS, CAPITAL_VS_LABOR, SOCIAL_JUSTICE/INJUSTICE, PRICES, MOTIVATION/CHANCES, or COMPETITION/BUSINESS_CHALLENGES as they do not appear to be relevant to the text.",llama3.1:8b-instruct-fp16,2024-09-11T12:46:58.898848655Z,stop,3485137089,34970446,216,28635000,151,3291999000,"“ Molly Moon 's has seen increased sales and increased profitability and my employees are so thankful for the paid safe and sick leave , ” said owner Molly Moon .","['COMPETITION/BUSINESS_CHALLENGES', 'SOCIAL_JUSTICE/INJUSTICE']",12,"['WELFARE', 'ECONOMIC_IMPACT', 'COMPETITION/BUSINESS_CHALLENGES', 'PRICES', 'TURNOVER', 'YOUTH_AND_SECONDARY_WAGE_EARNERS', 'MOTIVATION/CHANCES', 'UN/EMPLOYMENT_RATE', 'CAPITAL_VS_LABOR', 'LOW', 'SOCIAL_JUSTICE/INJUSTICE', 'GOVERNMENT']"
+"Based on the provided codebook and example sentence, I would assign the following labels:
+
+ECONOMIC_IMPACT
+COMPETITION/BUSINESS_CHALLENGES
+
+My reasoning is as follows:
+
+* ECONOMIC_IMPACT: The statement implies that when people have more money to spend, it positively affects economic activity in businesses (i.e., creating more jobs), which falls under Economic Impact.
+* COMPETITION/BUSINESS_CHALLENGES: The statement also implies a competitive dynamic between businesses, where the well-being of one business (in this case, having customers with more disposable income) is tied to the success of others. This suggests that businesses are in competition with each other to attract and retain customers.
+
+Let me know if you'd like me to clarify or adjust my reasoning!",llama3.1:8b-instruct-fp16,2024-09-11T12:47:02.563063276Z,stop,3615372818,73925332,203,28145000,159,3466521000,We create more jobs when other people have more money in their pockets to spend at our businesses .,"['UN/EMPLOYMENT_RATE', 'ECONOMIC_IMPACT']",2,"['ECONOMIC_IMPACT', 'COMPETITION/BUSINESS_CHALLENGES']"
+"Based on the provided sentence, I would assign the following labels:
+
+* UN/EMPLOYMENT_RATE: This label is relevant because the sentence mentions ""crisis-level unemployment"", which implies that the speaker is concerned about the current unemployment rate.
+* LOW-SKILLED: The text specifically mentions ""low-skill workers"", making this label applicable.
+* CAPITAL_VS_LABOR: Although not explicitly stated, the phrase ""make it more expensive for businesses"" suggests a tension between the cost of labor (increased by higher minimum wage) and business capital, implying that this label is relevant.
+* COMPETITION/BUSINESS_CHALLENGES: The sentence implies that increasing the minimum wage may pose challenges to businesses in terms of hiring young and low-skill workers.
+
+I did not assign labels for ECONOMIC_IMPACT, YOUTH_AND_SECONDARY_WAGE_EARNERS, SOCIAL_JUSTICE/INJUSTICE, PRICES, WELFARE, GOVERNMENT, MOTIVATION/CHANCES, or TURNOVER as they are either not explicitly mentioned or implied in the sentence.",llama3.1:8b-instruct-fp16,2024-09-11T12:47:07.714939376Z,stop,5063351670,29986929,212,28453000,225,4916270000,-SKILLED Because it will make it more expensive for businesses to hire young and low-skill workers at a time of crisis-level unemployment .,"['LOW', 'UN/EMPLOYMENT_RATE']",12,"['WELFARE', 'ECONOMIC_IMPACT', 'COMPETITION/BUSINESS_CHALLENGES', 'PRICES', 'TURNOVER', 'YOUTH_AND_SECONDARY_WAGE_EARNERS', 'MOTIVATION/CHANCES', 'UN/EMPLOYMENT_RATE', 'CAPITAL_VS_LABOR', 'LOW', 'SOCIAL_JUSTICE/INJUSTICE', 'GOVERNMENT']"
+"After analyzing the given text, I would assign the following labels:
+
+* COMPETITION/BUSINESS_CHALLENGES: This label applies as the text implies that businesses may face challenges or need to ""shape up"" in response to an increase in minimum wage.
+* MOTIVATION/CHANCES: This label also applies as the text suggests that businesses will be motivated to adapt or take action (i.e., shape up) in response to the increased minimum wage.
+
+No other labels from the codebook seem to apply directly to this text.",llama3.1:8b-instruct-fp16,2024-09-11T12:47:10.273758696Z,stop,2552687005,72552527,199,27300000,109,2363224000,"When the minimum wage goes up , the theory says , businesses shape up .",['COMPETITION/BUSINESS_CHALLENGES'],2,"['COMPETITION/BUSINESS_CHALLENGES', 'MOTIVATION/CHANCES']"
+"Based on the provided markdown codebook, I would assign the following label(s) to the given text:
+
+* SOCIAL_JUSTICE/INJUSTICE 
+
+This label applies because the text implies that raising the minimum wage could benefit the ""broader working class"", which suggests a consideration for social justice and potentially addressing economic injustices.",llama3.1:8b-instruct-fp16,2024-09-11T12:47:11.957576519Z,stop,1593759222,73829234,207,29116000,67,1446282000,"But , if your goal is suring up the broader working class , they might seem like a rather good deal .",['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"Based on the provided codebook, I would assign the following labels to the given text:
+
+* WELFARE
+* SOCIAL_JUSTICE/INJUSTICE
+
+The text mentions reducing poverty and alleviating the strain on the social safety net, which is related to welfare. Additionally, it implies a sense of fairness or justice in addressing poverty and inequality, which falls under Social Justice/Injustice.
+
+Let me know if you'd like me to review anything!",llama3.1:8b-instruct-fp16,2024-09-11T12:47:14.233644236Z,stop,2227353062,32145940,202,26998000,94,2036413000,"But in addition , paying higher wages reduces poverty and the strain on the social safety net .",['SOCIAL_JUSTICE/INJUSTICE'],2,"['WELFARE', 'SOCIAL_JUSTICE/INJUSTICE']"
+"What a fascinating text! Based on the provided codebook, I would assign the following labels:
+
+* SOCIAL_JUSTICE/INJUSTICE
+* ECONOMIC_IMPACT (specifically, the notion that workers are underpaid and deserving of fair compensation)
+
+The argument is centered around the idea that fast food workers should be paid fairly, which implies a discussion about social justice and economic impact. The phrase ""crab bucket mentality"" suggests a commentary on the way people treat each other in terms of fairness and opportunity.
+
+Note that I did not assign labels like LOW-SKILLED or YOUTH_AND_SECONDARY_WAGE_EARNERS, as they do not seem to be directly relevant to this specific text, which focuses more on the broader social and economic implications rather than targeting a particular demographic.",llama3.1:8b-instruct-fp16,2024-09-11T12:47:17.91631184Z,stop,3637189002,70593549,237,29300000,160,3490528000,"When you see people arguing against a minimum wage increase on the grounds that fast food workers do n’t deserve to make what other likewise underpaid workers make , that is as soul-crushingly perfect an illustration of the crab bucket mentality as you ’ll ever see .",['SOCIAL_JUSTICE/INJUSTICE'],4,"['ECONOMIC_IMPACT', 'YOUTH_AND_SECONDARY_WAGE_EARNERS', 'LOW', 'SOCIAL_JUSTICE/INJUSTICE']"
+"Based on the provided codebook, I would assign the following labels to the given sentence:
+
+* LOW-SKILLED: The text mentions ""agricultural workers"", ""fast food workers"", and ""retail workers"", which are often associated with low-skilled or unskilled labor.
+* YOUTH_AND_SECONDARY_WAGE_EARNERS: While not explicitly stated, these types of jobs (e.g., retail, fast food) often have a high turnover rate and are commonly held by younger workers or those relying on secondary income.
+* SOCIAL_JUSTICE/INJUSTICE: The text frames minimum-wage labor as a necessity for survival, implying that the current wage is not sufficient to meet the basic needs of these workers, which aligns with concerns about social justice/injustice.
+
+I did not assign any other labels because they do not seem to be relevant to this specific sentence.",llama3.1:8b-instruct-fp16,2024-09-11T12:47:22.061228767Z,stop,4057352102,34034152,218,28910000,179,3905119000,"For millions of agricultural workers , fast food workers , and retail workers , minimum-wage labor is n’t just a supplement — it ’s what they depend on to survive .","['YOUTH_AND_SECONDARY_WAGE_EARNERS', 'SOCIAL_JUSTICE/INJUSTICE']",3,"['YOUTH_AND_SECONDARY_WAGE_EARNERS', 'LOW', 'SOCIAL_JUSTICE/INJUSTICE']"
+"Based on the provided instructions, I would assign the following labels:
+
+* UN/EMPLOYMENT_RATE: This label applies because the text mentions ""increasing employment opportunity"" which is related to unemployment rates.
+* ECONOMIC_IMPACT: This label also applies as the text discusses the economic mobility ladder, implying an impact on economic conditions.
+* LOW-SKILLED: This label directly corresponds with the mention of ""low-skilled workers"".
+* MOTIVATION/CHANCES: While not a direct match, this label could be applied in relation to the idea that low-skilled workers have a ""best chance"" of finding employment and climbing the economic ladder, implying motivation or opportunities.",llama3.1:8b-instruct-fp16,2024-09-11T12:47:25.262289991Z,stop,3154744022,70080074,209,28192000,138,3009758000,-SKILLED Increasing employment opportunity gives low-skilled workers the best chance of finding employment and climbing up the economic mobility ladder .,"['LOW', 'MOTIVATION/CHANCES']",4,"['ECONOMIC_IMPACT', 'MOTIVATION/CHANCES', 'UN/EMPLOYMENT_RATE', 'LOW']"
+"Based on the provided markdown codebook, I will assign the following labels to the given text:
+
+* ECONOMIC_IMPACT: The sentence suggests that raising the federal tipped minimum wage could have a negative economic impact on restaurants.
+* GOVERNMENT: This label applies as the discussion revolves around government-set wages (the ""federal tipped minimum wage"").
+ 
+These are the most relevant labels according to the provided codebook.",llama3.1:8b-instruct-fp16,2024-09-11T12:47:27.341403529Z,stop,1989564832,30707328,211,28159000,85,1843044000,Myth : Raising the federal tipped minimum wage ( $ 2.13 per hour since 1991 ) would hurt restaurants .,['COMPETITION/BUSINESS_CHALLENGES'],2,"['ECONOMIC_IMPACT', 'GOVERNMENT']"
+"After carefully reading the text, I would assign the following labels:
+
+* UN/EMPLOYMENT_RATE: This label applies as the text mentions avoiding ""underemployment"", which is a key aspect of unemployment rates.
+* SOCIAL_JUSTICE/INJUSTICE: The text implies that workers are being exploited and underemployed, which suggests an issue with social justice/injustice.
+
+These two labels capture the essence of the argument presented in the text.",llama3.1:8b-instruct-fp16,2024-09-11T12:47:29.461336096Z,stop,2115913612,72195060,197,26357000,89,1928018000,Worker exploitation and underemployment can be avoided with reasonable minimum wages .,"['UN/EMPLOYMENT_RATE', 'CAPITAL_VS_LABOR']",2,"['UN/EMPLOYMENT_RATE', 'SOCIAL_JUSTICE/INJUSTICE']"
+"After analyzing the given text, I would assign the following labels:
+
+* SOCIAL_JUSTICE/INJUSTICE
+* LOW-SKILLED (assuming that the speaker is referring to low-skilled workers who deserve a higher wage)
+* MOTIVATION/CHANCES (the speaker's goal of giving people more command in the workplace implies an interest in motivating and increasing opportunities for them)
+
+These labels capture the main themes of social justice, worker rights, and motivation that are present in the text.",llama3.1:8b-instruct-fp16,2024-09-11T12:47:31.871414073Z,stop,2319715655,73949059,212,28405000,100,2172808000,"I want people to have more command in the workplace , and I want them to have much more than $ 7.25 an hour .",['MOTIVATION/CHANCES'],3,"['MOTIVATION/CHANCES', 'LOW', 'SOCIAL_JUSTICE/INJUSTICE']"
+"Based on the provided markdown codebook, I would assign the following labels to the given sentence:
+
+* PRICES
+* ECONOMIC_IMPACT 
+
+The sentence suggests that a consequence of increasing minimum wage is that businesses will have to pay higher prices for their products or services. This fits with both the PRICES and ECONOMIC_IMPACT labels.",llama3.1:8b-instruct-fp16,2024-09-11T12:47:33.641127239Z,stop,1724981230,32181067,206,28873000,71,1534149000,One potential effect could be higher prices at those businesses that now must pay their workers twice as much as before .,['PRICES'],2,"['ECONOMIC_IMPACT', 'PRICES']"
+"After analyzing the sentence, I would assign the following labels:
+
+* ECONOMIC_IMPACT
+* GOVERNMENT (implied by the mention of ""companies"" and the impact on jobs)
+* COMPETITION/BUSINESS_CHALLENGES (companies are making decisions to reduce or control costs)
+
+I did not assign any other labels as they do not seem to be directly related to the information provided in the sentence.",llama3.1:8b-instruct-fp16,2024-09-11T12:47:35.682433538Z,stop,1994438833,73630330,224,28688000,85,1845545000,"According to the Statistic Brain Research Institute , 2,382,000 US jobs were outsourced in 2015 with 44 % of companies saying they did so to reduce or control costs .",['UN/EMPLOYMENT_RATE'],3,"['ECONOMIC_IMPACT', 'COMPETITION/BUSINESS_CHALLENGES', 'GOVERNMENT']"
+"After analyzing the sentence, I would assign the following labels:
+
+* SOCIAL_JUSTICE/INJUSTICE: This label applies as the statement implies that the current situation is unfair or unjust towards low-wage workers.
+
+I did not select any other labels because they do not seem to directly relate to the sentiment expressed in the sentence.",llama3.1:8b-instruct-fp16,2024-09-11T12:47:37.342851157Z,stop,1571256231,31937021,207,27901000,66,1423890000,""" We 've chosen to let workers at the bottom fall farther and farther away from people in the middle . """,['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"Based on the provided text, I would assign the following labels:
+
+* ECONOMIC_IMPACT
+* UN/EMPLOYMENT_RATE
+* PRICES
+
+The text mentions that minimum wages help in keeping inflation (a price-related economic concept) from increasing too rapidly, which suggests an impact on prices. Additionally, it references macroeconomic conditions and unemployment rates, indicating a relationship with employment/economic stability.
+
+Note that while the text does not explicitly mention other labels such as CAPITAL_VS_LABOR or SOCIAL_JUSTICE/INJUSTICE, they may be indirectly related to the discussion of economic impact and inflation, but there is not enough explicit evidence to support their inclusion.",llama3.1:8b-instruct-fp16,2024-09-11T12:47:40.511333375Z,stop,3124066974,74322866,209,27435000,137,2975622000,"In consumer economies where the unemployment rate is set by macroeconomic conditions , minimum wages help in keeping inflation from increasing too rapidly .",['SOCIAL_JUSTICE/INJUSTICE'],5,"['ECONOMIC_IMPACT', 'PRICES', 'UN/EMPLOYMENT_RATE', 'CAPITAL_VS_LABOR', 'SOCIAL_JUSTICE/INJUSTICE']"
+"Based on the provided codebook, I would assign the label PRICES to the given text. This is because the sentence specifically mentions ""higher prices"" as a potential consequence of increasing minimum wage.
+
+Additionally, I would also consider assigning the label ECONOMIC_IMPACT, as it broadly encompasses the idea that changes in minimum wage could have ripple effects throughout the economy, including on prices. However, since PRICES is a more specific and direct reference, I will prioritize that label.",llama3.1:8b-instruct-fp16,2024-09-11T12:47:42.853664025Z,stop,2254099199,29835039,209,28781000,97,2105613000,That means higher prices for anyone stopping at the mall or Burger King — price bumps that could spread further out in the economy .,['PRICES'],2,"['ECONOMIC_IMPACT', 'PRICES']"
+"Based on the provided codebook and the given sentence, I would assign the following codes:
+
+* WELFARE (referring to the discussion around the impact of increasing minimum wage on poverty levels)
+* ECONOMIC_IMPACT (as increasing minimum wage is likely to have some economic implications)
+
+These two labels capture the main points being discussed in the sentence. Let me know if you'd like me to review or reassign codes for any other sentences!",llama3.1:8b-instruct-fp16,2024-09-11T12:47:45.039464982Z,stop,2181062122,71220726,210,27818000,92,1992496000,Studies from both sides of the debate make it relatively clear that increasing minimum wage will not make a significant impact on the poverty level .,['SOCIAL_JUSTICE/INJUSTICE'],2,"['WELFARE', 'ECONOMIC_IMPACT']"
+"Based on the given codebook, I would assign the following labels to the text:
+
+* WELFARE
+* LOW-SKILLED (implied, as the text mentions families struggling to escape poverty, which is often related to low-skilled or unskilled work)
+* YOUTH_AND_SECONDARY_WAGE_EARNERS (implied, as the text mentions families, which may include youth and secondary wage earners)
+
+I did not assign any other labels because they do not seem to be directly relevant to the given text.",llama3.1:8b-instruct-fp16,2024-09-11T12:47:47.617166549Z,stop,2489564500,74028494,202,27837000,108,2343150000,And a job may ultimately be the most valuable thing for a family struggling to escape poverty .,['SOCIAL_JUSTICE/INJUSTICE'],3,"['WELFARE', 'YOUTH_AND_SECONDARY_WAGE_EARNERS', 'LOW']"
+"After carefully reading the text, I have assigned the following codes:
+
+* ECONOMIC_IMPACT
+* LOW-SKILLED
+* YOUTH_AND_SECONDARY_WAGE_EARNERS
+* SOCIAL_JUSTICE/INJUSTICE 
+
+I chose these labels because the sentence implies that a rise in minimum wage would be beneficial for individuals who could find work, which suggests an economic impact. Additionally, it is likely that low-skilled and youth/secondary wage earners are among those who could benefit from a higher minimum wage, as they often hold entry-level positions with limited job security. Finally, the phrase ""those who could find work"" implies that some individuals may struggle to find employment at current wages, which touches on themes of social justice/injustice.",llama3.1:8b-instruct-fp16,2024-09-11T12:47:51.180813671Z,stop,3515092493,31536376,207,28702000,152,3317896000,"Yet a narrow majority also thought a rise would nonetheless be worthwhile , given the benefits to those who could find work .",['UN/EMPLOYMENT_RATE'],4,"['ECONOMIC_IMPACT', 'YOUTH_AND_SECONDARY_WAGE_EARNERS', 'LOW', 'SOCIAL_JUSTICE/INJUSTICE']"
+"Based on the provided markdown codebook, I will assign the following labels to the given sentence:
+
+* PRICES
+* ECONOMIC_IMPACT 
+
+These labels apply because the sentence mentions that ""prices"" are higher in Massachusetts, which suggests a potential economic impact due to the increased minimum wage. The label WELFARE could also be considered but it's not strongly supported by this sentence.
+
+I have not assigned the other labels as they do not directly relate to the information provided in the sentence.",llama3.1:8b-instruct-fp16,2024-09-11T12:47:53.559092738Z,stop,2331167858,73686613,196,25413000,101,2186348000,"In Massachusetts , wages are higher , and so are prices .",['PRICES'],3,"['WELFARE', 'ECONOMIC_IMPACT', 'PRICES']"
+"Based on the provided markdown codebook, I would assign the following labels to the given text:
+
+SOCIAL_JUSTICE/INJUSTICE
+
+This label is applicable because the text mentions ""getting more money to the broader working class"", which suggests a focus on social justice and fairness in terms of economic distribution.",llama3.1:8b-instruct-fp16,2024-09-11T12:47:55.15385361Z,stop,1505966672,32064990,209,28958000,63,1357216000,So maybe it 's better to think of the minimum wage as a way of getting more money to the broader working class .,['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"Based on the text, I assign the following codes:
+
+* ECONOMIC_IMPACT (referring to the claim that a higher minimum wage will help create jobs and grow the economy)
+* UN/EMPLOYMENT_RATE (implied by the statement ""will help create jobs"")
+* CAPITAL_VS_LABOR (the argument is framed as a choice between economic growth and labor costs, with proponents advocating for higher wages)
+* SOCIAL_JUSTICE/INJUSTICE (referring to wage inequality between low- and middle-income workers)
+* GOVERNMENT (the minimum wage is a policy issue governed by the federal government)
+* COMPETITION/BUSINESS_CHALLENGES (implied by the potential economic impact on businesses)
+
+These codes capture the main themes and arguments presented in the text. Let me know if you'd like me to explain any of these choices!",llama3.1:8b-instruct-fp16,2024-09-11T12:47:59.211806965Z,stop,4053529889,75543084,276,33091000,176,3851873000,"Proponents of a higher minimum wage state that the current federal minimum wage of $ 7.25 per hour is too low for anyone to live on ; that a higher minimum wage will help create jobs and grow the economy ; that the declining value of the minimum wage is one of the primary causes of wage inequality between low - and middle-income workers ; and that a majority of Americans , including a slim majority of self-described conservatives , support increasing the minimum wage .","['UN/EMPLOYMENT_RATE', 'ECONOMIC_IMPACT', 'SOCIAL_JUSTICE/INJUSTICE']",6,"['ECONOMIC_IMPACT', 'COMPETITION/BUSINESS_CHALLENGES', 'UN/EMPLOYMENT_RATE', 'CAPITAL_VS_LABOR', 'SOCIAL_JUSTICE/INJUSTICE', 'GOVERNMENT']"
+"Based on the provided codebook and analyzing the sentence ""Looking at the argument from this perspective, the proposed increased wage to $15 will provide a living wage"", I would assign the following labels:
+
+* SOCIAL_JUSTICE/INJUSTICE: This label applies because the sentence implies that a living wage is a social justice issue, as it aims to ensure that workers can afford a decent standard of living.
+* WELFARE: This label also applies since the sentence suggests that increasing the minimum wage will have a positive impact on workers' welfare by providing them with a living wage.
+
+Note that I did not assign any economic-related labels (such as ECONOMIC_IMPACT, UN/EMPLOYMENT_RATE, etc.) because the text does not explicitly mention economic consequences or job market effects.",llama3.1:8b-instruct-fp16,2024-09-11T12:48:02.935493206Z,stop,3635389867,77481445,206,28531000,160,3484748000,"Looking at the argument from this perspective , the proposed increased wage to $ 15 will provide a living wage .",['SOCIAL_JUSTICE/INJUSTICE'],4,"['WELFARE', 'ECONOMIC_IMPACT', 'UN/EMPLOYMENT_RATE', 'SOCIAL_JUSTICE/INJUSTICE']"
+"After carefully reading the sentence, I would assign the following labels:
+
+* ECONOMIC_IMPACT (due to mention of ""job reduction"" and ""rise in the cost of consumer goods and services"")
+* UN/EMPLOYMENT_RATE (due to the specific concern about ""job reduction"")
+* PRICES (due to the mention of a rise in the cost of consumer goods and services)
+
+I did not assign any other labels as they do not seem directly relevant to the text. For example, there is no discussion of motivation or chances, government intervention, social justice/injustice, youth and secondary wage earners, etc.",llama3.1:8b-instruct-fp16,2024-09-11T12:48:05.88249183Z,stop,2900918459,30274878,216,26617000,125,2713702000,"Opponents of boosting the minimum wage focus mainly on the potentially detrimental side effects , like job reduction , and a rise in the cost of consumer goods and services .","['UN/EMPLOYMENT_RATE', 'PRICES']",3,"['ECONOMIC_IMPACT', 'PRICES', 'UN/EMPLOYMENT_RATE']"
+"Based on the provided text, I would assign the following labels:
+
+* PRICES: This label applies because the text mentions that consumers can ""purchase less with their earnings"", which implies an impact on prices and purchasing power.
+* WELFARE: This label also applies as the text discusses a negative outcome for poor consumers, implying a concern for their welfare.
+
+These two labels capture the essence of the argument presented in the text.",llama3.1:8b-instruct-fp16,2024-09-11T12:48:07.964478213Z,stop,2032792222,73935095,205,27935000,87,1884100000,"This makes poor consumers worse off in a direct sense , in that they can purchase less with their earnings .","['SOCIAL_JUSTICE/INJUSTICE', 'PRICES']",2,"['WELFARE', 'PRICES']"
+"Based on the provided codebook, I will assign labels to the given text as follows:
+
+* ECONOMIC_IMPACT: This label applies because the text discusses the potential impact of a wage increase on the fast food industry's profit margins.
+* CAPITAL_VS_LABOR: This label also applies because the discussion revolves around the relationship between labor costs (wages) and economic outcomes (profit margins).
+ 
+
+These two labels capture the main aspects of the argument presented in the text.",llama3.1:8b-instruct-fp16,2024-09-11T12:48:10.338049832Z,stop,2286377231,35454924,247,30650000,98,2132323000,"This also is n’t particularly surprising considering the UMass-Amherst study which found that a wage increase from $ 7.25 / hour to $ 15/hour , phased in over a period of four years , would have little to no impact on the fast food industry ’s profit margins in general .",['COMPETITION/BUSINESS_CHALLENGES'],2,"['ECONOMIC_IMPACT', 'CAPITAL_VS_LABOR']"
+"Based on the provided codebook, I would assign the following label(s) to the given text:
+
+* ECONOMIC_IMPACT: This label applies because the text mentions the potential effects of indexing the minimum wage on its value, indicating a consideration of economic implications.
+
+No other labels appear to be directly relevant to this sentence.",llama3.1:8b-instruct-fp16,2024-09-11T12:48:11.962180125Z,stop,1619259845,74782796,216,28437000,66,1422634000,"Minimum wage laws , for instance proposals to index the minimum wage to average wages , have the potential to keep the dollar value of the minimum wage relevant and predictable .",['SOCIAL_JUSTICE/INJUSTICE'],1,['ECONOMIC_IMPACT']
+"After analyzing the given sentence, I would assign the following labels:
+
+* PRICES
+* ECONOMIC_IMPACT
+
+My reasoning is as follows: The speaker mentions that if businesses have to pay more for anything (including labor), they will either raise their prices or cut costs. This suggests a direct relationship between increased costs and potential price increases, which falls under the category of PRICES.
+
+Furthermore, this scenario implies an economic impact on businesses, as they would need to adapt to higher costs, making ECONOMIC_IMPACT another relevant label.",llama3.1:8b-instruct-fp16,2024-09-11T12:48:14.579944067Z,stop,2528316692,70021550,230,28803000,110,2384943000,"“ If a business has to pay more for anything , gasoline , produce , labor — they have to raise their prices or they have to cut costs , plain and simple , ” says Tom Scarda , a Certified Franchise Consultant .",['PRICES'],2,"['ECONOMIC_IMPACT', 'PRICES']"
+"Based on the provided text, I would assign the following labels:
+
+* UN/EMPLOYMENT_RATE (since it mentions the possibility of equal reductions in the supply as well as the demand for labor having no impact on the unemployment rate)
+* LOW-SKILLED (specifically teenagers, implying a focus on low-skilled or entry-level workers)
+* YOUTH_AND_SECONDARY_WAGE_EARNERS (as the text explicitly mentions ""teenagers"" and the context implies a discussion about secondary wage earners)
+
+These labels capture the main aspects of the text related to arguments in the debate about minimum wage.",llama3.1:8b-instruct-fp16,2024-09-11T12:48:17.461853463Z,stop,2836807573,33213669,246,31707000,121,2639974000,"-SKILLED In contrast to the simple supply and demand diagram , it was commonly found that teenagers withdrew from the labor force in response to the minimum wage , which produced the possibility of equal reductions in the supply as well as the demand for labor at a higher minimum wage and hence no impact on the unemployment rate .","['LOW', 'UN/EMPLOYMENT_RATE']",3,"['YOUTH_AND_SECONDARY_WAGE_EARNERS', 'UN/EMPLOYMENT_RATE', 'LOW']"
+"Based on the provided codebook, I would assign the following labels to the given text:
+
+* PRICES
+* CAPITAL_VS_LABOR (implying that the critics are arguing in favor of maintaining profit margins over increasing labor costs)
+
+These two labels capture the core idea expressed in the sentence: that raising wages will lead to increased prices, which is a key aspect of the debate about minimum wage.",llama3.1:8b-instruct-fp16,2024-09-11T12:48:19.460354405Z,stop,1952880303,78157437,214,28702000,83,1799220000,"This is one of the critics ’ many go-to arguments : Raise wages , they say , and businesses will have to raise prices to maintain their profits .",['PRICES'],2,"['PRICES', 'CAPITAL_VS_LABOR']"
+"Based on the provided codebook, I would assign the following labels to the given text:
+
+* ECONOMIC_IMPACT
+* EMPLOYMENT_RATE
+* PRICES (since a 10% increase in minimum wage could potentially lead to price increases)
+
+These labels capture the main themes present in the text, which discusses the economic impact of increasing the minimum wage on employment levels and potentially on prices.",llama3.1:8b-instruct-fp16,2024-09-11T12:48:21.455802143Z,stop,1904137249,31583002,227,28865000,81,1755766000,"Their work was published in 2010 in the journal Review of Economics and Statistics and found that , in the restaurant and retail industries , boosting the minimum wage by 10 percent had effectively no impact on employment levels .",['UN/EMPLOYMENT_RATE'],3,"['ECONOMIC_IMPACT', 'PRICES', 'UN/EMPLOYMENT_RATE']"
+"Based on the provided codebook and the given sentence, I would assign the following codes:
+
+* GOVERNMENT (implying a critique of the idea that the government has no role in regulating markets)
+* CAPITAL_VS_LABOR (suggesting a tension between the interests of business/capital and labor/workers)
+
+I did not select SOCIAL_JUSTICE/INJUSTICE as it's more related to the outcome or consequence, rather than the underlying argument being made.",llama3.1:8b-instruct-fp16,2024-09-11T12:48:23.77771462Z,stop,2273458849,73344170,203,27924000,98,2125273000,"Saying we have a "" free market "" that will take care of workers is a myth .",['GOVERNMENT'],3,"['CAPITAL_VS_LABOR', 'SOCIAL_JUSTICE/INJUSTICE', 'GOVERNMENT']"
+"After analyzing the sentence, I would assign the following codes:
+
+* MOTIVATION/CHANCES: The sentence suggests that a higher minimum wage (not explicitly mentioned, but implied) would not decrease an employer's motivation or chances of hiring employees.
+* LOW-SKILLED: This code is applicable because the sentence implies that the benefits of a higher minimum wage would primarily accrue to low-skilled workers who are likely to be earning close to the minimum wage.
+
+The other labels do not seem to apply in this case, as the text does not discuss economic impact, unemployment rate, turnover, youth and secondary wage earners, capital vs. labor, social justice/injustice, prices, welfare, government policies, or competition/business challenges.",llama3.1:8b-instruct-fp16,2024-09-11T12:48:27.217504177Z,stop,3349676364,31025155,204,28300000,147,3202961000,""" It does n’t reduce incentive for employer to hire , and it helps employees earn more . ""","['UN/EMPLOYMENT_RATE', 'SOCIAL_JUSTICE/INJUSTICE']",2,"['MOTIVATION/CHANCES', 'LOW']"
+"Based on the provided text, I would assign the following label(s):
+
+* PRICES",llama3.1:8b-instruct-fp16,2024-09-11T12:48:27.785778324Z,stop,563387998,71231387,205,28641000,18,374041000,"Meanwhile , Burger King and McDonald 's can raise their prices a little bit without scaring off customers .",['PRICES'],1,['PRICES']
+"Based on the provided markdown codebook, I would assign the following labels to the given text:
+
+* UN/EMPLOYMENT_RATE
+* ECONOMIC_IMPACT
+* TURNOVER 
+
+These labels capture the idea that mandatory increases in hourly wages could lead to job cuts or reduced hours, which is related to unemployment rates (UN/EMPLOYMENT_RATE), have economic implications for businesses (ECONOMIC_IMPACT), and potentially result in turnover of employees (TURNOVER).",llama3.1:8b-instruct-fp16,2024-09-11T12:48:30.197898376Z,stop,2322444442,78140653,208,28480000,100,2171273000,Mandatory increases in hourly wages mean that businesses will be forced to cut jobs or reduce hours to maintain their bottom line .,['UN/EMPLOYMENT_RATE'],3,"['ECONOMIC_IMPACT', 'TURNOVER', 'UN/EMPLOYMENT_RATE']"
+"Based on the provided text, I would assign the following labels:
+
+* CAPITAL_VS_LABOR: This label applies as the argument is centered around the concept of ""freedom of contract"", which implies a discussion between capital (the employer) and labor (the employee).
+* GOVERNMENT: This label is applicable as the text mentions a Supreme Court opinion, indicating an involvement of government institutions in the debate.
+* SOCIAL_JUSTICE/INJUSTICE: Although not explicitly stated, the argument against minimum wage can be seen as promoting social injustice by prioritizing the freedom of contract over workers' rights and potentially perpetuating exploitation. 
+
+I have not assigned any other labels as they do not seem to directly apply to this specific text.",llama3.1:8b-instruct-fp16,2024-09-11T12:48:33.689695274Z,stop,3444400480,30356384,248,29753000,149,3253746000,"The Supreme Court , in its opinion in the 1923 case Adkins v. Children ’s Hospital of District of Columbia , made a strong argument that a minimum wage was a violation of the constitutionally guaranteed freedom of contract embedded in the Fifth Amendment ’s language about due process and the deprivation of liberty and property .",['GOVERNMENT'],3,"['CAPITAL_VS_LABOR', 'SOCIAL_JUSTICE/INJUSTICE', 'GOVERNMENT']"
+"Based on the provided markdown codebook, I would assign the label: SOCIAL_JUSTICE/INJUSTICE.
+
+This is because the sentence suggests that treating employees fairly has a positive impact on customer relationships and loyalty, which relates to the concept of social justice. The tone of the sentence implies that the business prioritizes fair treatment of its employees, which aligns with the idea of promoting social justice.",llama3.1:8b-instruct-fp16,2024-09-11T12:48:35.641691265Z,stop,1905880863,73964034,210,28947000,81,1756102000,“ We ’ve gained many new customers who have written us notes telling us how grateful they are that we treat our employees fairly .,['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"After carefully reading the text, I would assign the following labels:
+
+* CAPITAL_VS_LABOR: This label applies as the text implies a shift in the distribution of wealth from labor to capital.
+* SOCIAL_JUSTICE/INJUSTICE: The text suggests that workers are not benefiting from increased productivity, which could be seen as a form of economic injustice.
+
+I did not assign any other labels as they do not seem to directly apply to the content of the sentence. Let me know if you have any further questions!",llama3.1:8b-instruct-fp16,2024-09-11T12:48:38.188502679Z,stop,2457175859,32986570,225,29074000,106,2308308000,"Although companies are experiencing greater productivity , since the ‘ 70s , less of the share of wealth created from that productivity has been going towards workers ( Check out this EPI article for more details ) .",['CAPITAL_VS_LABOR'],2,"['CAPITAL_VS_LABOR', 'SOCIAL_JUSTICE/INJUSTICE']"
+"Based on the provided codebook, I would assign the following labels to the given text:
+
+* YOUTH_AND_SECONDARY_WAGE_EARNERS
+* ECONOMIC_IMPACT 
+
+The sentence specifically mentions a correlation between an increase in minimum wage and a drop in teen employment, which is related to youth and secondary wage earners. Additionally, it discusses the economic impact of increasing the minimum wage, as indicated by the decline in teen employment.
+
+Note that I did not assign UN/EMPLOYMENT_RATE as it seems more specific to unemployment rates rather than the rate at which an increase in the minimum wage affects certain groups (such as youth).",llama3.1:8b-instruct-fp16,2024-09-11T12:48:41.190699528Z,stop,2997708941,72585511,235,29496000,129,2805821000,"-SKILLED Another 2011 study by Sen , Rybczynski , and Van De Waal found that "" a 10 % increase in the minimum wage is significantly correlated with a 3 − 5 % drop in teen employment . """,['LOW'],3,"['ECONOMIC_IMPACT', 'YOUTH_AND_SECONDARY_WAGE_EARNERS', 'UN/EMPLOYMENT_RATE']"
+"Based on the provided text, I would assign the following labels:
+
+* CAPITAL_VS_LABOR: This label applies as the text suggests that raising wages can lead to increased efficiency, implying a trade-off between labor costs and business competitiveness.
+* COMPETITION/BUSINESS_CHALLENGES: Similar to the above point, this label is relevant as it highlights the potential business challenges or competitive pressures that may arise from increased labor costs.
+
+These two labels capture the essence of the text's argument, which suggests that raising wages can lead to businesses adapting and becoming more efficient, rather than reducing staff.",llama3.1:8b-instruct-fp16,2024-09-11T12:48:44.032428931Z,stop,2752760497,73981130,206,28658000,120,2605641000,"They say that instead of forcing businesses to cut staff , raising wages simply spurs them to become more efficient .","['COMPETITION/BUSINESS_CHALLENGES', 'UN/EMPLOYMENT_RATE']",2,"['COMPETITION/BUSINESS_CHALLENGES', 'CAPITAL_VS_LABOR']"
+"Based on the provided codebook, I would assign the following labels to the given text:
+
+* PRICES
+* ECONOMIC_IMPACT 
+
+The text suggests that retailers may adjust their prices in response to a wage increase, indicating an economic impact. Additionally, the concept of raising prices can be seen as related to ECONOMIC IMPACT.",llama3.1:8b-instruct-fp16,2024-09-11T12:48:45.771298107Z,stop,1694108488,31276829,203,27184000,70,1505928000,Retailers may find that they will raise prices on their services and products with a wage increase .,['PRICES'],2,"['ECONOMIC_IMPACT', 'PRICES']"
+"Based on the provided markdown codebook, I would assign the label GOVERNMENT to the given text. This is because the sentence explicitly mentions ""government control and fiat"", which suggests that the speaker is opposing government intervention in wage setting.
+
+I do not see any mention of other labels such as ECONOMIC_IMPACT, UN/EMPLOYMENT_RATE, etc. Therefore, I would not assign any additional labels to this text.",llama3.1:8b-instruct-fp16,2024-09-11T12:48:47.853527666Z,stop,2033900091,77996172,204,28084000,87,1880906000,"Let the terms and conditions of wages be set by mutual agreement , not by government control and fiat .",['GOVERNMENT'],3,"['ECONOMIC_IMPACT', 'UN/EMPLOYMENT_RATE', 'GOVERNMENT']"

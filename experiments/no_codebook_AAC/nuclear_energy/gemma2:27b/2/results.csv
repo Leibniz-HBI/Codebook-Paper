@@ -1,0 +1,782 @@
+response,model,created_at,done_reason,total_duration,load_duration,prompt_eval_count,prompt_eval_duration,eval_count,eval_duration,input_text,gold_label,label_count,mentioned_labels
+"ACCIDENTS/SECURITY 
+PUBLIC_DEBATE
+ENERGY_POLICY  
+WASTE 
+",gemma2:27b,2024-09-11T15:14:20.48172008Z,stop,675338535,64896282,219,71650000,20,493962000,"The ongoing and deepening nuclear calamity in Fukushima and Japan ’s abiding commitment to nuclear power , including the ability to reprocess spent nuclear fuel and generate plutonium , is therefore an outgrowth of imperial power plays at the end of the Second World War .","['ENERGY_POLICY', 'ACCIDENTS/SECURITY']",4,"['ENERGY_POLICY', 'WASTE', 'PUBLIC_DEBATE', 'ACCIDENTS/SECURITY']"
+"WEAPONS 
+",gemma2:27b,2024-09-11T15:14:20.820304613Z,stop,292471254,55130887,213,62942000,6,130074000,"In practice , there is no way to segregate nuclear technologies employed for “ peaceful ” purposes from technologies that may be employed in weapons — the former may be , and have been , transformed into the latter . """,['WEAPONS'],1,['WEAPONS']
+"HEALTH_EFFECTS 
+",gemma2:27b,2024-09-11T15:14:21.186214662Z,stop,318725011,60407613,199,58116000,7,156788000,Read CND 's summary of the German government-commissioned research that shows increases in cancer in children under five living near nuclear power stations .,['HEALTH_EFFECTS'],1,['HEALTH_EFFECTS']
+"COSTS 
+",gemma2:27b,2024-09-11T15:14:21.477672297Z,stop,246043003,40886572,199,57592000,5,105020000,"Swiss utility BKW AG already plans to shutter Muehleberg in 2019 , citing the high costs of maintenance and operations .",['COSTS'],1,['COSTS']
+"WEAPONS 
+",gemma2:27b,2024-09-11T15:14:21.816204998Z,stop,292605186,54648494,213,62406000,6,130437000,"Today , the nuclear stockpile of the United States , which stands at over 7,000 warheads — some of which are still kept in permanent readiness — could alone destroy planetary life several times over .",['WEAPONS'],1,['WEAPONS']
+"HEALTH_EFFECTS 
+",gemma2:27b,2024-09-11T15:14:22.170110822Z,stop,307232119,59282986,188,45577000,7,156830000,"Moreover , one in five uranium miners in the Southwest has contracted some form of cancer .",['HEALTH_EFFECTS'],1,['HEALTH_EFFECTS']
+"Here's the coding based on the provided text:
+
+* **FOSSIL_FUELS:** The sentence directly compares nuclear energy to fossil fuels as a potential replacement.
+* **URANIUM (implicitly):**  While not explicitly stated, the discussion of uranium supply implies the ""ACCIDENTS/SECURITY"" and ""WASTE"" categories. 
+
+
+Let me know if you have any other sentences you'd like coded! 
+",gemma2:27b,2024-09-11T15:14:24.693231237Z,stop,2477567229,60191698,220,73317000,89,2300477000,"The amount of Uranium on the earth is n’t NEARLY enough to sustain us for long enough to relieve the need of fossil fuels , we ’re talking no more than 80 years for the remaining Uranium to be mined and used .","['RELIABILITY', 'FOSSIL_FUELS']",3,"['FOSSIL_FUELS', 'WASTE', 'ACCIDENTS/SECURITY']"
+"ENERGY_POLICY 
+
+
+Let me explain why:
+
+* **ENERGY_POLICY:** The sentence discusses the sale of uranium specifically for electricity production, implying regulations and agreements around its use. This falls under the realm of energy policy.
+
+Let me know if you have more sentences to code! 
+",gemma2:27b,2024-09-11T15:14:26.5401586Z,stop,1756467544,54543943,191,52299000,61,1560708000,"All traded uranium is sold for electricity production only , and two layers of international safeguards arrangements confirm this .",['WEAPONS'],1,['ENERGY_POLICY']
+"ACCIDENTS/SECURITY 
+",gemma2:27b,2024-09-11T15:14:26.919337194Z,stop,332339296,54502050,224,74930000,7,156041000,"The Diablo Canyon plant , located 200 miles northwest of Los Angeles near Santa Barbara , was built in 1968 near two fault lines , one three miles off the coast that suffered a 7.1 earthquake in 1926 .",['ACCIDENTS/SECURITY'],1,['ACCIDENTS/SECURITY']
+"ACCIDENTS/SECURITY 
+",gemma2:27b,2024-09-11T15:14:27.272876227Z,stop,305397300,55830464,186,47011000,7,158498000,"Since then , it has proven itself as one of our safest energy technologies .",['ACCIDENTS/SECURITY'],1,['ACCIDENTS/SECURITY']
+"WASTE 
+HEALTH_EFFECTS 
+",gemma2:27b,2024-09-11T15:14:27.711940845Z,stop,392295541,53806652,199,57323000,10,234308000,"Second , spent Uranium has to be disposed of and dealt with at one point even if it is reprocessed and the radioactivity of it remains .",['WASTE'],2,"['HEALTH_EFFECTS', 'WASTE']"
+"ACCIDENTS/SECURITY, WASTE, HEALTH_EFFECTS 
+",gemma2:27b,2024-09-11T15:14:28.270408542Z,stop,510701184,56451301,219,73547000,14,337274000,"( This means that either no one will be responsible for physical , environmental , or health damages in the case of an accident or leakage over time from waste storage , or that the government will ultimately have to cover the cost of any damages . )","['HEALTH_EFFECTS', 'ACCIDENTS/SECURITY', 'ENVIRONMENTAL_IMPACT', 'WASTE', 'ENERGY_POLICY']",3,"['HEALTH_EFFECTS', 'WASTE', 'ACCIDENTS/SECURITY']"
+"ENVIRONMENTAL_IMPACT, ACCIDENTS/SECURITY  
+
+
+Let me explain why:
+
+* **ENVIRONMENTAL_IMPACT:** The sentence calls nuclear power ""dirty,"" directly referencing its environmental impact. 
+* **ACCIDENTS/SECURITY:** The use of ""dangerous"" points to concerns about the safety and security risks associated with nuclear power. 
+",gemma2:27b,2024-09-11T15:14:30.313294317Z,stop,1954048203,55676340,209,62318000,68,1747762000,"In November 2000 the world recognised nuclear power as a dirty , dangerous and unnecessary technology by refusing to give it greenhouse gas credits during the UN Climate Change talks in The Hague .","['ENVIRONMENTAL_IMPACT', 'ACCIDENTS/SECURITY']",2,"['ENVIRONMENTAL_IMPACT', 'ACCIDENTS/SECURITY']"
+"COSTS 
+",gemma2:27b,2024-09-11T15:14:30.609161446Z,stop,290930611,55362103,180,40633000,5,105560000,Some argue against its economic viability as well .,['COSTS'],1,['COSTS']
+"COSTS 
+",gemma2:27b,2024-09-11T15:14:30.907868211Z,stop,252280518,56820832,185,45754000,5,106842000,The Jervis Bay plan eventually was dropped mainly due to economic considerations .,['COSTS'],1,['COSTS']
+"ENERGY_POLICY 
+FOSSIL_FUELS
+RENEWABLES 
+",gemma2:27b,2024-09-11T15:14:31.543436898Z,stop,588126644,58853715,180,41688000,18,442424000,Energy efficiency is more important than nuclear power .,['RELIABILITY'],3,"['RENEWABLES', 'FOSSIL_FUELS', 'ENERGY_POLICY']"
+"COSTS 
+",gemma2:27b,2024-09-11T15:14:31.832901911Z,stop,245695985,53561066,185,44408000,5,105401000,"When the utilities default on these loans , taxpayers will foot the bill .",['ENERGY_POLICY'],1,['COSTS']
+"COSTS 
+",gemma2:27b,2024-09-11T15:14:32.136557095Z,stop,256718253,54057157,193,51043000,5,106364000,"Even if the cost of uranium goes up , the impact on the cost of power will be that much lower .",['COSTS'],1,['COSTS']
+"RELIABILITY 
+",gemma2:27b,2024-09-11T15:14:32.46582837Z,stop,282188610,57956969,190,46211000,6,131448000,Nuclear power plants can adjust their output as needed verses the intermittent wind or solar generated electric power .,"['RELIABILITY', 'RENEWABLES']",1,['RELIABILITY']
+"ACCIDENTS/SECURITY 
+WASTE 
+TECHNOLOGICAL_INNOVATION 
+
+
+Let's break down why these labels apply:
+
+* **ACCIDENTS/SECURITY:**  The phrase ""eliminates the possibility of diversion"" directly relates to security concerns surrounding nuclear materials. Diverting nuclear fuel for illicit purposes is a major safety and security risk.
+* **WASTE:** The mention of ""breeder and burner configurations"" implies a focus on managing nuclear waste through innovative reactor designs. Breeder reactors, in particular, are designed to consume some types of nuclear waste.
+* **TECHNOLOGICAL_INNOVATION:** The entire sentence highlights a technological advancement (""local fuel processing"") aimed at addressing the challenges of nuclear power (diversion and waste).  ",gemma2:27b,2024-09-11T15:14:36.556935545Z,stop,4041497694,60065016,189,46908000,150,3890670000,The local fuel processing of the breeder and burner configurations eliminates the possibility of diversion during transport .,['WEAPONS'],3,"['WASTE', 'TECHNOLOGICAL_INNOVATION', 'ACCIDENTS/SECURITY']"
+"Here's the coding for the provided text:
+
+* **PUBLIC_DEBATE:** The sentence discusses interest groups attempting to shape public opinion about nuclear energy by promoting a myth. 
+* **HEALTH_EFFECTS:**  The mention of ""no safe dose"" of radiation directly relates to potential health consequences associated with nuclear power.
+",gemma2:27b,2024-09-11T15:14:38.562496643Z,stop,1959109869,54071229,231,82425000,69,1776465000,Possibly the largest hurdle of all is the fact that some wealthy and powerful interest groups have invested a great deal of time and money into building the myth that there is “ no safe dose ” of radiation because they know that the truth will enable nuclear energy to flourish at their expense in the energy supply market .,['HEALTH_EFFECTS'],2,"['HEALTH_EFFECTS', 'PUBLIC_DEBATE']"
+"HEALTH_EFFECTS 
+",gemma2:27b,2024-09-11T15:14:39.004752822Z,stop,353129902,57659102,189,47144000,7,158435000,The radiation from a reactor is tiny : about as much as that from our own bodies .,['HEALTH_EFFECTS'],1,['HEALTH_EFFECTS']
+"ACCIDENTS/SECURITY 
+",gemma2:27b,2024-09-11T15:14:39.356116448Z,stop,304514037,55060815,189,46261000,7,158705000,"However , serious safety problems continue to arise because the NRC does not adequately enforce those standards .",['ACCIDENTS/SECURITY'],1,['ACCIDENTS/SECURITY']
+"FOSSIL_FUELS 
+",gemma2:27b,2024-09-11T15:14:39.764737094Z,stop,360798973,55483537,191,51803000,9,209639000,"For every 22 tonnes of uranium used , one million tonnes of CO2 emissions is averted .",['ENVIRONMENTAL_IMPACT'],1,['FOSSIL_FUELS']
+"ACCIDENTS/SECURITY 
+",gemma2:27b,2024-09-11T15:14:40.124185021Z,stop,308682455,56424139,191,50671000,7,158193000,"Hundreds of systems monitor , control , and support the safe operation of the reactor at each power plant .",['ACCIDENTS/SECURITY'],1,['ACCIDENTS/SECURITY']
+"FOSSIL_FUELS 
+RENEWABLES  
+ENVIRONMENTAL_IMPACT 
+
+
+Let's break down why:
+
+* **FOSSIL_FUELS:** The sentence directly compares nuclear power to fossil fuels as an alternative energy source.
+* **RENEWABLES:**  The implication is that nuclear energy, being a low-carbon source, is a preferable alternative to fossil fuels and potentially even renewables in terms of CO2 emissions.
+* **ENVIRONMENTAL_IMPACT:** The comparison highlights the reduced environmental impact (specifically CO2 emissions) associated with nuclear power generation. 
+",gemma2:27b,2024-09-11T15:14:43.403454495Z,stop,3232124678,53169014,208,59422000,119,3076746000,"According to the Nuclear Energy Institute , the power produced by the world 's nuclear plants would normally produce 2 billion metric tons of CO2 per year if they depended on fossil fuels .","['ENVIRONMENTAL_IMPACT', 'FOSSIL_FUELS']",3,"['RENEWABLES', 'FOSSIL_FUELS', 'ENVIRONMENTAL_IMPACT']"
+"**ENVIRONMENTAL_IMPACT**  
+
+**FOSSIL_FUELS** 
+",gemma2:27b,2024-09-11T15:14:44.135270125Z,stop,643688908,53841811,210,60225000,18,439945000,"You can not prevent CO2 emission altogether and as long as a MSR run as a standard thermal power plant you can not prevent the release of methane , water vapor and CO2 from cooling water .",['ENVIRONMENTAL_IMPACT'],2,"['FOSSIL_FUELS', 'ENVIRONMENTAL_IMPACT']"
+"RELIABILITY 
+",gemma2:27b,2024-09-11T15:14:44.456400305Z,stop,316744776,55813384,186,43647000,6,129305000,• It leads to relative large amount of energy that produced per land area .,['RELIABILITY'],1,['RELIABILITY']
+"ACCIDENTS/SECURITY, HEALTH_EFFECTS  
+",gemma2:27b,2024-09-11T15:14:44.974165283Z,stop,470476427,60580948,233,81493000,12,285427000,"A recent book , Chernobyl : Consequences of the Catastrophe for People and the Environment , concludes that , based on records now available , some 985,000 people died between 1986 and 2004 , mainly of cancer , as a result of the Chernobyl accident .","['HEALTH_EFFECTS', 'ACCIDENTS/SECURITY', 'ENVIRONMENTAL_IMPACT']",2,"['HEALTH_EFFECTS', 'ACCIDENTS/SECURITY']"
+"FOSSIL_FUELS 
+COSTS 
+",gemma2:27b,2024-09-11T15:14:45.479585156Z,stop,459934580,56328017,190,46333000,13,314010000,Lower gasoline prices over the past year are likely driving greater opposition toward the use of nuclear power .,['FOSSIL_FUELS'],2,"['COSTS', 'FOSSIL_FUELS']"
+"HEALTH_EFFECTS, WASTE 
+",gemma2:27b,2024-09-11T15:14:45.886741263Z,stop,359319802,55479984,191,50459000,9,209219000,Nuclear power plants increase the risk of cancer : Every nuclear reactor churns massive amounts of radioactive waste .,"['HEALTH_EFFECTS', 'WASTE']",2,"['HEALTH_EFFECTS', 'WASTE']"
+"RELIABILITY, 
+TECHNOLOGICAL_INNOVATION 
+",gemma2:27b,2024-09-11T15:14:46.427603033Z,stop,495960026,55762024,207,59382000,14,336935000,"Just to maintain the current world production of nuclear power , either the oldest , creakiest plants need to be relicensed or a veritable orgy of nuclear construction needs to begin .",['RELIABILITY'],2,"['TECHNOLOGICAL_INNOVATION', 'RELIABILITY']"
+"ACCIDENTS/SECURITY, ENVIRONMENTAL_IMPACT, WEAPONS 
+",gemma2:27b,2024-09-11T15:14:47.085719105Z,stop,570241526,56868571,210,62109000,15,364433000,"To others , it is an accident waiting to happen , a terrorism risk , a reckless use of technology than can permanently scar our planet , leaving vast swathes uninhabitable for thousands of years .","['ENVIRONMENTAL_IMPACT', 'ACCIDENTS/SECURITY']",3,"['WEAPONS', 'ENVIRONMENTAL_IMPACT', 'ACCIDENTS/SECURITY']"
+"RENEWABLES 
+",gemma2:27b,2024-09-11T15:14:47.41361504Z,stop,323215952,55926606,192,48323000,6,129676000,"As a result , the percentage of electricity from renewables has significantly increased in recent years , which is great .",['RENEWABLES'],1,['RENEWABLES']
+"ENERGY_POLICY 
+RENEWABLES 
+FOSSIL_FUELS  
+",gemma2:27b,2024-09-11T15:14:48.089479802Z,stop,626160000,59634034,201,55866000,19,466374000,Failure to act could foreclose the nuclear power option in this country and make the road to clean air and energy independence in the future that much harder .,"['ENVIRONMENTAL_IMPACT', 'ENERGY_POLICY']",3,"['RENEWABLES', 'FOSSIL_FUELS', 'ENERGY_POLICY']"
+"RENEWABLES, FOSSIL_FUELS  
+",gemma2:27b,2024-09-11T15:14:48.697113784Z,stop,517282413,56939983,206,58765000,13,312276000,"The efficiency of the wind and solar power plants are getting higher every year and could potentially be used to relieve our need for fossil fuels , at least more than nuclear power could .","['RENEWABLES', 'FOSSIL_FUELS']",2,"['RENEWABLES', 'FOSSIL_FUELS']"
+"ACCIDENTS/SECURITY, HEALTH_EFFECTS  
+",gemma2:27b,2024-09-11T15:14:49.222934032Z,stop,479377051,56810861,254,92697000,12,286949000,"A September 2004 study by Dr. Ed Lyman of the Union of Concerned Scientists , using the NRC ’s own analysis method , found that a worst-case accident or attack at the Indian Point nuclear plant 35 miles north of New York City could cause up to 43,700 immediate fatalities and up to 518,000 long-term cancer deaths .","['HEALTH_EFFECTS', 'ACCIDENTS/SECURITY']",2,"['HEALTH_EFFECTS', 'ACCIDENTS/SECURITY']"
+"ACCIDENTS/SECURITY 
+",gemma2:27b,2024-09-11T15:14:49.598215261Z,stop,330930906,56157782,227,74664000,7,156260000,"In it we explain the essentials of nuclear reactors and radiation biology aimed at a lay public and show , among other things , that contrary to the anti-nuclear mantra , nuclear energy has the best safety record over the last several decades of any source of energy – by orders of magnitude .",['ACCIDENTS/SECURITY'],1,['ACCIDENTS/SECURITY']
+"FOSSIL_FUELS 
+ENVIRONMENTAL_IMPACT 
+",gemma2:27b,2024-09-11T15:14:50.1312823Z,stop,487688958,54935030,189,47401000,14,340464000,"However , natural gas is still a carbon-emitting technology and contributes to climate change .",['FOSSIL_FUELS'],2,"['FOSSIL_FUELS', 'ENVIRONMENTAL_IMPACT']"
+"ACCIDENTS/SECURITY 
+",gemma2:27b,2024-09-11T15:14:50.567846747Z,stop,348434947,54506150,185,46693000,7,159015000,"It has also exploded in Russia , the same thing happened to Japan .",['ACCIDENTS/SECURITY'],1,['ACCIDENTS/SECURITY']
+"HEALTH_EFFECTS 
+",gemma2:27b,2024-09-11T15:14:50.920328358Z,stop,304599376,56285027,183,46259000,7,158708000,Efforts to recycle it into consumer goods threaten our health .,['HEALTH_EFFECTS'],1,['HEALTH_EFFECTS']
+"WEAPONS 
+",gemma2:27b,2024-09-11T15:14:51.247399675Z,stop,279665583,59592903,187,44941000,6,131008000,"Not surprisingly , this is the same balance which the existence of nuclear weapons undermines .",['WEAPONS'],1,['WEAPONS']
+"ACCIDENTS/SECURITY 
+ENVIRONMENTAL_IMPACT 
+HEALTH_EFFECTS 
+",gemma2:27b,2024-09-11T15:14:51.901920125Z,stop,610212069,53195425,223,72262000,18,442365000,Safety studies of Sellafield carried out for local authorities tell us that a direct hit by a passenger jet on the Sellafield nuclear reprocessing plant would contaminate Britain with two and a half times more radioactivity than the amount that escaped during the Chernobyl disaster5 .,"['ENVIRONMENTAL_IMPACT', 'ACCIDENTS/SECURITY']",3,"['HEALTH_EFFECTS', 'ENVIRONMENTAL_IMPACT', 'ACCIDENTS/SECURITY']"
+"ENVIRONMENTAL_IMPACT, HEALTH_EFFECTS  
+",gemma2:27b,2024-09-11T15:14:52.460721877Z,stop,469044799,59549171,211,62541000,11,259984000,"However , by 1974 sections of the Australian Labor Party ( ALP ) and the public generally were becoming concerned with the hazards of uranium mining and the impact of mining on traditional Aboriginal communities .","['ENERGY_POLICY', 'PUBLIC_DEBATE', 'ACCIDENTS/SECURITY']",2,"['HEALTH_EFFECTS', 'ENVIRONMENTAL_IMPACT']"
+"RENEWABLES 
+
+
+Let me know if you have any other sentences you'd like coded! 
+",gemma2:27b,2024-09-11T15:14:53.223944536Z,stop,758526479,54524921,184,44125000,23,572139000,Wind farms can be up and running in less than a year .,['RENEWABLES'],1,['RENEWABLES']
+"COSTS 
+",gemma2:27b,2024-09-11T15:14:53.569051306Z,stop,257543143,56902592,189,47090000,5,106853000,"As nuclear plants are notorious for cost overruns , the higher figure is much more likely .",['COSTS'],1,['COSTS']
+"TECHNOLOGICAL_INNOVATION 
+",gemma2:27b,2024-09-11T15:14:53.956069943Z,stop,340577291,59780088,195,52666000,8,183986000,"In which time , with greener technology always under development , it could fall behind or become obsolete by the time of completion .",['COSTS'],1,['TECHNOLOGICAL_INNOVATION']
+"WASTE 
+ENERGY_POLICY 
+PUBLIC_DEBATE 
+",gemma2:27b,2024-09-11T15:14:54.521043896Z,stop,516855442,55415834,195,51984000,15,365812000,"Because they know that if you recycle fuel rods , you dont have a waste problem and they lose an argument against nuclear .",['WASTE'],3,"['ENERGY_POLICY', 'WASTE', 'PUBLIC_DEBATE']"
+"ENERGY_POLICY, FOSSIL_FUELS 
+",gemma2:27b,2024-09-11T15:14:55.127243409Z,stop,515827562,56309687,211,62124000,13,310896000,"It is broadly accessible , there is a lot in storage , and it is believed that the supply is going to last much , much longer than that of fossil fuels that are used in the same capacity .","['RELIABILITY', 'FOSSIL_FUELS']",2,"['FOSSIL_FUELS', 'ENERGY_POLICY']"
+"ENVIRONMENTAL_IMPACT 
+",gemma2:27b,2024-09-11T15:14:55.484102195Z,stop,352083960,56544492,219,74830000,6,130323000,"8 The direct effects on the environment of this action include release of low-level radiation , increased fog in the Harrisburg area ( caused by operation of the plant 's cooling towers ) , and the release of warm water into the Susquehanna River .",['ENVIRONMENTAL_IMPACT'],1,['ENVIRONMENTAL_IMPACT']
+"WASTE, WEAPONS 
+",gemma2:27b,2024-09-11T15:14:55.867893767Z,stop,336316787,55712241,197,52738000,8,183841000,"During the operation of nuclear power plants , radioactive waste is produced , which in turn can be used for the production of nuclear weapons .","['WEAPONS', 'WASTE']",2,"['WASTE', 'WEAPONS']"
+"RELIABILITY, FOSSIL_FUELS, RENEWABLES 
+",gemma2:27b,2024-09-11T15:14:56.493461078Z,stop,578182498,56527052,214,62980000,17,415061000,"Finally , perhaps most importantly , PV & wind are unreliable and require fossil fuel ( typically natural gas ) backup for the most of the time the wind is n’t blowing & the sun is n’t shining .","['RENEWABLES', 'FOSSIL_FUELS']",3,"['RENEWABLES', 'FOSSIL_FUELS', 'RELIABILITY']"
+"COSTS 
+RELIABILITY 
+",gemma2:27b,2024-09-11T15:14:57.015193716Z,stop,431309026,56342917,197,52429000,10,235554000,"Also , even though the expense of setting up nuclear power plants is moderately high , the expense of running them is quite low low .",['COSTS'],2,"['COSTS', 'RELIABILITY']"
+"ENERGY_POLICY, WEAPONS 
+",gemma2:27b,2024-09-11T15:14:57.442940241Z,stop,423131565,57906008,187,43339000,10,232846000,Nuclear power simultaneously provides a power base for the nuclear elites while increasing state power .,['ENERGY_POLICY'],2,"['ENERGY_POLICY', 'WEAPONS']"
+"ACCIDENTS/SECURITY, HEALTH_EFFECTS 
+",gemma2:27b,2024-09-11T15:14:57.926773086Z,stop,439067151,55317950,193,51240000,12,288422000,"We all remember the Chernobyl accident , where the harmful effects of nuclear radiation on humans can even be witnessed today .","['HEALTH_EFFECTS', 'ACCIDENTS/SECURITY']",2,"['HEALTH_EFFECTS', 'ACCIDENTS/SECURITY']"
+"ACCIDENTS/SECURITY, ENVIRONMENTAL_IMPACT, PUBLIC_DEBATE 
+",gemma2:27b,2024-09-11T15:14:58.541007317Z,stop,569315065,59027517,227,74219000,16,390828000,"Organizations like the Sierra Club forcefully argue against the "" numerous issues "" that dog nuclear energy — despite the fact that , as backers point out , there has n't been an accident on U.S. soil since Three Mile Island 's meltdown in 1979 .",['ACCIDENTS/SECURITY'],3,"['ENVIRONMENTAL_IMPACT', 'PUBLIC_DEBATE', 'ACCIDENTS/SECURITY']"
+"HEALTH_EFFECTS, PUBLIC_DEBATE 
+
+**Explanation:**
+
+* **HEALTH_EFFECTS:** The sentence explicitly mentions ""severe psychological distress,"" which is a health impact.
+* **PUBLIC_DEBATE:** The reference to PANE (likely an anti-nuclear group) and ""persons living in the vicinity"" points towards an ongoing public discussion and differing viewpoints on nuclear energy. 
+
+
+Let me know if you have more sentences to code!",gemma2:27b,2024-09-11T15:15:01.227794236Z,stop,2600303621,58426222,203,58155000,93,2394447000,Renewed operation of [ TMI-1 ] would cause severe psychological distress to PANE 's members and other persons living in the vicinity of the reactor .,['HEALTH_EFFECTS'],2,"['HEALTH_EFFECTS', 'PUBLIC_DEBATE']"
+"COSTS, ACCIDENTS/SECURITY 
+",gemma2:27b,2024-09-11T15:15:01.661781764Z,stop,428520146,55186419,198,51263000,10,234896000,"When necessary , design changes followed and extra safety protocols and features had to be put in place , this was perceived as unexpected cost increases .","['COSTS', 'ACCIDENTS/SECURITY']",2,"['COSTS', 'ACCIDENTS/SECURITY']"
+"ACCIDENTS/SECURITY, WASTE 
+",gemma2:27b,2024-09-11T15:15:02.081988579Z,stop,374464088,57631072,211,62122000,9,208039000,"Transporting nuclear waste is a public safety concern - Since the storage of nuclear waste often takes place in designated areas within a large territory , it becomes necessary to transport nuclear waste long distances to these locations .",['WASTE'],2,"['WASTE', 'ACCIDENTS/SECURITY']"
+"RELIABILITY, RENEWABLES, FOSSIL_FUELS 
+",gemma2:27b,2024-09-11T15:15:02.72022362Z,stop,591948829,58100275,217,73011000,17,415900000,"Renewables may be used as much as possible , but intrinsic limitations ( diffuse , intermittent sources ) mean that wind and sun can never economically replace sources such as coal , gas and nuclear for large-scale , continuous , reliable supply .","['RELIABILITY', 'RENEWABLES', 'FOSSIL_FUELS']",3,"['RENEWABLES', 'FOSSIL_FUELS', 'RELIABILITY']"
+"ACCIDENTS/SECURITY 
+",gemma2:27b,2024-09-11T15:15:03.164380183Z,stop,356803214,53247277,200,57509000,7,156721000,The potential risks of nuclear power - for example from meltdown accidents at nuclear power plants - were too large to be taken by even the largest corporations .,['ACCIDENTS/SECURITY'],1,['ACCIDENTS/SECURITY']
+"**ENERGY_POLICY, COSTS, RENEWABLES** 
+
+
+Let me explain why:
+
+* **ENERGY_POLICY:** The sentence discusses the nature of nuclear power as a centralized source compared to decentralized ones, which is a key aspect of energy policy debates.
+* **COSTS:**  The sentence explicitly mentions that decentralized sources (like solar and wind) are ""less costly"" than nuclear.
+* **RENEWABLES:** The sentence includes ""solar and wind"" as examples of decentralized energy sources, placing them within the context of renewable energy. 
+",gemma2:27b,2024-09-11T15:15:06.321600879Z,stop,3110116342,57973790,206,59366000,114,2945877000,"Nuclear is a centralized power source requiring large infrastructure , investment , and coordination where decentralized sources ( including solar and wind ) can be more efficient , less costly , and more resilient .","['RELIABILITY', 'COSTS', 'RENEWABLES', 'ENERGY_POLICY']",3,"['COSTS', 'RENEWABLES', 'ENERGY_POLICY']"
+"Here's a breakdown of the labels for the given sentence:
+
+* **ACCIDENTS/SECURITY:** Implicitly addressed. The comparison to ""zero death requirement"" suggests a focus on the safety record of nuclear energy compared to other sources. 
+* **RELIABILITY:** Implied.  The statement seems to suggest that wind and PV are less reliable than nuclear in terms of consistently meeting energy demands.
+
+
+Let me know if you have more sentences to code! I'm ready. 
+",gemma2:27b,2024-09-11T15:15:09.232143646Z,stop,2820581398,54147670,187,47065000,102,2630888000,Wind and PV could never reach the zero death requirement that nuclear has to fulfill .,['RENEWABLES'],2,"['ACCIDENTS/SECURITY', 'RELIABILITY']"
+"HEALTH_EFFECTS 
+",gemma2:27b,2024-09-11T15:15:09.593935009Z,stop,357109689,60116664,195,52089000,7,158162000,"Lower radiation levels can cause cell damage that will eventually lead to cancer , which may not appear for years or even decades .",['HEALTH_EFFECTS'],1,['HEALTH_EFFECTS']
+"COSTS 
+",gemma2:27b,2024-09-11T15:15:09.888103401Z,stop,248382231,55932676,179,42257000,5,106554000,Costs of nuclear have historically been underestimated .,['COSTS'],1,['COSTS']
+"ENERGY_POLICY 
+
+
+Let me explain why:
+
+The sentence focuses on the idea that removing nuclear power doesn't necessarily dismantle centralized control structures. This directly relates to the broader policies surrounding energy production and distribution, which are often tied to political and economic considerations.  
+",gemma2:27b,2024-09-11T15:15:11.515329375Z,stop,1579657016,54624081,195,51129000,56,1429047000,Clearly a campaign which effectively does away with nuclear power does not automatically do away with centralised systems of political and economic control .,['ENERGY_POLICY'],1,['ENERGY_POLICY']
+"ENVIRONMENTAL_IMPACT 
+",gemma2:27b,2024-09-11T15:15:11.929972063Z,stop,326508408,55461213,191,51356000,6,132560000,"Retrieved 1.24.08 : "" Nuclear power is not a clean energy source .",['ENVIRONMENTAL_IMPACT'],1,['ENVIRONMENTAL_IMPACT']
+"ACCIDENTS/SECURITY 
+ENVIRONMENTAL_IMPACT
+HEALTH_EFFECTS  
+
+
+**Explanation:**
+
+* **ACCIDENTS/SECURITY:** The text explicitly discusses the potential for failure in a nuclear reactor component (""graphite or Hastelloy-N separating barrier could fail"") and the hazardous consequences of such a failure (""one unholy mess and extremely hazardous due to the high Gamma flux"").
+
+* **ENVIRONMENTAL_IMPACT:** While not directly stated, the mention of a ""Thorium blanket"" and the need for cleanup after a potential accident point towards concerns about radioactive waste and its environmental impact. 
+
+* **HEALTH_EFFECTS:** The phrase ""extremely hazardous due to the high Gamma flux"" directly refers to potential health risks associated with radiation exposure. 
+",gemma2:27b,2024-09-11T15:15:16.131199444Z,stop,4155654506,53938584,248,91579000,152,3962544000,"In a two-liquid arrangement ( core and surrounding Thorium blanket as neutron reflector ) , a graphite or Hastelloy-N separating barrier could fail , e.g. due to thermal stress , corrosion and/or neutron embrittlement , such that cleaning up a LFTR after missing of core and blanket would be one unholy mess and extremely hazardous due to the high Gamma flux .","['TECHNOLOGICAL_INNOVATION', 'ACCIDENTS/SECURITY']",3,"['HEALTH_EFFECTS', 'ENVIRONMENTAL_IMPACT', 'ACCIDENTS/SECURITY']"
+"HEALTH_EFFECTS 
+",gemma2:27b,2024-09-11T15:15:16.578146179Z,stop,358601751,56128913,204,58748000,7,156383000,"While experts disagree over the definition of ' low dose , ' radiation protection measures are based on an assumption that even small amounts of radiation exposure may pose some small risk .",['HEALTH_EFFECTS'],1,['HEALTH_EFFECTS']
+"ACCIDENTS/SECURITY 
+",gemma2:27b,2024-09-11T15:15:16.937781376Z,stop,314309569,56547913,203,57799000,7,156805000,nuclear power has to be kept in a very special place because if it is not in the place it could explode and kill alot of people and destroy our world .,['ACCIDENTS/SECURITY'],1,['ACCIDENTS/SECURITY']
+"RENEWABLES 
+FOSSIL_FUELS  
+",gemma2:27b,2024-09-11T15:15:17.472013908Z,stop,488561614,59844927,190,45482000,14,339272000,"There are unlikely to be wars fought over sustainable locally generated , solar , wind or wave power .",['RENEWABLES'],2,"['RENEWABLES', 'FOSSIL_FUELS']"
+"WEAPONS 
+",gemma2:27b,2024-09-11T15:15:17.881787339Z,stop,321658300,56288384,184,46166000,6,132579000,The intimate connection between nuclear power production and nuclear weapons is inescapable .,['WEAPONS'],1,['WEAPONS']
+"**COSTS**, **WASTE** 
+
+
+Let's break down why:
+
+* **COSTS:** The sentence mentions uranium being a ""scarce resource"" which implies concerns about its availability and potential price increases, thus relating to costs.
+* **WASTE:**  Uranium is the fuel for nuclear reactors and its use inevitably generates radioactive waste. While not directly stated, the limited lifespan of uranium supplies hints at the issue of long-term waste management. 
+
+",gemma2:27b,2024-09-11T15:15:20.562007926Z,stop,2634400307,56052620,202,55857000,96,2479022000,"Uranium is a scarce resource , its supply is estimated to last only for the next 30 to 60 years depending on the actual demand .",['RELIABILITY'],2,"['COSTS', 'WASTE']"
+"ENVIRONMENTAL_IMPACT, WASTE 
+",gemma2:27b,2024-09-11T15:15:20.948974908Z,stop,341889940,50047372,207,62362000,8,183103000,Former Energy Secretary Steven Chu during a keynote address at an American Bar Association forum in California last week cast nuclear power as critical to curbing greenhouse gas emissions despite challenges surrounding spent fuel .,"['ENVIRONMENTAL_IMPACT', 'WASTE']",2,"['WASTE', 'ENVIRONMENTAL_IMPACT']"
+"WASTE 
+",gemma2:27b,2024-09-11T15:15:21.236037982Z,stop,236495418,58261867,193,51742000,4,80984000,"Over time , spent nuclear fuel decays to safe radioactive levels , but this process takes tens of thousands of years .",['WASTE'],1,['WASTE']
+"ACCIDENTS/SECURITY 
+",gemma2:27b,2024-09-11T15:15:21.605428203Z,stop,321967267,60241298,207,61760000,7,156260000,"The increased opposition to nuclear power does not seem to result from a fear of it , as there have been no major nuclear disasters anywhere in the world since 2011 .",['ACCIDENTS/SECURITY'],1,['ACCIDENTS/SECURITY']
+"WASTE, HEALTH_EFFECTS 
+",gemma2:27b,2024-09-11T15:15:22.005103838Z,stop,353172116,56840389,180,42853000,9,210111000,It 's still radioactive and potentially deadly .,['HEALTH_EFFECTS'],2,"['HEALTH_EFFECTS', 'WASTE']"
+"FOSSIL_FUELS, RENEWABLES 
+",gemma2:27b,2024-09-11T15:15:22.51116016Z,stop,459669926,56824789,184,45292000,13,314440000,The only energy source that can replace FF ’s is nuclear .,['FOSSIL_FUELS'],2,"['RENEWABLES', 'FOSSIL_FUELS']"
+"**ENERGY_POLICY**, **FOSSIL_FUELS**, **RENEWABLES** 
+
+
+The statement implies a comparison between nuclear energy and other energy sources, specifically mentioning that it's *not* renewable. This relates to broader discussions about energy policy choices and the role of nuclear compared to fossil fuels and renewables. 
+",gemma2:27b,2024-09-11T15:15:24.441278406Z,stop,1881695386,55580367,179,40503000,68,1741555000,: Nuclear energy is not renewable resource .,['RELIABILITY'],3,"['RENEWABLES', 'FOSSIL_FUELS', 'ENERGY_POLICY']"
+"ACCIDENTS/SECURITY, PUBLIC_DEBATE 
+",gemma2:27b,2024-09-11T15:15:24.9286795Z,stop,441047879,56046699,201,55920000,12,285575000,"For example , billions of becquerels of radiation leaking from Fukushima are thrown around to lay audiences who have no idea what a becquerel is .","['HEALTH_EFFECTS', 'PUBLIC_DEBATE']",2,"['PUBLIC_DEBATE', 'ACCIDENTS/SECURITY']"
+"ENERGY_POLICY, RELIABILITY 
+
+
+Let me explain why:
+
+* **ENERGY_POLICY:** The statement implies a judgment about government policy regarding the construction of new nuclear power plants. 
+* **RELIABILITY:**  The phrase ""illusion to build...in a short time"" suggests doubts about the feasibility and speed at which nuclear power plants can be constructed, pointing towards concerns about their reliability as an immediate energy solution. 
+",gemma2:27b,2024-09-11T15:15:27.438254831Z,stop,2462462986,56569143,190,45403000,90,2317479000,In other words : It is an illusion to build new nuclear power plants in a short time .,['COSTS'],2,"['ENERGY_POLICY', 'RELIABILITY']"
+"ACCIDENTS/SECURITY 
+",gemma2:27b,2024-09-11T15:15:27.878702923Z,stop,351368577,56170271,191,50260000,7,157454000,On 6 August 1945 a single nuclear bomb devastated the Japanese city of Hiroshima .,['WEAPONS'],1,['ACCIDENTS/SECURITY']
+"HEALTH_EFFECTS, ENVIRONMENTAL_IMPACT  
+",gemma2:27b,2024-09-11T15:15:28.330663187Z,stop,407001984,54043196,184,45400000,11,262004000,People may need to be permanently evacuated from areas contaminated with radiation .,['ENVIRONMENTAL_IMPACT'],2,"['HEALTH_EFFECTS', 'ENVIRONMENTAL_IMPACT']"
+"HEALTH_EFFECTS, WASTE 
+",gemma2:27b,2024-09-11T15:15:28.754154176Z,stop,378511320,55886124,215,71237000,9,207652000,"This waste is actually a cocktail of chemicals such as Cesium-137 , Iodine-129 , Strontium-90 , and Plutonium-239 , each radioactive and cancer-causing .","['HEALTH_EFFECTS', 'WASTE']",2,"['HEALTH_EFFECTS', 'WASTE']"
+"RENEWABLES, ENERGY_POLICY 
+
+
+Let me explain why these labels apply:
+
+* **RENEWABLES:** The text explicitly mentions ""electricity production...from low-carbon and carbon-free renewable fuels,"" clearly indicating a focus on renewable energy sources.
+* **ENERGY_POLICY:** The passage discusses government actions (""Congress and the states have adopted subsidies and tax credits"") aimed at influencing energy production, making it a matter of energy policy. 
+",gemma2:27b,2024-09-11T15:15:31.368318573Z,stop,2568603343,58600226,214,61037000,93,2404017000,"Thus , as concerns about climate change have grown , Congress and the states have adopted subsidies and tax credits to expand electricity production from low-carbon and carbon-free renewable fuels in an effort to reduce greenhouse gas emissions .",['RENEWABLES'],2,"['RENEWABLES', 'ENERGY_POLICY']"
+"ACCIDENTS/SECURITY, COSTS 
+",gemma2:27b,2024-09-11T15:15:31.773561964Z,stop,358070274,55462213,191,49142000,9,208794000,"Taxpayers , not nuclear industry , assume risks of disaster "" 6 reasons against nuclear energy "" .","['ACCIDENTS/SECURITY', 'ENERGY_POLICY']",2,"['COSTS', 'ACCIDENTS/SECURITY']"
+"COSTS, RELIABILITY 
+",gemma2:27b,2024-09-11T15:15:32.195129521Z,stop,375604093,70097437,192,49542000,9,209328000,"Modern designs are modular , smaller and quicker to build ( less interest costs ) , thus further improving economics .","['COSTS', 'TECHNOLOGICAL_INNOVATION']",2,"['COSTS', 'RELIABILITY']"
+"ENVIRONMENTAL_IMPACT 
+",gemma2:27b,2024-09-11T15:15:32.532413589Z,stop,288893971,53541423,201,58273000,6,130337000,The nuclear industry would like us to believe that nuclear power offers a much better option for generating electricity without releasing significant amounts of greenhouse gases or toxic pollution .,['ENVIRONMENTAL_IMPACT'],1,['ENVIRONMENTAL_IMPACT']
+"WEAPONS 
+",gemma2:27b,2024-09-11T15:15:32.872898911Z,stop,293384719,53896653,208,60034000,6,129646000,New nuclear reprocessing systems reduce risks of weapons-use Reprocessing systems can be designed to make it more difficult to re-direct nuclear fuel into weapons-grade nuclear materials .,['WEAPONS'],1,['WEAPONS']
+"WASTE 
+
+Let me know if you have any other sentences you'd like coded!  
+",gemma2:27b,2024-09-11T15:15:33.588351989Z,stop,668606401,56552992,188,46594000,21,522430000,Building new nuclear power stations would increase the most toxic high level waste five-fold .,['WASTE'],1,['WASTE']
+"ENVIRONMENTAL_IMPACT 
+WASTE 
+",gemma2:27b,2024-09-11T15:15:34.075093403Z,stop,399652113,56657455,186,45935000,9,209984000,It does not emit greenhouse gases and the waste can be disposed of easily .,"['ENVIRONMENTAL_IMPACT', 'WASTE']",2,"['WASTE', 'ENVIRONMENTAL_IMPACT']"
+"TECHNOLOGICAL_INNOVATION 
+",gemma2:27b,2024-09-11T15:15:34.459955567Z,stop,336387894,56569433,197,52853000,8,183685000,The fuel necessary to generate energy is uranium and the power originated from the nuclear fission of its atoms produces an incredible amount of energy .,['RELIABILITY'],1,['TECHNOLOGICAL_INNOVATION']
+"RELIABILITY 
+",gemma2:27b,2024-09-11T15:15:34.879816661Z,stop,332504674,55435673,205,58546000,6,130111000,"Alongside that , the highly centralized nature of nuclear plants means that if one or more goes down , at one stroke it takes out an enormous chunk of the electricity supply grid .","['RELIABILITY', 'ENERGY_POLICY']",1,['RELIABILITY']
+"WASTE 
+",gemma2:27b,2024-09-11T15:15:35.154376604Z,stop,226718229,55736139,185,46361000,4,80721000,Waste lasts 200 – 500 thousand years .,['WASTE'],1,['WASTE']
+"HEALTH_EFFECTS 
+",gemma2:27b,2024-09-11T15:15:35.504650512Z,stop,305272869,55386901,189,46250000,7,159133000,Renewed operation of TMI-1 may well cause psychological health problems for these people .,['HEALTH_EFFECTS'],1,['HEALTH_EFFECTS']
+"ACCIDENTS/SECURITY 
+PUBLIC_DEBATE  
+",gemma2:27b,2024-09-11T15:15:36.014538544Z,stop,462498060,58910764,184,45748000,13,313472000,The majority of the public consider nuclear power plants to be unsafe .,['ACCIDENTS/SECURITY'],2,"['PUBLIC_DEBATE', 'ACCIDENTS/SECURITY']"
+"Here's a breakdown of the labels for the provided text:
+
+* **ENERGY_POLICY:** The sentence discusses the popularity of nuclear power with governments and their motivation for using it.
+* **COSTS:**  The mention of saving money directly relates to the cost aspect of nuclear energy. 
+* **FOSSIL_FUELS:** The text explicitly contrasts nuclear power with oil, a fossil fuel, highlighting a key comparative advantage.
+* **ENVIRONMENTAL_IMPACT:**  The phrase ""very low greenhouse gas emissions"" directly addresses the environmental impact of nuclear power. 
+
+
+Let me know if you have any other text snippets you'd like me to code!",gemma2:27b,2024-09-11T15:15:39.775740647Z,stop,3715974141,60132307,236,81811000,136,3530616000,"The best reason to use more nuclear power , and the reason it is proving so popular with 21st century governments keen to save money and reduce reliance on oil ( 14 ) - particularly from countries that have seen political instability in the last few years - is the very low greenhouse gas emissions ( 7 ) .","['ENVIRONMENTAL_IMPACT', 'COSTS', 'ENERGY_POLICY', 'FOSSIL_FUELS']",4,"['COSTS', 'FOSSIL_FUELS', 'ENERGY_POLICY', 'ENVIRONMENTAL_IMPACT']"
+"ACCIDENTS/SECURITY 
+",gemma2:27b,2024-09-11T15:15:40.142142888Z,stop,318190828,58344310,205,57900000,7,156959000,"The risk of terrible nuclear accidents like Chernobyl , Three Mile Island and Windscale ( Sellafield ) will plague a new generation of power stations as it did the first .",['ACCIDENTS/SECURITY'],1,['ACCIDENTS/SECURITY']
+"HEALTH_EFFECTS, ACCIDENTS/SECURITY 
+",gemma2:27b,2024-09-11T15:15:40.644009368Z,stop,456543564,61971754,214,62085000,12,285686000,"They may suffer "" anxiety , tension and fear , a sense of helplessness , "" and accompanying physical disorders , n. 2 , supra , because of the risk that their relatives may be harmed in a nuclear accident .",['ACCIDENTS/SECURITY'],2,"['HEALTH_EFFECTS', 'ACCIDENTS/SECURITY']"
+"ENVIRONMENTAL_IMPACT 
+
+**Explanation:** The statement focuses on the low CO2 emissions associated with nuclear power plants, which is directly related to the environmental impact of this energy source. 
+",gemma2:27b,2024-09-11T15:15:41.822851545Z,stop,1131620730,56795118,182,43186000,39,988147000,"With nuclear power plants , CO2 emissions are minimal .",['ENVIRONMENTAL_IMPACT'],1,['ENVIRONMENTAL_IMPACT']
+"ACCIDENTS/SECURITY 
+HEALTH_EFFECTS  
+",gemma2:27b,2024-09-11T15:15:42.331889733Z,stop,460436083,56105119,189,46421000,13,314073000,Fistly if its not properly secured something bad could happen and lots of people could die .,['ACCIDENTS/SECURITY'],2,"['HEALTH_EFFECTS', 'ACCIDENTS/SECURITY']"
+"ACCIDENTS/SECURITY 
+",gemma2:27b,2024-09-11T15:15:42.690599061Z,stop,310880555,55584976,197,52691000,7,158663000,"The nuclear industry has an excellent safety record , with some 14,800 reactor years of operation spanning five decades .",['ACCIDENTS/SECURITY'],1,['ACCIDENTS/SECURITY']
+"ENERGY_POLICY, COSTS, FOSSIL_FUELS 
+",gemma2:27b,2024-09-11T15:15:43.257349191Z,stop,521986887,56381867,199,57591000,15,364293000,"With the concern about climate change and the increased cost of fossil fuels , there has been an increase interest in using nuclear energy to produce electricity .","['ENVIRONMENTAL_IMPACT', 'FOSSIL_FUELS']",3,"['COSTS', 'FOSSIL_FUELS', 'ENERGY_POLICY']"
+"ENVIRONMENTAL_IMPACT, WASTE 
+",gemma2:27b,2024-09-11T15:15:43.727753114Z,stop,376557735,54625650,184,45735000,8,187055000,Reprocessing nuclear waste is not a viable environmental solution .,"['ENVIRONMENTAL_IMPACT', 'WASTE']",2,"['WASTE', 'ENVIRONMENTAL_IMPACT']"
+"ACCIDENTS/SECURITY 
+",gemma2:27b,2024-09-11T15:15:44.081464072Z,stop,305778802,56422449,189,47283000,7,158739000,"Any risk of another Chernobyl or Mile High is intolerable "" The case against nuclear power "" .",['ACCIDENTS/SECURITY'],1,['ACCIDENTS/SECURITY']
+"ACCIDENTS/SECURITY 
+
+ENVIRONMENTAL_IMPACT 
+HEALTH_EFFECTS 
+",gemma2:27b,2024-09-11T15:15:44.726559274Z,stop,594958208,54698933,197,52085000,18,443171000,"The consequences of an accident would be absolutely devastating both for human being as for the nature ( see here , here or here ) .","['ENVIRONMENTAL_IMPACT', 'ACCIDENTS/SECURITY', 'HEALTH_EFFECTS']",3,"['HEALTH_EFFECTS', 'ENVIRONMENTAL_IMPACT', 'ACCIDENTS/SECURITY']"
+"**FOSSIL_FUELS, ENVIRONMENTAL_IMPACT** 
+
+This sentence argues that closing nuclear plants will lead to increased reliance on natural gas, a fossil fuel, resulting in higher greenhouse gas emissions.  
+",gemma2:27b,2024-09-11T15:15:46.048205321Z,stop,1276501714,55423341,211,59265000,44,1117618000,"If these plants are shuttered , their output will be replaced in many cases by natural gas generation , which will increase greenhouse gas emissions , as has occurred after recent nuclear plant closures in Vermont and Wisconsin .",['FOSSIL_FUELS'],2,"['FOSSIL_FUELS', 'ENVIRONMENTAL_IMPACT']"
+"ENERGY_POLICY 
+FOSSIL_FUELS
+RENEWABLES  
+",gemma2:27b,2024-09-11T15:15:46.775587259Z,stop,639423723,54978561,199,56066000,18,441372000,The nuclear phase-out is as much part of the Energiewende ( energy transition ) as the move towards a low-carbon economy .,['ENVIRONMENTAL_IMPACT'],3,"['RENEWABLES', 'FOSSIL_FUELS', 'ENERGY_POLICY']"
+"ENVIRONMENTAL_IMPACT 
+",gemma2:27b,2024-09-11T15:15:47.10961166Z,stop,329447802,54275902,199,55990000,6,129928000,"Because nuclear energy has such a small impact on its surroundings , nuclear power plants provide excellent habitat for all species of plants and animals to thrive .",['ENVIRONMENTAL_IMPACT'],1,['ENVIRONMENTAL_IMPACT']
+"RENEWABLES, FOSSIL_FUELS  
+
+**Explanation:**
+
+This sentence compares the energy output of a nuclear power plant to the equivalent outputs from renewable energy sources (wind and solar).  The comparison implies a discussion about alternatives to nuclear power within the context of overall energy policy. 
+
+
+",gemma2:27b,2024-09-11T15:15:48.916265263Z,stop,1760806063,57055696,219,71327000,62,1589668000,"In fact , to equal the electrical output of a single 3.000 megawatt-electric nuclear generating station , it would take roughly 2.000 wind turbines or 140 square kilometres of solar panels .","['RELIABILITY', 'RENEWABLES']",2,"['RENEWABLES', 'FOSSIL_FUELS']"
+"PUBLIC_DEBATE 
+",gemma2:27b,2024-09-11T15:15:49.35624021Z,stop,352711742,54859499,191,51749000,7,158335000,The anti-uranium movement has used a wide variety of methods to inform and involve the community .,['PUBLIC_DEBATE'],1,['PUBLIC_DEBATE']
+"COSTS, RELIABILITY, RENEWABLES 
+",gemma2:27b,2024-09-11T15:15:49.873721019Z,stop,469976954,59369986,195,52466000,13,313758000,"Wind power typically costs much more than nuclear - often twice as much per kWh , and can not provide power on demand .","['COSTS', 'RENEWABLES']",3,"['COSTS', 'RENEWABLES', 'RELIABILITY']"
+"RENEWABLES, COSTS 
+",gemma2:27b,2024-09-11T15:15:50.255788069Z,stop,336113586,54304163,198,52194000,8,184350000,"If the money pumped into nuclear had been spent on renewables , then the pay-off would have been much greater per-euro invested .",['RENEWABLES'],2,"['COSTS', 'RENEWABLES']"
+"ENVIRONMENTAL_IMPACT, ENERGY_POLICY 
+",gemma2:27b,2024-09-11T15:15:50.691540996Z,stop,388294124,56912602,195,51278000,10,236986000,"So if nuclear power can play a role in cooling our planet , the Lantern thinks it deserves to stay on the table .",['ENVIRONMENTAL_IMPACT'],2,"['ENERGY_POLICY', 'ENVIRONMENTAL_IMPACT']"
+"RENEWABLES 
+",gemma2:27b,2024-09-11T15:15:51.028440882Z,stop,288849077,56138561,202,58759000,6,130175000,"Furthermore , if we do n’t start using renewable now then we may never make the switch , so this is the chance to take that first step .",['RENEWABLES'],1,['RENEWABLES']
+"TECHNOLOGICAL_INNOVATION, RELIABILITY, COSTS 
+",gemma2:27b,2024-09-11T15:15:51.587046717Z,stop,511377527,54614331,217,73568000,14,338066000,So there ’s enormous excitement and concerted action on nuclear energy — whether it ’s modifying and refining the technology for extant fission reactors by increasing their safety and reliability while lowering their costs or the many worldwide efforts toward achieving nuclear fusion .,"['RELIABILITY', 'COSTS', 'ACCIDENTS/SECURITY']",3,"['COSTS', 'TECHNOLOGICAL_INNOVATION', 'RELIABILITY']"
+"ENVIRONMENTAL_IMPACT 
+",gemma2:27b,2024-09-11T15:15:52.002382007Z,stop,327117011,57872727,186,47539000,6,132635000,"Although the casualties were not that high , but it caused serious environmental concerns .",['ENVIRONMENTAL_IMPACT'],1,['ENVIRONMENTAL_IMPACT']
+"COSTS, RELIABILITY 
+
+
+Let me explain why:
+
+* **COSTS:** The phrase ""crowning mother of expenses"" clearly indicates a high cost associated with nuclear energy.
+* **RELIABILITY:**  The text mentions nuclear as the ""blunt force"" for power generation in demanding situations like ""super-heavy industrial use or large cities."" This implies reliability as a key characteristic. 
+",gemma2:27b,2024-09-11T15:15:54.398235462Z,stop,2351105343,59579781,199,57374000,85,2189381000,"Nuclear : The crowning mother of expenses , nuclear is the blunt force of power generation for things like super-heavy industrial use or large cities .",['COSTS'],2,"['COSTS', 'RELIABILITY']"
+"RENEWABLES 
+",gemma2:27b,2024-09-11T15:15:54.819486947Z,stop,331217756,53949334,199,58283000,6,131010000,"In contrast , measures such as bicycle transport , passive solar design , solar heating , wind power or biogas production lend themselves to local community control .",['RENEWABLES'],1,['RENEWABLES']
+"HEALTH_EFFECTS 
+",gemma2:27b,2024-09-11T15:15:55.176783498Z,stop,308670547,56574074,191,51161000,7,158303000,Uranium mining is highly regulated in most countries and standards ensure that no adverse health effects are likely .,['HEALTH_EFFECTS'],1,['HEALTH_EFFECTS']
+"ACCIDENTS/SECURITY, ENVIRONMENTAL_IMPACT, HEALTH_EFFECTS 
+",gemma2:27b,2024-09-11T15:15:55.756581406Z,stop,533012582,43788917,204,55727000,16,389432000,Radiation levels in the surrounding water have soared as high as 7.5 million times the legal limit while elevated radiation levels are now being detected in the United States .,['ENVIRONMENTAL_IMPACT'],3,"['HEALTH_EFFECTS', 'ENVIRONMENTAL_IMPACT', 'ACCIDENTS/SECURITY']"
+"ACCIDENTS/SECURITY 
+",gemma2:27b,2024-09-11T15:15:56.195663819Z,stop,352097254,56592063,193,52194000,7,157354000,"If building new plants is as dangerous as critiques claim , would n't these existing plants be shut down ?",['ACCIDENTS/SECURITY'],1,['ACCIDENTS/SECURITY']
+"ACCIDENTS/SECURITY 
+",gemma2:27b,2024-09-11T15:15:56.544350353Z,stop,304764704,56746327,184,46474000,7,158435000,The Chernobyl disaster is perhaps one of the worst in human history .,['ACCIDENTS/SECURITY'],1,['ACCIDENTS/SECURITY']
+"ENVIRONMENTAL_IMPACT 
+
+Let me know if you have any other sentences you'd like coded! 
+",gemma2:27b,2024-09-11T15:15:57.300705758Z,stop,709155459,53265216,181,41425000,23,571939000,Nuclear power plants use much more water than alternatives .,['ENVIRONMENTAL_IMPACT'],1,['ENVIRONMENTAL_IMPACT']
+"ENVIRONMENTAL_IMPACT,  HEALTH_EFFECTS 
+",gemma2:27b,2024-09-11T15:15:57.783929586Z,stop,436240748,55880114,195,49775000,12,286993000,The rise of environmental consciousness and the fears of nuclear fallout have done much to militate against widespread enthusiasm for nuclear energy .,['ENVIRONMENTAL_IMPACT'],2,"['HEALTH_EFFECTS', 'ENVIRONMENTAL_IMPACT']"
+"ACCIDENTS/SECURITY 
+",gemma2:27b,2024-09-11T15:15:58.132264372Z,stop,300700837,55881134,179,42566000,7,158437000,Nuclear plants also are safe for workers .,['HEALTH_EFFECTS'],1,['ACCIDENTS/SECURITY']
+"ENVIRONMENTAL_IMPACT 
+ACCIDENTS/SECURITY  
+HEALTH_EFFECTS 
+",gemma2:27b,2024-09-11T15:15:58.785121915Z,stop,605726618,54301803,212,62558000,18,442315000,"Wildlife has been flourishing there ( partly in the absence of humans , but clearly not harmed by the fallout ) , as described in Mary Mycio ’s book Wormwood Forest : A Natural History of Chernobyl .",['ENVIRONMENTAL_IMPACT'],3,"['HEALTH_EFFECTS', 'ENVIRONMENTAL_IMPACT', 'ACCIDENTS/SECURITY']"
+"**TECHNOLOGICAL_INNOVATION, WASTE** 
+
+This sentence discusses the development of new nuclear reactor technology (TECHNOLOGICAL_INNOVATION) and mentions the production of waste heat (WASTE). 
+
+
+",gemma2:27b,2024-09-11T15:16:00.117373384Z,stop,1241914461,55154204,205,59641000,41,1038445000,"The Department of Energy ( DOE ) is expanding its development of nuclear reactors that churn out large amounts of waste heat , which could be used in a number of other industries .",['TECHNOLOGICAL_INNOVATION'],2,"['WASTE', 'TECHNOLOGICAL_INNOVATION']"
+"ENERGY_POLICY, RELIABILITY  
+
+
+**Explanation:**
+
+* **ENERGY_POLICY:** The sentence discusses the suitability of nuclear energy as a power source within the context of the Philippines' Department of Energy (DOE) forecasts. This points directly to energy policy considerations. 
+* **RELIABILITY:** The argument centers around the long construction time for nuclear plants, suggesting a concern about their reliability in meeting immediate power demands. 
+",gemma2:27b,2024-09-11T15:16:02.617043274Z,stop,2494272548,41684921,223,71840000,89,2293612000,"January 8 , 2008 : "" Nuclear is not an available power source in the Philippines , and , given the DOE ’s power forecasts , a nuclear plant will be a poor choice to meet power demand because it takes too long to build .","['RELIABILITY', 'COSTS']",2,"['ENERGY_POLICY', 'RELIABILITY']"
+"Here's a breakdown of the coding for the given sentence:
+
+* **ENERGY_POLICY:** The sentence directly addresses the concentration of power within energy systems, a core concern of energy policy.
+* **PUBLIC_DEBATE:** The phrasing ""putting it in the hands of..."" suggests a discussion about who should control nuclear power, making it relevant to public debate. 
+
+
+Let me know if you'd like to code more examples! 
+",gemma2:27b,2024-09-11T15:16:05.223333475Z,stop,2519772273,54146347,198,53309000,92,2367805000,"Nuclear power is the ultimate way of centralising power , putting it in the hands of experts , multi-national corporations and Big Government .",['ENERGY_POLICY'],2,"['ENERGY_POLICY', 'PUBLIC_DEBATE']"
+"HEALTH_EFFECTS 
+",gemma2:27b,2024-09-11T15:16:05.664915974Z,stop,394834573,43840768,202,58227000,7,156573000,"Opponents also question the negative health effects nuclear energy can expose to the public , in addition to the workers who interact with the matter on a daily basis .",['HEALTH_EFFECTS'],1,['HEALTH_EFFECTS']
+"WASTE 
+",gemma2:27b,2024-09-11T15:16:05.95756043Z,stop,245617415,58913573,208,63398000,4,78736000,"More than 58,000 metric tons of highly radioactive spent fuel already has accumulated at reactor sites around the U.S. for which there currently is no permanent repository .",['WASTE'],1,['WASTE']
+"FOSSIL_FUELS 
+
+**Explanation:**
+
+The sentence suggests a connection between opposition to nuclear power and financial interests in coal. This points to the theme of **FOSSIL_FUELS**. 
+",gemma2:27b,2024-09-11T15:16:07.316975038Z,stop,1313229029,69887271,191,51695000,45,1144995000,Probably those who receive considerable income from coal also oppose nuclear power ; I shall refrain from mentioning names .,['FOSSIL_FUELS'],1,['FOSSIL_FUELS']
+"ACCIDENTS/SECURITY 
+",gemma2:27b,2024-09-11T15:16:07.758888001Z,stop,355658825,54774804,193,53299000,7,158540000,There ’s a subtext that a nuclear disaster ( like Deepwater Horizon ) will devastate the arctic .,['ACCIDENTS/SECURITY'],1,['ACCIDENTS/SECURITY']
+"WEAPONS 
+",gemma2:27b,2024-09-11T15:16:08.086681936Z,stop,283011132,55853603,198,51548000,6,131812000,Therefore the world can not free itself from nuclear weapons while reactors and nuclear fuel chain facilities such as uranium enrichment and reprocessing factories exist .,['WEAPONS'],1,['WEAPONS']
+"WASTE 
+HEALTH_EFFECTS 
+",gemma2:27b,2024-09-11T15:16:08.519020611Z,stop,387495020,55261678,196,52781000,10,235089000,One of the greatest fears of nuclear power is that the radioactive waste that results can remain hazardous for hundreds of thousands of years .,['WASTE'],2,"['HEALTH_EFFECTS', 'WASTE']"
+"HEALTH_EFFECTS 
+
+This text focuses on the effects of radiation exposure on health, specifically disputing the linear-no-threshold assumption commonly used to assess radiation risks.  
+",gemma2:27b,2024-09-11T15:16:09.721050447Z,stop,1157427678,53272106,255,92917000,38,968642000,"studies worldwide ( for a partial listing see Charles Sanders ’s 2009 book Radiation Hormesis and the Linear-No-Threshold Assumption and for a more complete , though more dated , listing see T.D. Luckey ’s 1991 book Radiation Hormesis ) to be false at the low-dose ranges to which most nuclear workers , accident responders , and nearby residents have been exposed .",['HEALTH_EFFECTS'],1,['HEALTH_EFFECTS']
+"ACCIDENTS/SECURITY, HEALTH_EFFECTS 
+",gemma2:27b,2024-09-11T15:16:10.299833465Z,stop,488311699,57833415,198,54215000,12,287403000,"Hundreds of thousands people had to be evacuated , and millions more were left to live in areas that were dangerous to their health and lives .",['HEALTH_EFFECTS'],2,"['HEALTH_EFFECTS', 'ACCIDENTS/SECURITY']"
+"ENERGY_POLICY, ENVIRONMENTAL_IMPACT 
+
+
+Let me know if you'd like me to code more examples! 
+",gemma2:27b,2024-09-11T15:16:11.163357672Z,stop,858865665,59276052,210,61858000,26,649546000,"September 12 , 2007 : "" Here 's the reality : The U.S. needs more energy , and we need to get it without further harming our environment .","['RELIABILITY', 'ENVIRONMENTAL_IMPACT']",2,"['ENERGY_POLICY', 'ENVIRONMENTAL_IMPACT']"
+"ACCIDENTS/SECURITY 
+HEALTH_EFFECTS
+COSTS 
+ENVIRONMENTAl_IMPACT  
+",gemma2:27b,2024-09-11T15:16:11.962809002Z,stop,711399703,57147407,213,63210000,22,545396000,"If a meltdown were to occur in either the reactor or the spent fuel pool , the accident could kill and injure tens of thousands of people , cost billions of dollars in damages and leave large regions uninhabitable .","['ENVIRONMENTAL_IMPACT', 'COSTS', 'ACCIDENTS/SECURITY']",3,"['COSTS', 'HEALTH_EFFECTS', 'ACCIDENTS/SECURITY']"
+"ENVIRONMENTAL_IMPACT 
+HEALTH_EFFECTS 
+ACCIDENTS/SECURITY 
+WASTE 
+
+
+Let me explain why:
+
+* **ENVIRONMENTAL_IMPACT:** The phrases ""toxic wasteland"" and ""most highly contaminated on earth"" clearly point to negative environmental consequences.
+* **HEALTH_EFFECTS:**  The use of terms like ""contaminated"" directly relates to potential health risks for humans or other living organisms.
+* **ACCIDENTS/SECURITY:** While not explicitly stated, the implication of a location being ""highly contaminated"" suggests a past accident or security breach related to nuclear activity. 
+* **WASTE:** The description likely refers to radioactive waste, a key concern in the nuclear energy debate. 
+",gemma2:27b,2024-09-11T15:16:16.005269639Z,stop,3995746575,55926256,211,60549000,144,3734665000,"Yet many of the articles that describe their lives still , out of oxymoronic habit , use scare phrases like “ toxic wasteland , ” “ most highly contaminated on earth , ” and so on .",['PUBLIC_DEBATE'],4,"['HEALTH_EFFECTS', 'WASTE', 'ENVIRONMENTAL_IMPACT', 'ACCIDENTS/SECURITY']"
+"WASTE 
+HEALTH_EFFECTS 
+",gemma2:27b,2024-09-11T15:16:16.446054771Z,stop,390190809,60365852,197,51261000,10,235674000,"April 16th , 2006 : "" [ Claim :] Nuclear waste will be dangerous for thousands of years .",['WASTE'],2,"['HEALTH_EFFECTS', 'WASTE']"
+"ENVIRONMENTAL_IMPACT, FOSSIL_FUELS  
+",gemma2:27b,2024-09-11T15:16:16.958560065Z,stop,466900139,55125794,197,53049000,13,314106000,"However , each year the particle pollution caused by coal power plants claims about 7,500 lives in the United States .",['FOSSIL_FUELS'],2,"['FOSSIL_FUELS', 'ENVIRONMENTAL_IMPACT']"
+"ACCIDENTS/SECURITY, ENVIRONMENTAL_IMPACT, HEALTH_EFFECTS 
+",gemma2:27b,2024-09-11T15:16:17.538295257Z,stop,534842937,55991316,186,44020000,16,390938000,"They pose security , environmental and health risks at every step in their operation .","['ENVIRONMENTAL_IMPACT', 'ACCIDENTS/SECURITY', 'HEALTH_EFFECTS']",3,"['HEALTH_EFFECTS', 'ENVIRONMENTAL_IMPACT', 'ACCIDENTS/SECURITY']"
+"TECHNOLOGICAL_INNOVATION, COSTS 
+",gemma2:27b,2024-09-11T15:16:18.05732931Z,stop,429705853,54978579,194,51107000,10,235035000,The move comes against the backdrop of nuclear innovations that seek to address safety and cost issues that have hampered the sector .,"['COSTS', 'ACCIDENTS/SECURITY']",2,"['COSTS', 'TECHNOLOGICAL_INNOVATION']"
+"WASTE, ACCIDENTS/SECURITY 
+
+
+Let me explain why:
+
+* **WASTE:** The sentence explicitly discusses ""This waste"" highlighting the issue of nuclear waste disposal.
+* **ACCIDENTS/SECURITY:**  The phrase ""prevent the materials from falling into the wrong hands"" points to security concerns related to nuclear material and the potential for misuse, accidents, or theft. 
+",gemma2:27b,2024-09-11T15:16:20.260772827Z,stop,2199289758,56095049,192,52054000,78,2001508000,"This waste has to be maintained , monitored and guarded to prevent the materials from falling into the wrong hands .",['WASTE'],2,"['WASTE', 'ACCIDENTS/SECURITY']"
+"ACCIDENTS/SECURITY 
+
+COSTS 
+",gemma2:27b,2024-09-11T15:16:20.782351167Z,stop,434796078,55672968,220,74222000,11,261313000,"A PRA must be done separately for each power plant ( at a cost of $ 5 million ) but we give typical results here : A fuel melt-down might be expected once in 20,000 years of reactor operation .",['ACCIDENTS/SECURITY'],2,"['COSTS', 'ACCIDENTS/SECURITY']"
+"ENERGY_POLICY 
+",gemma2:27b,2024-09-11T15:16:21.116784855Z,stop,288997699,59605000,198,53394000,6,132115000,"The Premier , Mr Brian Burke , said that the Cabinet had reaffirmed that in no circumstances would a nuclear power station be built in WA .",['ENERGY_POLICY'],1,['ENERGY_POLICY']
+"WEAPONS 
+TECHNOLOGICAL_INNOVATION 
+HEALTH_EFFECTS 
+",gemma2:27b,2024-09-11T15:16:21.786503992Z,stop,622947193,54927369,205,56140000,19,467218000,"Since the development of the atomic bomb , the human race has found other uses for this technology that still divides people - it provides power for our homes and has medicinal uses .",['WEAPONS'],3,"['HEALTH_EFFECTS', 'WEAPONS', 'TECHNOLOGICAL_INNOVATION']"
+"ENERGY_POLICY, RELIABILITY, CLIMATE_CHANGE 
+",gemma2:27b,2024-09-11T15:16:22.418675158Z,stop,543248677,56916379,209,61269000,14,338290000,"The sober warning is that if more is not done , nuclear power will diminish as a practical and timely option for deployment at a scale that would constitute a material contribution to climate change risk mitigation .",['ENVIRONMENTAL_IMPACT'],2,"['ENERGY_POLICY', 'RELIABILITY']"
+"ENERGY_POLICY, RENEWABLES, FOSSIL_FUELS 
+",gemma2:27b,2024-09-11T15:16:23.055642731Z,stop,632387933,55580295,218,72148000,17,415856000,"April 16th , 2006 : "" Wind and solar power have their place , but because they are intermittent and unpredictable they simply ca n't replace big baseload plants such as coal , nuclear and hydroelectric .","['RENEWABLES', 'FOSSIL_FUELS']",3,"['RENEWABLES', 'FOSSIL_FUELS', 'ENERGY_POLICY']"
+"FOSSIL_FUELS, RENEWABLES 
+
+
+**Explanation:**
+
+The sentence discusses the decrease in greenhouse gas emissions from electricity generation, implying a shift away from fossil fuels (a major source of these emissions) and potentially towards renewable energy sources. 
+",gemma2:27b,2024-09-11T15:16:24.642309013Z,stop,1538649996,58710798,200,56393000,54,1378681000,"As a result , U.S. greenhouse gas emissions from electricity generation have actually decreased over the last decade , even as electricity consumption has increased .",['ENVIRONMENTAL_IMPACT'],2,"['RENEWABLES', 'FOSSIL_FUELS']"
+"ENVIRONMENTAL_IMPACT 
+
+
+Let me know if you have any other sentences you'd like coded!",gemma2:27b,2024-09-11T15:16:25.459644038Z,stop,727943943,65626148,191,51634000,21,521826000,But I keep hearing them touted as a clean energy source that will do great things for the planet .,['ENVIRONMENTAL_IMPACT'],1,['ENVIRONMENTAL_IMPACT']
+"TECHNOLOGICAL_INNOVATION  
+
+
+Let me know if you'd like me to analyze more sentences! 
+",gemma2:27b,2024-09-11T15:16:26.262911803Z,stop,799113547,54416696,202,58351000,24,596848000,The Protactinium decays naturally in 27 days to U233 and that is considered one of the admirable outcomes of the Thorium Cycle .,['TECHNOLOGICAL_INNOVATION'],1,['TECHNOLOGICAL_INNOVATION']
+"RENEWABLES, ENERGY_POLICY  
+",gemma2:27b,2024-09-11T15:16:26.69966299Z,stop,392132930,55327740,204,58671000,10,233436000,I do agree that if more members of the public were aware if the limitations of renewables and the need for nuclear power it is more likely that action would be taken .,['RENEWABLES'],2,"['RENEWABLES', 'ENERGY_POLICY']"
+"ACCIDENTS/SECURITY, COSTS 
+",gemma2:27b,2024-09-11T15:16:27.099910604Z,stop,352342367,56945441,184,44050000,9,208658000,They know it is both far too dangerous and far too expensive .,"['COSTS', 'ACCIDENTS/SECURITY']",2,"['COSTS', 'ACCIDENTS/SECURITY']"
+"**ENERGY_POLICY**, **FOSSIL_FUELS** 
+
+**Explanation:**
+
+* **ENERGY_POLICY:** The sentence discusses nuclear power in relation to other energy sources (oil and gas), implying a discussion about energy policy choices.
+* **FOSSIL_FUELS:**  The mention of ""oil and gas"" directly relates to fossil fuels as an alternative energy source. 
+
+
+",gemma2:27b,2024-09-11T15:16:29.486974642Z,stop,2299426643,55242017,193,52318000,82,2104483000,"Nuclear plants only produce electricity and ca n't replace oil and gas "" The case against nuclear power "" .",['FOSSIL_FUELS'],2,"['FOSSIL_FUELS', 'ENERGY_POLICY']"
+"WASTE 
+",gemma2:27b,2024-09-11T15:16:29.769030928Z,stop,277338192,58014339,192,48243000,4,77757000,"March 13 , 2009 : "" There is no such thing as nuclear waste .",['WASTE'],1,['WASTE']
+"WASTE 
+",gemma2:27b,2024-09-11T15:16:30.042847879Z,stop,227309812,55813891,189,46658000,4,80834000,What is the point of nuclear power in Austraila its just a waist of space .,['ENVIRONMENTAL_IMPACT'],1,['WASTE']
+"ACCIDENTS/SECURITY 
+",gemma2:27b,2024-09-11T15:16:30.401612695Z,stop,314054605,58436759,195,52027000,7,158272000,"January 8 , 2008 : "" The Three mile Island and Chernobyl accidents should never be downplayed .",['ACCIDENTS/SECURITY'],1,['ACCIDENTS/SECURITY']
+"ACCIDENTS/SECURITY, ENVIRONMENTAL_IMPACT, ENERGY_POLICY 
+",gemma2:27b,2024-09-11T15:16:30.975692057Z,stop,524300610,55231656,209,61648000,15,362792000,"Although construction of safe nuclear power plants may be feasible , and may help meet rising energy needs in the short term , ignoring the longer term implications of nuclear power may lead to even bigger problems .","['RELIABILITY', 'ENVIRONMENTAL_IMPACT', 'ACCIDENTS/SECURITY']",3,"['ENERGY_POLICY', 'ENVIRONMENTAL_IMPACT', 'ACCIDENTS/SECURITY']"
+"ACCIDENTS/SECURITY 
+",gemma2:27b,2024-09-11T15:16:31.416682086Z,stop,353188430,55308320,195,52502000,7,158019000,The report does not inspire confidence that the U.S. government is in any way prepared for a possible nuclear accident .,['ACCIDENTS/SECURITY'],1,['ACCIDENTS/SECURITY']
+"WASTE 
+FOSSIL_FUELS  
+",gemma2:27b,2024-09-11T15:16:31.921771873Z,stop,458353573,56658024,216,71530000,12,286084000,"Ninety-five percent of a spent fuel rod is plain old U-238 , the nonfissionable variety that exists in granite tabletops , stone buildings and the coal burned in coal plants to generate electricity .",['WASTE'],2,"['FOSSIL_FUELS', 'WASTE']"
+"TECHNOLOGICAL_INNOVATION, ENERGY_POLICY, ENVIRONMENTAL_IMPACT 
+",gemma2:27b,2024-09-11T15:16:32.519255978Z,stop,551735798,57647789,205,58332000,16,389156000,"It ’s a valuable area of research that could guarantee abundant clean energy , so it ’s worth investing in the technology , continuing to use it and not abandoning it .",['ENVIRONMENTAL_IMPACT'],3,"['ENERGY_POLICY', 'ENVIRONMENTAL_IMPACT', 'TECHNOLOGICAL_INNOVATION']"
+"ACCIDENTS/SECURITY 
+",gemma2:27b,2024-09-11T15:16:32.952247425Z,stop,345290200,56063308,180,43015000,7,158143000,Nuclear power plants are vulnerable to terrorist attacks .,['ACCIDENTS/SECURITY'],1,['ACCIDENTS/SECURITY']
+"HEALTH_EFFECTS 
+",gemma2:27b,2024-09-11T15:16:33.321231578Z,stop,321723905,58899812,211,61932000,7,156065000,"Even if you lived right next door to a nuclear power plant , you would still receive less radiation each year than you would receive in just one round-trip flight from New York to Los Angeles . """,['HEALTH_EFFECTS'],1,['HEALTH_EFFECTS']
+"ENERGY_POLICY, ENVIRONMENTAL_IMPACT,  COSTS, RELIABILITY 
+",gemma2:27b,2024-09-11T15:16:33.981866988Z,stop,614581673,57533037,221,74373000,18,440109000,"Just one uranium pellet has a comparable output of ( 8 ) 17,000 cubic feet of methane , 149 gallons of crude oil or 1,780 lb of coal and it is infinitely cleaner too .","['RELIABILITY', 'ENVIRONMENTAL_IMPACT', 'FOSSIL_FUELS']",4,"['COSTS', 'ENERGY_POLICY', 'ENVIRONMENTAL_IMPACT', 'RELIABILITY']"
+"WASTE 
+",gemma2:27b,2024-09-11T15:16:34.350777849Z,stop,278715827,57330301,195,51938000,4,80764000,"Nuclear waste is minimal , solid , and manageable James Lovelock , Honorary Visiting Fellow , Green College , Oxford University .",['WASTE'],1,['WASTE']
+"ACCIDENTS/SECURITY 
+",gemma2:27b,2024-09-11T15:16:34.714080824Z,stop,318657156,58277978,203,57692000,7,156128000,The Chernobyl accident that occurred on 26 April 1986 at the Chernobyl Nuclear Power Plant in Ukraine was the worst nuclear accident in the history .,['ACCIDENTS/SECURITY'],1,['ACCIDENTS/SECURITY']
+"ENERGY_POLICY 
+",gemma2:27b,2024-09-11T15:16:35.03509766Z,stop,275339069,60363390,180,40750000,6,130976000,The world ’s energy needs are growing .,['RELIABILITY'],1,['ENERGY_POLICY']
+"COSTS 
+",gemma2:27b,2024-09-11T15:16:35.339362198Z,stop,255805470,54672623,190,47464000,5,107950000,"Nuclear plant construction runs over-time and over-budget "" The case against nuclear power "" .",['COSTS'],1,['COSTS']
+"WEAPONS 
+ACCIDENTS/SECURITY  
+",gemma2:27b,2024-09-11T15:16:35.822198322Z,stop,439387515,58778278,186,47767000,12,286051000,"Reactors , with the piles of nuclear materials , are prime terrorists targets .",['ACCIDENTS/SECURITY'],2,"['WEAPONS', 'ACCIDENTS/SECURITY']"
+"ENERGY_POLICY 
+
+Let's break down why:
+
+* **""Nuclear power is a very useful source of energy""**: This speaks to the potential benefits and role of nuclear power within an energy framework.  
+* **""plus we have a third of the world's uranium""**: This statement points to resource availability, which is a key factor in energy policy decisions. 
+
+
+",gemma2:27b,2024-09-11T15:16:38.09988503Z,stop,2232464205,58326248,191,51603000,81,2076824000,"Nuclear power is a very useful source of energy , plus we have a third of the worlds uranium .",['RELIABILITY'],1,['ENERGY_POLICY']
+"Here's a breakdown of the labels that apply to the provided text:
+
+* **FOSSIL_FUELS:** The text explicitly mentions ""instability of fossil fuel availability"" and ""peak oil,"" highlighting concerns related to traditional energy sources.
+* **ENERGY_POLICY:** The passage discusses the need to ""increase power production while reducing greenhouse gas emissions,"" indicating a broader policy context surrounding energy choices. 
+* **ENVIRONMENTAL_IMPACT:**  The mention of reducing ""greenhouse gas emissions"" directly relates to the environmental impact of energy production.
+* **RENEWABLES:** While not explicitly stated, the text implies a comparison between nuclear energy and other alternatives when it mentions needing to increase power production in a context where fossil fuels are unstable. This suggests renewables could be part of that consideration. 
+
+
+Let me know if you have any more text snippets you'd like coded! 
+",gemma2:27b,2024-09-11T15:16:43.159223946Z,stop,4971514028,57197377,240,83052000,182,4742057000,"In the EU and in North America largely due to instability of fossil fuel availability , that the world may have reached peak oil , high prices and a need to increase power production while reducing greenhouse gas emissions ( 4 ) ( and also that older plants need to be updated ) , means we are once again faced with the possibility of a nuclear future .","['ENVIRONMENTAL_IMPACT', 'FOSSIL_FUELS']",4,"['RENEWABLES', 'FOSSIL_FUELS', 'ENERGY_POLICY', 'ENVIRONMENTAL_IMPACT']"
+"HEALTH_EFFECTS 
+",gemma2:27b,2024-09-11T15:16:43.517062285Z,stop,351195485,58336948,186,46622000,7,158680000,The additional contribution from all man-made sources of radiation is much smaller .,['HEALTH_EFFECTS'],1,['HEALTH_EFFECTS']
+"WEAPONS 
+",gemma2:27b,2024-09-11T15:16:43.869070381Z,stop,305403687,55631227,222,74996000,6,130632000,"January 24 , 2008 : "" Sensitive nuclear technology such as uranium enrichment and spent nuclear fuel reprocessing are ostensibly employed to create fuel in power reactors , they may be easily adjusted or redirected to produce weapons-grade fissile material .",['WEAPONS'],1,['WEAPONS']
+"WASTE 
+COSTS 
+RELIABILITY 
+",gemma2:27b,2024-09-11T15:16:44.385662004Z,stop,469984984,54778934,202,58283000,13,311731000,Some of the lifetime use will be lower than other kinds of reactors but for example replacing the container every seven years is not too expensive and solves the problem .,['COSTS'],3,"['COSTS', 'WASTE', 'RELIABILITY']"
+"RELIABILITY, ACCIDENTS/SECURITY 
+
+**Explanation:**
+
+* **RELIABILITY:** The sentence highlights the long and successful operational history of nuclear reactors on US Navy ships, pointing to their reliability.
+* **ACCIDENTS/SECURITY:**  The mention of ""safely operating"" implies an acknowledgment of potential security concerns associated with nuclear technology, which are being mitigated. 
+
+
+",gemma2:27b,2024-09-11T15:16:46.616823049Z,stop,2185169110,59143439,192,51399000,79,2029938000,The U.S. Navy has been safely operating nuclear reactors on ships for over 50 years .,['ACCIDENTS/SECURITY'],2,"['ACCIDENTS/SECURITY', 'RELIABILITY']"
+"ENERGY_POLICY, RENEWABLES 
+",gemma2:27b,2024-09-11T15:16:47.138966352Z,stop,435295798,57199478,194,52330000,10,236486000,This will help countries reach those targets and move towards a cleaner and more efficient energy future ( 10 ) .,"['RELIABILITY', 'ENVIRONMENTAL_IMPACT']",2,"['RENEWABLES', 'ENERGY_POLICY']"
+"TECHNOLOGICAL_INNOVATION, WASTE 
+
+**Explanation:**
+
+* **TECHNOLOGICAL_INNOVATION:** The sentence discusses reprocessing nuclear waste and using it as fuel in a different type of reactor (LFTR). This implies a technological solution for handling nuclear waste.
+* **WASTE:**  The core topic revolves around managing and repurposing LWR (Light Water Reactor) waste, making ""Waste"" a relevant code. 
+
+
+",gemma2:27b,2024-09-11T15:16:49.601650718Z,stop,2417528832,58645925,194,50237000,88,2264061000,Reprocessing LWR waste to use it as LFTR fuel has been mentioned by several of the scientists .,['WASTE'],2,"['WASTE', 'TECHNOLOGICAL_INNOVATION']"
+"ACCIDENTS/SECURITY 
+",gemma2:27b,2024-09-11T15:16:50.048746311Z,stop,357001666,53476830,199,56954000,7,157719000,"... No accidents of any kind have ever marred these dockings , no leaks have cleared blocks of cities ; no emergencies have been declared . """,['ACCIDENTS/SECURITY'],1,['ACCIDENTS/SECURITY']
+"PUBLIC_DEBATE 
+",gemma2:27b,2024-09-11T15:16:50.394715169Z,stop,299123921,56436838,181,41103000,7,158368000,The cons are just the standard greenpeace lies .,['PUBLIC_DEBATE'],1,['PUBLIC_DEBATE']
+"ENERGY_POLICY, WEAPONS 
+",gemma2:27b,2024-09-11T15:16:50.825472765Z,stop,386153257,57040542,196,50844000,10,235400000,If the world adopts nuclear power as a major source of energy there will be uranium wars just as there are now oil wars .,"['ENERGY_POLICY', 'FOSSIL_FUELS']",2,"['ENERGY_POLICY', 'WEAPONS']"
+"TECHNOLOGICAL_INNOVATION, ENVIRONMENTAL_IMPACT 
+
+
+Let's break down why:
+
+* **TECHNOLOGICAL_INNOVATION:** The sentence explicitly mentions ""the latest generation"" implying advancements in nuclear reactor technology.
+* **ENVIRONMENTAL_IMPACT:**  The phrase ""comparable emissions"" directly relates to the environmental consequences of nuclear energy production. 
+",gemma2:27b,2024-09-11T15:16:52.839626576Z,stop,1968063832,57401353,189,46603000,71,1821429000,"The latest generation of nuclear reactors have improved capacities and generating capabilities , but with comparable emissions .","['ENVIRONMENTAL_IMPACT', 'TECHNOLOGICAL_INNOVATION']",2,"['ENVIRONMENTAL_IMPACT', 'TECHNOLOGICAL_INNOVATION']"
+"ACCIDENTS/SECURITY, ENVIRONMENTAL_IMPACT 
+
+**Explanation:**
+
+* **ACCIDENTS/SECURITY:** The sentence expresses doubt about the safety of Nuclear Power Plants (NPPs).
+* **ENVIRONMENTAL_IMPACT:**  The phrase ""environmentally harmless"" directly relates to concerns about the environmental impact of nuclear energy. 
+
+
+",gemma2:27b,2024-09-11T15:16:54.813247013Z,stop,1885570691,55093602,198,51107000,66,1691029000,"The the WHO , UN , etc. , ca n’t be trusted in their belief that NPPs are safe and environmentally harmless .","['ENVIRONMENTAL_IMPACT', 'ACCIDENTS/SECURITY']",2,"['ENVIRONMENTAL_IMPACT', 'ACCIDENTS/SECURITY']"
+"WASTE, HEALTH_EFFECTS 
+",gemma2:27b,2024-09-11T15:16:55.221003126Z,stop,361172545,56850837,191,51789000,9,209703000,"It produces enormous amounts of carcinogenic toxic radioactive waste , some of which is dangerous for thousands of years .",['WASTE'],2,"['HEALTH_EFFECTS', 'WASTE']"
+"COSTS 
+",gemma2:27b,2024-09-11T15:16:55.517422825Z,stop,249825640,55764710,189,44793000,5,105291000,It would also be cheap for our country because we have a third of the worlds uranium .,['COSTS'],1,['COSTS']
+"RENEWABLES 
+COSTS 
+",gemma2:27b,2024-09-11T15:16:55.958873012Z,stop,395553355,54559269,211,61957000,10,233556000,The intermittency of renewable energy and unavailability of energy storage means that the installed capacity of renewable sources has to be considerably higher than the desired output ( by a factor of three or more ) .,['RENEWABLES'],2,"['COSTS', 'RENEWABLES']"
+"WEAPONS 
+PUBLIC_DEBATE 
+",gemma2:27b,2024-09-11T15:16:56.447598856Z,stop,444045154,55183854,200,58020000,12,286175000,"Thus some scientists can work on weapons of mass destruction because the political decisions regarding these weapons are made at a distance , in an apparently legitimate forum .","['WEAPONS', 'ENERGY_POLICY']",2,"['WEAPONS', 'PUBLIC_DEBATE']"
+"FOSSIL_FUELS 
+
+
+",gemma2:27b,2024-09-11T15:16:56.856921712Z,stop,361567615,55258787,192,51567000,9,210037000,"Halt any investment in fossil fuel infrastructure , including natural gas , and phase out all fossil fuel power plants .",['FOSSIL_FUELS'],1,['FOSSIL_FUELS']
+"RELIABILITY 
+ENERGY_POLICY 
+
+
+Let me explain why:
+
+* **RELIABILITY:** The text states that nuclear energy acts as a ""backup power source for solar power"" on cloudy days. This directly addresses the reliability of nuclear energy as a consistent power source.
+* **ENERGY_POLICY:**  The phrase ""that's why I want nuclear power plants in Australia"" indicates a stance on energy policy and the desire to implement nuclear power within the country's energy framework. 
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-11T15:17:00.26059062Z,stop,3357098359,56575332,225,74274000,123,3182248000,"Secondly , nuclear energy is a backup power source for solar power if it is a cloudy day this would be a backup power source.Thirdly , Australia is a stable country so we will rarely have natural disaster and that 's why I want nuclear power plants in Australia .","['RENEWABLES', 'ACCIDENTS/SECURITY']",2,"['ENERGY_POLICY', 'RELIABILITY']"
+"HEALTH_EFFECTS, ACCIDENTS/SECURITY 
+",gemma2:27b,2024-09-11T15:17:00.76675549Z,stop,458678548,56763986,221,73329000,12,286050000,"Compare that to the 4,000 people the World Health Organization estimates were victimized by the Chernobyl nuclear disaster ( and that number includes those born with genetic mutations following the meltdown ) , and nuclear seems like much less of a health risk .","['HEALTH_EFFECTS', 'ACCIDENTS/SECURITY']",2,"['HEALTH_EFFECTS', 'ACCIDENTS/SECURITY']"
+"WASTE 
+",gemma2:27b,2024-09-11T15:17:01.038738689Z,stop,223546201,56888610,179,42233000,4,80871000,Nuclear waste radioactivity dissipates over time .,['WASTE'],1,['WASTE']
+"ACCIDENTS/SECURITY 
+",gemma2:27b,2024-09-11T15:17:01.384344016Z,stop,301242186,55281887,181,42704000,7,158094000,Periodic inspections also ensure that each facility operates safely .,['ACCIDENTS/SECURITY'],1,['ACCIDENTS/SECURITY']
+"ENVIRONMENTAL_IMPACT 
+",gemma2:27b,2024-09-11T15:17:01.713465293Z,stop,281170761,53764568,197,50153000,6,131127000,Nuclear energy is highly efficient The efficient use of natural resources is a major criteria in determining the environmental friendliness of a source of energy .,"['RELIABILITY', 'ENVIRONMENTAL_IMPACT']",1,['ENVIRONMENTAL_IMPACT']
+"ENERGY_POLICY, COSTS 
+",gemma2:27b,2024-09-11T15:17:02.095116683Z,stop,335594826,57428024,194,51824000,8,184202000,"In sum , there is a case for government intervention to improve the economic competitiveness of nuclear plants and avoid early closures .",['ENERGY_POLICY'],2,"['COSTS', 'ENERGY_POLICY']"
+"RENEWABLES, RELIABILITY 
+",gemma2:27b,2024-09-11T15:17:02.531405393Z,stop,391906519,58754018,196,52237000,10,235737000,"[ ... ] Renewable energy , on the other hand , is the cleanest , safest and most reliable form of power generation . """,['RENEWABLES'],2,"['RENEWABLES', 'RELIABILITY']"
+"COSTS, ENERGY_POLICY, RENEWABLES 
+",gemma2:27b,2024-09-11T15:17:03.036810574Z,stop,461433379,55036720,190,47190000,13,314253000,"By investing so much money into building power plants , efforts to build sustainable energy supplies are deterred .",['RENEWABLES'],3,"['COSTS', 'RENEWABLES', 'ENERGY_POLICY']"
+"HEALTH_EFFECTS, ACCIDENTS/SECURITY 
+",gemma2:27b,2024-09-11T15:17:03.557136664Z,stop,473576496,57658169,238,82606000,12,286600000,"The total figures for deaths found by UNSCEAR and other international medical investigatory organizations was around 60 , which included 15 deaths over the ensuing years from thyroid cancer among those residents exposed as children and a number of delayed deaths among clean-up workers whose causes of death could in any way be related to radiation exposure .",['HEALTH_EFFECTS'],2,"['HEALTH_EFFECTS', 'ACCIDENTS/SECURITY']"
+"TECHNOLOGICAL_INNOVATION, COSTS, RELIABILITY 
+",gemma2:27b,2024-09-11T15:17:04.186511887Z,stop,538966220,55941276,206,58246000,14,338063000,"If we reduced safety standards to those applied to wind and PV , a nuclear power plant could easily be build in the same time needed to build a conventional coal or gas plant .","['COSTS', 'RENEWABLES', 'ACCIDENTS/SECURITY', 'FOSSIL_FUELS']",3,"['COSTS', 'TECHNOLOGICAL_INNOVATION', 'RELIABILITY']"
+"ACCIDENTS/SECURITY, TECHNOLOGICAL_INNOVATION, WASTE 
+",gemma2:27b,2024-09-11T15:17:04.794647395Z,stop,603372174,57449635,254,93454000,15,365323000,"Actually , the best form of nuclear power may be Liquid Flouride Thorium Reactors ( LFTR ’s ) which can dramatically lower the risks of nuclear power , and which are much more efficient in using a Thorium/Uranium233 fuel cycle to produce energy ( compared to use of a fuel cycle based on Uranium235/Plutonium , as found in existing nuclear plants ) .",['TECHNOLOGICAL_INNOVATION'],3,"['WASTE', 'TECHNOLOGICAL_INNOVATION', 'ACCIDENTS/SECURITY']"
+"ACCIDENTS/SECURITY, WASTE, ENVIRONMENTAL_IMPACT 
+",gemma2:27b,2024-09-11T15:17:05.308993368Z,stop,469641103,54047034,196,52177000,13,313682000,A sever accident with a salt cooled reactor would provide a perfect water born path to spread contamination from the long half life products .,"['ENVIRONMENTAL_IMPACT', 'ACCIDENTS/SECURITY']",3,"['WASTE', 'ENVIRONMENTAL_IMPACT', 'ACCIDENTS/SECURITY']"
+"ACCIDENTS/SECURITY 
+",gemma2:27b,2024-09-11T15:17:05.667524562Z,stop,311094844,56599782,193,50411000,7,157466000,If a large plane were flown into a nuclear power station the disaster would be immeasurably worse than Chernobyl .,['ACCIDENTS/SECURITY'],1,['ACCIDENTS/SECURITY']
+"RENEWABLES, ENVIRONMENTAL_IMPACT 
+
+
+Let me explain my reasoning:
+
+* **RENEWABLES:** The sentence contrasts ""nuclear"" with ""true renewables"", clearly positioning renewable energy sources as an alternative.
+* **ENVIRONMENTAL_IMPACT:** The mention of melting glaciers and polar ice caps directly relates to the environmental consequences of climate change, a key concern in debates surrounding nuclear energy's impact. 
+",gemma2:27b,2024-09-11T15:17:08.019376452Z,stop,2303338689,59274421,210,61519000,83,2138628000,"In sum , if we invest in nuclear versus true renewables , you can bet that the glaciers and polar ice caps will keep melting while we wait , and wait , for the nuclear age to arrive .","['ENVIRONMENTAL_IMPACT', 'RENEWABLES']",2,"['RENEWABLES', 'ENVIRONMENTAL_IMPACT']"
+"ENERGY_POLICY, ENVIRONMENTAL_IMPACT 
+",gemma2:27b,2024-09-11T15:17:08.536235162Z,stop,428814205,55888253,192,50134000,10,234923000,To the editor : Bryce wants us to build new nuclear power plants as a partial solution to global warming .,['ENVIRONMENTAL_IMPACT'],2,"['ENERGY_POLICY', 'ENVIRONMENTAL_IMPACT']"
+"COSTS, FOSSIL_FUELS 
+",gemma2:27b,2024-09-11T15:17:09.017527869Z,stop,477747514,55685637,197,48660000,12,285167000,"Natural gas , a fossil fuel , is too expensive already , and its price is too volatile to risk building big baseload plants .",['FOSSIL_FUELS'],2,"['COSTS', 'FOSSIL_FUELS']"
+"FOSSIL_FUELS 
+ENERGY_POLICY
+RENEWABLES 
+
+
+Let's break down why:
+
+* **FOSSIL_FUELS:** The sentence explicitly mentions ""dirty coal"" which is a type of fossil fuel. This indicates the argument is positioning nuclear energy as an alternative to fossil fuels.
+* **ENERGY_POLICY:**  The phrase ""nuclear energy is the primary alternative..."" suggests a discussion about energy choices and policy decisions, making ENERGY_POLICY relevant. 
+* **RENEWABLES:** While not directly stated, the implication that nuclear energy is a *primary* alternative points towards a comparison with other energy sources like renewables.  
+
+
+",gemma2:27b,2024-09-11T15:17:12.743309967Z,stop,3675721978,45806589,183,42957000,137,3540463000,Nuclear energy is the primary alternative to dirty coal Patrick Moore .,['FOSSIL_FUELS'],3,"['RENEWABLES', 'FOSSIL_FUELS', 'ENERGY_POLICY']"
+"WASTE, ENVIRONMENTAL_IMPACT 
+",gemma2:27b,2024-09-11T15:17:13.132903934Z,stop,341235112,56360936,206,59203000,8,182290000,"Numerous unresolved problems remain with the geologic and hydrologic suitability of the proposed site , and serious questions have been raised about its ability to contain highly radioactive waste for the time required . """,['WASTE'],2,"['WASTE', 'ENVIRONMENTAL_IMPACT']"
+"WEAPONS, ENERGY_POLICY 
+",gemma2:27b,2024-09-11T15:17:13.56790289Z,stop,388440257,57327311,195,52375000,10,236103000,The two industries have been linked since the very beginning and a nuclear weapons free world requires a non-nuclear energy policy .,['WEAPONS'],2,"['ENERGY_POLICY', 'WEAPONS']"
+"**ENERGY_POLICY, RENEWABLES, ENVIRONMENTAL_IMPACT**  
+
+**Explanation:**
+
+* **ENERGY_POLICY:** The sentence discusses the timeline for bringing nuclear power plants online, implying a discussion about energy policy decisions.
+* **RENEWABLES:** The comparison to preventing ""rapid climate change disaster"" suggests a consideration of alternative energy sources, likely including renewables.
+* **ENVIRONMENTAL_IMPACT:**  The phrase ""prevent the rapid climate change disaster"" directly references the environmental impact of not addressing climate change. 
+
+
+",gemma2:27b,2024-09-11T15:17:16.521273215Z,stop,2905804422,58031859,213,61898000,106,2739112000,Nuclear power plants can not be brought on line fast enough to prevent the rapid climate change disaster coming in less than 10 years ( See Shootout : Do We Need To Restrict CO2 Emissions ? ),['ENVIRONMENTAL_IMPACT'],3,"['RENEWABLES', 'ENERGY_POLICY', 'ENVIRONMENTAL_IMPACT']"
+"ENVIRONMENTAL_IMPACT, FOSSIL_FUELS 
+",gemma2:27b,2024-09-11T15:17:17.126067022Z,stop,514370371,55938664,206,59425000,13,312493000,His figures show that nuclear energy is the only source that can challenge the climate-changing and environment-destroying fossil fuels for supremacy in providing the world ’s energy needs .,"['RELIABILITY', 'ENVIRONMENTAL_IMPACT', 'FOSSIL_FUELS']",2,"['FOSSIL_FUELS', 'ENVIRONMENTAL_IMPACT']"
+"COSTS 
+",gemma2:27b,2024-09-11T15:17:17.434890256Z,stop,303784321,55219395,194,52729000,5,106247000,"So the reactor may be cheap , but we just do n’t know how much the reprocessing will cost .",['COSTS'],1,['COSTS']
+"ACCIDENTS/SECURITY 
+",gemma2:27b,2024-09-11T15:17:17.786436228Z,stop,306775859,56025256,192,49861000,7,157299000,"And although the reactor itself was crippled , there was no injury or death among nuclear workers or nearby residents .",['HEALTH_EFFECTS'],1,['ACCIDENTS/SECURITY']
+"ENERGY_POLICY 
+RELIABILITY 
+",gemma2:27b,2024-09-11T15:17:18.244736373Z,stop,413089991,55993845,195,51917000,11,261499000,"If the USA would go nuclear it would have to build thousands of nuclear power plants , how can you call that centralized ?",['ENERGY_POLICY'],2,"['ENERGY_POLICY', 'RELIABILITY']"
+"ENVIRONMENTAL_IMPACT, WASTE, ACCIDENTS/SECURITY 
+",gemma2:27b,2024-09-11T15:17:18.754465055Z,stop,462900065,50435129,199,55542000,13,311616000,"These abandoned reactors are taking up valuable land space , could be contaminating the areas surrounding them , yet are often too unstable to be removed .",['ENVIRONMENTAL_IMPACT'],3,"['WASTE', 'ENVIRONMENTAL_IMPACT', 'ACCIDENTS/SECURITY']"
+"ENERGY_POLICY, FOSSIL_FUELS, RENEWABLES 
+",gemma2:27b,2024-09-11T15:17:19.374616245Z,stop,573364845,61973052,196,50407000,17,416783000,"Nuclear energy distracts governments from taking the real global action necessary to tackle climate change and meet people ’s energy needs . """,['RELIABILITY'],3,"['RENEWABLES', 'FOSSIL_FUELS', 'ENERGY_POLICY']"
+"Here's the coding for the provided text:
+
+* **ENVIRONMENTAL_IMPACT:** The sentence highlights the role of nuclear energy in ""curbing heat-trapping emissions,"" directly linking it to environmental concerns.
+* **ENERGY_POLICY:**  The mention of states providing ""financial support"" to struggling reactors indicates a governmental policy decision regarding energy production. 
+* **RELIABILITY:** Implicitly, supporting ""financially struggling, aging reactors"" suggests an argument for the continued reliability of nuclear power despite challenges.
+
+
+Let me know if you have any other text passages you'd like coded!",gemma2:27b,2024-09-11T15:17:22.853900639Z,stop,3390168682,56491578,238,82529000,122,3165250000,"Maria Korsnick , the new head of the Nuclear Energy Institute , told skeptical Wall Street analysts in New York today that supporting financially struggling , aging reactors is critical to curbing heat-trapping emissions , and that states like Illinois , New York and now Connecticut are stepping up with financial support ( Energywire , Feb. 9 ) .",['ENERGY_POLICY'],3,"['ENERGY_POLICY', 'ENVIRONMENTAL_IMPACT', 'RELIABILITY']"
+"ENVIRONMENTAL_IMPACT 
+",gemma2:27b,2024-09-11T15:17:23.174787067Z,stop,270863389,50167163,184,44178000,6,131220000,Low Pollution : Nuclear power also has a lot fewer greenhouse emissions .,['ENVIRONMENTAL_IMPACT'],1,['ENVIRONMENTAL_IMPACT']
+"ACCIDENTS/SECURITY 
+WEAPONS 
+",gemma2:27b,2024-09-11T15:17:23.662854039Z,stop,443656740,60906974,192,51025000,12,288487000,"A terrorist strike on a nuclear facility could be devastating "" Nuclear ’s Fatal Flaws : Security "" .",['ACCIDENTS/SECURITY'],2,"['WEAPONS', 'ACCIDENTS/SECURITY']"
+"HEALTH_EFFECTS 
+ENVIRONMENTAL_IMPACT 
+",gemma2:27b,2024-09-11T15:17:24.139780609Z,stop,431578445,54667031,189,45336000,12,286579000,Children are especially vulnerable and can not be shielded from cancer-causing radiation in the environment .,['HEALTH_EFFECTS'],2,"['HEALTH_EFFECTS', 'ENVIRONMENTAL_IMPACT']"
+"HEALTH_EFFECTS 
+",gemma2:27b,2024-09-11T15:17:24.493064274Z,stop,305658648,55768819,187,46810000,7,158677000,"Uranium miners experience higher rates of lung cancer , tuberculosis and other respiratory diseases .",['HEALTH_EFFECTS'],1,['HEALTH_EFFECTS']
+"WEAPONS, PUBLIC_DEBATE 
+
+**Explanation:**
+
+* **WEAPONS:** The sentence highlights the potential of nuclear power plants as targets for terrorists, directly relating to the concern of nuclear weapons and their misuse.
+* **PUBLIC_DEBATE:** The mention of Barrie Machin's pamphlet ""Accomplices to Armageddon"" indicates a contribution to the ongoing public discourse surrounding nuclear energy, its dangers, and political implications. 
+
+
+",gemma2:27b,2024-09-11T15:17:27.087750446Z,stop,2548309087,58125140,218,72934000,92,2370383000,"Barrie Machin , as coordinator , first drew attention to the dangers of Nuclear Power stations as target for terrorists , and the dangers of a link with the foreign policies of the US in a pamphlet titled : Accomplices to Armageddon .",['ACCIDENTS/SECURITY'],2,"['WEAPONS', 'PUBLIC_DEBATE']"
+"**ENVIRONMENTAL_IMPACT** 
+
+**ENERGY_POLICY**  
+
+
+**Explanation:**
+
+* **ENVIRONMENTAL_IMPACT:** The text discusses climate change and greenhouse gas emissions, which are direct consequences of energy production and thus fall under the category of environmental impact.
+* **ENERGY_POLICY:** The reference to the Obama administration's focus on nuclear energy, the Clean Power Plan, and DOE studies on plant closures clearly indicates a discussion about energy policy decisions and regulations. 
+",gemma2:27b,2024-09-11T15:17:29.86487284Z,stop,2689276146,55371169,218,73015000,96,2472616000,"Climate change was a key focus for the nuclear industry under the Obama administration , including treatment under U.S. EPA 's Clean Power Plan and ongoing studies at DOE on how plant closures would affect U.S. greenhouse gas emissions .",['ENVIRONMENTAL_IMPACT'],2,"['ENERGY_POLICY', 'ENVIRONMENTAL_IMPACT']"
+"WEAPONS 
+",gemma2:27b,2024-09-11T15:17:30.216273187Z,stop,345906843,55200474,216,70969000,6,130375000,"Former US Vice-President Al Gore said ( 18/9/06 ) : "" During my eight years in the White House , every nuclear weapons proliferation issue we dealt with was connected to a nuclear reactor program .",['WEAPONS'],1,['WEAPONS']

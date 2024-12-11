@@ -1,0 +1,1542 @@
+response,model,created_at,done_reason,total_duration,load_duration,prompt_eval_count,prompt_eval_duration,eval_count,eval_duration,input_text,gold_label,label_count,mentioned_labels
+"After carefully reviewing the sentence, I would assign the following codes:
+
+CHILD_AND_TEEN_SAFETY (because the text mentions ""three young children"")
+
+This code is relevant because the safety and well-being of children are a key concern in debates about marijuana legalization. The mention of Pace's children suggests that their safety may be at risk if marijuana use increases in the community, which aligns with the CHILD_AND_TEEN_SAFETY label.
+
+No other labels from the codebook appear to apply to this sentence.",llama3.1:8b-instruct-fp16,2024-09-11T11:55:05.898122427Z,stop,6661292894,4342376184,206,47972000,103,2226569000,"But Pace , the father of three young children , dismissed the idea that the cannabis industry had fundamentally changed the feel of the community .",['COMMUNITY/SOCIATAL_EFFECTS'],1,['CHILD_AND_TEEN_SAFETY']
+"Based on the provided codebook and example sentence, I would assign the following codes:
+
+* LEGAL_DRUGS
+* DRUG_POLICY
+
+These two labels are relevant because the sentence is arguing that marijuana should be treated similarly to alcohol, which implies a shift in legal status. The mention of ""prohibition"" also suggests a discussion about drug policy.",llama3.1:8b-instruct-fp16,2024-09-11T11:55:07.683251617Z,stop,1695415421,29855023,200,28208000,72,1547858000,“ Marijuana prohibition makes no more sense than alcohol prohibition did in the early 1900s . ”,['LEGAL_DRUGS'],2,"['DRUG_POLICY', 'LEGAL_DRUGS']"
+"Based on the provided text, I would assign the following labels:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS
+* HARM
+
+These two labels apply because the text mentions specific negative health effects (increased heart rate, arrhythmia, heart palpitations, and heart attack) that can result from marijuana use.",llama3.1:8b-instruct-fp16,2024-09-11T11:55:09.293780981Z,stop,1606508663,70350925,227,27915000,66,1418945000,"Marijuana use raises the heart rate from 20 to 100 percent for up to three hours after it has been smoked , increasing the risk of getting other health problems , such as arrhythmia , heart palpitations and heart attack .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],2,"['HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"After carefully reading the text, I have assigned the following labels:
+
+* LEGAL_DRUGS
+* DRUG_POLICY
+* COMMUNITY/SOCIATAL_EFFECTS
+* PERSONAL_FREEDOM
+
+Here's my reasoning:
+
+* The text mentions decriminalization or re-legalization of certain drugs, which suggests a change in their legal status to become ""legal drugs"" (LEGAL_DRUGS).
+* The discussion of regulations and restrictions on advertising, age limitations, etc. implies that the government would play a role in shaping drug policy (DRUG_POLICY).
+* The text also hints at potential community or societal effects of regulating access to certain substances, such as preventing sales to intoxicated persons (COMMUNITY/SOCIATAL_EFFECTS).
+* Finally, the emphasis on restrictions and regulations suggests that individual freedoms might be curtailed to some extent, which aligns with the PERSONAL_FREEDOM label.
+
+No other labels from the codebook seem directly applicable to this text.",llama3.1:8b-instruct-fp16,2024-09-11T11:55:13.831082018Z,stop,4447308999,77851804,245,31745000,197,4293194000,"Decriminalization or re-legalization would mean that certain drugs would be legally available , but regulated by the government which would mean restrictions on advertising , age limitations , restrictions on the amount purchased at one time , requirements on the form in which certain drugs would be supplied and maybe a ban on sales to intoxicated persons , etc .",['DRUG_POLICY'],4,"['DRUG_POLICY', 'LEGAL_DRUGS', 'PERSONAL_FREEDOM', 'COMMUNITY/SOCIATAL_EFFECTS']"
+"Based on the provided markdown codebook, I would assign the following labels to the given sentence:
+
+* GATEWAY_DRUG
+* HARM (implied harm caused by marijuana leading individuals into a life of crime)
+* ILLEGAL_TRADE (marijuana is often associated with illicit trade)
+
+These labels capture the core argument presented in the sentence, which is that marijuana acts as a gateway drug for criminals.",llama3.1:8b-instruct-fp16,2024-09-11T11:55:15.842121609Z,stop,1962129310,77643899,195,27103000,84,1810692000,They also know that marijuana is the starter drug of choice for most criminals .,['GATEWAY_DRUG'],3,"['HARM', 'ILLEGAL_TRADE', 'GATEWAY_DRUG']"
+"Based on the provided instructions, I will assign the relevant labels from the codebook to the given text. Here are my assignments:
+
+* DRUG_POLICY: The text mentions changes in ""drug policy"", which indicates this label applies.
+* HARM: The text describes marijuana as a ""harmful drug"", which aligns with this label.
+
+I did not assign any other labels because they do not seem to apply directly to the given text. For example, there is no mention of personal freedom or health/psychological effects that would suggest these labels are relevant.",llama3.1:8b-instruct-fp16,2024-09-11T11:55:18.5518849Z,stop,2620056750,32306257,221,28886000,114,2471800000,"This may require changes in drug policy , and perhaps in sentencing guidelines for marijuana users charged with simple possession , but simply legalizing a harmful drug — that is , giving up — is not a responsible option .","['DRUG_POLICY', 'HARM']",2,"['DRUG_POLICY', 'HARM']"
+"Here is the coded data for the example sentence:
+
+* LEGAL_DRUGS
+* HEALTH/PSYCHOLOGICAL_EFFECTS
+* COMMUNITY/SOCIAL_EFFECTS
+* DRUG_POLICY 
+
+I assigned these labels because the text mentions health effects, societal impact, and law-and-order issues as reasons to legalize marijuana. It also mentions legalization on a national level, which relates to drug policy.",llama3.1:8b-instruct-fp16,2024-09-11T11:55:20.545390621Z,stop,1988573859,76799249,223,28646000,83,1793761000,"But neither are there such answers about tobacco or alcohol , and we believe that on every level — health effects , the impact on society and law-and-order issues — the balance falls squarely on the side of national legalization .",['LEGAL_DRUGS'],3,"['DRUG_POLICY', 'LEGAL_DRUGS', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"After analyzing the provided sentence, I would assign the following labels:
+
+* PERSONAL_FREEDOM: This label applies because the text suggests that the passage of legalization could create a ""new class of protected California citizens"", implying concerns about individual rights and freedoms.
+
+Note that no other labels appear to be directly relevant or applicable based on this specific sentence. The arguments presented in the sentence do not explicitly mention the potential benefits (e.g., MEDICAL_MARIJUANA) or risks (e.g., HEALTH/PSYCHOLOGICAL_EFFECTS, ADDICTION, DRUG_ABUSE, HARM, GATEWAY_DRUG, CHILD_AND_TEEN_SAFETY) associated with marijuana legalization. Similarly, no mention is made of national budget implications (NATIONAL_BUDGET), illegal trade concerns (ILLEGAL_TRADE), or community/social impacts (COMMUNITY/SOCIAL_EFFECTS).",llama3.1:8b-instruct-fp16,2024-09-11T11:55:24.730870685Z,stop,4090894123,73671674,221,28564000,181,3944152000,"The California Chamber of Commerce has also expressed its opposition to the legalization of marijuana , citing that drug users will not be able to perform at work and that passage could create a new class of protected California citizens .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],10,"['DRUG_ABUSE', 'CHILD_AND_TEEN_SAFETY', 'HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION', 'MEDICAL_MARIJUANA', 'ILLEGAL_TRADE', 'GATEWAY_DRUG', 'PERSONAL_FREEDOM', 'NATIONAL_BUDGET']"
+"Based on the provided markdown codebook, I would assign the following labels to the given sentence:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS
+* ADDICTION (Note: While not explicitly mentioned, the implication is that cannabis use can lead to negative health effects, which could be related to addiction. However, in this case, it's more directly related to psychological effects.)
+ 
+The label HARM could also apply here as well, however I only included HEALTH/PSYCHOLOGICAL_EFFECTS and ADDICTION since they are the most specific labels in this context.",llama3.1:8b-instruct-fp16,2024-09-11T11:55:27.486098069Z,stop,2706552996,74062799,201,28369000,118,2558426000,A recent survey of all the medical literature concluded that regular use of cannabis actually doubled your risk of psychosis .,['HEALTH/PSYCHOLOGICAL_EFFECTS'],3,"['HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION']"
+"Based on the provided markdown codebook, I would assign the following label(s) to the given text:
+
+NATIONAL_BUDGET
+
+This label applies because the text mentions ""tax revenue"", which relates to national budget and financial considerations. The argument presented by Ducey is about the costs vs. tax revenue of marijuana legalization, which falls under the category of national budget.
+
+There are no other applicable labels in this case, as there is no mention of health/psychological effects, harm, medical marijuana, gateway drug, child and teen safety, addiction, drug abuse, personal freedom, illegal trade, community/social impacts, or drug policy.",llama3.1:8b-instruct-fp16,2024-09-11T11:55:30.543146339Z,stop,2967736988,31330407,209,28412000,130,2820499000,"Ducey 's argument that the costs "" will far , far outweigh any tax revenue "" is a guess , according to the JLBC .",['NATIONAL_BUDGET'],1,['NATIONAL_BUDGET']
+"After analyzing the text, I assign the following labels:
+
+* HARM (as the text mentions increased violent crime, including assaults, child abuse, and domestic violence)
+* COMMUNITY/SOCIAL_EFFECTS (as the text highlights the negative impact on community safety)
+* DRUG_ABUSE (as the text implies that drug use will increase with legalization)
+
+No other labels from the codebook appear to apply to this text.",llama3.1:8b-instruct-fp16,2024-09-11T11:55:32.596480644Z,stop,2048529857,73661232,209,28447000,86,1856348000,"If drug use increases with legalization , so will such forms of related violent crime as assaults , drugged driving , child abuse , and domestic violence .","['COMMUNITY/SOCIATAL_EFFECTS', 'DRUG_ABUSE', 'CHILD_AND_TEEN_SAFETY']",2,"['DRUG_ABUSE', 'HARM']"
+"Based on the provided text, I would assign the following labels:
+
+* GATEWAY_DRUG: This label applies as the text explicitly mentions ""gateway substance"" which implies that marijuana being a gateway to other substances.
+
+I do not see any other labels that apply in this context.",llama3.1:8b-instruct-fp16,2024-09-11T11:55:34.016342607Z,stop,1372540615,73771614,217,27863000,57,1225388000,"And when I 'm saying that , I 'm talking about big peer reviewed studies done by reputable places that have shown us , without a doubt , that it is a gateway substance .",['GATEWAY_DRUG'],1,['GATEWAY_DRUG']
+"Based on the provided codebook, I would assign the following label(s) to the given text:
+
+* HARM
+* ILLEGAL_TRADE
+* DRUG_POLICY 
+
+These labels seem most applicable as the text discusses negative consequences related to drug enforcement, which is a policy related to the illegal trade of drugs.",llama3.1:8b-instruct-fp16,2024-09-11T11:55:35.588206533Z,stop,1524362084,73793924,202,28674000,64,1376084000,"The United Nations Office of Drugs and Crime has also acknowledged the many "" unintended negative consequences "" of drug enforcement .",['COMMUNITY/SOCIATAL_EFFECTS'],3,"['DRUG_POLICY', 'HARM', 'ILLEGAL_TRADE']"
+"Here are the assigned codes for the given text:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS
+* CHILD_AND_TEEN_SAFETY
+* NATIONAL_BUDGET (implied, as the text mentions Colorado and no increase in crime suggests potential savings)
+
+These labels apply because the text discusses the effects of marijuana legalization on youth use (CHILD_AND_TEEN_SAFETY), as well as any potential health or psychological effects (HEALTH/PSYCHOLOGICAL_EFFECTS). The mention of retail passage and lack of increase in criminal activity also implies a discussion about potential budgetary impacts (NATIONAL_BUDGET)",llama3.1:8b-instruct-fp16,2024-09-11T11:55:38.582567499Z,stop,2907099177,30010376,226,28660000,127,2759735000,""" We have not seen any statistical increase in marijuana use in Colorado since retail passage , we have not seen an increase in youth use since passage , we have not seen an increase in criminal activity since its passage , "" he said .","['COMMUNITY/SOCIATAL_EFFECTS', 'CHILD_AND_TEEN_SAFETY']",3,"['CHILD_AND_TEEN_SAFETY', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'NATIONAL_BUDGET']"
+"Based on the provided markdown codebook, I would assign the following codes to the given text:
+
+* HARM (due to the mention of homicides and being under the influence of drugs)
+* DRUG_ABUSE (as it implies that people's behavior is influenced by drug use)
+
+Note: I did not include GATEWAY_DRUG as it is a label related to the idea that marijuana leads to harder drug use, which is not explicitly mentioned in the text. Similarly, I did not include CHILD_AND_TEEN_SAFETY as there is no specific mention of children or teenagers being affected by the issue at hand.",llama3.1:8b-instruct-fp16,2024-09-11T11:55:41.484237783Z,stop,2896844296,70236415,207,27307000,125,2710029000,"Six times as many homicides are committed by people under the influence of drugs , as by those who are looking for money to buy drugs .",['COMMUNITY/SOCIATAL_EFFECTS'],4,"['DRUG_ABUSE', 'CHILD_AND_TEEN_SAFETY', 'HARM', 'GATEWAY_DRUG']"
+"After analyzing the sentence, I would assign the following labels:
+
+* ADDICTION
+* DRUG_ABUSE
+* ILLEGAL_TRADE (implied by the mention of the addict having to resort to crime)
+* HARM (mentioned in the broader context of ""evils associated with repression"")
+ 
+These labels capture the themes of dependence on a substance, negative consequences of that dependence, and the illicit nature of the trade.",llama3.1:8b-instruct-fp16,2024-09-11T11:55:43.567699513Z,stop,2035796355,77702503,220,27546000,87,1883954000,"Finally , and not the least of the evils associated with repression , the helpless addict has been forced to resort to crime in order to get money for the drug which is absolutely indispensable for his comfortable existence .",['ADDICTION'],4,"['DRUG_ABUSE', 'HARM', 'ADDICTION', 'ILLEGAL_TRADE']"
+"Based on the provided codebook, I would assign the following labels to the given text:
+
+* DRUG_ABUSE
+* CHILD_AND_TEEN_SAFETY",llama3.1:8b-instruct-fp16,2024-09-11T11:55:44.467559703Z,stop,852015491,78083402,204,28334000,33,698897000,2.1 million children in the United States live with at least one parent who was dependent on or abused illicit drugs .,"['ADDICTION', 'DRUG_ABUSE', 'CHILD_AND_TEEN_SAFETY']",2,"['DRUG_ABUSE', 'CHILD_AND_TEEN_SAFETY']"
+"Based on the provided markdown codebook and the example sentence, I would assign the following codes:
+
+MEDICAL_MARIJUANA
+
+This label applies because the sentence mentions that Patsy Rodriguez believes marijuana is medicine, indicating a perspective on its medicinal value. The other labels do not seem to apply directly to this specific argument or statement.
+
+Note: Although PERSONAL_FREEDOM might be vaguely related, as it pertains to individual perspectives and rights, in this context, it's less directly relevant than MEDICAL_MARIJUANA.",llama3.1:8b-instruct-fp16,2024-09-11T11:55:47.051013652Z,stop,2531363224,77973400,199,27133000,110,2379611000,"Again , the argument is for people like Patsy Rodriguez , who believes marijuana is medicine .",['MEDICAL_MARIJUANA'],2,"['MEDICAL_MARIJUANA', 'PERSONAL_FREEDOM']"
+"After analyzing the given text, I have assigned the following codes:
+
+* HARM (referring to the worsening of people's health)
+* CHILD_AND_TEEN_SAFETY (not directly mentioned, but implied as ""public safety"")
+* DRUG_ABUSE (implied as the passage suggests that legalization would lead to an increase in crime)
+* ILLEGAL_TRADE (mentioned as a concern related to increased crime)
+* COMMUNITY/SOCIATAL_EFFECTS (referring to the impact on public safety and potentially the community)
+
+I did not assign codes for LEGAL_DRUGS, NATIONAL_BUDGET, MEDICAL_MARIJUANA, GATEWAY_DRUG, ADDICTION, PERSONAL_FREEDOM, or DRUG_POLICY as they do not directly relate to the text.",llama3.1:8b-instruct-fp16,2024-09-11T11:55:50.816505789Z,stop,3676934067,30037927,219,28468000,162,3528868000,"Of course , opponents of drug legalization argue that passage of the ballot would increase crime and ultimately worsen peoples ' health , rendering legalization a danger to public safety , offsetting the potential economic gains .","['HEALTH/PSYCHOLOGICAL_EFFECTS', 'NATIONAL_BUDGET', 'COMMUNITY/SOCIATAL_EFFECTS']",12,"['DRUG_ABUSE', 'CHILD_AND_TEEN_SAFETY', 'DRUG_POLICY', 'LEGAL_DRUGS', 'HARM', 'ADDICTION', 'MEDICAL_MARIJUANA', 'ILLEGAL_TRADE', 'GATEWAY_DRUG', 'PERSONAL_FREEDOM', 'NATIONAL_BUDGET', 'COMMUNITY/SOCIATAL_EFFECTS']"
+"Based on the provided codebook, I would assign the following labels:
+
+* HARM (referring to the dangers of marijuana to public health and safety)
+* DRUG_ABUSE (referring to the mention of drug abuse at epidemic proportions)
+
+Additionally, I would also consider assigning:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS (as it is related to the harm caused by marijuana to public health)",llama3.1:8b-instruct-fp16,2024-09-11T11:55:52.804664265Z,stop,1982914297,75873253,211,27541000,83,1789956000,"It states that drug abuse in the U.S. is at "" epidemic proportions , and the dangers of marijuana to public health and safety are well documented . ""","['COMMUNITY/SOCIATAL_EFFECTS', 'DRUG_ABUSE']",3,"['DRUG_ABUSE', 'HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"Based on the provided text, I assign the following labels:
+
+* HARM: The text mentions a comparison of ecstasy's danger to other Class A drugs (heroin and crack cocaine), suggesting that harm is being discussed.
+* DRUG_POLICY: The text references an Advisory Council report and mentions the potential reclassification of a drug, indicating a discussion about policy related to controlled substances.
+
+I do not assign any other labels as they are not explicitly mentioned or implied in the text.",llama3.1:8b-instruct-fp16,2024-09-11T11:55:55.125145705Z,stop,2233424455,73917240,241,31738000,96,2083274000,"The Advisory Council on the Misuse of Drugs ( ACMD ) report on ecstasy , based on a 12-month study of 4,000 academic papers , concluded that it is nowhere near as dangerous as other class A drugs such as heroin and crack cocaine , and should be downgraded to class B .",['HARM'],2,"['DRUG_POLICY', 'HARM']"
+"After carefully analyzing the given text, I would assign the following codes:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS
+* ILLEGAL_TRADE (note: this is an assumption that marijuana is still illegal in the context of this statement)
+* PERSONAL_FREEDOM (implied by the comparison to other legal substances)
+
+I did not assign COMMUNITY/SOCIAL_EFFECTS, CHILD_AND_TEEN_SAFETY, MEDICAL_MARIJUANA, NATIONAL_BUDGET, GATEWAY_DRUG, ADDICTION, DRUG_ABUSE, or DRUG_POLICY as they do not directly relate to the content of this specific text.
+
+Let me know if you have any further questions!",llama3.1:8b-instruct-fp16,2024-09-11T11:55:58.418294215Z,stop,3246612890,65946689,213,27596000,143,3106468000,"Anonymous says2013-04-08T13 :56:09.417 Report Post Marijuana does n't kill as much people as drinking , or smoking cigarettes .",['LEGAL_DRUGS'],10,"['DRUG_ABUSE', 'CHILD_AND_TEEN_SAFETY', 'DRUG_POLICY', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION', 'MEDICAL_MARIJUANA', 'ILLEGAL_TRADE', 'GATEWAY_DRUG', 'PERSONAL_FREEDOM', 'NATIONAL_BUDGET']"
+"Based on the provided codebook, I would assign the following label(s) to the given text:
+
+* PERSONAL_FREEDOM
+
+This is because the sentence suggests that individuals should be allowed autonomy in making their own decisions, which aligns with the concept of personal freedom. 
+
+There are no other labels from the codebook that directly apply to this statement.",llama3.1:8b-instruct-fp16,2024-09-11T11:56:00.184650632Z,stop,1720988833,73968183,200,27848000,73,1573545000,As a general rule I believe we should let people make their own choices — and their own mistakes .,['PERSONAL_FREEDOM'],1,['PERSONAL_FREEDOM']
+"After analyzing the text, I would assign the following label(s):
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS: This is because the text mentions a potential harm or risk associated with smoking marijuana, specifically referring to hydrogen cyanide, which suggests a negative health effect.
+
+Note that I did not assign any other labels as they do not seem to be directly relevant to the content of this specific sentence. For example, while there may be some connection between drug policy and health effects in general, it is not explicitly mentioned in this text, so I would not assign the DRUG_POLICY label here.",llama3.1:8b-instruct-fp16,2024-09-11T11:56:03.027512211Z,stop,2751805223,30248374,204,27437000,120,2604895000,"Similarly , hydrogen cyanide was found in marijuana smoke at concentrations three to five times greater than those found in tobacco smoke .","['HEALTH/PSYCHOLOGICAL_EFFECTS', 'LEGAL_DRUGS']",2,"['DRUG_POLICY', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"Based on the provided text, I assign the following codes:
+
+* PERSONAL_FREEDOM: This label is applicable as the discussion revolves around individuals' personal choices and freedom to use marijuana in their own homes.
+
+Note that some other labels could potentially be relevant, but they do not directly apply based on the specific content of this excerpt.",llama3.1:8b-instruct-fp16,2024-09-11T11:56:04.683397295Z,stop,1651590767,73815507,228,27459000,68,1460983000,"On the other hand , a majority of opponents of legalization ( 65 % ) say they would not be bothered if people used marijuana in their own homes ; virtually all supporters of legalization ( 97 % ) would not be bothered by this .",['PERSONAL_FREEDOM'],1,['PERSONAL_FREEDOM']
+"Based on the provided markdown codebook, I would assign the following labels to the given text:
+
+* NATIONAL_BUDGET
+* DRUG_POLICY 
+
+The text mentions the potential tax benefits of legalization, which is related to national budget implications (NATIONAL_BUDGET). Additionally, it mentions the National Organization for the Reform of Marijuana Laws (NORML), an organization that advocates for drug policy reform.",llama3.1:8b-instruct-fp16,2024-09-11T11:56:06.653059414Z,stop,1921168493,73732545,219,28792000,82,1772753000,"The National Organization for the Reform of Marijuana Laws ( NORML ) , for example , claims that legalization “ could yield California taxpayers over $ 1.2 billion per year ” in tax benefits .",['NATIONAL_BUDGET'],2,"['DRUG_POLICY', 'NATIONAL_BUDGET']"
+"After analyzing the sentence, I have assigned the following labels:
+
+* GATEWAY_DRUG: This label applies as the text suggests that marijuana use may lead to the use of other harder substances such as heroin, LSD, and cocaine.
+* ADDICTION: This label also applies as the text implies a progression from seeking a ""high"" from marijuana to seeking it from more potent substances, indicating a potential cycle of addiction.",llama3.1:8b-instruct-fp16,2024-09-11T11:56:08.701942519Z,stop,2002342244,70023374,215,27427000,86,1858061000,"Then , after using it for a while , a bigger "" high "" is sought ; thus , users then turn to the harder stuff like heroin , LSD , cocaine , etc .",['GATEWAY_DRUG'],2,"['ADDICTION', 'GATEWAY_DRUG']"
+"After analyzing the sentence, I would assign the following codes:
+
+* LEGAL_DRUGS
+* NATIONAL_BUDGET (due to the mention of taxation)
+* COMMUNITY/SOCIAL_EFFECTS (as a safer system of sales is implied to benefit the community)
+
+I did not code for HEALTH/PSYCHOLOGICAL_EFFECTS as there is no direct mention of health or psychological effects in this sentence.",llama3.1:8b-instruct-fp16,2024-09-11T11:56:10.75524644Z,stop,1963492791,29753282,214,27323000,84,1816813000,""" We need a safer system of marijuana sales in mass and the best way to do that is make it regulated and taxed and licensed , "" Borghesani said .",['DRUG_POLICY'],3,"['LEGAL_DRUGS', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'NATIONAL_BUDGET']"
+"Based on the provided codebook, I would assign the following labels to the given text:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS
+* ADDICTION 
+
+These labels apply as they relate directly to the potential negative effects of marijuana use (health and psychological) and a possible consequence of use (addiction), both of which are mentioned in the sentence.",llama3.1:8b-instruct-fp16,2024-09-11T11:56:12.52656331Z,stop,1767146736,58154394,194,26206000,74,1593575000,I know it ’s not good for her health or brain . ”,['HEALTH/PSYCHOLOGICAL_EFFECTS'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION']"
+"Based on the provided markdown codebook, I would assign the following labels to the given text:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS
+* HARM
+
+The text mentions that marijuana increases heart rate and blood volume, which poses a risk, specifically to older users with pre-existing health problems. This is an example of a potential harm or negative psychological effect associated with marijuana use.
+
+Note: I did not assign the label NATIONAL_BUDGET as it does not directly relate to the content of the text. Similarly, I did not consider labels such as ADDICTION and DRUG_ABUSE, although they are related to substance use, the text specifically mentions a potential health risk rather than addiction or abuse.
+
+Let me know if you'd like me to review another sentence!",llama3.1:8b-instruct-fp16,2024-09-11T11:56:16.143379603Z,stop,3571757413,73976062,217,28820000,157,3419033000,"Experts say that marijuana increases the heart rate and the volume of blood pumped by the heart , but that poses a risk mostly to older users who already have cardiac or other health problems . ”",['HEALTH/PSYCHOLOGICAL_EFFECTS'],5,"['DRUG_ABUSE', 'HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION', 'NATIONAL_BUDGET']"
+"Based on the provided text, I would assign the following codes:
+
+* PERSONAL_FREEDOM
+* MEDICAL_MARIJUANA (implied by ""it's not about getting high"", suggesting that marijuana is being used for a non-intoxicating purpose)
+
+I did not include LEGAL_DRUGS as it seems to be more of an outcome of the debate rather than a reason or argument presented in the text. Similarly, I did not include any other labels as they do not seem to be directly relevant to the argument being made by the individual quoted in the text.",llama3.1:8b-instruct-fp16,2024-09-11T11:56:18.927774093Z,stop,2695793335,28054153,210,28550000,118,2553049000,"The retired book editor from Boston 's Mission Hill neighborhood says it ’s not about getting high , it ’s really about giving people their freedom .",['PERSONAL_FREEDOM'],3,"['LEGAL_DRUGS', 'MEDICAL_MARIJUANA', 'PERSONAL_FREEDOM']"
+"Based on the provided markdown codebook and the given example sentence, I would assign the following codes:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS (specifically related to adolescent brain development)
+* CHILD_AND_TEEN_SAFETY (since there are concerns about the impact of marijuana on adolescents)
+
+These two labels capture the primary theme of the sentence, which is the potential negative effects of marijuana on young people's brains and well-being.",llama3.1:8b-instruct-fp16,2024-09-11T11:56:21.046162596Z,stop,2113274598,72926180,193,26571000,89,1923803000,There are legitimate concerns about marijuana on the development of adolescent brains .,['CHILD_AND_TEEN_SAFETY'],2,"['CHILD_AND_TEEN_SAFETY', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"Based on the provided instructions, I would assign the following codes to the given text:
+
+* ILLEGAL_TRADE: The text implies that the White House is trying to justify keeping marijuana illegal, which suggests that there is an ongoing illicit trade that needs to be addressed.
+* COMMUNITY/SOCIAL_EFFECTS: The mention of ""marijuana's supposed social ills"" indicates that the discussion is centered around the potential negative impacts on communities and society as a whole.
+
+Note that I have not assigned codes for LEGAL_DRUGS, HEALTH/PSYCHOLOGICAL_EFFECTS, NATIONAL_BUDGET, HARM, MEDICAL_MARIJUANA, GATEWAY_DRUG, CHILD_AND_TEEN_SAFETY, ADDICTION, DRUG_ABUSE, PERSONAL_FREEDOM, or DRUG_POLICY as they do not seem to be directly relevant to the text.",llama3.1:8b-instruct-fp16,2024-09-11T11:56:25.188473431Z,stop,4096622252,73773058,216,29072000,181,3946944000,"The White House issued a response to the New York Times , trotting out weak , largely debunked justifications for criminalization , focusing on marijuana ’s supposed social ills .",['COMMUNITY/SOCIATAL_EFFECTS'],12,"['DRUG_ABUSE', 'CHILD_AND_TEEN_SAFETY', 'DRUG_POLICY', 'LEGAL_DRUGS', 'HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION', 'MEDICAL_MARIJUANA', 'ILLEGAL_TRADE', 'GATEWAY_DRUG', 'PERSONAL_FREEDOM', 'NATIONAL_BUDGET']"
+"Based on the provided text, I would assign the following labels:
+
+* DRUG_POLICY
+* NATIONAL_BUDGET
+
+These labels apply because the text discusses an expert's explanation about the potential revenue from marijuana legalization (DRUG_POLICY) and specifically mentions a state estimate of $1.4 billion in potential revenue (NATIONAL_BUDGET).",llama3.1:8b-instruct-fp16,2024-09-11T11:56:26.946323842Z,stop,1670606567,30887429,262,34021000,70,1517057000,"Dr. Rosalie Liccardo Pacula , an expert with the RAND Corporation who has studied the economics of drug policy for over 15 years , has explained that the California “ Board of Equalization ’s estimate of $ 1.4 billion [ in ] potential revenue for the state is based on a series of assumptions that are in some instances subject to tremendous uncertainty and in other cases not validated . ”",['NATIONAL_BUDGET'],2,"['DRUG_POLICY', 'NATIONAL_BUDGET']"
+"Based on the provided markdown codebook, I would assign the following codes to the given sentence:
+
+* LEGAL_DRUGS
+* COMMUNITY/SOCIATAL_EFFECTS
+* DRUG_POLICY
+
+These labels apply because the sentence mentions making a case for legalization (LEGAL_DRUGS), addressing social costs and wasted resources associated with cannabis prohibition (COMMUNITY/SOCIATAL_EFFECTS, which could also imply ILLEGAL_TRADE, but since it's about prohibition rather than trade itself I've chosen this option), and editorials on policy issues related to marijuana use (DRUG_POLICY).
+
+No other labels appear to be relevant based on the provided sentence.",llama3.1:8b-instruct-fp16,2024-09-11T11:56:29.990191367Z,stop,3039273842,70704650,213,28696000,131,2850391000,"The paper of record is continuing to make the case for legalization over a series of editorials , addressing the social costs , racist history and wasted resources from cannabis prohibition .","['NATIONAL_BUDGET', 'COMMUNITY/SOCIATAL_EFFECTS']",4,"['DRUG_POLICY', 'LEGAL_DRUGS', 'ILLEGAL_TRADE', 'COMMUNITY/SOCIATAL_EFFECTS']"
+"After reviewing the provided markdown codebook and analyzing the given sentence, I have assigned the following codes:
+
+GATEWAY_DRUG
+
+The reason for this selection is that the sentence mentions ""gateway effect,"" which is a concept closely related to the idea that cannabis use leads to the use of other drugs. This concept has been mentioned in the context of the debate about marijuana legalization, and it directly relates to one of the specified labels.
+
+No other codes from the codebook seem to be applicable in this case. Let me know if you would like me to analyze any further text!",llama3.1:8b-instruct-fp16,2024-09-11T11:56:32.696705818Z,stop,2661244977,70160241,199,28166000,116,2516132000,Even the gateway effect — the theory that cannabis leads to other drugs — was discarded long ago .,['GATEWAY_DRUG'],1,['GATEWAY_DRUG']
+"Based on the provided text, I would assign the following codes:
+
+* HARM (referring to the potential for long-term harm from using cannabis)
+* HEALTH/PSYCHOLOGICAL_EFFECTS (mentioning ""violence and aggression"" as a potential consequence)
+
+I do not code LEGAL_DRUGS because the text is discussing the potential harms of cannabis, which is currently illegal in many places. I also do not code MEDICAL_MARIJUANA or ADDICTION, as there is no mention of these topics.",llama3.1:8b-instruct-fp16,2024-09-11T11:56:35.262492121Z,stop,2519125217,74261541,226,28944000,109,2370115000,"Many of the deaths from using cannabis , other than from car accidents while intoxicated or violence and aggression , are more likely to figure in the longer term , just as with tobacco , where both nicotine overdose and cannabis overdose are extremely rare .","['LEGAL_DRUGS', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'DRUG_ABUSE']",5,"['LEGAL_DRUGS', 'HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION', 'MEDICAL_MARIJUANA']"
+"Based on the provided text, I would assign the labels:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS: This label is applicable as the text discusses a potential positive impact of peyote use on mental health.
+* ADDICTION: Although the text does not explicitly mention addiction, it is worth noting that peyote is a hallucinogen and its use can be problematic. However, in this specific context, it appears to have beneficial effects, rather than being a negative consequence.
+
+I do not assign any other labels as they are not relevant to the provided text.",llama3.1:8b-instruct-fp16,2024-09-11T11:56:38.003692954Z,stop,2691857386,73795800,221,27968000,117,2544295000,Researchers at Harvard-affiliated McLean Hospital found members of a religious group regularly using peyote scored significantly better on several measures of overall mental health than did subjects who did not use the hallucinogen .,['HEALTH/PSYCHOLOGICAL_EFFECTS'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION']"
+"Based on the provided codebook, I would assign the following labels to the given text:
+
+HEALTH/PSYCHOLOGICAL_EFFECTS
+
+This label applies because the text mentions various health and psychological effects associated with marijuana use, such as memory loss, distorted perception, trouble with thinking and problem solving, anxiety, and potential impacts on motor skills and muscle strength.
+
+Additionally, I would also assign the following labels:
+
+ADDICTION
+DRUG_ABUSE
+
+These labels are relevant because the mentioned effects (e.g., distorted perception, trouble with thinking and problem solving) can be indicative of addiction or abuse.",llama3.1:8b-instruct-fp16,2024-09-11T11:56:40.873572454Z,stop,2821890173,73944036,213,28706000,123,2673406000,"They include : memory loss , distorted perception , trouble with thinking and problem solving , loss of motor skills , decrease in muscle strength , increased heart rate , and anxiety .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],3,"['DRUG_ABUSE', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION']"
+"After analyzing the given sentence, I would assign the following labels:
+
+* HARM (referring to the ""harm caused by drug prohibition"" mentioned in the text)
+* PERSONAL_FREEDOM (implied by the phrase ""sovereign over his own body and mind"")
+
+These two labels seem to be the most relevant to the given sentence, as they directly relate to the discussion of harm and individual freedom.",llama3.1:8b-instruct-fp16,2024-09-11T11:56:42.953335476Z,stop,1989767734,30221177,223,28835000,85,1842336000,"The same sort of analysis today would show that the harm caused by drug prohibition far outweighs the harm it prevents , even without taking into account the value to each individual of being sovereign over his own body and mind .","['PERSONAL_FREEDOM', 'HARM']",2,"['HARM', 'PERSONAL_FREEDOM']"
+"Based on the provided text, I would assign the following labels:
+
+* LEGAL_DRUGS (since taxed and regulated systems imply a shift towards legal status)
+* NATIONAL_BUDGET (as it mentions taxation, implying a financial impact at the national level)
+* PERSONAL_FREEDOM (as regulating marijuana is often seen as an extension of personal freedom)
+
+Let me know if you'd like me to review or code another text!",llama3.1:8b-instruct-fp16,2024-09-11T11:56:45.047590901Z,stop,2089869386,71903719,193,26363000,88,1902304000,Taxed and regulated systems are working in Colorado and other states .,['DRUG_POLICY'],3,"['LEGAL_DRUGS', 'PERSONAL_FREEDOM', 'NATIONAL_BUDGET']"
+"Based on the provided codebook, I would assign the following labels to the given text:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS
+* CHILD_AND_TEEN_SAFETY
+* ADDICTION 
+
+The sentence mentions ""deleterious effects"" which implies negative health or psychological effects of marijuana use. It also specifically highlights the concern about teenagers, indicating a focus on Child and Teen Safety. Additionally, the mention of the potential impact on developing brains may be related to concerns about addiction, as it suggests that the brain is vulnerable to long-term damage from substance use during adolescence.",llama3.1:8b-instruct-fp16,2024-09-11T11:56:47.854821367Z,stop,2759094446,69890005,232,29352000,120,2613040000,""" A continued area of concern is the high rate of daily marijuana smoking seen especially among 12th graders , because of marijuana ’s potential deleterious effects on the developing brains of teenagers , ” NIDA 's Volkow said in a statement .",['CHILD_AND_TEEN_SAFETY'],3,"['CHILD_AND_TEEN_SAFETY', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION']"
+"After analyzing the given sentence, I would assign the following codes:
+
+* PERSONAL_FREEDOM: The text mentions the Regulation and Taxation of Marijuana Act, which suggests that the debate is about allowing individuals to make choices regarding marijuana use. This implies a concern for personal freedom.
+* DRUG_POLICY: The mention of the RTMA indicates that the discussion revolves around policy changes related to marijuana regulation.
+
+These two codes capture the essence of the argument presented in the sentence, focusing on individual rights and the legislative framework surrounding marijuana legalization.",llama3.1:8b-instruct-fp16,2024-09-11T11:56:50.415856073Z,stop,2472427878,30082751,218,28410000,107,2324325000,"Eight people or groups turned in arguments for the "" pro "" side 's six pages in the publication , urging voters to approve the Regulation and Taxation of Marijuana Act ( RTMA ) .",['DRUG_POLICY'],2,"['DRUG_POLICY', 'PERSONAL_FREEDOM']"
+"Based on the provided text, I assign the following labels:
+
+* HARM: This label applies due to the reported increases in robberies, burglaries, aggravated assaults, and car break-ins, which indicate potential harm to individuals and communities.
+* ILLEGAL_TRADE: Although cannabis clubs are now legal in some places, the rise in related crimes (robberies, burglaries) suggests that illegal trade or illicit activities may still be present, exploiting the existing infrastructure.
+* COMMUNITY/SOCIAL EFFECTS: The text highlights the negative consequences of cannabis clubs on community safety and well-being, suggesting that these establishments have a broader social impact beyond just individual harm.
+
+Note that I did not assign labels related to arguments against marijuana legalization in general (e.g., MEDICAL_MARIJUANA, GATEWAY_DRUG), as they are not directly addressed by the text.",llama3.1:8b-instruct-fp16,2024-09-11T11:56:54.468692094Z,stop,4047856347,72957373,238,28597000,177,3853046000,"In Los Angeles , police report that areas surrounding cannabis clubs have experienced a 200 percent increase in robberies , a 52.2 percent increase in burglaries , a 57.1 percent increase in aggravated assault , and a 130.8 percent increase in burglaries from automobiles .",['COMMUNITY/SOCIATAL_EFFECTS'],4,"['HARM', 'MEDICAL_MARIJUANA', 'ILLEGAL_TRADE', 'GATEWAY_DRUG']"
+"After analyzing the provided text, I would assign the following codes:
+
+* LEGAL_DRUGS (referring to ""alcohol"" in the sentence)
+* CHILD_AND_TEEN_SAFETY (as the text mentions prohibiting sales of legal but unhealthy substances to children) 
+* HARM (as the text implies that even legal drugs can be unhealthy, hinting at potential harm)
+
+These labels are applied based on the codebook provided and my understanding of the text.",llama3.1:8b-instruct-fp16,2024-09-11T11:56:56.756833135Z,stop,2200944575,69758139,201,28641000,95,2058001000,"Even unhealthy items that are legal , such as alcohol and cigarettes , are prohibited from being sold to children .","['LEGAL_DRUGS', 'CHILD_AND_TEEN_SAFETY']",3,"['CHILD_AND_TEEN_SAFETY', 'LEGAL_DRUGS', 'HARM']"
+"Based on the provided text, I would assign the following codes:
+
+* ADDICTION
+* DRUG_ABUSE
+* HARM 
+
+These labels apply because the text mentions that opponents believe there will be an increase in addiction and abuse among pot users, which is likely to result in harm. The other labels do not seem to directly apply to this specific statement.",llama3.1:8b-instruct-fp16,2024-09-11T11:56:58.589310519Z,stop,1788211791,30982313,212,28556000,74,1598528000,Opponents of legal recreational pot argue that any savings that would arise from legalization would be offset by the cost of treating the additional users who become addicted to marijuana .,"['ADDICTION', 'NATIONAL_BUDGET']",3,"['DRUG_ABUSE', 'HARM', 'ADDICTION']"
+"Based on the provided codebook and the given sentence, I would assign the following codes:
+
+* MEDICAL_MARIJUANA: This label applies because the sentence mentions that some people in the legalization lobby claim that certain drugs (presumably marijuana) have medical value.
+
+Note: The sentence does not provide strong evidence for or against the claim of medical value, but rather notes a lack of conclusive scientific evidence.",llama3.1:8b-instruct-fp16,2024-09-11T11:57:00.57662491Z,stop,1941322677,70324784,202,28666000,83,1795561000,"Some in the Legalization Lobby even claim such drugs have medical value , despite the lack of conclusive scientific evidence .",['MEDICAL_MARIJUANA'],1,['MEDICAL_MARIJUANA']
+"After analyzing the text, I would assign the following codes:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS
+* HARM
+* PERSONAL_FREEDOM (although this one might seem less obvious at first glance, the sentence implies that individuals have agency over their own consumption of substances, which is related to personal freedom)
+
+I did not assign any other labels because they do not appear to be relevant to the text. For example, there is no mention of marijuana legalization or its effects on national budget, medical use, or community/societal effects.",llama3.1:8b-instruct-fp16,2024-09-11T11:57:03.26347143Z,stop,2600564925,30130623,200,27972000,113,2453342000,Even legal substances like pizza and donuts can be harmful to a person if not consumed in moderation .,['HARM'],3,"['HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'PERSONAL_FREEDOM']"
+"Based on the provided codebook and the example sentence, I would assign the following codes:
+
+* DRUG_ABUSE
+* DRUG_POLICY
+
+My reasoning is as follows:
+
+* The text mentions ""marijuana use"", which implies that the speaker is discussing the behavior or activity related to marijuana. This falls under the category of drug abuse.
+* The phrase ""good 'minor offense' correlate for violent, dangerous crimes"" suggests that the speaker is discussing the relationship between marijuana use and crime policy, specifically how it relates to more severe crimes. Therefore, I have assigned DRUG_POLICY.
+
+Note that HARM could also be a relevant label here, but since the text is more focused on the policy implications of marijuana use rather than its direct harm, I didn't include it in my assignment.",llama3.1:8b-instruct-fp16,2024-09-11T11:57:06.946648151Z,stop,3678575546,73551568,211,27502000,160,3488237000,"If law enforcement agencies wanted to find a good “ minor offense ” correlate for violent , dangerous crimes , marijuana use does n’t make a lot of sense .",['COMMUNITY/SOCIATAL_EFFECTS'],3,"['DRUG_ABUSE', 'DRUG_POLICY', 'HARM']"
+"Based on the provided markdown codebook, I would assign the following codes to the given text:
+
+* ILLEGAL_TRADE
+* HARM
+
+These two labels apply because the text mentions ""illegal drugs"" which relates to the illegal trade, and also implies that marijuana is causing harm through its association with violence and social decline.
+
+The other labels do not directly apply in this context.",llama3.1:8b-instruct-fp16,2024-09-11T11:57:08.846561302Z,stop,1810752758,73819963,199,28069000,77,1664212000,Illegal drugs such as marijuana are responsible for a disproportionate share of violence and social decline in America .,['COMMUNITY/SOCIATAL_EFFECTS'],2,"['HARM', 'ILLEGAL_TRADE']"
+"Based on the provided markdown codebook and the given sentence, I would assign the following label(s):
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS
+
+This is because the sentence mentions ""mental health"", which suggests a connection to psychological effects.",llama3.1:8b-instruct-fp16,2024-09-11T11:57:10.149353397Z,stop,1256131247,30064223,197,26128000,50,1069124000,"However , it is clear that marijuana use plays some role in the mental health picture .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"Based on the provided codebook, I would assign the following labels to the given sentence:
+
+* ADDICTION
+* HEALTH/PSYCHOLOGICAL_EFFECTS
+
+The reason for this is that the sentence mentions addiction, which falls under the label ""ADDICTION"", and it also implies a health-related effect of marijuana use (i.e., not being very addictive), which corresponds to the label ""HEALTH/PSYCHOLOGICAL_EFFECTS"".",llama3.1:8b-instruct-fp16,2024-09-11T11:57:12.354895691Z,stop,2159125060,73850716,190,27159000,93,2011324000,It 's not very addictive for many people .,['ADDICTION'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION']"
+"Based on the provided codebook, I would assign the following labels to the text:
+
+* PERSONAL_FREEDOM
+* DRUG_POLICY 
+
+The text implies that marijuana was made illegal due to societal norms and cultural habits, rather than any inherent reasons related to its effects. The author is also suggesting that personal freedoms are restricted by outdated drug policies.",llama3.1:8b-instruct-fp16,2024-09-11T11:57:14.123287089Z,stop,1680169446,32136649,227,29185000,71,1531966000,"There 's a reason pot was made illegal in the first place and quite frankly , the only reason alcohol and cigarettes are legal is because they 're so deeply ingrained in our society that we ca n't get rid of them .",['LEGAL_DRUGS'],2,"['DRUG_POLICY', 'PERSONAL_FREEDOM']"
+"After reviewing the codebook and analyzing the sentence ""That money can go towards public school construction"", I would assign the label:
+
+NATIONAL_BUDGET
+
+This is because the argument appears to be focused on the economic benefits of legalizing marijuana, specifically redirecting funds that would otherwise be spent on law enforcement or other costs associated with prohibition towards more productive uses like public school construction.",llama3.1:8b-instruct-fp16,2024-09-11T11:57:15.975917973Z,stop,1847365555,73029166,189,27005000,77,1657321000,That money can go towards public school construction .,['NATIONAL_BUDGET'],1,['NATIONAL_BUDGET']
+"Based on the provided codebook and instructions, I would assign the following labels:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS (specifically related to the potency of marijuana)
+* ADDICTION 
+
+These labels are relevant because the text mentions that marijuana is 10 times more potent than what people think is safe, which implies potential negative health or psychological effects. The increased potency could also be linked to a higher risk of addiction.",llama3.1:8b-instruct-fp16,2024-09-11T11:57:18.114309398Z,stop,2050553501,77885337,206,28816000,88,1899301000,"We are looking at marijuana that ’s 10 times more potent than what people think is safe , ” said Dr. Spencer .",['HARM'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION']"
+"Based on the provided markdown codebook, I would assign the following codes to the given text:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS: This label applies because the text mentions negative effects, specifically ""slowed reaction time"" and ""brain damage"", which pertain to health and psychological consequences.
+* CHILD_AND_TEEN_SAFETY: This label also applies as the text explicitly states that these negative effects occur in young users who are still developing their brains until at least age 25.",llama3.1:8b-instruct-fp16,2024-09-11T11:57:20.534941517Z,stop,2373014609,30684057,215,26754000,101,2185983000,"The negative effects of it includes , slowed reaction time , and brain damage on young users who are still in major development of their brain until the age of at least 25 .","['HEALTH/PSYCHOLOGICAL_EFFECTS', 'CHILD_AND_TEEN_SAFETY']",2,"['CHILD_AND_TEEN_SAFETY', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"Based on the provided codebook, I would assign the following labels to the given sentence:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS
+* HARM
+
+These labels apply because the sentence suggests that psychoactive substances (including marijuana) have negative effects on individuals' emotional well-being and can lead to harm.",llama3.1:8b-instruct-fp16,2024-09-11T11:57:22.104107609Z,stop,1524522059,74016899,203,28819000,64,1375830000,There is n't an argument in the world that will change the fact that psychoactive substances produce emotionally crippled adults .,['HEALTH/PSYCHOLOGICAL_EFFECTS'],2,"['HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"Based on the provided text, I would assign the following labels:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS
+* HARM 
+
+The first label is applicable because the text explicitly mentions that marijuana is ""terrible"" for one's mental health. The second label, HARM, is also relevant as the text suggests that marijuana may have even more severe negative effects than cigarettes, implying potential harm to users.",llama3.1:8b-instruct-fp16,2024-09-11T11:57:24.152426951Z,stop,1960984494,31814434,200,28177000,84,1814074000,3 ) Marijuana is terrible for your mental health : Marijuana may even be WORSE than cigarettes .,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'LEGAL_DRUGS']",2,"['HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"Based on the provided markdown codebook, I will assign the following labels to the given text:
+
+* LEGAL_DRUGS
+* PERSONAL_FREEDOM 
+
+The reasoning behind these choices is as follows: The text discusses reducing penalties for selling recreational marijuana, which suggests a shift towards treating it as a legal or decriminalized substance. This aligns with the concept of LEGAL_DRUGS.
+
+Additionally, the text implies that individuals who engage in this activity will no longer face severe punishment, suggesting a greater emphasis on personal freedom and autonomy. This aligns with the concept of PERSONAL_FREEDOM.",llama3.1:8b-instruct-fp16,2024-09-11T11:57:27.038599597Z,stop,2881750186,72778433,212,27463000,124,2692151000,The punishment for selling recreational marijuana would be reduced from a maximum of four years in prison or jail to six months in jail and/or a $ 500 fine .,['DRUG_POLICY'],2,"['LEGAL_DRUGS', 'PERSONAL_FREEDOM']"
+"Based on the provided codebook, I would assign the following labels to the given text:
+
+* ILLEGAL_TRADE: This label applies because the text mentions ""gangs"" and implies an illicit trade in marijuana.
+* DRUG_POLICY: This label applies because the text discusses a potential change to national-level drug policy through legalization.
+
+Note that the other labels do not appear to be relevant to this specific passage.",llama3.1:8b-instruct-fp16,2024-09-11T11:57:29.025190073Z,stop,1941365059,73802426,211,28460000,83,1793260000,"While such profits might not be possible if marijuana was legalized at the national level and these gangs were undercut by mass production , that is unlikely ever to happen .",['ILLEGAL_TRADE'],2,"['DRUG_POLICY', 'ILLEGAL_TRADE']"
+"Based on the provided markdown codebook, I would assign the following label(s) to the given text:
+
+* LEGAL_DRUGS
+* HEALTH/PSYCHOLOGICAL_EFFECTS 
+
+The text mentions legal pharmaceutical drugs and their potential side effects.",llama3.1:8b-instruct-fp16,2024-09-11T11:57:30.382408348Z,stop,1262848342,32267653,212,28597000,52,1115615000,Botticelli made no mention of the long list of legal pharmaceutical drugs — many with dangerous side effects — that also advertise directly to consumers with cartoon characters .,['MEDICAL_MARIJUANA'],2,"['LEGAL_DRUGS', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"Based on the provided markdown codebook, I would assign the following labels to the given text:
+
+* ILLEGAL_TRADE
+* HARM (specifically, ""persecution"" implies harm caused by the current illegal trade)
+
+I do not see any other relevant labels that apply to this text.",llama3.1:8b-instruct-fp16,2024-09-11T11:57:31.885706024Z,stop,1497306950,73218012,196,26739000,61,1308021000,Another 15 BILLION is wasted on the capture and persecution simple cannabis consumers .,['NATIONAL_BUDGET'],2,"['HARM', 'ILLEGAL_TRADE']"
+"After carefully reading the text, I would assign the following labels:
+
+* ILLEGAL_TRADE (Note: This label applies because the text mentions that marijuana was legalized, implying a shift from an illicit trade to a potentially regulated or legal market.)
+* DRUG_POLICY (This label applies because the text implies a change in policy regarding marijuana, with legalization potentially leading to changes in how county courts handle cases related to marijuana.)
+
+These labels capture the essence of the argument presented in the text, which is that marijuana legalization has led to a decrease in new criminal cases filed in county courts.",llama3.1:8b-instruct-fp16,2024-09-11T11:57:34.638211861Z,stop,2662514984,69945370,225,28811000,116,2519243000,"County courts — the lower-level venues that normally handle misdemeanor crimes — saw a dip in new criminal cases filed between the 2012 fiscal year and the 2013 fiscal year , coinciding with voters ’ approval of legalization .",['COMMUNITY/SOCIATAL_EFFECTS'],2,"['DRUG_POLICY', 'ILLEGAL_TRADE']"
+"A fascinating text! Based on the provided codebook, I would assign the following labels:
+
+* HARM (specifically, negative effects on students' learning abilities)
+* DRUG_ABUSE (implying that students are using marijuana in a way that impairs their academic performance)
+* COMMUNITY/SOCIAL_EFFECTS ( hinting at potential consequences for teachers and the educational environment)
+
+Note that I did not assign HEALTH/PSYCHOLOGICAL_EFFECTS, as the text primarily focuses on the negative effects of marijuana use on learning abilities rather than direct health or psychological effects. Similarly, PERSONAL_FREEDOM is not applicable in this context, as the text portrays students' behavior as problematic rather than a personal choice.
+
+The text does not mention any aspects related to LEGAL_DRUGS, MEDICAL_MARIJUANA, GATEWAY_DRUG, NATIONAL_BUDGET, or ILLEGAL_TRADE, so I did not assign those labels.",llama3.1:8b-instruct-fp16,2024-09-11T11:57:39.080741207Z,stop,4396967542,69858958,206,29092000,195,4252162000,""" Students suck on lollipops between classes , go into class stoned , learn nothing , and teachers are increasingly helpless .",['CHILD_AND_TEEN_SAFETY'],9,"['DRUG_ABUSE', 'LEGAL_DRUGS', 'HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'MEDICAL_MARIJUANA', 'ILLEGAL_TRADE', 'GATEWAY_DRUG', 'PERSONAL_FREEDOM', 'NATIONAL_BUDGET']"
+"After analyzing the given sentence, I would assign the following codes:
+
+* PERSONAL_FREEDOM
+* DRUG_POLICY (as limiting the use of a substance implies policy intervention)
+
+These two labels seem to be the most relevant as they directly address the notion of restricting individual autonomy and government intervention in personal choices.",llama3.1:8b-instruct-fp16,2024-09-11T11:57:40.667600675Z,stop,1500573160,32312076,193,27832000,63,1353615000,Limiting the use of the drug intrudes on personal freedom .,['PERSONAL_FREEDOM'],2,"['DRUG_POLICY', 'PERSONAL_FREEDOM']"
+"Based on the provided codebook and the example sentence, I would assign the following labels:
+
+* ADDICTION
+* DRUG_ABUSE
+
+The sentence mentions that cannabis can lead to addiction, which is a clear reference to these two labels. 
+
+Note: The other labels may not be directly applicable or relevant in this context, so they are not assigned.",llama3.1:8b-instruct-fp16,2024-09-11T11:57:42.433976458Z,stop,1761594734,73241184,194,27722000,73,1571248000,It would be malpractice to say that cannabis is n't addictive .,['ADDICTION'],2,"['DRUG_ABUSE', 'ADDICTION']"
+"After carefully reviewing the provided sentence, I would assign the following labels:
+
+* MEDICAL_MARIJUANA
+* HEALTH/PSYCHOLOGICAL_EFFECTS
+
+These two labels apply because the text mentions cannabinoids (specifically THC and Cannabidiol) having a positive effect on health by promoting apoptosis (programmed cell death), which can potentially lead to the death of tumors. This suggests a medical benefit of marijuana, aligning with MEDICAL_MARIJUANA, and an impact on psychological or physical health, aligning with HEALTH/PSYCHOLOGICAL_EFFECTS.
+
+Note that I have not assigned any other labels as they do not appear to be relevant to the content of the sentence.",llama3.1:8b-instruct-fp16,2024-09-11T11:57:45.7658791Z,stop,3286402169,74132097,227,28284000,144,3137366000,"Anonymous says2013-05-28T02 :41:12.043 Report Post Cannabinoids , including THC and Cannabidiol , promote the re-emergence of apoptosis so that tumors will stop dividing and die .",['MEDICAL_MARIJUANA'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'MEDICAL_MARIJUANA']"
+"Based on the provided codebook and the example sentence, I would assign the following codes:
+
+* HARM (due to the mention of danger when dealing with a drug dealer)
+* ILLEGAL_TRADE (since the text implies that dealing with a drug dealer is illegal)
+ 
+These two labels best capture the aspects related to the text.",llama3.1:8b-instruct-fp16,2024-09-11T11:57:47.464676788Z,stop,1608309421,30154385,198,28088000,68,1462444000,Also it is very dangerous while dealing with a drug dealer because they are a wild card .,['ILLEGAL_TRADE'],2,"['HARM', 'ILLEGAL_TRADE']"
+"After analyzing the sentence, I would assign the following labels:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS
+* ADDICTION
+
+The sentence implies that the speaker believes marijuana use is having a negative impact on cognitive function (""making them stupider""), which falls under health/psychological effects. Additionally, the reference to being ""high"" and the implication of chronic use suggests a concern about addiction.",llama3.1:8b-instruct-fp16,2024-09-11T11:57:49.426450627Z,stop,1957779129,72921218,196,26965000,82,1768495000,"The drug is making them stupider , even when they 're not high .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION']"
+"Based on the provided text, I would assign the following codes:
+
+* HARM
+* DRUG_ABUSE (Note: This label applies because the text is comparing marijuana to other drugs, which are commonly associated with harm and abuse)
+
+I did not include other labels such as LEGAL_DRUGS or PERSONAL_FREEDOM because they do not seem to be relevant to this specific sentence.",llama3.1:8b-instruct-fp16,2024-09-11T11:57:51.388857879Z,stop,1873433408,74218327,198,27939000,80,1726722000,They also say that it is n’t as dangerous or harmful as alcohol and other drugs .,"['LEGAL_DRUGS', 'HARM']",4,"['DRUG_ABUSE', 'LEGAL_DRUGS', 'HARM', 'PERSONAL_FREEDOM']"
+"Based on the provided codebook, I would assign the following labels to the given text:
+
+* ILLEGAL_TRADE
+* COMMUNITY/SOCIATAL_EFFECTS
+
+The first label, ILLEGAL_TRADE, is relevant because the text mentions the closure of marijuana dispensaries due to crime associated with their operation. This implies that there are illicit activities and trade involved in these establishments.
+
+The second label, COMMUNITY/SOCIATAL_EFFECTS, is also applicable as the closure of coffee shops could have negative social impacts on the community, such as economic losses for local businesses or increased law enforcement presence.",llama3.1:8b-instruct-fp16,2024-09-11T11:57:54.208879184Z,stop,2775149547,32804387,208,27650000,119,2579017000,"In Amsterdam , officials are in the process of closing marijuana dispensaries , or “ coffee shops , ” because of the crime associated with their operation .",['COMMUNITY/SOCIATAL_EFFECTS'],2,"['ILLEGAL_TRADE', 'COMMUNITY/SOCIATAL_EFFECTS']"
+"After carefully analyzing the sentence, I have assigned the following codes:
+
+* LEGAL_DRUGS: This label applies as the sentence mentions a ""regulated and taxed system"", which implies a shift towards legalizing marijuana commerce.
+* DRUG_POLICY: This label also applies as the sentence refers to ""state regulators and local authorities"" being involved in controlling the new system, indicating a policy change regarding drug regulation.
+
+No other labels from the codebook apply directly to this specific sentence.",llama3.1:8b-instruct-fp16,2024-09-11T11:57:56.482645806Z,stop,2227148642,74128904,208,27564000,96,2078716000,"A regulated and taxed system would move commerce from street dealers to licensed , taxpaying businesses under the control of state regulators and local authorities .","['ILLEGAL_TRADE', 'DRUG_POLICY']",2,"['DRUG_POLICY', 'LEGAL_DRUGS']"
+"After analyzing the provided text, I have assigned the following codes:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS
+* HARM
+
+The first code is assigned because the text mentions side effects associated with marijuana use, which relates to its health and psychological effects. The second code is also relevant as it implies that marijuana use can lead to increased risk of harm, in this case, car accidents.",llama3.1:8b-instruct-fp16,2024-09-11T11:57:58.469207719Z,stop,1897550709,30053614,210,28642000,81,1750382000,These side effects are why several large studies find that that drivers high on marijuana are three to seven times more likely to be responsible for a car accident .,['DRUG_ABUSE'],2,"['HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"Based on the provided codebook, I would assign the following labels to the given text:
+
+* NATIONAL_BUDGET
+* LEGAL_DRUGS 
+
+These two labels apply because the text mentions the potential tax revenues generated by drug legalization, which is a financial aspect related to the national budget, and it also discusses legal drugs being taxed at comparable rates to alcohol and tobacco.",llama3.1:8b-instruct-fp16,2024-09-11T11:58:00.314114695Z,stop,1798383668,81889602,213,28649000,76,1641168000,"Drug legalization would yield tax revenues of $ 46.7 billion annually , assuming legal drugs were taxed at rates comparable to those on alcohol and tobacco , they said .","['LEGAL_DRUGS', 'NATIONAL_BUDGET']",2,"['LEGAL_DRUGS', 'NATIONAL_BUDGET']"
+"After reviewing the provided text, I've identified relevant aspects and assigned corresponding codes:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS: This label applies as the text mentions ""health care costs"" associated with increased marijuana use.
+* COMMUNITY/SOCIAL EFFECTS: The phrase ""borne by the entire society"" suggests that the impact of increased marijuana use would be felt at a community or societal level, making this code applicable.
+
+I did not assign codes for:
+
+* LEGAL_DRUGS (as the text does not discuss marijuana being a legal drug)
+* NATIONAL_BUDGET (while healthcare costs are mentioned, there is no specific mention of national budget implications)
+* HARM (the text mentions health care costs, but it's more focused on financial burden than harm per se)
+* MEDICAL_MARIJUANA (the text does not discuss medical marijuana specifically)
+* GATEWAY_DRUG (not applicable as the text does not mention gateway effects)
+* CHILD_AND_TEEN_SAFETY (no specific concerns about child and teen safety are raised in this text)
+* ADDICTION (not explicitly mentioned, although it's a related concept)
+* DRUG_ABUSE (similar to addiction, not explicitly mentioned)
+* PERSONAL_FREEDOM (the text does not discuss personal freedom or autonomy related to marijuana use)
+* ILLEGAL_TRADE (no discussion of illegal trade is present in the provided text)
+* DRUG_POLICY (while it touches on the implications of increased use, it's more focused on the effects rather than policy itself)",llama3.1:8b-instruct-fp16,2024-09-11T11:58:07.38321732Z,stop,7023609701,78016586,206,28945000,314,6870885000,"Increased use would also send health care costs skyrocketing — costs borne not just by individual users , but also by the entire society .",['NATIONAL_BUDGET'],12,"['DRUG_ABUSE', 'CHILD_AND_TEEN_SAFETY', 'DRUG_POLICY', 'LEGAL_DRUGS', 'HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION', 'MEDICAL_MARIJUANA', 'ILLEGAL_TRADE', 'GATEWAY_DRUG', 'PERSONAL_FREEDOM', 'NATIONAL_BUDGET']"
+"Based on the provided text, I would assign the following labels:
+
+* DRUG_POLICY: This label applies as the text discusses the relationship between drug use (specifically marijuana) and crime, which is a key concern in drug policy.
+* HARM: The text implies that marijuana use contributes to harm, as individuals who test positive for illegal drugs are often arrested for violent crimes.",llama3.1:8b-instruct-fp16,2024-09-11T11:58:09.282745078Z,stop,1811242689,30298909,219,28569000,77,1663983000,"Prosecutors , judges , police officers , detectives , parole or probation officers , and even defense attorneys know that the vast majority of defendants arrested for violent crimes test positive for illegal drugs , including marijuana .",['COMMUNITY/SOCIATAL_EFFECTS'],2,"['DRUG_POLICY', 'HARM']"
+"After carefully examining the sentence, I would assign the following codes:
+
+* HARM
+* NATIONAL_BUDGET (Note: This may not be directly mentioned in the text, but the phrase ""disastrous"" implies a negative impact on the country's resources and overall well-being)
+* PERSONAL_FREEDOM (Although this is not explicitly stated, the idea of restricting access to marijuana can be seen as limiting personal freedom)
+
+I did not assign codes for:
+
+* LEGAL_DRUGS: This label does not apply as the sentence argues against legalizing marijuana.
+* HEALTH/PSYCHOLOGICAL_EFFECTS: While there may be indirect implications about health effects, this is not a primary concern in the given sentence.
+* MEDICAL_MARIJUANA: Not applicable as there is no mention of medical uses for marijuana.
+* GATEWAY_DRUG: This label does not apply as there is no discussion about marijuana leading to other drug use.
+* CHILD_AND_TEEN_SAFETY, ADDICTION, DRUG_ABUSE, ILLEGAL_TRADE, COMMUNITY/SOCIAL_EFFECTS, DRUG_POLICY: These labels do not directly apply to the given sentence.",llama3.1:8b-instruct-fp16,2024-09-11T11:58:14.715762578Z,stop,5428770854,70643688,206,27539000,240,5240612000,"At a time when we ’re concerned about our lack of academic achievement relative to other countries , legalizing marijuana will be disastrous .",['COMMUNITY/SOCIATAL_EFFECTS'],12,"['DRUG_ABUSE', 'CHILD_AND_TEEN_SAFETY', 'DRUG_POLICY', 'LEGAL_DRUGS', 'HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION', 'MEDICAL_MARIJUANA', 'ILLEGAL_TRADE', 'GATEWAY_DRUG', 'PERSONAL_FREEDOM', 'NATIONAL_BUDGET']"
+"After carefully reading the text, I would assign the following codes:
+
+* PERSONAL_FREEDOM: This label applies because the text implies that politicians are restricting personal freedom by opposing marijuana reform.
+* DRUG_POLICY: This label is relevant as the text discusses arguments made by politicians regarding marijuana policy.
+
+I did not assign any other labels, as they do not seem to be applicable in this context. Let me know if you'd like me to review anything!",llama3.1:8b-instruct-fp16,2024-09-11T11:58:16.94202383Z,stop,2138212206,73844400,207,28519000,92,1991353000,"Most people understand that correlation and causation are not the same thing , but this fact seems lost on many politicians arguing against marijuana reform .",['DRUG_POLICY'],2,"['DRUG_POLICY', 'PERSONAL_FREEDOM']"
+"After analyzing the given sentence, I have assigned the following codes:
+
+* ILLEGAL_TRADE
+* DRUG_POLICY
+
+The reason for these assignments is as follows: 
+
+The phrase ""profit motive gone"" suggests a shift away from a market-based approach to narcotics, implying a change in how they are distributed and regulated. This aligns with the code DRUG_POLICY, which pertains to the regulation or governance of substances.
+
+Additionally, the mention of ""private dispensers of narcotics"" and ""drug peddler would disappear"" suggests that the speaker is envisioning an end to illicit trade in narcotics, which fits with the code ILLEGAL_TRADE.",llama3.1:8b-instruct-fp16,2024-09-11T11:58:20.006697157Z,stop,3018638539,73564194,211,28568000,132,2869869000,"With the profit motive gone , no effort would be made to encourage its use by private dispensers of narcotics , and the drug peddler would disappear .",['ILLEGAL_TRADE'],2,"['DRUG_POLICY', 'ILLEGAL_TRADE']"
+"Based on the provided text, I would assign the following codes:
+
+* HEATH/PSYCHOLOGICAL_EFFECTS
+* ADDICTION
+* MEDICAL_MARIJUANA (implied in the context of ""self-medication"")
+
+The reasoning behind these assignments is as follows:
+
+* The phrase ""young people everywhere are actively seeking out new and creative ways to self-medicate"" suggests that individuals may be using substances, including possibly marijuana, to cope with health or psychological issues. This leads me to code for HEALTH/PSYCHOLOGICAL_EFFECTS.
+* The language used in the sentence implies that these individuals may be attempting to alleviate symptoms or manage their mental health through substance use, which could contribute to addiction. Therefore, ADDICTION is also a relevant code.
+* While not explicitly stated, the context of ""self-medication"" suggests that the issue being addressed may involve medical marijuana as an potential solution. This leads me to code for MEDICAL_MARIJUANA.
+
+No other labels appear to be directly applicable based on this text.",llama3.1:8b-instruct-fp16,2024-09-11T11:58:24.94393857Z,stop,4848134563,36900400,203,28764000,215,4689002000,We are living in a country where young people everywhere are actively seeking out new and creative ways to self-medicate .,['MEDICAL_MARIJUANA'],3,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION', 'MEDICAL_MARIJUANA']"
+"After reviewing the provided markdown codebook, I have assigned the following labels to the given text:
+
+* COMMUNITY/SOCIAL_EFFECTS
+* CHILD_AND_TEEN_SAFETY (although not explicitly mentioned, the issue of squatters implies potential risks for children and teens who may be exposed to these situations)
+
+These labels are applied because the text mentions the impact of marijuana smoking on Jason's properties and his business, which can be related to community or social effects. Additionally, the presence of squatters could potentially involve minors, making CHILD_AND_TEEN_SAFETY a relevant label.
+
+The following labels are not applicable:
+
+* LEGAL_DRUGS (this is more relevant to discussions about marijuana legalization itself)
+* HEALTH/PSYCHOLOGICAL_EFFECTS (there is no mention of any health or psychological effects related to marijuana consumption in the text)
+* NATIONAL_BUDGET, HARM, MEDICAL_MARIJUANA, GATEWAY_DRUG, ADDICTION, DRUG_ABUSE, PERSONAL_FREEDOM, ILLEGAL_TRADE, and DRUG_POLICY are not directly relevant to the context provided.",llama3.1:8b-instruct-fp16,2024-09-11T11:58:30.125604632Z,stop,5133969605,78014067,211,28726000,228,4981397000,"Jason White , 44 , owns a property management company and expressed frustration he has had to deal with marijuana-smoking squatters in some of his properties .",['COMMUNITY/SOCIATAL_EFFECTS'],12,"['DRUG_ABUSE', 'CHILD_AND_TEEN_SAFETY', 'DRUG_POLICY', 'LEGAL_DRUGS', 'HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION', 'MEDICAL_MARIJUANA', 'ILLEGAL_TRADE', 'GATEWAY_DRUG', 'PERSONAL_FREEDOM', 'NATIONAL_BUDGET']"
+"Based on the provided codebook, I would assign the following label(s) to the given sentence:
+
+LEGAL_DRUGS
+
+This is because the sentence mentions ""legalized marijuana"", indicating a shift in the legal status of marijuana from illicit to legal. This change in legality falls under the category of LEGAL_DRUGS.
+
+No other labels appear to be relevant or applicable to this sentence.",llama3.1:8b-instruct-fp16,2024-09-11T11:58:32.028026381Z,stop,1856162165,73766360,201,28553000,79,1707185000,"Furthermore , studies have shown that legalized marijuana will provide nowhere near the economic windfall proclaimed by some proponents .",['NATIONAL_BUDGET'],1,['LEGAL_DRUGS']
+"Based on the given text, I would assign the label NATIONAL_BUDGET. The phrase ""additional tax revenues"" suggests a consideration of how marijuana legalization might impact government finances.",llama3.1:8b-instruct-fp16,2024-09-11T11:58:33.026749157Z,stop,911349885,30418843,190,27100000,36,765498000,It could be a source of additional tax revenues .,['NATIONAL_BUDGET'],1,['NATIONAL_BUDGET']
+"Based on the provided codebook, I would assign the following label(s) to the given sentence:
+
+HEALTH/PSYCHOLOGICAL_EFFECTS 
+
+The mention of a ""potent smell"" suggests that McPheeters is reacting negatively to the odor, which could be an indication of potential health or psychological effects.",llama3.1:8b-instruct-fp16,2024-09-11T11:58:34.650957984Z,stop,1621106537,79765487,202,28579000,66,1423235000,McPheeters bristles at the potent smell of marijuana when she drives past some of the cultivation facilities .,['PERSONAL_FREEDOM'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"Based on the provided text, I would assign the following labels:
+
+* ILLEGAL_TRADE
+* COMMUNITY/SOCIATAL_EFFECTS (as the flourishing of the black market has negative community/societal effects)
+
+These labels apply because the speaker is discussing the consequences of making marijuana illegal again, specifically how it will lead to an increase in the black market and likely have negative impacts on the community.",llama3.1:8b-instruct-fp16,2024-09-11T11:58:36.593556929Z,stop,1897943248,73984485,205,27493000,81,1749946000,"“ You ’re forcing the individuals to go back to the drug dealers , and the black market will flourish even more . ”",['ILLEGAL_TRADE'],2,"['ILLEGAL_TRADE', 'COMMUNITY/SOCIATAL_EFFECTS']"
+"Based on the provided codebook, I would assign the following labels to the given text:
+
+* HARM
+* CHILD_AND_TEEN_SAFETY
+* COMMUNITY/SOCIAL_EFFECTS 
+
+These labels apply because the text mentions harm to Californians in various settings (roadways, schools, workplaces, and communities), which suggests a concern for the social and community impacts of marijuana legalization. The mention of harm also implies negative effects on individuals, particularly children and teens who may be present in these settings.",llama3.1:8b-instruct-fp16,2024-09-11T11:58:39.063156789Z,stop,2379714582,29789169,208,28607000,103,2232353000,"It is a poorly constructed initiative that will cause harm to Californians on our roadways , and in our schools , workplaces and communities . ”","['COMMUNITY/SOCIATAL_EFFECTS', 'DRUG_ABUSE', 'HARM']",2,"['CHILD_AND_TEEN_SAFETY', 'HARM']"
+"Based on the provided codebook, I would assign the following labels to the given text:
+
+* COMMUNITY/SOCIAL_EFFECTS
+* CHILD_AND_TEEN_SAFETY (note: this label may not be directly relevant, but the concern about a neighborhood being filled with people who regularly smoke marijuana could imply a potential impact on children and teens)
+* PERSONAL_FREEDOM
+
+I did not assign labels such as HEALTH/PSYCHOLOGICAL_EFFECTS or ADDICTION because they are not directly implied by the text. The text mentions the presence of regular marijuana smokers in a neighborhood, which is more related to community/societal effects than individual health or addiction. Similarly, PERSONAL_FREEDOM is relevant as the text implies that living in such an environment might be undesirable for some individuals.",llama3.1:8b-instruct-fp16,2024-09-11T11:58:42.808857711Z,stop,3741302772,78045128,196,26847000,163,3539075000,Would you want to live in a neighborhood filled with people who regularly smoke marijuana ?,['COMMUNITY/SOCIATAL_EFFECTS'],4,"['CHILD_AND_TEEN_SAFETY', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION', 'PERSONAL_FREEDOM']"
+"Based on the provided codebook and example sentence:
+
+Addiction 
+
+This sentence primarily focuses on the addictive potential of marijuana, which aligns with the ""ADDICTION"" label.",llama3.1:8b-instruct-fp16,2024-09-11T11:58:43.827133894Z,stop,931659846,74135219,191,26884000,37,786049000,"First , marijuana is far more likely to cause addiction .",['ADDICTION'],1,['ADDICTION']
+"Based on the provided markdown codebook, I would assign the following labels to the given text:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS (impairs the immune system, elevates the risk of heart attack)
+* HARM (causes respiratory and brain damage)
+
+These labels are directly related to the health consequences mentioned in the text.",llama3.1:8b-instruct-fp16,2024-09-11T11:58:45.568259444Z,stop,1694847626,30163307,209,27161000,70,1506954000,"Consumption of marijuana impairs the immune system and short-term memory , elevates the risk of heart attack , and causes respiratory and brain damage .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],2,"['HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"Based on the provided codebook, I would assign the following labels to the given sentence:
+
+* CHILD_AND_TEEN_SAFETY
+* HARM
+* ADDICTION 
+
+These labels are applicable as the sentence mentions ""damaged young people"", which implies harm and potential addiction. It also touches on the safety of children and teenagers.",llama3.1:8b-instruct-fp16,2024-09-11T11:58:47.246543126Z,stop,1630869810,73944524,191,27052000,69,1484160000,Increased marijuana use will mean millions more damaged young people .,['CHILD_AND_TEEN_SAFETY'],3,"['CHILD_AND_TEEN_SAFETY', 'HARM', 'ADDICTION']"
+"After carefully reading the text and considering the provided codebook, I would assign the following labels:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS: This label applies because the text suggests that marijuana use is portrayed as ""risk-free"", implying a lack of awareness about potential negative health or psychological effects.
+
+I did not assign any other labels because they do not directly relate to the specific claim being made in this sentence. For example, PERSONAL_FREEDOM might be relevant if the text discussed restrictions on individual autonomy related to marijuana use, but it is not applicable here. Similarly, GATEWAY_DRUG and CHILD_AND_TEEN_SAFETY are not directly relevant as there is no mention of these topics.
+
+Let me know if you'd like me to proceed with coding additional sentences!",llama3.1:8b-instruct-fp16,2024-09-11T11:58:50.91378106Z,stop,3578102772,30474515,194,27592000,158,3431028000,Popular culture reinforces this view portraying use generally as a risk-free endeavor .,['HARM'],4,"['CHILD_AND_TEEN_SAFETY', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'GATEWAY_DRUG', 'PERSONAL_FREEDOM']"
+"Based on the provided codebook, I would assign the following labels to the given text:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS: This label applies because the text mentions that marijuana's use ""significantly impairs bodily and mental functions"".
+* ADDICTION: This label is also applicable as the text explicitly states that marijuana is addictive.
+
+Note that I have not assigned any other labels from the codebook, as they do not appear to be relevant to the specific content of the given text.",llama3.1:8b-instruct-fp16,2024-09-11T11:58:53.317581386Z,stop,2398465854,74507719,201,27670000,102,2206848000,Scientific research is clear that marijuana is addictive and that its use significantly impairs bodily and mental functions .,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION']",2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION']"
+"Based on the given codebook and example sentence, I would assign the following codes:
+
+* ADDICTION
+* HEALTH/PSYCHOLOGICAL_EFFECTS
+
+The sentence implies that regular marijuana use leads to negative effects on cognitive function or intelligence, which is a potential consequence of addiction. The label ADDICTION applies because it suggests a pattern of behavior related to substance use.
+
+Additionally, the label HEALTH/PSYCHOLOGICAL_EFFECTS is applicable as it refers to the perceived negative impact of marijuana use on individuals' well-being or mental faculties.",llama3.1:8b-instruct-fp16,2024-09-11T11:58:55.983293133Z,stop,2575459067,73789033,197,27847000,112,2429231000,"So , there 's a good reason most habitual marijuana users come off as stupid .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION']"
+"After carefully analyzing the sentence ""Time to End the Drug War"", I would assign the following codes:
+
+* ILLEGAL_TRADE
+* DRUG_POLICY
+* PERSONAL_FREEDOM 
+
+The phrase ""End the Drug War"" suggests a critique of the current policy and laws surrounding drugs, which is closely related to DRUG_POLICY. Additionally, ending the drug war could be seen as an attempt to legalize or reduce restrictions on marijuana, thereby impacting ILLEGAL_TRADE. Finally, the notion of ""ending"" implies a desire for greater personal freedom, which is tied to PERSONAL_FREEDOM.
+
+No other labels from the codebook seem to apply directly to this sentence.",llama3.1:8b-instruct-fp16,2024-09-11T11:58:59.163033041Z,stop,3133579146,30908936,187,24864000,136,2947898000,Time to End the Drug War .,['DRUG_POLICY'],3,"['DRUG_POLICY', 'ILLEGAL_TRADE', 'PERSONAL_FREEDOM']"
+"After carefully reviewing the text, I assign the following labels:
+
+* ADDICTION
+* GATEWAY_DRUG
+
+These two labels apply because the text explicitly mentions the opioid addiction crisis and frames marijuana as a ""gateway drug"" that can lead to more dangerous habits. The other labels in the codebook do not seem to be relevant to this specific passage. Let me know if you have any questions or need further clarification!",llama3.1:8b-instruct-fp16,2024-09-11T11:59:01.220751822Z,stop,2009141661,74010266,208,28166000,86,1860357000,"Opponents have cited the state ’s opioid addiction crisis , warning that marijuana is a “ gateway drug ” that leads to more dangerous habits .",['GATEWAY_DRUG'],2,"['ADDICTION', 'GATEWAY_DRUG']"
+"Based on the provided text, I would assign the following labels:
+
+* DRUG_ABUSE
+* HARM (as the study links marijuana use to negative consequences)
+* PERSONAL_FREEDOM (implied by the focus on negative effects, suggesting that the speaker is arguing against personal freedom to use marijuana)
+
+These labels are assigned based on the text's mention of ""criminal behavior"", which suggests a link to drug abuse, and the overall tone and content implying harm caused by marijuana use.",llama3.1:8b-instruct-fp16,2024-09-11T11:59:03.600933265Z,stop,2293093036,29766798,210,28407000,99,2145396000,"It is reaffirmed by several studies that have linked marijuana use to criminal behavior , unemployment , lower incomes , greater welfare dependence , and lower life satisfaction .",['COMMUNITY/SOCIATAL_EFFECTS'],3,"['DRUG_ABUSE', 'HARM', 'PERSONAL_FREEDOM']"
+"Based on the provided codebook, I would assign the following codes to the given text:
+
+* CHILD_AND_TEEN_SAFETY: This label applies because the text mentions ""young people"" being trapped by drug busts.
+* DRUG_ABUSE: This label is relevant as it relates to the broader issue of drug-related law enforcement and its consequences.
+
+I did not assign any other labels as they do not directly apply to this specific text.",llama3.1:8b-instruct-fp16,2024-09-11T11:59:05.743175953Z,stop,2095315906,73777471,198,28578000,90,1947189000,Drug busts often trap young people in a flawed system that turns them into lifelong criminals .,['COMMUNITY/SOCIATAL_EFFECTS'],2,"['DRUG_ABUSE', 'CHILD_AND_TEEN_SAFETY']"
+"Based on the provided codebook, I assign the following labels to the given sentence:
+
+* CHILD_AND_TEEN_SAFETY: This label is relevant because the sentence mentions ""innocent patrons"" which could imply minors or non-smoking adults who may be exposed to marijuana smoke in public places.
+* COMMUNITY/SOCIATAL_EFFECTS: This label is also applicable as it relates to the potential social impact of marijuana legalization, specifically how public spaces like bars might change if marijuana use becomes more widespread.
+
+Note that I did not assign any other labels because the sentence does not explicitly mention health effects, national budget implications, or other relevant aspects.",llama3.1:8b-instruct-fp16,2024-09-11T11:59:08.796740703Z,stop,2964992828,30833682,192,27810000,130,2818725000,"Public places , such as bars , would expose innocent patrons .",['PERSONAL_FREEDOM'],2,"['CHILD_AND_TEEN_SAFETY', 'COMMUNITY/SOCIATAL_EFFECTS']"
+"Based on the provided markdown codebook, I would assign the following labels to the given text:
+
+* NATIONAL_BUDGET
+* HEALTH/PSYCHOLOGICAL_EFFECTS
+
+These two labels apply because the text mentions the potential economic benefits (reduction in cost of drug control) and drawbacks (higher expenditure on public health) of marijuana legalization.",llama3.1:8b-instruct-fp16,2024-09-11T11:59:10.526128619Z,stop,1724732000,72226197,227,29185000,71,1533879000,The economic argument is also based on poor fiscal logic : any reduction in the cost of drug control ( due to lower law enforcement expenditure ) will be offset by much higher expenditure on public health ( due to the surge of drug consumption ) .,['NATIONAL_BUDGET'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'NATIONAL_BUDGET']"
+"After analyzing the given text, I would assign the following labels:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS
+* ADDICTION (due to the mention of marijuana being ""up to five times stronger"" which implies a potential increase in potency and potentially addictive effects)
+
+Note that I did not assign any other label as the text does not explicitly address concerns about the national budget, harm, medical marijuana, gateway drug, child and teen safety, personal freedom, illegal trade, community/social effects, or drug policy. However, HEALTH/PSYCHOLOGICAL_EFFECTS and ADDICTION are relevant given the discussion of marijuana's potency and potential impact on individuals.",llama3.1:8b-instruct-fp16,2024-09-11T11:59:13.65711022Z,stop,3085387032,73861537,228,28868000,135,2936813000,"Researchers at the University of Mississippi ’s Natural Center for Natural Products Research have found that marijuana available today may be up to five times stronger than the stuff available back in the 1970s , ’80s , and ’90s .",['HARM'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION']"
+"After carefully reading the sentence, I would assign the following labels:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS
+* CHILD_AND_TEEN_SAFETY
+* COMMUNITY/SOCIAL_EFFECTS
+
+These labels apply because the text mentions ""poor school performance"", ""truancy"", and ""serious impairment"" which are all related to health and psychological effects on children and teenagers. The social consequences mentioned also fit under the category of community/social effects.
+
+Note that I did not assign any other label, such as ADDICTION or DRUG_ABUSE, because they do not seem directly relevant to this sentence.",llama3.1:8b-instruct-fp16,2024-09-11T11:59:16.618069489Z,stop,2866351221,30116318,227,27934000,125,2718933000,"Furthermore , the Dutch Ministry of Health , Welfare and Sport has expressed “ concern about drug and alcohol use among young people and the social consequences , which range from poor school performance and truancy to serious impairment , including brain damage . ”","['HEALTH/PSYCHOLOGICAL_EFFECTS', 'COMMUNITY/SOCIATAL_EFFECTS', 'CHILD_AND_TEEN_SAFETY']",4,"['DRUG_ABUSE', 'CHILD_AND_TEEN_SAFETY', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION']"
+"Based on the provided codebook, I would assign the following labels to the given text:
+
+* HARM: The phrase ""experiment in marijuana prohibition has failed spectacularly"" implies that the prohibition of marijuana has caused harm or negative consequences.
+* DRUG_POLICY: This label is relevant as the text discusses the failure of a specific drug policy (marijuana prohibition) in the United States.
+
+These two labels capture the essence of the argument presented in the sentence, which critiques the current approach to regulating marijuana.",llama3.1:8b-instruct-fp16,2024-09-11T11:59:18.980033802Z,stop,2357257286,35515841,193,26816000,102,2205312000,The United States ’ experiment in marijuana prohibition has failed spectacularly .,['DRUG_POLICY'],2,"['DRUG_POLICY', 'HARM']"
+"Based on the provided codebook and the given sentence, I would assign the following labels:
+
+* ILLEGAL_TRADE (because the sentence mentions the potential for organized crime or ""the mob"" to take over if marijuana is made illegal)
+
+This label seems most directly applicable as it references a specific concern about what might happen if marijuana were outlawed.",llama3.1:8b-instruct-fp16,2024-09-11T11:59:20.716240543Z,stop,1648550957,69957835,194,27311000,70,1506824000,If the product were outlawed there the mob would gladly step in .,['ILLEGAL_TRADE'],1,['ILLEGAL_TRADE']
+"Based on the provided codebook, I would assign the label:
+
+HEALTH/PSYCHOLOGICAL_EFFECTS
+
+This is because the text mentions a person giving up on their ""prescriptions"", which implies that they are likely experiencing some sort of health or psychological issue related to these medications. 
+
+Note: The other labels don't seem directly applicable in this case, as there's no mention of marijuana legalization, budget, safety concerns, trade, policy, etc.",llama3.1:8b-instruct-fp16,2024-09-11T11:59:22.96198019Z,stop,2198029058,73640891,196,26922000,95,2050859000,The 62-year-old says she has given up on most of her prescriptions .,['MEDICAL_MARIJUANA'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"Based on the provided markdown codebook, I would assign the following labels to the given sentence:
+
+* HARM: The sentence explicitly states that marijuana is ""dangerous"", which implies harm.
+* DRUG_POLICY: The sentence refers to federal law and the considered judgment of medical science, indicating a policy position regarding marijuana.
+
+Note that I did not select HEALTH/PSYCHOLOGICAL_EFFECTS as it is related to the beneficial effects of marijuana, which are explicitly stated as non-existent in this sentence.",llama3.1:8b-instruct-fp16,2024-09-11T11:59:25.41524791Z,stop,2363660905,29604766,220,28746000,102,2216313000,"Accordingly , federal law , representing the considered judgment of medical science and the nation ’s two political branches of government , takes the unequivocal position that marijuana is dangerous and has no significant beneficial uses .",['HARM'],3,"['DRUG_POLICY', 'HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"Based on the provided codebook, I would assign the following label(s) to the given text:
+
+* ILLEGAL_TRADE
+
+This is because the sentence mentions the huge profits being made from drugs that are ""illegal"" and grown in South America for sale to a neighboring country. The focus is on the economic aspect of drug trade as a result of prohibition, which aligns with the ILLEGAL_TRADE label.
+
+Note: Other labels like GATEWAY_DRUG, DRUG_ABUSE, or ADDICTION do not appear relevant in this context since they refer to issues related to marijuana use, whereas the sentence discusses cocaine and other South American-grown drugs.",llama3.1:8b-instruct-fp16,2024-09-11T11:59:28.51873208Z,stop,3098549136,65434194,207,27013000,134,2916648000,The huge profits to be made from cocaine and other South American-grown drugs are largely because they are illegal in the wealthy neighbouring nation .,['ILLEGAL_TRADE'],4,"['DRUG_ABUSE', 'ADDICTION', 'ILLEGAL_TRADE', 'GATEWAY_DRUG']"
+"After carefully reading the provided text, I would assign the following codes:
+
+* HARM
+* CHILD_AND_TEEN_SAFETY
+
+These labels are applicable because the text mentions a negative consequence (Alaska's teens using marijuana at more than twice the rate of other youths nationally) associated with marijuana legalization, specifically for children and teenagers.",llama3.1:8b-instruct-fp16,2024-09-11T11:59:30.223370665Z,stop,1615943530,74222206,213,28717000,68,1468570000,Alaska 's experiment with legalization in the 1970s led to the state 's teens using marijuana at more than twice the rate of other youths nationally .,['CHILD_AND_TEEN_SAFETY'],2,"['CHILD_AND_TEEN_SAFETY', 'HARM']"
+"Here is the coding for the provided sentence:
+
+* HARM: ""as use of many different types of drugs will increase, as will marijuana use"" suggests that an increase in drug use may lead to negative consequences or harm.
+* ILLEGAL_TRADE: The mention of ""cheap marijuana flooding the market"" implies a connection to illicit trade and potentially organized crime.
+* COMMUNITY/SOCIATAL_EFFECTS: The impact on the community, particularly in California, is hinted at by the idea that cheaper marijuana will be more widely available.
+
+Let me know if you would like me to clarify or elaborate on these assignments!",llama3.1:8b-instruct-fp16,2024-09-11T11:59:33.136481787Z,stop,2867641384,37598260,208,27280000,123,2670973000,"As cheap marijuana floods the market both in and outside of California , use of many different types of drugs will increase , as will marijuana use .",['COMMUNITY/SOCIATAL_EFFECTS'],3,"['HARM', 'ILLEGAL_TRADE', 'COMMUNITY/SOCIATAL_EFFECTS']"
+"Based on the provided codebook and the given text, I would assign the following label(s):
+
+* HARM
+* CHILD_AND_TEEN_SAFETY 
+
+The phrase ""wreak more havoc"" implies harm, which is a key aspect of this category. Additionally, the mention of being ""off the streets"" suggests a concern for the safety of children and teenagers, who may be particularly vulnerable to negative effects associated with marijuana use.",llama3.1:8b-instruct-fp16,2024-09-11T11:59:35.237029044Z,stop,2053268626,73873356,197,27951000,88,1905610000,"At a minimum , they will be off the streets , unable to wreak more havoc .",['ILLEGAL_TRADE'],2,"['CHILD_AND_TEEN_SAFETY', 'HARM']"
+"Based on the provided codebook, I would assign the following labels to the given text:
+
+* LEGAL_DRUGS
+* DRUG_POLICY
+
+The phrase ""legalization of harder drugs"" suggests a progression towards making more substances legal, which aligns with LEGAL_DRUGS. Additionally, the context implies a discussion about how drug policies are being shaped or advocated for, which falls under DRUG_POLICY.
+
+Note that I did not assign any other labels as they do not seem to be relevant to this particular text.",llama3.1:8b-instruct-fp16,2024-09-11T11:59:37.730470294Z,stop,2446100148,73271174,199,28150000,106,2298769000,"Step-by-step , more drugs will gain acceptance , with advocacy of the legalization of harder drugs .","['GATEWAY_DRUG', 'GATEWAY_DRUG']",2,"['DRUG_POLICY', 'LEGAL_DRUGS']"
+"After analyzing the given sentence, I have assigned the following labels:
+
+* ILLEGAL_TRADE
+* COMMUNITY/SOCIATAL_EFFECTS
+
+The sentence implies that the prohibition of alcohol led to a rise in illegal activities and gang warfare, which had significant community and societal effects. The formation of notorious criminals like Al Capone is also mentioned, further supporting these two labels.
+
+Note: I did not assign any other labels as they do not directly apply to the given context.",llama3.1:8b-instruct-fp16,2024-09-11T11:59:40.027590041Z,stop,2207849877,29705569,219,28533000,95,2060895000,"When alcohol use was outlawed during prohibition , it gave rise to gang warfare and spurred the formation of some of the most well known criminals of the era , among them the infamous Al Capone .",['LEGAL_DRUGS'],2,"['ILLEGAL_TRADE', 'COMMUNITY/SOCIATAL_EFFECTS']"
+"After analyzing the given text, I have assigned the following labels:
+
+* HARM: This label applies as the text mentions ""driving high"" being an equally dangerous problem as drunk driving, indicating a concern for harm to individuals and society.
+* CHILD_AND_TEEN_SAFETY: While the text does not specifically mention children or teenagers, it implies that they may be at risk of harm due to impaired drivers. However, since this is a secondary implication rather than a direct reference, I will assign this label with caution.
+
+The following labels do not apply:
+
+* LEGAL_DRUGS (as the context is about marijuana use, but it's not explicitly mentioned as a legal drug)
+* HEALTH/PSYCHOLOGICAL_EFFECTS (no specific health or psychological effects are discussed in relation to marijuana use)
+* NATIONAL_BUDGET, MEDICAL_MARIJUANA, GATEWAY_DRUG, ILLEGAL_TRADE, COMMUNITY/SOCIATAL_EFFECTS, DRUG_POLICY (these labels do not seem relevant to the context of the text)
+
+Let me know if you'd like me to clarify or re-code anything!",llama3.1:8b-instruct-fp16,2024-09-11T11:59:45.238824635Z,stop,5206562616,73371296,224,28799000,229,5014193000,"While drunk driving is a major problem in society , despite all the stiff penalties and education , equally dangerous is “ driving high ” , but this is more difficult to detect , unless the user has been smoking in the car .",['DRUG_ABUSE'],10,"['CHILD_AND_TEEN_SAFETY', 'DRUG_POLICY', 'LEGAL_DRUGS', 'HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'MEDICAL_MARIJUANA', 'ILLEGAL_TRADE', 'GATEWAY_DRUG', 'NATIONAL_BUDGET', 'COMMUNITY/SOCIATAL_EFFECTS']"
+"Based on the provided text, I would assign the following labels:
+
+* HARM (referring to the potential negative consequences of increased crime, drug use, and social dislocation)
+* COMMUNITY/SOCIAL_EFFECTS (as these effects are being described as impacting the community and society at large)
+* DRUG_POLICY (since the discussion is centered around the policy implications of marijuana legalization)
+
+Note that I have not assigned labels related to medical aspects (MEDICAL_MARIJUANA), personal freedom (PERSONAL_FREEDOM), or other topics, as they do not appear to be relevant to this specific text.",llama3.1:8b-instruct-fp16,2024-09-11T11:59:48.196549611Z,stop,2868920896,74008383,213,28721000,125,2721695000,"Thus , marijuana legalization will increase crime , drug use , and social dislocation across the state of California — the exact opposite of what pro-legalization advocates promise .",['COMMUNITY/SOCIATAL_EFFECTS'],4,"['DRUG_POLICY', 'HARM', 'MEDICAL_MARIJUANA', 'PERSONAL_FREEDOM']"
+"After analyzing the given text, I have assigned the following labels:
+
+* MEDICAL_MARIJUANA: This label applies because the text mentions ""nonprofit medical-marijuana dispensary companies"" and implies that their interests may be influenced by potential changes to marijuana regulation.
+
+Note that I did not assign any other labels as they do not directly relate to the context of the text. For example, there is no mention of health or psychological effects, addiction, or personal freedom, so those labels are not applicable.",llama3.1:8b-instruct-fp16,2024-09-11T11:59:50.640312083Z,stop,2396623374,69912008,220,27179000,104,2253089000,"Three of the commission members would be representatives of current , nonprofit medical-marijuana dispensary companies ; presumably , they would not be in a rush to create a whole bunch of new competition for themselves .",['MEDICAL_MARIJUANA'],1,['MEDICAL_MARIJUANA']
+"Based on the given codebook and the example sentence ""Smoking marijuana may also help slow the progression of glaucoma,"" I would assign the following codes:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS
+* MEDICAL_MARIJUANA 
+
+These two labels apply as they directly relate to the health benefits of marijuana, specifically its potential therapeutic use in slowing the progression of glaucoma.",llama3.1:8b-instruct-fp16,2024-09-11T11:59:52.645576468Z,stop,1917883397,31826759,194,27765000,82,1770544000,Smoking marijuana may also help slow the progression of glaucoma .,['MEDICAL_MARIJUANA'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'MEDICAL_MARIJUANA']"
+"Based on the provided codebook, I would assign the following labels to the given text:
+
+* HARM
+* HEALTH/PSYCHOLOGICAL_EFFECTS
+
+The first label is relevant because the text mentions ""negative health effects"", which suggests that the speaker is concerned with the potential harm caused by increased drug use.
+
+The second label is also applicable as it directly references ""health effects"".",llama3.1:8b-instruct-fp16,2024-09-11T11:59:54.548901876Z,stop,1900199926,80900149,189,25988000,79,1703691000,Increased drug use leads to negative health effects .,['HEALTH/PSYCHOLOGICAL_EFFECTS'],2,"['HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"Based on the provided codebook and the given sentence, I would assign the following codes:
+
+PERSONAL_FREEDOM
+
+The reasoning behind this is that the question presented implies a concern about individual freedom to make choices about one's own consumption habits. The hypothetical scenario of the government limiting coffee or cheesecake intake suggests an argument in favor of personal autonomy and the right to make decisions about one's own life, which aligns with the PERSONAL_FREEDOM label.
+
+The other labels do not appear relevant to this particular text as it does not discuss marijuana legalization, harm, health effects, budget implications, etc.",llama3.1:8b-instruct-fp16,2024-09-11T11:59:57.457743564Z,stop,2821925773,73830458,201,28646000,123,2674895000,Would you want the government limiting how much coffee you can drink or how much cheesecake you take in ?,['PERSONAL_FREEDOM'],1,['PERSONAL_FREEDOM']
+"Based on the provided text, I assign the following labels:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS: This label applies as the text mentions a specific health effect (restricted blood vessel flow) associated with marijuana use.
+* ADDICTION: Although not explicitly stated, the mention of abstinence after a month suggests that the study may be investigating potential withdrawal symptoms or addictive properties of marijuana. Therefore, I include this label.
+
+Note that no other labels appear to apply in this context, as there is no direct mention of legal or illegal status (LEGAL_DRUGS), medical uses (MEDICAL_MARIJUANA), social or community effects (COMMUNITY/SOCIAL_EFFECTS), economic or budgetary concerns (NATIONAL_BUDGET), gateway theories (GATEWAY_DRUG), child and teen safety (CHILD_AND_TEEN_SAFETY), personal freedom (PERSONAL_FREEDOM), illegal trade (ILLEGAL_TRADE), or broader drug policy (DRUG_POLICY) issues.",llama3.1:8b-instruct-fp16,2024-09-11T12:00:02.110959279Z,stop,4605182527,30231713,212,28709000,202,4416010000,"In fact , one study has shown that blood vessels in the brain of a marijuana smoker experience restricted flow , which can continue even after a month of abstinence .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],10,"['CHILD_AND_TEEN_SAFETY', 'DRUG_POLICY', 'LEGAL_DRUGS', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION', 'MEDICAL_MARIJUANA', 'ILLEGAL_TRADE', 'GATEWAY_DRUG', 'PERSONAL_FREEDOM', 'NATIONAL_BUDGET']"
+"Based on the provided markdown codebook, I would assign the following labels to the given sentence:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS
+* MEDICAL_MARIJUANA 
+
+The sentence mentions a personal experience of failing to find relief with prescriptions, and finding success with marijuana, which is often cited as a medical benefit.",llama3.1:8b-instruct-fp16,2024-09-11T12:00:03.790413491Z,stop,1630836430,70047041,192,27627000,69,1487478000,She claims where prescriptions failed her but marijuana has n’t .,['MEDICAL_MARIJUANA'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'MEDICAL_MARIJUANA']"
+"Based on the provided codebook and example sentence, I would assign the following labels:
+
+* PERSONAL_FREEDOM: The statement implies that prohibition is ineffective in controlling personal behavior, which aligns with arguments related to individual freedom.
+
+* ILLEGAL_TRADE: Although not explicitly mentioned, the sentence implies a thriving black market for marijuana, which is often cited as an argument against its legalization.",llama3.1:8b-instruct-fp16,2024-09-11T12:00:05.733886944Z,stop,1854643422,30378545,209,29423000,79,1705452000,"“ After three decades , criminalization has not affected general usage ; about 30 million Americans use marijuana every year , ” the Times points out .",['COMMUNITY/SOCIATAL_EFFECTS'],2,"['ILLEGAL_TRADE', 'PERSONAL_FREEDOM']"
+"After examining the text, I would assign the following codes:
+
+* NATIONAL_BUDGET
+* ILLEGAL_TRADE (due to the mention of ""prohibition violations"")
+
+The sentence mentions a significant financial figure ($30 billion) and references the impact of holding prisoners on prohibition-related charges, which suggests that the discussion is related to the economic costs associated with enforcing drug laws.",llama3.1:8b-instruct-fp16,2024-09-11T12:00:07.553333111Z,stop,1815493057,75776453,213,27693000,75,1622096000,"This $ 30 billion figure rises dramatically once other issues , such as the economic impact of holding 400,000 prisoners on prohibition violations , are factored in .",['NATIONAL_BUDGET'],2,"['ILLEGAL_TRADE', 'NATIONAL_BUDGET']"
+"Based on the provided markdown codebook, I would assign the following labels to the given text:
+
+* CHILD_AND_TEEN_SAFETY
+* ILLEGAL_TRADE (Note: Although ""illegal trade"" is mentioned, it's more of an outcome of the prohibition, rather than a primary argument against legalization)
+* COMMUNITY/SOCIAL_EFFECTS 
+* DRUG_POLICY
+
+These labels capture the concerns about the impact of prohibition on children and teens, the creation of a huge prison-industrial complex, and the broader social implications of drug policy.",llama3.1:8b-instruct-fp16,2024-09-11T12:00:10.202542278Z,stop,2559626823,78727757,198,27888000,111,2408520000,"Prohibition has robbed children of their futures , while building a huge prison-industrial complex .",['COMMUNITY/SOCIATAL_EFFECTS'],3,"['CHILD_AND_TEEN_SAFETY', 'DRUG_POLICY', 'ILLEGAL_TRADE']"
+"A coding task!
+
+Here are my assignments for the given text:
+
+* CHILD_AND_TEEN_SAFETY: This label applies because the text describes a situation where children (a ""little girl"") are being enticed by marijuana-infused candies, which could be considered a safety concern.
+* PERSONAL_FREEDOM: This label doesn't seem to apply directly in this context, as there is no explicit mention of personal freedom. However, it's possible to argue that the display of these candies in a public setting might be seen as infringing on parental freedom or autonomy (e.g., mortifying her mother).
+* ILLEGAL_TRADE: This label applies because the text mentions ""pink pot candies"", which are likely an illicit substance.
+
+I did not assign any other labels, as they do not seem to apply to this specific context.",llama3.1:8b-instruct-fp16,2024-09-11T12:00:14.124145345Z,stop,3874910478,32542365,213,28651000,169,3680349000,"In a display window , scrumptious-looking , pink pot candies entice a little girl on her way to the toy store next door , mortifying her mother .",['CHILD_AND_TEEN_SAFETY'],3,"['CHILD_AND_TEEN_SAFETY', 'ILLEGAL_TRADE', 'PERSONAL_FREEDOM']"
+"Based on the provided text, I would assign the following labels:
+
+* MEDICAL_MARIJUANA
+* PERSONAL_FREEDOM (implied by ""countries all over the world"" suggesting a shift towards liberalization or decriminalization)
+
+I do not see any indication of other labels such as LEGAL_DRUGS (the text implies that marijuana is still a controlled substance in many countries), HEALTH/PSYCHOLOGICAL_EFFECTS, NATIONAL_BUDGET, HARM, GATEWAY_DRUG, CHILD_AND_TEEN_SAFETY, ADDICTION, DRUG_ABUSE, ILLEGAL_TRADE, COMMUNITY/SOCIATAL_EFFECTS, or DRUG_POLICY being relevant to this specific text.",llama3.1:8b-instruct-fp16,2024-09-11T12:00:17.517259331Z,stop,3346141830,70512835,207,27806000,147,3201253000,"Now , countries all over the world have licensed the drug for medical purposes , and a few are going still further ( see article ) .",['MEDICAL_MARIJUANA'],13,"['DRUG_ABUSE', 'CHILD_AND_TEEN_SAFETY', 'DRUG_POLICY', 'LEGAL_DRUGS', 'HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION', 'MEDICAL_MARIJUANA', 'ILLEGAL_TRADE', 'GATEWAY_DRUG', 'PERSONAL_FREEDOM', 'NATIONAL_BUDGET', 'COMMUNITY/SOCIATAL_EFFECTS']"
+"Based on the provided codebook, I will assign the following labels to the given text:
+
+* PERSONAL_FREEDOM
+* COMMUNITY/SOCIAL_EFFECTS
+
+The statement suggests that legalization of marijuana could lead to a change in cultural attitudes, implying a potential impact on personal freedom and social norms within communities.",llama3.1:8b-instruct-fp16,2024-09-11T12:00:19.133272024Z,stop,1525490719,31228423,199,28294000,64,1377738000,"Legalization of marijuana would further shift the culture to more of a "" anything goes "" mentality .",['COMMUNITY/SOCIATAL_EFFECTS'],1,['PERSONAL_FREEDOM']
+"Based on the provided markdown codebook, I would assign the following labels to the given text:
+
+* GATEWAY_DRUG: This label applies as the speaker is suggesting that legalizing marijuana for adults will lead more children to use marijuana.
+* CHILD_AND_TEEN_SAFETY: This label also applies as the speaker is explicitly mentioning the potential harm to children and teens by blunting the message about the dangers of marijuana.
+
+I have not assigned labels related to health/psychological effects, medical marijuana, or national budget, as they do not appear to be relevant to this particular argument. 
+
+Please let me know if you would like me to revise my coding decision based on further clarification or additional instructions!",llama3.1:8b-instruct-fp16,2024-09-11T12:00:22.419756463Z,stop,3282081537,71929475,215,27352000,142,3093425000,"It should be intuitively obvious to everyone that if you legalize marijuana for adults , more children will use marijuana because the message that it 's dangerous will be blunted . """,['CHILD_AND_TEEN_SAFETY'],2,"['CHILD_AND_TEEN_SAFETY', 'GATEWAY_DRUG']"
+"After carefully reading the text, I would assign the following labels:
+
+* ILLEGAL_TRADE
+* DRUG_POLICY
+
+The text implies that if marijuana is legalized in California, there will be an opportunity for entrepreneurs to exploit the market and engage in illicit activities, which falls under ILLEGAL_TRADE. Additionally, it touches on the idea of government policy and regulation (DRUG_POLICY), as the mention of ""gaming the system"" suggests a concern about how legalization might be implemented or enforced.",llama3.1:8b-instruct-fp16,2024-09-11T12:00:24.8277069Z,stop,2320711171,78615050,201,28588000,100,2168915000,"Furthermore , should California legalize marijuana , other entrepreneurs will inevitably attempt to enter the marketplace and game the system .",['ILLEGAL_TRADE'],2,"['DRUG_POLICY', 'ILLEGAL_TRADE']"
+"After carefully reading the text, I would assign the following labels:
+
+* ILLEGAL_TRADE (because the text mentions ""recreational pot industry"", implying a business or trade that is currently illicit)
+* DRUG_POLICY (because the text refers to state gambling regulators and their concerns about businesses getting involved in the recreational pot industry, indicating a policy issue)
+
+I did not assign any other labels because they do not seem to be relevant to the content of the text. For example, there is no mention of health effects, personal freedom, or community/societal effects related to marijuana legalization.",llama3.1:8b-instruct-fp16,2024-09-11T12:00:27.652697631Z,stop,2778933847,32278609,218,26471000,119,2587990000,"The casino industry lobby , which registered its opposition on Friday , noted that state gambling regulators who are strict about offering up casino licenses are wary of those businesses getting involved in the recreational pot industry .",['DRUG_POLICY'],2,"['DRUG_POLICY', 'ILLEGAL_TRADE']"
+"After carefully analyzing the provided text, I have assigned the following codes:
+
+* PERSONAL_FREEDOM (repealing prohibition would imply a greater sense of personal freedom for individuals)
+* MEDICAL_MARIJUANA (the statement implies that marijuana laws being loosened would help people, likely those in need of medical cannabis)
+
+I did not code any other labels as they do not directly apply to the text.",llama3.1:8b-instruct-fp16,2024-09-11T12:00:29.660297302Z,stop,1960901452,70383641,202,28890000,84,1816095000,"Loosening marijuana laws would help many of these people , and repealing prohibition would help all of them .",['DRUG_POLICY'],2,"['MEDICAL_MARIJUANA', 'PERSONAL_FREEDOM']"
+"After analyzing the given text, I would assign the following labels:
+
+* NATIONAL_BUDGET
+* DRUG_POLICY
+
+The text mentions ""national administrations seeking new sources of revenue"" which implies a connection to national budget and financial concerns. Additionally, the mention of ""argument regarding marijuana legalization"" can be inferred to relate to drug policy discussions. 
+
+Note that I did not assign any other labels as they do not appear to be relevant to this specific argument.",llama3.1:8b-instruct-fp16,2024-09-11T12:00:31.88851175Z,stop,2140797196,31916221,200,28296000,92,1994066000,"This argument is gaining favour , as national administrations seek new sources of revenue during the current economic crisis .",['NATIONAL_BUDGET'],2,"['DRUG_POLICY', 'NATIONAL_BUDGET']"
+"After carefully reviewing the given text, I would assign the following labels:
+
+* HARM: This label applies as the text mentions that alcohol and cigarettes (cigars) cause a significant number of deaths in America.
+* ILLEGAL_TRADE: Although not explicitly mentioned, it's worth noting that this label might be applicable if we were to consider the broader context of tobacco regulation. However, since the text does not directly relate to marijuana or its trade, I will refrain from assigning this label.
+
+Note that labels like LEGAL_DRUGS, ADDICTION, and DRUG_POLICY do not seem relevant in this specific text, as it primarily discusses the harm caused by alcohol and cigarettes rather than marijuana.",llama3.1:8b-instruct-fp16,2024-09-11T12:00:35.178196717Z,stop,3285592404,73024452,207,28601000,142,3094478000,Alchohol kills 30k-40k Americans each year and cigars/cigarettes kill 480k americans each year .,['LEGAL_DRUGS'],5,"['DRUG_POLICY', 'LEGAL_DRUGS', 'HARM', 'ADDICTION', 'ILLEGAL_TRADE']"
+"After analyzing the given text, I would assign the following labels:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS
+* ADDICTION 
+
+The text mentions various health effects associated with marijuana use, such as psychosis, dry mouth, red eyes, fatigue, dizziness, and increased heart rate. These are all physical or psychological effects that can be attributed to the substance.
+
+However, I did not assign the label ""HARM"" because while these effects can cause harm, the text does not explicitly mention harm as a consequence of marijuana use. Instead, it lists specific symptoms associated with its use.
+
+Similarly, I did not assign labels such as ""LEGAL_DRUGS"", ""GATEWAY_DRUG"", etc., as they do not directly relate to the health or psychological effects mentioned in the text.",llama3.1:8b-instruct-fp16,2024-09-11T12:00:38.946981175Z,stop,3679318210,73995576,204,28570000,162,3532219000,"Some of the most common ones include dry mouth , red eyes , psychosis , fatigue , dizziness and increased heart rate .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],5,"['LEGAL_DRUGS', 'HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION', 'GATEWAY_DRUG']"
+"For the given text: ""So that argument to me that you're going to keep it out of the hands of kids is completely illogical.""
+
+I would assign the following labels:
+
+* CHILD_AND_TEEN_SAFETY
+* PERSONAL_FREEDOM 
+
+Explanation:
+This sentence suggests that making marijuana illegal because of concerns about children's access is an irrational argument, implying that the speaker believes the benefits of marijuana legalization outweigh potential risks to children.",llama3.1:8b-instruct-fp16,2024-09-11T12:00:41.123907955Z,stop,2130208250,30413057,204,27885000,90,1941784000,So that argument to me that you 're going to keep it out of the hands of kids is completely illogical .,['CHILD_AND_TEEN_SAFETY'],2,"['CHILD_AND_TEEN_SAFETY', 'PERSONAL_FREEDOM']"
+"Based on the provided text, I would assign the following labels:
+
+* ADDICTION
+* DRUG_ABUSE
+
+These labels apply because the text mentions that marijuana is ""extremely addictive"" and references a doctor's work with addicts. The mention of addiction and potential abuse suggests that these labels are relevant to the context.",llama3.1:8b-instruct-fp16,2024-09-11T12:00:42.740827868Z,stop,1569102899,69888871,220,28592000,66,1423848000,"1 ) It 's extremely addictive for some people : If you do n't want to take my word for it , listen to Dr. Drew Pinsky who has been working with addicts for decades .",['ADDICTION'],2,"['DRUG_ABUSE', 'ADDICTION']"
+"Based on the provided codebook, I would assign the following labels to the given text:
+
+* ILLEGAL_TRADE
+* DRUG_ABUSE 
+
+The sentence implies that there is a connection between marijuana's illegality and its trade through cartels, which suggests illicit activity. This aligns with ILLEGAL_TRADE. Additionally, the mention of ""culprits"" affiliated with cartels implies involvement in drug-related activities, which falls under DRUG_ABUSE.",llama3.1:8b-instruct-fp16,2024-09-11T12:00:45.006490996Z,stop,2178816669,30049358,198,27721000,94,2031600000,The culprits are often from other states or countries and sometimes affiliated with cartels .,['ILLEGAL_TRADE'],2,"['DRUG_ABUSE', 'ILLEGAL_TRADE']"
+"After carefully reviewing the provided text and the corresponding codebook, I would assign the following label(s) to the sentence:
+
+GATEWAY_DRUG
+
+The sentence explicitly mentions that marijuana use typically precedes other illicit drug use, aligning with the concept of a ""gateway"" drug.",llama3.1:8b-instruct-fp16,2024-09-11T12:00:46.451445178Z,stop,1440261644,70392893,208,27463000,58,1245012000,"In the sense that marijuana use typically precedes rather than follows initiation of other illicit drug use , it is indeed a “ gateway ” drug .",['GATEWAY_DRUG'],1,['GATEWAY_DRUG']
+"Based on the provided instructions and codebook, I would assign the following labels to the given text:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS
+* ADDICTION 
+
+The mention of ""having a horrible memory"" refers to potential health or psychological effects of marijuana use. Additionally, the reference to ""treatment centers for addiction"" suggests that addiction is also relevant in this context.",llama3.1:8b-instruct-fp16,2024-09-11T12:00:48.389656863Z,stop,1850083096,74046596,212,28560000,79,1702939000,"The humorous stories about pot users having a horrible memory are not an urban legend that is simply put forward by everyone , from Hollywood films to treatment centers for addiction .","['HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION']",2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION']"
+"For the given sentence: ""This is especially true of addictive, mind-altering drugs like marijuana.""
+
+I would assign the following labels:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS (due to mention of ""addictive"" and ""mind-altering"")
+* ADDICTION (directly mentioned)
+* DRUG_ABUSE (implied by discussion of addictive effects)
+
+Note that I have not assigned other labels as they do not directly apply to the content of this sentence.",llama3.1:8b-instruct-fp16,2024-09-11T12:00:50.746808381Z,stop,2308520123,31233365,194,26727000,98,2117868000,"This is especially true of addictive , mind-altering drugs like marijuana .","['HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION']",3,"['DRUG_ABUSE', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION']"
+"Based on the provided codebook, I would assign the following labels to the given text:
+
+HEALTH/PSYCHOLOGICAL_EFFECTS,
+MEDICAL_MARIJUANA
+ 
+
+The text mentions the ""demonstrated medicinal effects"" of cannabis, which implies a connection to medical use and health benefits.",llama3.1:8b-instruct-fp16,2024-09-11T12:00:52.331533332Z,stop,1540528306,70615227,209,27240000,65,1396328000,"The narrative of cannabis as a harmful drug has been dominant for so long , that many people had trouble accepting the plant ’s demonstrated medicinal effects .","['HARM', 'MEDICAL_MARIJUANA']",2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'MEDICAL_MARIJUANA']"
+"Based on the provided codebook, I would assign the following labels to the text:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS (referring to the ""dangers of weed"" mentioned in the article)
+* MEDICAL_MARIJUANA (since the article is listing medical studies related to marijuana)
+* PERSONAL_FREEDOM (implied by the comparison to other ""legal"" drugs, suggesting a perspective on personal choice and freedom) 
+
+These labels capture the main themes present in the text.",llama3.1:8b-instruct-fp16,2024-09-11T12:00:54.788045921Z,stop,2407806554,73371093,254,30675000,104,2258137000,"Check out this article which lists just some of the medical studies showing the dangers of weed : https://www.tremr.com/marty-nemko/should-marijuana-be-kept-illegal crypt0 says2016-04-03T14 :47:54.157 Report Post Marijuana is n't bad compared to many other "" LEGAL "" drugs .",['HARM'],3,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'MEDICAL_MARIJUANA', 'PERSONAL_FREEDOM']"
+"After carefully analyzing the provided sentence, I have assigned the following labels:
+
+* ILLEGAL_TRADE
+* COMMUNITY/SOCIATAL_EFFECTS (related to the black market and its impact on society)
+
+The reasoning behind these choices is as follows:
+
+* The sentence mentions ""eliminate the black market for marijuana"", which indicates a concern with the illicit trade of marijuana. This aligns with the ILLEGAL_TRADE label.
+* The mention of the black market also implies a consideration of its broader social and community-level impacts, such as crime, violence, or other negative effects on society. Therefore, I assigned the COMMUNITY/SOCIATAL_EFFECTS label.
+
+The other labels do not seem to apply directly to this sentence. There is no discussion of health/psychological effects, national budget, harm, medical marijuana, gateway drug, child and teen safety, addiction, drug abuse, personal freedom, or drug policy in relation to marijuana legalization.",llama3.1:8b-instruct-fp16,2024-09-11T12:00:59.145702141Z,stop,4270139874,31925532,229,27963000,189,4122610000,"The only way California could effectively eliminate the black market for marijuana , according to Dr. Pacula , “ is to take away the substantial profits in the market and allow the price of marijuana to fall to an amount close to the cost of production .",['ILLEGAL_TRADE'],2,"['ILLEGAL_TRADE', 'COMMUNITY/SOCIATAL_EFFECTS']"
+"Here are my coded results for each sentence:
+
+* Opponents of medical marijuana argue that it is too dangerous to use: [HEALTH/PSYCHOLOGICAL_EFFECTS, HARM]
+* ...lacks FDA-approval: [LEGAL_DRUGS, HEALTH/PSYCHOLOGICAL_EFFECTS]
+* ...and that various legal drugs make marijuana use unnecessary: [LEGAL_DRUGS]
+
+Note that I did not assign any codes for MEDICAL_MARIJUANA to the text, as it is actually an argument against medical marijuana. Similarly, I did not assign any codes related to PERSONAL_FREEDOM or COMMUNITY/SOCIATAL_EFFECTS, as they do not appear to be relevant to this specific sentence.",llama3.1:8b-instruct-fp16,2024-09-11T12:01:02.574967591Z,stop,3424140374,70794344,209,27403000,149,3236570000,"Opponents of medical marijuana argue that it is too dangerous to use , lacks FDA-approval , and that various legal drugs make marijuana use unnecessary .",['MEDICAL_MARIJUANA'],6,"['LEGAL_DRUGS', 'HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'MEDICAL_MARIJUANA', 'PERSONAL_FREEDOM', 'COMMUNITY/SOCIATAL_EFFECTS']"
+"Based on the provided text, I would assign the following labels:
+
+* CHILD_AND_TEEN_SAFETY
+* COMMUNITY/SOCIATAL_EFFECTS
+
+The statement mentions children being ""putting at risk"" due to marijuana legalization, which is a concern related to their safety. Additionally, the mention of ""communities of color"" suggests that there are concerns about social effects on communities.
+
+I did not assign any other labels because:
+
+* The text does not specifically mention health or psychological effects (HEALTH/PSYCHOLOGICAL_EFFECTS), addiction (ADDICTION), or abuse (DRUG_ABUSE) as being caused by marijuana legalization.
+* There is no explicit mention of medical benefits or uses (MEDICAL_MARIJUANA).
+* While the speaker mentions ""our children"", it's not clear if they are specifically referencing a gateway drug effect (GATEWAY_DRUG).
+* The text does not discuss national budget implications (NATIONAL_BUDGET), harm in general (HARM), personal freedom (PERSONAL_FREEDOM), or illegal trade (ILLEGAL_TRADE) as being relevant to the argument.
+* While Kennedy represented part of Rhode Island, there is no indication that they are advocating for a change in drug policy (DRUG_POLICY) per se.",llama3.1:8b-instruct-fp16,2024-09-11T12:01:08.497220645Z,stop,5834153083,70569448,221,28636000,260,5690353000,"“ It is putting our children at risk and has exposed children from communities of color to more racial discrimination than before , ” said Kennedy , who represented part of Rhode Island in Congress , about the legalization movement .",['CHILD_AND_TEEN_SAFETY'],12,"['DRUG_ABUSE', 'CHILD_AND_TEEN_SAFETY', 'DRUG_POLICY', 'HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION', 'MEDICAL_MARIJUANA', 'ILLEGAL_TRADE', 'GATEWAY_DRUG', 'PERSONAL_FREEDOM', 'NATIONAL_BUDGET', 'COMMUNITY/SOCIATAL_EFFECTS']"
+"Based on the provided codebook and example sentence, I would assign the following codes:
+
+* CHILD_AND_TEEN_SAFETY: This label is relevant because the sentence mentions teenagers consuming marijuana and experiencing problems later in life.
+* HARM: This label also applies as the sentence implies that consuming marijuana at a young age can lead to negative outcomes or harm.
+
+Note that I did not include ADDICTION, DRUG_ABUSE, or HEALTH/PSYCHOLOGICAL_EFFECTS because while they are related concepts, they are not directly mentioned in the sentence. However, if you'd like to add them as secondary codes, we could do so (e.g., HARM often implies some level of psychological or health effects). 
+
+The other labels do not appear to be relevant to this specific sentence.",llama3.1:8b-instruct-fp16,2024-09-11T12:01:12.239002181Z,stop,3692093834,30094370,202,28776000,161,3503935000,"The more weed that teens consume at a younger age , the more problems they tend to have later in life .",['CHILD_AND_TEEN_SAFETY'],5,"['DRUG_ABUSE', 'CHILD_AND_TEEN_SAFETY', 'HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION']"
+"Based on the codebook, I would assign the following labels to the sentence:
+
+* HARM (referring to the ""social costs"" which implies harm to individuals or society)
+* DRUG_POLICY (since the debate about marijuana legalization is a policy issue)
+
+These two labels capture the essence of the argument presented in the sentence.",llama3.1:8b-instruct-fp16,2024-09-11T12:01:13.873358147Z,stop,1581697318,69966175,187,26760000,67,1439182000,Prohibition has enormous social costs .,['COMMUNITY/SOCIATAL_EFFECTS'],2,"['DRUG_POLICY', 'HARM']"
+"After analyzing the given sentence, I would assign the following labels:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS
+* ADDICTION (note: while ""addiction"" is not explicitly mentioned, the context implies a negative impact on behavior related to substance use, which is often associated with addiction)
+* DRUG_ABUSE
+
+These labels are based on the sentence's mention of diminished critical skills related to attention, memory, and learning among students who smoked marijuana frequently. This suggests an adverse effect on psychological health and potential abuse of the drug.
+
+The label ILLEGAL_TRADE does not apply in this case as there is no mention of trade or commerce related to marijuana. Similarly, PERSONAL_FREEDOM and COMMUNITY/SOCIAL_EFFECTS do not directly relate to the sentence's content about substance use effects.",llama3.1:8b-instruct-fp16,2024-09-11T12:01:17.662562291Z,stop,3743191719,74256043,221,28561000,165,3594528000,"A study of 129 college students found that , among those who smoked the drug at least twenty-seven of the thirty days before being surveyed , critical skills related to attention , memory and learning were seriously diminished .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],5,"['DRUG_ABUSE', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION', 'ILLEGAL_TRADE', 'PERSONAL_FREEDOM']"
+"Based on the provided codebook, I would assign the following labels to the given text:
+
+* PERSONAL_FREEDOM
+* ILLEGAL_TRADE
+* COMMUNITY/SOCIATAL_EFFECTS
+* DRUG_POLICY
+
+My reasoning is as follows:
+
+* The text mentions the ""legal marijuana industry"", which implies a discussion about personal freedom and the regulation of this industry.
+* The comparison between organized criminals and other industries that ""defend their turf jealously"" suggests concerns about illegal trade and the impact on communities.
+* The reference to ""other 'sin' industries"" also implies a broader discussion about drug policy and its implications for society.
+
+I have not assigned labels such as HEALTH/PSYCHOLOGICAL_EFFECTS, ADDICTION, or CHILD_AND_TEEN_SAFETY because they do not seem to be directly relevant to the provided text.",llama3.1:8b-instruct-fp16,2024-09-11T12:01:21.693133902Z,stop,3941944437,31781167,234,29334000,174,3793577000,"Legalisers , meanwhile , should open their eyes to the fact that the legal marijuana industry , which until now has only had to prove itself more worthy than organised criminals , now needs as much scrutiny as the other “ sin ” industries that defend their turf jealously .","['ILLEGAL_TRADE', 'ILLEGAL_TRADE']",7,"['CHILD_AND_TEEN_SAFETY', 'DRUG_POLICY', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION', 'ILLEGAL_TRADE', 'PERSONAL_FREEDOM', 'COMMUNITY/SOCIATAL_EFFECTS']"
+"Based on the provided text, I assign the following codes:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS
+* HARM 
+
+The first code reflects the discussion of potential ""medical"" benefits from ingesting marijuana. The second code represents the claim that the harm and negative impacts would be negligible.
+
+Note: I did not include MEDICAL_MARIJUANA in my assignment, as the text mentions ""medical benefit"" but does so to argue against it, rather than advocating for medical marijuana specifically.",llama3.1:8b-instruct-fp16,2024-09-11T12:01:24.10915001Z,stop,2411060553,79536574,217,28899000,102,2213171000,Our position is that California Proposition 215 was misrepresented under the misguided claim that there is substantial “ medical ” benefit from ingesting marijuana and that the harm and negative impacts would be negligible .,"['HARM', 'MEDICAL_MARIJUANA']",3,"['HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'MEDICAL_MARIJUANA']"
+"Based on the provided text, I would assign the following codes:
+
+* DRUG_POLICY
+* ILLEGAL_TRADE
+
+The reasoning behind these assignments is as follows:
+
+* The text discusses the relationship between drug laws and drug-taking behavior, which suggests a focus on how governments approach and regulate drugs (DRUG_POLICY).
+* The comparison of citizens living under different regimes implies that the text is also touching on the issue of drug markets and trade, specifically highlighting the irony that stricter laws may not lead to reduced drug use, but rather potentially contribute to a thriving black market (ILLEGAL_TRADE).
+
+Note: I have not assigned any other labels as they do not seem to be directly relevant to the provided text.",llama3.1:8b-instruct-fp16,2024-09-11T12:01:27.433124986Z,stop,3233629121,70117421,217,28852000,142,3090142000,"There is no correlation between the harshness of drug laws and the incidence of drug-taking : citizens living under tough regimes ( notably America but also Britain ) take more drugs , not fewer .",['COMMUNITY/SOCIATAL_EFFECTS'],2,"['DRUG_POLICY', 'ILLEGAL_TRADE']"
+"Based on the provided codebook and text analysis, I have assigned the following labels:
+
+* ILLEGAL_TRADE
+* DRUG_POLICY 
+
+These labels apply as the text refers to the state scheme and its potential impact on the existing black market, indicating that the discussion is related to illegal trade in marijuana. The mention of a ""state scheme"" also suggests an aspect of drug policy.",llama3.1:8b-instruct-fp16,2024-09-11T12:01:29.34852396Z,stop,1867024153,30998421,208,26265000,78,1680029000,"Under the state scheme , she testified , there would be “ tremendous profit motive for the existing black market providers to stay in the market . ”",['ILLEGAL_TRADE'],2,"['DRUG_POLICY', 'ILLEGAL_TRADE']"
+"After carefully analyzing the provided sentence, I have assigned the following codes:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS
+* HARM
+
+These two labels apply because the sentence specifically mentions health-related issues associated with marijuana use (memory loss, cancer, immune system deficiencies, heart disease, and birth defects). The label ""HARM"" is also applicable as it indicates that the consequences of marijuana use can be detrimental to individuals.
+
+The other labels do not directly relate to the specific health effects mentioned in the sentence.",llama3.1:8b-instruct-fp16,2024-09-11T12:01:31.800103747Z,stop,2404504637,74012498,206,28851000,104,2255850000,"Marijuana use is associated with memory loss , cancer , immune system deficiencies , heart disease , and birth defects , among other conditions .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],2,"['HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"After analyzing the provided text, I have assigned the following codes:
+
+* MEDICAL_MARIJUANA
+* PERSONAL_FREEDOM (implied by ""important to a lot of people"", suggesting personal autonomy and freedom of choice) 
+
+Note that I did not assign any other labels as they do not appear to be relevant to the context of the text.",llama3.1:8b-instruct-fp16,2024-09-11T12:01:33.627539087Z,stop,1739373000,31396711,190,26891000,74,1593439000,Medical marijuana is important to a lot of people .,['MEDICAL_MARIJUANA'],2,"['MEDICAL_MARIJUANA', 'PERSONAL_FREEDOM']"
+"After analyzing the text, I have assigned the following codes:
+
+* PERSONAL_FREEDOM: This code applies because the text mentions changing what happens to people who were arrested for possession, which implies a discussion about individual rights and freedoms.
+* COMMUNITY/SOCIAL EFFECTS: This code applies because the text mentions helping more people instead of damaging them for life, which suggests that the outcome of marijuana legalization could have positive effects on the community or society as a whole.
+
+Note that I did not assign any codes related to the negative consequences of drug use (e.g. HARM, ADDICTION, DRUG_ABUSE) because they are not explicitly mentioned in the text. Similarly, I did not assign any codes related to medical benefits (MEDICAL_MARIJUANA) or economic concerns (NATIONAL_BUDGET, ILLEGAL_TRADE) because they are also not mentioned.",llama3.1:8b-instruct-fp16,2024-09-11T12:01:37.760983998Z,stop,4129149952,77797886,254,30439000,180,3930824000,"It would mean significantly changing what would happen to people who were arrested for possession of the drug ( s ) in question ( to my thinking , a sentence that would fit the crime as opposed to arbitrarily sending first-time offenders to prison for an egregious amount of time instead of getting them the help they truly need ) , and perhaps helping more people instead of damaging them for life .",['COMMUNITY/SOCIATAL_EFFECTS'],7,"['DRUG_ABUSE', 'HARM', 'ADDICTION', 'MEDICAL_MARIJUANA', 'ILLEGAL_TRADE', 'PERSONAL_FREEDOM', 'NATIONAL_BUDGET']"
+"Based on the provided codebook, I will assign the following labels to the given text:
+
+* CHILD_AND_TEEN_SAFETY
+* COMMUNITY/SOCIAL_EFFECTS
+* DRUG_ABUSE
+* HARM 
+
+These labels capture the impact of illicit drug use on vulnerable populations (children and teenagers) and broader social effects (e.g., crime victims, elder abuse). The label ""DRUG_ABUSE"" is also applicable as it pertains to the negative consequences of drug use.",llama3.1:8b-instruct-fp16,2024-09-11T12:01:40.184557709Z,stop,2336857191,73916547,218,28564000,101,2189787000,"Affected by an individual 's illicit drug use are children , parents , grandparents , friends , colleagues , work , victims of drugged drivers , crime victims , elder abuse , sexual victims etc .","['COMMUNITY/SOCIATAL_EFFECTS', 'DRUG_ABUSE', 'CHILD_AND_TEEN_SAFETY']",3,"['DRUG_ABUSE', 'CHILD_AND_TEEN_SAFETY', 'HARM']"
+"Based on the provided instructions, I would assign the following labels to the given text:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS
+* HARM 
+
+The text explicitly mentions that marijuana is ""toxic"" and ""deleterious to health"", which falls under the category of health/psychological effects. Additionally, it can be inferred that this has a negative impact, aligning with the label HARM.",llama3.1:8b-instruct-fp16,2024-09-11T12:01:42.278804876Z,stop,2049232413,33305634,192,27609000,86,1856978000,"Fourth , it is toxic and deleterious to health .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],2,"['HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"Based on the provided markdown codebook, I would assign the following codes to the given sentence:
+
+LEGAL_DRUGS
+HEALTH/PSYCHOLOGICAL_EFFECTS 
+
+The reason for this is that the sentence discusses an outcome (decrease in marijuana use) after legalization, which suggests a connection between the legality of marijuana and its effects on usage. This falls under LEGAL_DRUGS.
+
+The decrease in marijuana use also implies some level of positive health/psychological effect from legalization, making HEALTH/PSYCHOLOGICAL_EFFECTS applicable.
+
+Additionally, since this is discussing an outcome after a policy change (legalization), DRUG_POLICY could be considered relevant as well.",llama3.1:8b-instruct-fp16,2024-09-11T12:01:45.469814482Z,stop,3146103125,73896098,191,26374000,138,2999330000,Marijuana use basically got smaller after it was legalized .,['COMMUNITY/SOCIATAL_EFFECTS'],3,"['DRUG_POLICY', 'LEGAL_DRUGS', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"Based on the provided markdown codebook, I would assign the following labels to the given text:
+
+HEALTH/PSYCHOLOGICAL_EFFECTS
+PERSONAL_FREEDOM
+
+Here's my reasoning:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS: The text mentions a positive mental effect that spurs creativity in the brain. This suggests that marijuana has a beneficial psychological impact, which aligns with this label.
+* PERSONAL_FREEDOM: The idea of finding new ideas and sparking creativity can be seen as a way to exercise personal freedom, allowing individuals to express themselves and explore their potential.
+
+I did not assign any other labels because the text does not mention anything related to medical marijuana, gateway drug, child and teen safety, addiction, or illegal trade.",llama3.1:8b-instruct-fp16,2024-09-11T12:01:49.078785198Z,stop,3519410650,29835885,215,28795000,155,3371751000,"Even though you can not count it as a health benefit , it should be taken as a positive mental effect that spurs creativity in the brain and helps you find new ideas .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'PERSONAL_FREEDOM']"
+"Based on the provided codebook and example sentence, I would assign the following codes:
+
+* DRUG_ABUSE (the example sentence suggests that a high percentage of criminals are marijuana users, implying a link between marijuana use and involvement in criminal activity)
+* ADDICTION (while not explicitly stated, the term ""users"" implies a level of regular or habitual use, which can be associated with addiction)
+
+These labels capture the themes present in the example sentence regarding the relationship between marijuana use and social deviance.",llama3.1:8b-instruct-fp16,2024-09-11T12:01:51.479934513Z,stop,2397036270,74725694,195,26901000,102,2205997000,"To begin with , an astonishingly high percentage of criminals are marijuana users .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],2,"['DRUG_ABUSE', 'ADDICTION']"
+"Based on the provided codebook, I would assign the following labels to the text:
+
+* MEDICAL_MARIJUANA
+* PERSONAL_FREEDOM (implied by deferring to state laws)
+
+I did not include HEALTH/PSYCHOLOGICAL_EFFECTS or any of the other labels because they are not explicitly mentioned in the text. However, I may have missed some potential connections if you'd like me to revisit the text with a closer eye.
+
+Additionally, one could argue that ILLEGAL_TRADE is implicitly referenced due to the federal level prohibition, but it's not as directly stated as MEDICAL_MARIJUANA and PERSONAL_FREEDOM.",llama3.1:8b-instruct-fp16,2024-09-11T12:01:54.694923468Z,stop,3127186421,73877687,223,28319000,137,2980409000,"Meno points out that with respect to medical marijuana ( which is legal in fourteen states and D.C. , but illegal on federal levels ) , he hopes the federal government will defer to state laws and not intervene .",['MEDICAL_MARIJUANA'],4,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'MEDICAL_MARIJUANA', 'ILLEGAL_TRADE', 'PERSONAL_FREEDOM']"
+"Based on the provided codebook, I would assign the following labels to the given sentence:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS (specifically referencing depression)
+* HARM (referring to the potential negative health effects)
+
+I did not include other potential labels such as ADDICTION or DRUG_ABUSE because they are not explicitly mentioned in the text. Additionally, I did not assign MEDICAL_MARIJUANA since there is no mention of medical benefits.
+
+The other labels do not seem to apply directly to the sentence.",llama3.1:8b-instruct-fp16,2024-09-11T12:01:57.31398939Z,stop,2571791686,30356536,193,27854000,110,2383855000,Will it make you depressed and a have higher risk of cancer ?,['HEALTH/PSYCHOLOGICAL_EFFECTS'],5,"['DRUG_ABUSE', 'HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION', 'MEDICAL_MARIJUANA']"
+"Based on the provided text, I will assign the following label(s):
+
+NATIONAL_BUDGET
+
+This is because the text discusses the financial savings that would result from marijuana legalization, specifically the amounts that would accrue to different levels of government.",llama3.1:8b-instruct-fp16,2024-09-11T12:01:58.577684408Z,stop,1218076241,74011809,214,28473000,50,1069894000,"Of those savings , $ 25.7 billion would accrue to state and local governments , while $ 15.6 billion would accrue to the federal government .",['NATIONAL_BUDGET'],1,['NATIONAL_BUDGET']
+"Based on the provided markdown codebook, I would assign the following labels to the given text:
+
+* NATIONAL_BUDGET
+* DRUG_POLICY 
+
+These two labels apply as the text mentions the annual cost of the war on drugs ($51 billion) and references a specific organization (Drug Policy Alliance), which is likely advocating for changes in drug policy.",llama3.1:8b-instruct-fp16,2024-09-11T12:02:00.346920006Z,stop,1679223692,31055983,218,28352000,71,1532482000,"One of the strangest aspects of the war on drugs is how completely it has failed at reducing drug use , despite costing over $ 51 billion annually , according to the Drug Policy Alliance .","['DRUG_POLICY', 'COMMUNITY/SOCIATAL_EFFECTS']",2,"['DRUG_POLICY', 'NATIONAL_BUDGET']"
+"Based on the provided markdown codebook, I would assign the following codes to the given sentence:
+
+* MEDICAL_MARIJUANA
+* HEALTH/PSYCHOLOGICAL_EFFECTS 
+
+The text mentions treating cannabis use as a ""public health issue"", which suggests that it is being considered from a medical perspective, and therefore falls under MEDICAL_MARIJUANA. Additionally, since the focus is on public health, I also assigned the code for HEALTH/PSYCHOLOGICAL_EFFECTS.
+
+No other labels seem to apply directly to this sentence.",llama3.1:8b-instruct-fp16,2024-09-11T12:02:03.00974497Z,stop,2617909443,73784534,200,26726000,114,2470713000,Legalization is the first step in a broader initiative of treating cannabis use as a public health issue .,['HEALTH/PSYCHOLOGICAL_EFFECTS'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'MEDICAL_MARIJUANA']"
+"Here are the labels assigned to the given text:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS: This label applies because the Administration is concerned about the potential negative impact on ""public health"" if marijuana is legalized.
+
+* HARM: Similar to the previous point, this label also applies as the Administration is worried about the consequences of legalization on ""public health and safety"", implying harm to individuals or society.
+
+No other labels from the codebook seem to be applicable in this context.",llama3.1:8b-instruct-fp16,2024-09-11T12:02:05.373356298Z,stop,2273026368,29677962,230,29058000,98,2126141000,"The Administration — widely viewed as more liberal than any other in recent memory and , for a time , as embodying the hopes of pro-legalization activists — has weighed the costs and benefits and concluded that marijuana legalization would compromise public health and safety .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],2,"['HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"For the given sentence: ""We affirm the 2006 FDA finding and vast scientific evidence that marijuana causes harm.""
+
+I would assign the following labels:
+
+* HARM
+* HEALTH/PSYCHOLOGICAL_EFFECTS 
+
+These two labels apply as they directly relate to the argument about the negative consequences of using marijuana, specifically its ability to cause harm.",llama3.1:8b-instruct-fp16,2024-09-11T12:02:07.116029736Z,stop,1696255082,73826716,197,27724000,72,1548865000,We affirm the 2006 FDA finding and vast scientific evidence that marijuana causes harm .,['HARM'],2,"['HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"Based on the provided codebook, I would assign the following labels to the text:
+
+* ILLEGAL_TRADE
+* ECONOMIC/NATIONAL_BUDGET (Note: While ""NATIONAL_BUDGET"" is a specific label in the codebook, ""ECONOMIC"" is not. However, given that the text mentions the local economy and a significant untaxed income, I believe this label captures the relevant aspect)
+
+The text highlights the illicit nature of marijuana trade in the Emerald Triangle (ILLEGAL_TRADE) and its economic impact on the region (ECONOMIC/NATIONAL_BUDGET). The other labels do not seem to apply directly to this specific passage.",llama3.1:8b-instruct-fp16,2024-09-11T12:02:10.314310842Z,stop,3110819037,16874466,226,28299000,137,2979770000,"A significant portion of the local economy of the Emerald Triangle is already connected to marijuana , which generates about a $ 500-million in untaxed income every year , according to Beth Wilson , professor of economics at Humboldt State University .",['NATIONAL_BUDGET'],2,"['ILLEGAL_TRADE', 'NATIONAL_BUDGET']"
+"Based on the provided codebook, I would assign the following labels:
+
+* LEGAL_DRUGS
+* PERSONAL_FREEDOM
+
+The text suggests that the speaker is in favor of marijuana legalization and views it as a step towards ending prohibition. This implies that they consider marijuana to be a legal drug (LEGAL_DRUGS) and also value individual freedom related to its use (PERSONAL_FREEDOM).
+
+I did not assign any other labels because:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS: While the text mentions ""weed"", it does not specifically discuss health or psychological effects, but rather frames legalization as an end to prohibition.
+* NATIONAL_BUDGET: There is no mention of budgetary implications in the text.
+* HARM: The text does not discuss potential harm associated with marijuana use.
+* MEDICAL_MARIJUANA: While the text mentions ""weed"", it does not specifically reference medical uses.
+* GATEWAY_DRUG: This label is not applicable as there is no mention of a gateway effect.
+* CHILD_AND_TEEN_SAFETY: There is no specific discussion about child or teen safety in the text.
+* ADDICTION and DRUG_ABUSE: While these labels might be relevant in discussions about marijuana, they are not directly addressed in this particular text.
+* ILLEGAL_TRADE: The text frames legalization as ending prohibition, but does not specifically discuss the trade of illegal substances.
+* COMMUNITY/SOCIAL_EFFECTS: This label is not directly applicable to the provided text.
+* DRUG_POLICY: While this label might be relevant in discussions about marijuana regulation, it is too broad and general for this specific text.",llama3.1:8b-instruct-fp16,2024-09-11T12:02:17.912117801Z,stop,7592810914,74327208,210,27322000,338,7397890000,Those ( including this newspaper ) who have argued that legalisation is better than prohibition will welcome the beginning of the end of the futile war on weed .,['DRUG_POLICY'],12,"['DRUG_ABUSE', 'CHILD_AND_TEEN_SAFETY', 'DRUG_POLICY', 'LEGAL_DRUGS', 'HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION', 'MEDICAL_MARIJUANA', 'ILLEGAL_TRADE', 'GATEWAY_DRUG', 'PERSONAL_FREEDOM', 'NATIONAL_BUDGET']"
+"Based on the provided text, I would assign the following labels:
+
+CHILD_AND_TEEN_SAFETY
+HEALTH/PSYCHOLOGICAL_EFFECTS
+
+These labels apply because the text mentions the potential harm to children due to their lack of responsibility and judgment, as well as the potential effects of marijuana intake on their developing bodies.",llama3.1:8b-instruct-fp16,2024-09-11T12:02:19.613595898Z,stop,1613963595,73958779,220,28603000,68,1466756000,"The primary reason for this is because children , in general , do not exhibit the same responsibility , reasoning and judgment of adults , and their bodies are not as equipped to handle the intake of such substances .",['CHILD_AND_TEEN_SAFETY'],2,"['CHILD_AND_TEEN_SAFETY', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"Based on the given markdown codebook, I would assign the following codes to the provided sentence:
+
+* NATIONAL_BUDGET
+* DRUG_ABUSE 
+* HARM 
+
+These labels seem to apply as they relate to the potential increased costs associated with marijuana use and the overall negative consequences of drug abuse.",llama3.1:8b-instruct-fp16,2024-09-11T12:02:21.138374418Z,stop,1478818574,74059093,195,26903000,62,1331176000,The increased use will increase the multitude of costs that come with marijuana use .,['NATIONAL_BUDGET'],3,"['DRUG_ABUSE', 'HARM', 'NATIONAL_BUDGET']"
+"After carefully examining the text, I would assign the following codes:
+
+* HARM
+* HEALTH/PSYCHOLOGICAL_EFFECTS
+* DRUG_ABUSE
+
+These codes are justified as follows:
+
+* HARM: The text mentions a significant increase in industrial accidents and injuries among employees who test positive for marijuana, which suggests harm to individuals and potentially others.
+* HEALTH/PSYCHOLOGICAL_EFFECTS: The text implies that marijuana use may have adverse effects on physical health (injuries) and psychological well-being (absenteeism rates).
+* DRUG_ABUSE: While the text does not explicitly state that employees are abusing marijuana, the context suggests that positive tests for marijuana may be related to substance use or abuse.",llama3.1:8b-instruct-fp16,2024-09-11T12:02:24.619558568Z,stop,3392280548,32266063,215,28786000,149,3243602000,Employees who test positive for marijuana had 55 percent more industrial accidents and 85 percent more injuries and they had absenteeism rates 75 percent higher than those that tested negative .,['DRUG_ABUSE'],3,"['DRUG_ABUSE', 'HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"Based on the codebook provided, I would assign the following labels to the given text:
+
+* HARM
+* DRUG_POLICY 
+
+These labels apply because the text discusses the relative harm caused by different substances (alcohol and marijuana) and references research that suggests one is more harmful than another. This aligns with aspects of drug policy discussions.",llama3.1:8b-instruct-fp16,2024-09-11T12:02:26.328243941Z,stop,1704151708,73502328,231,29098000,70,1512135000,"In addition to anecdotal evidence , they cite statistics to show more deaths caused by drunk driving under the influence of alcohol than by drivers under the influence of marijuana , and research which suggests that alcohol is more harmful than all but the most "" dangerous "" drugs .","['LEGAL_DRUGS', 'DRUG_ABUSE', 'HARM']",2,"['DRUG_POLICY', 'HARM']"
+"Based on the provided text, I would assign the following labels:
+
+* HARM
+* NATIONAL_BUDGET (implied by the mention of ""accidents, deaths"", which suggests a significant financial burden on national budgets)
+* PERSONAL_FREEDOM (the comparison to alcohol implies that marijuana is being framed as a matter of personal freedom and choice)
+
+I did not assign ILLEGAL_TRADE or COMMUNITY/SOCIAL_EFFECTS because they do not seem directly relevant to the text. The text does not mention the trade or trafficking of marijuana, nor are there explicit references to community or social effects of marijuana use.
+
+Note that the text is actually discussing alcohol rather than marijuana, but it's being used as a comparative example in the debate about marijuana legalization.",llama3.1:8b-instruct-fp16,2024-09-11T12:02:29.890543378Z,stop,3475487505,78569429,205,28831000,153,3323606000,"But alcohol leads to drunk driving accidents , deaths in the process and rapes of women , etc. and it 's legal .",['LEGAL_DRUGS'],4,"['HARM', 'ILLEGAL_TRADE', 'PERSONAL_FREEDOM', 'NATIONAL_BUDGET']"
+"After carefully reading and analyzing the given sentence, I would assign the following labels:
+
+* DRUG_ABUSE
+* HARM
+* ILLEGAL_TRADE
+
+These labels seem most relevant because the text implies a connection between drug-related offenses and a higher likelihood of committing other serious crimes (e.g., robbery, rape, murder). This suggests that drug abuse can lead to further harm in society, and individuals involved in illegal trade may be more likely to engage in other illicit activities.",llama3.1:8b-instruct-fp16,2024-09-11T12:02:32.180806752Z,stop,2245051976,69851226,210,27201000,97,2101244000,"Anyone who commits drug-related felonies is n't likely to be constrained in committing other felonies , such as robbery , rape , murder , etc .",['COMMUNITY/SOCIATAL_EFFECTS'],3,"['DRUG_ABUSE', 'HARM', 'ILLEGAL_TRADE']"
+"Based on the provided codebook, I would assign the following labels to the given text:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS
+* CHILD_AND_TEEN_SAFETY
+
+These two labels apply because the text mentions the risks that marijuana use poses to brain development in youth, which falls under health and psychological effects and child and teen safety.",llama3.1:8b-instruct-fp16,2024-09-11T12:02:33.965855538Z,stop,1698531717,32708661,213,27441000,72,1551502000,It cites recent students that it says has shed light on the risks marijuana use poses to brain development in youth and the dangers of accessibility of recreational marijuana in the home .,['CHILD_AND_TEEN_SAFETY'],2,"['CHILD_AND_TEEN_SAFETY', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"After examining the sentence, I would assign the following labels:
+
+* MEDICAL_MARIJUANA
+* HARM (due to the difficulty and risk of obtaining cannabis)
+
+These two labels capture the essence of the sentence, which highlights the challenges faced by individuals who require medical cannabis. The mention of ""millions of people"" implies a significant number of individuals being harmed due to limited access to medical marijuana.",llama3.1:8b-instruct-fp16,2024-09-11T12:02:35.957573577Z,stop,1987755478,71782851,211,28415000,83,1793501000,"Despite the growing number of states with some form of medical law , cannabis is still difficult and risky to obtain for millions of people who could benefit from it .","['ILLEGAL_TRADE', 'DRUG_POLICY']",2,"['HARM', 'MEDICAL_MARIJUANA']"
+"After analyzing the text, I would assign the following label(s):
+
+* LEGAL_DRUGS
+* NATIONAL_BUDGET
+
+The sentence mentions the state collecting taxes on pot (a legal drug) and comparing it to the revenue generated from taxes on alcohol. The focus is on the financial impact of marijuana legalization on national budgets.",llama3.1:8b-instruct-fp16,2024-09-11T12:02:37.641586192Z,stop,1593310389,77321868,215,28348000,67,1443087000,"The state collected $ 70 million in taxes on pot from June 2014 to July 2015 , $ 30 million more than amount raised from taxes on alcohol .",['NATIONAL_BUDGET'],2,"['LEGAL_DRUGS', 'NATIONAL_BUDGET']"
+"Based on the provided codebook, I would assign the following labels to the given text:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS
+* MEDICAL_MARIJUANA
+
+The text mentions that using marijuana for a long time can lead to suffering from medical conditions such as psychosis or schizophrenia, which falls under the category of health/psychological effects. Additionally, the text specifically references medical research and papers on the topic, which is related to medical marijuana.",llama3.1:8b-instruct-fp16,2024-09-11T12:02:39.895949284Z,stop,2208227993,73929641,225,27887000,95,2060825000,"Medical researchers in Sweden , Holland ( see this study and this one ) and New Zealand ( see this research and this paper ) found that people who used marijuana for a long time were more likely to suffer medical psychosis or schizophrenia .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'MEDICAL_MARIJUANA']"
+"Based on the provided codebook, I would assign the following labels to the given text:
+
+* CHILD_AND_TEEN_SAFETY
+* DRUG_POLICY 
+
+This is because the sentence mentions advocating for a prohibition of sales to people under 21, which directly relates to concerns about child and teen safety. Additionally, the context implies that this policy recommendation falls under the broader category of drug policy.",llama3.1:8b-instruct-fp16,2024-09-11T12:02:41.818184791Z,stop,1874455099,73856438,197,28106000,80,1725699000,"For that reason , we advocate the prohibition of sales to people under 21 . ”",['CHILD_AND_TEEN_SAFETY'],2,"['CHILD_AND_TEEN_SAFETY', 'DRUG_POLICY']"
+"After analyzing the text, I have assigned the following codes:
+
+* ADDICTION
+* HARM
+* DRUG_POLICY
+* ILLEGAL_TRADE (note: while not explicitly mentioned in the text, the reference to ""prohibition"" implies a discussion about the current laws and trade surrounding illicit substances)
+
+These codes capture the main themes of addiction as a potential consequence of legalization, the harm associated with increased addictive drug use, and the policy context related to drug regulation.",llama3.1:8b-instruct-fp16,2024-09-11T12:02:44.134464123Z,stop,2226773184,32024057,215,28757000,96,2079541000,"Secondly , the harms of increased addictive drug use , which as previously outlined would be a consequence of legalization and its cheaper prices , far outweigh the current crime harms of prohibition .","['ADDICTION', 'COMMUNITY/SOCIATAL_EFFECTS']",4,"['DRUG_POLICY', 'HARM', 'ADDICTION', 'ILLEGAL_TRADE']"
+"Based on the given markdown codebook, I would assign the following labels to the provided sentence:
+
+* MEDICAL_MARIJUANA (since it mentions the potential health benefits of using marijuana)
+* PERSONAL_FREEDOM (as the sentence implies that individuals will have more freedom to use the drug for their own purposes)",llama3.1:8b-instruct-fp16,2024-09-11T12:02:45.743540665Z,stop,1604436595,70511800,197,26577000,66,1418093000,This means more people will be free to use the drug for its believed health benefits .,['HEALTH/PSYCHOLOGICAL_EFFECTS'],2,"['MEDICAL_MARIJUANA', 'PERSONAL_FREEDOM']"
+"Based on the provided codebook, I would assign the following labels:
+
+* GATEWAY_DRUG
+* DRUG_ABUSE 
+
+The phrase ""most users of other illicit drugs"" suggests that marijuana is often a precursor to using other illicit substances. Additionally, the context implies a discussion about the potential negative consequences or risks associated with marijuana use, which aligns with the category of drug abuse.",llama3.1:8b-instruct-fp16,2024-09-11T12:02:47.669456315Z,stop,1878060100,78188508,194,27687000,80,1725460000,"Not surprisingly , most users of other illicit drugs have used marijuana first .",['GATEWAY_DRUG'],2,"['DRUG_ABUSE', 'GATEWAY_DRUG']"
+"Based on the provided codebook, I would assign the following labels to the given text:
+
+* CHILD_AND_TEEN_SAFETY (no direct mention, but implies concern for road safety which can affect children and teens)
+* DRUG_ABUSE
+* HARM 
+
+These labels are chosen because the sentence implies that marijuana use can lead to impaired driving, which is a form of drug abuse and can cause harm.",llama3.1:8b-instruct-fp16,2024-09-11T12:02:49.678443157Z,stop,1963113558,74277181,205,27922000,84,1814252000,"First one , "" You think I want to be on the road driving and some one high on pot is out there driving ?",['DRUG_ABUSE'],3,"['DRUG_ABUSE', 'CHILD_AND_TEEN_SAFETY', 'HARM']"
+"Based on the provided codebook, I would assign the following labels to the given text:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS (due to the mention of PTSD and its association with nightmares)
+* MEDICAL_MARIJUANA (as marijuana is often cited as a potential treatment for PTSD-related symptoms)
+
+Note that I have not assigned any other labels, such as PERSONAL_FREEDOM or COMMUNITY/SOCIAL_EFFECTS, as they do not directly relate to the content of the text.",llama3.1:8b-instruct-fp16,2024-09-11T12:02:52.165549134Z,stop,2398755654,31701138,194,27693000,104,2251683000,It can be a blessing for someone suffering from nightmares associated with PTSD .,['MEDICAL_MARIJUANA'],3,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'MEDICAL_MARIJUANA', 'PERSONAL_FREEDOM']"
+"Based on the provided codebook, I would assign the following labels to the given text:
+
+* HARM: This label is applicable because the text implies that there are no significant negative consequences or deaths resulting from marijuana use, suggesting a potential underestimation of the harm associated with its use.
+* PERSONAL_FREEDOM: This label is also applicable as the text suggests that legalizing marijuana would allow people to make their own choices regarding its use, implying an emphasis on personal freedom.
+
+Note that I did not assign other labels such as LEGAL_DRUGS or MEDICAL_MARIJUANA because they do not directly apply to the context of the sentence. The focus is more on the perceived harm and personal freedom aspects rather than the legal status or potential medical benefits of marijuana.",llama3.1:8b-instruct-fp16,2024-09-11T12:02:55.797379651Z,stop,3627396426,71640238,210,28535000,158,3437695000,Most people talk about legalizing pot as if it were no worse than alcohol -- as if no one has ever died as the result of using marijuana .,['LEGAL_DRUGS'],4,"['LEGAL_DRUGS', 'HARM', 'MEDICAL_MARIJUANA', 'PERSONAL_FREEDOM']"
+"Based on the provided instructions, I would assign the following label(s) to the given text:
+
+HEALTH/PSYCHOLOGICAL_EFFECTS 
+
+This is because the text mentions potential benefits of marijuana for treating medical conditions (e.g., potentially helping treat and prevent Alzheimer's disease). The label HEALTH/PSYCHOLOGICAL_EFFECTS is relevant in this context, as it pertains to the potential health effects of marijuana.",llama3.1:8b-instruct-fp16,2024-09-11T12:02:57.914284336Z,stop,2026501166,73847018,211,28701000,87,1879275000,Though it only lasts for 3-4 hours with more research and studying it could possibly help treat and prevent it all together along with Alzheimer ’s .,['MEDICAL_MARIJUANA'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"Based on the provided codebook, I will assign labels to the text as follows:
+
+* LEGAL_DRUGS: This label applies because the text mentions reducing police, prosecutorial, judicial, and correctional resources related to drug arrests, prosecutions, and incarcerations. The implication is that if marijuana were legalized, these resources could be redirected.
+* DRUG_POLICY: This label also applies as it relates to the broader discussion of how laws and regulations surrounding marijuana should change in order to legalize its use.
+
+I did not assign any other labels because while the text mentions reducing costs for governments, it does not specifically discuss national budget implications, health or psychological effects, harm caused by marijuana, medical marijuana, gateway drug concerns, child and teen safety, addiction, drug abuse, personal freedom, illegal trade, community/social effects.",llama3.1:8b-instruct-fp16,2024-09-11T12:03:01.751135223Z,stop,3788883063,30381439,248,30922000,165,3598009000,"For state and local governments , savings would result from : the reduction of expenditures of police resources by eliminating drug arrests ( thereby freeing police to chase after more dangerous and violent criminals ) ; the reduction in prosecutorial and judicial resources by eliminating drug-related prosecutions ; and the reduction in correctional resources by eliminating drug-related incarcerations , Miron added .",['NATIONAL_BUDGET'],2,"['DRUG_POLICY', 'LEGAL_DRUGS']"
+"Based on the provided text, I would assign the following labels:
+
+* DRUG_POLICY
+* ILLEGAL_TRADE
+ 
+
+Explanation:
+Gil Kerlikowske's statement suggests that he opposes marijuana legalization and views it as outside of the administration's policy priorities. This indicates a focus on drug policy. Additionally, his statement implies that there is an existing illegality surrounding marijuana that the Obama Administration seeks to maintain, which relates to illegal trade.",llama3.1:8b-instruct-fp16,2024-09-11T12:03:03.876782037Z,stop,2076916764,73754518,225,28143000,89,1929207000,"Gil Kerlikowske , Director of the White House Office of National Drug Control Policy ( ONDCP ) , recently stated , “ Marijuana legalization , for any purpose , is a non-starter in the Obama Administration . ”",['DRUG_POLICY'],2,"['DRUG_POLICY', 'ILLEGAL_TRADE']"
+"A clever observation!
+
+For the given sentence: ""It is quite ironic, but perhaps the worst opponents of weed legalization are drug dealers themselves.""
+
+I would assign the following labels:
+
+* ILLEGAL_TRADE
+* PERSONAL_FREEDOM 
+
+Explanation:
+The mention of ""drug dealers"" suggests that they have a vested interest in maintaining marijuana as an illegal substance to protect their illicit trade. This aligns with ILLEGAL_TRADE.
+The sentence also implies that drug dealers are opposing legalization because it would potentially undermine their business, which is related to PERSONAL_FREEDOM as they may feel threatened by the erosion of their illegal activities.",llama3.1:8b-instruct-fp16,2024-09-11T12:03:06.865242148Z,stop,2901000719,30387069,198,27980000,127,2755183000,"It is quite ironic , but perhaps the worst opponents of weed legalization are drug dealers themselves .",['ILLEGAL_TRADE'],2,"['ILLEGAL_TRADE', 'PERSONAL_FREEDOM']"
+"Based on the provided text, I would assign the following codes:
+
+* GATEWAY_DRUG: This label applies as the text mentions that marijuana tends to be a starter drug for people who move on to heavier duty drugs.
+* COMMUNITY/SOCIATAL_EFFECTS: The text implies that marijuana legalization could lead to societal changes that are not desirable, such as ""heathenistic activity"", which suggests concerns about community values and norms.
+* DRUG_POLICY: This label applies as the text discusses a policy issue (marijuana legalization) and expresses a opinion on it.
+* PERSONAL_FREEDOM: Although this is not explicitly stated, the tone of the text implies that the speaker is concerned about the rapid societal changes brought about by marijuana legalization, which could be related to personal freedom. However, I would assign this label with caution as it's not directly mentioned in the text.
+
+I did not assign any codes for HEALTH/PSYCHOLOGICAL_EFFECTS or NATIONAL_BUDGET as they are not explicitly mentioned or implied in the text.",llama3.1:8b-instruct-fp16,2024-09-11T12:03:11.723808901Z,stop,4812069743,73893669,259,32319000,213,4659917000,"It tends to be a starter drug for people who move on to heavier duty drugs — sometimes legal , sometimes illegal — and I do n't think this is something that we really want for our society to heathenistic [ sic ] activity and you know , it 's just , we 're changing so rapidly to a different type of society and nobody is getting a chance to discuss it .",['GATEWAY_DRUG'],6,"['DRUG_POLICY', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'GATEWAY_DRUG', 'PERSONAL_FREEDOM', 'NATIONAL_BUDGET', 'COMMUNITY/SOCIATAL_EFFECTS']"
+"Based on the provided markdown codebook, I would assign the following labels to the given text:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS
+* MEDICAL_MARIJUANA (Note: Although MDMA is mentioned, not marijuana, but based on the codebook, it seems that this label applies to any medical use of a substance. However, if strictly interpreted, I would not include this label. I'll exclude it in favor of being more precise.)
+
+Additionally, since MDMA is also related to recreational drug use, and its potential therapeutic effects might be associated with addiction or abuse, I would also consider:
+
+* DRUG_ABUSE (Note: This label could potentially apply as well, given the context of MDMA's usage)
+
+However, based on the strict interpretation of the codebook, I will exclude this label to follow instructions.
+
+The final assigned labels are:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS",llama3.1:8b-instruct-fp16,2024-09-11T12:03:16.013575366Z,stop,4201831691,29784625,212,28904000,186,4053484000,"MDMA ( Ecstasy ) has been used for cognitive enhancement in people with Parkinson 's disease , and has shown potential in treating posttraumatic stress disorder .",['MEDICAL_MARIJUANA'],3,"['DRUG_ABUSE', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'MEDICAL_MARIJUANA']"
+"Based on the provided codebook and text, I would assign the following labels:
+
+* ILLEGAL_TRADE: This label applies as the text explicitly mentions that marijuana is in an ""illegal status"".
+
+Note: None of the other labels from the codebook appear to be relevant for this specific sentence.",llama3.1:8b-instruct-fp16,2024-09-11T12:03:17.491290458Z,stop,1431491327,69820057,196,27168000,60,1287960000,"The dramatically lower level of marijuana use reflects its illegal status , not its appeal .",['COMMUNITY/SOCIATAL_EFFECTS'],1,['ILLEGAL_TRADE']
+"Based on the provided codebook, I would assign the following labels to the given sentence:
+
+* LEGAL_DRUGS
+* NATIONAL_BUDGET
+* DRUG_POLICY
+
+These labels apply because the sentence mentions taxing and regulating marijuana, which implies a shift in its legal status from illegal to legal drugs. Additionally, it suggests deriving income from this regulation, indicating concerns about national budget or fiscal policy. The overall tone of the argument is also related to drug policy.
+
+No other labels seem to directly apply to this specific sentence, although some may be tangentially relevant (e.g., PERSONAL_FREEDOM, COMMUNITY/SOCIATAL_EFFECTS).",llama3.1:8b-instruct-fp16,2024-09-11T12:03:20.591793203Z,stop,3012314947,30875143,197,27875000,132,2865711000,The argument that we can tax and regulate marijuana and derive income from it is false .,['NATIONAL_BUDGET'],5,"['DRUG_POLICY', 'LEGAL_DRUGS', 'PERSONAL_FREEDOM', 'NATIONAL_BUDGET', 'COMMUNITY/SOCIATAL_EFFECTS']"
+"Based on the provided markdown codebook, I would assign the following labels:
+
+* ADDICTION
+* HEALTH/PSYCHOLOGICAL_EFFECTS",llama3.1:8b-instruct-fp16,2024-09-11T12:03:21.446896285Z,stop,850377004,73104013,196,27923000,31,655826000,Research suggests as many as 10 % of users will develop dependence over time .,['ADDICTION'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION']"
+"Based on the given text, I would assign the following codes:
+
+* MEDICAL_MARIJUANA
+* PERSONAL_FREEDOM (note: while not explicitly mentioned, the shift in opinions towards medical marijuana suggests a consideration for individual rights and freedoms)
+
+No other labels from the codebook seem to apply directly to the text. The focus is on medical marijuana and its increasing acceptance, rather than other aspects of marijuana legalization such as national budget or community/societal effects.",llama3.1:8b-instruct-fp16,2024-09-11T12:03:23.788454977Z,stop,2252779981,73965615,217,28933000,97,2105285000,"Opinions on medical marijuana have shifted dramatically in the last two decades : this year , a slew of mostly conservative states passed laws permitting epilepsy patients to use strains of cannabis high in CBD .","['DRUG_POLICY', 'MEDICAL_MARIJUANA']",2,"['MEDICAL_MARIJUANA', 'PERSONAL_FREEDOM']"
+"Based on the provided codebook and analysis of the given sentence, I assign the following codes:
+
+* ILLEGAL_TRADE: This label applies because the sentence mentions ""drug dealers"", which implies a trade in illicit substances.
+
+I do not assign any other labels as they do not seem to be directly relevant to the content of this specific sentence.",llama3.1:8b-instruct-fp16,2024-09-11T12:03:25.511953641Z,stop,1678522860,30203984,196,27044000,69,1486666000,Drug dealers ( including some terrorists ) would lose most or all of their business .,['ILLEGAL_TRADE'],1,['ILLEGAL_TRADE']
+"Based on the given codebook and the example sentence, I would assign the following labels:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS
+* MEDICAL_MARIJUANA
+
+The sentence discusses the potential health benefit of using cannabis, specifically in relation to sleep quality, which falls under HEALTH/PSYCHOLOGICAL_EFFECTS. Additionally, the fact that it mentions a ""cannabis plant extract spray"" and its use for patients suggests a connection to MEDICAL_MARIJUANA.
+
+Note: I did not assign any other labels as they do not seem directly relevant to the specific mention of health benefits in this sentence.",llama3.1:8b-instruct-fp16,2024-09-11T12:03:28.528885206Z,stop,2969517644,70259828,206,26842000,130,2825746000,"Also , the National Cancer Institute announced in a study that patients who ingested a cannabis plant extract spray reported more restful sleep .",['MEDICAL_MARIJUANA'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'MEDICAL_MARIJUANA']"
+"After analyzing the provided text, I would assign the following labels:
+
+* MEDICAL_MARIJUANA
+* HEALTH/PSYCHOLOGICAL_EFFECTS 
+
+The text mentions a specific medical condition (Glaucoma) that marijuana can help treat by lowering intraocular pressure. This suggests that the speaker is highlighting a potential therapeutic use of marijuana, which aligns with the Medical Marijuana label.
+
+Additionally, the discussion about treating Glaucoma and lowering IOP touches on health effects, making HEALTH/PSYCHOLOGICAL_EFFECTS an applicable label as well.",llama3.1:8b-instruct-fp16,2024-09-11T12:03:31.202706037Z,stop,2626929501,73846040,204,29038000,114,2478145000,It can help treat Glaucoma by lowering the intraocular pressure ( IOP ) in people with glaucoma .,['MEDICAL_MARIJUANA'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'MEDICAL_MARIJUANA']"
+"Based on the provided markdown codebook and the example sentence:
+
+""So, there are lots of benefits to smoking pot with only a few non-beneficial issues.""
+
+I would assign the following labels:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS (referring to the ""non-beneficial issues"")
+* PERSONAL_FREEDOM (implied by the statement that there are benefits to smoking pot)
+* MEDICAL_MARIJUANA (assuming that the discussion is about legalizing marijuana, which implies its medical use)
+
+Note that I did not assign the label ILLEGAL_TRADE as it does not seem directly relevant to the example sentence.",llama3.1:8b-instruct-fp16,2024-09-11T12:03:34.286511095Z,stop,2994652603,30160124,200,28101000,131,2848226000,"So , there are lots of benefits to smoking pot with only a few non-beneficial issues .",['HARM'],4,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'MEDICAL_MARIJUANA', 'ILLEGAL_TRADE', 'PERSONAL_FREEDOM']"
+"Based on the provided text, I would assign the following codes:
+
+* HARM: The text discusses the potential harm or risk associated with marijuana use, specifically its supposed link to subsequent drug abuse.
+* DRUG_ABUSE: This label is also relevant as the text directly mentions ""subsequent abuse of other illicit drugs"".
+ 
+I did not code for LEGAL_DRUGS because the text does not discuss any aspects related to the legal status of marijuana. 
+
+Similarly, I did not code for NATIONAL_BUDGET, MEDICAL_MARIJUANA, GATEWAY_DRUG, CHILD_AND_TEEN_SAFETY, ADDICTION, PERSONAL_FREEDOM, ILLEGAL_TRADE, COMMUNITY/SOCIATAL_EFFECTS, or DRUG_POLICY because they do not directly relate to the content of the provided text.",llama3.1:8b-instruct-fp16,2024-09-11T12:03:38.142028767Z,stop,3810172368,69733446,204,28821000,168,3664947000,There is no conclusive evidence that the drug effects of marijuana are causally linked to the subsequent abuse of other illicit drugs .,['GATEWAY_DRUG'],12,"['DRUG_ABUSE', 'CHILD_AND_TEEN_SAFETY', 'DRUG_POLICY', 'LEGAL_DRUGS', 'HARM', 'ADDICTION', 'MEDICAL_MARIJUANA', 'ILLEGAL_TRADE', 'GATEWAY_DRUG', 'PERSONAL_FREEDOM', 'NATIONAL_BUDGET', 'COMMUNITY/SOCIATAL_EFFECTS']"
+"After analyzing the text, I would assign the following labels:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS: This label applies as Kerlikowske mentions that marijuana legalization would compromise ""Public Health"".
+* HARM: This label also applies as Kerlikowske frames marijuana legalization in terms of public safety and harm.
+* DRUG_POLICY: As the Director of ONDCP, Kerlikowske's remarks are part of a larger discussion about drug policy, making this label relevant.
+
+These three labels capture the main themes presented by Kerlikowske in his remarks.",llama3.1:8b-instruct-fp16,2024-09-11T12:03:40.88383233Z,stop,2695664358,73439462,243,32014000,117,2543476000,"R. Gil Kerlikowske , ONDCP Director , Remarks to the California Police Chiefs Conference : Why Marijuana Legalization Would Compromise Public Health and Public Safety ( March 4 , 2010 ) , available at http://www.ondcp.gov/news/speech10/030410_Chief.pdf .","['HEALTH/PSYCHOLOGICAL_EFFECTS', 'COMMUNITY/SOCIATAL_EFFECTS']",3,"['DRUG_POLICY', 'HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"Based on the provided codebook, I would assign the following labels to the given text:
+
+* LEGAL_DRUGS
+* DRUG_POLICY
+* PERSONAL_FREEDOM
+
+These three labels are relevant because the text mentions reducing the ""War on drugs"" and imprisonment of people for non-violent offences, which implies a shift towards decriminalizing or legalizing marijuana. This aligns with the themes of reevaluating drug policy (DRUG_POLICY) and promoting personal freedom (PERSONAL_FREEDOM).",llama3.1:8b-instruct-fp16,2024-09-11T12:03:43.394758658Z,stop,2423121276,30314719,196,27748000,105,2276875000,War on drugs and imprisonment of people for non violent offences would be significantly reduced .,['DRUG_POLICY'],3,"['DRUG_POLICY', 'LEGAL_DRUGS', 'PERSONAL_FREEDOM']"
+"Based on the text, I assign the following labels:
+
+* NATIONAL_BUDGET
+* LEGAL_DRUGS
+
+The text suggests that Dr. Pacula is discussing the economic implications of marijuana legalization, specifically how it would affect the cost and price of marijuana. The mention of a ""state's revenue model"" implies that there are budgetary considerations involved in the discussion.
+
+Note: I did not assign ILLEGAL_TRADE as a label because the text is focused on the potential effects of legalizing marijuana, rather than addressing issues related to illegal trade.",llama3.1:8b-instruct-fp16,2024-09-11T12:03:46.030511337Z,stop,2630880506,73944104,238,28812000,112,2438003000,"In her testimony before the committee , Dr. Pacula stated that prohibition raises the cost of production by at least 400 percent and that legalizing marijuana would cause the price of marijuana to fall considerably — much more than the 50 percent price reduction incorporated into the state ’s revenue model .",['NATIONAL_BUDGET'],3,"['LEGAL_DRUGS', 'ILLEGAL_TRADE', 'NATIONAL_BUDGET']"
+"After carefully reading the example sentence, I have assigned the following codes:
+
+* HARM
+* DRUG_ABUSE
+
+My reasoning is as follows: The sentence suggests that marijuana can be a ""dangerous product"", implying potential harm to users or others. Additionally, it implies that most producers would not survive due to tort liability related to drug abuse.
+
+I did not code HEALTH/PSYCHOLOGICAL_EFFECTS because while the term ""harm"" is used, it's more related to physical damage rather than psychological effects per se.",llama3.1:8b-instruct-fp16,2024-09-11T12:03:48.63335574Z,stop,2513733162,74012044,201,28722000,109,2366465000,"Even without the federal prohibition , most reputable producers would not survive the tort liability from such a dangerous product .",['HARM'],3,"['DRUG_ABUSE', 'HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"Based on the provided markdown codebook, I would assign the following labels to the given sentence:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS
+* ADDICTION 
+
+Explanation:
+The sentence discusses the effects of the endocannabinoid system on various physiological processes (immune system, mood, memory, appetite, sleep, sensation, and movement), which falls under HEALTH/PSYCHOLOGICAL_EFFECTS. Additionally, given the influence of the endocannabinoid system on mood and potential implications for substance use behaviors, I included ADDICTION as a relevant label.",llama3.1:8b-instruct-fp16,2024-09-11T12:03:51.394966874Z,stop,2713999320,33890800,213,28935000,116,2519814000,"The endocannabinoid system influences our immune system , protects nerve cells from premature death , and influences mood , memory , appetite , sleep , sensation , and movement .",['MEDICAL_MARIJUANA'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION']"
+"Based on the provided codebook, I would assign the following labels to the given text:
+
+* PERSONAL_FREEDOM
+* DRUG_ABUSE (implied by ""use"", suggesting a concern about individuals using marijuana)
+
+Note: The label LEGAL_DRUGS might seem relevant at first glance, but it's not directly applicable in this context, as the statement is more focused on the consequences of legalization rather than its definition.
+
+Let me know if you'd like me to explain any part of my reasoning!",llama3.1:8b-instruct-fp16,2024-09-11T12:03:53.831469904Z,stop,2391905952,70057214,190,25865000,104,2249392000,Legalization wo n’t lead to increased use .,['COMMUNITY/SOCIATAL_EFFECTS'],3,"['DRUG_ABUSE', 'LEGAL_DRUGS', 'PERSONAL_FREEDOM']"
+"After carefully reading the sentence, I have assigned the following codes:
+
+* DRUG_POLICY
+* HARM (in the context of reducing the number of drug users)
+* ILLEGAL_TRADE (as it mentions preventing illegal drug use)
+
+These labels capture the main ideas expressed in the sentence: pursuing a federal approach to address drug policy, reducing harm associated with drug use, and tackling the issue of illegal trade.",llama3.1:8b-instruct-fp16,2024-09-11T12:03:55.824567101Z,stop,1944613951,73645617,217,28035000,83,1796372000,By far the best option is to commit itself seriously to the federal approach and pursue a strategy that attempts to prevent illegal drug use in the first place and reduce the number of drug users .,['DRUG_POLICY'],3,"['DRUG_POLICY', 'HARM', 'ILLEGAL_TRADE']"
+"Based on the provided codebook, I would assign the following labels to the given text:
+
+* MEDICAL_MARIJUANA
+* CHILD_AND_TEEN_SAFETY (due to ""Teen marijuana use"" indicating an impact or concern related to adolescents)
+
+These labels apply as the text mentions medical marijuana use and its potential effects on teen behavior.",llama3.1:8b-instruct-fp16,2024-09-11T12:03:57.596757751Z,stop,1685253356,31969326,214,29339000,71,1536415000,"Teen marijuana use has fallen slightly over the past five years , at a time when four states and the District of Columbia have legalized marijuana and 23 others allow medical use .","['CHILD_AND_TEEN_SAFETY', 'MEDICAL_MARIJUANA']",2,"['CHILD_AND_TEEN_SAFETY', 'MEDICAL_MARIJUANA']"
+"Based on the provided markdown codebook, I would assign the following labels to the given text:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS (specifically addressing the impact of marijuana use on behavior and crime)
+* PERSONAL_FREEDOM (as the text implies that individuals should be free from restriction or stigma due to their choice to use marijuana)
+
+Note that I have not assigned any labels related to the economic or societal impacts, as the provided text does not explicitly discuss these aspects. Additionally, the text does not mention the gateway drug theory, medical marijuana, or other specific topics that may be relevant to the debate on marijuana legalization.",llama3.1:8b-instruct-fp16,2024-09-11T12:04:00.595648206Z,stop,2993743226,71717562,210,27345000,129,2805298000,"The high itself does n’t inspire violence , and there is no real case to be made that smoking pot causes one to go on to worse crimes .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'PERSONAL_FREEDOM']"
+"Based on the provided codebook, I would assign the following codes to the given text:
+
+* ILLEGAL_TRADE (referring to ""drug dealers"")
+* PERSONAL_FREEDOM (implying that targeting users rather than dealers infringes upon personal freedom) 
+* DRUG_POLICY (as it's a statement about how law enforcement should approach drug use)",llama3.1:8b-instruct-fp16,2024-09-11T12:04:02.431097037Z,stop,1747277651,77822314,197,27925000,74,1596969000,Many people argue that only drug dealers should be fought and not the drug users themselves .,['ILLEGAL_TRADE'],3,"['DRUG_POLICY', 'ILLEGAL_TRADE', 'PERSONAL_FREEDOM']"
+"Based on the provided markdown codebook, I would assign the following codes to the given sentence:
+
+* HARM (introduced to heavier drugs by smoking marijuana implies potential harm to individuals)
+* COMMUNITY/SOCIATAL_EFFECTS (increase societal and financial costs)
+* DRUG_POLICY (legalization is a policy issue)
+
+Note that GATEWAY_DRUG is also related to the idea of introducing people to heavier drugs, but since it's more specific to the gateway drug hypothesis, I would not assign it as a primary code. However, in a secondary or additional note, one could mention GATEWAY_DRUG for further context.
+
+The other labels do not directly apply to this sentence.",llama3.1:8b-instruct-fp16,2024-09-11T12:04:05.656124822Z,stop,3176403515,73898412,204,28476000,139,3027467000,"Legalization , then , could increase societal and financial costs for treating those who are introduced to heavier drugs by smoking marijuana .","['NATIONAL_BUDGET', 'GATEWAY_DRUG']",4,"['DRUG_POLICY', 'HARM', 'GATEWAY_DRUG', 'COMMUNITY/SOCIATAL_EFFECTS']"
+"After carefully examining the sentence, I would assign the following codes:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS
+* DRUG_ABUSE 
+
+These two labels apply because the text mentions the health and psychological effects of marijuana use (the increased likelihood of a car crash) and also suggests that drivers who have used marijuana are engaging in a form of drug abuse.",llama3.1:8b-instruct-fp16,2024-09-11T12:04:07.488071538Z,stop,1744200403,29978690,204,28777000,74,1596130000,Medical researchers at Columbia University found that drivers who had used marijuana were more than twice as likely to have a car crash .,['DRUG_ABUSE'],2,"['DRUG_ABUSE', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"Based on the codebook provided, here are the labels I would assign to the given text:
+
+* HARM
+* CHILD_AND_TEEN_SAFETY (Note: Although not directly mentioned in this specific sentence, the overall context of the debate about marijuana legalization and its harm often touches on the safety concerns for children and teens. However, if strictly adhering to the provided code snippet, I would remove this label.)
+ 
+Revised list:
+* HARM",llama3.1:8b-instruct-fp16,2024-09-11T12:04:09.707156348Z,stop,2215135839,73604716,239,30308000,93,2020736000,"Borghesani added , “ What I think the archdiocese is missing is the terrible harm that ( marijuana ) prohibition has done to people of color , to people who have chosen a substance that is less dangerous than alcohol and have had their lives ruined because they ’ve been arrested . ”","['LEGAL_DRUGS', 'COMMUNITY/SOCIATAL_EFFECTS']",2,"['CHILD_AND_TEEN_SAFETY', 'HARM']"
+"Based on the provided text, I would assign the following codes:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS
+* ADDICTION 
+
+These two labels apply because the text mentions cognitive difficulties, which suggests negative health or psychological effects of marijuana use. Additionally, the fact that it influences attention, concentration, and short-term memory implies a potential link to addiction or at least problematic behavior related to substance use.
+
+The other labels do not appear to be relevant in this context, as there is no mention of medical marijuana use (MEDICAL_MARIJUANA), national budget implications (NATIONAL_BUDGET), harm caused by illegal trade (ILLEGAL_TRADE), community/social effects (COMMUNITY/SOCITAL_EFFECTS) or drug policy (DRUG_POLICY).",llama3.1:8b-instruct-fp16,2024-09-11T12:04:13.32286737Z,stop,3527119150,73883091,199,28104000,155,3380686000,"Marijuana use is associated with cognitive difficulties and influences attention , concentration , and short-term memory .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],6,"['DRUG_POLICY', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION', 'MEDICAL_MARIJUANA', 'ILLEGAL_TRADE', 'NATIONAL_BUDGET']"
+"After carefully reviewing the example sentence, I've assigned the following labels:
+
+* MEDICAL_MARIJUANA
+* PERSONAL_FREEDOM (while not explicitly mentioned, the implication is that individuals should have access to medical marijuana as a matter of personal freedom)
+
+I did not assign any other labels because they do not appear to be relevant to this specific sentence.",llama3.1:8b-instruct-fp16,2024-09-11T12:04:15.115057007Z,stop,1747378714,73980615,202,27892000,74,1599770000,There have been a handful of polls over the last year and all of them show overwhelming support for medical marijuana .,['MEDICAL_MARIJUANA'],2,"['MEDICAL_MARIJUANA', 'PERSONAL_FREEDOM']"
+"Based on the provided codebook, I would assign the following labels to the given text:
+
+* HEALTH/PSYCHOLOGICAL_EFFECTS
+* HARM 
+
+These two labels are relevant because the statement compares marijuana to alcohol in terms of safety and suggests that marijuana is not safe. This implies a concern about the health or psychological effects of marijuana use, as well as potential harm associated with it.",llama3.1:8b-instruct-fp16,2024-09-11T12:04:17.099019115Z,stop,1895210954,29446069,192,27520000,81,1749249000,"In fact , compared to alcohol , marijuana is not safe .","['LEGAL_DRUGS', 'HARM']",2,"['HARM', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"

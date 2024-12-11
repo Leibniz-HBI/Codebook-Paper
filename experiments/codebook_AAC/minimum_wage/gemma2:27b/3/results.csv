@@ -1,0 +1,1521 @@
+response,model,created_at,done_reason,total_duration,load_duration,prompt_eval_count,prompt_eval_duration,eval_count,eval_duration,input_text,gold_label,label_count,mentioned_labels
+"The correct aspects for the sentence ""Supporters of minimum wage also believe that a minimum wage stimulates consumption and thus puts more money into the economy by allowing low paid workers to spend more"" are:
+
+* **[PRICES]:** The sentence directly mentions the effect of minimum wage on consumer spending, which is tied to price levels.
+* **[ECONOMIC IMPACT]:**  The argument focuses on how minimum wage positively affects the economy through increased consumption and economic activity. 
+
+
+Let me know if you'd like me to analyze another example! 
+",gemma2:27b,2024-09-12T12:19:54.561065735Z,stop,3213202185,53470071,1571,69602000,113,3043230000,Supporters of minimum wage also believe that a minimum wage stimulates consumption and thus puts more money into the economy by allowing low paid workers to spend more .,['ECONOMIC_IMPACT'],2,"['ECONOMIC_IMPACT', 'PRICES']"
+"The applicable aspects for the given sentence are:
+
+* **[MOTIVATION/CHANCES]:** The quote discusses how minimum wage laws can hinder upward mobility, which directly relates to worker incentives and opportunities.
+* **[COMPETITION/BUSINESS CHALLENGES]:**  While not explicitly stated, the mention of ""labor market rigidities"" implies potential challenges for businesses in hiring and adjusting to wage increases. 
+
+Let me know if you have any other text snippets you'd like me to analyze! 
+",gemma2:27b,2024-09-12T12:19:57.695222264Z,stop,3030858228,55232827,1583,81538000,104,2807219000,"Seth Zimmerman , PhD , Assistant Professor of Economics at the University of Chicago , stated : "" minimum wage laws can lead to labor market rigidities that make it more difficult for people to move up the economic ladder .",['MOTIVATION/CHANCES'],2,"['MOTIVATION/CHANCES', 'COMPETITION/BUSINESS_CHALLENGES']"
+"Here are the applicable labels for the provided text:
+
+* **[PRICES]** :  The sentence explicitly mentions ""higher labor costs often cause higher prices"". 
+* **[SOCIAL JUSTICE/INJUSTICE]** : The text highlights the impact of these price increases on customers with ""very low family incomes,"" suggesting a concern about fairness and the potential negative effects on vulnerable populations.
+
+
+Let me know if you'd like me to analyze any other text examples! 
+",gemma2:27b,2024-09-12T12:20:00.54892668Z,stop,2796399655,54165269,1586,88178000,97,2609376000,"Discussing the fact that higher labor costs often cause higher prices , Christina writes “ Often , the customers paying those prices — including some of the diners at McDonald ’s and the shoppers at Walmart — have very low family incomes .",['PRICES'],2,"['PRICES', 'SOCIAL_JUSTICE/INJUSTICE']"
+"The aspects present in the sentence ""Raising the wage will make it more expensive to hire younger and low-skill workers"" are:
+
+* **LOW-SKILLED:** The sentence explicitly mentions ""younger and low-skill workers"".
+* **UN/EMPLOYMENT RATE:**  The sentence implies a potential increase in unemployment for these worker groups due to higher hiring costs. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T12:20:03.400167632Z,stop,2755650241,54495489,1562,64812000,95,2549006000,-SKILLED Raising the wage will make it more expensive to hire younger and low-skill workers .,['LOW-SKILLED'],2,"['LOW-SKILLED', 'UN/EMPLOYMENT_RATE']"
+"For the sentence:
+
+""A 2014 survey found that 53 % of small business owners believed that 'with a higher minimum wage, businesses would benefit from lower employee turnover and increased productivity and customer satisfaction.'""
+
+The applicable aspects are:
+
+* **TURNOVER:** The sentence explicitly mentions lower employee turnover as a benefit of a higher minimum wage.
+* **COMPETITION/BUSINESS CHALLENGES:** While the survey focuses on positive outcomes, it implicitly acknowledges that small businesses are concerned about the challenges a higher minimum wage might pose. 
+
+
+
+Let me know if you'd like me to code more examples!",gemma2:27b,2024-09-12T12:20:07.065088112Z,stop,3650286612,55946816,1582,71761000,127,3433624000,"A 2014 survey found that 53 % of small business owners believed that "" with a higher minimum wage , businesses would benefit from lower employee turnover and increased productivity and customer satisfaction . ""","['TURNOVER', 'MOTIVATION/CHANCES']",2,"['COMPETITION/BUSINESS_CHALLENGES', 'TURNOVER']"
+"The correct labels for the sentence ""But no one argues that increasing the minimum wage increases the number of unemployed workers who find jobs"" are:
+
+* **UN/EMPLOYMENT RATE:** The sentence directly discusses the relationship between minimum wage and unemployment rates. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T12:20:09.119173914Z,stop,1998648230,54269764,1560,59469000,69,1839952000,But no one argues that increasing the minimum wage increases the number of unemployed workers who find jobs .,['UN/EMPLOYMENT_RATE'],1,['UN/EMPLOYMENT_RATE']
+"Based on the provided markdown codebook, the appropriate labels for the sentence ""They've been using undocumented immigrants for DECADES (in violation of the law) to keep wages down, and unions out"" are:
+
+* **CAPITAL VS LABOR:** The sentence highlights a power imbalance between employers (""they"") who exploit undocumented workers to suppress wages and prevent unionization. This directly points to a conflict between capital (employers) and labor (workers). 
+* **SOCIAL JUSTICE/INJUSTICE:** The exploitation of undocumented immigrants for lower wages is a clear example of social injustice.  
+
+Let me know if you have any other sentences you'd like coded! 
+",gemma2:27b,2024-09-12T12:20:13.044059785Z,stop,3871511742,55272688,1568,66924000,137,3705577000,"They 've been uusing undocumented immigrants for DECADES ( in violation of the law ) to keep wages down , and unions out .",['CAPITAL_VS_LABOR'],2,"['CAPITAL_VS_LABOR', 'SOCIAL_JUSTICE/INJUSTICE']"
+"The provided text focuses on income inequality within the United States compared to other OECD countries.  
+
+Therefore, the most appropriate aspect label for this text is: **[SOCIAL JUSTICE/INJUSTICE]**. 
+
+
+Let me know if you have more text examples to code! 
+",gemma2:27b,2024-09-12T12:20:14.92165407Z,stop,1781098283,57231450,1586,88411000,58,1546957000,"Among the 34 Organisation for Economic Cooperation and Development ( OECD ) member countries , the United States has one of the highest levels of income inequality , with only Chile , Mexico , and Turkey having higher levels of income inequality .",['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"The appropriate label for this sentence is **[ECONOMIC IMPACT]**. 
+
+Here's why:
+
+* The sentence discusses how increased wages would lead to more spending (""money...funneled back into the economy"") and ultimately economic improvement (""improve the economy"").  This directly aligns with the definition of the [ECONOMIC IMPACT] aspect. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T12:20:17.52370945Z,stop,2587070762,56314965,1569,74628000,88,2369253000,Of course that money that was paid in the form of higher wage would be funneled back into the economy which was improve the economy .,['ECONOMIC_IMPACT'],1,['ECONOMIC_IMPACT']
+"The sentence focuses on the inadequacy of the wage increase. While it doesn't explicitly mention minimum wage, it deals with the concept of **fairness in worker compensation** within the context of raises.
+
+Therefore, the most applicable aspect code would be: 
+
+* **[SOCIAL JUSTICE/INJUSTICE]** 
+
+
+Let me know if you have more sentences to code!",gemma2:27b,2024-09-12T12:20:19.867743728Z,stop,2247280867,55631507,1578,78666000,77,2066169000,"But the median raise for those lucky enough to get one was just 10 percent — which is to say , kind of a pittance , in terms of actual dollars and cents .",['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"Based on the provided text:
+
+""Another 11.1 million might theoretically benefit if companies adjusted their whole wage scales upwards, which is what the light blue section on the chart shows.""
+
+
+The appropriate aspect labels would be: 
+
+* **[MOTIVATION/CHANCES]** : The text implies that raising wages could lead to benefits for workers (11.1 million) through improved chances and opportunities.
+* **[COMPETITION/BUSINESS CHALLENGES]** :  Adjusting ""whole wage scales upwards"" suggests a potential challenge for businesses in terms of increased labor costs and competitiveness.
+
+Let me know if you have any other text snippets you'd like me to analyze! 
+",gemma2:27b,2024-09-12T12:20:24.019671408Z,stop,4096347472,54352664,1573,73831000,142,3835415000,"( Another 11.1 million might theoretically benefit if companies adjusted their whole wage scales upwards , which is what the light blue section on the chart shows .",['SOCIAL_JUSTICE/INJUSTICE'],2,"['MOTIVATION/CHANCES', 'COMPETITION/BUSINESS_CHALLENGES']"
+"The applicable labels for the sentence ""Furthermore, increasing the minimum wage has not proven to be effective at lowering the poverty rate, according to the business-backed nonprofit Employment Policies Institute"" are:
+
+* **SOCIAL JUSTICE/INJUSTICE:**  The sentence discusses the impact of minimum wage on poverty, a key aspect of social justice.
+* **PRICES:** While not explicitly stated, the argument implies that raising the minimum wage would lead to price increases, which could negate any positive effects on poverty reduction. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T12:20:27.530419633Z,stop,3453226639,55891616,1570,69356000,122,3285771000,"Furthermore , increasing the minimum wage has not proven to be effective at lowering the poverty rate , according to the business-backed nonprofit Employment Policies Institute .",['SOCIAL_JUSTICE/INJUSTICE'],2,"['PRICES', 'SOCIAL_JUSTICE/INJUSTICE']"
+"Based on the provided markdown codebook, the appropriate aspect label(s) for the sentence ""The authors found 'little or no evidence of a negative association between minimum wages and employment.'"" would be:
+
+* **UN/EMPLOYMENT RATE:** The sentence directly addresses the relationship between minimum wage and employment levels. 
+
+
+Let me know if you have any other sentences you'd like me to analyze! 
+",gemma2:27b,2024-09-12T12:20:30.056756306Z,stop,2428387193,53848312,1560,58988000,83,2226392000,"The authors found "" little or no evidence of a negative association between minimum wages and employment . """,['UN/EMPLOYMENT_RATE'],1,['UN/EMPLOYMENT_RATE']
+"The applicable aspects for the sentence ""Another casualty here could be worker benefits , such as paid vacation , reimbursed parking , or even gym memberships ."" are:
+
+* **COMPETITION/BUSINESS CHALLENGES:**  A higher minimum wage could force businesses to cut back on perks like these to offset increased labor costs. 
+
+
+Let me know if you'd like me to analyze more sentences!",gemma2:27b,2024-09-12T12:20:32.355463805Z,stop,2284234825,53740429,1562,56527000,78,2083800000,"Another casualty here could be worker benefits , such as paid vacation , reimbursed parking , or even gym memberships .",['MOTIVATION/CHANCES'],1,['COMPETITION/BUSINESS_CHALLENGES']
+"This sentence relates to **SOCIAL JUSTICE/INJUSTICE** and **WELFARE**. 
+
+Here's why:
+
+* **SOCIAL JUSTICE/INJUSTICE:** The phrase ""helping people, especially families, become more self-sufficient"" implies a concern for fairness and equality. It suggests addressing social issues that prevent individuals and families from thriving independently.
+* **WELFARE:**  The focus on self-sufficiency links to the potential reduction of reliance on government assistance or welfare programs. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T12:20:35.789513381Z,stop,3337117760,53200944,1560,55277000,118,3183974000,"Over time , the focus changed to helping people , especially families , become more self-sufficient .",['SOCIAL_JUSTICE/INJUSTICE'],2,"['SOCIAL_JUSTICE/INJUSTICE', 'WELFARE']"
+"The appropriate aspect(s) for the sentence ""According to the Econ 101 model of the world, increasing the minimum wage should cost some people their jobs."" are:
+
+* **UN/EMPLOYMENT RATE:** The sentence directly addresses the potential impact of minimum wage increases on job losses.
+
+
+Let me know if you'd like me to analyze more sentences! 
+",gemma2:27b,2024-09-12T12:20:38.158521573Z,stop,2309295269,55109634,1565,64355000,77,2059823000,"According to the Econ 101 model of the world , increasing the minimum wage should cost some people their jobs .",['UN/EMPLOYMENT_RATE'],1,['UN/EMPLOYMENT_RATE']
+"For the sentence: ""The 1968 minimum wage , to take a high-water mark , was , in real 2014 dollars , $ 10.95 an hour .""
+
+The appropriate labels would be:
+
+* **[SOCIAL JUSTICE/INJUSTICE]:** The sentence mentions a historical high point for the minimum wage, implying a discussion about fair compensation and its erosion over time.
+* **[ECONOMIC IMPACT]:**  By mentioning the value of the 1968 minimum wage in 2014 dollars, the sentence sets the stage for comparing its economic impact then and now. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T12:20:42.451964588Z,stop,4231497274,55834342,1579,78147000,150,4054258000,"The 1968 minimum wage , to take a high-water mark , was , in real 2014 dollars , $ 10.95 an hour .",['SOCIAL_JUSTICE/INJUSTICE'],2,"['ECONOMIC_IMPACT', 'SOCIAL_JUSTICE/INJUSTICE']"
+"Based on the provided markdown codebook and the example sentence, here's the coding breakdown:
+
+**Sentence:** ""The profit margins that these large companies experience can easily withstand an increase in wages without having to pass it on to the consumer.""
+
+**Applicable Codes:**
+
+* **[COMPETITION/BUSINESS CHALLENGES]:**  The sentence discusses how large companies can absorb increased labor costs without negatively impacting their competitiveness. This directly relates to business challenges around payability and profit margins. 
+* **[PRICES]:** The sentence explicitly states that the wage increase wouldn't lead to higher consumer prices (""without having to pass it on to the consumer"").
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T12:20:46.925011249Z,stop,4376592291,53668228,1566,65613000,154,4169009000,The profit margins that these large companies experience can easily withstand an increase in wages without having to pass it on to the consumer .,"['COMPETITION/BUSINESS_CHALLENGES', 'PRICES']",2,"['PRICES', 'COMPETITION/BUSINESS_CHALLENGES']"
+"The aspects present in the sentence are:
+
+* **UN/EMPLOYMENT RATE:**  The sentence discusses the lack of a negative relationship between minimum wages and employment. 
+
+
+Let me know if you'd like me to analyze more sentences! 
+",gemma2:27b,2024-09-12T12:20:48.515853749Z,stop,1573945625,55665908,1570,69422000,51,1358311000,"Moreover , they concluded , "" Once this publication selection is corrected , little or no evidence of a negative association between minimum wages and employment remains . """,['UN/EMPLOYMENT_RATE'],1,['UN/EMPLOYMENT_RATE']
+"The applicable aspect categories for the sentence are:
+
+* **PRICES:** The sentence explicitly mentions ""raise prices"" as a likely consequence of the minimum wage hike. 
+
+
+Let me know if you have more sentences to code! I'm ready. 
+",gemma2:27b,2024-09-12T12:20:50.21935327Z,stop,1607048229,55476804,1567,66637000,54,1442467000,And 62 percent of Seattle employers responded in an initial survey before the wage hike took effect that they would likely raise prices .,['PRICES'],1,['PRICES']
+"The appropriate labels for the sentence are:
+
+* **SOCIAL JUSTICE/INJUSTICE:** The sentence directly addresses inequality, a core concept within social justice discussions. The mention of the decreasing real value of the minimum wage further connects this aspect to economic fairness and worker compensation. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T12:20:52.530212714Z,stop,2254684582,55481213,1583,78783000,74,1989080000,A 2015 study found that the decrease in the inflation-adjusted value of the minimum wage since the 1980s has been a contributor to America 's high levels of inequality .,['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"The correct labels for the sentence ""And nearly 90 percent of franchised hotels said they would raise room rates , compared with 70 percent of nonfranchised hotels ."" are:
+
+* **PRICES:**  The sentence explicitly discusses raising room rates as a consequence of minimum wage increases.  
+
+
+Let me know if you'd like to analyze more sentences!",gemma2:27b,2024-09-12T12:20:54.817993798Z,stop,2229718714,56457667,1571,73449000,77,2056922000,"And nearly 90 percent of franchised hotels said they would raise room rates , compared with 70 percent of nonfranchised hotels .","['COMPETITION/BUSINESS_CHALLENGES', 'PRICES']",1,['PRICES']
+"The sentence ""Their present wages are hopelessly inadequate"" would be coded with the following aspects:
+
+* **SOCIAL JUSTICE/INJUSTICE:** The phrase ""hopelessly inadequate"" implies a strong moral judgment about the fairness of the current wages, aligning with themes of social justice and worker compensation. 
+
+
+Let me know if you'd like to try coding another example!",gemma2:27b,2024-09-12T12:20:57.149754436Z,stop,2233334917,55423853,1548,55594000,76,2035841000,Their present wages are hopelessly inadequate .,['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"The provided text should be coded with the following aspects:
+
+* **SOCIAL JUSTICE/INJUSTICE:** The phrase ""ensure that low-wage workers could adopt a standard of living commensurate with the current economy"" directly addresses issues of fairness, living wage, and economic justice for low-income earners.
+
+* **ECONOMIC IMPACT:**  Indexing the minimum wage to inflation implies consideration of its broader impact on the economy. 
+
+
+Let me know if you'd like me to analyze any other text examples!",gemma2:27b,2024-09-12T12:21:00.127501321Z,stop,2963339832,54877808,1569,72210000,102,2747388000,Raising the minimum wage and indexing it to inflation would ensure that low-wage workers could adopt a standard of living commensurate with the current economy .,['SOCIAL_JUSTICE/INJUSTICE'],2,"['ECONOMIC_IMPACT', 'SOCIAL_JUSTICE/INJUSTICE']"
+"Here's the breakdown of aspects for the given sentence:
+
+* **LOW-SKILLED:**  The sentence directly discusses the impact of a higher minimum wage on ""young people"" and those with ""limited work experience,"" who are classic examples of low-skilled workers. 
+* **UN/EMPLOYMENT RATE:** The sentence points to a potential increase in unemployment for young people and those with limited experience due to experienced workers staying in lower-wage jobs longer. This directly relates to the impact on the employment rate.
+
+Let me know if you have any other sentences you'd like me to analyze! 
+",gemma2:27b,2024-09-12T12:21:03.813438769Z,stop,3589168118,55192856,1583,81473000,126,3409677000,"-SKILLED • The possibility that a higher minimum wage would attract more experienced workers and keep them in lower-wage jobs longer , blocking young people or people with limited work experience from entry-level jobs .","['LOW-SKILLED', 'MOTIVATION/CHANCES']",2,"['LOW-SKILLED', 'UN/EMPLOYMENT_RATE']"
+"Here's a breakdown of the aspect labels that apply to the provided text:
+
+* **UN/EMPLOYMENT RATE:**  The sentence discusses giving part-time workers full-time opportunities, implying a potential impact on unemployment rates.
+
+* **TURNOVER:** The text mentions reducing hiring and training costs by offering full-time positions, directly addressing the issue of employee turnover. 
+
+
+Let me know if you'd like me to analyze more example sentences! 
+",gemma2:27b,2024-09-12T12:21:06.700499966Z,stop,2823422823,56276674,1569,72647000,95,2557487000,Part-time workers making minimum wage could be given full-time opportunity to help save an employer the cost of hiring and training new employees .,"['TURNOVER', 'MOTIVATION/CHANCES']",2,"['UN/EMPLOYMENT_RATE', 'TURNOVER']"
+"The sentence ""Why can't they just figure it out and make ends meet?"" relates to the aspect **[SOCIAL JUSTICE/INJUSTICE]**. 
+
+
+Here's why:
+
+* **""Make ends meet""** directly refers to the struggle of affording basic necessities, a key concern within discussions about social justice and fair wages.
+* The phrasing **""Why can't they just figure it out""** implies a sense of frustration with systemic issues preventing people from achieving financial stability, suggesting a belief in social inequities. 
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T12:21:10.396035745Z,stop,3639625375,54946800,1558,55190000,129,3485353000,""" Why ca n't they just figure it out and make ends meet ? """,['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"For the sentence: ""Between July 2015 and the last increase in the minimum wage in 2009 , the federal minimum wage lost 8.1 % of its purchasing power to inflation .""
+
+The following aspects apply:
+
+* **[SOCIAL JUSTICE/INJUSTICE]** : The sentence highlights the erosion of the minimum wage's value due to inflation, implying a lack of fairness and justice for workers who rely on it.
+* **[PRICES]** :  The sentence explicitly mentions ""inflation"" and its impact on the purchasing power of the minimum wage, directly relating to price increases. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T12:21:14.65452482Z,stop,4161801257,54508638,1580,78027000,146,3941157000,"Between July 2015 and the last increase in the minimum wage in 2009 , the federal minimum wage lost 8.1 % of its purchasing power to inflation .",['SOCIAL_JUSTICE/INJUSTICE'],2,"['PRICES', 'SOCIAL_JUSTICE/INJUSTICE']"
+"Based on the provided text and codebook, the appropriate labels are:
+
+* **ECONOMIC IMPACT:** The phrase ""damage the economic prospects"" directly relates to the effects of minimum wage on the economy. 
+* **UN/EMPLOYMENT RATE:** The mention of  ""millions of vulnerable people"" being affected suggests potential job losses or reduced employment opportunities, a key aspect of the unemployment rate discussion. 
+
+
+Let me know if you have any other text snippets you'd like me to analyze! 
+",gemma2:27b,2024-09-12T12:21:17.624026189Z,stop,2954301536,53747549,1568,67060000,102,2744888000,I can think of only one good reason : that increasing the minimum wage so dramatically will damage the economic prospects of millions of vulnerable people .,"['COMPETITION/BUSINESS_CHALLENGES', 'UN/EMPLOYMENT_RATE']",2,"['ECONOMIC_IMPACT', 'UN/EMPLOYMENT_RATE']"
+"Based on the provided codebook, the following labels apply to the text:
+
+* **[PRICES]** - The text mentions specific hourly wages needed to afford housing and compares them to the federal minimum wage, highlighting the impact of minimum wage on housing costs.
+* **[SOCIAL JUSTICE/INJUSTICE]** -  The text implies a social justice issue by stating that workers need to earn significantly more than the minimum wage to afford basic housing, suggesting that the current minimum wage is insufficient for a decent standard of living. 
+
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-12T12:21:21.339136653Z,stop,3618849688,54420546,1624,117015000,126,3403765000,"According to a 2015 report from the National Low Income Housing Coalition , a worker must earn at least $ 15.50 an hour ( over twice the federal minimum wage ) to be able to afford to rent a "" modest "" one-bedroom apartment , and $ 19.35 for a two-bedroom unit ( more than 2.5 times the minimum wage ) .",['SOCIAL_JUSTICE/INJUSTICE'],2,"['PRICES', 'SOCIAL_JUSTICE/INJUSTICE']"
+"The aspects present in this sentence are:
+
+* **SOCIAL JUSTICE/INJUSTICE:**  The phrase ""first claims of labor, WHICH TAKES PRIORITY OVER ANY CLAIMS OF THE OWNERS TO PROFITS"" highlights a concern for fair treatment and compensation of workers compared to business owners. The mention of ""right to a living wage"" further emphasizes this social justice aspect.
+
+* **CAPITAL VS LABOR:** The sentence directly contrasts the interests of ""labor"" (workers) with those of ""owners"" (business owners), highlighting the power dynamic between these groups. 
+
+
+Let me know if you have other sentences you'd like me to code!",gemma2:27b,2024-09-12T12:21:25.232859927Z,stop,3836570688,55321899,1585,88807000,132,3561677000,"In 1940 , US Catholic Bishops stated : "" The first claims of labor , WHICH TAKES PRIORITY OVER ANY CLAIMS OF THE OWNERS TO PROFITS , respects the right to a living wage . """,['SOCIAL_JUSTICE/INJUSTICE'],2,"['CAPITAL_VS_LABOR', 'SOCIAL_JUSTICE/INJUSTICE']"
+"The correct aspect labels for the sentence: 
+
+""In other words, minimum-wage work isn't just supplemental; many households are relying either fully or substantially on full-time, minimum-wage work to pay the bills.""
+
+
+are:  
+
+* **[SOCIAL JUSTICE/INJUSTICE]** This label fits because the sentence highlights the reliance of households on minimum wage jobs to cover basic necessities like bills. This points to issues of fair compensation and a living wage, key themes within social justice discussions.
+* **[LIVING COSTS]** The phrase ""pay the bills"" directly refers to the cost of living and how minimum wage earners struggle to meet these expenses.  
+
+Let me know if you have any other sentences you'd like help coding! 
+",gemma2:27b,2024-09-12T12:21:29.67458068Z,stop,4386274302,53883783,1578,74664000,156,4212597000,"In other words , minimum-wage work is n’t just supplemental ; many households are relying either fully or substantially on full-time , minimum-wage work to pay the bills .",['YOUTH_AND_SECONDARY_WAGE_EARNERS'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"The appropriate labels for the text are:
+
+* **COMPETITION/BUSINESS CHALLENGES:** The sentence highlights the potential negative impact of a minimum wage increase on small businesses, who might struggle to afford higher wages.
+* **ECONOMIC IMPACT:**  The phrase ""the economy will be adversely affected"" directly points to a discussion about the broader economic consequences of a minimum wage hike. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T12:21:32.551334313Z,stop,2779125363,55708659,1579,78987000,95,2557071000,"Some argue that by increasing the federal minimum wage , however , the economy will be adversely affected due to small businesses not being able to keep up with the need to subsequently increase all workers wages .","['COMPETITION/BUSINESS_CHALLENGES', 'ECONOMIC_IMPACT']",2,"['ECONOMIC_IMPACT', 'COMPETITION/BUSINESS_CHALLENGES']"
+"The applicable aspect categories for the sentence:
+
+""A tax credit is less politically palatable because it takes money directly out of federal coffers , while the minimum wage can be raised without it showing up directly on the government ’s books .""
+
+are:
+
+* **GOVERNMENT:** The sentence discusses the political implications of a tax credit versus raising the minimum wage, explicitly mentioning ""government's books"". 
+
+
+Let me know if you have more sentences to code! I'm ready.",gemma2:27b,2024-09-12T12:21:35.389858317Z,stop,2781374368,54102227,1577,77494000,97,2604606000,"A tax credit is less politically palatable because it takes money directly out of federal coffers , while the minimum wage can be raised without it showing up directly on the government ’s books .",['WELFARE'],1,['GOVERNMENT']
+"The applicable aspect(s) for the sentence ""In other words, one theory holds that increasing the minimum wage forces businesses to get thinner"" are:
+
+* **COMPETITION/BUSINESS CHALLENGES**:  The phrase ""forces businesses to get thinner"" implies that raising the minimum wage creates challenges for businesses, potentially leading to downsizing or cost-cutting measures. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T12:21:38.159936971Z,stop,2671157389,56653672,1559,59505000,92,2465081000,"In other words , one theory holds that increasing the minimum wage forces businesses to get thinner .","['COMPETITION/BUSINESS_CHALLENGES', 'UN/EMPLOYMENT_RATE']",1,['COMPETITION/BUSINESS_CHALLENGES']
+"The applicable aspects for the sentence:
+
+""A minimum wage ensures low-skilled workers that they will be paid a guaranteed minimum and encourages them to find work and provide for themselves."" 
+
+
+are:
+
+* **[MOTIVATION/CHANCES]:** The sentence highlights how a minimum wage provides  incentives for low-skilled workers to seek employment.
+* **[LOW-SKILLED]:**  The sentence specifically focuses on the impact of minimum wage on low-skilled workers. 
+",gemma2:27b,2024-09-12T12:21:41.115946515Z,stop,2942174477,56853009,1568,60561000,102,2735487000,A minimum wage ensures low-skilled workers that they will be paid a guaranteed minimum and encourages them to find work and provide for themselves .,"['SOCIAL_JUSTICE/INJUSTICE', 'MOTIVATION/CHANCES']",2,"['MOTIVATION/CHANCES', 'LOW-SKILLED']"
+"Here's a breakdown of the aspect labels that apply to the given text:
+
+* **[SOCIAL JUSTICE/INJUSTICE]:**  The phrase ""the fair thing to do for American workers"" directly points to concerns about fairness in worker compensation and social justice. 
+
+* **[ECONOMIC IMPACT]:** The mention of tying the minimum wage to inflation suggests a desire to mitigate the negative economic impacts of inflation on workers' purchasing power. 
+
+
+Let me know if you have any other text snippets you'd like me to analyze! 
+",gemma2:27b,2024-09-12T12:21:44.412677375Z,stop,3200149726,57086374,1581,79597000,112,3018649000,"Proponents of an increase argue that the fair thing to do for American workers is to increase the minimum wage and , ideally , tie it to inflation , thus removing future increases from the realm of politics .",['SOCIAL_JUSTICE/INJUSTICE'],2,"['ECONOMIC_IMPACT', 'SOCIAL_JUSTICE/INJUSTICE']"
+"The correct labels for the sentence ""No matter how you slice it, the minimum wage has not kept up with inflation"" are:
+
+* **SOCIAL JUSTICE/INJUSTICE:** The sentence implies that the minimum wage is insufficient, pointing to a lack of fairness and potentially contributing to social injustices like poverty.
+* **PRICES:**  The reference to ""not keeping up with inflation"" directly links the minimum wage to rising prices and its impact on purchasing power. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T12:21:47.750660528Z,stop,3282446320,55803682,1560,59388000,113,3036926000,"No matter how you slice it , the minimum wage has n’t kept up with inflation .",['SOCIAL_JUSTICE/INJUSTICE'],2,"['PRICES', 'SOCIAL_JUSTICE/INJUSTICE']"
+"For the sentence: 
+
+""Historically, economist's skepticism was rooted in the worry that wage floors reduce employment.""
+
+The applicable labels are:
+
+* **UN/EMPLOYMENT RATE:** The sentence directly discusses the concern that minimum wage (referred to as ""wage floors"") leads to reduced employment. 
+
+
+Let me know if you have more sentences to code! 
+",gemma2:27b,2024-09-12T12:21:49.996296372Z,stop,2187820042,56129310,1557,58501000,76,2030439000,"Historically , economists ' scepticism was rooted in the worry that wage floors reduce employment .",['UN/EMPLOYMENT_RATE'],1,['UN/EMPLOYMENT_RATE']
+"The appropriate labels for the text ""But those predisposed to defending the interests of corporate America – including retailers and fast-food restaurants – oppose any increase"" are:
+
+* **COMPETITION/BUSINESS CHALLENGES:** The sentence highlights opposition from businesses (retailers and fast-food restaurants) which suggests concerns about how a minimum wage increase might impact their competitive position. 
+* **CAPITAL VS LABOR:**  The phrase ""defending the interests of corporate America"" implies a power dynamic between capital (businesses) and labor (workers).
+
+Let me know if you'd like me to analyze any other text snippets! 
+",gemma2:27b,2024-09-12T12:21:53.708741699Z,stop,3616275544,54805114,1565,65706000,127,3407675000,But those predisposed to defending the interests of corporate America – including retailers and fast-food restaurants – oppose any increase .,"['COMPETITION/BUSINESS_CHALLENGES', 'CAPITAL_VS_LABOR']",2,"['CAPITAL_VS_LABOR', 'COMPETITION/BUSINESS_CHALLENGES']"
+"Based on the provided codebook, the appropriate label(s) for the sentence ""High employee turnover costs businesses time and money in recruiting and training new workers"" would be:
+
+* **[TURNOVER]** -  The sentence explicitly discusses the negative consequences of high employee turnover, mentioning costs related to recruitment and training. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T12:21:56.169336932Z,stop,2444537228,53630474,1556,55207000,84,2246230000,High employee turnover costs businesses time and money in recruiting and training new workers .,"['COMPETITION/BUSINESS_CHALLENGES', 'TURNOVER']",1,['TURNOVER']
+"The applicable aspects for the sentence ""Overall, if costs of living go up, then we may end up right back where we started"" are:
+
+* **[PRICES]** : The sentence directly addresses the impact of rising costs of living. 
+
+
+Let me know if you have any other sentences you'd like coded! 
+",gemma2:27b,2024-09-12T12:21:58.265861252Z,stop,1997456892,55821512,1561,60975000,69,1833933000,"Overall , if costs of living go up , then we may end up right back where we started .",['PRICES'],1,['PRICES']
+"The applicable labels for the text are:
+
+* **[PRICES]** : The text explicitly mentions fast-food restaurants passing on increased labor costs to consumers, which directly relates to consumer prices. 
+* **[COMPETITION/BUSINESS CHALLENGES]** :  The mention of ""other firms may do the same"" implies that a minimum wage increase could lead to broader price increases due to businesses needing to cover higher labor costs. This suggests a potential impact on competition and business challenges. 
+
+
+Let me know if you have any other text examples you'd like me to analyze!",gemma2:27b,2024-09-12T12:22:01.783585986Z,stop,3457716413,56349374,1594,91132000,118,3178076000,"A 2013 article by the Federal Reserve Bank of Chicago stated that if the minimum wage is increased , fast-food restaurants would pass on almost 100 % of their increased labor costs on to consumers and that other firms may do the same .",['PRICES'],2,"['PRICES', 'COMPETITION/BUSINESS_CHALLENGES']"
+"The correct labels for the sentence:
+
+""In Mississippi, by contrast, many employers will have to raise their wages, and it’s a safe bet that virtually all of the cost of this minimum wage hike will be passed on to consumers in the form of higher prices."" 
+
+
+are: 
+
+* **PRICES** - The sentence explicitly states that the cost of the minimum wage hike will be passed onto consumers in the form of higher prices.
+* **COMPETITION/BUSINESS CHALLENGES** -  The phrase ""many employers will have to raise their wages"" implies that businesses face a challenge in absorbing the increased labor costs. 
+
+
+Let me know if you'd like me to analyze any other sentences! 
+",gemma2:27b,2024-09-12T12:22:06.019973139Z,stop,4179357502,54444895,1587,88620000,148,3991886000,"In Mississippi , by contrast , many employers will have to raise their wages , and it ’s a safe bet that virtually all of the cost of this minimum wage hike will be passed on to consumers in the form of higher prices .",['PRICES'],2,"['PRICES', 'COMPETITION/BUSINESS_CHALLENGES']"
+"The aspects present in the sentence ""With an estimated 9 million people making as little as $9/hour in these two states, the immediate effects of the wage increases are undeniable.""  are:
+
+* **SOCIAL JUSTICE/INJUSTICE**: The sentence highlights a situation where millions of people earn a low wage ($9/hour), implying unfairness and potential social injustice. 
+* **ECONOMIC IMPACT:** The phrase ""immediate effects of the wage increases"" suggests a discussion about the broader economic consequences of raising the minimum wage.
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T12:22:09.77529355Z,stop,3658822248,54065055,1572,69866000,128,3446096000,"With an estimated 9 million people making as little as $ 9/hour in these two states , the immediate effects of the wage increases are undeniable .",['SOCIAL_JUSTICE/INJUSTICE'],2,"['ECONOMIC_IMPACT', 'SOCIAL_JUSTICE/INJUSTICE']"
+"Here's the breakdown of aspect labels for the given sentence:
+
+**Sentence:** ""If the minimum wage is increased, employers might not want to invest as much money in unskilled workers, which can lead to those employees being squeezed out of the job market.""
+
+**Labels:**
+
+
+* **[UN/EMPLOYMENT RATE]:** The sentence directly discusses the potential impact of minimum wage on employment (""...unskilled workers...being squeezed out of the job market"").
+* **[LOW-SKILLED]:** The focus is on ""unskilled workers"" and how they might be affected by a minimum wage increase. 
+
+
+Let me know if you'd like to analyze more sentences! 
+",gemma2:27b,2024-09-12T12:22:13.842895148Z,stop,4052213460,55051799,1579,77919000,142,3829196000,"-SKILLED If the minimum wage is increased , employers might not want to invest as much money in unskilled workers , which can lead to those employees being squeezed out of the job market .","['LOW-SKILLED', 'UN/EMPLOYMENT_RATE']",2,"['LOW-SKILLED', 'UN/EMPLOYMENT_RATE']"
+"Based on the provided markdown codebook, the appropriate label(s) for the sentence ""But I would not have gotten those jobs if someone had to pay me a large amount of money"" are:
+
+* **[UN/EMPLOYMENT RATE]:** The sentence implies that a high minimum wage could lead to job losses, as employers might be less willing to hire if they have to pay a higher salary. 
+
+
+Let me know if you'd like me to analyze any other sentences!",gemma2:27b,2024-09-12T12:22:16.765806274Z,stop,2825502491,54802605,1561,63674000,99,2663792000,But I would not have gotten those jobs if someone had to pay me a large amount of money .,['MOTIVATION/CHANCES'],1,['UN/EMPLOYMENT_RATE']
+"The correct labels for the sentence ""Minimum wage laws prevent mutually advantageous, voluntary labor agreements between employers and employees from taking place"" are:
+
+* **COMPETITION/BUSINESS CHALLENGES:**  The sentence implies that minimum wage laws interfere with the free market dynamics of employment, potentially hindering businesses' ability to negotiate wages freely.
+* **CAPITAL VS LABOR:** The phrase ""mutually advantageous, voluntary labor agreements"" suggests a power imbalance between capital (employers) and labor (employees), which is a core theme in discussions about capital vs. labor. 
+",gemma2:27b,2024-09-12T12:22:20.109663314Z,stop,3286037378,55440672,1559,55894000,113,3038383000,"Minimum wage laws prevent mutually advantageous , voluntary labor agreements between employers and employees from taking place .",['GOVERNMENT'],2,"['CAPITAL_VS_LABOR', 'COMPETITION/BUSINESS_CHALLENGES']"
+"The applicable aspect for the sentence ""Raising minimum wage can increase the cost of products"" is **[PRICES]**. 
+
+
+Let me know if you'd like me to analyze more sentences! 
+",gemma2:27b,2024-09-12T12:22:21.465337027Z,stop,1297131374,54249111,1551,58671000,43,1139288000,Raising minimum wage can increase the cost of product .,['PRICES'],1,['PRICES']
+"Based on the provided text and codebook, the applicable aspect labels are:
+
+* **GOVERNMENT:** The sentence discusses the role of government legislation (""you can not legislate a nation into prosperity"") in relation to economic well-being. 
+* **CAPITAL VS LABOR:**  The reference to ""National Association of Manufacturers (NAM) — an anti-union organization"" points towards a tension between business interests (capital) and worker representation (labor).
+
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-12T12:22:24.77191219Z,stop,3207503255,54030014,1587,87297000,110,2978380000,"As Robert Dresser of the National Association of Manufacturers ( NAM ) — an anti-union organization of assorted businesses that fought various New Deal laws — told the congressmen : "" you can not legislate a nation into prosperity . ""","['GOVERNMENT', 'CAPITAL_VS_LABOR']",2,"['CAPITAL_VS_LABOR', 'GOVERNMENT']"
+"Based on your provided codebook, the following aspect(s) apply to the sentence: 
+
+**[MOTIVATION/CHANCES]** 
+
+
+Let me explain why:
+
+* The sentence talks about people making ""more money"" which is a direct incentive to work.
+* It also mentions  fewer people quitting, implying increased job stability and potentially better career prospects –  another aspect of motivation and chances. 
+",gemma2:27b,2024-09-12T12:22:27.336330914Z,stop,2548929273,53770827,1557,58974000,87,2342106000,This important because they can make more money because less people are likely to quit .,['TURNOVER'],1,['MOTIVATION/CHANCES']
+"The applicable aspects for the sentence ""Private industry and the free market are already taking care of it"" are:
+
+* **GOVERNMENT:** This sentence implies a belief that government intervention in wage setting is unnecessary because the free market will naturally determine fair wages.  
+
+
+
+Let me know if you'd like me to analyze more sentences! 
+",gemma2:27b,2024-09-12T12:22:29.436348519Z,stop,2003552826,55584834,1554,57660000,69,1843538000,Private industry and the free market are already taking care of it .,['GOVERNMENT'],1,['GOVERNMENT']
+"Here's a breakdown of the aspect labels applicable to the text provided:
+
+**[COMPETITION/BUSINESS CHALLENGES]** -  The text explicitly states that White Castle would have to close stores and lay off workers due to a higher minimum wage. This directly points to businesses facing challenges in affording labor costs.
+
+ **[UN/EMPLOYMENT RATE]** - The mention of letting go ""thousands of workers"" directly relates to the potential impact of a minimum wage increase on employment rates.
+
+
+Let me know if you have any other text snippets you'd like analyzed! 
+",gemma2:27b,2024-09-12T12:22:32.91192282Z,stop,3420479771,55496783,1587,87125000,116,3142425000,"Jamie Richardson , MBA , Vice President of fast food chain White Castle , said that the company would be forced to close almost half its stores and let go thousands of workers if the federal minimum wage were raised to $ 15 .","['COMPETITION/BUSINESS_CHALLENGES', 'UN/EMPLOYMENT_RATE']",2,"['COMPETITION/BUSINESS_CHALLENGES', 'UN/EMPLOYMENT_RATE']"
+"Here's a breakdown of the aspect coding for the sentence:
+
+""And even if there are job some losses, the math seems to suggest that the middle class and poor would still earn more income collectively in the deal.""
+
+**Applicable Aspects:**
+
+* **[SOCIAL JUSTICE/INJUSTICE]:** The sentence focuses on the impact of minimum wage on income distribution, specifically mentioning ""the middle class and poor"" earning more. This directly relates to themes of fairness, equality, and social justice. 
+* **[ECONOMIC IMPACT]:**  The phrase ""the math seems to suggest"" implies an economic analysis of the effects of minimum wage. The sentence discusses collective income gain, which is a key economic impact.
+
+
+Let me know if you have any other sentences you'd like coded! 
+",gemma2:27b,2024-09-12T12:22:37.586219628Z,stop,4618058416,54442485,1571,73504000,164,4444890000,"And even if there are job some losses , the math seems to suggest that the middle class and poor would still earn more income collectively in the deal .","['UN/EMPLOYMENT_RATE', 'SOCIAL_JUSTICE/INJUSTICE']",2,"['ECONOMIC_IMPACT', 'SOCIAL_JUSTICE/INJUSTICE']"
+"For the sentence: 
+
+""More opportunity for jobs: If these minimum wage employees are spending more, then businesses are earning more and need to hire more employees to keep up with the increased sales from the minimum wage employees who are buying more.""
+
+
+The following aspect labels apply:
+
+* **[MOTIVATION/CHANCES]**  - The sentence explicitly links increased minimum wage to more job opportunities.
+* **[ECONOMIC IMPACT]** - The sentence describes a ripple effect of increased spending leading to higher business revenue and subsequently, more hiring. 
+
+
+Let me know if you have other sentences you'd like me to analyze! 
+",gemma2:27b,2024-09-12T12:22:41.390939476Z,stop,3706465273,56062407,1583,78837000,129,3484972000,"More opportunity for jobs : If these minimum wage employees are spending more , then businesses are earning more and need to hire more employees to keep up with the increased sales from the minimum wage employees who are buying more .","['UN/EMPLOYMENT_RATE', 'ECONOMIC_IMPACT']",2,"['ECONOMIC_IMPACT', 'MOTIVATION/CHANCES']"
+"The applicable aspect categories for the sentence are:
+
+* **[MOTIVATION/CHANCES]:** The sentence discusses how a higher minimum wage could attract ""more efficient workers"" suggesting an incentive for skilled individuals to enter the workforce. 
+
+
+Let me know if you'd like me to analyze more sentences! 
+",gemma2:27b,2024-09-12T12:22:43.352694487Z,stop,1904093894,55523723,1563,60204000,65,1744812000,But it ’s possible that productivity also rises because the higher minimum attracts more efficient workers to the labor pool .,['COMPETITION/BUSINESS_CHALLENGES'],1,['MOTIVATION/CHANCES']
+"The appropriate labels for the sentence ""An increase in consumer prices, driven by companies offsetting increased labor costs"" are:
+
+* **[PRICES]:** The sentence explicitly mentions an increase in consumer prices. 
+* **[COMPETITION/BUSINESS CHALLENGES]:**  The sentence highlights companies offsetting increased labor costs, which directly relates to the challenges businesses face due to minimum wage increases. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T12:22:46.348188548Z,stop,2899922043,64520674,1557,58354000,100,2687530000,"• An increase in consumer prices , driven by companies offsetting increased labor costs .",['PRICES'],2,"['PRICES', 'COMPETITION/BUSINESS_CHALLENGES']"
+"Based on the provided codebook, the following aspects apply to the text:
+
+* **[MOTIVATION/CHANCES]:** The text explicitly mentions developing skills and ""working your way out"" of minimum wage, highlighting incentives for upward mobility. 
+
+
+Let me know if you have any other sentences you'd like me to analyze!",gemma2:27b,2024-09-12T12:22:48.424700539Z,stop,2062071758,56378125,1571,66042000,69,1850708000,"The goal , then , is to get in at that wage , develop skills and quickly work your way out of minimum wage and up the pay scale .",['MOTIVATION/CHANCES'],1,['MOTIVATION/CHANCES']
+"Here's a breakdown of the aspect labels applicable to the sentence, along with reasoning:
+
+* **SOCIAL JUSTICE/INJUSTICE:** The sentence touches on the idea of fairness (""better solution for reducing the national poverty rate"") and implies that simply raising earnings might not address the root causes of poverty effectively. 
+
+
+Let me know if you have any other sentences you'd like me to analyze!  
+",gemma2:27b,2024-09-12T12:22:50.951885901Z,stop,2435744542,56837457,1573,73014000,84,2260492000,Some suggest that creating more jobs for people who need them rather than raising earnings for people who already have them is a better solution for reducing the national poverty rate .,"['UN/EMPLOYMENT_RATE', 'SOCIAL_JUSTICE/INJUSTICE']",1,['SOCIAL_JUSTICE/INJUSTICE']
+"The correct labels for the sentence ""Myth: Increasing the minimum wage will cause people to lose their jobs."" are:
+
+* **UN/EMPLOYMENT RATE:** The sentence directly addresses the potential impact of minimum wage increases on job losses. 
+* **COMPETITION/BUSINESS CHALLENGES:**  While not explicitly stated, the underlying reason given for job losses is often tied to businesses struggling to afford higher labor costs due to a minimum wage increase. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T12:22:54.152382707Z,stop,3149014737,56529869,1555,57815000,108,2904173000,Myth : Increasing the minimum wage will cause people to lose their jobs .,['UN/EMPLOYMENT_RATE'],2,"['COMPETITION/BUSINESS_CHALLENGES', 'UN/EMPLOYMENT_RATE']"
+"The aspects present in the text are:
+
+* **SOCIAL JUSTICE/INJUSTICE**: The phrase ""better support themselves without leaning as heavily on social programs"" points towards the idea of fairness and workers deserving a wage that allows them to meet their basic needs. 
+* **WELFARE**: The text explicitly mentions  ""leaning as heavily on social programs,"" indicating a discussion about the relationship between minimum wage and welfare dependence. 
+
+
+Let me know if you'd like me to analyze another example!",gemma2:27b,2024-09-12T12:22:57.165822714Z,stop,2957538295,77339425,1582,79616000,102,2754859000,Raising minimum wage means some of these people would be able to better support themselves without leaning as heavily on social programs and this would ultimately mean lower taxes or a reallocation of those funds to support other needs .,['WELFARE'],2,"['SOCIAL_JUSTICE/INJUSTICE', 'WELFARE']"
+"Here's a breakdown of the aspect coding for the sentence ""Raising the federal minimum wage is an important part of strengthening the economy."":
+
+* **ECONOMIC IMPACT:** The sentence directly links raising the minimum wage to strengthening the economy, indicating a focus on broader economic consequences. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T12:22:59.366072843Z,stop,2141880503,63049637,1555,57316000,74,1976299000,Raising the federal minimum wage is an important part of strengthening the economy .,['ECONOMIC_IMPACT'],1,['ECONOMIC_IMPACT']
+"The sentence you provided focuses on several aspects:
+
+* **SOCIAL JUSTICE/INJUSTICE**: The text highlights the unfair treatment and lack of respect towards fast-food workers (""hell-bent on denigrating"").  It implies that some people prioritize their own perceived status over fair wages for others. 
+
+* **COMPETITION/BUSINESS CHALLENGES**: The sentence alludes to the potential impact of minimum wage increases on businesses, suggesting that some individuals might oppose a higher minimum wage out of concern for its effect on fast-food companies.
+
+Let me know if you'd like to analyze another sentence! 
+",gemma2:27b,2024-09-12T12:23:03.018494233Z,stop,3554044731,48840400,1580,78772000,124,3337545000,"Yes , there are actually people so hell-bent on denigrating fast food workers they are willing to give up an increase in their own hourly wage purely to preserve a false sense of superiority .",['SOCIAL_JUSTICE/INJUSTICE'],2,"['SOCIAL_JUSTICE/INJUSTICE', 'COMPETITION/BUSINESS_CHALLENGES']"
+"The sentence: ""As a result, we end up subsidizing companies like McDonald's or Walmart that have a large, poorly paid workforce.""  
+
+should be coded with the following aspects: 
+
+* **[SOCIAL JUSTICE/INJUSTICE]** - This relates to the fairness of worker compensation and the idea that workers deserve a living wage.
+* **[COMPETITION/BUSINESS CHALLENGES]** - The sentence implies that companies like McDonald's and Walmart rely on low wages to remain competitive, suggesting a challenge for businesses who might pay higher wages.  
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T12:23:06.813592707Z,stop,3740252327,62108753,1567,66578000,132,3567332000,"As a result , we end up subsidizing companies like McDonald ’s or Walmart that have a large , poorly paid work force .",['WELFARE'],2,"['SOCIAL_JUSTICE/INJUSTICE', 'COMPETITION/BUSINESS_CHALLENGES']"
+"For the sentence: ""First, many people who live in poverty do not work, and would thus be unaffected by an increase in the minimum wage,""  the following aspects apply:
+
+* **SOCIAL JUSTICE/INJUSTICE:** The sentence touches on the issue of poverty and how a minimum wage increase might not directly benefit those who are unemployed.
+* **UN/EMPLOYMENT RATE:**  The statement implies that a portion of the population in poverty is not working, potentially linking to discussions about unemployment rates within this demographic. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T12:23:10.472696309Z,stop,3556433021,55604145,1566,65929000,124,3348521000,"First , many people who live in poverty do not work , and would thus be unaffected by an increase in the minimum wage .",['SOCIAL_JUSTICE/INJUSTICE'],2,"['SOCIAL_JUSTICE/INJUSTICE', 'UN/EMPLOYMENT_RATE']"
+"The applicable aspects for the sentence:
+
+""In 2014, supporters of minimum wage cited news organizations who reported the state with the highest minimum-wage garnered more job creation than the rest of the United States."" are:
+
+
+* **[UN/EMPLOYMENT RATE]:** The sentence focuses on the relationship between minimum wage and job creation.
+* **[ECONOMIC IMPACT]:**  The argument touches on the broader economic impact of a higher minimum wage, specifically mentioning job creation as a positive outcome. 
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T12:23:14.001894025Z,stop,3514173998,55253276,1577,78101000,122,3291778000,"In 2014 , supporters of minimum wage cited news organizations who reported the state with the highest minimum-wage garnered more job creation than the rest of the United States .",['UN/EMPLOYMENT_RATE'],2,"['ECONOMIC_IMPACT', 'UN/EMPLOYMENT_RATE']"
+"Based on the provided codebook and text excerpt, the following aspects apply:
+
+* **UN/EMPLOYMENT RATE:** The passage discusses the impact of the minimum wage increase on teenage employment, citing a significant drop in the teenage employment index. 
+
+* **LOW-SKILLED:**  The focus on ""teenage employment"" directly relates to a group often considered low-skilled workers entering the workforce.
+
+
+Let me know if you have any other text snippets you'd like me to analyze! 
+",gemma2:27b,2024-09-12T12:23:17.077193417Z,stop,2976805690,55260936,1627,117871000,102,2760976000,"-SKILLED Casey B. Mulligan , PhD , economics professor at the University of Chicago , stated that the teenage employment index fell sharply after the minimum wage increase of July 2009 ( a fall of about 8 % in three months , while the previous drop of 8 % took over a year ) : "" This suggests that the 2009 minimum-wage increase did significantly reduce teenage employment . """,['LOW-SKILLED'],2,"['LOW-SKILLED', 'UN/EMPLOYMENT_RATE']"
+"The appropriate labels for the sentence ""Raising the minimum wage would encourage companies to outsource jobs to countries where costs would be lower"" are:
+
+* **COMPETITION/BUSINESS CHALLENGES:** The sentence directly addresses how a raised minimum wage would negatively impact businesses, potentially leading them to seek cheaper labor elsewhere. 
+
+* **UN/EMPLOYMENT RATE:** The potential for job outsourcing is linked to the unemployment rate, as jobs could be lost domestically due to companies moving operations overseas. 
+
+
+Let me know if you have any other sentences you'd like coded! 
+",gemma2:27b,2024-09-12T12:23:20.454047386Z,stop,3317640382,54072005,1559,59699000,114,3071730000,Raising the minimum wage would encourage companies to outsource jobs to countries where costs would be lower .,['UN/EMPLOYMENT_RATE'],2,"['COMPETITION/BUSINESS_CHALLENGES', 'UN/EMPLOYMENT_RATE']"
+"The correct labels for the sentence ""Raise the min wage and costs increase"" are:
+
+* **PRICES:**  This directly addresses the effect of minimum wage on consumer prices. 
+
+
+Let me know if you'd like to try another example! 
+",gemma2:27b,2024-09-12T12:23:22.108371159Z,stop,1595453323,58532299,1549,56778000,54,1436164000,Raise the min wage and costs increase .,['PRICES'],1,['PRICES']
+"Here's a breakdown of the aspect labels for the provided sentence:
+
+**[UN/EMPLOYMENT RATE]:** This is the most prominent aspect. The sentence directly discusses the estimated impact of a minimum wage increase on employment (""reduce total employment by about 500,000 workers"").
+
+
+Let me know if you'd like to analyze more sentences! 
+",gemma2:27b,2024-09-12T12:23:24.507112922Z,stop,2302751026,56804446,1585,85587000,77,2070355000,"The nonpartisan Congressional Budget Office estimated that President Obama ’s proposed $ 10.10 wage , once fully implemented , “ would reduce total employment by about 500,000 workers . ”",['UN/EMPLOYMENT_RATE'],1,['UN/EMPLOYMENT_RATE']
+"The applicable aspects for the sentence are:
+
+* **PRICES:**  The sentence directly discusses restaurants raising prices.
+* **COMPETITION/BUSINESS CHALLENGES:** The mention of ""extremely healthy profit margins"" implies that restaurants can absorb price increases without significant competitive disadvantages, suggesting a potential challenge for smaller businesses with thinner margins. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T12:23:27.031230937Z,stop,2509301623,56330403,1572,73783000,85,2289611000,"Restaurants ( and in particular fast food eateries ) raise their prices incrementally all the time , and the vast majority of them still have extremely healthy profit margins .","['COMPETITION/BUSINESS_CHALLENGES', 'PRICES']",2,"['PRICES', 'COMPETITION/BUSINESS_CHALLENGES']"
+"Based on the provided codebook, the appropriate aspect label for the sentence:
+
+""Thus this price effect may harm the very people whom a minimum wage is supposed to help."" 
+
+
+is **[PRICES]**. 
+
+Here's why:
+
+* **Focus on Price Effects:** The sentence explicitly discusses the potential negative impact of a minimum wage increase on consumer prices (""this price effect"").  
+* **Harm to Intended Beneficiaries:** It highlights how these price increases could negatively affect the very people the minimum wage is designed to assist. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T12:23:30.798312487Z,stop,3669618627,57702449,1560,56184000,130,3511851000,Thus this price effect may harm the very people whom a minimum wage is supposed to help . ”,['PRICES'],1,['PRICES']
+"The correct codes for the given text are:
+
+* **SOCIAL JUSTICE/INJUSTICE:** The sentence discusses the impact of minimum wage on earnings relative to the poverty level, suggesting a concern for social justice and fairness.
+* **WELFARE:**  The phrase ""greater than the federally determined poverty level"" implies a connection between minimum wage and reducing reliance on welfare programs. 
+
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-12T12:23:33.716445534Z,stop,2859449425,55940945,1577,77715000,96,2591441000,"At $ 7.25 per hour a minimum wage workers earns $ 15,080 per year , which is already greater than the federally determined poverty level .",['SOCIAL_JUSTICE/INJUSTICE'],2,"['SOCIAL_JUSTICE/INJUSTICE', 'WELFARE']"
+"The correct labels for the sentence are: 
+
+* **[COMPETITION/BUSINESS CHALLENGES]:** The sentence mentions employers hiring fewer people due to increased labor costs.
+* **[PRICES]:**  The sentence explicitly states that businesses may raise prices on goods and services to offset the cost of a higher minimum wage.
+
+
+Let me know if you have any other sentences you'd like me to analyze! 
+",gemma2:27b,2024-09-12T12:23:36.294014484Z,stop,2522335134,65007296,1571,73303000,87,2341184000,Opponents say raising the minimum wage will force employers to hire fewer people or pass the new costs on to consumers by raising prices on goods and services .,"['UN/EMPLOYMENT_RATE', 'PRICES']",2,"['PRICES', 'COMPETITION/BUSINESS_CHALLENGES']"
+"The applicable labels for the text are:
+
+* **SOCIAL JUSTICE/INJUSTICE:** The sentence discusses the connection between poverty and missed school days, highlighting a social injustice. Raising the minimum wage is presented as a solution to lift families out of poverty, further emphasizing the theme of social justice. 
+* **MOTIVATION/CHANCES:** The text implies that lifting families out of poverty through a higher minimum wage would improve children's chances of attending school regularly. This connects to the aspect of motivation and opportunities for bettering one's life circumstances. 
+",gemma2:27b,2024-09-12T12:23:39.738898017Z,stop,3346532366,56297393,1588,89769000,115,3110751000,Teens who live in poverty are twice as likely to miss three or more days of school per month compared to those who do not ; thus raising the minimum wage and lifting families out of poverty would mean children would miss fewer school days .,"['SOCIAL_JUSTICE/INJUSTICE', 'MOTIVATION/CHANCES']",2,"['MOTIVATION/CHANCES', 'SOCIAL_JUSTICE/INJUSTICE']"
+"Based on your provided markdown codebook and example, here's how I would annotate the sentence:
+
+**""It creates a certain amount of structural unemployment.""**
+
+
+The applicable label for this sentence is: 
+
+* **UN/EMPLOYMENT RATE**  
+
+This is because the sentence explicitly mentions the effect of a policy (presumably raising the minimum wage) on ""structural unemployment,"" which falls directly under the category of employment and job market impacts. 
+",gemma2:27b,2024-09-12T12:23:42.48653229Z,stop,2732036121,56754855,1550,58298000,94,2528411000,It creates a certain amount of structural unemployment .,['UN/EMPLOYMENT_RATE'],1,['UN/EMPLOYMENT_RATE']
+"Based on the provided markdown codebook, the appropriate aspect(s) for the sentence: 
+
+""This increased demand for goods and services tends to stimulate the economy which, in turn, leads to job creation.""
+
+are: 
+
+* **[ECONOMIC IMPACT]** - The sentence explicitly discusses the positive impact of increased demand on the economy.
+* **[UN/EMPLOYMENT RATE]**  - The sentence mentions ""job creation"" as a direct result of economic stimulation.
+
+
+Let me know if you have any other sentences you'd like me to analyze! 
+",gemma2:27b,2024-09-12T12:23:45.842255539Z,stop,3297563969,57251527,1563,64876000,116,3129720000,"This increased demand for goods and services tends to stimulate the economy which , in turn , leads to job creation .","['UN/EMPLOYMENT_RATE', 'ECONOMIC_IMPACT']",2,"['ECONOMIC_IMPACT', 'UN/EMPLOYMENT_RATE']"
+"The applicable aspects for the sentence:
+
+""A 2014 study found that raising the Californian minimum wage to $ 13 an hour would increase the incomes of 7.5 million families , meaning fewer would live in poverty ."" 
+
+are:
+
+* **[SOCIAL JUSTICE/INJUSTICE]** : The sentence discusses the impact of minimum wage on poverty reduction, a key aspect of social justice.
+* **[WELFARE]**:  The phrasing ""fewer would live in poverty"" implies a potential reduction in reliance on welfare programs.
+
+
+
+Let me know if you'd like me to analyze more sentences! 
+",gemma2:27b,2024-09-12T12:23:49.714959092Z,stop,3774607433,62280247,1581,79402000,131,3545203000,"A 2014 study found that raising the Californian minimum wage to $ 13 an hour would increase the incomes of 7.5 million families , meaning fewer would live in poverty .",['SOCIAL_JUSTICE/INJUSTICE'],2,"['SOCIAL_JUSTICE/INJUSTICE', 'WELFARE']"
+"The appropriate aspect labels for the sentence are:
+
+* **UN/EMPLOYMENT RATE:** The sentence discusses the likelihood of reduced hiring in response to a minimum wage increase.  This directly relates to employment rates. 
+* **COMPETITION/BUSINESS CHALLENGES:** The sentence highlights differences in impact across sectors, suggesting that some businesses (fast food franchises) face greater challenges than others due to minimum wage increases.
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T12:23:52.725419111Z,stop,2993186744,55499712,1590,86885000,102,2762739000,"This trend was more pronounced in the fast food and hotel sectors — more than 80 percent of franchised fast food owners said they would be more likely to reduce hiring , versus 58 percent of non-fast-food restaurant owners .",['UN/EMPLOYMENT_RATE'],2,"['COMPETITION/BUSINESS_CHALLENGES', 'UN/EMPLOYMENT_RATE']"
+"The aspects present in the text are:
+
+* **[COMPETITION/BUSINESS CHALLENGES]:** The manager's statement highlights how minimum wage increases could force businesses to adopt labor-saving machinery, leading to job losses. This directly addresses the challenges businesses face due to increased labor costs. 
+
+* **[UN/EMPLOYMENT RATE]:**  The phrase ""eliminating over half of [their] men"" explicitly points to potential job losses as a consequence of higher minimum wages.
+
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-12T12:23:56.134208351Z,stop,3349727377,56351893,1600,93638000,117,3156653000,"The manager of one Louisiana lumber company claimed that while the low cost of living in the South meant employers had n’t resorted to “ labor-saving machinery ” thus far , wage increases beyond a certain point would force them into doing so and “ eliminating over half of [ their ] men . ”",['UN/EMPLOYMENT_RATE'],2,"['COMPETITION/BUSINESS_CHALLENGES', 'UN/EMPLOYMENT_RATE']"
+"The applicable aspect categories for the sentence ""A minimum wage increase would help to reduce race and gender inequality"" are:
+
+* **SOCIAL JUSTICE/INJUSTICE:** The sentence explicitly addresses reducing inequality based on race and gender, which falls squarely within this category. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T12:23:58.355119362Z,stop,2122552723,55875392,1554,58454000,72,1922346000,A minimum wage increase would help to reduce race and gender inequality .,['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"Based on the provided codebook, here are the applicable aspects for the given text:
+
+* **[SOCIAL JUSTICE/INJUSTICE]:** The sentence highlights the inadequacy of minimum wage for a single parent to escape poverty (""living at 76 percent of the federal poverty level""). This touches on themes of fairness in worker compensation and the struggle to meet basic needs.
+* **[WELFARE]:** The text implies that despite working full-time, a single parent earning minimum wage likely relies on government assistance (welfare) to make ends meet.  
+
+
+Let me know if you'd like me to analyze more text examples! 
+",gemma2:27b,2024-09-12T12:24:02.137858506Z,stop,3725457488,55168314,1594,89194000,131,3537096000,"According to a 2013 Congressional Research Service report , a single parent with two children who works full time at the current minimum wage would be earning around $ 15,000 and living at 76 percent of the federal poverty level .",['SOCIAL_JUSTICE/INJUSTICE'],2,"['SOCIAL_JUSTICE/INJUSTICE', 'WELFARE']"
+"Based on the provided text and codebook, the appropriate aspect label is:
+
+**[COMPETITION/BUSINESS CHALLENGES]** 
+
+
+The sentence highlights that labor costs are relatively unimportant in some businesses' cost structures. This implies a discussion about how minimum wage increases might not significantly affect these businesses due to lower reliance on labor costs, aligning with the theme of business competition and challenges related to labor costs.",gemma2:27b,2024-09-12T12:24:04.617796183Z,stop,2381203552,55490502,1573,73534000,81,2164952000,"However , the researchers note , “ in other cases … the absence of price effects shows the relative unimportance of labor in a business ’s cost structure . ”",['PRICES'],1,['COMPETITION/BUSINESS_CHALLENGES']
+"Based on the provided codebook, the following aspect(s) apply to the given text:
+
+* **[MOTIVATION/CHANCES]**  The text discusses the impact of minimum wage on teenage school enrollment, implying a potential effect on their future opportunities and motivation for further education. 
+* **[YOUTH AND SECONDARY WAGE EARNERS]** The text specifically mentions ""teens"" and their school enrollment decisions in relation to minimum wage, clearly falling under this category. 
+
+
+Let me know if you have any other text excerpts you'd like me to analyze!",gemma2:27b,2024-09-12T12:24:08.018306254Z,stop,3385408142,55669336,1598,87327000,117,3155081000,"According to a 2003 study by economists David Neumark , PhD , and William Wascher , PhD , in states where teens can leave school before 18 , a 10 % increase in the minimum wage caused teenage school enrollment to drop by 2 % .",['MOTIVATION/CHANCES'],2,"['MOTIVATION/CHANCES', 'YOUTH_AND_SECONDARY_WAGE_EARNERS']"
+"The applicable aspects for the sentence ""Raise minimum wages too high, and you’ll eventually choke off employment, harming the very people that the policy is intended to help"" are:
+
+* **UN/EMPLOYMENT RATE:**  The sentence directly addresses the potential negative impact of raising minimum wages on employment levels (""choke off employment"").
+* **LOW-SKILLED:** While not explicitly stated, the concern about harming ""the very people that the policy is intended to help"" implies a focus on low-skilled workers who are most vulnerable to job losses from increased labor costs. 
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T12:24:11.980101729Z,stop,3863600793,55796730,1568,67082000,137,3693800000,"Raise minimum wages too high , and you ’ll eventually choke off employment , harming the very people that the policy is intended to help .",['UN/EMPLOYMENT_RATE'],2,"['LOW-SKILLED', 'UN/EMPLOYMENT_RATE']"
+"Based on the provided codebook and text example, the following aspects apply:
+
+* **PRICES:** The text explicitly discusses the potential for increased rental prices due to a higher minimum wage. 
+* **UN/EMPLOYMENT RATE:**  The passage mentions that 700,000 minimum wage workers would have more money, implying a possible impact on the housing market and employment demand.
+
+
+Let me know if you'd like to analyze more examples! 
+",gemma2:27b,2024-09-12T12:24:14.940612797Z,stop,2903297511,55816868,1611,104148000,97,2609046000,"In cities such as Los Angeles with a limited housing supply , raising the minimum wage but not increasing housing stock would lead to an increase in rental prices as "" 700,000 minimum wage workers will have more money to compete for the same low inventory of rental units , "" according to researchers from the University of California in Los Angeles .",['PRICES'],2,"['PRICES', 'UN/EMPLOYMENT_RATE']"
+"Here's a breakdown of the aspect labels for the provided text:
+
+**Assigned Labels:**
+
+* **[COMPETITION/BUSINESS CHALLENGES]:**  The sentence highlights how a minimum wage (legal restriction on pay) forces employers to make decisions about hiring based on that mandated wage. This directly impacts business competition and potentially their ability to hire workers in certain sectors.
+* **[UN/EMPLOYMENT RATE]:** The phrase ""workers can not work at all in the protected sector unless they can find employers willing to hire them at that wage""  directly relates to potential unemployment if businesses are unable or unwilling to pay the minimum wage.
+
+**Explanation:**
+
+The sentence focuses on the consequences of a legal minimum wage for both employers and workers. It implies that a higher minimum wage could lead to fewer job opportunities in certain sectors, ultimately affecting the unemployment rate. 
+
+
+Let me know if you have any other text snippets you'd like analyzed!",gemma2:27b,2024-09-12T12:24:20.383330093Z,stop,5386963227,54661029,1585,85238000,192,5202606000,The legal restriction that employers can not pay less than a legislated wage is equivalent to the legal restriction that workers can not work at all in the protected sector unless they can find employers willing to hire them at that wage .,['UN/EMPLOYMENT_RATE'],2,"['COMPETITION/BUSINESS_CHALLENGES', 'UN/EMPLOYMENT_RATE']"
+"The applicable aspect for the sentence ""So it’s not just that the minimum wage is staying the same: every day, it actually becomes worth a little bit less""  is **[PRICES]**.
+
+
+Here's why:
+
+* The sentence highlights the erosion of purchasing power due to inflation.  Even if the nominal minimum wage remains constant, its real value decreases over time as prices rise. This directly ties into the concept of ""inflation"" and its effect on consumer prices, a key element within the **[PRICES]** aspect. 
+",gemma2:27b,2024-09-12T12:24:23.76239591Z,stop,3273507695,54144347,1568,67241000,114,3064881000,"So it ’s not just that the minimum wage is staying the same : every day , it actually becomes worth a little bit less .",['SOCIAL_JUSTICE/INJUSTICE'],1,['PRICES']
+"The applicable aspect(s) for the sentence ""Restaurants especially have passed the cost of minimum wage onto consumers by increasing menu prices"" are:
+
+* **[PRICES]** : The sentence directly addresses the effect of minimum wage on consumer prices (""increasing menu prices""). 
+
+
+Let me know if you'd like me to analyze more sentences! 
+",gemma2:27b,2024-09-12T12:24:25.899431095Z,stop,2122161472,55320128,1557,58827000,72,1920834000,Restaurants especially have passed the cost of minimum wage onto consumers by increasing menu prices .,['PRICES'],1,['PRICES']
+"Here's the breakdown of aspects present in the sentence:
+
+* **[SOCIAL JUSTICE/INJUSTICE]:**  The phrase ""reduce poverty"" directly relates to social justice concerns and the fairness of worker compensation. 
+* **[ECONOMIC IMPACT]:** The sentence questions whether a higher minimum wage will lead to ""better outcomes for the economy,"" indicating a focus on economic effects. 
+
+
+Let me know if you have any other sentences you'd like me to analyze!",gemma2:27b,2024-09-12T12:24:28.763861337Z,stop,2807813544,64240788,1564,65852000,98,2633678000,"Rather , economic analysis raises questions about whether a higher minimum wage will achieve better outcomes for the economy and reduce poverty .","['ECONOMIC_IMPACT', 'SOCIAL_JUSTICE/INJUSTICE']",2,"['ECONOMIC_IMPACT', 'SOCIAL_JUSTICE/INJUSTICE']"
+"Based on the provided text and codebook, here's the breakdown of applicable aspects:
+
+* **[GOVERNMENT]:** The sentence directly mentions government intervention (""government-mandated minimum wages"") and contrasts it with market-determined wages.
+* **[ECONOMIC IMPACT]:**  The text discusses the impact of minimum wages on the economy by stating they are ""almost never based on any sound economic/cost-benefit analysis."" 
+* **[COMPETITION/BUSINESS CHALLENGES]:** The passage alludes to potential challenges for businesses when it mentions market-determined wages reflecting local conditions and varying by industry. This implies that a blanket minimum wage might not suit the diverse needs of different businesses.
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T12:24:33.346634663Z,stop,4525883438,55771188,1612,104778000,160,4322471000,"According to Mark J. Perry , PhD , of the American Enterprise Institute , government-mandated minimum wages "" are always arbitrary and almost never based on any sound economic/cost-benefit analysis ... [ I ] n contrast market-determined wages reflect supply and demand conditions that are specific to local market conditions and vary widely by geographic region and by industry . """,['GOVERNMENT'],3,"['ECONOMIC_IMPACT', 'COMPETITION/BUSINESS_CHALLENGES', 'GOVERNMENT']"
+"The applicable aspect categories for the sentence: ""In essence, a $15 minimum wage is a tax on everyone, but the upside is that the worker will have more money to buy things for their family that adds to the economy"" are:
+
+* **PRICES:** The phrase  ""a $15 minimum wage is a tax on everyone"" alludes to the potential increase in prices for goods and services due to higher labor costs.
+* **ECONOMIC IMPACT:** The sentence highlights the potential positive economic impact (""the worker will have more money to buy things... that adds to the economy""). 
+
+
+Let me know if you'd like me to analyze any other sentences! 
+",gemma2:27b,2024-09-12T12:24:37.41270931Z,stop,3968549664,59406343,1580,78459000,139,3742874000,"In essence , a $ 15 minimum wage is a tax on everyone , but the upside is that the worker will have more money to buy things for their family that adds to the economy .",['ECONOMIC_IMPACT'],2,"['ECONOMIC_IMPACT', 'PRICES']"
+"Based on the provided text and codebook, the following aspects apply:
+
+* **COMPETITION/BUSINESS CHALLENGES:** The text discusses how raising the minimum wage would lead CFOs to reduce employee benefits, implying challenges for businesses in managing labor costs.
+* **UN/EMPLOYMENT RATE:**  The mention of reducing employee benefits suggests a potential impact on employment stability and possibly job losses if companies seek to offset increased labor costs. 
+
+
+Let me know if you have any other text examples you'd like me to analyze! 
+",gemma2:27b,2024-09-12T12:24:40.586840117Z,stop,3159785266,55753667,1607,96716000,108,2918103000,"A 2014 study of 400 US Chief Financial Officers ( CFOs ) by Campbell Harvey , PhD , J. Paul Sticht Professor of International Business at Duke University , found that 40 % of CFOs would reduce employee benefits if the minimum wage were raised to $ 10 an hour .",['MOTIVATION/CHANCES'],2,"['COMPETITION/BUSINESS_CHALLENGES', 'UN/EMPLOYMENT_RATE']"
+"The aspects present in the sentence are:
+
+* **[MOTIVATION/CHANCES]** :  The sentence discusses the possibility of workers staying in entry-level jobs for longer periods if the pay is increased, suggesting an impact on their motivation and chances for career advancement. 
+* **[LOW-SKILLED]** : The sentence specifically mentions ""entry-level jobs,"" which are typically associated with low-skilled positions. 
+
+
+Let me know if you have any other sentences you'd like me to analyze!",gemma2:27b,2024-09-12T12:24:43.712791106Z,stop,3027914952,55655287,1570,73045000,106,2853417000,Making the entry-level jobs higher paying increases the risk that workers will get stuck in them for longer instead of moving on to something more rewarding .,['MOTIVATION/CHANCES'],2,"['MOTIVATION/CHANCES', 'LOW-SKILLED']"
+"The appropriate labels for the sentence ""Thus this price effect may harm the very people whom a minimum wage is supposed to help"" are:
+
+* **PRICES:** The sentence directly mentions the effect of minimum wage on prices (""this price effect"").
+* **SOCIAL JUSTICE/INJUSTICE:** The sentence discusses the potential negative consequences of minimum wage for those it intends to benefit, implying a concern for fairness and social justice. 
+
+
+Let me know if you'd like me to analyze more sentences!",gemma2:27b,2024-09-12T12:24:46.749147444Z,stop,2981143733,56159437,1559,59569000,102,2730344000,Thus this price effect may harm the very people whom a minimum wage is supposed to help .,['PRICES'],2,"['PRICES', 'SOCIAL_JUSTICE/INJUSTICE']"
+"Based on the provided codebook, the following aspect(s) apply to the text:
+
+* **LOW-SKILLED:** The text explicitly mentions ""low skill employment"" and its reduction due to a minimum wage increase. This directly aligns with the definition of the `LOW-SKILLED` category. 
+* **UN/EMPLOYMENT RATE:**  The study cited discusses the impact of minimum wage on employment rates, stating that it lowers both ""low skill employment"" and ""total restaurant employment."" This falls under the `UN/EMPLOYMENT RATE` category. 
+
+
+Let me know if you have any other text snippets you'd like me to analyze! 
+",gemma2:27b,2024-09-12T12:24:50.689555082Z,stop,3884205599,55514402,1589,89193000,137,3696975000,"-SKILLED According to a Federal Reserve Bank of Chicago study , “ 10 percent increase in the minimum wage lowers low skill employment by 2 to 4 percent and total restaurant employment by 1 to 3 percent . ”","['LOW-SKILLED', 'UN/EMPLOYMENT_RATE']",2,"['LOW-SKILLED', 'UN/EMPLOYMENT_RATE']"
+"The aspects present in this sentence are:
+
+* **LOW-SKILLED:** The sentence explicitly discusses the minimum wage in relation to individuals ""entering the workforce,"" implying a focus on low-skilled or entry-level workers. 
+* **MOTIVATION/CHANCES:**  The phrase ""commensurate with... skills, education and productivity"" touches upon the idea of incentives and opportunities for workers starting their careers. The minimum wage is presented as a factor influencing these aspects.
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T12:24:54.161446797Z,stop,3368983250,54201048,1578,78475000,117,3148638000,"The core of the argument here is that the minimum wage is meant to be commensurate with the work skills , education and productivity — at that point in time — of people entering the workforce .",['SOCIAL_JUSTICE/INJUSTICE'],2,"['MOTIVATION/CHANCES', 'LOW-SKILLED']"
+"For the sentence ""As the cost of living has jumped by leaps and bounds minimum wage has barely made an impact,"" the appropriate aspect annotations are:
+
+* **[PRICES]** - The sentence directly mentions the rising cost of living, which is a key factor influencing pricing and consumer affordability. 
+* **[SOCIAL JUSTICE/INJUSTICE]**  - The phrase ""barely made an impact"" implies that the minimum wage is insufficient to address social injustices related to affording basic necessities in the face of increasing living costs. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T12:24:57.738630996Z,stop,3561680389,55865521,1560,59280000,125,3359472000,As the cost of living has jumped by leaps and bounds minimum wage has barely made an impact .,['SOCIAL_JUSTICE/INJUSTICE'],2,"['PRICES', 'SOCIAL_JUSTICE/INJUSTICE']"
+"The applicable labels for the sentence ""On the other hand, consumers with higher wages have more spending power, which may also offset price increases."" are:
+
+* **[PRICES]:** The sentence directly addresses the potential impact of increased wages on consumer prices (""may also offset price increases""). 
+
+* **[ECONOMIC IMPACT]:**  The sentence discusses the broader economic effect of higher wages, specifically mentioning increased spending power and its potential to counterbalance price hikes. This ties into the overall influence of minimum wage on the economy. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T12:25:01.390032807Z,stop,3553544273,56616408,1562,64253000,126,3387392000,"On the other hand , consumers with higher wages have more spending power , which may also offset price increases .",['PRICES'],2,"['ECONOMIC_IMPACT', 'PRICES']"
+"The applicable aspects for the sentence are:
+
+* **SOCIAL JUSTICE/INJUSTICE:** The phrase ""it is right to ensure that workers earn enough to live on"" directly addresses the concept of fairness in worker compensation and the idea of a living wage.
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T12:25:03.629837709Z,stop,2181249390,55342427,1569,72635000,72,1922842000,"Advocates for a higher wage floor argue , first and foremost , that it is right to ensure that workers to earn enough to live on .",['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"The sentence: ""If we want to greatly reduce entry level employment, that's the way to do it.""  should be coded with these aspects:
+
+* **LOW-SKILLED:** The sentence explicitly mentions reducing entry-level employment, which directly relates to the impact of minimum wage on low-skilled workers. 
+* **UN/EMPLOYMENT RATE:** The phrase ""greatly reduce entry level employment"" clearly indicates a concern about the effect of minimum wage on job availability for this group. 
+
+
+Let me know if you have any other sentences you'd like coded!",gemma2:27b,2024-09-12T12:25:07.052996302Z,stop,3364453328,54518537,1564,64925000,119,3200525000,"-SKILLED If we want to greatly reduce entry level employment , that ’s the way to do it .","['LOW-SKILLED', 'UN/EMPLOYMENT_RATE']",2,"['LOW-SKILLED', 'UN/EMPLOYMENT_RATE']"
+"Based on the provided text and codebook, the appropriate labels are:
+
+* **UN/EMPLOYMENT RATE:** The sentence explicitly mentions a reduction in employment (""reduce the city's employment"").  
+* **COMPETITION/BUSINESS CHALLENGES:** While not directly stated, the consequence of job losses implies businesses facing challenges due to increased labor costs from the minimum wage hike. 
+
+
+Let me know if you have any other text snippets you'd like me to analyze! 
+",gemma2:27b,2024-09-12T12:25:09.976094817Z,stop,2827606215,54871845,1580,79044000,97,2606729000,"San Francisco 's Office of Economic Analysis said that an increase to $ 15 would reduce the city 's employment by about "" 15,270 private sector jobs . """,['UN/EMPLOYMENT_RATE'],2,"['COMPETITION/BUSINESS_CHALLENGES', 'UN/EMPLOYMENT_RATE']"
+"The applicable aspect categories for the sentence ""Even if workers are getting a competitive wage, many of us are deeply disturbed that some hard-working families still have very little"" are:
+
+* **SOCIAL JUSTICE/INJUSTICE:** The phrase ""deeply disturbed that some hard-working families still have very little"" points to concerns about fairness, economic disparity, and the adequacy of wages for supporting families. 
+* **LIVING WAGE/LIVING COSTS:** The idea that ""hard-working families still have very little"" suggests a struggle to meet basic living expenses despite earning wages. This aligns with the concept of a living wage necessary to cover costs. 
+
+
+Let me know if you'd like me to analyze more sentences!",gemma2:27b,2024-09-12T12:25:14.1930454Z,stop,4201839763,55035368,1567,66631000,148,3990441000,"Even if workers are getting a competitive wage , many of us are deeply disturbed that some hard-working families still have very little .",['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"The applicable aspects for the sentence ""With the rising cost of living, those who get a minimum wage increase are more likely to get a feeling of financial security (at least to some degree)."" are:
+
+* **[SOCIAL JUSTICE/INJUSTICE]**: The sentence touches on the idea of fairness and financial security, which are key elements of social justice. 
+* **[LIVING COSTS]**:  The phrase ""rising cost of living"" directly points to this aspect.
+",gemma2:27b,2024-09-12T12:25:17.09089891Z,stop,2794388514,55136921,1573,71041000,98,2625567000,"With the rising cost of living , those who get a minimum wage increase are more likely to get a feeling of financial security ( at least to some degree ) .",['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"For the sentence ""The free market should determine minimum wages, not the federal government."", the appropriate labels are:
+
+* **GOVERNMENT** :  This label is relevant because the sentence explicitly discusses the role of the government in setting minimum wages versus allowing the free market to dictate them. 
+
+Let me know if you'd like me to code more examples! 
+",gemma2:27b,2024-09-12T12:25:19.395126944Z,stop,2247383780,55614854,1554,57201000,75,1998566000,"The free market should determine minimum wages , not the federal government .",['GOVERNMENT'],1,['GOVERNMENT']
+"For the sentence: ""If a higher minimum wage were the only anti-poverty initiative available, I would support it.""
+
+The applicable aspect labels are: 
+
+* **SOCIAL JUSTICE/INJUSTICE:** The statement links minimum wage to poverty reduction (""anti-poverty initiative""), suggesting a concern for social fairness and economic justice.
+* **PRICES:**  While not explicitly stated, the sentence implies that a higher minimum wage is seen as potentially helpful in addressing poverty, which could be connected to concerns about affordability and cost of living. 
+
+
+Let me know if you have more sentences you'd like me to code!",gemma2:27b,2024-09-12T12:25:23.026031284Z,stop,3573852919,53936672,1560,59332000,127,3415166000,"If a higher minimum wage were the only anti-poverty initiative available , I would support it .",['SOCIAL_JUSTICE/INJUSTICE'],2,"['PRICES', 'SOCIAL_JUSTICE/INJUSTICE']"
+"The applicable aspects for the sentence:
+
+""A more practical solution is to join the workforce at the low end of the wage scale, build your skills, get an education and move up the ladder to a better paying job just as members of the workforce have done for generations."" are:
+
+* **[MOTIVATION/CHANCES]:** The sentence emphasizes building skills, getting an education and moving up the career ladder, highlighting opportunities for worker advancement.
+* **[LOW-SKILLED]:** The phrase ""join the workforce at the low end of the wage scale"" explicitly refers to entry-level positions often associated with low-skilled work. 
+
+
+Let me know if you have any other sentences you'd like coded!",gemma2:27b,2024-09-12T12:25:27.382360673Z,stop,4258115267,56733232,1587,88377000,149,4023694000,"A more practical solution is to join the workforce at the low end of the wage scale , build your skills , get an education and move up the ladder to a better paying job just as members of the workforce have done for generations .",['MOTIVATION/CHANCES'],2,"['MOTIVATION/CHANCES', 'LOW-SKILLED']"
+"The applicable aspect categories for the sentence ""What we mean by this is that if wages are risen too much , employers may find it hard to offer sign on incentives , Christmas bonuses or extra commission for projects well done ."" are:
+
+* **[MOTIVATION/CHANCES]**  The sentence discusses how higher wages might negatively impact employee incentives like bonuses and commissions, which can affect motivation. 
+* **[COMPETITION/BUSINESS CHALLENGES]**  The sentence implies that raising wages too much could create a financial strain on businesses, making it difficult to offer additional perks. This relates to the challenges businesses face in balancing labor costs with other expenses. 
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T12:25:31.685532625Z,stop,4287459538,53509899,1576,67511000,151,4078162000,"What we mean by this is that if wages are risen too much , employers may find it hard to offer sign on incentives , Christmas bonuses or extra commission for projects well done .",['MOTIVATION/CHANCES'],2,"['MOTIVATION/CHANCES', 'COMPETITION/BUSINESS_CHALLENGES']"
+"The correct label(s) for the sentence ""Economists have tended to oppose minimum wages on the grounds that they reduce employment, hurting many of those they are supposed to help"" are:
+
+* **UN/EMPLOYMENT RATE:**  The sentence explicitly mentions the potential for minimum wage to reduce employment. 
+* **SOCIAL JUSTICE/INJUSTICE:** The statement implies a concern about fairness and whether minimum wage actually helps its intended beneficiaries. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T12:25:34.857447455Z,stop,3069078578,55199913,1567,66438000,108,2900706000,"Economists have tended to oppose minimum wages on the grounds that they reduce employment , hurting many of those they are supposed to help .",['UN/EMPLOYMENT_RATE'],2,"['SOCIAL_JUSTICE/INJUSTICE', 'UN/EMPLOYMENT_RATE']"
+"Based on the provided codebook and example sentences, here's a breakdown of potential aspect annotations for the sentence ""The proposed hike would ease present hardship, not abolish it."":
+
+* **[SOCIAL JUSTICE/INJUSTICE]:**  The phrase ""ease present hardship"" strongly suggests an argument related to fairness and addressing social inequities. 
+
+Let me know if you have any other sentences you'd like me to analyze! 
+",gemma2:27b,2024-09-12T12:25:37.576354796Z,stop,2656683527,55100372,1553,57633000,90,2412314000,"The proposed hike would ease present hardship , not abolish it .",['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"Based on the provided codebook, the following labels apply to the text:
+
+* **[LOW-SKILLED]** : The quote explicitly mentions ""less skilled, less experienced"" workers.
+* **[UN/EMPLOYMENT RATE]**:  The text argues that minimum wage laws price workers ""out of jobs"", directly referring to unemployment consequences. 
+
+
+Let me know if you have other sentences you'd like me to analyze! 
+",gemma2:27b,2024-09-12T12:25:40.270787972Z,stop,2638340861,53941090,1590,89817000,91,2449477000,"-SKILLED Economist Thomas Sowell sums it up well : “ The net economic effect of minimum wage laws is to make less skilled , less experienced , or otherwise less desired workers more expensive — thereby pricing many of them out of jobs . ”","['LOW-SKILLED', 'UN/EMPLOYMENT_RATE']",2,"['LOW-SKILLED', 'UN/EMPLOYMENT_RATE']"
+"Based on the provided codebook, the appropriate label(s) for the sentence:
+
+""One study concluded that 'Employers are disinclined to hire workers because the US federal minimum wage is very high relative to the local average.'"" 
+
+
+are:
+
+* **[UN/EMPLOYMENT RATE]** : The sentence directly discusses employers being less likely to hire due to the minimum wage, which impacts employment rates.
+* **[COMPETITION/BUSINESS CHALLENGES]**: The high minimum wage relative to the local average presents a challenge for businesses, potentially making them less competitive and less willing to hire. 
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T12:25:44.419104997Z,stop,4046035158,54673539,1572,74181000,142,3829625000,One study concluded that 'Em ployers are disinclined to hire workers because the US federal minimum wage is very high relative to the local average ' .,['UN/EMPLOYMENT_RATE'],2,"['COMPETITION/BUSINESS_CHALLENGES', 'UN/EMPLOYMENT_RATE']"
+"Here are the applicable aspects for the text provided:
+
+* **PRICES:** The text directly discusses employers raising prices to offset increased labor costs due to the minimum wage. 
+
+
+* **ECONOMIC IMPACT:** The passage talks about a ""ripple effect"" on other shops and industries, highlighting the broader economic consequences of minimum wage increases. 
+",gemma2:27b,2024-09-12T12:25:46.511653237Z,stop,2035068049,54694250,1599,90484000,69,1845735000,"Price increase : Employers might raise prices of their product in order to generate enough income to support their more highly paid minimum wage employees , which could ultimately create a ripple effect for other shops and industries , resulting in a slightly higher cost of living , resulting in another push to raise minimum wage again .",['PRICES'],2,"['ECONOMIC_IMPACT', 'PRICES']"
+"Here's a breakdown of the aspect coding for the provided sentence:
+
+**[MOTIVATION/CHANCES]**  - The sentence highlights the positive effect of minimum wage on encouraging workforce participation. 
+
+Let me know if you have any other sentences you'd like me to analyze! 
+",gemma2:27b,2024-09-12T12:25:48.445635531Z,stop,1837237162,53633844,1567,66484000,61,1628742000,"It also encourages people to join the work force , rather than seek other illegal means of earning money such as selling drugs or prostitution .",['MOTIVATION/CHANCES'],1,['MOTIVATION/CHANCES']
+"The applicable aspect categories for the sentence ""They report the increase would shave $ 7.6 billion off annual government spending on income-support programs"" are:
+
+* **WELFARE:** The sentence directly discusses the impact of minimum wage increase on government spending for welfare programs (income-support programs). 
+
+
+Let me know if you have any other sentences you'd like me to analyze!",gemma2:27b,2024-09-12T12:25:50.805929751Z,stop,2345570941,53996181,1563,60997000,80,2137753000,They report the increase would shave $ 7.6 billion off annual government spending on income-support programs .,['WELFARE'],1,['WELFARE']
+"The sentence you provided should be coded with the following aspects:
+
+* **[MOTIVATION/CHANCES]** - The speaker expresses concern about preventing entry-level workers from taking advantage of opportunities. This aligns with incentives to work and chances for workers.
+* **[LOW-SKILLED]**  - The phrasing ""making sure that people are able to enter the job market"" specifically implies a focus on low-skilled or entry-level workers. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T12:25:54.060094562Z,stop,3155638181,53988361,1576,74798000,111,2982937000,"-SKILLED I would not raise it , specifically because I 'm interested in making sure that people are able to enter the job market and take advantage of opportunities . ""","['LOW-SKILLED', 'MOTIVATION/CHANCES']",2,"['MOTIVATION/CHANCES', 'LOW-SKILLED']"
+"The applicable aspects for the sentence are:
+
+* **UN/EMPLOYMENT RATE:**  The sentence directly discusses the potential effect of minimum wage on total employment (""minimum wages can noticeably bring reduce total employment""). 
+* **COMPETITION/BUSINESS CHALLENGES:** The phrase ""slowing down hiring"" implies that businesses might face challenges in affording higher labor costs due to minimum wage increases, leading them to hire fewer employees. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T12:25:57.151574266Z,stop,3035397949,54993627,1581,78985000,103,2770096000,"Meanwhile , Jonathan Meer and Jeremy West of Texas A&M University have recently added a new wrinkle to the controversy with a paper that says minimum wages can noticeably bring reduce total employment by slowing down hiring .",['UN/EMPLOYMENT_RATE'],2,"['COMPETITION/BUSINESS_CHALLENGES', 'UN/EMPLOYMENT_RATE']"
+"The sentence ""Minimum wage should be unlivable, so the people making it are motivated to do something better!""  can be coded with these aspects:
+
+* **[MOTIVATION/CHANCES]:** The argument suggests that a low (unlivable) minimum wage will motivate workers to seek better opportunities. 
+* **[SOCIAL JUSTICE/INJUSTICE]:** This statement implies a belief that an unlivable minimum wage is acceptable, which raises questions of fairness and social justice for low-wage earners.
+
+
+Let me know if you'd like me to analyze another example! 
+",gemma2:27b,2024-09-12T12:26:00.684322646Z,stop,3471823489,54394831,1562,64631000,123,3308217000,"“ Minimum wage should be unlivable , so the people making it are motivated to do something better !","['SOCIAL_JUSTICE/INJUSTICE', 'MOTIVATION/CHANCES']",2,"['MOTIVATION/CHANCES', 'SOCIAL_JUSTICE/INJUSTICE']"
+"Here's a breakdown of the aspect labels that apply to the given sentence:
+
+* **COMPETITION/BUSINESS CHALLENGES:**  The myth directly addresses the potential impact of a minimum wage increase on restaurants, implying concerns about increased labor costs and possible job losses. 
+
+* **UN/EMPLOYMENT RATE:** The myth specifically mentions ""restaurant job losses"" which falls under this category.
+
+Let me know if you have any other sentences you'd like me to analyze! 
+",gemma2:27b,2024-09-12T12:26:03.633165343Z,stop,2852888864,56100526,1572,73761000,98,2636088000,Myth : Raising the federal tipped minimum wage ( $ 2.13 per hour since 1991 ) would lead to restaurant job losses .,['UN/EMPLOYMENT_RATE'],2,"['COMPETITION/BUSINESS_CHALLENGES', 'UN/EMPLOYMENT_RATE']"
+"For the sentence: ""The minimum wage law actually hurts unions,""  the appropriate label would be **CAPITAL VS LABOR**. 
+
+Here's why:
+
+* The statement implies a power struggle between workers (represented by unions) and employers who set wages.
+*  Minimum wage laws are often seen as interfering with free market negotiations between labor and capital, which is a central theme in the ""Capital vs Labor"" aspect. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T12:26:06.682889977Z,stop,3035597790,53358765,1549,50062000,106,2845127000,The minimum wage law actually hurts unions .,['CAPITAL_VS_LABOR'],1,['CAPITAL_VS_LABOR']
+"The correct labels for the sentence ""Not true : The typical minimum wage worker is not a high school student earning weekend pocket money ."" are:
+
+* **LOW-SKILLED:**  The sentence directly contradicts the stereotype of minimum wage workers being teenagers with secondary jobs. It implies that minimum wage workers are more often adults in primary employment roles.
+* **YOUTH AND SECONDARY WAGE EARNERS:** The sentence explicitly mentions ""high school student earning weekend pocket money,"" which falls under the category of youth and secondary wage earners. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T12:26:10.355424604Z,stop,3574977093,56189718,1560,59053000,127,3414025000,Not true : The typical minimum wage worker is not a high school student earning weekend pocket money .,['YOUTH_AND_SECONDARY_WAGE_EARNERS'],2,"['LOW-SKILLED', 'YOUTH_AND_SECONDARY_WAGE_EARNERS']"
+"For the sentence: ""The minimum wage will price the services of the least productive (and therefore lowest-wage) workers out of the market.""
+
+The following labels apply:
+
+* **LOW-SKILLED:** The sentence explicitly mentions ""least productive"" and ""lowest-wage"" workers, indicating a focus on low-skilled individuals. 
+* **UN/EMPLOYMENT RATE:**  The phrasing ""price...out of the market"" implies potential job losses for these workers, directly relating to unemployment rates. 
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T12:26:14.027445025Z,stop,3615846022,55531451,1569,72258000,125,3356844000,-SKILLED The minimum wage will price the services of the least productive ( and therefore lowest-wage ) workers out of the market .,['LOW-SKILLED'],2,"['LOW-SKILLED', 'UN/EMPLOYMENT_RATE']"
+"The correct labels for the sentence ""They also believe it discourages further education of the poor"" are:
+
+* **[MOTIVATION/CHANCES]** : The sentence directly addresses how a minimum wage might negatively impact the incentive for lower-income individuals to pursue further education. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T12:26:16.250831049Z,stop,2166290453,56878556,1553,57150000,75,2002182000,They also believe it discourages further education of the poor .,['MOTIVATION/CHANCES'],1,['MOTIVATION/CHANCES']
+"The applicable aspect(s) for the sentence ""A minimum wage hike will only help to foster more inflation"" are:
+
+* **[PRICES]** - The sentence directly addresses the potential consequence of a minimum wage increase being increased consumer prices and inflation. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T12:26:18.44659387Z,stop,2097606122,56498908,1553,57391000,71,1894883000,A minimum wage hike will only help to foster more inflation .,['PRICES'],1,['PRICES']
+"The sentence you provided triggers these aspects:
+
+* **COMPETITION/BUSINESS CHALLENGES:** The sentence mentions ""increased labor costs"" potentially leading to workforce reductions (""cut their workforce"") or price increases. This aligns directly with the challenges businesses face due to minimum wage adjustments. 
+
+* **PRICES:** The mention of  ""raise prices"" explicitly connects to the aspect of how minimum wage can impact consumer prices.
+
+
+Let me know if you have other sentences you'd like me to analyze!",gemma2:27b,2024-09-12T12:26:21.384593881Z,stop,2879985275,54608767,1567,63592000,101,2717434000,"Some companies will be able to absorb the increased labor costs , while others with thin profit margins might cut their workforce or raise prices .","['COMPETITION/BUSINESS_CHALLENGES', 'UN/EMPLOYMENT_RATE', 'PRICES']",2,"['PRICES', 'COMPETITION/BUSINESS_CHALLENGES']"
+"The aspects present in the sentence ""It is assumed that the higher the wage, the fewer hours an employer will demand of an employee"" are:
+
+* **COMPETITION/BUSINESS CHALLENGES:**  A higher minimum wage could lead to businesses needing to reduce employee hours to offset increased labor costs. 
+
+
+Let me know if you'd like me to analyze more sentences!",gemma2:27b,2024-09-12T12:26:23.712924276Z,stop,2232340131,54306659,1561,64294000,76,2025289000,"It is assumed that the higher the wage , the fewer hours an employer will demand of an employee .",['UN/EMPLOYMENT_RATE'],1,['COMPETITION/BUSINESS_CHALLENGES']
+"The sentence ""Like all government price controls , minimum wage laws are distortionary."" should be tagged with:
+
+* **GOVERNMENT:**  It explicitly mentions minimum wage as a ""government price control"" and thus implies an intervention by the state. 
+
+
+Let me know if you have any other sentences you'd like me to code! I'm ready. 
+",gemma2:27b,2024-09-12T12:26:25.923663522Z,stop,2195869623,53516589,1554,50698000,75,2001657000,"Like all government price controls , minimum wage laws are distortionary .",['GOVERNMENT'],1,['GOVERNMENT']
+"The correct aspect codes for the sentence are:
+
+* **[SOCIAL JUSTICE/INJUSTICE]** : The phrase ""someone who is tight on finances"" implies a focus on fairness and economic well-being for those struggling financially. 
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T12:26:28.003849721Z,stop,1983368214,54314419,1575,74886000,68,1810546000,"While making a dollar more an hour may not sound like much to many of us , for someone who is tight on finances that forty dollars a week can really add up .",['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"The correct aspects for the sentence ""Increasing the minimum wage would have a ripple effect, raising the incomes of people who make slightly above the minimum wage."" are:
+
+* **ECONOMIC IMPACT:**  The sentence explicitly mentions a ""ripple effect"" which signifies broader economic consequences.
+* **PRICES:** While not directly stated, increasing the minimum wage for lower earners often leads to upward pressure on wages for those slightly above the minimum, implying potential price increases to compensate businesses. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T12:26:31.37079098Z,stop,3311022838,55559092,1564,65427000,114,3059037000,"Increasing the minimum wage would have a ripple effect , raising the incomes of people who make slightly above the minimum wage .",['ECONOMIC_IMPACT'],2,"['ECONOMIC_IMPACT', 'PRICES']"
+"Based on the provided text and codebook, the appropriate labels are:
+
+* **UN/EMPLOYMENT RATE:** The text explicitly mentions ""loss of close to 500,000 jobs"" and a ""0.3% decrease in employment,"" directly addressing the impact of minimum wage on employment rates. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T12:26:33.829123223Z,stop,2400767529,55456169,1581,78864000,83,2222664000,"The main potential negative impact of raising the minimum wage is the loss of close to 500,000 jobs , which comes out to around 0.3 % decrease in employment .",['UN/EMPLOYMENT_RATE'],1,['UN/EMPLOYMENT_RATE']
+"Based on the provided text and codebook, the appropriate aspect labels are:
+
+* **SOCIAL JUSTICE/INJUSTICE:** The argument touches upon the fairness of worker compensation by stating that recipients of basic income would have ""considerably more bargaining power"" and no risk of destitution. This implies a focus on  social justice and equitable treatment in the workplace. 
+* **WELFARE:** The text alludes to the concept of welfare by mentioning ""recipients of basic income."" Basic income is often discussed as a potential alternative or supplement to traditional welfare systems. 
+
+
+Let me know if you'd like me to analyze any other text snippets!",gemma2:27b,2024-09-12T12:26:37.667916712Z,stop,3739447189,57237795,1578,79165000,130,3513589000,It is argued that recipients of the basic income would have considerably more bargaining power when negotiating a wage with an employer as there would be no risk of destitution for not taking the employment .,['CAPITAL_VS_LABOR'],2,"['SOCIAL_JUSTICE/INJUSTICE', 'WELFARE']"
+"Based on the provided markdown codebook, the following aspects apply to the sentence:
+
+* **CAPITAL VS LABOR:**  The phrase ""assholes in charge"" clearly implies a negative view of company leadership (capital) and suggests a power imbalance. 
+
+
+Let me know if you have any other sentences you'd like me to analyze! 
+",gemma2:27b,2024-09-12T12:26:39.797526813Z,stop,2068870306,55187282,1571,73663000,71,1896366000,But it ’s still important to remember that raising the minimum wage ultimately really only hurts one group : major corporations and the assholes in charge of them .,['COMPETITION/BUSINESS_CHALLENGES'],1,['CAPITAL_VS_LABOR']
+"For the sentence: ""Perhaps the fact that workers will have more to spend will blunt any impact from higher labor costs .""
+
+The following aspects apply:
+
+* **PRICES:** The sentence discusses the potential impact of a minimum wage increase on consumer prices (""higher labor costs""). 
+* **SOCIAL JUSTICE/INJUSTICE:** The implication is that a higher minimum wage, while leading to increased labor costs, will benefit workers by allowing them to spend more. This touches upon the idea of fairness and worker compensation.
+
+
+Let me know if you have any other sentences you'd like coded!",gemma2:27b,2024-09-12T12:26:43.226442924Z,stop,3374030147,53526600,1560,54584000,120,3220452000,Perhaps the fact that workers will have more to spend will blunt any impact from higher labor costs .,"['COMPETITION/BUSINESS_CHALLENGES', 'SOCIAL_JUSTICE/INJUSTICE']",2,"['PRICES', 'SOCIAL_JUSTICE/INJUSTICE']"
+"The aspects present in the text are:
+
+* **[GOVERNMENT]** : ""I just think when government gets involved in setting wages, there's no stopping what government will intervene in doing."" 
+* **[SOCIAL JUSTICE/INJUSTICE]** : The speaker implies that minimum wage laws might be unfair and lead to excessive government intervention. While not explicitly stated, this line of reasoning touches on the broader debate about social justice and the role of government in regulating the economy.
+
+
+Let me know if you'd like me to analyze another text sample! 
+",gemma2:27b,2024-09-12T12:26:46.652631956Z,stop,3328176355,53900469,1596,92345000,115,3093949000,"I mean , nobody works for minimum wage , back to this whole notion of showing up on time and wearing clean clothes gets you way above the minimum wage … I just think when government gets involved in setting wages , there 's no stopping what government will intervene in doing . """,['GOVERNMENT'],2,"['SOCIAL_JUSTICE/INJUSTICE', 'GOVERNMENT']"
+"Based on the provided text and codebook, the appropriate labels are:
+
+* **UN/EMPLOYMENT RATE:** The text explicitly mentions job losses as a consequence of minimum wage increases (""minimum wage rises would cost millions of jobs""). 
+* **COMPETITION/BUSINESS CHALLENGES:** While not stated directly, the Chamber of Commerce's warning implies concerns about businesses struggling to afford higher wages, potentially leading to job cuts and increased competition.  
+
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-12T12:26:49.784966204Z,stop,3116790748,55678585,1575,66902000,108,2906135000,The Chamber of Commerce warned on no less than four separate occasions from 1975 to 1989 that minimum wage rises would cost millions of jobs .,['UN/EMPLOYMENT_RATE'],2,"['COMPETITION/BUSINESS_CHALLENGES', 'UN/EMPLOYMENT_RATE']"
+"Here's the breakdown of aspect labels for the provided text:
+
+**[ECONOMIC IMPACT]:**  The phrase ""significant economic stimulus"" directly points to this aspect.
+
+ **[UN/EMPLOYMENT RATE]:** The text mentions ""negligible job loss,"" indicating consideration of the impact on employment rates. 
+
+
+Let me know if you have any other text snippets you'd like coded! 
+",gemma2:27b,2024-09-12T12:26:52.275664346Z,stop,2394525473,55018007,1590,89990000,82,2202668000,"It obviously varies by location — but Los Angeles Mayor Eric Garcetti commissioned a study on the issue , and found that a citywide minimum wage of $ 13.25 an hour would provide a significant economic stimulus with negligible job loss .","['UN/EMPLOYMENT_RATE', 'ECONOMIC_IMPACT']",2,"['ECONOMIC_IMPACT', 'UN/EMPLOYMENT_RATE']"
+"For the sentence ""Improvements in productivity and economic growth have outpaced increases in the minimum wage,"" the appropriate labels would be:
+
+* **ECONOMIC IMPACT:** This label fits because the sentence discusses the relationship between economic growth (a measure of economic impact) and minimum wage increases. 
+
+
+Let me know if you'd like me to analyze more sentences! 
+",gemma2:27b,2024-09-12T12:26:54.551120822Z,stop,2219312348,55993823,1556,58148000,74,1969524000,Improvements in productivity and economic growth have outpaced increases in the minimum wage .,['PRICES'],1,['ECONOMIC_IMPACT']
+"For the sentence: ""Companies can be more selective in those whom they employ thus the least skilled and least experienced will typically be excluded.""
+
+The appropriate aspect labels would be:
+
+* **LOW-SKILLED**: The sentence directly addresses the impact of minimum wage on less skilled workers, suggesting that companies might exclude them due to increased labor costs.  
+
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T12:26:57.177740865Z,stop,2569374460,54060475,1567,66328000,90,2403750000,-SKILLED Companies can be more selective in those whom they employ thus the least skilled and least experienced will typically be excluded .,['LOW-SKILLED'],1,['LOW-SKILLED']
+"The applicable aspects for the sentence are:
+
+* **[UN/EMPLOYMENT RATE]** : The sentence discusses the potential for layoffs due to increased labor costs, directly impacting unemployment rates.
+* **[COMPETITION/BUSINESS CHALLENGES]** :  The sentence highlights the financial strain a wage increase can put on employers (""financially hurt the company""), suggesting challenges businesses face in adapting to higher labor costs. 
+
+
+Let me know if you'd like me to analyze more sentences!",gemma2:27b,2024-09-12T12:27:00.103548596Z,stop,2827373584,55410807,1577,78183000,97,2606980000,"If employers find that a wage increase for all their employees if going to financially hurt the company until it can adjust or permanently , employers are more likely to give temporary or permanent layoffs .","['COMPETITION/BUSINESS_CHALLENGES', 'UN/EMPLOYMENT_RATE']",2,"['COMPETITION/BUSINESS_CHALLENGES', 'UN/EMPLOYMENT_RATE']"
+"The correct aspect labels for the sentence: ""Thus, minimum wage is more often imposed on the sixteen-year-old worker with his first job than on people who would otherwise be unemployed."" are:
+
+* **LOW-SKILLED:** The sentence explicitly mentions a sixteen-year-old worker taking their first job, which aligns with the definition of low-skilled workers in the codebook. 
+* **UN/EMPLOYMENT RATE:** The comparison between minimum wage's impact on a young worker versus those who might be unemployed directly relates to discussions about employment rates and potential job losses.  
+
+
+Let me know if you have any other sentences you'd like coded! 
+",gemma2:27b,2024-09-12T12:27:04.07934797Z,stop,3959441823,54351771,1570,70174000,139,3744049000,"Thus , minimum wage is more often imposed on the sixteen-year-old worker with his first job than on people who would otherwise be unemployed .",['YOUTH_AND_SECONDARY_WAGE_EARNERS'],2,"['LOW-SKILLED', 'UN/EMPLOYMENT_RATE']"
+"The applicable aspect categories for the sentence ""So might a handful of Republicans looking to demonstrate that they too care about stagnant incomes for low-wage workers"" are:
+
+* **SOCIAL JUSTICE/INJUSTICE:** The sentence focuses on the concern for ""stagnant incomes"" of ""low-wage workers"", implying an issue of fairness and social justice.
+* **LOW-SKILLED:**  The phrase ""low-wage workers"" explicitly identifies the target group as those typically considered low-skilled. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T12:27:07.563751682Z,stop,3427346342,55787077,1563,65561000,121,3262285000,So might a handful of Republicans looking to demonstrate that they too care about stagnant incomes for low-wage workers .,['SOCIAL_JUSTICE/INJUSTICE'],2,"['LOW-SKILLED', 'SOCIAL_JUSTICE/INJUSTICE']"
+"The following aspects apply to the given text:
+
+* **SOCIAL JUSTICE/INJUSTICE:** The statement about minimum wage workers contributing significantly to their household income highlights the potential impact on their financial stability and well-being, touching upon themes of fairness and economic justice. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T12:27:09.843481894Z,stop,2182887046,55232493,1579,78584000,73,1962486000,"According to the Department of Labor , over half of people paid at minimum wage work a full-time schedule , and minimum wage workers contribute 46 percent of their household ’s income .",['YOUTH_AND_SECONDARY_WAGE_EARNERS'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"Based on the provided text, the following aspect labels apply:
+
+* **SOCIAL JUSTICE/INJUSTICE:**  The passage discusses the minimum wage as a tool to offset poverty and raise people above the poverty line. This aligns with concepts of fairness in worker compensation and social justice. 
+
+* **WELFARE:** The text explicitly mentions removing ""the need for government assistance,"" directly linking minimum wage to potential reductions in welfare dependency. 
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T12:27:13.008626746Z,stop,3107869517,56024444,1585,86909000,108,2922012000,When it was developed as a guideline the theory was that it would offset poverty by requiring business owners and corporate entities to pay a wage that would raise people up out of the poverty level and remove the need for government assistance .,"['SOCIAL_JUSTICE/INJUSTICE', 'WELFARE']",2,"['SOCIAL_JUSTICE/INJUSTICE', 'WELFARE']"
+"Based on the provided codebook, the following aspects apply to the sentence:
+
+* **CAPITAL VS LABOR:** The sentence highlights the power disparity between employers (""sweatshops"") and workers, particularly vulnerable groups like women and youth.  The mention of ""substandard wages"" points to potential exploitation. 
+* **SOCIAL JUSTICE/INJUSTICE:** The use of the term ""substandard wages"" directly relates to issues of fairness in worker compensation and economic justice.
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T12:27:16.425352211Z,stop,3320895776,58347054,1563,65170000,115,3108932000,"The sweatshops employed large numbers of women and young workers , paying them what were considered to be substandard wages .",['CAPITAL_VS_LABOR'],2,"['CAPITAL_VS_LABOR', 'SOCIAL_JUSTICE/INJUSTICE']"
+"The correct labels for the sentence ""Academic research also has shown that higher wages sharply reduce employee turnover which can reduce employment and training costs"" are:
+
+* **TURNOVER:** The sentence explicitly mentions the reduction of employee turnover as a result of higher wages. 
+* **COMPETITION/BUSINESS CHALLENGES:**  Reduced turnover can lead to lower employment and training costs, benefiting businesses and potentially giving them a competitive advantage. 
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T12:27:19.508762286Z,stop,3027010852,65707093,1561,64737000,106,2852375000,Academic research also has shown that higher wages sharply reduce employee turnover which can reduce employment and training costs .,['TURNOVER'],2,"['COMPETITION/BUSINESS_CHALLENGES', 'TURNOVER']"
+"The aspects present in the provided text are:
+
+* **SOCIAL JUSTICE/INJUSTICE:** The sentence argues against minimum wage as a solution to poverty, implying it's not a just approach. It suggests alternative methods focusing on helping low-income individuals build assets and save.
+* **WELFARE:** The mention of ""income tax credits for low-income workers"" directly relates to welfare systems and government assistance programs aimed at supporting those with lower incomes. 
+
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-12T12:27:22.885609248Z,stop,3281126028,65391025,1574,74547000,113,3051663000,"There are better ways to address poverty , such as income tax credits for low-income workers or tax policies that encourage asset development and savings for low-income families .","['SOCIAL_JUSTICE/INJUSTICE', 'WELFARE']",2,"['SOCIAL_JUSTICE/INJUSTICE', 'WELFARE']"
+"For the sentence: ""I have a business partner who said he will have to increase his prices by 40 percent if it happens.""  
+
+The applicable label(s) are:
+
+* **[PRICES]** - The sentence directly discusses the impact of minimum wage on consumer prices (a 40% increase).
+",gemma2:27b,2024-09-12T12:27:24.928912482Z,stop,1984313575,55699735,1565,65360000,68,1820127000,I have a business partner who said he will have to increase his prices by 40 percent if it happens . ”,['PRICES'],1,['PRICES']
+"The sentence ""Minimum wage has long been a minimum standard of living"" should be coded with the following aspects:
+
+* **SOCIAL JUSTICE/INJUSTICE:** This label applies because the sentence implies that minimum wage is intended to ensure a basic level of fairness and decency in society.  The phrase ""minimum standard of living"" suggests an ethical concern for the well-being of workers.
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T12:27:27.865450398Z,stop,2836833149,55187442,1552,57566000,98,2636723000,Minimum wage has long been a minimum standard of living .,['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"Based on the provided codebook, the appropriate label(s) for the sentence:
+
+""Reich and Cooper both said research has shown such increases have small overall effects on employers' operating costs."" 
+
+would be: **[COMPETITION/BUSINESS CHALLENGES]**. 
+
+
+Here's why:
+
+* The sentence focuses on the impact of minimum wage increases on the financial burden businesses face (operating costs). This directly aligns with the definition of the `COMPETITION/BUSINESS CHALLENGES` category. 
+",gemma2:27b,2024-09-12T12:27:30.884442038Z,stop,3003942833,53932820,1561,59926000,104,2800851000,Reich and Cooper both said research has shown such increases have small overall effects on employers ' operating costs .,['COMPETITION/BUSINESS_CHALLENGES'],1,['COMPETITION/BUSINESS_CHALLENGES']
+"Based on the provided text and codebook, the following aspect labels apply:
+
+* **[ECONOMIC IMPACT]** - The sentence discusses America's GDP per person and its relation to a potential minimum wage, implying an economic analysis.
+* **[SOCIAL JUSTICE/INJUSTICE]** -  The phrase ""one would expect America...to pay a minimum wage around $12 an hour"" suggests a comparison to other advanced economies and potentially alludes to a sense of fairness or justice regarding worker compensation. 
+
+
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-12T12:27:34.446500719Z,stop,3465984387,56025023,1595,89458000,121,3274777000,"The Economist stated in 2015 that "" America as a whole is an outlier among advanced economies ... one would expect America , where GDP per person is $ 53,000 , to pay a minimum wage around $ 12 an hour .",['SOCIAL_JUSTICE/INJUSTICE'],2,"['ECONOMIC_IMPACT', 'SOCIAL_JUSTICE/INJUSTICE']"
+"This example sentence does not fit into any of the provided aspect categories. 
+
+The sentence focuses on the speaker's opinion regarding tax breaks for businesses, which is outside the scope of the debate about minimum wage and its effects.  
+
+
+Let me know if you have more sentences to code! I'm ready.",gemma2:27b,2024-09-12T12:27:36.489433472Z,stop,1985241726,54555406,1556,58271000,65,1740779000,Ngoussou says businesses like his need a break on taxes and fees .,['COMPETITION/BUSINESS_CHALLENGES'],0,[]
+"Based on the provided text, the most fitting aspect codes would be:
+
+* **[SOCIAL JUSTICE/INJUSTICE]** : The statement highlights employee gratitude for paid safe and sick leave, implying a sense of fairness and improved well-being due to these benefits.
+* **[MOTIVATION/CHANCES]** : Paid leave can contribute to increased worker motivation and job satisfaction. 
+
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-12T12:27:39.333787933Z,stop,2788063472,56140017,1573,69642000,97,2616594000,"“ Molly Moon 's has seen increased sales and increased profitability and my employees are so thankful for the paid safe and sick leave , ” said owner Molly Moon .","['COMPETITION/BUSINESS_CHALLENGES', 'SOCIAL_JUSTICE/INJUSTICE']",2,"['MOTIVATION/CHANCES', 'SOCIAL_JUSTICE/INJUSTICE']"
+"Based on the provided codebook, the most appropriate label(s) for the sentence ""We create more jobs when other people have more money in their pockets to spend at our businesses"" would be:
+
+* **[ECONOMIC IMPACT]:** The sentence directly addresses the positive effect of increased spending power (from higher wages) on job creation and economic growth. 
+",gemma2:27b,2024-09-12T12:27:41.527533689Z,stop,2139236393,54063793,1560,56591000,74,1983334000,We create more jobs when other people have more money in their pockets to spend at our businesses .,"['UN/EMPLOYMENT_RATE', 'ECONOMIC_IMPACT']",1,['ECONOMIC_IMPACT']
+"Here's the coding breakdown for the given sentence:
+
+**Sentence:** ""Because it will make it more expensive for businesses to hire young and low-skill workers at a time of crisis-level unemployment.""
+
+
+**Applicable Codes:**
+
+* **LOW-SKILLED:** The sentence explicitly mentions ""young and low-skill workers.""
+* **UN/EMPLOYMENT RATE:**  The phrase ""crisis-level unemployment"" directly connects the minimum wage increase to concerns about joblessness. 
+
+Let me know if you have any other sentences you'd like coded! 
+",gemma2:27b,2024-09-12T12:27:44.994880286Z,stop,3370694988,55878062,1571,73645000,117,3153742000,-SKILLED Because it will make it more expensive for businesses to hire young and low-skill workers at a time of crisis-level unemployment .,"['LOW-SKILLED', 'UN/EMPLOYMENT_RATE']",2,"['LOW-SKILLED', 'UN/EMPLOYMENT_RATE']"
+"The applicable aspect labels for the sentence ""When the minimum wage goes up , the theory says , businesses shape up ."" are:
+
+* **COMPETITION/BUSINESS CHALLENGES:** The phrase ""businesses shape up"" implies that businesses will need to adapt and become more efficient in response to a higher minimum wage, suggesting potential challenges. 
+
+
+Let me know if you'd like me to analyze another sentence!",gemma2:27b,2024-09-12T12:27:47.417072624Z,stop,2407317574,58754643,1556,58912000,82,2198967000,"When the minimum wage goes up , the theory says , businesses shape up .",['COMPETITION/BUSINESS_CHALLENGES'],1,['COMPETITION/BUSINESS_CHALLENGES']
+"For the sentence: ""But , if your goal is suring up the broader working class , they might seem like a rather good deal ."" 
+
+The applicable labels are:
+
+* **SOCIAL JUSTICE/INJUSTICE:** The phrase ""suring up the broader working class"" directly references the concept of social fairness and economic justice for workers.  
+* **CAPITAL VS LABOR:**  Implying that supporting the working class is beneficial implies a stance against potential exploitation by capital or business owners. 
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T12:27:50.943729923Z,stop,3423385740,54495354,1564,63218000,121,3262164000,"But , if your goal is suring up the broader working class , they might seem like a rather good deal .",['SOCIAL_JUSTICE/INJUSTICE'],2,"['CAPITAL_VS_LABOR', 'SOCIAL_JUSTICE/INJUSTICE']"
+"For the sentence: ""But in addition, paying higher wages reduces poverty and the strain on the social safety net.""
+
+The appropriate aspect labels would be:
+
+* **SOCIAL JUSTICE/INJUSTICE:**  The phrase ""reduces poverty"" directly relates to social justice concerns about fair compensation and living standards. 
+* **WELFARE:** The mention of reducing ""strain on the social safety net"" implies a connection to welfare programs and government assistance. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T12:27:54.234767363Z,stop,3235005376,54779832,1559,55479000,111,2987910000,"But in addition , paying higher wages reduces poverty and the strain on the social safety net .",['SOCIAL_JUSTICE/INJUSTICE'],2,"['SOCIAL_JUSTICE/INJUSTICE', 'WELFARE']"
+"Based on your provided codebook, the following aspects apply to the text:
+
+* **SOCIAL JUSTICE/INJUSTICE:**  The argument highlights the unfairness of denying a wage increase to fast food workers compared to other ""likewise underpaid workers."" This points to issues of social justice and equitable compensation. 
+
+* **LOW-SKILLED:** While not explicitly stated, the reference to ""fast food workers"" typically implies a category of low-skilled labor.  
+
+
+Let me know if you have any other text excerpts you'd like me to analyze! 
+",gemma2:27b,2024-09-12T12:27:57.682546329Z,stop,3390280265,58865536,1595,92092000,118,3194807000,"When you see people arguing against a minimum wage increase on the grounds that fast food workers do n’t deserve to make what other likewise underpaid workers make , that is as soul-crushingly perfect an illustration of the crab bucket mentality as you ’ll ever see .",['SOCIAL_JUSTICE/INJUSTICE'],2,"['LOW-SKILLED', 'SOCIAL_JUSTICE/INJUSTICE']"
+"The correct labels for this sentence are:
+
+* **SOCIAL JUSTICE/INJUSTICE:** The phrase ""it's what they depend on to survive"" highlights the necessity of minimum wage for many workers, linking it to issues of fairness and social justice.  
+
+* **LOW-SKILLED:** The mention of ""agricultural workers, fast food workers, and retail workers"" points towards jobs often associated with lower skill levels and entry-level positions. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T12:28:01.009160548Z,stop,3228690635,62157292,1577,78107000,111,2999746000,"For millions of agricultural workers , fast food workers , and retail workers , minimum-wage labor is n’t just a supplement — it ’s what they depend on to survive .","['YOUTH_AND_SECONDARY_WAGE_EARNERS', 'SOCIAL_JUSTICE/INJUSTICE']",2,"['LOW-SKILLED', 'SOCIAL_JUSTICE/INJUSTICE']"
+"The correct labels for the sentence ""Increasing employment opportunity gives low-skilled workers the best chance of finding employment and climbing up the economic mobility ladder"" are:
+
+* **[MOTIVATION/CHANCES]:** The sentence emphasizes how increased employment opportunities provide motivation and chances for low-skilled workers to find jobs and advance.
+* **[LOW-SKILLED]:**  The sentence explicitly focuses on low-skilled workers as the beneficiaries of increased employment opportunities. 
+
+
+Let me know if you'd like me to analyze more sentences!",gemma2:27b,2024-09-12T12:28:04.195272752Z,stop,3171532429,54162586,1567,66981000,110,2960393000,-SKILLED Increasing employment opportunity gives low-skilled workers the best chance of finding employment and climbing up the economic mobility ladder .,"['LOW-SKILLED', 'MOTIVATION/CHANCES']",2,"['MOTIVATION/CHANCES', 'LOW-SKILLED']"
+"The applicable aspects for the sentence ""Myth: Raising the federal tipped minimum wage ($2.13 per hour since 1991) would hurt restaurants"" are:
+
+* **[COMPETITION/BUSINESS CHALLENGES]:** The statement directly addresses the potential negative impact of a minimum wage increase on businesses (restaurants in this case).
+* **[PRICES]:** While not explicitly stated, the implication is that raising the tipped minimum wage could lead to higher prices for consumers.  
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T12:28:07.696889201Z,stop,3404180800,46679612,1569,72278000,120,3242197000,Myth : Raising the federal tipped minimum wage ( $ 2.13 per hour since 1991 ) would hurt restaurants .,['COMPETITION/BUSINESS_CHALLENGES'],2,"['PRICES', 'COMPETITION/BUSINESS_CHALLENGES']"
+"Based on the provided codebook, the appropriate labels for the sentence ""Worker exploitation and underemployment can be avoided with reasonable minimum wages"" are:
+
+* **SOCIAL JUSTICE/INJUSTICE:**  The sentence directly addresses worker exploitation, a key issue within discussions of social justice. 
+
+* **CAPITAL VS LABOR:** The phrase ""worker exploitation"" implies a power imbalance between capital (employers) and labor (workers), aligning with this category. 
+
+
+Let me know if you'd like to try another example!",gemma2:27b,2024-09-12T12:28:10.859716144Z,stop,3108138283,53573699,1554,58160000,106,2862221000,Worker exploitation and underemployment can be avoided with reasonable minimum wages .,"['UN/EMPLOYMENT_RATE', 'CAPITAL_VS_LABOR']",2,"['CAPITAL_VS_LABOR', 'SOCIAL_JUSTICE/INJUSTICE']"
+"The aspects present in the sentence ""I want people to have more command in the workplace, and I want them to have much more than $7.25 an hour"" are:
+
+* **[SOCIAL JUSTICE/INJUSTICE]**: The speaker expresses a desire for workers to have more ""command"" in the workplace, implying fairness and better treatment.  The mention of wanting  ""much more than $7.25 an hour"" directly relates to fair compensation and living wages.
+* **[MOTIVATION/CHANCES]**: A higher wage could be seen as increasing worker motivation and providing them with better opportunities. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T12:28:15.063637344Z,stop,4147274331,59539573,1570,68528000,147,3975611000,"I want people to have more command in the workplace , and I want them to have much more than $ 7.25 an hour .",['MOTIVATION/CHANCES'],2,"['MOTIVATION/CHANCES', 'SOCIAL_JUSTICE/INJUSTICE']"
+"Based on the provided codebook, the following aspect(s) apply to the sentence:
+
+**[PRICES]** 
+
+
+The sentence focuses on the potential consequence of a minimum wage increase being higher prices for consumers. This aligns directly with the definition of the `[PRICES]` category in the codebook. 
+",gemma2:27b,2024-09-12T12:28:17.137555046Z,stop,1976934054,53261463,1563,64906000,66,1769445000,One potential effect could be higher prices at those businesses that now must pay their workers twice as much as before .,['PRICES'],1,['PRICES']
+"Based on the provided text and codebook, the applicable labels are:
+
+* **UN/EMPLOYMENT RATE:** The text mentions job outsourcing leading to a reduction in US jobs.
+* **COMPETITION/BUSINESS CHALLENGES:**  The reason for outsourcing is stated as cost reduction and control, implying businesses face challenges competing with costs. 
+
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-12T12:28:19.737433523Z,stop,2585080087,56609329,1586,88207000,87,2350040000,"According to the Statistic Brain Research Institute , 2,382,000 US jobs were outsourced in 2015 with 44 % of companies saying they did so to reduce or control costs .",['UN/EMPLOYMENT_RATE'],2,"['COMPETITION/BUSINESS_CHALLENGES', 'UN/EMPLOYMENT_RATE']"
+"Based on the provided text:  **""We've chosen to let workers at the bottom fall farther and farther away from people in the middle.""**
+
+The following aspects apply:
+
+* **SOCIAL JUSTICE/INJUSTICE:** The statement highlights a disparity between low-wage workers (""workers at the bottom"") and those in a better economic position (""people in the middle""). This implies a concern for fairness and social equality. 
+
+
+Let me know if you'd like to try another example!",gemma2:27b,2024-09-12T12:28:22.739102411Z,stop,2906554757,56952456,1564,64399000,102,2740383000,""" We 've chosen to let workers at the bottom fall farther and farther away from people in the middle . """,['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"For the sentence: 
+
+""In consumer economies where the unemployment rate is set by macroeconomic conditions, minimum wages help in keeping inflation from increasing too rapidly.""
+
+The following aspect labels apply:
+
+* **[PRICES]:** The sentence explicitly mentions inflation and its control through minimum wage. 
+* **[ECONOMIC IMPACT]:**  The broader impact on ""consumer economies"" and the reference to ""macroeconomic conditions"" suggest a discussion of the overall economic effects of minimum wage.
+* **[UN/EMPLOYMENT RATE]:** The sentence directly references the unemployment rate, though it frames it as being set by external factors rather than influenced by minimum wage.
+
+
+Let me know if you have any other sentences you'd like me to analyze! 
+",gemma2:27b,2024-09-12T12:28:27.184798753Z,stop,4389011561,55626012,1565,65872000,153,4136509000,"In consumer economies where the unemployment rate is set by macroeconomic conditions , minimum wages help in keeping inflation from increasing too rapidly .",['SOCIAL_JUSTICE/INJUSTICE'],3,"['ECONOMIC_IMPACT', 'PRICES', 'UN/EMPLOYMENT_RATE']"
+"The correct labels for the sentence are:
+
+* **[PRICES]** - The sentence explicitly mentions ""higher prices"" as a consequence of minimum wage increases.
+* **[ECONOMIC IMPACT]** -  The phrase ""could spread further out in the economy"" implies a broader economic impact beyond just individual price increases. 
+
+
+Let me know if you have any other sentences you'd like coded!",gemma2:27b,2024-09-12T12:28:29.580991291Z,stop,2340384563,54267429,1566,66052000,81,2175452000,That means higher prices for anyone stopping at the mall or Burger King — price bumps that could spread further out in the economy .,['PRICES'],2,"['ECONOMIC_IMPACT', 'PRICES']"
+"Based on the provided markdown codebook and the given example sentence, I would assign the following aspect labels:
+
+* **SOCIAL JUSTICE/INJUSTICE:** The phrase ""impact on the poverty level"" directly relates to concerns about social justice and fairness in society. 
+
+
+Let me know if you have other sentences you'd like me to analyze! 
+",gemma2:27b,2024-09-12T12:28:31.855162745Z,stop,2174747085,55146110,1567,66946000,73,1964932000,Studies from both sides of the debate make it relatively clear that increasing minimum wage will not make a significant impact on the poverty level .,['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"Based on the provided markdown codebook, the following aspects apply to the sentence:
+
+* **SOCIAL JUSTICE/INJUSTICE:** The sentence discusses the value of a job in helping a family escape poverty, touching upon themes of fairness and social equity. 
+
+Let me know if you'd like me to analyze more sentences! 
+",gemma2:27b,2024-09-12T12:28:33.915888693Z,stop,2003303159,54463663,1559,59183000,69,1845243000,And a job may ultimately be the most valuable thing for a family struggling to escape poverty .,['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"The applicable aspect(s) for the sentence are:
+
+* **SOCIAL JUSTICE/INJUSTICE:**  The phrase ""benefits to those who could find work"" implies a focus on fairness and the well-being of workers, aligning with this category.
+
+
+Let me know if you'd like me to analyze more sentences! 
+",gemma2:27b,2024-09-12T12:28:36.065202172Z,stop,2053027459,56080915,1564,64773000,69,1845140000,"Yet a narrow majority also thought a rise would nonetheless be worthwhile , given the benefits to those who could find work .",['UN/EMPLOYMENT_RATE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"Based on the provided markdown codebook, the appropriate labels for the sentence ""In Massachusetts, wages are higher, and so are prices"" are:
+
+* **[PRICES]** : The sentence explicitly mentions higher prices as a consequence of higher wages. 
+
+
+Let me know if you'd like me to analyze more sentences! 
+",gemma2:27b,2024-09-12T12:28:38.135862203Z,stop,2055773257,69489659,1553,53977000,69,1843089000,"In Massachusetts , wages are higher , and so are prices .",['PRICES'],1,['PRICES']
+"The appropriate labels for the sentence ""So maybe it's better to think of the minimum wage as a way of getting more money to the broader working class"" are:
+
+* **SOCIAL JUSTICE/INJUSTICE:** The sentence frames the minimum wage as a tool for achieving social justice by redistributing wealth to the working class. 
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T12:28:40.744142862Z,stop,2551752172,54505293,1566,65758000,89,2386973000,So maybe it 's better to think of the minimum wage as a way of getting more money to the broader working class .,['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"Here's a breakdown of the aspect labels for the provided text:
+
+* **[SOCIAL JUSTICE/INJUSTICE]:** This is a strong fit.  The passage argues that the current minimum wage is ""too low for anyone to live on"" and highlights ""wage inequality between low- and middle-income workers"". These points directly address fairness, living standards, and social justice concerns.
+
+* **[ECONOMIC IMPACT]:** The text claims that a higher minimum wage will ""help create jobs and grow the economy."" This clearly falls under the economic impact aspect.
+
+* **[UN/EMPLOYMENT RATE]:** While not explicitly stated, the argument that a higher minimum wage creates jobs aligns with this aspect. 
+
+
+Let me know if you'd like to analyze more examples!",gemma2:27b,2024-09-12T12:28:45.355369768Z,stop,4554753531,57920832,1636,134105000,159,4317706000,"Proponents of a higher minimum wage state that the current federal minimum wage of $ 7.25 per hour is too low for anyone to live on ; that a higher minimum wage will help create jobs and grow the economy ; that the declining value of the minimum wage is one of the primary causes of wage inequality between low - and middle-income workers ; and that a majority of Americans , including a slim majority of self-described conservatives , support increasing the minimum wage .","['UN/EMPLOYMENT_RATE', 'ECONOMIC_IMPACT', 'SOCIAL_JUSTICE/INJUSTICE']",3,"['ECONOMIC_IMPACT', 'SOCIAL_JUSTICE/INJUSTICE', 'UN/EMPLOYMENT_RATE']"
+"The applicable labels for the sentence ""Looking at the argument from this perspective, the proposed increased wage to $15 will provide a living wage"" are:
+
+* **[SOCIAL JUSTICE/INJUSTICE]:**  The phrase ""provide a living wage"" directly relates to concepts of fairness, social justice, and ensuring workers can afford basic necessities. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T12:28:48.080510194Z,stop,2623928999,55259664,1564,65408000,90,2415770000,"Looking at the argument from this perspective , the proposed increased wage to $ 15 will provide a living wage .",['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"Here's the breakdown of aspect annotations for the provided text:
+
+**[COMPETITION/BUSINESS CHALLENGES]:**  The mention of ""job reduction"" directly relates to businesses struggling with increased labor costs due to a minimum wage hike.
+
+**[PRICES]:** The phrase ""a rise in the cost of consumer goods and services"" clearly falls under this aspect, highlighting the potential inflationary effects of a higher minimum wage. 
+
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-12T12:28:51.193671234Z,stop,3097963568,53851177,1573,67076000,107,2887449000,"Opponents of boosting the minimum wage focus mainly on the potentially detrimental side effects , like job reduction , and a rise in the cost of consumer goods and services .","['UN/EMPLOYMENT_RATE', 'PRICES']",2,"['PRICES', 'COMPETITION/BUSINESS_CHALLENGES']"
+"Based on the provided codebook and example sentence, the appropriate labels for the sentence ""This makes poor consumers worse off in a direct sense , in that they can purchase less with their earnings ."" would be:
+
+* **[PRICES]** :  The sentence directly addresses the impact of a policy (presumably raising the minimum wage) on consumer purchasing power due to potential price increases.
+ 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T12:28:54.064693476Z,stop,2768428789,55805616,1562,62090000,97,2600284000,"This makes poor consumers worse off in a direct sense , in that they can purchase less with their earnings .","['SOCIAL_JUSTICE/INJUSTICE', 'PRICES']",1,['PRICES']
+"The applicable aspects for the sentence are:
+
+* **[COMPETITION/BUSINESS CHALLENGES]** : The sentence discusses the impact of a minimum wage increase on profit margins in the fast-food industry. 
+* **[PRICES]** :  While not explicitly stated, the sentence implies that the potential price increases resulting from a higher minimum wage would have little effect on the fast food industry's profitability.
+
+
+Let me know if you have any other sentences you'd like me to analyze!",gemma2:27b,2024-09-12T12:28:57.13537251Z,stop,3015402969,56665069,1607,101827000,101,2727181000,"This also is n’t particularly surprising considering the UMass-Amherst study which found that a wage increase from $ 7.25 / hour to $ 15/hour , phased in over a period of four years , would have little to no impact on the fast food industry ’s profit margins in general .",['COMPETITION/BUSINESS_CHALLENGES'],2,"['PRICES', 'COMPETITION/BUSINESS_CHALLENGES']"
+"For the sentence: 
+
+""Minimum wage laws, for instance proposals to index the minimum wage to average wages, have the potential to keep the dollar value of the minimum wage relevant and predictable.""
+
+The appropriate aspect labels are:
+
+* **[ECONOMIC IMPACT]**  - Indexing the minimum wage affects its impact on the economy.
+* **[GOVERNMENT]** - The sentence discusses government intervention (laws) in setting the minimum wage. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T12:29:00.23925757Z,stop,3046895712,55965082,1573,74326000,107,2873398000,"Minimum wage laws , for instance proposals to index the minimum wage to average wages , have the potential to keep the dollar value of the minimum wage relevant and predictable .",['SOCIAL_JUSTICE/INJUSTICE'],2,"['ECONOMIC_IMPACT', 'GOVERNMENT']"
+"The applicable aspect labels for the sentence are:
+
+* **COMPETITION/BUSINESS CHALLENGES:** The sentence discusses how increased labor costs (part of ""anything"") force businesses to raise prices or cut costs, highlighting the challenges businesses face.  
+* **PRICES:** The sentence directly mentions businesses having to raise their prices as a consequence of increased costs. 
+
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T12:29:03.019110591Z,stop,2682595076,55450368,1587,89149000,91,2450551000,"“ If a business has to pay more for anything , gasoline , produce , labor — they have to raise their prices or they have to cut costs , plain and simple , ” says Tom Scarda , a Certified Franchise Consultant .",['PRICES'],2,"['PRICES', 'COMPETITION/BUSINESS_CHALLENGES']"
+"Based on your provided codebook and text excerpt, here's the breakdown of applicable aspects:
+
+* **UN/EMPLOYMENT RATE:** The passage directly discusses the potential impact of minimum wage on teenage employment (""teenagers withdrew from the labor force"") and mentions the possibility of no impact on unemployment rate. 
+* **LOW-SKILLED / YOUTH AND SECONDARY WAGE EARNERS:** This excerpt focuses specifically on teenagers, who are typically considered low-skilled workers and often participate in part-time or secondary wage earning roles.  
+
+
+Let me know if you have any other text examples you'd like me to code! 
+",gemma2:27b,2024-09-12T12:29:06.796818459Z,stop,3762959998,57364817,1604,96749000,130,3516994000,"-SKILLED In contrast to the simple supply and demand diagram , it was commonly found that teenagers withdrew from the labor force in response to the minimum wage , which produced the possibility of equal reductions in the supply as well as the demand for labor at a higher minimum wage and hence no impact on the unemployment rate .","['LOW-SKILLED', 'UN/EMPLOYMENT_RATE']",3,"['LOW-SKILLED', 'YOUTH_AND_SECONDARY_WAGE_EARNERS', 'UN/EMPLOYMENT_RATE']"
+"The applicable aspect(s) for the sentence ""This is one of the critic’s many go-to arguments: Raise wages, they say, and businesses will have to raise prices to maintain their profits."" are:
+
+* **[PRICES]** : The sentence explicitly mentions businesses raising prices as a consequence of increased wages. 
+* **[COMPETITION/BUSINESS CHALLENGES]**  :  While not directly stated, the implication is that raising prices could make businesses less competitive. 
+
+
+Let me know if you have more sentences to code!",gemma2:27b,2024-09-12T12:29:10.088981846Z,stop,3196466821,55879110,1572,74574000,112,3019106000,"This is one of the critics ’ many go-to arguments : Raise wages , they say , and businesses will have to raise prices to maintain their profits .",['PRICES'],2,"['PRICES', 'COMPETITION/BUSINESS_CHALLENGES']"
+"The applicable aspects for the provided text are:
+
+* **[UN/EMPLOYMENT RATE]:** The sentence directly addresses the impact of minimum wage increases on employment levels, stating ""effectively no impact on employment levels"". 
+* **[COMPETITION/BUSINESS CHALLENGES]:** While not explicitly stated, the focus on the restaurant and retail industries suggests a potential concern for businesses in those sectors facing competition and needing to adjust to higher labor costs.
+
+
+Let me know if you have any other text passages you'd like me to analyze!",gemma2:27b,2024-09-12T12:29:13.336173849Z,stop,3192545248,55562282,1587,89098000,108,2916714000,"Their work was published in 2010 in the journal Review of Economics and Statistics and found that , in the restaurant and retail industries , boosting the minimum wage by 10 percent had effectively no impact on employment levels .",['UN/EMPLOYMENT_RATE'],2,"['COMPETITION/BUSINESS_CHALLENGES', 'UN/EMPLOYMENT_RATE']"
+"The applicable aspects for the sentence:  ""Saying we have a 'free market' that will take care of workers is a myth."" are:
+
+* **GOVERNMENT:** This refers to the idea of state intervention vs. a free market approach. 
+* **CAPITAL VS LABOR:** The statement challenges the power dynamic between capital (businesses) and labor (workers) inherent in a ""free market"" system.  
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T12:29:16.295938499Z,stop,2903063149,57362186,1559,59468000,102,2740941000,"Saying we have a "" free market "" that will take care of workers is a myth .",['GOVERNMENT'],2,"['CAPITAL_VS_LABOR', 'GOVERNMENT']"
+"The correct labels for the sentence are:
+
+* **[MOTIVATION/CHANCES]** - The phrase ""helps employees earn more"" directly relates to increased worker motivation and opportunities. 
+* **[SOCIAL JUSTICE/INJUSTICE]** -  Implying that higher wages lead to better conditions for employees touches on themes of fairness and social justice in the workplace.  
+
+
+Let me know if you have any other sentences you'd like me to analyze! 
+",gemma2:27b,2024-09-12T12:29:19.15867155Z,stop,2766381439,53817625,1562,61549000,95,2561809000,""" It does n’t reduce incentive for employer to hire , and it helps employees earn more . ""","['UN/EMPLOYMENT_RATE', 'SOCIAL_JUSTICE/INJUSTICE']",2,"['MOTIVATION/CHANCES', 'SOCIAL_JUSTICE/INJUSTICE']"
+"The applicable aspects for the sentence ""Meanwhile, Burger King and McDonald's can raise their prices a little bit without scaring off customers"" are:
+
+* **PRICES:** The sentence directly discusses the effect of minimum wage on consumer prices (Burger King and McDonald's raising prices). 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T12:29:21.44200226Z,stop,2268194700,59666966,1561,56980000,77,2061886000,"Meanwhile , Burger King and McDonald 's can raise their prices a little bit without scaring off customers .",['PRICES'],1,['PRICES']
+"The correct labels for the sentence ""Mandatory increases in hourly wages mean that businesses will be forced to cut jobs or reduce hours to maintain their bottom line"" are:
+
+* **COMPETITION/BUSINESS CHALLENGES:** The sentence directly addresses how minimum wage increases negatively impact businesses by forcing them to make difficult choices like cutting jobs or reducing hours. This aligns with the ""Businesses have to close because they cannot afford to pay minimum wage"" aspect within this category.
+* **UN/EMPLOYMENT RATE:**  The phrase ""businesses will be forced to cut jobs"" explicitly mentions job losses as a consequence of increased minimum wages.
+
+
+Let me know if you'd like to try another example! 
+",gemma2:27b,2024-09-12T12:29:25.465163434Z,stop,3924466495,54634578,1564,65076000,139,3761821000,Mandatory increases in hourly wages mean that businesses will be forced to cut jobs or reduce hours to maintain their bottom line .,['UN/EMPLOYMENT_RATE'],2,"['COMPETITION/BUSINESS_CHALLENGES', 'UN/EMPLOYMENT_RATE']"
+"Here's the breakdown of aspect categories for the provided text:
+
+**[GOVERNMENT]** -  The passage directly discusses the Supreme Court's opinion on a minimum wage law, highlighting a debate about government intervention (regulation) versus freedom of contract.
+
+ **Let me know if you have any other sentences you'd like me to analyze!** 
+",gemma2:27b,2024-09-12T12:29:27.77831919Z,stop,2249895848,56178887,1606,100699000,73,1963319000,"The Supreme Court , in its opinion in the 1923 case Adkins v. Children ’s Hospital of District of Columbia , made a strong argument that a minimum wage was a violation of the constitutionally guaranteed freedom of contract embedded in the Fifth Amendment ’s language about due process and the deprivation of liberty and property .",['GOVERNMENT'],1,['GOVERNMENT']
+"The aspect(s) present in the sentence: ""We've gained many new customers who have written us notes telling us how grateful they are that we treat our employees fairly."" are:
+
+* **SOCIAL JUSTICE/INJUSTICE:** The phrase ""treat our employees fairly"" directly relates to concepts of social justice and fair compensation. 
+",gemma2:27b,2024-09-12T12:29:29.880780171Z,stop,2044490139,58967140,1567,65953000,70,1875386000,“ We ’ve gained many new customers who have written us notes telling us how grateful they are that we treat our employees fairly .,['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"Based on the provided text and codebook, the most appropriate labels are:
+
+* **SOCIAL JUSTICE/INJUSTICE:** The phrase ""less of the share of wealth created...has been going towards workers"" directly addresses issues of fairness in worker compensation and potential inequality. 
+* **CAPITAL VS LABOR:**  The statement highlights a power disparity between companies (""companies are experiencing greater productivity"") and workers (receiving a smaller share of the wealth). This points to a classic tension between capital (company owners) and labor (workers).
+
+
+Let me know if you'd like me to analyze any other text snippets! 
+",gemma2:27b,2024-09-12T12:29:33.609111741Z,stop,3632650578,54817044,1583,79510000,126,3411371000,"Although companies are experiencing greater productivity , since the ‘ 70s , less of the share of wealth created from that productivity has been going towards workers ( Check out this EPI article for more details ) .",['CAPITAL_VS_LABOR'],2,"['CAPITAL_VS_LABOR', 'SOCIAL_JUSTICE/INJUSTICE']"
+"Based on the provided codebook, the appropriate label(s) for the sentence:
+
+""Another 2011 study by Sen, Rybczynski, and Van De Waal found that 'a 10% increase in the minimum wage is significantly correlated with a 3-5% drop in teen employment.'""
+
+are:
+
+* **UN/EMPLOYMENT RATE:** The sentence explicitly discusses the correlation between a minimum wage increase and a drop in teen employment.  
+* **LOW-SKILLED:** While not directly stated, the reference to ""teen employment"" implies a focus on entry-level jobs often held by low-skilled workers. 
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T12:29:38.088730132Z,stop,4464098182,54812911,1595,91807000,156,4229161000,"-SKILLED Another 2011 study by Sen , Rybczynski , and Van De Waal found that "" a 10 % increase in the minimum wage is significantly correlated with a 3 − 5 % drop in teen employment . """,['LOW-SKILLED'],2,"['LOW-SKILLED', 'UN/EMPLOYMENT_RATE']"
+"The aspects present in the sentence ""They say that instead of forcing businesses to cut staff, raising wages simply spurs them to become more efficient"" are: 
+
+* **COMPETITION/BUSINESS CHALLENGES:** The sentence discusses the impact of raising wages on businesses, specifically mentioning the possibility of businesses cutting staff. This aligns with the challenges businesses face in adapting to minimum wage increases.
+* **ECONOMIC IMPACT:** The statement that raising wages ""spurs them to become more efficient"" implies a positive economic impact. Efficiency improvements often lead to increased productivity and economic growth.
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T12:29:41.933779894Z,stop,3749159473,53802126,1562,61431000,133,3590049000,"They say that instead of forcing businesses to cut staff , raising wages simply spurs them to become more efficient .","['COMPETITION/BUSINESS_CHALLENGES', 'UN/EMPLOYMENT_RATE']",2,"['ECONOMIC_IMPACT', 'COMPETITION/BUSINESS_CHALLENGES']"
+"The applicable aspect(s) for the sentence ""Retailers may find that they will raise prices on their services and products with a wage increase"" are:
+
+* **[PRICES]:**  The sentence directly addresses the potential impact of a minimum wage increase on consumer prices. 
+
+
+Let me know if you have more sentences to code! 
+",gemma2:27b,2024-09-12T12:29:44.165571482Z,stop,2172458790,54271498,1560,59557000,72,1927641000,Retailers may find that they will raise prices on their services and products with a wage increase .,['PRICES'],1,['PRICES']
+"The applicable labels for the sentence ""Let the terms and conditions of wages be set by mutual agreement, not by government control and fiat"" are:
+
+* **GOVERNMENT:** The sentence explicitly argues against government intervention in wage setting (""not by government control""). 
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T12:29:46.304834818Z,stop,2084431254,53306923,1561,63434000,72,1921980000,"Let the terms and conditions of wages be set by mutual agreement , not by government control and fiat .",['GOVERNMENT'],1,['GOVERNMENT']

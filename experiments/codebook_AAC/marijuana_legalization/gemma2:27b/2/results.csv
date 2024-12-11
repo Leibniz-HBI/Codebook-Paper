@@ -1,0 +1,1528 @@
+response,model,created_at,done_reason,total_duration,load_duration,prompt_eval_count,prompt_eval_duration,eval_count,eval_duration,input_text,gold_label,label_count,mentioned_labels
+"Based on the provided codebook and sentence, the applicable aspects are:
+
+* **CHILD AND TEEN SAFETY:** The mention of ""three young children"" directly relates to concerns about potential increased access or exposure to marijuana for youth. 
+
+
+Let me know if you have any other sentences you'd like me to analyze! 
+",gemma2:27b,2024-09-12T11:42:54.595189836Z,stop,1986372861,54698663,627,56877000,68,1786469000,"But Pace , the father of three young children , dismissed the idea that the cannabis industry had fundamentally changed the feel of the community .",['COMMUNITY/SOCIETAL_EFFECTS'],1,['CHILD_AND_TEEN_SAFETY']
+"Here's the coding for the sentence:
+
+**DRUG POLICY**  (This sentence compares marijuana prohibition to alcohol prohibition, suggesting a critique of current drug policy.)
+
+ **LEGAL DRUGS** (The comparison to alcohol implicitly raises the argument that marijuana should be legal like alcohol.) 
+
+
+Let me know if you'd like to code more sentences!",gemma2:27b,2024-09-12T11:42:56.771743089Z,stop,2083725675,59967617,623,55074000,73,1926449000,“ Marijuana prohibition makes no more sense than alcohol prohibition did in the early 1900s . ”,['LEGAL_DRUGS'],2,"['DRUG_POLICY', 'LEGAL_DRUGS']"
+"**HEALTH/PSYCHOLOGICAL EFFECTS** 
+
+This sentence focuses on the direct physiological impact of marijuana use on the cardiovascular system, highlighting potential health risks. 
+",gemma2:27b,2024-09-12T11:42:57.948134126Z,stop,1126522106,53391871,650,80121000,33,856835000,"Marijuana use raises the heart rate from 20 to 100 percent for up to three hours after it has been smoked , increasing the risk of getting other health problems , such as arrhythmia , heart palpitations and heart attack .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"Here's a breakdown of the aspect labels for the provided text:
+
+* **DRUG POLICY:** The text directly discusses government regulation (""regulated by the government""),  advertising restrictions, age limits, purchase limitations, and supply requirements – all hallmarks of drug policy. 
+* **LEGAL DRUGS:** The comparison to alcohol and tobacco (implied) suggests a discussion about the legality of substances generally considered more socially acceptable despite potential harm.
+
+
+Let me know if you have any other text snippets you'd like me to analyze! 
+",gemma2:27b,2024-09-12T11:43:01.136903805Z,stop,3137162765,56960512,667,85275000,111,2952408000,"Decriminalization or re-legalization would mean that certain drugs would be legally available , but regulated by the government which would mean restrictions on advertising , age limitations , restrictions on the amount purchased at one time , requirements on the form in which certain drugs would be supplied and maybe a ban on sales to intoxicated persons , etc .",['DRUG_POLICY'],2,"['DRUG_POLICY', 'LEGAL_DRUGS']"
+"Here's the coding for the sentence:
+
+* **ILLEGAL TRADE:** The phrase ""starter drug of choice for most criminals"" directly links marijuana use to criminal activity. 
+* **GATEWAY DRUG:**  The sentence explicitly states that marijuana is a ""starter drug,"" reinforcing the concept of it leading to harder drug use.
+
+
+Let me know if you have any other sentences you'd like coded!",gemma2:27b,2024-09-12T11:43:03.639658226Z,stop,2411653987,55943134,616,50301000,84,2218136000,They also know that marijuana is the starter drug of choice for most criminals .,['GATEWAY_DRUG'],2,"['ILLEGAL_TRADE', 'GATEWAY_DRUG']"
+"Here's the breakdown of aspect labels for the provided text:
+
+* **DRUG POLICY:**  The text explicitly mentions ""changes in drug policy"" and ""sentencing guidelines for marijuana users"". 
+* **HARM:** The phrase ""simply legalizing a harmful drug"" clearly indicates the aspect of harm associated with marijuana use.
+
+
+Let me know if you have any other text samples you'd like me to analyze! 
+",gemma2:27b,2024-09-12T11:43:06.2408716Z,stop,2593665014,55535365,642,63022000,90,2386220000,"This may require changes in drug policy , and perhaps in sentencing guidelines for marijuana users charged with simple possession , but simply legalizing a harmful drug — that is , giving up — is not a responsible option .","['DRUG_POLICY', 'HARM']",2,"['HARM', 'DRUG_POLICY']"
+"Here's a breakdown of the aspect labels for the provided text:
+
+* **HEALTH/PSYCHOLOGICAL EFFECTS:** The phrase ""health effects"" directly references this aspect. 
+* **COMMUNITY/SOCIETAL EFFECTS:** The mention of  ""impact on society and law-and-order issues"" falls under this category.
+* **DRUG POLICY:** The statement implies a stance on drug policy through the argument for ""national legalization"".
+* **LEGAL DRUGS:** The comparison to ""tobacco or alcohol"" introduces the aspect of comparing marijuana to other legal drugs. 
+
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-12T11:43:10.152337804Z,stop,3820344542,54046908,646,79328000,137,3642715000,"But neither are there such answers about tobacco or alcohol , and we believe that on every level — health effects , the impact on society and law-and-order issues — the balance falls squarely on the side of national legalization .",['LEGAL_DRUGS'],4,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'COMMUNITY/SOCIETAL_EFFECTS', 'DRUG_POLICY', 'LEGAL_DRUGS']"
+"Here's the breakdown of aspect labels for the given text:
+
+* **CHILD AND TEEN SAFETY:** While not explicitly stated, the concern about drug users' performance at work implies a potential negative impact on workplace safety, which could indirectly relate to child and teen safety if the workforce includes parents or guardians.
+* **COMMUNITY/SOCIETAL EFFECTS:** The phrase ""create a new class of protected California citizens"" points towards a broader societal discussion on the implications of legalization and its impact on legal frameworks and social structures. 
+
+
+Let me know if you have any other text snippets you'd like me to analyze! 
+",gemma2:27b,2024-09-12T11:43:13.872893714Z,stop,3670284169,56134520,642,68158000,128,3414463000,"The California Chamber of Commerce has also expressed its opposition to the legalization of marijuana , citing that drug users will not be able to perform at work and that passage could create a new class of protected California citizens .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],2,"['COMMUNITY/SOCIETAL_EFFECTS', 'CHILD_AND_TEEN_SAFETY']"
+"Here's the coding for the sentence:
+
+**HEALTH/PSYCHOLOGICAL EFFECTS, HARM** 
+
+* **HEALTH/PSYCHOLOGICAL EFFECTS:** The sentence explicitly discusses the effects of cannabis use (""regular use of cannabis...doubled your risk of psychosis""). This falls directly under the category of health and psychological impacts.
+* **HARM:**  The finding that cannabis doubles the risk of psychosis indicates a potential harm associated with its use. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T11:43:16.96497408Z,stop,3041563138,56306354,622,53650000,109,2888183000,A recent survey of all the medical literature concluded that regular use of cannabis actually doubled your risk of psychosis .,['HEALTH/PSYCHOLOGICAL_EFFECTS'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'HARM']"
+"Here's the breakdown of the aspect(s) present in the sentence and why:
+
+* **NATIONAL BUDGET:** The sentence directly addresses Ducey's claim about costs exceeding tax revenue, which falls squarely under the discussion of potential financial implications of legalization. 
+
+
+Let me know if you have more sentences to analyze!",gemma2:27b,2024-09-12T11:43:18.920898649Z,stop,1904946599,56313845,629,63404000,66,1742297000,"Ducey 's argument that the costs "" will far , far outweigh any tax revenue "" is a guess , according to the JLBC .",['NATIONAL_BUDGET'],1,['NATIONAL_BUDGET']
+"Here's the coding for the sentence:
+
+* **CHILD AND TEEN SAFETY:** The sentence mentions ""child abuse"" as a potential consequence of increased drug use.
+* **COMMUNITY/SOCIETAL EFFECTS:** The sentence directly addresses the impact of legalization on violent crime, including ""drugged driving"", and links it to broader societal issues like ""assaults"" and ""domestic violence"".  
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T11:43:21.90105726Z,stop,2888486581,59457564,630,60517000,101,2681369000,"If drug use increases with legalization , so will such forms of related violent crime as assaults , drugged driving , child abuse , and domestic violence .","['COMMUNITY/SOCIETAL_EFFECTS', 'DRUG_ABUSE', 'CHILD_AND_TEEN_SAFETY']",2,"['COMMUNITY/SOCIETAL_EFFECTS', 'CHILD_AND_TEEN_SAFETY']"
+"Here's the breakdown of aspect codes for the given sentence:
+
+* **GATEWAY DRUG:** The sentence explicitly states ""it is a gateway substance,"" directly referencing the concept of marijuana leading to harder drug use. 
+
+
+Let me know if you have any other sentences you'd like coded! 
+",gemma2:27b,2024-09-12T11:43:23.77896481Z,stop,1871291613,55560547,638,66412000,63,1661070000,"And when I 'm saying that , I 'm talking about big peer reviewed studies done by reputable places that have shown us , without a doubt , that it is a gateway substance .",['GATEWAY_DRUG'],1,['GATEWAY_DRUG']
+"**DRUG POLICY**  
+
+This sentence discusses the acknowledgment by a governmental organization (United Nations Office of Drugs and Crime) regarding the negative consequences of drug enforcement. This directly relates to assessments of drug policies. 
+
+
+Let me know if you'd like me to analyze another sentence!",gemma2:27b,2024-09-12T11:43:25.542766454Z,stop,1714698402,62567354,623,56683000,59,1550702000,"The United Nations Office of Drugs and Crime has also acknowledged the many "" unintended negative consequences "" of drug enforcement .",['COMMUNITY/SOCIETAL_EFFECTS'],1,['DRUG_POLICY']
+"Based on the provided text and codebook, the following aspects apply:
+
+* **CHILD AND TEEN SAFETY:** The sentence mentions a lack of increase in youth marijuana use. 
+* **COMMUNITY/SOCIETAL EFFECTS:**  The text addresses the absence of an increase in criminal activity, which falls under the broader societal effects of legalization.
+
+
+Let me know if you'd like me to analyze more examples! 
+",gemma2:27b,2024-09-12T11:43:28.164292475Z,stop,2528365775,55136945,647,78610000,87,2307489000,""" We have not seen any statistical increase in marijuana use in Colorado since retail passage , we have not seen an increase in youth use since passage , we have not seen an increase in criminal activity since its passage , "" he said .","['COMMUNITY/SOCIETAL_EFFECTS', 'CHILD_AND_TEEN_SAFETY']",2,"['COMMUNITY/SOCIETAL_EFFECTS', 'CHILD_AND_TEEN_SAFETY']"
+"Here's the breakdown of aspect annotations for the sentence:
+
+**DRUG ABUSE:** The sentence directly links drug use (being ""under the influence of drugs"") to a violent crime (homicides). 
+
+**HARM:**  The comparison highlights the harm associated with drug-related violence versus violence driven by financial need.
+
+
+Let me know if you have any other sentences you'd like me to analyze! 
+",gemma2:27b,2024-09-12T11:43:30.719589764Z,stop,2548568798,59842524,629,62755000,88,2333971000,"Six times as many homicides are committed by people under the influence of drugs , as by those who are looking for money to buy drugs .",['COMMUNITY/SOCIETAL_EFFECTS'],2,"['DRUG_ABUSE', 'HARM']"
+"Here's the breakdown of the aspect coding for the given sentence:
+
+**[DRUG ABUSE], [ADDICTION], [ILLEGAL TRADE]**
+
+
+* **[DRUG ABUSE]:**  The sentence mentions an ""addict"" needing money for a ""drug which is absolutely indispensable."" This clearly points to drug abuse as a central theme.
+* **[ADDICTION]:** The phrase ""helpless addict"" strongly suggests the individual is struggling with addiction.
+* **[ILLEGAL TRADE]:** The context implies the addict is forced into crime (""resort to crime"") to obtain the drug, highlighting the connection to illegal trade networks. 
+",gemma2:27b,2024-09-12T11:43:34.554054502Z,stop,3742050849,60315917,641,68102000,134,3563708000,"Finally , and not the least of the evils associated with repression , the helpless addict has been forced to resort to crime in order to get money for the drug which is absolutely indispensable for his comfortable existence .",['ADDICTION'],3,"['DRUG_ABUSE', 'ILLEGAL_TRADE', 'ADDICTION']"
+"The appropriate aspects for the sentence ""2.1 million children in the United States live with at least one parent who was dependent on or abused illicit drugs"" are:
+
+* **CHILD AND TEEN SAFETY:** The sentence directly addresses the negative impact of drug abuse on children, highlighting a safety concern. 
+* **COMMUNITY/SOCIETAL EFFECTS:** This sentence points to a broader societal issue – the prevalence of drug dependence and its consequences for families and communities. 
+
+
+Let me know if you have more sentences to code!",gemma2:27b,2024-09-12T11:43:37.686620525Z,stop,3081079951,54650315,625,56813000,107,2839523000,2.1 million children in the United States live with at least one parent who was dependent on or abused illicit drugs .,"['ADDICTION', 'DRUG_ABUSE', 'CHILD_AND_TEEN_SAFETY']",2,"['COMMUNITY/SOCIETAL_EFFECTS', 'CHILD_AND_TEEN_SAFETY']"
+"**MEDICAL MARIJUANA** 
+
+This sentence highlights a belief that marijuana has medicinal properties, aligning directly with the ""MEDICAL MARIJUANA"" aspect. 
+
+
+",gemma2:27b,2024-09-12T11:43:38.826453548Z,stop,1086650656,54760675,618,48895000,36,938248000,"Again , the argument is for people like Patsy Rodriguez , who believes marijuana is medicine .",['MEDICAL_MARIJUANA'],1,['MEDICAL_MARIJUANA']
+"Here's the breakdown of aspects for the given sentence:
+
+* **COMMUNITY/SOCIETAL EFFECTS:** The sentence discusses increased crime and worsened health as consequences of legalization, directly relating to societal impacts. 
+* **HARM:**  The phrase ""rendering legalization a danger to public safety"" highlights the argument that legalization would be harmful.
+
+
+Let me know if you'd like me to analyze more sentences! 
+",gemma2:27b,2024-09-12T11:43:41.436682357Z,stop,2516673592,55324829,639,65257000,87,2308258000,"Of course , opponents of drug legalization argue that passage of the ballot would increase crime and ultimately worsen peoples ' health , rendering legalization a danger to public safety , offsetting the potential economic gains .","['HEALTH/PSYCHOLOGICAL_EFFECTS', 'NATIONAL_BUDGET', 'COMMUNITY/SOCIETAL_EFFECTS']",2,"['COMMUNITY/SOCIETAL_EFFECTS', 'HARM']"
+"Here's the coding for the provided text:
+
+* **DRUG ABUSE:**  The phrase ""drug abuse in the U.S. is at 'epidemic proportions'"" clearly points to this aspect. 
+* **HEALTH/PSYCHOLOGICAL EFFECTS:** The statement mentions ""the dangers of marijuana to public health and safety,"" directly addressing potential negative health effects.
+
+
+Let me know if you'd like me to code more examples! 
+",gemma2:27b,2024-09-12T11:43:44.089205502Z,stop,2643960058,53861523,633,60758000,92,2440843000,"It states that drug abuse in the U.S. is at "" epidemic proportions , and the dangers of marijuana to public health and safety are well documented . ""","['COMMUNITY/SOCIETAL_EFFECTS', 'DRUG_ABUSE']",2,"['DRUG_ABUSE', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"Here's the breakdown of aspects for the provided text:
+
+* **DRUG POLICY:**  The text discusses a report by the ACMD recommending a change in drug classification (downgrading ecstasy). 
+* **HARM:** The text compares the harm of ecstasy to other class A drugs (heroin and crack cocaine), suggesting ecstasy is less dangerous.
+
+
+Let me know if you have any more sentences you'd like coded!",gemma2:27b,2024-09-12T11:43:46.793538068Z,stop,2604290334,55334862,665,87325000,91,2414896000,"The Advisory Council on the Misuse of Drugs ( ACMD ) report on ecstasy , based on a 12-month study of 4,000 academic papers , concluded that it is nowhere near as dangerous as other class A drugs such as heroin and crack cocaine , and should be downgraded to class B .",['HARM'],2,"['HARM', 'DRUG_POLICY']"
+"Here's the coding for the given sentence:
+
+* **LEGAL DRUGS:**  The sentence directly compares marijuana to alcohol and cigarettes, arguing that marijuana is less deadly. 
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T11:43:48.610763939Z,stop,1764426625,66137625,644,65794000,57,1502820000,"Anonymous says2013-04-08T13 :56:09.417 Report Post Marijuana does n't kill as much people as drinking , or smoking cigarettes .",['LEGAL_DRUGS'],1,['LEGAL_DRUGS']
+"**PERSONAL FREEDOM** 
+
+
+This sentence reflects the idea of individual autonomy and the right to make personal decisions, even if those decisions might be considered unwise.  
+",gemma2:27b,2024-09-12T11:43:49.698572608Z,stop,1038511551,55589048,621,56176000,34,882962000,As a general rule I believe we should let people make their own choices — and their own mistakes .,['PERSONAL_FREEDOM'],1,['PERSONAL_FREEDOM']
+"**HEALTH/PSYCHOLOGICAL EFFECTS** 
+
+This sentence focuses on the harmful chemical (hydrogen cyanide) present in marijuana smoke and compares its concentration to that found in tobacco smoke. This directly relates to the effects of marijuana consumption on the body. 
+
+
+Let me know if you have more sentences you'd like me to code!",gemma2:27b,2024-09-12T11:43:51.762827294Z,stop,1970003453,57244579,624,57030000,67,1766513000,"Similarly , hydrogen cyanide was found in marijuana smoke at concentrations three to five times greater than those found in tobacco smoke .","['HEALTH/PSYCHOLOGICAL_EFFECTS', 'LEGAL_DRUGS']",1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"**PERSONAL FREEDOM**  
+
+This sentence focuses on individual choice and how it relates to marijuana use within the privacy of one's home. 
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T11:43:53.307548221Z,stop,1536070329,54821888,651,79886000,50,1311791000,"On the other hand , a majority of opponents of legalization ( 65 % ) say they would not be bothered if people used marijuana in their own homes ; virtually all supporters of legalization ( 97 % ) would not be bothered by this .",['PERSONAL_FREEDOM'],1,['PERSONAL_FREEDOM']
+"**NATIONAL BUDGET**  
+
+This sentence focuses on the potential financial gain for California taxpayers through tax revenue generated by marijuana legalization. 
+
+
+",gemma2:27b,2024-09-12T11:43:54.289873821Z,stop,889956642,55256969,640,67561000,28,724118000,"The National Organization for the Reform of Marijuana Laws ( NORML ) , for example , claims that legalization “ could yield California taxpayers over $ 1.2 billion per year ” in tax benefits .",['NATIONAL_BUDGET'],1,['NATIONAL_BUDGET']
+"Here's the breakdown of the aspects present in the provided text:
+
+* **GATEWAY DRUG:**  The sentence explicitly states that marijuana use leads to seeking ""a bigger 'high'"" and then progressing to ""harder stuff"" like heroin, LSD, and cocaine. This directly aligns with the concept of marijuana as a gateway drug. 
+
+
+Let me know if you'd like me to analyze any other text samples! 
+",gemma2:27b,2024-09-12T11:43:56.86671637Z,stop,2522705799,55772472,636,63422000,89,2360002000,"Then , after using it for a while , a bigger "" high "" is sought ; thus , users then turn to the harder stuff like heroin , LSD , cocaine , etc .",['GATEWAY_DRUG'],1,['GATEWAY_DRUG']
+"Based on the provided codebook, the following aspects apply to the given sentence:
+
+* **ILLEGAL TRADE:** The sentence advocates for a regulated system as opposed to the current potentially illicit market.  
+* **NATIONAL BUDGET:** The mention of ""taxed"" directly relates to the potential for increased revenue for the national budget. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T11:43:59.454025601Z,stop,2493324699,56049008,634,63503000,86,2280310000,""" We need a safer system of marijuana sales in mass and the best way to do that is make it regulated and taxed and licensed , "" Borghesani said .",['DRUG_POLICY'],2,"['ILLEGAL_TRADE', 'NATIONAL_BUDGET']"
+"**HEALTH/PSYCHOLOGICAL EFFECTS** 
+
+The sentence directly addresses the negative impact of marijuana on health and brain function. 
+",gemma2:27b,2024-09-12T11:44:00.370839604Z,stop,908385991,71130422,615,50711000,27,696934000,I know it ’s not good for her health or brain . ”,['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"Here's the coding for the provided text:
+
+**HEALTH/PSYCHOLOGICAL EFFECTS**  (The sentence directly discusses the physiological effects of marijuana on the heart rate and blood volume.) 
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T11:44:02.148203349Z,stop,1728366153,62798131,638,66783000,59,1553894000,"Experts say that marijuana increases the heart rate and the volume of blood pumped by the heart , but that poses a risk mostly to older users who already have cardiac or other health problems . ”",['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"Here's the coding for the given sentence:
+
+* **PERSONAL FREEDOM:** The phrase ""giving people their freedom"" directly aligns with this aspect. 
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T11:44:03.725809106Z,stop,1526054872,56545723,631,62004000,52,1364349000,"The retired book editor from Boston 's Mission Hill neighborhood says it ’s not about getting high , it ’s really about giving people their freedom .",['PERSONAL_FREEDOM'],1,['PERSONAL_FREEDOM']
+"**HEALTH/PSYCHOLOGICAL EFFECTS** 
+
+This sentence focuses on the potential negative impact of marijuana use on the developing brain, a key aspect within the ""Health/Psychological Effects"" category. 
+
+
+Let me know if you have any other sentences you'd like coded!",gemma2:27b,2024-09-12T11:44:05.486583101Z,stop,1666685714,55178708,614,51292000,56,1472074000,There are legitimate concerns about marijuana on the development of adolescent brains .,['CHILD_AND_TEEN_SAFETY'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"Based on the provided codebook, here's the breakdown of applicable labels for the given text:
+
+* **DRUG POLICY:**  The text mentions a response from The White House regarding marijuana criminalization, indicating a discussion of government policy. 
+
+Let me know if you have any other sentences you'd like me to analyze! 
+",gemma2:27b,2024-09-12T11:44:07.570589443Z,stop,2076398540,53921916,636,59832000,71,1875126000,"The White House issued a response to the New York Times , trotting out weak , largely debunked justifications for criminalization , focusing on marijuana ’s supposed social ills .",['COMMUNITY/SOCIETAL_EFFECTS'],1,['DRUG_POLICY']
+"Here's the breakdown of the aspects present in the text:
+
+* **NATIONAL BUDGET:** The passage discusses the California Board of Equalization's estimate of potential revenue from marijuana legalization, directly relating to the impact on the state's budget.
+
+
+Let me know if you have any other text snippets you'd like me to analyze! 
+",gemma2:27b,2024-09-12T11:44:09.72857808Z,stop,2108584206,59252120,682,102199000,72,1903025000,"Dr. Rosalie Liccardo Pacula , an expert with the RAND Corporation who has studied the economics of drug policy for over 15 years , has explained that the California “ Board of Equalization ’s estimate of $ 1.4 billion [ in ] potential revenue for the state is based on a series of assumptions that are in some instances subject to tremendous uncertainty and in other cases not validated . ”",['NATIONAL_BUDGET'],1,['NATIONAL_BUDGET']
+"Based on the provided codebook, the following aspects apply to the given text:
+
+* **COMMUNITY/SOCIETAL EFFECTS:** The text mentions ""social costs""  and ""wasted resources"" which are directly related to the societal impact of cannabis prohibition. 
+* **DRUG POLICY:**  The phrase ""make the case for legalization"" implies a discussion about government policy regarding cannabis.
+
+
+Let me know if you have any other text snippets you'd like coded! 
+",gemma2:27b,2024-09-12T11:44:12.633650469Z,stop,2817555074,43200416,634,63416000,99,2623973000,"The paper of record is continuing to make the case for legalization over a series of editorials , addressing the social costs , racist history and wasted resources from cannabis prohibition .","['NATIONAL_BUDGET', 'COMMUNITY/SOCIETAL_EFFECTS']",2,"['COMMUNITY/SOCIETAL_EFFECTS', 'DRUG_POLICY']"
+"**GATEWAY DRUG** 
+
+
+Let me explain why:
+
+The sentence directly addresses the ""gateway drug"" theory, which posits that marijuana use leads to harder drug use. The phrase ""discarded long ago"" implies a rejection of this theory. 
+",gemma2:27b,2024-09-12T11:44:14.274505164Z,stop,1632255126,71378908,620,51662000,54,1419209000,Even the gateway effect — the theory that cannabis leads to other drugs — was discarded long ago .,['GATEWAY_DRUG'],1,['GATEWAY_DRUG']
+"Here's the breakdown of aspect labels for the provided text:
+
+* **HEALTH/PSYCHOLOGICAL EFFECTS:** The sentence discusses deaths related to cannabis use, focusing on long-term health effects.
+* **DRUG ABUSE:**  The mention of ""violence and aggression"" and ""nicotine overdose"" relates to potential negative consequences of drug use. 
+
+
+Let me know if you have any other text snippets you'd like me to analyze! 
+",gemma2:27b,2024-09-12T11:44:17.043338925Z,stop,2670973914,54341556,647,79069000,94,2494114000,"Many of the deaths from using cannabis , other than from car accidents while intoxicated or violence and aggression , are more likely to figure in the longer term , just as with tobacco , where both nicotine overdose and cannabis overdose are extremely rare .","['LEGAL_DRUGS', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'DRUG_ABUSE']",2,"['DRUG_ABUSE', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"This example would be coded as:
+
+* **HEALTH/PSYCHOLOGICAL EFFECTS:** The sentence discusses the potential positive mental health effects of peyote use. 
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T11:44:18.716223973Z,stop,1622671355,57302139,640,67363000,52,1366576000,Researchers at Harvard-affiliated McLean Hospital found members of a religious group regularly using peyote scored significantly better on several measures of overall mental health than did subjects who did not use the hallucinogen .,['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"**HEALTH/PSYCHOLOGICAL EFFECTS** 
+
+
+The sentence lists several negative health effects associated with marijuana use, including memory loss, distorted perception, and impaired cognitive function.  
+",gemma2:27b,2024-09-12T11:44:19.86467747Z,stop,1095769451,54134770,634,61701000,36,935627000,"They include : memory loss , distorted perception , trouble with thinking and problem solving , loss of motor skills , decrease in muscle strength , increased heart rate , and anxiety .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"Here's the coding for the provided text:
+
+* **HARM:** The sentence directly compares the harm of drug prohibition to the harm it prevents. 
+* **PERSONAL FREEDOM:**  The phrase ""being sovereign over his own body and mind"" clearly aligns with the concept of personal freedom and autonomy in choosing what substances to consume. 
+
+
+Let me know if you have any other text snippets you'd like me to code! 
+",gemma2:27b,2024-09-12T11:44:22.575605162Z,stop,2619644960,56122081,644,67342000,91,2410081000,"The same sort of analysis today would show that the harm caused by drug prohibition far outweighs the harm it prevents , even without taking into account the value to each individual of being sovereign over his own body and mind .","['PERSONAL_FREEDOM', 'HARM']",2,"['PERSONAL_FREEDOM', 'HARM']"
+"Here's the breakdown of aspect coding for the sentence:
+
+""Taxed and regulated systems are working in Colorado and other states.""
+
+
+* **NATIONAL BUDGET:** This aspect applies because the sentence discusses ""taxed and regulated systems,"" implying a focus on government revenue generation. 
+* **DRUG POLICY:** The mention of ""regulated systems"" points to a specific policy approach regarding marijuana legalization. 
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T11:44:25.482262215Z,stop,2850343946,55628659,614,50567000,102,2700252000,Taxed and regulated systems are working in Colorado and other states .,['DRUG_POLICY'],2,"['NATIONAL_BUDGET', 'DRUG_POLICY']"
+"Here's the coding for the provided text:
+
+* **CHILD AND TEEN SAFETY:** The sentence explicitly mentions concerns about marijuana smoking among 12th graders and its potential negative effects on teenage brain development.  
+
+
+Let me know if you have any other text samples you'd like coded!",gemma2:27b,2024-09-12T11:44:27.427336285Z,stop,1850880545,55716803,651,79879000,62,1628260000,""" A continued area of concern is the high rate of daily marijuana smoking seen especially among 12th graders , because of marijuana ’s potential deleterious effects on the developing brains of teenagers , ” NIDA 's Volkow said in a statement .",['CHILD_AND_TEEN_SAFETY'],1,['CHILD_AND_TEEN_SAFETY']
+"This example falls under these aspects:
+
+* **DRUG POLICY:** The sentence discusses a specific act related to marijuana policy, the ""Regulation and Taxation of Marijuana Act"". 
+* **PERSONAL FREEDOM:**  The phrase ""urging voters to approve"" suggests an argument based on individual rights and freedom of choice regarding marijuana use.
+
+
+Let me know if you have any more sentences you'd like me to code!",gemma2:27b,2024-09-12T11:44:29.894700125Z,stop,2458990017,54118470,638,61081000,85,2254015000,"Eight people or groups turned in arguments for the "" pro "" side 's six pages in the publication , urging voters to approve the Regulation and Taxation of Marijuana Act ( RTMA ) .",['DRUG_POLICY'],2,"['PERSONAL_FREEDOM', 'DRUG_POLICY']"
+"Based on the provided text, the following aspects apply:
+
+* **COMMUNITY/SOCIETAL EFFECTS:** The text explicitly discusses increases in crime rates (robberies, burglaries, aggravated assault) in areas near cannabis clubs. This directly relates to the potential societal effects of marijuana legalization. 
+* **ILLEGAL TRADE:** While not stated directly, the increase in crime could be interpreted as a consequence of illegal trade activities flourishing due to the presence of cannabis clubs.  
+
+
+Let me know if you have more text examples you'd like me to code!",gemma2:27b,2024-09-12T11:44:33.208235712Z,stop,3219913505,60451360,664,85248000,114,3028741000,"In Los Angeles , police report that areas surrounding cannabis clubs have experienced a 200 percent increase in robberies , a 52.2 percent increase in burglaries , a 57.1 percent increase in aggravated assault , and a 130.8 percent increase in burglaries from automobiles .",['COMMUNITY/SOCIETAL_EFFECTS'],2,"['COMMUNITY/SOCIETAL_EFFECTS', 'ILLEGAL_TRADE']"
+"Here's the breakdown of the aspect labels for the sentence:
+
+* **CHILD AND TEEN SAFETY:** The sentence directly addresses restrictions on selling substances harmful to children. 
+* **LEGAL DRUGS:**  The sentence uses alcohol and cigarettes as examples, comparing them to marijuana in the context of legal status and potential harm.
+
+
+Let me know if you have more sentences to code!",gemma2:27b,2024-09-12T11:44:35.593968939Z,stop,2335853963,57179399,622,56318000,79,2087430000,"Even unhealthy items that are legal , such as alcohol and cigarettes , are prohibited from being sold to children .","['LEGAL_DRUGS', 'CHILD_AND_TEEN_SAFETY']",2,"['CHILD_AND_TEEN_SAFETY', 'LEGAL_DRUGS']"
+"Here's the coding for the given sentence:
+
+* **ADDICTION:** The sentence directly addresses the concern of increased marijuana addiction due to legalization.
+* **NATIONAL BUDGET:**  The argument revolves around the financial impact, specifically stating that savings from legalization would be negated by treatment costs for new addicts. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T11:44:37.975871371Z,stop,2332063609,55975858,633,63937000,82,2168643000,Opponents of legal recreational pot argue that any savings that would arise from legalization would be offset by the cost of treating the additional users who become addicted to marijuana .,"['ADDICTION', 'NATIONAL_BUDGET']",2,"['ADDICTION', 'NATIONAL_BUDGET']"
+"The applicable aspects for the sentence ""Some in the Legalization Lobby even claim such drugs have medical value, despite the lack of conclusive scientific evidence"" are:
+
+* **MEDICAL MARIJUANA:**  This aspect is directly addressed as the sentence discusses claims about marijuana's medical value. 
+
+
+Let me know if you have any more sentences to code! 
+",gemma2:27b,2024-09-12T11:44:40.243351696Z,stop,2175406722,55375432,623,56343000,75,1976750000,"Some in the Legalization Lobby even claim such drugs have medical value , despite the lack of conclusive scientific evidence .",['MEDICAL_MARIJUANA'],1,['MEDICAL_MARIJUANA']
+"While this example talks about harm and consumption, it doesn't directly relate to any of the provided aspects concerning marijuana legalization.  
+
+Therefore, **no labels** from the codebook apply to this sentence. 
+",gemma2:27b,2024-09-12T11:44:41.628350406Z,stop,1376522435,58861751,620,49527000,45,1179180000,Even legal substances like pizza and donuts can be harmful to a person if not consumed in moderation .,['HARM'],0,[]
+"Here's the breakdown of the aspect coding for the given sentence:
+
+* **[DRUG POLICY]:**  The sentence discusses the effectiveness of using marijuana possession as a proxy for identifying individuals potentially involved in more serious crimes. This relates to law enforcement strategies and drug policy debates.
+* **[ILLEGAL TRADE]:** The sentence implies a connection between marijuana use and violent crime, suggesting that targeting marijuana users might be an ineffective approach to addressing broader criminal activity often associated with illegal drug trade. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T11:44:45.079565206Z,stop,3358315077,55939298,633,63701000,120,3193509000,"If law enforcement agencies wanted to find a good “ minor offense ” correlate for violent , dangerous crimes , marijuana use does n’t make a lot of sense .",['COMMUNITY/SOCIETAL_EFFECTS'],2,"['ILLEGAL_TRADE', 'DRUG_POLICY']"
+"Based on the provided codebook, the appropriate labels for the sentence ""Illegal drugs such as marijuana are responsible for a disproportionate share of violence and social decline in America"" are:
+
+* **ILLEGAL TRADE:** The sentence links marijuana to violence and social decline, suggesting a connection to criminal activity often associated with illegal drug trade.
+* **COMMUNITY/SOCIETAL EFFECTS:**  The phrase ""social decline"" directly refers to the broader impact of marijuana on society. 
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T11:44:48.449086919Z,stop,3319358012,55838295,621,56732000,116,3073073000,Illegal drugs such as marijuana are responsible for a disproportionate share of violence and social decline in America .,['COMMUNITY/SOCIETAL_EFFECTS'],2,"['COMMUNITY/SOCIETAL_EFFECTS', 'ILLEGAL_TRADE']"
+"**HEALTH/PSYCHOLOGICAL EFFECTS** 
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T11:44:49.405339069Z,stop,905630226,58138423,618,51363000,29,750667000,"However , it is clear that marijuana use plays some role in the mental health picture .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"**ADDICTION** 
+
+
+Let me know if you'd like me to analyze another sentence! 
+",gemma2:27b,2024-09-12T11:44:50.189038086Z,stop,733142496,53814903,611,44189000,23,588551000,It 's not very addictive for many people .,['ADDICTION'],1,['ADDICTION']
+"Here's the coding for the given text:
+
+* **DRUG POLICY:** The sentence discusses the legality of marijuana compared to alcohol and cigarettes, implying a commentary on existing drug policy. 
+* **LEGAL DRUGS:**  The comparison explicitly mentions alcohol and tobacco as legal substances, raising the issue of their legality relative to marijuana.
+
+
+Let me know if you have any other text snippets you'd like me to code! 
+",gemma2:27b,2024-09-12T11:44:52.890772263Z,stop,2611043610,60891413,648,78940000,90,2385587000,"There 's a reason pot was made illegal in the first place and quite frankly , the only reason alcohol and cigarettes are legal is because they 're so deeply ingrained in our society that we ca n't get rid of them .",['LEGAL_DRUGS'],2,"['DRUG_POLICY', 'LEGAL_DRUGS']"
+"**NATIONAL BUDGET** 
+
+
+The sentence discusses the potential for tax revenue from marijuana legalization to be used for funding public school construction. This aligns directly with the ""NATIONAL BUDGET"" aspect, which focuses on financial implications of legalization. 
+",gemma2:27b,2024-09-12T11:44:54.345007723Z,stop,1448271398,55747462,610,48133000,48,1257206000,That money can go towards public school construction .,['NATIONAL_BUDGET'],1,['NATIONAL_BUDGET']
+"Based on the provided codebook, the appropriate labels for the sentence ""We are looking at marijuana that ’s 10 times more potent than what people think is safe , ” said Dr. Spencer""  are:
+
+* **HEALTH/PSYCHOLOGICAL EFFECTS:** The sentence focuses on the potency of marijuana and its potential impact on users' health and safety.
+* **MEDICAL MARIJUANA:** While not explicitly stated, the reference to marijuana potency could be related to discussions about medical marijuana strains and their effects. 
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T11:44:57.940687918Z,stop,3504557846,52021977,628,55939000,126,3349974000,"We are looking at marijuana that ’s 10 times more potent than what people think is safe , ” said Dr. Spencer .",['HARM'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'MEDICAL_MARIJUANA']"
+"**HEALTH/PSYCHOLOGICAL EFFECTS**  
+
+**Explanation:** The sentence focuses on the detrimental impact of marijuana use on cognitive function (slowed reaction time) and brain development, especially in younger individuals. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T11:44:59.829233636Z,stop,1838277304,55583178,637,65649000,60,1581301000,"The negative effects of it includes , slowed reaction time , and brain damage on young users who are still in major development of their brain until the age of at least 25 .","['HEALTH/PSYCHOLOGICAL_EFFECTS', 'CHILD_AND_TEEN_SAFETY']",1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"Here's the breakdown of the aspect coding for the sentence:
+
+**HEALTH/PSYCHOLOGICAL EFFECTS:** The sentence directly addresses the psychological impact (""emotionally crippled adults"") of psychoactive substances, aligning with this category. 
+
+
+Let me know if you have more sentences to code! 
+",gemma2:27b,2024-09-12T11:45:01.611937763Z,stop,1731978091,53439254,625,53914000,60,1577890000,There is n't an argument in the world that will change the fact that psychoactive substances produce emotionally crippled adults .,['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"Here's the breakdown of the aspect coding for the sentence:
+
+""Marijuana is terrible for your mental health: Marijuana may even be WORSE than cigarettes.""
+
+* **HEALTH/PSYCHOLOGICAL EFFECTS:** This aspect is clearly present as the sentence focuses on the negative impacts of marijuana on mental health.
+
+* **LEGAL DRUGS:** The comparison to cigarettes, a legal drug, introduces this aspect. The sentence implies a judgment about the relative harmfulness of marijuana compared to an accepted legal substance. 
+
+
+Let me know if you'd like me to analyze more sentences! 
+",gemma2:27b,2024-09-12T11:45:05.051918491Z,stop,3347890744,55392043,620,51305000,119,3154337000,3 ) Marijuana is terrible for your mental health : Marijuana may even be WORSE than cigarettes .,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'LEGAL_DRUGS']",2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'LEGAL_DRUGS']"
+"**DRUG POLICY**  
+
+This sentence discusses a change in legal punishment related to the sale of recreational marijuana, which falls under drug policy. 
+",gemma2:27b,2024-09-12T11:45:06.092267687Z,stop,1031210865,55889897,636,58803000,32,829841000,The punishment for selling recreational marijuana would be reduced from a maximum of four years in prison or jail to six months in jail and/or a $ 500 fine .,['DRUG_POLICY'],1,['DRUG_POLICY']
+"Here's the breakdown of aspect labels for the given text:
+
+* **[ILLEGAL TRADE]:** The sentence directly discusses profits from illegal marijuana sales (""While such profits might not be possible..."") and the potential impact of legalization on these criminal enterprises (""...these gangs were undercut by mass production""). 
+
+
+Let me know if you have any other sentences you'd like coded! 
+",gemma2:27b,2024-09-12T11:45:08.423815278Z,stop,2275887721,59822607,632,64061000,80,2108436000,"While such profits might not be possible if marijuana was legalized at the national level and these gangs were undercut by mass production , that is unlikely ever to happen .",['ILLEGAL_TRADE'],1,['ILLEGAL_TRADE']
+"**LEGAL DRUGS** 
+
+This sentence makes a comparison between marijuana and legal pharmaceuticals, arguing that legal drugs are also problematic.  The mention of ""legal pharmaceutical drugs"" and the contrast with ""cartoon characters"" (often used in advertising aimed at children) suggests a broader argument about the regulation and marketing of legal substances. 
+
+
+",gemma2:27b,2024-09-12T11:45:10.521861203Z,stop,2001341634,56190325,631,62773000,68,1792817000,Botticelli made no mention of the long list of legal pharmaceutical drugs — many with dangerous side effects — that also advertise directly to consumers with cartoon characters .,['MEDICAL_MARIJUANA'],1,['LEGAL_DRUGS']
+"Here's the coding for the sentence:
+
+**[NATIONAL BUDGET], [ILLEGAL TRADE]**
+
+
+* **NATIONAL BUDGET:** The phrase ""15 BILLION is wasted"" directly refers to financial expenditures.  
+* **ILLEGAL TRADE:** The sentence highlights the resources spent on ""capture and persecution"", pointing towards the consequences of marijuana's illegal status. 
+",gemma2:27b,2024-09-12T11:45:12.737079958Z,stop,2205670584,53582769,618,48903000,76,2008381000,Another 15 BILLION is wasted on the capture and persecution simple cannabis consumers .,['NATIONAL_BUDGET'],2,"['ILLEGAL_TRADE', 'NATIONAL_BUDGET']"
+"Here's the coding for the given text:
+
+* **[COMMUNITY/SOCIETAL EFFECTS]**  The sentence discusses a decrease in criminal cases filed after legalization, directly linking marijuana policy to societal effects.
+
+
+Let me know if you have any other sentences you'd like coded! 
+",gemma2:27b,2024-09-12T11:45:14.613705353Z,stop,1782009587,56221115,651,77734000,61,1601343000,"County courts — the lower-level venues that normally handle misdemeanor crimes — saw a dip in new criminal cases filed between the 2012 fiscal year and the 2013 fiscal year , coinciding with voters ’ approval of legalization .",['COMMUNITY/SOCIETAL_EFFECTS'],1,['COMMUNITY/SOCIETAL_EFFECTS']
+"Here's the coding for the given text:
+
+* **CHILD AND TEEN SAFETY:**  The phrase ""go into class stoned"" directly implies marijuana use by students, raising concerns about its impact on teenagers. 
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T11:45:16.618787116Z,stop,1952936911,53067646,625,57722000,65,1710946000,""" Students suck on lollipops between classes , go into class stoned , learn nothing , and teachers are increasingly helpless .",['CHILD_AND_TEEN_SAFETY'],1,['CHILD_AND_TEEN_SAFETY']
+"**PERSONAL FREEDOM** 
+
+
+Let me know if you'd like me to code another sentence!  
+",gemma2:27b,2024-09-12T11:45:17.414647719Z,stop,742443409,64160436,614,47279000,23,588152000,Limiting the use of the drug intrudes on personal freedom .,['PERSONAL_FREEDOM'],1,['PERSONAL_FREEDOM']
+"Here's the coding for the provided sentence:
+
+**ADDICTION** 
+
+
+The sentence explicitly states that cannabis can be addictive, directly aligning with the definition of the ""ADDICTION"" aspect. 
+",gemma2:27b,2024-09-12T11:45:18.827784489Z,stop,1319879567,57724764,615,50589000,43,1122957000,It would be malpractice to say that cannabis is n't addictive .,['ADDICTION'],1,['ADDICTION']
+"Here's the breakdown of the aspect labels for the given text:
+
+**HEALTH/PSYCHOLOGICAL EFFECTS:** The text explicitly mentions cannabinoids promoting apoptosis (cell death) in tumors. This directly relates to the effects of marijuana on the body.  
+
+
+Let me know if you have more text snippets to analyze! 
+",gemma2:27b,2024-09-12T11:45:20.800253937Z,stop,1963741477,53909917,656,75022000,66,1742079000,"Anonymous says2013-05-28T02 :41:12.043 Report Post Cannabinoids , including THC and Cannabidiol , promote the re-emergence of apoptosis so that tumors will stop dividing and die .",['MEDICAL_MARIJUANA'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"Based on the provided codebook, the appropriate aspect(s) for the sentence ""Also it is very dangerous while dealing with a drug dealer because they are a wild card"" are:
+
+* **ILLEGAL TRADE:** The sentence directly references the danger associated with interacting with drug dealers, who are central figures in illegal trade. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T11:45:23.287495717Z,stop,2395589247,55415916,619,51110000,85,2246155000,Also it is very dangerous while dealing with a drug dealer because they are a wild card .,['ILLEGAL_TRADE'],1,['ILLEGAL_TRADE']
+"Here's the breakdown of aspect coding for the sentence:
+
+**""The drug is making them stupider, even when they're not high.""**
+
+* **HEALTH/PSYCHOLOGICAL EFFECTS:**  This aspect clearly applies as the sentence directly discusses the negative impact of marijuana (""the drug"") on cognitive abilities (""making them stupider""). 
+
+
+Let me know if you have any other sentences you'd like coded! 
+",gemma2:27b,2024-09-12T11:45:25.928182616Z,stop,2591861171,55699491,617,49220000,89,2351759000,"The drug is making them stupider , even when they 're not high .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"Here's the breakdown of the aspect annotations for the sentence:
+
+* **HEALTH/PSYCHOLOGICAL EFFECTS:** The sentence compares marijuana's harm to alcohol and other drugs, implying a discussion about its effects on the body. 
+* **LEGAL DRUGS:**  The comparison to alcohol directly points to this aspect, as it raises the debate about the legality of marijuana compared to existing legal substances often perceived as more harmful. 
+
+
+Let me know if you'd like me to analyze any other sentences! 
+",gemma2:27b,2024-09-12T11:45:28.919852386Z,stop,2935220429,53752653,620,51304000,105,2785230000,They also say that it is n’t as dangerous or harmful as alcohol and other drugs .,"['LEGAL_DRUGS', 'HARM']",2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'LEGAL_DRUGS']"
+"Here's the breakdown of aspect annotations for the given sentence:
+
+* **ILLEGAL TRADE:** The sentence mentions ""crime associated with [marijuana dispensary] operation,"" directly linking it to illegal activity. 
+* **COMMUNITY/SOCIETAL EFFECTS:**  The closure of dispensaries due to crime implies a negative societal impact and a desire to reduce harm within the community.
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T11:45:31.788350221Z,stop,2776466601,53586849,630,61448000,97,2571707000,"In Amsterdam , officials are in the process of closing marijuana dispensaries , or “ coffee shops , ” because of the crime associated with their operation .",['COMMUNITY/SOCIETAL_EFFECTS'],2,"['COMMUNITY/SOCIETAL_EFFECTS', 'ILLEGAL_TRADE']"
+"Here's the breakdown of aspect labels for the given sentence:
+
+* **ILLEGAL TRADE:** The sentence directly addresses moving commerce away from ""street dealers"" implying a reduction in illegal trade.
+
+
+Let me know if you have more sentences to code! 
+",gemma2:27b,2024-09-12T11:45:33.413946333Z,stop,1616119033,55241661,628,53337000,54,1417557000,"A regulated and taxed system would move commerce from street dealers to licensed , taxpaying businesses under the control of state regulators and local authorities .","['ILLEGAL_TRADE', 'DRUG_POLICY']",1,['ILLEGAL_TRADE']
+"Here's the breakdown of the aspect coding for the sentence:
+
+**DRUG ABUSE:** The sentence directly addresses the increased risk of car accidents due to marijuana intoxication, which falls under the category of drug abuse and its potential dangers. 
+
+Let me know if you have any more sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T11:45:35.514614521Z,stop,2006635065,56089192,631,63021000,70,1845475000,These side effects are why several large studies find that that drivers high on marijuana are three to seven times more likely to be responsible for a car accident .,['DRUG_ABUSE'],1,['DRUG_ABUSE']
+"Here's the coding for the given text:
+
+* **NATIONAL BUDGET** (The sentence discusses potential tax revenue generated from drug legalization) 
+
+
+Let me know if you have any more text snippets you'd like coded! 
+",gemma2:27b,2024-09-12T11:45:37.094880968Z,stop,1530995708,53897566,635,63370000,49,1281267000,"Drug legalization would yield tax revenues of $ 46.7 billion annually , assuming legal drugs were taxed at rates comparable to those on alcohol and tobacco , they said .","['LEGAL_DRUGS', 'NATIONAL_BUDGET']",1,['NATIONAL_BUDGET']
+"Here's the breakdown of aspect labels for the sentence:
+
+* **HEALTH/PSYCHOLOGICAL EFFECTS:** The phrase ""health care costs skyrocketing"" directly refers to potential negative health consequences associated with increased marijuana use. 
+
+* **COMMUNITY/SOCIETAL EFFECTS:**  The sentence emphasizes that these costs would be borne by ""the entire society,"" highlighting a broader societal impact beyond individual users.
+
+
+Let me know if you have any other sentences you'd like me to analyze!",gemma2:27b,2024-09-12T11:45:39.92093672Z,stop,2777045690,54766909,628,58188000,99,2619317000,"Increased use would also send health care costs skyrocketing — costs borne not just by individual users , but also by the entire society .",['NATIONAL_BUDGET'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'COMMUNITY/SOCIETAL_EFFECTS']"
+"Here's the coding breakdown for the provided text:
+
+* **ILLEGAL TRADE:** The sentence links violent crime to drug use, suggesting a connection between illegal drug activity (including marijuana) and criminal behavior. 
+* **CHILD AND TEEN SAFETY:** While not explicitly stated, this aspect could be implied.  The presence of marijuana in violent crimes might suggest concerns about its accessibility leading to increased risk for youth.
+
+Let me know if you'd like me to code any other sentences! 
+",gemma2:27b,2024-09-12T11:45:42.868876467Z,stop,2896695247,55987750,639,63651000,103,2733839000,"Prosecutors , judges , police officers , detectives , parole or probation officers , and even defense attorneys know that the vast majority of defendants arrested for violent crimes test positive for illegal drugs , including marijuana .",['COMMUNITY/SOCIETAL_EFFECTS'],2,"['CHILD_AND_TEEN_SAFETY', 'ILLEGAL_TRADE']"
+"Here's the coding for the given sentence:
+
+**[CHILD AND TEEN SAFETY], [COMMUNITY/SOCIETAL EFFECTS]** 
+
+* **[CHILD AND TEEN SAFETY]:** The phrase ""concerned about our lack of academic achievement"" implies a worry about the impact of marijuana legalization on youth, particularly their educational attainment.
+* **[COMMUNITY/SOCIETAL EFFECTS]:**  The statement calls marijuana legalization ""disastrous,"" suggesting broader negative consequences for society beyond just individual users. 
+
+
+Let me know if you'd like to code more examples! 
+",gemma2:27b,2024-09-12T11:45:46.293013202Z,stop,3333007485,55565599,627,58345000,118,3132405000,"At a time when we ’re concerned about our lack of academic achievement relative to other countries , legalizing marijuana will be disastrous .",['COMMUNITY/SOCIETAL_EFFECTS'],2,"['COMMUNITY/SOCIETAL_EFFECTS', 'CHILD_AND_TEEN_SAFETY']"
+"**DRUG POLICY** 
+
+
+The sentence discusses politicians arguing against marijuana reform, which falls under the category of drug policy. It implies a debate about government policies regarding marijuana legalization. 
+",gemma2:27b,2024-09-12T11:45:47.513730133Z,stop,1212149305,54508052,627,53395000,39,1016704000,"Most people understand that correlation and causation are not the same thing , but this fact seems lost on many politicians arguing against marijuana reform .",['DRUG_POLICY'],1,['DRUG_POLICY']
+"Based on the provided codebook, the appropriate aspect(s) for the sentence are:
+
+* **ILLEGAL TRADE:** The sentence directly addresses the removal of profit motive from illegal marijuana sales and the subsequent disappearance of drug dealers. 
+
+
+Let me know if you have any other sentences you'd like coded!",gemma2:27b,2024-09-12T11:45:49.450472785Z,stop,1845939069,53095966,631,61231000,64,1686991000,"With the profit motive gone , no effort would be made to encourage its use by private dispensers of narcotics , and the drug peddler would disappear .",['ILLEGAL_TRADE'],1,['ILLEGAL_TRADE']
+"Based on the provided text and codebook, the applicable aspect(s) are:
+
+* **HEALTH/PSYCHOLOGICAL EFFECTS:** The phrase ""new and creative ways to self-medicate"" suggests discussion about marijuana's effects on mental well-being and its perceived ability to alleviate certain conditions. 
+* **CHILD AND TEEN SAFETY:** The text mentions ""young people everywhere"" implying a potential concern for the accessibility and influence of marijuana on youth.
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T11:45:52.698049279Z,stop,3196767127,55767575,625,56463000,111,2950357000,We are living in a country where young people everywhere are actively seeking out new and creative ways to self-medicate .,['MEDICAL_MARIJUANA'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'CHILD_AND_TEEN_SAFETY']"
+"Based on the provided text and codebook, the applicable aspects are:
+
+* **ILLEGAL TRADE:** The mention of ""marijuana-smoking squatters"" implies illegal activity and potentially ties to the illicit market. 
+* **CHILD AND TEEN SAFETY:** While not explicitly stated, the presence of squatters using marijuana raises concerns about potential exposure to minors who may reside in or near the properties.
+
+Let me know if you have any other sentences you'd like coded!  
+",gemma2:27b,2024-09-12T11:45:55.565775601Z,stop,2817897958,54199174,633,63217000,100,2655085000,"Jason White , 44 , owns a property management company and expressed frustration he has had to deal with marijuana-smoking squatters in some of his properties .",['COMMUNITY/SOCIETAL_EFFECTS'],2,"['CHILD_AND_TEEN_SAFETY', 'ILLEGAL_TRADE']"
+"**NATIONAL BUDGET** 
+
+
+Let's break down why:
+
+* **The sentence discusses economic impact:**  ""economic windfall"" directly relates to financial consequences and potential tax revenue or lack thereof.
+* **Challenges a common argument:** The phrase ""proclaimed by some proponents"" suggests a debate about the financial benefits of legalization, aligning with the NATIONAL BUDGET aspect. 
+",gemma2:27b,2024-09-12T11:45:57.924168091Z,stop,2264538602,56495115,622,56487000,78,2065454000,"Furthermore , studies have shown that legalized marijuana will provide nowhere near the economic windfall proclaimed by some proponents .",['NATIONAL_BUDGET'],1,['NATIONAL_BUDGET']
+"**NATIONAL BUDGET** 
+
+
+The sentence discusses the potential for marijuana legalization to generate tax revenue. 
+",gemma2:27b,2024-09-12T11:45:58.69107564Z,stop,758390903,55967630,611,48246000,22,563696000,It could be a source of additional tax revenues .,['NATIONAL_BUDGET'],1,['NATIONAL_BUDGET']
+"Here's the breakdown of aspect coding for the sentence:
+
+**[CHILD AND TEEN SAFETY]** -  While not explicitly stated, the mention of a ""potent smell"" and McPheeters driving past suggests potential exposure to marijuana odor. This could raise concerns about children or teenagers being exposed to the smell and potentially associating it with drug use. 
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T11:46:01.379893973Z,stop,2596334996,56055932,622,56267000,92,2441417000,McPheeters bristles at the potent smell of marijuana when she drives past some of the cultivation facilities .,['PERSONAL_FREEDOM'],1,['CHILD_AND_TEEN_SAFETY']
+"Here's the breakdown of aspect labels for the sentence:
+
+* **ILLEGAL TRADE:** The sentence directly addresses the consequence of not legalizing marijuana, stating that it would ""force"" individuals back to ""drug dealers"" and cause the ""black market"" to thrive. 
+
+
+Let me know if you have any other sentences you'd like me to analyze!",gemma2:27b,2024-09-12T11:46:03.660161234Z,stop,2230318744,62434053,626,56833000,75,1981019000,"“ You ’re forcing the individuals to go back to the drug dealers , and the black market will flourish even more . ”",['ILLEGAL_TRADE'],1,['ILLEGAL_TRADE']
+"Here's a breakdown of the aspects present in the given text:
+
+* **CHILD AND TEEN SAFETY:**  The phrase ""in our schools"" directly points to concerns about marijuana accessibility and potential harm to children and teenagers.
+
+* **COMMUNITY/SOCIETAL EFFECTS:** The statement ""cause harm...in our workplaces and communities"" broadly addresses potential negative societal consequences of the initiative.
+
+
+Let me know if you have any other text snippets you'd like me to analyze! 
+",gemma2:27b,2024-09-12T11:46:06.519453493Z,stop,2807608908,55223691,628,55543000,100,2652525000,"It is a poorly constructed initiative that will cause harm to Californians on our roadways , and in our schools , workplaces and communities . ”","['COMMUNITY/SOCIETAL_EFFECTS', 'DRUG_ABUSE', 'HARM']",2,"['COMMUNITY/SOCIETAL_EFFECTS', 'CHILD_AND_TEEN_SAFETY']"
+"Here's the breakdown of aspect annotations for the sentence:
+
+**CHILD AND TEEN SAFETY:**  The sentence implies concern about the impact of marijuana use on the environment and potential exposure for children. 
+
+**COMMUNITY/SOCIETAL EFFECTS:** The question focuses on the broader effects of marijuana use within a community setting, touching upon social perceptions and potential changes in the neighborhood atmosphere.
+
+
+Let me know if you have more sentences to analyze! 
+",gemma2:27b,2024-09-12T11:46:09.240412234Z,stop,2628500336,55697433,617,49665000,92,2435518000,Would you want to live in a neighborhood filled with people who regularly smoke marijuana ?,['COMMUNITY/SOCIETAL_EFFECTS'],2,"['COMMUNITY/SOCIETAL_EFFECTS', 'CHILD_AND_TEEN_SAFETY']"
+"Based on the provided codebook, the appropriate aspect label for the sentence ""First, marijuana is far more likely to cause addiction"" is:
+
+* **ADDICTION** 
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T11:46:10.907670232Z,stop,1615842713,55486377,612,49154000,56,1467054000,"First , marijuana is far more likely to cause addiction .",['ADDICTION'],1,['ADDICTION']
+"HEALTH/PSYCHOLOGICAL EFFECTS 
+
+**Explanation:**
+
+The sentence focuses on the negative health consequences of marijuana consumption, specifically mentioning impacts on the immune system, memory, heart health, and respiratory and brain function.  
+",gemma2:27b,2024-09-12T11:46:12.383482176Z,stop,1383391159,55588870,630,62337000,45,1178860000,"Consumption of marijuana impairs the immune system and short-term memory , elevates the risk of heart attack , and causes respiratory and brain damage .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"Here's the breakdown of aspect labels for the sentence ""Increased marijuana use will mean millions more damaged young people."":
+
+* **CHILD AND TEEN SAFETY:** The sentence directly addresses the potential harm of increased marijuana use on young people. 
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T11:46:14.404437359Z,stop,2011576895,56384671,612,45674000,69,1815098000,Increased marijuana use will mean millions more damaged young people .,['CHILD_AND_TEEN_SAFETY'],1,['CHILD_AND_TEEN_SAFETY']
+"Based on the provided codebook, the appropriate aspect(s) for the sentence ""Popular culture reinforces this view portraying use generally as a risk-free endeavor"" are:
+
+* **HEALTH/PSYCHOLOGICAL EFFECTS**: The sentence discusses the portrayal of marijuana use as ""risk-free,"" which directly relates to perceptions of its effects on health and psychology. 
+
+
+Let me know if you'd like me to analyze more sentences! 
+",gemma2:27b,2024-09-12T11:46:17.009220221Z,stop,2513305993,56184107,616,50638000,89,2356364000,Popular culture reinforces this view portraying use generally as a risk-free endeavor .,['HARM'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"Here's the breakdown of the aspect coding for the sentence:
+
+* **HEALTH/PSYCHOLOGICAL EFFECTS:** The sentence explicitly states that marijuana use ""significantly impairs bodily and mental functions."" 
+* **ADDICTION:** The sentence also mentions that ""scientific research is clear that marijuana is addictive"".
+
+
+Let me know if you'd like me to analyze any other sentences! 
+",gemma2:27b,2024-09-12T11:46:19.395766148Z,stop,2334520809,56424391,621,55716000,79,2084768000,Scientific research is clear that marijuana is addictive and that its use significantly impairs bodily and mental functions .,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION']",2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION']"
+"Here's the breakdown of aspect annotations for the sentence:
+
+**HEALTH/PSYCHOLOGICAL EFFECTS:**  The sentence directly addresses the perceived impact of marijuana use on cognitive abilities (""come off as stupid""). 
+
+
+Let me know if you have more sentences to code! 
+",gemma2:27b,2024-09-12T11:46:21.073172509Z,stop,1625319499,55813235,618,51296000,56,1474503000,"So , there 's a good reason most habitual marijuana users come off as stupid .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"Based on the provided codebook, the appropriate aspect(s) for the sentence ""Time to End the Drug War"" are: 
+
+* **DRUG POLICY:** This phrase directly calls for a change in government policy regarding drugs.  
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T11:46:23.12556047Z,stop,1953879653,54070122,608,46802000,67,1763531000,Time to End the Drug War .,['DRUG_POLICY'],1,['DRUG_POLICY']
+"Here's the breakdown of aspect coding for the given sentence:
+
+* **GATEWAY DRUG:**  The sentence explicitly states ""marijuana is a 'gateway drug' that leads to more dangerous habits"". This is a core concept within the Gateway Drug aspect. 
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T11:46:25.28937729Z,stop,2155060407,53583649,629,59640000,74,1953932000,"Opponents have cited the state ’s opioid addiction crisis , warning that marijuana is a “ gateway drug ” that leads to more dangerous habits .",['GATEWAY_DRUG'],1,['GATEWAY_DRUG']
+"Here's the breakdown of aspect labels for the given text:
+
+* **[CHILD AND TEEN SAFETY]:** While not explicitly stated, the connection between marijuana use and ""lower life satisfaction"" could imply concerns about long-term societal impacts, including potential effects on youth.
+* **[COMMUNITY/SOCIETAL EFFECTS]:** This is a strong fit. The text highlights links between marijuana use and negative socioeconomic outcomes like unemployment, lower incomes, welfare dependence – all issues impacting the broader community. 
+
+
+Let me know if you'd like me to analyze more sentences!",gemma2:27b,2024-09-12T11:46:28.644712334Z,stop,3304720859,67026851,630,60778000,118,3132614000,"It is reaffirmed by several studies that have linked marijuana use to criminal behavior , unemployment , lower incomes , greater welfare dependence , and lower life satisfaction .",['COMMUNITY/SOCIETAL_EFFECTS'],2,"['COMMUNITY/SOCIETAL_EFFECTS', 'CHILD_AND_TEEN_SAFETY']"
+"Here's the breakdown of aspect codes for the sentence:
+
+* **ILLEGAL TRADE:**  The phrase ""drug busts"" directly relates to the illegal trade of marijuana.
+
+* **CHILD AND TEEN SAFETY:** The mention of young people being trapped suggests a concern about the impact of drug enforcement on youth. 
+
+
+Let me know if you'd like me to analyze more sentences! 
+",gemma2:27b,2024-09-12T11:46:31.103101431Z,stop,2366729193,55212200,618,51336000,82,2173530000,Drug busts often trap young people in a flawed system that turns them into lifelong criminals .,['COMMUNITY/SOCIETAL_EFFECTS'],2,"['CHILD_AND_TEEN_SAFETY', 'ILLEGAL_TRADE']"
+"**CHILD AND TEEN SAFETY** 
+
+This sentence focuses on the potential risk of marijuana exposure to individuals in public spaces, implying a concern for the safety of children and teenagers who might be present. 
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T11:46:32.945226585Z,stop,1832826839,59505701,613,50621000,62,1634824000,"Public places , such as bars , would expose innocent patrons .",['PERSONAL_FREEDOM'],1,['CHILD_AND_TEEN_SAFETY']
+"Here's the breakdown of aspect labels for the given text:
+
+* **NATIONAL BUDGET:** The sentence discusses reduced costs for drug control and increased public health expenditure, directly relating to the impact of legalization on national finances. 
+* **HEALTH/PSYCHOLOGICAL EFFECTS:**  The phrase ""surge of drug consumption"" implies a concern about potential negative health effects associated with increased marijuana use.
+* **CHILD AND TEEN SAFETY:** While not explicitly stated, the idea of a ""surge of drug consumption"" could indirectly suggest concerns about easier access for teenagers and children. 
+
+
+Let me know if you have any other text snippets you'd like me to analyze! 
+",gemma2:27b,2024-09-12T11:46:36.888740665Z,stop,3849035796,56129974,648,78943000,138,3671591000,The economic argument is also based on poor fiscal logic : any reduction in the cost of drug control ( due to lower law enforcement expenditure ) will be offset by much higher expenditure on public health ( due to the surge of drug consumption ) .,['NATIONAL_BUDGET'],3,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'CHILD_AND_TEEN_SAFETY', 'NATIONAL_BUDGET']"
+"**[HEALTH/PSYCHOLOGICAL EFFECTS]** 
+
+This sentence discusses the potency of modern marijuana compared to past decades, directly relating to its potential effects on the body and mind.  
+
+
+Let me know if you'd like me to code more examples! 
+",gemma2:27b,2024-09-12T11:46:38.538256968Z,stop,1598217222,53906607,653,80278000,54,1418687000,"Researchers at the University of Mississippi ’s Natural Center for Natural Products Research have found that marijuana available today may be up to five times stronger than the stuff available back in the 1970s , ’80s , and ’90s .",['HARM'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"Here's the coding for the provided text:
+
+* **CHILD AND TEEN SAFETY:** The sentence explicitly mentions ""concern about drug and alcohol use among young people"". 
+* **HEALTH/PSYCHOLOGICAL EFFECTS:**  The phrase ""serious impairment, including brain damage"" directly relates to the potential health effects of drug use. 
+
+
+Let me know if you have any other text you'd like me to code! 
+",gemma2:27b,2024-09-12T11:46:41.192533793Z,stop,2561247005,57159580,648,79020000,88,2338453000,"Furthermore , the Dutch Ministry of Health , Welfare and Sport has expressed “ concern about drug and alcohol use among young people and the social consequences , which range from poor school performance and truancy to serious impairment , including brain damage . ”","['HEALTH/PSYCHOLOGICAL_EFFECTS', 'COMMUNITY/SOCIETAL_EFFECTS', 'CHILD_AND_TEEN_SAFETY']",2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'CHILD_AND_TEEN_SAFETY']"
+"**DRUG POLICY** 
+
+
+Let's break down why:
+
+* **""Experiment in marijuana prohibition""**: This phrase directly references a government policy (prohibition) and implies an assessment of its effectiveness. 
+* **""Failed Spectacularly""**: This indicates a negative evaluation of the existing drug policy. 
+
+While other aspects might be tangentially related (e.g., potential arguments about societal effects stemming from the failed prohibition), the primary focus of the sentence is on critiquing the current drug policy. 
+",gemma2:27b,2024-09-12T11:46:44.271617011Z,stop,3027449107,58967216,614,50860000,108,2873323000,The United States ’ experiment in marijuana prohibition has failed spectacularly .,['DRUG_POLICY'],1,['DRUG_POLICY']
+"Based on the provided codebook, the appropriate label(s) for the sentence ""If the product were outlawed there the mob would gladly step in"" are:
+
+* **[ILLEGAL TRADE]**  The sentence directly discusses the potential consequences of outlawing a product (implied to be marijuana), leading to increased involvement of criminal organizations like the mob. 
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T11:46:47.040084669Z,stop,2676202668,59638063,614,48302000,94,2481556000,If the product were outlawed there the mob would gladly step in .,['ILLEGAL_TRADE'],1,['ILLEGAL_TRADE']
+"This sentence doesn't fit neatly into any of the provided categories.  
+
+Here's why:
+
+* **Health/Psychological Effects:** While it touches on medication, it doesn't specify marijuana use or its effects.
+* **Medical Marijuana:** It mentions giving up prescriptions but not switching to medical marijuana.
+
+
+It's possible this sentence is part of a larger text where the context would reveal a relevant aspect.  As it stands, there isn't enough information for coding. 
+",gemma2:27b,2024-09-12T11:46:49.988096916Z,stop,2939520242,60624139,620,52498000,103,2736513000,The 62-year-old says she has given up on most of her prescriptions .,['MEDICAL_MARIJUANA'],0,[]
+"Here's the breakdown of aspect labels for the given text:
+
+* **HEALTH/PSYCHOLOGICAL EFFECTS:** The sentence explicitly states marijuana is ""dangerous"". This aligns directly with discussions about the potential negative health impacts of cannabis. 
+* **DRUG POLICY:**  The mention of ""federal law"" and the ""considered judgment of...the nation's two political branches"" points towards a discussion on existing drug policies and their stance on marijuana. 
+
+
+Let me know if you have any other text samples you'd like me to code! 
+",gemma2:27b,2024-09-12T11:46:53.256340152Z,stop,3175511302,53824325,639,67778000,113,3010314000,"Accordingly , federal law , representing the considered judgment of medical science and the nation ’s two political branches of government , takes the unequivocal position that marijuana is dangerous and has no significant beneficial uses .",['HARM'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'DRUG_POLICY']"
+"Based on the provided text and codebook, the appropriate label(s) would be:
+
+* **[ILLEGAL TRADE]**  
+
+The sentence directly discusses the profits derived from illegal drug trade due to the illegality of these substances. 
+",gemma2:27b,2024-09-12T11:46:54.891950907Z,stop,1586044118,54320569,628,58283000,51,1339382000,The huge profits to be made from cocaine and other South American-grown drugs are largely because they are illegal in the wealthy neighbouring nation .,['ILLEGAL_TRADE'],1,['ILLEGAL_TRADE']
+"Here's the coding for the given sentence:
+
+* **CHILD AND TEEN SAFETY:** The sentence explicitly states that Alaska's legalization experiment led to teenagers using marijuana at a higher rate.  
+
+
+Let me know if you have any more sentences to code! 
+",gemma2:27b,2024-09-12T11:46:56.589413926Z,stop,1641516630,58491876,635,64029000,56,1473925000,Alaska 's experiment with legalization in the 1970s led to the state 's teens using marijuana at more than twice the rate of other youths nationally .,['CHILD_AND_TEEN_SAFETY'],1,['CHILD_AND_TEEN_SAFETY']
+"Here's the breakdown of the aspects present in the sentence:
+
+* **ILLEGAL TRADE:** ""As cheap marijuana floods the market"" suggests an influx of unregulated product, pointing towards illegal trade.
+* **CHILD AND TEEN SAFETY:**  The phrase ""use... will increase"" implies a potential for greater accessibility and therefore risk to youth.
+* **COMMUNITY/SOCIETAL EFFECTS:** The sentence directly addresses increased drug use as a consequence of market saturation, falling under societal effects. 
+
+
+Let me know if you'd like me to analyze more sentences!",gemma2:27b,2024-09-12T11:46:59.886010215Z,stop,3246284904,58888526,629,62170000,116,3080436000,"As cheap marijuana floods the market both in and outside of California , use of many different types of drugs will increase , as will marijuana use .",['COMMUNITY/SOCIETAL_EFFECTS'],3,"['COMMUNITY/SOCIETAL_EFFECTS', 'CHILD_AND_TEEN_SAFETY', 'ILLEGAL_TRADE']"
+"Based on the provided codebook, the appropriate aspect(s) for the sentence ""At a minimum, they will be off the streets, unable to wreak more havoc"" are:
+
+* **ILLEGAL TRADE:**  The sentence implies that removing individuals from the streets hinders their ability to participate in illegal activities, strongly suggesting a connection to the illegal drug trade. 
+
+
+Let me know if you'd like to analyze more sentences!",gemma2:27b,2024-09-12T11:47:02.522937698Z,stop,2542300911,57872998,619,50686000,89,2345983000,"At a minimum , they will be off the streets , unable to wreak more havoc .",['ILLEGAL_TRADE'],1,['ILLEGAL_TRADE']
+"Based on the provided codebook, the appropriate labels for the sentence ""Step-by-step, more drugs will gain acceptance, with advocacy of the legalization of harder drugs"" are:
+
+* **DRUG POLICY:** The sentence discusses the potential shift in drug policy towards accepting and legalizing harder drugs.
+* **GATEWAY DRUG:**  The phrasing implies a progression from marijuana to harder drugs, aligning with the ""gateway drug"" argument. 
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T11:47:05.672038869Z,stop,3140962846,59795358,622,52692000,111,2939841000,"Step-by-step , more drugs will gain acceptance , with advocacy of the legalization of harder drugs .","['GATEWAY_DRUG', 'GATEWAY_DRUG']",2,"['GATEWAY_DRUG', 'DRUG_POLICY']"
+"Here's the breakdown of aspect labels for the provided sentence:
+
+* **ILLEGAL TRADE:** The sentence draws a clear parallel between marijuana prohibition and alcohol prohibition, highlighting the potential for illegal trade and organized crime to flourish.  The mention of ""gang warfare"" and ""well-known criminals"" directly relates to this aspect. 
+
+
+Let me know if you have any other sentences you'd like coded! 
+",gemma2:27b,2024-09-12T11:47:08.20198411Z,stop,2437939267,54780231,639,65722000,86,2273978000,"When alcohol use was outlawed during prohibition , it gave rise to gang warfare and spurred the formation of some of the most well known criminals of the era , among them the infamous Al Capone .",['LEGAL_DRUGS'],1,['ILLEGAL_TRADE']
+"Here's the breakdown of aspect labels for the given text:
+
+* **DRUG ABUSE:** The sentence explicitly mentions ""driving high,"" connecting marijuana use with impaired driving, a clear example of drug abuse. 
+* **HEALTH/PSYCHOLOGICAL EFFECTS:**  The phrase ""equally dangerous"" implies a comparison between drunk driving and driving high, highlighting the potential negative psychological and physical effects of marijuana use on driving ability.
+
+
+Let me know if you have any other text snippets you'd like coded! 
+",gemma2:27b,2024-09-12T11:47:11.329358945Z,stop,3076023882,57448149,645,76482000,106,2810630000,"While drunk driving is a major problem in society , despite all the stiff penalties and education , equally dangerous is “ driving high ” , but this is more difficult to detect , unless the user has been smoking in the car .",['DRUG_ABUSE'],2,"['DRUG_ABUSE', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"Here's a breakdown of the aspect coding for the given sentence:
+
+* **COMMUNITY/SOCIETAL EFFECTS:**  The sentence explicitly states that marijuana legalization will increase crime, drug use, and social dislocation. These are all societal-level consequences. 
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T11:47:13.472045831Z,stop,2091785654,54186666,633,63344000,73,1929234000,"Thus , marijuana legalization will increase crime , drug use , and social dislocation across the state of California — the exact opposite of what pro-legalization advocates promise .",['COMMUNITY/SOCIETAL_EFFECTS'],1,['COMMUNITY/SOCIETAL_EFFECTS']
+"The applicable aspects for the sentence are:
+
+* **MEDICAL MARIJUANA:** The sentence mentions ""nonprofit medical-marijuana dispensary companies"", clearly indicating the topic of medical marijuana use. 
+* **DRUG POLICY:**  The phrase ""presumably, they would not be in a rush to create a whole bunch of new competition for themselves"" suggests a discussion about regulations and market structure within the context of drug policy. 
+
+
+Let me know if you'd like me to analyze more sentences!",gemma2:27b,2024-09-12T11:47:16.433473857Z,stop,2909390957,59409999,640,67246000,103,2738885000,"Three of the commission members would be representatives of current , nonprofit medical-marijuana dispensary companies ; presumably , they would not be in a rush to create a whole bunch of new competition for themselves .",['MEDICAL_MARIJUANA'],2,"['MEDICAL_MARIJUANA', 'DRUG_POLICY']"
+"The applicable aspect(s) for the sentence ""Smoking marijuana may also help slow the progression of glaucoma"" are:
+
+* **MEDICAL MARIJUANA:** The sentence discusses the potential medical benefit of marijuana in treating glaucoma.  
+
+
+Let me know if you have more sentences to code! 
+",gemma2:27b,2024-09-12T11:47:18.32305435Z,stop,1795021404,56120255,612,47980000,61,1603848000,Smoking marijuana may also help slow the progression of glaucoma .,['MEDICAL_MARIJUANA'],1,['MEDICAL_MARIJUANA']
+"Here's the breakdown of the aspect coding for the sentence ""Increased drug use leads to negative health effects"":
+
+* **HEALTH/PSYCHOLOGICAL EFFECTS:** This is the most direct fit as the sentence explicitly mentions ""negative health effects."" 
+* **DRUG ABUSE:**  The phrase ""increased drug use""  strongly suggests a discussion about potential problems related to drug abuse. 
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T11:47:21.148314486Z,stop,2816292568,57399928,610,45906000,99,2623465000,Increased drug use leads to negative health effects .,['HEALTH/PSYCHOLOGICAL_EFFECTS'],2,"['DRUG_ABUSE', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"**PERSONAL FREEDOM** 
+
+**LEGAL DRUGS** 
+
+
+This sentence argues against government intervention in personal choices, comparing marijuana restrictions to limitations on legal substances like coffee and cheesecake. This aligns with both the ""PERSONAL FREEDOM"" aspect (individual autonomy over consumption) and the ""LEGAL DRUGS"" aspect (comparing marijuana's legal status to that of other substances). 
+",gemma2:27b,2024-09-12T11:47:23.404715273Z,stop,2164694029,58355662,621,53204000,76,2009524000,Would you want the government limiting how much coffee you can drink or how much cheesecake you take in ?,['PERSONAL_FREEDOM'],2,"['PERSONAL_FREEDOM', 'LEGAL_DRUGS']"
+"Based on the provided codebook, the appropriate label for the sentence:
+
+""In fact, one study has shown that blood vessels in the brain of a marijuana smoker experience restricted flow, which can continue even after a month of abstinence.""
+
+is **[HEALTH/PSYCHOLOGICAL EFFECTS]**. 
+
+
+The sentence directly discusses the physical effects of marijuana use on the brain (restricted blood flow), aligning with this aspect category. 
+",gemma2:27b,2024-09-12T11:47:25.923500272Z,stop,2467538337,55743703,632,62766000,87,2301047000,"In fact , one study has shown that blood vessels in the brain of a marijuana smoker experience restricted flow , which can continue even after a month of abstinence .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"The applicable aspects for the sentence ""She claims where prescriptions failed her but marijuana has n’t"" are:
+
+* **MEDICAL MARIJUANA:** The sentence explicitly mentions marijuana as a successful treatment alternative to prescriptions. 
+* **HEALTH/PSYCHOLOGICAL EFFECTS:**  Implied in the statement is a positive health effect of marijuana, suggesting it alleviates whatever condition prescriptions failed to treat. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T11:47:28.868632624Z,stop,2851510487,59109851,614,50729000,100,2654611000,She claims where prescriptions failed her but marijuana has n’t .,['MEDICAL_MARIJUANA'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'MEDICAL_MARIJUANA']"
+"Here's the coding for the given text excerpt:
+
+* **[ILLEGAL TRADE]** - The phrase ""criminalization has not affected general usage"" implies a link to the ongoing illegal trade of marijuana despite prohibition efforts. 
+
+
+Let me know if you have more text excerpts you'd like coded! 
+",gemma2:27b,2024-09-12T11:47:30.79991504Z,stop,1923399207,58575007,631,61084000,65,1715098000,"“ After three decades , criminalization has not affected general usage ; about 30 million Americans use marijuana every year , ” the Times points out .",['COMMUNITY/SOCIETAL_EFFECTS'],1,['ILLEGAL_TRADE']
+"Based on the provided codebook, the appropriate label for this text is:
+
+**[NATIONAL BUDGET]** 
+
+The sentence discusses the economic impact of marijuana prohibition, specifically mentioning the cost of imprisoning individuals for prohibition violations. This aligns with the definition of [NATIONAL BUDGET] which includes mentions of costs and tax revenue related to legalization.
+
+
+",gemma2:27b,2024-09-12T11:47:32.884336407Z,stop,1991654832,55542221,638,66766000,69,1819345000,"This $ 30 billion figure rises dramatically once other issues , such as the economic impact of holding 400,000 prisoners on prohibition violations , are factored in .",['NATIONAL_BUDGET'],1,['NATIONAL_BUDGET']
+"Based on the provided codebook, the following aspects apply to the sentence ""Prohibition has robbed children of their futures, while building a huge prison-industrial complex."":
+
+* **CHILD AND TEEN SAFETY:** The phrase ""robbed children of their futures"" directly relates to the potential negative impact of prohibition on young people. 
+* **COMMUNITY/SOCIETAL EFFECTS:**  The mention of a ""huge prison-industrial complex"" speaks to broader societal consequences of prohibition, suggesting increased incarceration and its associated effects.
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T11:47:36.49292047Z,stop,3558994844,53876868,619,51754000,125,3322864000,"Prohibition has robbed children of their futures , while building a huge prison-industrial complex .",['COMMUNITY/SOCIETAL_EFFECTS'],2,"['COMMUNITY/SOCIETAL_EFFECTS', 'CHILD_AND_TEEN_SAFETY']"
+"The applicable aspect(s) for this sentence are:
+
+* **CHILD AND TEEN SAFETY:** The sentence depicts a scenario where marijuana edibles are enticing a child, raising concerns about accessibility and potential harm to young people. 
+
+
+Let me know if you'd like me to analyze more sentences!",gemma2:27b,2024-09-12T11:47:38.311795517Z,stop,1767895434,55508690,634,60479000,61,1607856000,"In a display window , scrumptious-looking , pink pot candies entice a little girl on her way to the toy store next door , mortifying her mother .",['CHILD_AND_TEEN_SAFETY'],1,['CHILD_AND_TEEN_SAFETY']
+"MEDICAL MARIJUANA 
+
+
+Let me know if you have any other text you'd like me to analyze! 
+",gemma2:27b,2024-09-12T11:47:39.213861768Z,stop,853968490,54498794,628,57079000,27,697392000,"Now , countries all over the world have licensed the drug for medical purposes , and a few are going still further ( see article ) .",['MEDICAL_MARIJUANA'],1,['MEDICAL_MARIJUANA']
+"Here's the breakdown of aspect labels for the sentence:
+
+* **COMMUNITY/SOCIETAL EFFECTS:** The phrase ""anything goes"" mentality points to concerns about broader societal shifts and potential negative consequences of legalization.  
+
+
+Let me know if you have any other sentences you'd like coded! 
+",gemma2:27b,2024-09-12T11:47:41.17188603Z,stop,1863112682,63698168,620,51978000,63,1660603000,"Legalization of marijuana would further shift the culture to more of a "" anything goes "" mentality .",['COMMUNITY/SOCIETAL_EFFECTS'],1,['COMMUNITY/SOCIETAL_EFFECTS']
+"Here are the applicable aspects for the given text:
+
+* **CHILD AND TEEN SAFETY:** The sentence explicitly argues that legalization would lead to increased marijuana use among children. 
+* **HEALTH/PSYCHOLOGICAL EFFECTS:**  The sentence implies a belief that marijuana is dangerous, particularly for young people.
+
+
+Let me know if you have any other sentences you'd like coded! 
+",gemma2:27b,2024-09-12T11:47:43.480092295Z,stop,2256176433,53919689,636,64549000,79,2091996000,"It should be intuitively obvious to everyone that if you legalize marijuana for adults , more children will use marijuana because the message that it 's dangerous will be blunted . """,['CHILD_AND_TEEN_SAFETY'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'CHILD_AND_TEEN_SAFETY']"
+"Here's the breakdown of aspect coding for the sentence:
+
+**[ILLEGAL TRADE]** - The phrase ""entrepreneurs will inevitably attempt to enter the marketplace and game the system"" strongly suggests concerns about potential illegal activity and manipulation within a legalized marijuana market.  
+
+
+Let me know if you have any other sentences you'd like coded! 
+",gemma2:27b,2024-09-12T11:47:45.669846543Z,stop,2098006699,53879669,623,56500000,72,1898094000,"Furthermore , should California legalize marijuana , other entrepreneurs will inevitably attempt to enter the marketplace and game the system .",['ILLEGAL_TRADE'],1,['ILLEGAL_TRADE']
+"Here's a breakdown of the aspects present in the provided text and why:
+
+* **[DRUG POLICY]:** The sentence discusses the stance of gambling regulators on businesses entering the ""recreational pot industry."" This directly relates to government policy and regulations surrounding cannabis.
+* **[ILLEGAL TRADE]:** While not explicitly stated, the mention of  ""strict... casino licenses"" and ""wary of those businesses getting involved"" implies a concern about potential connections between legal casinos and illegal marijuana trade. 
+
+
+Let me know if you have any other text snippets you'd like me to analyze! 
+",gemma2:27b,2024-09-12T11:47:49.245370376Z,stop,3567372897,54426152,639,67504000,126,3357972000,"The casino industry lobby , which registered its opposition on Friday , noted that state gambling regulators who are strict about offering up casino licenses are wary of those businesses getting involved in the recreational pot industry .",['DRUG_POLICY'],2,"['ILLEGAL_TRADE', 'DRUG_POLICY']"
+"Here's the breakdown of aspects for the given sentence:
+
+* **DRUG POLICY:** The sentence discusses ""loosening marijuana laws"" and ""repealing prohibition,"" which are directly related to government policies on marijuana. 
+* **HARM:**  The phrase ""help many of these people"" implies a reduction in harm caused by current marijuana laws. While the specific harms aren't stated, the context suggests this aspect is relevant.
+* **PERSONAL FREEDOM:** The sentence subtly touches upon personal freedom with the idea that repealing prohibition would ""help all of them,"" suggesting individuals should have the right to choose regarding marijuana use. 
+
+
+Let me know if you'd like me to analyze any other sentences!",gemma2:27b,2024-09-12T11:47:53.355044638Z,stop,4058436431,65147185,623,56182000,146,3891497000,"Loosening marijuana laws would help many of these people , and repealing prohibition would help all of them .",['DRUG_POLICY'],3,"['PERSONAL_FREEDOM', 'HARM', 'DRUG_POLICY']"
+"**NATIONAL BUDGET** 
+
+
+The sentence discusses the potential for increased tax revenue from marijuana legalization, which aligns with the NATIONAL BUDGET aspect. 
+",gemma2:27b,2024-09-12T11:47:54.420686038Z,stop,972676141,56405745,621,52912000,30,776704000,"This argument is gaining favour , as national administrations seek new sources of revenue during the current economic crisis .",['NATIONAL_BUDGET'],1,['NATIONAL_BUDGET']
+"**[LEGAL DRUGS]**  
+
+This sentence argues that alcohol and tobacco are more harmful than marijuana, comparing their death tolls. 
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T11:47:55.904367661Z,stop,1475109867,65405691,631,60439000,48,1260158000,Alchohol kills 30k-40k Americans each year and cigars/cigarettes kill 480k americans each year .,['LEGAL_DRUGS'],1,['LEGAL_DRUGS']
+"**HEALTH/PSYCHOLOGICAL EFFECTS** 
+
+
+Let me know if you'd like me to code any other examples! I'm ready when you are. 
+",gemma2:27b,2024-09-12T11:47:57.062160471Z,stop,1066490972,55880580,624,57087000,35,910834000,"Some of the most common ones include dry mouth , red eyes , psychosis , fatigue , dizziness and increased heart rate .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"The applicable aspects for the sentence ""So that argument to me that you 're going to keep it out of the hands of kids is completely illogical"" are:
+
+* **CHILD AND TEEN SAFETY**  (The sentence directly addresses concerns about keeping marijuana away from children.) 
+
+
+Let me know if you'd like me to code more sentences!",gemma2:27b,2024-09-12T11:47:59.250207613Z,stop,2136947254,55621953,624,56964000,72,1894983000,So that argument to me that you 're going to keep it out of the hands of kids is completely illogical .,['CHILD_AND_TEEN_SAFETY'],1,['CHILD_AND_TEEN_SAFETY']
+"Here's the coding for the given sentence:
+
+* **ADDICTION:**  The sentence explicitly states that marijuana is ""extremely addictive"" for some people. 
+* **HEALTH/PSYCHOLOGICAL EFFECTS:** The mention of Dr. Drew Pinsky, who specializes in addiction, ties into the broader discussion of marijuana's potential psychological effects.
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T11:48:01.858085387Z,stop,2558048879,54858243,642,68464000,90,2390075000,"1 ) It 's extremely addictive for some people : If you do n't want to take my word for it , listen to Dr. Drew Pinsky who has been working with addicts for decades .",['ADDICTION'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION']"
+"[ILLEGAL TRADE] 
+
+
+Let me explain my reasoning:
+
+* **""Culprits""**  strongly suggests criminal activity.
+* **""Other states or countries""** implies a network beyond local jurisdictions, common in illegal trade.
+* **""Cartels""** are explicitly mentioned, directly linking the sentence to organized crime often involved in the illegal drug trade. 
+",gemma2:27b,2024-09-12T11:48:04.235936922Z,stop,2283829206,53507289,617,51689000,79,2089035000,The culprits are often from other states or countries and sometimes affiliated with cartels .,['ILLEGAL_TRADE'],1,['ILLEGAL_TRADE']
+"GATEWAY DRUG 
+
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-12T11:48:05.060965174Z,stop,816748641,54642597,628,57526000,24,615606000,"In the sense that marijuana use typically precedes rather than follows initiation of other illicit drug use , it is indeed a “ gateway ” drug .",['GATEWAY_DRUG'],1,['GATEWAY_DRUG']
+"Here's the breakdown of aspect labels for the given text:
+
+* **HEALTH/PSYCHOLOGICAL EFFECTS:** The sentence refers to ""humorous stories"" about marijuana users and their memory, directly addressing a perceived psychological effect.
+* **DRUG ABUSE:** The mention of ""treatment centers for addiction"" implies a connection to potential drug abuse patterns associated with marijuana use. 
+
+
+Let me know if you'd like to analyze another sentence!",gemma2:27b,2024-09-12T11:48:07.722711409Z,stop,2569858522,54571126,633,63948000,91,2408586000,"The humorous stories about pot users having a horrible memory are not an urban legend that is simply put forward by everyone , from Hollywood films to treatment centers for addiction .","['HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION']",2,"['DRUG_ABUSE', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"Here are the applicable aspects for the sentence ""This is especially true of addictive, mind-altering drugs like marijuana."":
+
+* **HEALTH/PSYCHOLOGICAL EFFECTS:** The sentence mentions marijuana as a ""mind-altering drug,"" directly referring to its effects on the brain and mental state. 
+* **ADDICTION:** The phrase ""addictive drugs"" explicitly highlights the potential for addiction associated with marijuana. 
+
+
+Let me know if you have any other sentences you'd like me to analyze!",gemma2:27b,2024-09-12T11:48:10.736912348Z,stop,2963552282,54668949,616,49691000,103,2728932000,"This is especially true of addictive , mind-altering drugs like marijuana .","['HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION']",2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION']"
+"**MEDICAL MARIJUANA**, **HARM** 
+
+
+Let's break down why:
+
+* **MEDICAL MARIJUANA:** The sentence explicitly mentions ""the plant's demonstrated medicinal effects,"" directly pointing to cannabis's use in medicine.
+* **HARM:**  The phrase ""narrative of cannabis as a harmful drug"" highlights the perception of cannabis as dangerous, contrasting it with its proven medical benefits. This implies a discussion about the harm associated with cannabis. 
+",gemma2:27b,2024-09-12T11:48:13.603257363Z,stop,2815413012,53967871,630,62913000,100,2652932000,"The narrative of cannabis as a harmful drug has been dominant for so long , that many people had trouble accepting the plant ’s demonstrated medicinal effects .","['HARM', 'MEDICAL_MARIJUANA']",2,"['MEDICAL_MARIJUANA', 'HARM']"
+"Here are the applicable aspects for the given text:
+
+* **HEALTH/PSYCHOLOGICAL EFFECTS:** The text mentions ""medical studies showing the dangers of weed"", directly referencing potential negative health impacts. 
+* **LEGAL DRUGS:** The phrase ""Marijuana is n't bad compared to many other ' LEGAL ' drugs""  introduces a comparison between marijuana and legal substances, highlighting a common argument in the legalization debate.
+
+
+Let me know if you have any other text snippets you'd like coded!",gemma2:27b,2024-09-12T11:48:16.679339236Z,stop,2983188984,56272669,686,102874000,103,2738344000,"Check out this article which lists just some of the medical studies showing the dangers of weed : https://www.tremr.com/marty-nemko/should-marijuana-be-kept-illegal crypt0 says2016-04-03T14 :47:54.157 Report Post Marijuana is n't bad compared to many other "" LEGAL "" drugs .",['HARM'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'LEGAL_DRUGS']"
+"Based on the provided codebook, the appropriate labels for the given text are:
+
+* **ILLEGAL TRADE:** The sentence directly addresses the elimination of the black market for marijuana and mentions ""substantial profits"" which are characteristic of illegal trade. 
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T11:48:18.762900764Z,stop,2026832516,53970501,650,79652000,70,1847710000,"The only way California could effectively eliminate the black market for marijuana , according to Dr. Pacula , “ is to take away the substantial profits in the market and allow the price of marijuana to fall to an amount close to the cost of production .",['ILLEGAL_TRADE'],1,['ILLEGAL_TRADE']
+"Here's the breakdown of aspect labels for the given sentence:
+
+* **MEDICAL MARIJUANA:** The sentence directly mentions ""opponents of medical marijuana"" setting up a discussion about its potential uses. 
+* **HEALTH/PSYCHOLOGICAL EFFECTS:**  The phrase ""too dangerous to use"" refers to potential negative health impacts associated with marijuana consumption.
+* **LEGAL DRUGS:** The comparison to ""various legal drugs"" implies an argument about marijuana's place within the existing landscape of legal substances. 
+
+
+Let me know if you have any other sentences you'd like me to analyze!",gemma2:27b,2024-09-12T11:48:22.332919859Z,stop,3476600121,55982142,630,61866000,123,3271806000,"Opponents of medical marijuana argue that it is too dangerous to use , lacks FDA-approval , and that various legal drugs make marijuana use unnecessary .",['MEDICAL_MARIJUANA'],3,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'MEDICAL_MARIJUANA', 'LEGAL_DRUGS']"
+"Based on the provided codebook, the following aspects apply to the given sentence:
+
+* **CHILD AND TEEN SAFETY:** The sentence explicitly states that legalization is ""putting our children at risk"". 
+* **COMMUNITY/SOCIETAL EFFECTS:**  The phrase ""exposed children from communities of color to more racial discrimination"" points to a negative societal impact related to legalization. 
+
+
+Let me know if you have any other sentences you'd like coded!",gemma2:27b,2024-09-12T11:48:25.017418325Z,stop,2632202576,55611062,642,66850000,93,2466991000,"“ It is putting our children at risk and has exposed children from communities of color to more racial discrimination than before , ” said Kennedy , who represented part of Rhode Island in Congress , about the legalization movement .",['CHILD_AND_TEEN_SAFETY'],2,"['COMMUNITY/SOCIETAL_EFFECTS', 'CHILD_AND_TEEN_SAFETY']"
+"Here's the breakdown of the aspect coding for the sentence:
+
+**CHILD AND TEEN SAFETY** - The sentence explicitly focuses on the negative impacts of marijuana consumption on teenagers. 
+
+
+Let me know if you have any other sentences you'd like coded! 
+",gemma2:27b,2024-09-12T11:48:26.696374539Z,stop,1628502463,53766935,623,56744000,56,1471241000,"The more weed that teens consume at a younger age , the more problems they tend to have later in life .",['CHILD_AND_TEEN_SAFETY'],1,['CHILD_AND_TEEN_SAFETY']
+"Based on the provided codebook, the most appropriate label for the sentence ""Prohibition has enormous social costs"" is: 
+
+**[COMMUNITY/SOCIETAL EFFECTS]** 
+
+
+This label fits because the sentence speaks about the negative broader impact (""social costs"") of prohibition.  
+",gemma2:27b,2024-09-12T11:48:28.527301244Z,stop,1738817266,53222543,608,47358000,59,1548747000,Prohibition has enormous social costs .,['COMMUNITY/SOCIETAL_EFFECTS'],1,['COMMUNITY/SOCIETAL_EFFECTS']
+"Here's the coding for the provided text:
+
+**HEALTH/PSYCHOLOGICAL EFFECTS** 
+
+The sentence focuses on the negative impacts of marijuana use on cognitive functions like attention, memory, and learning.  
+
+
+Let me know if you have any other text you'd like coded! 
+",gemma2:27b,2024-09-12T11:48:30.364134941Z,stop,1827702125,53637802,645,75928000,61,1608560000,"A study of 129 college students found that , among those who smoked the drug at least twenty-seven of the thirty days before being surveyed , critical skills related to attention , memory and learning were seriously diminished .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"Here's the breakdown of the aspect labels for the provided text:
+
+* **ILLEGAL TRADE:** The sentence directly contrasts the legal marijuana industry with ""organised criminals,"" highlighting the issue of illegal trade and its displacement by a legal market. 
+
+Let me know if you have any other sentences you'd like coded! 
+",gemma2:27b,2024-09-12T11:48:32.432082958Z,stop,1976178355,55344155,654,80062000,68,1797842000,"Legalisers , meanwhile , should open their eyes to the fact that the legal marijuana industry , which until now has only had to prove itself more worthy than organised criminals , now needs as much scrutiny as the other “ sin ” industries that defend their turf jealously .","['ILLEGAL_TRADE', 'ILLEGAL_TRADE']",1,['ILLEGAL_TRADE']
+"Here's the coding for the provided sentence:
+
+* **MEDICAL MARIJUANA:** The sentence directly addresses claims about the ""medical"" benefits of marijuana. 
+* **HARM:**  The phrase ""misrepresented...negligible harm"" highlights a disagreement about the potential negative impacts of marijuana use. 
+
+
+Let me know if you have any other sentences you'd like coded! 
+",gemma2:27b,2024-09-12T11:48:34.932530752Z,stop,2451709647,56083275,641,67904000,83,2198368000,Our position is that California Proposition 215 was misrepresented under the misguided claim that there is substantial “ medical ” benefit from ingesting marijuana and that the harm and negative impacts would be negligible .,"['HARM', 'MEDICAL_MARIJUANA']",2,"['MEDICAL_MARIJUANA', 'HARM']"
+"Based on the provided codebook, the appropriate labels for the sentence are:
+
+* **DRUG POLICY:** The sentence discusses the relationship between drug laws (""harshness of drug laws"") and drug use (""incidence of drug-taking""). This directly relates to assessments of specific policies. 
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T11:48:37.248067852Z,stop,2262969183,55898210,639,66584000,79,2093662000,"There is no correlation between the harshness of drug laws and the incidence of drug-taking : citizens living under tough regimes ( notably America but also Britain ) take more drugs , not fewer .",['COMMUNITY/SOCIETAL_EFFECTS'],1,['DRUG_POLICY']
+"The applicable aspects for the sentence are:
+
+* **ILLEGAL TRADE:** The sentence highlights the potential continuation of the illegal marijuana market (""tremendous profit motive... to stay in the market"") due to legalization. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T11:48:39.182319167Z,stop,1842295627,57462179,629,63550000,62,1632500000,"Under the state scheme , she testified , there would be “ tremendous profit motive for the existing black market providers to stay in the market . ”",['ILLEGAL_TRADE'],1,['ILLEGAL_TRADE']
+"Here's the coding for the given sentence:
+
+**HEALTH/PSYCHOLOGICAL EFFECTS**  
+
+The sentence explicitly lists several negative health outcomes associated with marijuana use. 
+
+
+Let me know if you have any more sentences to code! 
+",gemma2:27b,2024-09-12T11:48:40.709656996Z,stop,1519321925,59523812,627,57594000,50,1312260000,"Marijuana use is associated with memory loss , cancer , immune system deficiencies , heart disease , and birth defects , among other conditions .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"**MEDICAL MARIJUANA** 
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T11:48:41.666556084Z,stop,906702974,57260115,611,48493000,29,750717000,Medical marijuana is important to a lot of people .,['MEDICAL_MARIJUANA'],1,['MEDICAL_MARIJUANA']
+"Here are the aspects present in the provided text:
+
+* **DRUG POLICY:** The sentence discusses changing sentencing for marijuana possession, implying a critique of current drug policy. 
+* **CHILD AND TEEN SAFETY:** While not explicitly stated, the mention of ""help they truly need"" suggests a concern for avoiding the negative consequences (potentially addiction or criminalization) that could affect young people.
+* **HARM:** The phrase ""damaging them for life"" indicates a belief that current drug laws are overly harmful.
+
+
+Let me know if you have any other text snippets you'd like me to analyze! 
+",gemma2:27b,2024-09-12T11:48:45.384768631Z,stop,3628933169,55009377,676,90990000,127,3394640000,"It would mean significantly changing what would happen to people who were arrested for possession of the drug ( s ) in question ( to my thinking , a sentence that would fit the crime as opposed to arbitrarily sending first-time offenders to prison for an egregious amount of time instead of getting them the help they truly need ) , and perhaps helping more people instead of damaging them for life .",['COMMUNITY/SOCIETAL_EFFECTS'],3,"['CHILD_AND_TEEN_SAFETY', 'HARM', 'DRUG_POLICY']"
+"Here's the breakdown of aspects for the given sentence:
+
+* **CHILD AND TEEN SAFETY:** The mention of ""children"" and the implication that they are affected by illicit drug use aligns with this aspect. 
+* **COMMUNITY/SOCIETAL EFFECTS:** The sentence broadly discusses the wide-ranging negative impacts of illicit drug use on various segments of society, fitting within this category.
+* **HARM:**  The phrase ""affected by...illicit drug use"" clearly points towards the harm caused by such substances.
+
+
+Let me know if you have more sentences to code! 
+",gemma2:27b,2024-09-12T11:48:48.854840607Z,stop,3460780190,55141621,639,67629000,122,3248107000,"Affected by an individual 's illicit drug use are children , parents , grandparents , friends , colleagues , work , victims of drugged drivers , crime victims , elder abuse , sexual victims etc .","['COMMUNITY/SOCIETAL_EFFECTS', 'DRUG_ABUSE', 'CHILD_AND_TEEN_SAFETY']",3,"['COMMUNITY/SOCIETAL_EFFECTS', 'CHILD_AND_TEEN_SAFETY', 'HARM']"
+"**HEALTH/PSYCHOLOGICAL EFFECTS** 
+
+
+The sentence focuses on the negative health impacts (""toxic and deleterious"") of marijuana. 
+",gemma2:27b,2024-09-12T11:48:49.776076972Z,stop,871996804,56128007,611,48744000,28,723882000,"Fourth , it is toxic and deleterious to health .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"Based on the provided codebook, the appropriate aspect(s) for the sentence ""Marijuana use basically got smaller after it was legalized"" would be:
+
+* **[COMMUNITY/SOCIETAL EFFECTS]** : The sentence directly addresses the impact of legalization on marijuana use within a community. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T11:48:52.119428294Z,stop,2251465267,55301514,612,48410000,78,2060722000,Marijuana use basically got smaller after it was legalized .,['COMMUNITY/SOCIETAL_EFFECTS'],1,['COMMUNITY/SOCIETAL_EFFECTS']
+"**HEALTH/PSYCHOLOGICAL EFFECTS** 
+
+
+The sentence discusses marijuana consumption leading to increased creativity, which falls under the ""HEALTH/PSYCHOLOGICAL EFFECTS"" aspect. 
+",gemma2:27b,2024-09-12T11:48:53.246489849Z,stop,1118536668,55603233,635,60712000,35,910762000,"Even though you can not count it as a health benefit , it should be taken as a positive mental effect that spurs creativity in the brain and helps you find new ideas .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"[ILLEGAL TRADE] 
+",gemma2:27b,2024-09-12T11:48:53.633127791Z,stop,336334795,54181108,616,48812000,8,188857000,"To begin with , an astonishingly high percentage of criminals are marijuana users .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['ILLEGAL_TRADE']
+"Here's the breakdown of aspect labels for the provided text:
+
+* **MEDICAL MARIJUANA:** The sentence directly discusses medical marijuana, its legal status in some states, and the hope for federal deference. 
+* **DRUG POLICY:**  The sentence touches on a policy issue – the conflict between state and federal laws regarding medical marijuana. 
+
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-12T11:48:56.294011264Z,stop,2610100002,55476469,644,68159000,92,2442525000,"Meno points out that with respect to medical marijuana ( which is legal in fourteen states and D.C. , but illegal on federal levels ) , he hopes the federal government will defer to state laws and not intervene .",['MEDICAL_MARIJUANA'],2,"['MEDICAL_MARIJUANA', 'DRUG_POLICY']"
+"**HEALTH/PSYCHOLOGICAL EFFECTS** 
+
+This sentence focuses on the potential negative health outcomes (depression, cancer) associated with marijuana use. 
+",gemma2:27b,2024-09-12T11:48:57.387071274Z,stop,999170396,55204553,614,50485000,31,805396000,Will it make you depressed and a have higher risk of cancer ?,['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"**NATIONAL BUDGET** 
+
+
+The sentence discusses the financial impact of marijuana legalization, specifically mentioning savings accruing to state, local, and federal governments. This aligns directly with the ""NATIONAL BUDGET"" aspect defined in the codebook. 
+",gemma2:27b,2024-09-12T11:48:58.853676945Z,stop,1458737391,55183961,635,59142000,48,1254726000,"Of those savings , $ 25.7 billion would accrue to state and local governments , while $ 15.6 billion would accrue to the federal government .",['NATIONAL_BUDGET'],1,['NATIONAL_BUDGET']
+"Here's the coding for the given sentence:
+
+* **DRUG POLICY:** The sentence mentions the ""war on drugs"" and references a specific organization, the Drug Policy Alliance, known for advocating drug policy reform. This clearly points towards a discussion of drug policy itself. 
+* **NATIONAL BUDGET:**  The sentence highlights the financial cost of the ""war on drugs"" (""$51 billion annually""), directly relating to the impact on the national budget.
+
+
+Let me know if you'd like me to code more examples! 
+",gemma2:27b,2024-09-12T11:49:02.059261041Z,stop,3111452494,53266214,639,63765000,111,2949210000,"One of the strangest aspects of the war on drugs is how completely it has failed at reducing drug use , despite costing over $ 51 billion annually , according to the Drug Policy Alliance .","['DRUG_POLICY', 'COMMUNITY/SOCIETAL_EFFECTS']",2,"['NATIONAL_BUDGET', 'DRUG_POLICY']"
+"Here's the coding for the sentence:
+
+**[HEALTH/PSYCHOLOGICAL EFFECTS], [DRUG POLICY]** 
+
+
+* **[HEALTH/PSYCHOLOGICAL EFFECTS]:** The phrase ""treating cannabis use as a public health issue"" directly relates to the potential effects of marijuana on individuals and how society views those effects.
+* **[DRUG POLICY]:**  The sentence discusses ""legalization"" as part of a ""broader initiative,"" implying a shift in government policy towards cannabis. 
+",gemma2:27b,2024-09-12T11:49:05.083864449Z,stop,2974230777,54644357,621,56263000,103,2733324000,Legalization is the first step in a broader initiative of treating cannabis use as a public health issue .,['HEALTH/PSYCHOLOGICAL_EFFECTS'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'DRUG_POLICY']"
+"Here's the breakdown of aspect labels for the given text:
+
+* **HEALTH/PSYCHOLOGICAL EFFECTS:** The phrase ""compromise public health and safety"" directly refers to potential negative impacts of marijuana on health and well-being. 
+* **CHILD AND TEEN SAFETY:** While not explicitly stated, the concern for ""public health and safety"" often implies worries about increased accessibility for children and teenagers.
+
+
+Let me know if you'd like me to analyze more text examples! 
+",gemma2:27b,2024-09-12T11:49:08.000634942Z,stop,2864729970,56347041,650,80279000,101,2684871000,"The Administration — widely viewed as more liberal than any other in recent memory and , for a time , as embodying the hopes of pro-legalization activists — has weighed the costs and benefits and concluded that marijuana legalization would compromise public health and safety .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'CHILD_AND_TEEN_SAFETY']"
+"**HARM**, **HEALTH/PSYCHOLOGICAL EFFECTS** 
+
+**Explanation:**
+
+* **HARM:** The sentence explicitly states that marijuana ""causes harm."" This directly aligns with the HARM aspect.
+* **HEALTH/PSYCHOLOGICAL EFFECTS:** The mention of  ""vast scientific evidence"" and the phrase ""marijuana causes harm"" strongly suggest a focus on the negative health impacts of marijuana use, falling under the HEALTH/PSYCHOLOGICAL EFFECTS aspect. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T11:49:11.231964676Z,stop,3139724658,55699184,620,49979000,111,2946824000,We affirm the 2006 FDA finding and vast scientific evidence that marijuana causes harm .,['HARM'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'HARM']"
+"Based on the provided codebook, the appropriate labels for this text are:
+
+* **ILLEGAL TRADE:** The sentence discusses marijuana generating untaxed income, implying a connection to illegal trade. 
+* **NATIONAL BUDGET:**  The mention of ""$500-million in untaxed income"" relates to the potential impact on the national budget, both in terms of lost tax revenue and potential future gains if legalized. 
+
+
+Let me know if you have any other text snippets you'd like me to analyze! 
+",gemma2:27b,2024-09-12T11:49:14.359458245Z,stop,3117327991,54871584,650,74712000,109,2897667000,"A significant portion of the local economy of the Emerald Triangle is already connected to marijuana , which generates about a $ 500-million in untaxed income every year , according to Beth Wilson , professor of economics at Humboldt State University .",['NATIONAL_BUDGET'],2,"['ILLEGAL_TRADE', 'NATIONAL_BUDGET']"
+"Here's the coding for the provided sentence:
+
+* **DRUG POLICY:** The sentence mentions the shift from prohibition to legalization, indicating a discussion of drug policy. 
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T11:49:16.090559373Z,stop,1638716721,56189099,631,63387000,56,1472467000,Those ( including this newspaper ) who have argued that legalisation is better than prohibition will welcome the beginning of the end of the futile war on weed .,['DRUG_POLICY'],1,['DRUG_POLICY']
+"**CHILD AND TEEN SAFETY**  
+
+This sentence directly addresses the concern that children lack the maturity and physical development to safely handle marijuana use. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T11:49:17.675485177Z,stop,1534710487,53873798,641,65364000,49,1283657000,"The primary reason for this is because children , in general , do not exhibit the same responsibility , reasoning and judgment of adults , and their bodies are not as equipped to handle the intake of such substances .",['CHILD_AND_TEEN_SAFETY'],1,['CHILD_AND_TEEN_SAFETY']
+"Here's the coding for the provided sentence:
+
+* **CHILD AND TEEN SAFETY:**  While not explicitly stated, the phrase ""increased use"" implies potential consequences for teenagers and children. 
+* **HEALTH/PSYCHOLOGICAL EFFECTS:** This aspect is touched upon by mentioning ""costs that come with marijuana use,"" which could include health-related expenses or societal impacts related to addiction.
+
+* **NATIONAL BUDGET:** The sentence directly addresses the financial implications of increased marijuana use, linking it to higher costs.  
+
+
+
+Let me know if you have any other sentences you'd like coded! 
+",gemma2:27b,2024-09-12T11:49:21.119426343Z,stop,3395508464,55793907,616,50337000,122,3245696000,The increased use will increase the multitude of costs that come with marijuana use .,['NATIONAL_BUDGET'],3,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'CHILD_AND_TEEN_SAFETY', 'NATIONAL_BUDGET']"
+"Based on the provided text and codebook, the applicable aspects are:
+
+* **HEALTH/PSYCHOLOGICAL EFFECTS:** The sentence directly links marijuana use (testing positive) to increased accidents, injuries, and absenteeism, suggesting potential negative psychological or physiological effects of marijuana. 
+* **DRUG ABUSE:**  The phrasing ""employees who test positive"" implies a workplace drug testing policy, connecting the text to concerns about drug abuse in a professional setting. 
+* **HARM:** The statistics presented (55%, 85%, 75%) highlight the potential harm associated with marijuana use in terms of workplace safety and productivity. 
+
+
+Let me know if you'd like me to analyze more sentences!",gemma2:27b,2024-09-12T11:49:25.310478937Z,stop,4098565196,54566047,639,68097000,146,3888191000,Employees who test positive for marijuana had 55 percent more industrial accidents and 85 percent more injuries and they had absenteeism rates 75 percent higher than those that tested negative .,['DRUG_ABUSE'],3,"['DRUG_ABUSE', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'HARM']"
+"Here's the breakdown of aspect labels for the given text:
+
+* **DRUG ABUSE:** The sentence compares drunk driving (alcohol) with driving under the influence of marijuana, implying a discussion about the dangers of substance abuse.
+
+* **LEGAL DRUGS:** The text directly contrasts alcohol and marijuana, suggesting a broader conversation about the legal status and perceived harmfulness of different drugs. 
+* **HARM:**  The comparison of alcohol's harm to other drugs explicitly falls under this category.
+
+
+Let me know if you have any more text samples you'd like coded! 
+",gemma2:27b,2024-09-12T11:49:28.779451154Z,stop,3458763387,55880099,651,74927000,122,3240887000,"In addition to anecdotal evidence , they cite statistics to show more deaths caused by drunk driving under the influence of alcohol than by drivers under the influence of marijuana , and research which suggests that alcohol is more harmful than all but the most "" dangerous "" drugs .","['LEGAL_DRUGS', 'DRUG_ABUSE', 'HARM']",3,"['DRUG_ABUSE', 'HARM', 'LEGAL_DRUGS']"
+"Here's the breakdown of the aspects present in the sentence:
+
+* **LEGAL DRUGS:** The sentence directly compares marijuana to alcohol, a legal drug, highlighting its legality despite associated harms.
+* **HARM:**  The sentence lists specific harms associated with alcohol (drunk driving accidents, deaths, rapes), emphasizing the negative consequences of legal substances. 
+
+
+Let me know if you have any other sentences you'd like coded! 
+",gemma2:27b,2024-09-12T11:49:31.462147Z,stop,2590316420,54600257,627,57805000,92,2434184000,"But alcohol leads to drunk driving accidents , deaths in the process and rapes of women , etc. and it 's legal .",['LEGAL_DRUGS'],2,"['HARM', 'LEGAL_DRUGS']"
+"Here's a breakdown of the aspect coding for the sentence:
+
+**[ILLEGAL TRADE]** - The sentence discusses the connection between drug-related crimes and other serious offenses, implying that involvement in illegal drug trade could lead to escalation into more violent criminal activities.
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T11:49:33.719005624Z,stop,2205523481,54310111,633,63134000,74,1957612000,"Anyone who commits drug-related felonies is n't likely to be constrained in committing other felonies , such as robbery , rape , murder , etc .",['COMMUNITY/SOCIETAL_EFFECTS'],1,['ILLEGAL_TRADE']
+"Here's the breakdown of aspect annotations for the provided text:
+
+* **CHILD AND TEEN SAFETY:**  The sentence explicitly mentions ""risks marijuana use poses to brain development in youth"" and ""dangers of accessibility...in the home"". 
+
+* **HEALTH/PSYCHOLOGICAL EFFECTS:** The phrase ""risks marijuana use poses to brain development"" directly relates to the potential health impacts of marijuana on young minds. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T11:49:36.661267071Z,stop,2893098527,55298486,634,62032000,103,2731857000,It cites recent students that it says has shed light on the risks marijuana use poses to brain development in youth and the dangers of accessibility of recreational marijuana in the home .,['CHILD_AND_TEEN_SAFETY'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'CHILD_AND_TEEN_SAFETY']"
+"Here's the breakdown of aspect labels for the given text:
+
+* **MEDICAL MARIJUANA:**  The sentence explicitly mentions ""medical law"" and the benefits of cannabis for those who ""could benefit from it."" 
+
+
+Let me know if you have any other sentences you'd like me to analyze! 
+",gemma2:27b,2024-09-12T11:49:38.637357784Z,stop,1925233060,53126579,632,58907000,67,1766336000,"Despite the growing number of states with some form of medical law , cannabis is still difficult and risky to obtain for millions of people who could benefit from it .","['ILLEGAL_TRADE', 'DRUG_POLICY']",1,['MEDICAL_MARIJUANA']
+"**NATIONAL BUDGET** 
+
+
+This sentence focuses on the tax revenue generated from marijuana sales compared to alcohol sales, a key aspect of the national budget discussion. 
+",gemma2:27b,2024-09-12T11:49:39.73340776Z,stop,1044504546,55464779,642,65978000,34,880009000,"The state collected $ 70 million in taxes on pot from June 2014 to July 2015 , $ 30 million more than amount raised from taxes on alcohol .",['NATIONAL_BUDGET'],1,['NATIONAL_BUDGET']
+"Here's the coding for the provided text:
+
+* **HEALTH/PSYCHOLOGICAL EFFECTS:** The sentence directly discusses the health impacts of long-term marijuana use, specifically linking it to psychosis and schizophrenia. 
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T11:49:41.712354837Z,stop,1884405944,56188698,646,78476000,63,1662619000,"Medical researchers in Sweden , Holland ( see this study and this one ) and New Zealand ( see this research and this paper ) found that people who used marijuana for a long time were more likely to suffer medical psychosis or schizophrenia .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"Here's the breakdown of aspect codes for the sentence:
+
+**CHILD AND TEEN SAFETY:**  The phrase ""prohibition of sales to people under 21"" directly addresses concerns about preventing minors from accessing marijuana.
+
+
+Let me know if you have more sentences to code! 
+",gemma2:27b,2024-09-12T11:49:43.491179217Z,stop,1770164130,56425283,619,47395000,60,1576678000,"For that reason , we advocate the prohibition of sales to people under 21 . ”",['CHILD_AND_TEEN_SAFETY'],1,['CHILD_AND_TEEN_SAFETY']
+"Here's the breakdown of aspect labels for the given sentence:
+
+* **DRUG ABUSE:** The sentence directly mentions ""increased addictive drug use"" as a consequence of legalization. 
+* **HARM:**  The phrase ""harms of increased addictive drug use"" explicitly points to the harm aspect.
+* **NATIONAL BUDGET:** Implicitly, the sentence touches on the national budget aspect. While not stated directly, the argument suggests that legalization could lead to increased healthcare costs related to drug abuse, impacting the budget. 
+
+
+Let me know if you'd like me to analyze more sentences!",gemma2:27b,2024-09-12T11:49:47.015015021Z,stop,3431371524,56806114,635,64256000,123,3263622000,"Secondly , the harms of increased addictive drug use , which as previously outlined would be a consequence of legalization and its cheaper prices , far outweigh the current crime harms of prohibition .","['ADDICTION', 'COMMUNITY/SOCIETAL_EFFECTS']",3,"['DRUG_ABUSE', 'NATIONAL_BUDGET', 'HARM']"
+"**HEALTH/PSYCHOLOGICAL EFFECTS**, **MEDICAL MARIJUANA** 
+
+
+Here's why:
+
+* **HEALTH/PSYCHOLOGICAL EFFECTS:** The phrase ""believed health benefits"" directly refers to the effects of marijuana on the body and mind.
+* **MEDICAL MARIJUANA:**  The sentence implies marijuana is being used for medicinal purposes, aligning with the definition of this aspect. 
+",gemma2:27b,2024-09-12T11:49:49.500484163Z,stop,2435267847,55167113,618,49213000,83,2201009000,This means more people will be free to use the drug for its believed health benefits .,['HEALTH/PSYCHOLOGICAL_EFFECTS'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'MEDICAL_MARIJUANA']"
+"The applicable aspect(s) for the sentence ""Not surprisingly, most users of other illicit drugs have used marijuana first"" are:
+
+* **GATEWAY DRUG:** The sentence explicitly states that marijuana use often precedes the use of other illicit drugs, supporting the gateway drug theory. 
+
+
+Let me know if you have more sentences to code!",gemma2:27b,2024-09-12T11:49:51.522972021Z,stop,1970585338,55419429,615,51142000,69,1820394000,"Not surprisingly , most users of other illicit drugs have used marijuana first .",['GATEWAY_DRUG'],1,['GATEWAY_DRUG']
+"Here's the breakdown of the aspects present in the sentence:
+
+**DRUG ABUSE:** The sentence explicitly mentions someone driving under the influence of marijuana (""high on pot""). 
+
+**CHILD AND TEEN SAFETY:** While not directly stated, the implication is that a driver high on marijuana poses a risk to others on the road, including children and teenagers who may be passengers or pedestrians.
+
+
+Let me know if you'd like me to analyze more sentences! 
+",gemma2:27b,2024-09-12T11:49:54.390527258Z,stop,2774505574,53286425,626,58444000,97,2572905000,"First one , "" You think I want to be on the road driving and some one high on pot is out there driving ?",['DRUG_ABUSE'],2,"['DRUG_ABUSE', 'CHILD_AND_TEEN_SAFETY']"
+"**MEDICAL MARIJUANA** 
+
+The sentence describes marijuana as a treatment for nightmares, which aligns directly with the definition of ""MEDICAL MARIJUANA"" in the codebook.  
+
+
+",gemma2:27b,2024-09-12T11:49:55.668503942Z,stop,1269547500,53987533,615,52430000,41,1072875000,It can be a blessing for someone suffering from nightmares associated with PTSD .,['MEDICAL_MARIJUANA'],1,['MEDICAL_MARIJUANA']
+"Here's the breakdown of aspect labels for the given sentence:
+
+* **HEALTH/PSYCHOLOGICAL EFFECTS:** The sentence directly addresses the idea that marijuana use doesn't lead to death, contrasting it with alcohol. This implies a discussion about the physical and potentially fatal consequences of substance use.
+* **LEGAL DRUGS:**  The comparison between marijuana and alcohol suggests a debate about the legal status and perceived harmfulness of different drugs. 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-12T11:49:58.770926772Z,stop,3011141171,56332703,631,64527000,107,2843523000,Most people talk about legalizing pot as if it were no worse than alcohol -- as if no one has ever died as the result of using marijuana .,['LEGAL_DRUGS'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'LEGAL_DRUGS']"
+"Based on the provided text, the appropriate aspect label(s) would be:
+
+* **MEDICAL MARIJUANA:** The sentence discusses marijuana as a potential treatment for an unspecified condition (likely referring to a disease given the context of ""treat and prevent""). 
+
+
+Let me know if you have any other text snippets you'd like coded! 
+",gemma2:27b,2024-09-12T11:50:01.00694354Z,stop,2185044672,55943352,632,65206000,73,1927413000,Though it only lasts for 3-4 hours with more research and studying it could possibly help treat and prevent it all together along with Alzheimer ’s .,['MEDICAL_MARIJUANA'],1,['MEDICAL_MARIJUANA']
+"Here are the applicable aspects for the given text:
+
+* **[ILLEGAL TRADE]**  The sentence discusses reducing police expenditures on drug arrests, implying a shift away from enforcing marijuana prohibition. 
+* **[COMMUNITY/SOCIETAL EFFECTS]** The text mentions freeing up police resources to ""chase after more dangerous and violent criminals,"" suggesting a perceived benefit for community safety through reduced focus on marijuana enforcement.
+
+Let me know if you have any other text samples you'd like me to code! 
+",gemma2:27b,2024-09-12T11:50:04.000702971Z,stop,2944792165,65349039,670,89742000,103,2739397000,"For state and local governments , savings would result from : the reduction of expenditures of police resources by eliminating drug arrests ( thereby freeing police to chase after more dangerous and violent criminals ) ; the reduction in prosecutorial and judicial resources by eliminating drug-related prosecutions ; and the reduction in correctional resources by eliminating drug-related incarcerations , Miron added .",['NATIONAL_BUDGET'],2,"['COMMUNITY/SOCIETAL_EFFECTS', 'ILLEGAL_TRADE']"
+"**DRUG POLICY** 
+
+This sentence focuses on the stance of the Obama administration regarding marijuana legalization. It mentions the Director of the White House Office of National Drug Control Policy and explicitly states the administration's position.  
+",gemma2:27b,2024-09-12T11:50:05.546975029Z,stop,1455088660,54795143,645,79290000,47,1232449000,"Gil Kerlikowske , Director of the White House Office of National Drug Control Policy ( ONDCP ) , recently stated , “ Marijuana legalization , for any purpose , is a non-starter in the Obama Administration . ”",['DRUG_POLICY'],1,['DRUG_POLICY']
+"The applicable aspects for the sentence ""It is quite ironic, but perhaps the worst opponents of weed legalization are drug dealers themselves"" are:
+
+* **ILLEGAL TRADE:** The sentence directly points to drug dealers as opponents of legalization, implying a connection to the illegal marijuana trade. 
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T11:50:07.784424236Z,stop,2227806262,53727676,619,51672000,77,2032903000,"It is quite ironic , but perhaps the worst opponents of weed legalization are drug dealers themselves .",['ILLEGAL_TRADE'],1,['ILLEGAL_TRADE']
+"Here's the breakdown of aspect labels for the given text:
+
+* **GATEWAY DRUG:**  The phrase ""It tends to be a starter drug for people who move on to heavier duty drugs"" clearly identifies marijuana as a gateway to harder substances. 
+* **COMMUNITY/SOCIETAL EFFECTS:** The statement expresses concern about the direction of society (""we 're changing so rapidly to a different type of society and nobody is getting a chance to discuss it"") implying potential negative societal impacts from drug use.
+
+
+Let me know if you have any other text snippets you'd like me to analyze! 
+",gemma2:27b,2024-09-12T11:50:11.408556256Z,stop,3532474490,55354568,679,101314000,125,3333031000,"It tends to be a starter drug for people who move on to heavier duty drugs — sometimes legal , sometimes illegal — and I do n't think this is something that we really want for our society to heathenistic [ sic ] activity and you know , it 's just , we 're changing so rapidly to a different type of society and nobody is getting a chance to discuss it .",['GATEWAY_DRUG'],2,"['COMMUNITY/SOCIETAL_EFFECTS', 'GATEWAY_DRUG']"
+"While this example focuses on MDMA, not marijuana, the aspects that apply would be:
+
+* **MEDICAL MARIJUANA:** The text discusses the use of a drug (MDMA) for medical treatment, similar to how marijuana is used medically. 
+* **HEALTH/PSYCHOLOGICAL EFFECTS:**  The passage mentions MDMA's potential for cognitive enhancement and treating PTSD, highlighting its effects on the mind.
+
+
+Let me know if you have any other text examples you'd like me to code! 
+",gemma2:27b,2024-09-12T11:50:14.5233825Z,stop,3066019823,53785518,632,62928000,106,2818238000,"MDMA ( Ecstasy ) has been used for cognitive enhancement in people with Parkinson 's disease , and has shown potential in treating posttraumatic stress disorder .",['MEDICAL_MARIJUANA'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'MEDICAL_MARIJUANA']"
+"Based on the provided codebook, the appropriate labels for the sentence ""The dramatically lower level of marijuana use reflects its illegal status , not its appeal ."" are:
+
+* **ILLEGAL TRADE:** The sentence directly connects marijuana's low usage to its illegality. 
+
+
+Let me know if you have more sentences to analyze! 
+",gemma2:27b,2024-09-12T11:50:16.544068231Z,stop,1967941930,53195963,617,51707000,69,1816223000,"The dramatically lower level of marijuana use reflects its illegal status , not its appeal .",['COMMUNITY/SOCIETAL_EFFECTS'],1,['ILLEGAL_TRADE']
+"Here's the breakdown of the aspect(s) present in the sentence and why:
+
+**NATIONAL BUDGET** - The sentence directly addresses the potential for tax revenue generation from marijuana legalization.  
+
+
+Let me know if you'd like to analyze more sentences! 
+",gemma2:27b,2024-09-12T11:50:18.298664617Z,stop,1666714202,55355758,618,51219000,56,1472330000,The argument that we can tax and regulate marijuana and derive income from it is false .,['NATIONAL_BUDGET'],1,['NATIONAL_BUDGET']
+"Here's the breakdown of the aspect(s) for the given sentence:
+
+**ADDICTION** -  The sentence directly addresses the potential for marijuana dependence. 
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T11:50:19.945119336Z,stop,1636712721,53960272,618,47204000,55,1442891000,Research suggests as many as 10 % of users will develop dependence over time .,['ADDICTION'],1,['ADDICTION']
+"The applicable aspects for the given text are:
+
+* **MEDICAL MARIJUANA** - The text directly discusses the use of marijuana for medical purposes, specifically mentioning its use by epilepsy patients. 
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T11:50:21.811639168Z,stop,1771642200,49926250,637,67235000,61,1610210000,"Opinions on medical marijuana have shifted dramatically in the last two decades : this year , a slew of mostly conservative states passed laws permitting epilepsy patients to use strains of cannabis high in CBD .","['DRUG_POLICY', 'MEDICAL_MARIJUANA']",1,['MEDICAL_MARIJUANA']
+"ILLEGAL TRADE 
+",gemma2:27b,2024-09-12T11:50:22.238518241Z,stop,377303312,56090776,617,51360000,6,135963000,Drug dealers ( including some terrorists ) would lose most or all of their business .,['ILLEGAL_TRADE'],1,['ILLEGAL_TRADE']
+"**HEALTH/PSYCHOLOGICAL EFFECTS** 
+
+**MEDICAL MARIJUANA** 
+
+
+The sentence discusses the use of a cannabis plant extract for improving sleep, which falls under both the health effects and potential medical applications of marijuana. 
+",gemma2:27b,2024-09-12T11:50:23.725965148Z,stop,1438211435,56133207,625,53435000,49,1285266000,"Also , the National Cancer Institute announced in a study that patients who ingested a cannabis plant extract spray reported more restful sleep .",['MEDICAL_MARIJUANA'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'MEDICAL_MARIJUANA']"
+"MEDICAL MARIJUANA 
+",gemma2:27b,2024-09-12T11:50:24.206883704Z,stop,386025243,53726006,621,56039000,8,188688000,It can help treat Glaucoma by lowering the intraocular pressure ( IOP ) in people with glaucoma .,['MEDICAL_MARIJUANA'],1,['MEDICAL_MARIJUANA']
+"Based on the provided text and codebook, the appropriate labels are:
+
+* **HEALTH/PSYCHOLOGICAL EFFECTS:** The phrase ""lots of benefits to smoking pot"" directly refers to the perceived effects of marijuana consumption on the user's well-being. 
+* **CHILD AND TEEN SAFETY:** While not explicitly stated,  the mention of ""smoking pot"" implies potential accessibility concerns, which could be linked to underage use and therefore fall under child and teen safety.
+
+
+Let me know if you have any other text snippets you'd like me to analyze! 
+",gemma2:27b,2024-09-12T11:50:27.524245677Z,stop,3268473419,64724175,621,53887000,117,3107136000,"So , there are lots of benefits to smoking pot with only a few non-beneficial issues .",['HARM'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'CHILD_AND_TEEN_SAFETY']"
+"The applicable aspects for the sentence ""There is no conclusive evidence that the drug effects of marijuana are causally linked to the subsequent abuse of other illicit drugs"" are:
+
+* **DRUG ABUSE** 
+* **GATEWAY DRUG** 
+
+
+The sentence directly addresses the argument of whether marijuana use leads to the abuse of harder drugs, a key point within the ""gateway drug"" debate.  It also falls under the broader category of ""drug abuse"" as it discusses the potential connection between marijuana and other illicit substances. 
+",gemma2:27b,2024-09-12T11:50:30.617537632Z,stop,3041588272,53308125,625,56533000,109,2885135000,There is no conclusive evidence that the drug effects of marijuana are causally linked to the subsequent abuse of other illicit drugs .,['GATEWAY_DRUG'],2,"['DRUG_ABUSE', 'GATEWAY_DRUG']"
+"Based on the provided codebook and text, here are the applicable aspects:
+
+* **CHILD AND TEEN SAFETY:**  The speech title explicitly mentions concern about marijuana legalization compromising public safety. This inherently includes potential concerns about easier access for children and teenagers. 
+* **COMMUNITY/SOCIETAL EFFECTS:** The speech is likely to argue that marijuana legalization would have negative societal effects, potentially including increased drug use and crime rates.
+
+Let me know if you'd like me to analyze specific excerpts from the speech for a more detailed coding! 
+",gemma2:27b,2024-09-12T11:50:33.83783194Z,stop,3169981979,56410615,672,89136000,112,2981392000,"R. Gil Kerlikowske , ONDCP Director , Remarks to the California Police Chiefs Conference : Why Marijuana Legalization Would Compromise Public Health and Public Safety ( March 4 , 2010 ) , available at http://www.ondcp.gov/news/speech10/030410_Chief.pdf .","['HEALTH/PSYCHOLOGICAL_EFFECTS', 'COMMUNITY/SOCIETAL_EFFECTS']",2,"['COMMUNITY/SOCIETAL_EFFECTS', 'CHILD_AND_TEEN_SAFETY']"
+"Here's a breakdown of the aspect coding for the sentence ""War on drugs and imprisonment of people for non-violent offenses would be significantly reduced."":
+
+* **DRUG POLICY:** The sentence directly addresses the impact of drug policy (specifically the ""War on Drugs"")  on incarceration rates. 
+
+* **COMMUNITY/SOCIETAL EFFECTS:** This aspect is relevant because reducing imprisonment for non-violent drug offenses implies a broader societal shift in how drug use is addressed.
+
+
+Let me know if you have any other sentences you'd like coded! 
+",gemma2:27b,2024-09-12T11:50:37.152518698Z,stop,3219288392,53956612,617,51295000,114,3025936000,War on drugs and imprisonment of people for non violent offences would be significantly reduced .,['DRUG_POLICY'],2,"['COMMUNITY/SOCIETAL_EFFECTS', 'DRUG_POLICY']"
+"Based on the provided codebook, the following aspects apply to the text:
+
+* **ILLEGAL TRADE:** The sentence discusses how prohibition inflates production costs, implying a link to the illegal market.
+* **NATIONAL BUDGET:**  The text mentions price reductions and a state revenue model, directly relating to financial implications of legalization. 
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T11:50:39.720137754Z,stop,2516161228,49994442,662,86393000,88,2334403000,"In her testimony before the committee , Dr. Pacula stated that prohibition raises the cost of production by at least 400 percent and that legalizing marijuana would cause the price of marijuana to fall considerably — much more than the 50 percent price reduction incorporated into the state ’s revenue model .",['NATIONAL_BUDGET'],2,"['ILLEGAL_TRADE', 'NATIONAL_BUDGET']"
+"Here's the coding for the given sentence:
+
+* **HEALTH/PSYCHOLOGICAL EFFECTS:**  The phrase ""such a dangerous product"" implies concerns about the negative health effects of marijuana. 
+* **HARM:** The sentence suggests that marijuana is harmful, comparing it to a dangerous product.
+
+
+Let me know if you have more sentences you'd like coded! 
+",gemma2:27b,2024-09-12T11:50:42.073653818Z,stop,2262012767,55733457,622,56321000,78,2063092000,"Even without the federal prohibition , most reputable producers would not survive the tort liability from such a dangerous product .",['HARM'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'HARM']"
+"**HEALTH/PSYCHOLOGICAL EFFECTS** 
+
+This sentence discusses the effects of the endocannabinoid system on various bodily functions, including mood, memory, and sleep. These are all directly related to psychological and physical health.
+
+
+Let me know if you have any other sentences you'd like coded!",gemma2:27b,2024-09-12T11:50:43.91543441Z,stop,1833609544,53762257,634,61413000,62,1630387000,"The endocannabinoid system influences our immune system , protects nerve cells from premature death , and influences mood , memory , appetite , sleep , sensation , and movement .",['MEDICAL_MARIJUANA'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"Here's how I would code the sentence ""Legalization won't lead to increased use."":
+
+* **CHILD AND TEEN SAFETY:**  While not explicitly stated, the argument implies that legalization won't increase access for children and teenagers. 
+* **COMMUNITY/SOCIETAL EFFECTS:** This directly addresses the potential societal effect of increased cannabis use following legalization. 
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T11:50:46.732536721Z,stop,2724189758,55563592,612,48399000,97,2573384000,Legalization wo n’t lead to increased use .,['COMMUNITY/SOCIETAL_EFFECTS'],2,"['COMMUNITY/SOCIETAL_EFFECTS', 'CHILD_AND_TEEN_SAFETY']"
+"Here's the coding for the provided sentence:
+
+* **DRUG POLICY:** The sentence discusses pursuing a specific strategy related to drug use, aligning with government action and policy. 
+* **CHILD AND TEEN SAFETY:**  The phrase ""prevent illegal drug use in the first place"" implies a concern about protecting youth from drug use.
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T11:50:49.417780024Z,stop,2636507463,54899926,638,67123000,90,2384367000,By far the best option is to commit itself seriously to the federal approach and pursue a strategy that attempts to prevent illegal drug use in the first place and reduce the number of drug users .,['DRUG_POLICY'],2,"['CHILD_AND_TEEN_SAFETY', 'DRUG_POLICY']"
+"Here's the coding for the provided sentence:
+
+* **CHILD AND TEEN SAFETY:**  The sentence directly addresses ""teen marijuana use"". 
+
+Let me know if you have more sentences to code! 
+",gemma2:27b,2024-09-12T11:50:50.806233549Z,stop,1338324631,52997398,636,63556000,45,1179400000,"Teen marijuana use has fallen slightly over the past five years , at a time when four states and the District of Columbia have legalized marijuana and 23 others allow medical use .","['CHILD_AND_TEEN_SAFETY', 'MEDICAL_MARIJUANA']",1,['CHILD_AND_TEEN_SAFETY']
+"Here's a breakdown of the aspects present in the sentence:
+
+* **HEALTH/PSYCHOLOGICAL EFFECTS:** The phrase ""The high itself does n’t inspire violence"" directly addresses the perceived psychological effects of marijuana use. 
+* **DRUG ABUSE:**  The statement ""there is no real case to be made that smoking pot causes one to go on to worse crimes"" refutes a common argument linking marijuana use to harder drug abuse.
+
+Let me know if you'd like me to analyze any other sentences! 
+",gemma2:27b,2024-09-12T11:50:54.032330905Z,stop,3132286231,55437980,632,63389000,110,2926681000,"The high itself does n’t inspire violence , and there is no real case to be made that smoking pot causes one to go on to worse crimes .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],2,"['DRUG_ABUSE', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"Here's a breakdown of the aspect coding for the sentence:
+
+**[ILLEGAL TRADE]** - The sentence focuses on the distinction between targeting drug dealers (involved in illegal trade) and drug users.
+
+
+Let me know if you'd like to code another sentence! 
+",gemma2:27b,2024-09-12T11:50:55.758864771Z,stop,1717976298,55510431,618,47426000,58,1524441000,Many people argue that only drug dealers should be fought and not the drug users themselves .,['ILLEGAL_TRADE'],1,['ILLEGAL_TRADE']
+"Here's the breakdown of aspect annotations for the sentence:
+
+**[CHILD AND TEEN SAFETY]** : The phrase ""those who are introduced to heavier drugs by smoking marijuana"" implies a concern about marijuana use leading to harder drug experimentation, especially among vulnerable populations. 
+
+**[HEALTH/PSYCHOLOGICAL EFFECTS]:**  The sentence alludes to potential negative psychological effects of marijuana use (""introduced to heavier drugs"").
+
+ **[DRUG ABUSE]** : The mention of ""heavier drugs"" connects to the broader issue of drug abuse and the potential for marijuana to act as a gateway.
+
+
+Let me know if you have any other sentences you'd like me to analyze! 
+",gemma2:27b,2024-09-12T11:50:59.711121506Z,stop,3859544088,54605238,625,56692000,139,3704231000,"Legalization , then , could increase societal and financial costs for treating those who are introduced to heavier drugs by smoking marijuana .","['NATIONAL_BUDGET', 'GATEWAY_DRUG']",3,"['DRUG_ABUSE', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'CHILD_AND_TEEN_SAFETY']"
+"Here's the coding for the sentence:
+
+**DRUG ABUSE**, **HEALTH/PSYCHOLOGICAL EFFECTS** 
+
+
+**Explanation:**
+
+* **DRUG ABUSE:** The sentence focuses on the negative consequences of marijuana use (increased likelihood of car crashes) which is directly related to drug abuse concerns.
+* **HEALTH/PSYCHOLOGICAL EFFECTS:**  The sentence highlights a potential health risk (impaired driving ability) associated with marijuana consumption, falling under the category of health/psychological effects. 
+",gemma2:27b,2024-09-12T11:51:02.740844902Z,stop,2979026337,55646355,625,56839000,103,2732718000,Medical researchers at Columbia University found that drivers who had used marijuana were more than twice as likely to have a car crash .,['DRUG_ABUSE'],2,"['DRUG_ABUSE', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"Here's the breakdown of aspects for the given text:
+
+* **HARM:** Borghesani directly points out the ""terrible harm"" caused by marijuana prohibition.
+* **CHILD AND TEEN SAFETY (potentially):** While not explicitly stated, the mention of ""people who have chosen a substance"" could imply a concern about underage use, depending on the context.  
+* **LEGAL DRUGS:** The comparison to alcohol (""less dangerous than alcohol"") falls under this category. 
+
+
+Let me know if you'd like me to analyze more text examples!",gemma2:27b,2024-09-12T11:51:06.058814761Z,stop,3266157641,53383687,658,78325000,116,3089147000,"Borghesani added , “ What I think the archdiocese is missing is the terrible harm that ( marijuana ) prohibition has done to people of color , to people who have chosen a substance that is less dangerous than alcohol and have had their lives ruined because they ’ve been arrested . ”","['LEGAL_DRUGS', 'COMMUNITY/SOCIETAL_EFFECTS']",3,"['CHILD_AND_TEEN_SAFETY', 'HARM', 'LEGAL_DRUGS']"
+"**HEALTH/PSYCHOLOGICAL EFFECTS** 
+
+
+Let me explain why:
+
+The sentence directly discusses the effects of marijuana use on cognitive functions like attention, concentration, and short-term memory. This falls squarely under the definition of  ""HEALTH/PSYCHOLOGICAL EFFECTS"" as outlined in the codebook. 
+",gemma2:27b,2024-09-12T11:51:07.924067877Z,stop,1816078065,53228593,621,55970000,63,1660085000,"Marijuana use is associated with cognitive difficulties and influences attention , concentration , and short-term memory .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"**MEDICAL MARIJUANA** 
+
+
+Let me know if you'd like me to code another sentence!  
+",gemma2:27b,2024-09-12T11:51:08.888644069Z,stop,872577742,57190914,623,56879000,26,669598000,There have been a handful of polls over the last year and all of them show overwhelming support for medical marijuana .,['MEDICAL_MARIJUANA'],1,['MEDICAL_MARIJUANA']
+"Based on the provided codebook, the appropriate aspect(s) for the sentence ""In fact, compared to alcohol, marijuana is not safe"" would be:
+
+* **HEALTH/PSYCHOLOGICAL EFFECTS:** The sentence directly compares the safety of marijuana to alcohol, implying a discussion about the potential health risks associated with marijuana use. 
+* **LEGAL DRUGS:** The comparison to alcohol, a legal substance, suggests an argument falling under the category of comparing marijuana to legally accepted drugs and their perceived harms. 
+
+
+Let me know if you have any other sentences you'd like me to code! 
+",gemma2:27b,2024-09-12T11:51:12.345986556Z,stop,3449901468,55685726,613,46091000,123,3260212000,"In fact , compared to alcohol , marijuana is not safe .","['LEGAL_DRUGS', 'HARM']",2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'LEGAL_DRUGS']"

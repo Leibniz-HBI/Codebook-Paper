@@ -1,0 +1,891 @@
+response,model,created_at,done_reason,total_duration,load_duration,prompt_eval_count,prompt_eval_duration,eval_count,eval_duration,input_text,gold_label,label_count,mentioned_labels
+"The correct label is COMMUNITY/SOCIETAL_EFFECTS 
+
+Let me know if you'd like me to analyze any more sentences!",gemma2:27b,2024-09-13T03:26:55.202735403Z,stop,964499946,54609370,1747,76978000,30,790062000,"But Pace , the father of three young children , dismissed the idea that the cannabis industry had fundamentally changed the feel of the community .",['COMMUNITY/SOCIETAL_EFFECTS'],1,['COMMUNITY/SOCIETAL_EFFECTS']
+"The correct label is LEGAL_DRUGS 
+
+You've done a great job!  It looks like you understand how to apply the codebook labels to identify the different aspects discussed in each sentence. Keep up the good work! 
+",gemma2:27b,2024-09-13T03:26:56.85386761Z,stop,1551328216,56123789,1743,65297000,50,1341303000,“ Marijuana prohibition makes no more sense than alcohol prohibition did in the early 1900s . ”,['LEGAL_DRUGS'],1,['LEGAL_DRUGS']
+"The correct label is HEALTH/PSYCHOLOGICAL_EFFECTS 
+",gemma2:27b,2024-09-13T03:26:57.457057707Z,stop,588161565,54962989,1770,90293000,14,355017000,"Marijuana use raises the heart rate from 20 to 100 percent for up to three hours after it has been smoked , increasing the risk of getting other health problems , such as arrhythmia , heart palpitations and heart attack .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"The correct label is DRUG_POLICY 
+
+
+",gemma2:27b,2024-09-13T03:26:57.964368913Z,stop,447864152,55481083,1787,103275000,10,245697000,"Decriminalization or re-legalization would mean that certain drugs would be legally available , but regulated by the government which would mean restrictions on advertising , age limitations , restrictions on the amount purchased at one time , requirements on the form in which certain drugs would be supplied and maybe a ban on sales to intoxicated persons , etc .",['DRUG_POLICY'],1,['DRUG_POLICY']
+"The correct label is GATEWAY_DRUG 
+
+Let me know if you have any other text examples you'd like me to code! I'm ready.  
+",gemma2:27b,2024-09-13T03:26:59.157588824Z,stop,1137044190,55768599,1736,58807000,37,979153000,They also know that marijuana is the starter drug of choice for most criminals .,['GATEWAY_DRUG'],1,['GATEWAY_DRUG']
+"The correct label is DRUG_POLICY 
+
+Let me know if you'd like to try more examples! 
+",gemma2:27b,2024-09-13T03:27:00.144574173Z,stop,887886106,54753494,1762,90465000,25,654780000,"This may require changes in drug policy , and perhaps in sentencing guidelines for marijuana users charged with simple possession , but simply legalizing a harmful drug — that is , giving up — is not a responsible option .","['DRUG_POLICY', 'HARM']",1,['DRUG_POLICY']
+"The correct label is LEGAL_DRUGS 
+
+Let me explain why. While this statement touches on various aspects, its core argument centers around comparing marijuana to legal substances like tobacco and alcohol. It advocates for legalization based on the premise that if these substances are legal despite their known harms, then marijuana should be treated similarly.  
+
+
+",gemma2:27b,2024-09-13T03:27:02.210292348Z,stop,2050620331,60812798,1766,91207000,67,1811042000,"But neither are there such answers about tobacco or alcohol , and we believe that on every level — health effects , the impact on society and law-and-order issues — the balance falls squarely on the side of national legalization .",['LEGAL_DRUGS'],1,['LEGAL_DRUGS']
+"The correct label is **DRUG_ABUSE**  
+
+Let me know if you have any more text snippets you'd like coded! I'm ready for the challenge. 
+",gemma2:27b,2024-09-13T03:27:03.568687226Z,stop,1256044711,54418846,1762,90053000,40,1068349000,"The California Chamber of Commerce has also expressed its opposition to the legalization of marijuana , citing that drug users will not be able to perform at work and that passage could create a new class of protected California citizens .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['DRUG_ABUSE']
+"The correct label is HEALTH/PSYCHOLOGICAL_EFFECTS 
+",gemma2:27b,2024-09-13T03:27:04.231665187Z,stop,607788295,56209641,1742,67669000,14,353584000,A recent survey of all the medical literature concluded that regular use of cannabis actually doubled your risk of psychosis .,['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"The correct label is **NATIONAL_BUDGET** 
+
+
+Let me know if you have more text snippets to code! I'm ready.",gemma2:27b,2024-09-13T03:27:05.223641835Z,stop,935051989,56646572,1749,68404000,29,763321000,"Ducey 's argument that the costs "" will far , far outweigh any tax revenue "" is a guess , according to the JLBC .",['NATIONAL_BUDGET'],1,['NATIONAL_BUDGET']
+"The correct label is DRUG_ABUSE 
+
+Let me know if you have any other text snippets you'd like to code!",gemma2:27b,2024-09-13T03:27:06.273886446Z,stop,954040671,55354919,1750,73766000,28,736730000,"If drug use increases with legalization , so will such forms of related violent crime as assaults , drugged driving , child abuse , and domestic violence .","['COMMUNITY/SOCIETAL_EFFECTS', 'DRUG_ABUSE', 'CHILD_AND_TEEN_SAFETY']",1,['DRUG_ABUSE']
+"The correct label is GATEWAY_DRUG 
+",gemma2:27b,2024-09-13T03:27:06.811006803Z,stop,521928129,55758910,1758,79589000,12,299898000,"And when I 'm saying that , I 'm talking about big peer reviewed studies done by reputable places that have shown us , without a doubt , that it is a gateway substance .",['GATEWAY_DRUG'],1,['GATEWAY_DRUG']
+"The correct label is **COMMUNITY/SOCIETAL_EFFECTS** 
+
+
+Let me know if you'd like me to analyze more text! I'm ready when you are.",gemma2:27b,2024-09-13T03:27:08.069511358Z,stop,1205029502,54480297,1743,67554000,39,1038480000,"The United Nations Office of Drugs and Crime has also acknowledged the many "" unintended negative consequences "" of drug enforcement .",['COMMUNITY/SOCIETAL_EFFECTS'],1,['COMMUNITY/SOCIETAL_EFFECTS']
+"The correct label is COMMUNITY/SOCIETAL_EFFECTS 
+",gemma2:27b,2024-09-13T03:27:08.690916322Z,stop,566312019,54752394,1767,88018000,15,379352000,""" We have not seen any statistical increase in marijuana use in Colorado since retail passage , we have not seen an increase in youth use since passage , we have not seen an increase in criminal activity since its passage , "" he said .","['COMMUNITY/SOCIETAL_EFFECTS', 'CHILD_AND_TEEN_SAFETY']",1,['COMMUNITY/SOCIETAL_EFFECTS']
+"The correct label is **DRUG_ABUSE** 
+
+
+Let me know if you'd like me to analyze any more text!",gemma2:27b,2024-09-13T03:27:09.768872291Z,stop,980598390,55653708,1749,74977000,29,762523000,"Six times as many homicides are committed by people under the influence of drugs , as by those who are looking for money to buy drugs .",['COMMUNITY/SOCIETAL_EFFECTS'],1,['DRUG_ABUSE']
+"The correct label is ADDICTION 
+",gemma2:27b,2024-09-13T03:27:10.239531076Z,stop,455355936,58197103,1761,89465000,9,218132000,"Finally , and not the least of the evils associated with repression , the helpless addict has been forced to resort to crime in order to get money for the drug which is absolutely indispensable for his comfortable existence .",['ADDICTION'],1,['ADDICTION']
+"The correct label is DRUG_ABUSE 
+",gemma2:27b,2024-09-13T03:27:10.739484358Z,stop,442876269,56200991,1745,71956000,11,272018000,2.1 million children in the United States live with at least one parent who was dependent on or abused illicit drugs .,"['ADDICTION', 'DRUG_ABUSE', 'CHILD_AND_TEEN_SAFETY']",1,['DRUG_ABUSE']
+"The correct label is MEDICAL_MARIJUANA 
+",gemma2:27b,2024-09-13T03:27:11.284925236Z,stop,488472258,56397966,1738,64645000,13,324937000,"Again , the argument is for people like Patsy Rodriguez , who believes marijuana is medicine .",['MEDICAL_MARIJUANA'],1,['MEDICAL_MARIJUANA']
+"The correct label is COMMUNITY/SOCIETAL_EFFECTS 
+",gemma2:27b,2024-09-13T03:27:11.908607179Z,stop,564087154,55821691,1759,81463000,15,382366000,"Of course , opponents of drug legalization argue that passage of the ballot would increase crime and ultimately worsen peoples ' health , rendering legalization a danger to public safety , offsetting the potential economic gains .","['HEALTH/PSYCHOLOGICAL_EFFECTS', 'NATIONAL_BUDGET', 'COMMUNITY/SOCIETAL_EFFECTS']",1,['COMMUNITY/SOCIETAL_EFFECTS']
+"The correct label is DRUG_ABUSE 
+
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-13T03:27:12.986032515Z,stop,981827752,55965525,1753,75539000,29,763131000,"It states that drug abuse in the U.S. is at "" epidemic proportions , and the dangers of marijuana to public health and safety are well documented . ""","['COMMUNITY/SOCIETAL_EFFECTS', 'DRUG_ABUSE']",1,['DRUG_ABUSE']
+"The correct label is DRUG_ABUSE 
+
+
+Let me know if you have any more text you'd like me to code! I'm ready for the challenge.",gemma2:27b,2024-09-13T03:27:14.208466475Z,stop,1207368337,56711664,1785,101782000,36,958812000,"The Advisory Council on the Misuse of Drugs ( ACMD ) report on ecstasy , based on a 12-month study of 4,000 academic papers , concluded that it is nowhere near as dangerous as other class A drugs such as heroin and crack cocaine , and should be downgraded to class B .",['HARM'],1,['DRUG_ABUSE']
+"The correct label is LEGAL_DRUGS 
+
+
+",gemma2:27b,2024-09-13T03:27:14.766952066Z,stop,461749458,56435247,1764,87952000,11,272648000,"Anonymous says2013-04-08T13 :56:09.417 Report Post Marijuana does n't kill as much people as drinking , or smoking cigarettes .",['LEGAL_DRUGS'],1,['LEGAL_DRUGS']
+"The correct label is PERSONAL_FREEDOM 
+
+Let me know if you have any other sentences you'd like me to analyze!",gemma2:27b,2024-09-13T03:27:15.729757784Z,stop,905187801,57213877,1741,67778000,28,734638000,As a general rule I believe we should let people make their own choices — and their own mistakes .,['PERSONAL_FREEDOM'],1,['PERSONAL_FREEDOM']
+"The correct label is **HARM** 
+
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-13T03:27:16.805683294Z,stop,973161383,54709714,1744,69079000,29,762266000,"Similarly , hydrogen cyanide was found in marijuana smoke at concentrations three to five times greater than those found in tobacco smoke .","['HEALTH/PSYCHOLOGICAL_EFFECTS', 'LEGAL_DRUGS']",1,['HARM']
+"The correct label is PERSONAL_FREEDOM 
+
+Let me know if you have any other text snippets you'd like me to analyze!  
+",gemma2:27b,2024-09-13T03:27:17.874025731Z,stop,1054057844,55757701,1771,90267000,31,819943000,"On the other hand , a majority of opponents of legalization ( 65 % ) say they would not be bothered if people used marijuana in their own homes ; virtually all supporters of legalization ( 97 % ) would not be bothered by this .",['PERSONAL_FREEDOM'],1,['PERSONAL_FREEDOM']
+"The correct label is NATIONAL_BUDGET 
+
+Let me know if you have any other text snippets you'd like me to analyze! I'm ready for more coding challenges. 
+",gemma2:27b,2024-09-13T03:27:19.193591516Z,stop,1221018166,55830501,1760,78265000,39,1040990000,"The National Organization for the Reform of Marijuana Laws ( NORML ) , for example , claims that legalization “ could yield California taxpayers over $ 1.2 billion per year ” in tax benefits .",['NATIONAL_BUDGET'],1,['NATIONAL_BUDGET']
+"The correct label is GATEWAY_DRUG 
+
+Let me know if you have any other sentences you'd like coded! I'm ready.",gemma2:27b,2024-09-13T03:27:20.3677973Z,stop,1115367916,57263069,1756,79501000,32,845573000,"Then , after using it for a while , a bigger "" high "" is sought ; thus , users then turn to the harder stuff like heroin , LSD , cocaine , etc .",['GATEWAY_DRUG'],1,['GATEWAY_DRUG']
+"The correct label is DRUG_POLICY 
+",gemma2:27b,2024-09-13T03:27:20.849660631Z,stop,425177748,57668968,1754,77123000,10,244489000,""" We need a safer system of marijuana sales in mass and the best way to do that is make it regulated and taxed and licensed , "" Borghesani said .",['DRUG_POLICY'],1,['DRUG_POLICY']
+"The correct label is **HEALTH/PSYCHOLOGICAL_EFFECTS** 
+
+
+Let me explain why this labeling system can be tricky:
+
+* **Overlap:** Many arguments touch on multiple aspects. For example, a sentence about marijuana's impact on youth could fall under both ""Child and Teen Safety"" and  ""Community/Societal Effects"".
+* **Subjectivity:** Some labels are inherently subjective (e.g., ""Personal Freedom""). What one person considers an infringement on freedom might be seen as a necessary regulation by another.
+
+To ensure accuracy and consistency, it's crucial to:
+
+1. **Carefully Review the Codebook:**  Make sure you fully understand each category and its defining characteristics.
+2. **Look for Keywords:** Pay attention to terms that often signal specific aspects (e.g., ""cartels"" for Illegal Trade, ""addiction"" for Addiction).
+3. **Consider the Broader Context:** Sometimes the sentence itself might not explicitly state an aspect, but the surrounding sentences or the overall argument can provide clues.",gemma2:27b,2024-09-13T03:27:26.955717802Z,stop,6051426390,58319535,1735,59650000,216,5888394000,I know it ’s not good for her health or brain . ”,['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"The correct label is HEALTH/PSYCHOLOGICAL_EFFECTS 
+
+Let me know if you'd like me to analyze any more text!",gemma2:27b,2024-09-13T03:27:28.045342633Z,stop,988826484,55168504,1758,77560000,29,769402000,"Experts say that marijuana increases the heart rate and the volume of blood pumped by the heart , but that poses a risk mostly to older users who already have cardiac or other health problems . ”",['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"The correct label is PERSONAL_FREEDOM 
+
+
+Let me know if you'd like me to analyze more text examples! I'm ready when you are.",gemma2:27b,2024-09-13T03:27:29.172718687Z,stop,1111131200,53573905,1751,68393000,34,900421000,"The retired book editor from Boston 's Mission Hill neighborhood says it ’s not about getting high , it ’s really about giving people their freedom .",['PERSONAL_FREEDOM'],1,['PERSONAL_FREEDOM']
+"The correct label is CHILD_AND_TEEN_SAFETY 
+
+
+Let me know if you'd like to analyze more sentences!",gemma2:27b,2024-09-13T03:27:30.094884265Z,stop,870096751,63069555,1734,58540000,27,704808000,There are legitimate concerns about marijuana on the development of adolescent brains .,['CHILD_AND_TEEN_SAFETY'],1,['CHILD_AND_TEEN_SAFETY']
+"The correct label is DRUG_POLICY 
+
+
+Let me know if you'd like me to code any more text!",gemma2:27b,2024-09-13T03:27:31.066532303Z,stop,874228208,50856627,1756,79916000,25,655437000,"The White House issued a response to the New York Times , trotting out weak , largely debunked justifications for criminalization , focusing on marijuana ’s supposed social ills .",['COMMUNITY/SOCIETAL_EFFECTS'],1,['DRUG_POLICY']
+"The correct label is **NATIONAL_BUDGET** 
+
+Let me know if you'd like me to code any more examples!",gemma2:27b,2024-09-13T03:27:32.050689389Z,stop,969318559,54579081,1802,113734000,27,713165000,"Dr. Rosalie Liccardo Pacula , an expert with the RAND Corporation who has studied the economics of drug policy for over 15 years , has explained that the California “ Board of Equalization ’s estimate of $ 1.4 billion [ in ] potential revenue for the state is based on a series of assumptions that are in some instances subject to tremendous uncertainty and in other cases not validated . ”",['NATIONAL_BUDGET'],1,['NATIONAL_BUDGET']
+"The correct labels are **DRUG POLICY** 
+
+Let me explain why: This statement refers to the ongoing debate about marijuana legalization, highlighting the New York Times' editorial stance in favor of legalization. It touches upon the social implications, historical context (racist history), and economic inefficiency (wasted resources) associated with prohibition. All these points are central themes within drug policy discussions. 
+
+
+",gemma2:27b,2024-09-13T03:27:34.46559729Z,stop,2316987236,56008766,1754,76126000,79,2139184000,"The paper of record is continuing to make the case for legalization over a series of editorials , addressing the social costs , racist history and wasted resources from cannabis prohibition .","['NATIONAL_BUDGET', 'COMMUNITY/SOCIETAL_EFFECTS']",1,['DRUG_POLICY']
+"You're right! That's a great example of how context and multiple interpretations can come into play when coding data. 
+
+Here's a breakdown of why ""GATEWAY_DRUG"" might be the best fit for both examples, even though they discuss the theory being ""discarded"":
+
+* **Example 1:**  Even the gateway effect — the theory that cannabis leads to other drugs — was discarded long ago.
+    * This sentence directly mentions the ""gateway effect"" theory, which is the idea that marijuana use leads to harder drug use. Even though it states the theory has been dismissed, the fact that it's being discussed means the aspect of ""GATEWAY_DRUG"" is relevant to the argument.
+
+* **Example 2:**  Not surprisingly , most users of other illicit drugs have used marijuana first .
+    * This sentence presents a statistical observation that aligns with the gateway effect theory. While it doesn't explicitly state ""marijuana leads to other drugs,"" it suggests a sequence of drug use often beginning with marijuana, which is a key component of the gateway drug argument.
+
+**Important Note:**  When coding text for qualitative research, it's crucial to consider:
+
+* **Context:** The surrounding sentences and paragraphs can provide valuable clues about the intended meaning.
+* **Implicit Arguments:** Sometimes arguments are implied rather than explicitly stated. Look for subtle cues that suggest underlying viewpoints.
+
+
+
+Let me know if you have any other examples you'd like help coding!",gemma2:27b,2024-09-13T03:27:43.129472572Z,stop,8605046043,53748349,1740,67037000,308,8438781000,Even the gateway effect — the theory that cannabis leads to other drugs — was discarded long ago .,['GATEWAY_DRUG'],1,['GATEWAY_DRUG']
+"The correct label is DRUG_ABUSE 
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-13T03:27:45.761597814Z,stop,2528855822,55546535,1767,1648512000,28,738517000,"Many of the deaths from using cannabis , other than from car accidents while intoxicated or violence and aggression , are more likely to figure in the longer term , just as with tobacco , where both nicotine overdose and cannabis overdose are extremely rare .","['LEGAL_DRUGS', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'DRUG_ABUSE']",1,['DRUG_ABUSE']
+"The correct label is **HEALTH/PSYCHOLOGICAL_EFFECTS** 
+
+You correctly identified this example as relating to the psychological effects of drug use. 
+
+
+Let me know if you have any other examples you'd like me to code!",gemma2:27b,2024-09-13T03:27:47.340636519Z,stop,1563853929,56383607,1760,74332000,50,1343179000,Researchers at Harvard-affiliated McLean Hospital found members of a religious group regularly using peyote scored significantly better on several measures of overall mental health than did subjects who did not use the hallucinogen .,['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"The correct label is **HEALTH/PSYCHOLOGICAL_EFFECTS** 
+
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-13T03:27:48.516174546Z,stop,1079471120,54486709,1754,79670000,34,902156000,"They include : memory loss , distorted perception , trouble with thinking and problem solving , loss of motor skills , decrease in muscle strength , increased heart rate , and anxiety .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"The correct label is **PERSONAL_FREEDOM**, **HARM** 
+
+Let me know if you have any other text snippets you'd like me to analyze!  I'm ready for more.",gemma2:27b,2024-09-13T03:27:50.004737379Z,stop,1432171336,58222792,1764,91315000,43,1151116000,"The same sort of analysis today would show that the harm caused by drug prohibition far outweighs the harm it prevents , even without taking into account the value to each individual of being sovereign over his own body and mind .","['PERSONAL_FREEDOM', 'HARM']",2,"['PERSONAL_FREEDOM', 'HARM']"
+"The correct label is DRUG_POLICY 
+
+
+Let me know if you have any other sentences you'd like me to code! I'm ready for the next challenge. 
+",gemma2:27b,2024-09-13T03:27:51.222898743Z,stop,1162291671,55264898,1734,59054000,38,1004274000,Taxed and regulated systems are working in Colorado and other states .,['DRUG_POLICY'],1,['DRUG_POLICY']
+"The correct label is CHILD_AND_TEEN_SAFETY 
+
+
+",gemma2:27b,2024-09-13T03:27:51.914656126Z,stop,593947062,57553976,1771,93399000,14,354927000,""" A continued area of concern is the high rate of daily marijuana smoking seen especially among 12th graders , because of marijuana ’s potential deleterious effects on the developing brains of teenagers , ” NIDA 's Volkow said in a statement .",['CHILD_AND_TEEN_SAFETY'],1,['CHILD_AND_TEEN_SAFETY']
+"The correct label is DRUG_POLICY 
+
+Let me know if you have any other text snippets you'd like me to code! I'm ready for more.",gemma2:27b,2024-09-13T03:27:53.069896808Z,stop,1139916143,42112515,1758,80257000,35,929828000,"Eight people or groups turned in arguments for the "" pro "" side 's six pages in the publication , urging voters to approve the Regulation and Taxation of Marijuana Act ( RTMA ) .",['DRUG_POLICY'],1,['DRUG_POLICY']
+"The correct label is COMMUNITY/SOCIETAL_EFFECTS
+
+Let me know if you have any other text snippets you'd like coded!  I'm ready for more examples.",gemma2:27b,2024-09-13T03:27:54.364767907Z,stop,1240353841,54914790,1784,103512000,39,1037136000,"In Los Angeles , police report that areas surrounding cannabis clubs have experienced a 200 percent increase in robberies , a 52.2 percent increase in burglaries , a 57.1 percent increase in aggravated assault , and a 130.8 percent increase in burglaries from automobiles .",['COMMUNITY/SOCIETAL_EFFECTS'],1,['COMMUNITY/SOCIETAL_EFFECTS']
+"The correct label is CHILD_AND_TEEN_SAFETY 
+",gemma2:27b,2024-09-13T03:27:54.940033043Z,stop,519560357,57517146,1742,63783000,14,352603000,"Even unhealthy items that are legal , such as alcohol and cigarettes , are prohibited from being sold to children .","['LEGAL_DRUGS', 'CHILD_AND_TEEN_SAFETY']",1,['CHILD_AND_TEEN_SAFETY']
+"The correct label is ADDICTION 
+
+Let me explain why.  While this sentence discusses potential costs associated with legalization, it specifically highlights addiction as the driving factor behind those increased costs. This directly aligns with the definition of the ADDICTION aspect in your codebook.
+
+
+",gemma2:27b,2024-09-13T03:27:56.740803222Z,stop,1703595213,56326504,1753,79501000,55,1478885000,Opponents of legal recreational pot argue that any savings that would arise from legalization would be offset by the cost of treating the additional users who become addicted to marijuana .,"['ADDICTION', 'NATIONAL_BUDGET']",1,['ADDICTION']
+"The correct label is MEDICAL_MARIJUANA 
+",gemma2:27b,2024-09-13T03:27:57.291673207Z,stop,535622997,59280701,1743,61873000,13,325927000,"Some in the Legalization Lobby even claim such drugs have medical value , despite the lack of conclusive scientific evidence .",['MEDICAL_MARIJUANA'],1,['MEDICAL_MARIJUANA']
+"The correct label is **HARM**. 
+
+
+Let me know if you'd like to try another example! 
+",gemma2:27b,2024-09-13T03:27:58.189258686Z,stop,840663058,55948754,1740,62453000,26,679517000,Even legal substances like pizza and donuts can be harmful to a person if not consumed in moderation .,['HARM'],1,['HARM']
+"The correct label is DRUG_ABUSE 
+",gemma2:27b,2024-09-13T03:27:58.770349181Z,stop,482436692,47861169,1753,75898000,11,272207000,"If law enforcement agencies wanted to find a good “ minor offense ” correlate for violent , dangerous crimes , marijuana use does n’t make a lot of sense .",['COMMUNITY/SOCIETAL_EFFECTS'],1,['DRUG_ABUSE']
+"The correct labels are ILLEGAL_TRADE, COMMUNITY/SOCIETAL_EFFECTS. 
+",gemma2:27b,2024-09-13T03:27:59.531540824Z,stop,746327135,55675299,1741,60302000,21,543364000,Illegal drugs such as marijuana are responsible for a disproportionate share of violence and social decline in America .,['COMMUNITY/SOCIETAL_EFFECTS'],2,"['ILLEGAL_TRADE', 'COMMUNITY/SOCIETAL_EFFECTS']"
+"The correct label is HEALTH/PSYCHOLOGICAL_EFFECTS 
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-13T03:28:00.634538558Z,stop,1005729675,54657673,1738,65148000,32,843060000,"However , it is clear that marijuana use plays some role in the mental health picture .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"The correct label is ADDICTION 
+
+
+Let me know if you have any other text snippets you'd like me to code!  I'm ready for more argumentative sentences about marijuana legalization. 
+",gemma2:27b,2024-09-13T03:28:02.074736643Z,stop,1384942167,54675332,1731,58523000,43,1141798000,It 's not very addictive for many people .,['ADDICTION'],1,['ADDICTION']
+"The correct label is LEGAL_DRUGS 
+",gemma2:27b,2024-09-13T03:28:02.595139992Z,stop,462649548,55262978,1768,90714000,11,273156000,"There 's a reason pot was made illegal in the first place and quite frankly , the only reason alcohol and cigarettes are legal is because they 're so deeply ingrained in our society that we ca n't get rid of them .",['LEGAL_DRUGS'],1,['LEGAL_DRUGS']
+"The correct label is NATIONAL_BUDGET 
+",gemma2:27b,2024-09-13T03:28:03.052509386Z,stop,400164756,53805120,1730,57704000,10,243245000,That money can go towards public school construction .,['NATIONAL_BUDGET'],1,['NATIONAL_BUDGET']
+"The correct label is DRUG_ABUSE 
+
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-13T03:28:04.043134237Z,stop,934656355,53915083,1748,71049000,29,764676000,"We are looking at marijuana that ’s 10 times more potent than what people think is safe , ” said Dr. Spencer .",['HARM'],1,['DRUG_ABUSE']
+"The correct label is HEALTH/PSYCHOLOGICAL_EFFECTS
+
+
+
+Let me know if you'd like to try another example!",gemma2:27b,2024-09-13T03:28:04.957662128Z,stop,861455390,54667854,1757,80025000,26,682262000,"The negative effects of it includes , slowed reaction time , and brain damage on young users who are still in major development of their brain until the age of at least 25 .","['HEALTH/PSYCHOLOGICAL_EFFECTS', 'CHILD_AND_TEEN_SAFETY']",1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"The correct label is ADDICTION 
+",gemma2:27b,2024-09-13T03:28:05.414259163Z,stop,397599071,61259111,1745,73271000,9,217366000,There is n't an argument in the world that will change the fact that psychoactive substances produce emotionally crippled adults .,['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['ADDICTION']
+"The correct label is **HEALTH/PSYCHOLOGICAL_EFFECTS** 
+
+
+Let me know if you'd like to try another example! 
+",gemma2:27b,2024-09-13T03:28:06.456221453Z,stop,983162102,59261281,1740,64879000,31,815909000,3 ) Marijuana is terrible for your mental health : Marijuana may even be WORSE than cigarettes .,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'LEGAL_DRUGS']",1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"The correct label is **DRUG_POLICY** 
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-13T03:28:07.562682337Z,stop,1010487329,55966485,1756,75976000,30,791564000,The punishment for selling recreational marijuana would be reduced from a maximum of four years in prison or jail to six months in jail and/or a $ 500 fine .,['DRUG_POLICY'],1,['DRUG_POLICY']
+"The correct label is ILLEGAL_TRADE 
+
+
+Let me know if you'd like me to analyze more text!",gemma2:27b,2024-09-13T03:28:08.449179865Z,stop,872124393,55276459,1752,73558000,25,655484000,"While such profits might not be possible if marijuana was legalized at the national level and these gangs were undercut by mass production , that is unlikely ever to happen .",['ILLEGAL_TRADE'],1,['ILLEGAL_TRADE']
+"The correct label is LEGAL_DRUGS 
+
+
+Let me know if you'd like me to analyze more text! I'm ready when you are.",gemma2:27b,2024-09-13T03:28:09.553605707Z,stop,1048807655,57050403,1751,71097000,33,874962000,Botticelli made no mention of the long list of legal pharmaceutical drugs — many with dangerous side effects — that also advertise directly to consumers with cartoon characters .,['MEDICAL_MARIJUANA'],1,['LEGAL_DRUGS']
+"The correct label is **NATIONAL BUDGET**. 
+
+Let me explain why:
+
+* The phrase ""15 BILLION is wasted"" points to a financial cost.
+*  The context ""capture and persecution simple cannabis consumers"" relates this cost to the current legal framework surrounding marijuana use.
+
+
+",gemma2:27b,2024-09-13T03:28:11.384263045Z,stop,1775732448,57834322,1738,65359000,60,1607448000,Another 15 BILLION is wasted on the capture and persecution simple cannabis consumers .,['NATIONAL_BUDGET'],1,['NATIONAL_BUDGET']
+"The correct label is **COMMUNITY/SOCIETAL_EFFECTS** 
+
+Let me explain why: This sentence focuses on the impact of marijuana legalization on the court system, specifically a decrease in new criminal cases. This directly relates to community and societal effects.  
+
+
+",gemma2:27b,2024-09-13T03:28:13.198210408Z,stop,1717614088,56158731,1771,91991000,55,1479886000,"County courts — the lower-level venues that normally handle misdemeanor crimes — saw a dip in new criminal cases filed between the 2012 fiscal year and the 2013 fiscal year , coinciding with voters ’ approval of legalization .",['COMMUNITY/SOCIETAL_EFFECTS'],1,['COMMUNITY/SOCIETAL_EFFECTS']
+"The correct label is CHILD_AND_TEEN_SAFETY 
+",gemma2:27b,2024-09-13T03:28:13.782001034Z,stop,568161759,54680484,1745,73196000,14,353321000,""" Students suck on lollipops between classes , go into class stoned , learn nothing , and teachers are increasingly helpless .",['CHILD_AND_TEEN_SAFETY'],1,['CHILD_AND_TEEN_SAFETY']
+"The correct label is PERSONAL_FREEDOM 
+",gemma2:27b,2024-09-13T03:28:14.269661992Z,stop,429271360,56014208,1734,59429000,11,270735000,Limiting the use of the drug intrudes on personal freedom .,['PERSONAL_FREEDOM'],1,['PERSONAL_FREEDOM']
+"The correct label is ADDICTION 
+",gemma2:27b,2024-09-13T03:28:14.71500944Z,stop,386437117,66161956,1735,59301000,9,216264000,It would be malpractice to say that cannabis is n't addictive .,['ADDICTION'],1,['ADDICTION']
+"The correct label is MEDICAL_MARIJUANA 
+",gemma2:27b,2024-09-13T03:28:15.293761127Z,stop,521664502,56273643,1776,94530000,13,327627000,"Anonymous says2013-05-28T02 :41:12.043 Report Post Cannabinoids , including THC and Cannabidiol , promote the re-emergence of apoptosis so that tumors will stop dividing and die .",['MEDICAL_MARIJUANA'],1,['MEDICAL_MARIJUANA']
+"The correct label is **ILLEGAL_TRADE** 
+",gemma2:27b,2024-09-13T03:28:15.841870026Z,stop,493286541,56576012,1739,64871000,13,325050000,Also it is very dangerous while dealing with a drug dealer because they are a wild card .,['ILLEGAL_TRADE'],1,['ILLEGAL_TRADE']
+"The correct label is HEALTH/PSYCHOLOGICAL_EFFECTS 
+",gemma2:27b,2024-09-13T03:28:16.40791205Z,stop,511476254,55771021,1737,60611000,14,351859000,"The drug is making them stupider , even when they 're not high .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"The correct label is LEGAL_DRUGS 
+
+Let me know if you'd like to try another example!",gemma2:27b,2024-09-13T03:28:17.340605138Z,stop,836066456,56580953,1740,65969000,24,624311000,They also say that it is n’t as dangerous or harmful as alcohol and other drugs .,"['LEGAL_DRUGS', 'HARM']",1,['LEGAL_DRUGS']
+"The correct label is **ILLEGAL_TRADE**. 
+",gemma2:27b,2024-09-13T03:28:17.897166642Z,stop,541309936,53525645,1750,71252000,13,326340000,"In Amsterdam , officials are in the process of closing marijuana dispensaries , or “ coffee shops , ” because of the crime associated with their operation .",['COMMUNITY/SOCIETAL_EFFECTS'],1,['ILLEGAL_TRADE']
+"The correct label is **NATIONAL_BUDGET** 
+
+
+
+Let me know if you'd like me to analyze any other text snippets!",gemma2:27b,2024-09-13T03:28:18.859817693Z,stop,907386353,55854582,1748,71358000,28,736884000,"A regulated and taxed system would move commerce from street dealers to licensed , taxpaying businesses under the control of state regulators and local authorities .","['ILLEGAL_TRADE', 'DRUG_POLICY']",1,['NATIONAL_BUDGET']
+"The correct label is DRUG_ABUSE 
+
+",gemma2:27b,2024-09-13T03:28:19.450231209Z,stop,493567908,57326391,1751,75720000,11,272153000,These side effects are why several large studies find that that drivers high on marijuana are three to seven times more likely to be responsible for a car accident .,['DRUG_ABUSE'],1,['DRUG_ABUSE']
+"The correct label is NATIONAL_BUDGET 
+",gemma2:27b,2024-09-13T03:28:19.932200622Z,stop,423439031,55145006,1755,78796000,10,245657000,"Drug legalization would yield tax revenues of $ 46.7 billion annually , assuming legal drugs were taxed at rates comparable to those on alcohol and tobacco , they said .","['LEGAL_DRUGS', 'NATIONAL_BUDGET']",1,['NATIONAL_BUDGET']
+"The correct label is NATIONAL_BUDGET 
+",gemma2:27b,2024-09-13T03:28:20.399139781Z,stop,410604113,48910356,1748,70160000,10,244823000,"Increased use would also send health care costs skyrocketing — costs borne not just by individual users , but also by the entire society .",['NATIONAL_BUDGET'],1,['NATIONAL_BUDGET']
+"The correct label is DRUG_ABUSE 
+
+
+Let me know if you have any other text snippets you'd like me to analyze! I'm ready for more argumentative sentences.  
+",gemma2:27b,2024-09-13T03:28:21.729278428Z,stop,1272808245,55442303,1759,80037000,41,1093595000,"Prosecutors , judges , police officers , detectives , parole or probation officers , and even defense attorneys know that the vast majority of defendants arrested for violent crimes test positive for illegal drugs , including marijuana .",['COMMUNITY/SOCIETAL_EFFECTS'],1,['DRUG_ABUSE']
+"The correct label is CHILD_AND_TEEN_SAFETY 
+
+
+Let me know if you'd like me to analyze any more text examples! I'm ready.",gemma2:27b,2024-09-13T03:28:22.970786408Z,stop,1146317093,57559386,1747,70936000,35,928641000,"At a time when we ’re concerned about our lack of academic achievement relative to other countries , legalizing marijuana will be disastrous .",['COMMUNITY/SOCIETAL_EFFECTS'],1,['CHILD_AND_TEEN_SAFETY']
+"The correct label is **None** 
+
+
+Let me know if you'd like to try another example!",gemma2:27b,2024-09-13T03:28:23.798105794Z,stop,810874076,56684015,1747,66907000,23,599269000,"Most people understand that correlation and causation are not the same thing , but this fact seems lost on many politicians arguing against marijuana reform .",['DRUG_POLICY'],0,[]
+"The correct label is **ILLEGAL_TRADE** 
+
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-13T03:28:24.893853148Z,stop,997718667,56175372,1751,74914000,31,819772000,"With the profit motive gone , no effort would be made to encourage its use by private dispensers of narcotics , and the drug peddler would disappear .",['ILLEGAL_TRADE'],1,['ILLEGAL_TRADE']
+"The correct label is DRUG_ABUSE  
+
+Let me know if you'd like me to analyze any other sentences!",gemma2:27b,2024-09-13T03:28:25.895485376Z,stop,943497726,59075196,1745,73313000,26,679879000,We are living in a country where young people everywhere are actively seeking out new and creative ways to self-medicate .,['MEDICAL_MARIJUANA'],1,['DRUG_ABUSE']
+"The correct label is **ILLEGAL TRADE** (as it relates to the potential for illegal squatting due to lax enforcement). 
+
+Let me know if you'd like me to analyze any other examples!",gemma2:27b,2024-09-13T03:28:27.253410133Z,stop,1300896973,55422941,1753,79797000,42,1122210000,"Jason White , 44 , owns a property management company and expressed frustration he has had to deal with marijuana-smoking squatters in some of his properties .",['COMMUNITY/SOCIETAL_EFFECTS'],1,['ILLEGAL_TRADE']
+"The correct label is NATIONAL_BUDGET 
+",gemma2:27b,2024-09-13T03:28:27.815078528Z,stop,457878829,55619718,1742,68233000,10,244502000,"Furthermore , studies have shown that legalized marijuana will provide nowhere near the economic windfall proclaimed by some proponents .",['NATIONAL_BUDGET'],1,['NATIONAL_BUDGET']
+"The correct label is NATIONAL_BUDGET 
+",gemma2:27b,2024-09-13T03:28:28.277108114Z,stop,445835902,58910701,1731,54344000,10,242821000,It could be a source of additional tax revenues .,['NATIONAL_BUDGET'],1,['NATIONAL_BUDGET']
+"The correct label is **PERSONAL FREEDOM**. 
+
+Let me know if you'd like to try another example!",gemma2:27b,2024-09-13T03:28:29.127406525Z,stop,795181076,58999644,1742,66349000,24,625083000,McPheeters bristles at the potent smell of marijuana when she drives past some of the cultivation facilities .,['PERSONAL_FREEDOM'],1,['PERSONAL_FREEDOM']
+"The correct label is **ILLEGAL_TRADE** 
+
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-13T03:28:30.233186957Z,stop,1007472076,56944141,1746,73447000,30,789503000,"“ You ’re forcing the individuals to go back to the drug dealers , and the black market will flourish even more . ”",['ILLEGAL_TRADE'],1,['ILLEGAL_TRADE']
+"The correct label is **HARM** 
+
+Let me explain why:
+
+* The statement emphasizes the potential negative consequences of the initiative, specifically mentioning harm to individuals in various settings (roadways, schools, workplaces, communities).  
+* This aligns with the definition of ""HARM"" as an aspect focused on the detrimental effects associated with marijuana legalization.",gemma2:27b,2024-09-13T03:28:32.429535476Z,stop,2181429277,57348921,1748,67167000,73,1967148000,"It is a poorly constructed initiative that will cause harm to Californians on our roadways , and in our schools , workplaces and communities . ”","['COMMUNITY/SOCIETAL_EFFECTS', 'DRUG_ABUSE', 'HARM']",1,['HARM']
+"The correct label is COMMUNITY/SOCIETAL_EFFECTS 
+
+
+",gemma2:27b,2024-09-13T03:28:33.070988686Z,stop,538308571,54383067,1737,61404000,15,379307000,Would you want to live in a neighborhood filled with people who regularly smoke marijuana ?,['COMMUNITY/SOCIETAL_EFFECTS'],1,['COMMUNITY/SOCIETAL_EFFECTS']
+"The correct label is ADDICTION 
+",gemma2:27b,2024-09-13T03:28:33.588731472Z,stop,460902098,54694624,1732,58416000,9,215974000,"First , marijuana is far more likely to cause addiction .",['ADDICTION'],1,['ADDICTION']
+"The correct label is **HEALTH/PSYCHOLOGICAL_EFFECTS** 
+
+Let me know if you'd like to analyze more text!  I'm ready. 
+",gemma2:27b,2024-09-13T03:28:34.805961517Z,stop,1161473145,56798708,1750,75097000,37,982873000,"Consumption of marijuana impairs the immune system and short-term memory , elevates the risk of heart attack , and causes respiratory and brain damage .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"The correct label is CHILD_AND_TEEN_SAFETY 
+
+
+Let me know if you have any other text snippets you'd like me to analyze! I'm ready for the next challenge.",gemma2:27b,2024-09-13T03:28:36.19105745Z,stop,1286573563,53670078,1732,58726000,41,1086056000,Increased marijuana use will mean millions more damaged young people .,['CHILD_AND_TEEN_SAFETY'],1,['CHILD_AND_TEEN_SAFETY']
+"The correct label is DRUG_ABUSE 
+
+
+Let me know if you have more text to code! I'm ready.",gemma2:27b,2024-09-13T03:28:37.108385731Z,stop,901638350,54868568,1736,52973000,27,704248000,Popular culture reinforces this view portraying use generally as a risk-free endeavor .,['HARM'],1,['DRUG_ABUSE']
+"The correct labels are **ADDICTION** and **HEALTH/PSYCHOLOGICAL_EFFECTS**. 
+
+
+Let me know if you'd like to try more examples!",gemma2:27b,2024-09-13T03:28:38.277600073Z,stop,1073058380,60135482,1741,67065000,34,899250000,Scientific research is clear that marijuana is addictive and that its use significantly impairs bodily and mental functions .,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION']",2,"['ADDICTION', 'HEALTH/PSYCHOLOGICAL_EFFECTS']"
+"The correct label is **HEALTH/PSYCHOLOGICAL_EFFECTS** 
+",gemma2:27b,2024-09-13T03:28:38.997039791Z,stop,659895019,59589469,1738,63793000,16,406828000,"So , there 's a good reason most habitual marijuana users come off as stupid .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"The correct label is DRUG_POLICY 
+
+Let me know if you have any other sentences you'd like me to code! I'm ready for more.",gemma2:27b,2024-09-13T03:28:40.109373963Z,stop,1056694833,57952947,1728,58471000,34,895472000,Time to End the Drug War .,['DRUG_POLICY'],1,['DRUG_POLICY']
+"The correct label is GATEWAY_DRUG 
+
+Let me know if you'd like to try another example! 
+",gemma2:27b,2024-09-13T03:28:41.151803755Z,stop,939230841,65292094,1749,75305000,27,709268000,"Opponents have cited the state ’s opioid addiction crisis , warning that marijuana is a “ gateway drug ” that leads to more dangerous habits .",['GATEWAY_DRUG'],1,['GATEWAY_DRUG']
+"The correct label is HARM 
+
+Let me know if you'd like me to analyze any more sentences! I'm ready when you are.  
+",gemma2:27b,2024-09-13T03:28:42.275520119Z,stop,1109252716,53228047,1750,67683000,34,899649000,"It is reaffirmed by several studies that have linked marijuana use to criminal behavior , unemployment , lower incomes , greater welfare dependence , and lower life satisfaction .",['COMMUNITY/SOCIETAL_EFFECTS'],1,['HARM']
+"The correct label is DRUG_POLICY 
+
+Let me know if you have more sentences to code! I'm ready.  
+",gemma2:27b,2024-09-13T03:28:43.272174934Z,stop,899691045,55555897,1738,64283000,28,733111000,Drug busts often trap young people in a flawed system that turns them into lifelong criminals .,['COMMUNITY/SOCIETAL_EFFECTS'],1,['DRUG_POLICY']
+"The correct label is SECOND_HAND_SMOKE (This label was not provided in the original list, but logically follows from the context.) 
+
+
+Let me know if you have more sentences to analyze!",gemma2:27b,2024-09-13T03:28:44.68354704Z,stop,1356472097,56441779,1733,55496000,42,1113646000,"Public places , such as bars , would expose innocent patrons .",['PERSONAL_FREEDOM'],0,[]
+"The correct label is NATIONAL_BUDGET 
+
+Let me know if you have more text examples! I'm ready to help categorize them.",gemma2:27b,2024-09-13T03:28:45.694941441Z,stop,954244724,54783096,1768,90755000,29,764645000,The economic argument is also based on poor fiscal logic : any reduction in the cost of drug control ( due to lower law enforcement expenditure ) will be offset by much higher expenditure on public health ( due to the surge of drug consumption ) .,['NATIONAL_BUDGET'],1,['NATIONAL_BUDGET']
+"The correct label is DRUG_ABUSE 
+
+
+Let me know if you'd like to try another example!",gemma2:27b,2024-09-13T03:28:46.57520478Z,stop,822708121,59127717,1773,92648000,24,627123000,"Researchers at the University of Mississippi ’s Natural Center for Natural Products Research have found that marijuana available today may be up to five times stronger than the stuff available back in the 1970s , ’80s , and ’90s .",['HARM'],1,['DRUG_ABUSE']
+"The correct label is DRUG_ABUSE 
+
+
+
+Let me know if you have any other sentences for me to code!",gemma2:27b,2024-09-13T03:28:47.561942914Z,stop,889822974,53562896,1768,91716000,25,655928000,"Furthermore , the Dutch Ministry of Health , Welfare and Sport has expressed “ concern about drug and alcohol use among young people and the social consequences , which range from poor school performance and truancy to serious impairment , including brain damage . ”","['HEALTH/PSYCHOLOGICAL_EFFECTS', 'COMMUNITY/SOCIETAL_EFFECTS', 'CHILD_AND_TEEN_SAFETY']",1,['DRUG_ABUSE']
+"The correct label is DRUG_POLICY 
+
+Let me know if you'd like to try more examples!",gemma2:27b,2024-09-13T03:28:48.37036229Z,stop,793147598,54814357,1734,55528000,23,594917000,The United States ’ experiment in marijuana prohibition has failed spectacularly .,['DRUG_POLICY'],1,['DRUG_POLICY']
+"The correct label is **ILLEGAL_TRADE** 
+
+
+Let me know if you'd like to try another example!",gemma2:27b,2024-09-13T03:28:49.302788921Z,stop,834276478,55049893,1734,59271000,26,677223000,If the product were outlawed there the mob would gladly step in .,['ILLEGAL_TRADE'],1,['ILLEGAL_TRADE']
+"This is a great exercise for practicing social science coding!
+
+Here's the breakdown of the labels for each input, keeping in mind that multiple labels can apply:
+
+
+**Input:** But through legalization , there will be open competition and lower prices , so drug cartels , which might include terrorists , would lose some or even all of their business .
+**Output:** ILLEGAL_TRADE 
+
+**Input:** Drug decriminalization would remove the "" glamorous Al Capone-type traffickers who are role-models for the young "" .
+**Output:** ILLEGAL_TRADE
+
+**Input:** Even smoking weed at home will allow the drug to make its way to others , especially if it is a multi-level apartment complex .
+**Output:** PERSONAL_FREEDOM
+
+**Input:** Limiting the use of the drug intrudes on personal freedom .
+**Output:** PERSONAL_FREEDOM
+
+**Input:** Statewide revenue from dedicated pot taxes easily topped the money from alcohol taxes .
+**Output:** NATIONAL_BUDGET
+
+**Input:** Legalization advocates claim that the move will provide police officers more money and time to go after criminals committing other crimes , such as violence .
+**Output:** NATIONAL_BUDGET 
+
+**Input:** Anybody who ' s experienced it , actually been addicted to it , knows how profound that addiction is ... . The difficult thing about marijuana addiction is some people , even though they ' re addicted can do fine with it for many many years before they start to have difficultly , but eventually the high starts wearing off and they need more.
+**Output:** DRUG_ABUSE
+
+ **Input:** She claims they do more harm than good .
+**Output:** HARM 
+
+ **Input:** The United Nations Office of Drugs and Crime has also acknowledged the many "" unintended negative consequences "" of drug enforcement .
+**Output:** COMMUNITY/SOCIETAL_EFFECTS
+
+ **Input:** I think that we have the opportunity through the states that are pursuing recreational marijuana to find out a lot more than we know today ... So , I think we ' re just at the beginning , but I agree completely with the idea that we have got to stop imprisoning people who use marijuana .
+**Output:** COMMUNITY/SOCIETAL_EFFECTS
+
+ **Input:**"" Students suck on lollipops between classes , go into class stoned , learn nothing , and teachers are increasingly helpless .
+**Output:** CHILD_AND_TEEN_SAFETY 
+
+ **Input:** Keeping marijuana illegal will undoubtedly keep many young people from using it .
+**Output:** CHILD_AND_TEEN_SAFETY
+
+ **Input:** Others believe it helps in the treatment of depression .
+**Output:** MEDICAL_MARIJUANA
+
+ **Input:** Marijuana is used to alleviate a lot of medical ailments .
+**Output:** MEDICAL_MARIJUANA
+
+ **Input:** Researchers at Harvard-affiliated McLean Hospital found members of a religious group regularly using peyote scored significantly better on several measures of overall mental health than did subjects who did not use the hallucinogen .
+**Output:** HEALTH/PSYCHOLOGICAL_EFFECTS
+
+ **Input:** Even though you can not count it as a health benefit , it should be taken as a positive mental effect that spurs creativity in the brain and helps you find new ideas .
+**Output:** HEALTH/PSYCHOLOGICAL_EFFECTS 
+
+ **Input:** A world where instead of drinking cheap beer , a hopeful political candidate can roll a joint to seem like the "" people ' s choice "" does n't have to seem crazy .
+**Output:** LEGAL_DRUGS
+
+ **Input:** But neither are there such answers about tobacco or alcohol , and we believe that on every level — health effects , the impact on society and law-and-order issues — the balance falls squarely on the side of national legalization .
+**Output:** LEGAL_DRUGS 
+
+**Input:** Legalization of marijuana could eventually lead to the legalization of harder drugs or all drugs altogether .
+ **Output:** DRUG_POLICY
+
+
+**Input:** The prolegalization forces say they aim to create a regulated and taxed market , removing marijuana sales from the criminal sphere .
+ **Output:**  DRUG_POLICY
+
+**Input:** In Australia , a study found that cannabis intoxication was responsible for 4.3 % of driver fatalities .
+**Output:** DRUG_ABUSE
+
+**Input:** ^ "" Impaired Driving "" .
+**Output:** DRUG_ABUSE
+
+ **Input:** The 62-year-old says she has given up on most of her prescriptions .
+**Output:** MEDICAL_MARIJUANA (Assuming this is referring to marijuana replacing pharmaceuticals)
+
+
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-13T03:29:15.906494485Z,stop,26546062195,53442942,1740,65261000,961,26381740000,The 62-year-old says she has given up on most of her prescriptions .,['MEDICAL_MARIJUANA'],11,"['ILLEGAL_TRADE', 'PERSONAL_FREEDOM', 'NATIONAL_BUDGET', 'HARM', 'COMMUNITY/SOCIETAL_EFFECTS', 'CHILD_AND_TEEN_SAFETY', 'MEDICAL_MARIJUANA', 'HEALTH/PSYCHOLOGICAL_EFFECTS', 'LEGAL_DRUGS', 'DRUG_POLICY', 'DRUG_ABUSE']"
+"The correct label is **HEALTH/PSYCHOLOGICAL_EFFECTS**  
+
+
+Let me know if you have any other text snippets you'd like me to categorize! 
+",gemma2:27b,2024-09-13T03:29:18.744328186Z,stop,2731408947,54867648,1759,1630162000,36,959713000,"Accordingly , federal law , representing the considered judgment of medical science and the nation ’s two political branches of government , takes the unequivocal position that marijuana is dangerous and has no significant beneficial uses .",['HARM'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"The correct label is ILLEGAL_TRADE 
+
+
+Let me know if you have any more text snippets you'd like coded!  I'm ready.",gemma2:27b,2024-09-13T03:29:19.852397141Z,stop,1091927794,60720399,1748,67401000,33,873767000,The huge profits to be made from cocaine and other South American-grown drugs are largely because they are illegal in the wealthy neighbouring nation .,['ILLEGAL_TRADE'],1,['ILLEGAL_TRADE']
+"The correct label is CHILD_AND_TEEN_SAFETY 
+
+
+Let me know if you'd like to try another example! 
+",gemma2:27b,2024-09-13T03:29:20.88961408Z,stop,941250202,55238658,1755,79125000,29,764092000,Alaska 's experiment with legalization in the 1970s led to the state 's teens using marijuana at more than twice the rate of other youths nationally .,['CHILD_AND_TEEN_SAFETY'],1,['CHILD_AND_TEEN_SAFETY']
+"The correct label is **DRUG_ABUSE** 
+
+
+Let me know if you have any other sentences to code!",gemma2:27b,2024-09-13T03:29:21.801864432Z,stop,853547756,56144353,1749,74740000,26,679557000,"As cheap marijuana floods the market both in and outside of California , use of many different types of drugs will increase , as will marijuana use .",['COMMUNITY/SOCIETAL_EFFECTS'],1,['DRUG_ABUSE']
+"The correct label is ILLEGAL_TRADE 
+
+
+",gemma2:27b,2024-09-13T03:29:22.382609001Z,stop,482486003,56918500,1739,64944000,11,271442000,"At a minimum , they will be off the streets , unable to wreak more havoc .",['ILLEGAL_TRADE'],1,['ILLEGAL_TRADE']
+"The correct label is DRUG_POLICY 
+",gemma2:27b,2024-09-13T03:29:22.848450059Z,stop,451791511,55476586,1742,65049000,10,243700000,"Step-by-step , more drugs will gain acceptance , with advocacy of the legalization of harder drugs .","['GATEWAY_DRUG', 'GATEWAY_DRUG']",1,['DRUG_POLICY']
+"The correct label is **ILLEGAL_TRADE** 
+
+Let me explain why this coding framework works and how I'm applying it to these examples.  
+
+**Understanding the Framework**
+
+
+This codebook provides a structured way to analyze arguments about marijuana legalization by breaking them down into specific ""aspects."" Think of these aspects as key themes or sub-topics within the larger debate.
+
+* **Specificity:** Each aspect focuses on a particular angle, like health effects, societal impacts, or legal implications.
+* **Overlapping Aspects:**  Some sentences can touch on multiple aspects. That's why the instructions allow for assigning more than one label. 
+
+**How I'm Coding the Examples**
+
+I'm carefully reading each sentence and identifying the core message it conveys. Then, I'm matching that message to the most relevant aspect(s) in the codebook. Here's a breakdown of a couple of examples:
+
+* **""But through legalization, there will be open competition and lower prices, so drug cartels, which might include terrorists, would lose some or even all of their business.""**  This sentence focuses on how legalization could undermine the illegal marijuana trade, making **ILLEGAL_TRADE** the appropriate label.
+
+* **""Limiting the use of the drug intrudes on personal freedom.""** This statement directly addresses the individual's right to choose, aligning it with the **PERSONAL_FREEDOM** aspect.
+
+
+
+Let me know if you have any more sentences you'd like me to analyze!",gemma2:27b,2024-09-13T03:29:31.691969949Z,stop,8787792169,57609430,1759,77559000,314,8606954000,"When alcohol use was outlawed during prohibition , it gave rise to gang warfare and spurred the formation of some of the most well known criminals of the era , among them the infamous Al Capone .",['LEGAL_DRUGS'],2,"['ILLEGAL_TRADE', 'PERSONAL_FREEDOM']"
+"The correct label is DRUG_ABUSE 
+
+
+",gemma2:27b,2024-09-13T03:29:33.842526883Z,stop,2048654466,54434789,1765,1634239000,11,272973000,"While drunk driving is a major problem in society , despite all the stiff penalties and education , equally dangerous is “ driving high ” , but this is more difficult to detect , unless the user has been smoking in the car .",['DRUG_ABUSE'],1,['DRUG_ABUSE']
+"The correct label is COMMUNITY/SOCIETAL_EFFECTS 
+
+
+Let me know if you'd like to code more examples!",gemma2:27b,2024-09-13T03:29:34.816628255Z,stop,915962149,56775237,1753,74427000,28,737824000,"Thus , marijuana legalization will increase crime , drug use , and social dislocation across the state of California — the exact opposite of what pro-legalization advocates promise .",['COMMUNITY/SOCIETAL_EFFECTS'],1,['COMMUNITY/SOCIETAL_EFFECTS']
+"The correct label is **DRUG_POLICY**. 
+
+Let me explain why. This sentence discusses the composition of a commission related to marijuana policy, specifically mentioning representatives from existing medical marijuana dispensaries. This points towards a discussion about the structure and implementation of drug policy within the context of legalized marijuana. 
+
+
+",gemma2:27b,2024-09-13T03:29:36.752997379Z,stop,1880186930,59196308,1760,77799000,63,1699551000,"Three of the commission members would be representatives of current , nonprofit medical-marijuana dispensary companies ; presumably , they would not be in a rush to create a whole bunch of new competition for themselves .",['MEDICAL_MARIJUANA'],1,['DRUG_POLICY']
+"The correct label is MEDICAL_MARIJUANA 
+",gemma2:27b,2024-09-13T03:29:37.390123338Z,stop,537525178,65468838,1732,58556000,13,324212000,Smoking marijuana may also help slow the progression of glaucoma .,['MEDICAL_MARIJUANA'],1,['MEDICAL_MARIJUANA']
+"The correct label is HEALTH/PSYCHOLOGICAL_EFFECTS 
+
+
+Let me know if you'd like me to analyze any other text!",gemma2:27b,2024-09-13T03:29:38.364344983Z,stop,959528520,57679561,1730,54338000,29,758223000,Increased drug use leads to negative health effects .,['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"The correct label is PERSONAL_FREEDOM 
+
+Let me know if you have any more text snippets you'd like me to analyze!",gemma2:27b,2024-09-13T03:29:39.345481936Z,stop,925241496,55481494,1741,65820000,29,760191000,Would you want the government limiting how much coffee you can drink or how much cheesecake you take in ?,['PERSONAL_FREEDOM'],1,['PERSONAL_FREEDOM']
+"The correct label is HEALTH/PSYCHOLOGICAL_EFFECTS 
+
+
+Let me know if you have any more sentences to code! I'm ready.",gemma2:27b,2024-09-13T03:29:40.486927578Z,stop,1038042594,55094585,1752,75998000,31,819744000,"In fact , one study has shown that blood vessels in the brain of a marijuana smoker experience restricted flow , which can continue even after a month of abstinence .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"The correct label is MEDICAL MARIJUANA 
+
+
+Let me know if you have any more text snippets you'd like me to categorize!",gemma2:27b,2024-09-13T03:29:41.491007246Z,stop,987957967,55539987,1734,55927000,30,787165000,She claims where prescriptions failed her but marijuana has n’t .,['MEDICAL_MARIJUANA'],1,['MEDICAL_MARIJUANA']
+"The correct label is DRUG_POLICY
+
+Let me know if you have any more text snippets to code! I'm ready.  😊  
+",gemma2:27b,2024-09-13T03:29:42.551567095Z,stop,1002329713,62804892,1751,77671000,31,818244000,"“ After three decades , criminalization has not affected general usage ; about 30 million Americans use marijuana every year , ” the Times points out .",['COMMUNITY/SOCIETAL_EFFECTS'],1,['DRUG_POLICY']
+"The correct label is NATIONAL_BUDGET 
+",gemma2:27b,2024-09-13T03:29:43.120964097Z,stop,472652524,57523877,1758,80251000,10,245702000,"This $ 30 billion figure rises dramatically once other issues , such as the economic impact of holding 400,000 prisoners on prohibition violations , are factored in .",['NATIONAL_BUDGET'],1,['NATIONAL_BUDGET']
+"The correct label is **COMMUNITY/SOCIETAL_EFFECTS** 
+
+
+Let me explain my reasoning. The statement highlights the negative societal consequences of prohibition, specifically mentioning its impact on children and the growth of the prison system. This aligns with the definition of **COMMUNITY/SOCIETAL_EFFECTS**, which includes mentions of broader impacts on society, like changes in crime rates or social structures. 
+",gemma2:27b,2024-09-13T03:29:45.583770332Z,stop,2447749270,59652102,1739,58769000,83,2241239000,"Prohibition has robbed children of their futures , while building a huge prison-industrial complex .",['COMMUNITY/SOCIETAL_EFFECTS'],1,['COMMUNITY/SOCIETAL_EFFECTS']
+"The correct label is CHILD_AND_TEEN_SAFETY 
+
+
+Let me know if you have any more text snippets you'd like me to analyze! I'm ready for the challenge.  💪📚",gemma2:27b,2024-09-13T03:29:47.005799201Z,stop,1325251741,54391207,1754,79026000,43,1148413000,"In a display window , scrumptious-looking , pink pot candies entice a little girl on her way to the toy store next door , mortifying her mother .",['CHILD_AND_TEEN_SAFETY'],1,['CHILD_AND_TEEN_SAFETY']
+"The correct label is MEDICAL_MARIJUANA 
+",gemma2:27b,2024-09-13T03:29:47.652025573Z,stop,589175026,56723916,1748,75091000,13,326541000,"Now , countries all over the world have licensed the drug for medical purposes , and a few are going still further ( see article ) .",['MEDICAL_MARIJUANA'],1,['MEDICAL_MARIJUANA']
+"The correct label is COMMUNITY/SOCIETAL_EFFECTS 
+
+Let me know if you'd like me to code any other text!  
+",gemma2:27b,2024-09-13T03:29:48.714991296Z,stop,1006536132,56190982,1740,63639000,32,843988000,"Legalization of marijuana would further shift the culture to more of a "" anything goes "" mentality .",['COMMUNITY/SOCIETAL_EFFECTS'],1,['COMMUNITY/SOCIETAL_EFFECTS']
+"The correct label is CHILD_AND_TEEN_SAFETY 
+",gemma2:27b,2024-09-13T03:29:49.389787457Z,stop,577256154,55381173,1756,79713000,14,354861000,"It should be intuitively obvious to everyone that if you legalize marijuana for adults , more children will use marijuana because the message that it 's dangerous will be blunted . """,['CHILD_AND_TEEN_SAFETY'],1,['CHILD_AND_TEEN_SAFETY']
+"The correct label is **DRUG POLICY** 
+
+
+Let me know if you have any other text snippets you'd like me to analyze! I'm ready for more coding challenges.",gemma2:27b,2024-09-13T03:29:50.651698763Z,stop,1246899733,60379531,1743,59644000,39,1036993000,"Furthermore , should California legalize marijuana , other entrepreneurs will inevitably attempt to enter the marketplace and game the system .",['ILLEGAL_TRADE'],1,['DRUG_POLICY']
+"The correct label is **DRUG_POLICY** 
+
+
+Let me know if you'd like to try another example!",gemma2:27b,2024-09-13T03:29:51.570168511Z,stop,861546795,53564056,1759,80976000,26,681032000,"The casino industry lobby , which registered its opposition on Friday , noted that state gambling regulators who are strict about offering up casino licenses are wary of those businesses getting involved in the recreational pot industry .",['DRUG_POLICY'],1,['DRUG_POLICY']
+"The correct label is **COMMUNITY/SOCIETAL_EFFECTS** 
+
+Let me know if you have any other text snippets you'd like me to analyze! 
+",gemma2:27b,2024-09-13T03:29:52.868297332Z,stop,1195805391,57714642,1743,67975000,37,981947000,"Loosening marijuana laws would help many of these people , and repealing prohibition would help all of them .",['DRUG_POLICY'],1,['COMMUNITY/SOCIETAL_EFFECTS']
+"The correct label is **NATIONAL_BUDGET** 
+
+
+Let me know if you have any other text snippets you'd like me to analyze! I'm ready for more.",gemma2:27b,2024-09-13T03:29:54.073685708Z,stop,1189900841,58860021,1741,60496000,37,981300000,"This argument is gaining favour , as national administrations seek new sources of revenue during the current economic crisis .",['NATIONAL_BUDGET'],1,['NATIONAL_BUDGET']
+"The correct label is **LEGAL_DRUGS**  
+
+Let me explain why.
+
+This statement compares the death toll from alcohol and tobacco to marijuana, implicitly arguing that marijuana is less harmful than legal drugs already in widespread use. This aligns with the definition of LEGAL_DRUGS in the codebook: comparing marijuana to other legal substances like alcohol and tobacco. 
+
+
+",gemma2:27b,2024-09-13T03:29:56.375168823Z,stop,2198836826,53127705,1751,74960000,75,2025725000,Alchohol kills 30k-40k Americans each year and cigars/cigarettes kill 480k americans each year .,['LEGAL_DRUGS'],1,['LEGAL_DRUGS']
+"The correct label is HEALTH/PSYCHOLOGICAL_EFFECTS 
+
+
+Let me know if you'd like me to analyze more sentences!",gemma2:27b,2024-09-13T03:29:57.422334814Z,stop,990009733,56056649,1744,68170000,28,735834000,"Some of the most common ones include dry mouth , red eyes , psychosis , fatigue , dizziness and increased heart rate .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"The correct label is CHILD_AND_TEEN_SAFETY 
+",gemma2:27b,2024-09-13T03:29:57.997727521Z,stop,517153781,55762773,1744,65610000,14,352475000,So that argument to me that you 're going to keep it out of the hands of kids is completely illogical .,['CHILD_AND_TEEN_SAFETY'],1,['CHILD_AND_TEEN_SAFETY']
+"The correct label is ADDICTION 
+
+
+",gemma2:27b,2024-09-13T03:29:58.535893249Z,stop,435292103,37015473,1762,90008000,9,218672000,"1 ) It 's extremely addictive for some people : If you do n't want to take my word for it , listen to Dr. Drew Pinsky who has been working with addicts for decades .",['ADDICTION'],1,['ADDICTION']
+"The correct label is **ILLEGAL_TRADE** 
+
+
+Let me know if you have any more text snippets to code! I'm ready.  
+",gemma2:27b,2024-09-13T03:29:59.631793614Z,stop,1038278936,55475376,1737,64492000,33,871163000,The culprits are often from other states or countries and sometimes affiliated with cartels .,['ILLEGAL_TRADE'],1,['ILLEGAL_TRADE']
+"The correct label is GATEWAY_DRUG 
+",gemma2:27b,2024-09-13T03:30:00.244800571Z,stop,516135486,53553215,1748,74739000,12,299653000,"In the sense that marijuana use typically precedes rather than follows initiation of other illicit drug use , it is indeed a “ gateway ” drug .",['GATEWAY_DRUG'],1,['GATEWAY_DRUG']
+"The correct label is ADDICTION 
+
+Let me know if you have any other text snippets you'd like me to analyze!  
+",gemma2:27b,2024-09-13T03:30:01.247729445Z,stop,987355157,53068223,1753,79503000,29,764980000,"The humorous stories about pot users having a horrible memory are not an urban legend that is simply put forward by everyone , from Hollywood films to treatment centers for addiction .","['HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION']",1,['ADDICTION']
+"The correct label is **DRUG_ABUSE** 
+
+
+Let me know if you have any more text snippets to code!",gemma2:27b,2024-09-13T03:30:02.208077911Z,stop,867522539,55855615,1736,60194000,27,704725000,"This is especially true of addictive , mind-altering drugs like marijuana .","['HEALTH/PSYCHOLOGICAL_EFFECTS', 'ADDICTION']",1,['DRUG_ABUSE']
+"The correct label is MEDICAL_MARIJUANA 
+
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-13T03:30:03.341826932Z,stop,1077964778,54265716,1750,71858000,31,819663000,"The narrative of cannabis as a harmful drug has been dominant for so long , that many people had trouble accepting the plant ’s demonstrated medicinal effects .","['HARM', 'MEDICAL_MARIJUANA']",1,['MEDICAL_MARIJUANA']
+"The correct label is LEGAL_DRUGS 
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-13T03:30:04.389868668Z,stop,989289367,57594770,1806,120544000,29,765635000,"Check out this article which lists just some of the medical studies showing the dangers of weed : https://www.tremr.com/marty-nemko/should-marijuana-be-kept-illegal crypt0 says2016-04-03T14 :47:54.157 Report Post Marijuana is n't bad compared to many other "" LEGAL "" drugs .",['HARM'],1,['LEGAL_DRUGS']
+"The correct label is ILLEGAL_TRADE 
+",gemma2:27b,2024-09-13T03:30:05.007279447Z,stop,518698512,65696846,1770,91540000,11,272374000,"The only way California could effectively eliminate the black market for marijuana , according to Dr. Pacula , “ is to take away the substantial profits in the market and allow the price of marijuana to fall to an amount close to the cost of production .",['ILLEGAL_TRADE'],1,['ILLEGAL_TRADE']
+"The correct label is MEDICAL_MARIJUANA 
+",gemma2:27b,2024-09-13T03:30:05.565919378Z,stop,541557776,59936510,1750,68198000,13,325860000,"Opponents of medical marijuana argue that it is too dangerous to use , lacks FDA-approval , and that various legal drugs make marijuana use unnecessary .",['MEDICAL_MARIJUANA'],1,['MEDICAL_MARIJUANA']
+"The correct label is COMMUNITY/SOCIETAL_EFFECTS 
+",gemma2:27b,2024-09-13T03:30:06.207265279Z,stop,582883579,65604963,1762,88931000,15,382705000,"“ It is putting our children at risk and has exposed children from communities of color to more racial discrimination than before , ” said Kennedy , who represented part of Rhode Island in Congress , about the legalization movement .",['CHILD_AND_TEEN_SAFETY'],1,['COMMUNITY/SOCIETAL_EFFECTS']
+"The correct label is CHILD_AND_TEEN_SAFETY 
+
+Let me know if you'd like me to analyze more text! I'm ready when you are.  
+",gemma2:27b,2024-09-13T03:30:07.527800516Z,stop,1223248915,59585080,1743,67534000,38,1008908000,"The more weed that teens consume at a younger age , the more problems they tend to have later in life .",['CHILD_AND_TEEN_SAFETY'],1,['CHILD_AND_TEEN_SAFETY']
+"The correct label is COMMUNITY/SOCIETAL_EFFECTS 
+",gemma2:27b,2024-09-13T03:30:08.109177857Z,stop,566123473,43768327,1728,55206000,15,378214000,Prohibition has enormous social costs .,['COMMUNITY/SOCIETAL_EFFECTS'],1,['COMMUNITY/SOCIETAL_EFFECTS']
+"The correct label is DRUG_ABUSE 
+",gemma2:27b,2024-09-13T03:30:08.631144613Z,stop,466648355,58765829,1765,89987000,11,273571000,"A study of 129 college students found that , among those who smoked the drug at least twenty-seven of the thirty days before being surveyed , critical skills related to attention , memory and learning were seriously diminished .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['DRUG_ABUSE']
+"The correct label is **ILLEGAL_TRADE** 
+
+
+Let me know if you'd like me to analyze any other text examples!",gemma2:27b,2024-09-13T03:30:09.736668214Z,stop,1008580319,59098948,1774,94116000,29,767456000,"Legalisers , meanwhile , should open their eyes to the fact that the legal marijuana industry , which until now has only had to prove itself more worthy than organised criminals , now needs as much scrutiny as the other “ sin ” industries that defend their turf jealously .","['ILLEGAL_TRADE', 'ILLEGAL_TRADE']",1,['ILLEGAL_TRADE']
+"The correct label is MEDICAL_MARIJUANA
+
+Let me know if you'd like to try more examples! 
+
+
+",gemma2:27b,2024-09-13T03:30:10.694526811Z,stop,943432168,57783554,1761,87469000,27,711180000,Our position is that California Proposition 215 was misrepresented under the misguided claim that there is substantial “ medical ” benefit from ingesting marijuana and that the harm and negative impacts would be negligible .,"['HARM', 'MEDICAL_MARIJUANA']",1,['MEDICAL_MARIJUANA']
+"The correct label is **DRUG_POLICY** 
+
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-13T03:30:11.798664459Z,stop,1002948177,59534039,1759,79257000,31,821026000,"There is no correlation between the harshness of drug laws and the incidence of drug-taking : citizens living under tough regimes ( notably America but also Britain ) take more drugs , not fewer .",['COMMUNITY/SOCIETAL_EFFECTS'],1,['DRUG_POLICY']
+"The correct label is ILLEGAL_TRADE 
+
+
+",gemma2:27b,2024-09-13T03:30:12.390116217Z,stop,534187148,56028279,1749,75203000,11,272396000,"Under the state scheme , she testified , there would be “ tremendous profit motive for the existing black market providers to stay in the market . ”",['ILLEGAL_TRADE'],1,['ILLEGAL_TRADE']
+"The correct label is HEALTH/PSYCHOLOGICAL_EFFECTS 
+
+Let me know if you have any other sentences you'd like me to code!",gemma2:27b,2024-09-13T03:30:13.444792284Z,stop,996408471,60602227,1747,71525000,31,817369000,"Marijuana use is associated with memory loss , cancer , immune system deficiencies , heart disease , and birth defects , among other conditions .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"The correct label is MEDICAL_MARIJUANA 
+",gemma2:27b,2024-09-13T03:30:14.065222682Z,stop,524779349,55057785,1731,58345000,13,324518000,Medical marijuana is important to a lot of people .,['MEDICAL_MARIJUANA'],1,['MEDICAL_MARIJUANA']
+"The correct label is DRUG_POLICY 
+
+
+Let me know if you'd like me to analyze any other text!",gemma2:27b,2024-09-13T03:30:14.997929607Z,stop,917929019,55033554,1796,116625000,25,657246000,"It would mean significantly changing what would happen to people who were arrested for possession of the drug ( s ) in question ( to my thinking , a sentence that would fit the crime as opposed to arbitrarily sending first-time offenders to prison for an egregious amount of time instead of getting them the help they truly need ) , and perhaps helping more people instead of damaging them for life .",['COMMUNITY/SOCIETAL_EFFECTS'],1,['DRUG_POLICY']
+"The correct label is DRUG_ABUSE 
+
+Let me know if you have more text to code! I'm ready.",gemma2:27b,2024-09-13T03:30:15.987317497Z,stop,889574775,55361973,1759,80821000,27,708125000,"Affected by an individual 's illicit drug use are children , parents , grandparents , friends , colleagues , work , victims of drugged drivers , crime victims , elder abuse , sexual victims etc .","['COMMUNITY/SOCIETAL_EFFECTS', 'DRUG_ABUSE', 'CHILD_AND_TEEN_SAFETY']",1,['DRUG_ABUSE']
+"The correct label is HEALTH/PSYCHOLOGICAL_EFFECTS 
+
+
+Let me know if you have any more text examples you'd like me to analyze! I'm ready for the challenge.",gemma2:27b,2024-09-13T03:30:17.344864041Z,stop,1301031762,56104712,1731,54390000,40,1060241000,"Fourth , it is toxic and deleterious to health .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"The correct label is **COMMUNITY/SOCIETAL_EFFECTS** 
+",gemma2:27b,2024-09-13T03:30:17.994750452Z,stop,594209480,57699463,1732,58557000,17,432492000,Marijuana use basically got smaller after it was legalized .,['COMMUNITY/SOCIETAL_EFFECTS'],1,['COMMUNITY/SOCIETAL_EFFECTS']
+"The correct label is **HEALTH/PSYCHOLOGICAL_EFFECTS** 
+
+
+Let me know if you have any other sentences you'd like me to code! I'm ready for more.",gemma2:27b,2024-09-13T03:30:19.380439004Z,stop,1287952998,53406371,1755,79099000,40,1067009000,"Even though you can not count it as a health benefit , it should be taken as a positive mental effect that spurs creativity in the brain and helps you find new ideas .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"The correct label is **DRUG_ABUSE** 
+
+
+Let me know if you have any other sentences to code! I'm ready.",gemma2:27b,2024-09-13T03:30:20.414942718Z,stop,1018126746,53983528,1736,60067000,31,814987000,"To begin with , an astonishingly high percentage of criminals are marijuana users .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['DRUG_ABUSE']
+"The correct label is DRUG_POLICY 
+",gemma2:27b,2024-09-13T03:30:20.944875408Z,stop,436360884,56819850,1764,88765000,10,245847000,"Meno points out that with respect to medical marijuana ( which is legal in fourteen states and D.C. , but illegal on federal levels ) , he hopes the federal government will defer to state laws and not intervene .",['MEDICAL_MARIJUANA'],1,['DRUG_POLICY']
+"The correct label is HEALTH/PSYCHOLOGICAL_EFFECTS 
+",gemma2:27b,2024-09-13T03:30:21.510544099Z,stop,510080054,53633869,1734,58969000,14,351759000,Will it make you depressed and a have higher risk of cancer ?,['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"The correct label is **NATIONAL_BUDGET**  
+
+Let me know if you have any other sentences you'd like me to categorize!",gemma2:27b,2024-09-13T03:30:22.591020266Z,stop,982475177,54952093,1755,77814000,29,762906000,"Of those savings , $ 25.7 billion would accrue to state and local governments , while $ 15.6 billion would accrue to the federal government .",['NATIONAL_BUDGET'],1,['NATIONAL_BUDGET']
+"The correct label is DRUG_POLICY
+
+
+
+Let me know if you'd like me to analyze any other text examples! I'm ready when you are.  
+",gemma2:27b,2024-09-13T03:30:23.763538871Z,stop,1156282401,54249104,1759,80485000,35,930635000,"One of the strangest aspects of the war on drugs is how completely it has failed at reducing drug use , despite costing over $ 51 billion annually , according to the Drug Policy Alliance .","['DRUG_POLICY', 'COMMUNITY/SOCIETAL_EFFECTS']",1,['DRUG_POLICY']
+"The correct label is **DRUG_POLICY**.
+
+Let me know if you'd like to try another example! 
+",gemma2:27b,2024-09-13T03:30:24.736603717Z,stop,875986429,57312863,1741,67736000,27,706473000,Legalization is the first step in a broader initiative of treating cannabis use as a public health issue .,['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['DRUG_POLICY']
+"The correct label is **DRUG_ABUSE** 
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-13T03:30:25.91956162Z,stop,1128080392,57356674,1770,92398000,32,848730000,"The Administration — widely viewed as more liberal than any other in recent memory and , for a time , as embodying the hopes of pro-legalization activists — has weighed the costs and benefits and concluded that marijuana legalization would compromise public health and safety .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['DRUG_ABUSE']
+"The correct label is HARM 
+",gemma2:27b,2024-09-13T03:30:26.363017945Z,stop,387156509,58199135,1740,66380000,9,217313000,We affirm the 2006 FDA finding and vast scientific evidence that marijuana causes harm .,['HARM'],1,['HARM']
+"The correct label is NATIONAL_BUDGET  
+
+Let me know if you have any other sentences you'd like coded!",gemma2:27b,2024-09-13T03:30:27.26971028Z,stop,853562389,59272492,1770,92225000,25,657942000,"A significant portion of the local economy of the Emerald Triangle is already connected to marijuana , which generates about a $ 500-million in untaxed income every year , according to Beth Wilson , professor of economics at Humboldt State University .",['NATIONAL_BUDGET'],1,['NATIONAL_BUDGET']
+"The correct label is DRUG_POLICY 
+",gemma2:27b,2024-09-13T03:30:27.836364747Z,stop,467829266,57479486,1751,76874000,10,245204000,Those ( including this newspaper ) who have argued that legalisation is better than prohibition will welcome the beginning of the end of the futile war on weed .,['DRUG_POLICY'],1,['DRUG_POLICY']
+"The correct label is **CHILD_AND_TEEN_SAFETY** 
+",gemma2:27b,2024-09-13T03:30:28.489266285Z,stop,638314586,57289801,1761,84522000,16,408677000,"The primary reason for this is because children , in general , do not exhibit the same responsibility , reasoning and judgment of adults , and their bodies are not as equipped to handle the intake of such substances .",['CHILD_AND_TEEN_SAFETY'],1,['CHILD_AND_TEEN_SAFETY']
+"The correct label is NATIONAL_BUDGET 
+
+
+Let me know if you have any more text snippets you'd like me to analyze! I'm ready for the challenge.  
+",gemma2:27b,2024-09-13T03:30:29.778959172Z,stop,1190442165,77136089,1736,59812000,38,1008885000,The increased use will increase the multitude of costs that come with marijuana use .,['NATIONAL_BUDGET'],1,['NATIONAL_BUDGET']
+"The correct label is DRUG_ABUSE 
+",gemma2:27b,2024-09-13T03:30:30.297421491Z,stop,460778637,66945058,1759,76939000,11,272511000,Employees who test positive for marijuana had 55 percent more industrial accidents and 85 percent more injuries and they had absenteeism rates 75 percent higher than those that tested negative .,['DRUG_ABUSE'],1,['DRUG_ABUSE']
+"The correct label is DRUG_ABUSE 
+
+
+Let me know if you have any other text snippets you'd like coded! I'm ready to apply my expertise in aspect annotation.",gemma2:27b,2024-09-13T03:30:31.676498388Z,stop,1280133142,60121044,1771,92720000,39,1040590000,"In addition to anecdotal evidence , they cite statistics to show more deaths caused by drunk driving under the influence of alcohol than by drivers under the influence of marijuana , and research which suggests that alcohol is more harmful than all but the most "" dangerous "" drugs .","['LEGAL_DRUGS', 'DRUG_ABUSE', 'HARM']",1,['DRUG_ABUSE']
+"The correct label is LEGAL_DRUGS 
+
+
+Let me know if you'd like me to analyze any other sentences! I'm ready for more coding practice.",gemma2:27b,2024-09-13T03:30:32.840432907Z,stop,1148186067,55821944,1747,73817000,35,930597000,"But alcohol leads to drunk driving accidents , deaths in the process and rapes of women , etc. and it 's legal .",['LEGAL_DRUGS'],1,['LEGAL_DRUGS']
+"The correct label is CRIME
+
+
+
+Let me explain the reasoning behind my coding decisions:
+
+
+* **Focus on Sub-topics:** Remember, aspect annotation is about identifying specific sub-topics within the broader debate of marijuana legalization.
+
+* **Multiple Labels:** Some sentences can touch on more than one aspect.  It's important to be thorough and apply all relevant labels. 
+",gemma2:27b,2024-09-13T03:30:35.166034296Z,stop,2269534140,61082009,1753,78515000,77,2083225000,"Anyone who commits drug-related felonies is n't likely to be constrained in committing other felonies , such as robbery , rape , murder , etc .",['COMMUNITY/SOCIETAL_EFFECTS'],0,[]
+"The correct label is CHILD_AND_TEEN_SAFETY 
+
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-13T03:30:36.248708472Z,stop,1024057080,60475263,1754,74506000,32,846877000,It cites recent students that it says has shed light on the risks marijuana use poses to brain development in youth and the dangers of accessibility of recreational marijuana in the home .,['CHILD_AND_TEEN_SAFETY'],1,['CHILD_AND_TEEN_SAFETY']
+"The correct label is MEDICAL_MARIJUANA 
+
+
+Let me know if you have any other text snippets you'd like me to categorize!",gemma2:27b,2024-09-13T03:30:37.38988251Z,stop,1045317992,60690128,1752,76607000,31,819072000,"Despite the growing number of states with some form of medical law , cannabis is still difficult and risky to obtain for millions of people who could benefit from it .","['ILLEGAL_TRADE', 'DRUG_POLICY']",1,['MEDICAL_MARIJUANA']
+"The correct label is NATIONAL_BUDGET
+
+Let me know if you have any other text snippets you'd like me to analyze! I'm ready for more coding challenges.",gemma2:27b,2024-09-13T03:30:38.593636005Z,stop,1193117343,58408580,1762,90156000,36,955591000,"The state collected $ 70 million in taxes on pot from June 2014 to July 2015 , $ 30 million more than amount raised from taxes on alcohol .",['NATIONAL_BUDGET'],1,['NATIONAL_BUDGET']
+"The correct label is HEALTH/PSYCHOLOGICAL_EFFECTS 
+
+Let me know if you'd like to try another example! I'm ready when you are. 
+",gemma2:27b,2024-09-13T03:30:39.826864274Z,stop,1173740351,54706777,1766,87975000,37,987480000,"Medical researchers in Sweden , Holland ( see this study and this one ) and New Zealand ( see this research and this paper ) found that people who used marijuana for a long time were more likely to suffer medical psychosis or schizophrenia .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"The correct label is CHILD_AND_TEEN_SAFETY 
+",gemma2:27b,2024-09-13T03:30:40.496248746Z,stop,567532412,62044573,1739,63399000,14,353477000,"For that reason , we advocate the prohibition of sales to people under 21 . ”",['CHILD_AND_TEEN_SAFETY'],1,['CHILD_AND_TEEN_SAFETY']
+"The correct label is ADDICTION, HARM 
+
+
+Let me know if you have any other text snippets you'd like me to analyze!  I'm ready for more argumentative text. 
+",gemma2:27b,2024-09-13T03:30:41.888639595Z,stop,1377726816,59679833,1755,79077000,43,1149617000,"Secondly , the harms of increased addictive drug use , which as previously outlined would be a consequence of legalization and its cheaper prices , far outweigh the current crime harms of prohibition .","['ADDICTION', 'COMMUNITY/SOCIETAL_EFFECTS']",2,"['ADDICTION', 'HARM']"
+"The correct label is MEDICAL_MARIJUANA 
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-13T03:30:42.958914505Z,stop,978558079,54724206,1738,64663000,31,815899000,This means more people will be free to use the drug for its believed health benefits .,['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['MEDICAL_MARIJUANA']
+"You're absolutely right!  
+
+That last example should also be tagged with **GATEWAY_DRUG**. It directly supports the concept that marijuana use can lead to experimenting with harder substances. 
+
+
+Let me know if you have any more sentences you'd like me to analyze. I'm ready!",gemma2:27b,2024-09-13T03:30:44.984962746Z,stop,1971389766,56259006,1735,60095000,64,1722436000,"Not surprisingly , most users of other illicit drugs have used marijuana first .",['GATEWAY_DRUG'],1,['GATEWAY_DRUG']
+"The correct label is DRUG_ABUSE 
+",gemma2:27b,2024-09-13T03:30:45.483824186Z,stop,443346544,60309329,1746,69362000,11,271143000,"First one , "" You think I want to be on the road driving and some one high on pot is out there driving ?",['DRUG_ABUSE'],1,['DRUG_ABUSE']
+"The correct label is MEDICAL_MARIJUANA 
+
+Let me know if you have any other text examples you'd like me to code!",gemma2:27b,2024-09-13T03:30:46.509847018Z,stop,968967995,53520836,1735,54644000,31,815673000,It can be a blessing for someone suffering from nightmares associated with PTSD .,['MEDICAL_MARIJUANA'],1,['MEDICAL_MARIJUANA']
+"The correct labels are  **DRUG_ABUSE**, **HEALTH/PSYCHOLOGICAL_EFFECTS** 
+
+
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-13T03:30:47.954120534Z,stop,1341610746,54817169,1751,75443000,42,1123572000,Most people talk about legalizing pot as if it were no worse than alcohol -- as if no one has ever died as the result of using marijuana .,['LEGAL_DRUGS'],2,"['HEALTH/PSYCHOLOGICAL_EFFECTS', 'DRUG_ABUSE']"
+"The correct label is MEDICAL_MARIJUANA 
+",gemma2:27b,2024-09-13T03:30:48.518322422Z,stop,505698766,57478037,1752,75573000,13,327030000,Though it only lasts for 3-4 hours with more research and studying it could possibly help treat and prevent it all together along with Alzheimer ’s .,['MEDICAL_MARIJUANA'],1,['MEDICAL_MARIJUANA']
+"The correct label is NATIONAL_BUDGET 
+
+
+Let me know if you'd like to code more examples!",gemma2:27b,2024-09-13T03:30:49.382222178Z,stop,805744712,54805719,1790,105597000,23,600780000,"For state and local governments , savings would result from : the reduction of expenditures of police resources by eliminating drug arrests ( thereby freeing police to chase after more dangerous and violent criminals ) ; the reduction in prosecutorial and judicial resources by eliminating drug-related prosecutions ; and the reduction in correctional resources by eliminating drug-related incarcerations , Miron added .",['NATIONAL_BUDGET'],1,['NATIONAL_BUDGET']
+"The correct label is DRUG_POLICY 
+
+Let me know if you'd like to try another example!",gemma2:27b,2024-09-13T03:30:50.314966961Z,stop,834364823,56057541,1765,91138000,23,601356000,"Gil Kerlikowske , Director of the White House Office of National Drug Control Policy ( ONDCP ) , recently stated , “ Marijuana legalization , for any purpose , is a non-starter in the Obama Administration . ”",['DRUG_POLICY'],1,['DRUG_POLICY']
+"The correct label is ILLEGAL_TRADE 
+
+
+Let me know if you have any more text snippets to analyze!",gemma2:27b,2024-09-13T03:30:51.165151996Z,stop,835736678,55720333,1739,64863000,24,624988000,"It is quite ironic , but perhaps the worst opponents of weed legalization are drug dealers themselves .",['ILLEGAL_TRADE'],1,['ILLEGAL_TRADE']
+"The correct label is GATEWAY_DRUG 
+
+
+Let me explain my reasoning for choosing these labels:
+
+* **Gateway Drug:** The text explicitly states ""It tends to be a starter drug for people who move on to heavier duty drugs"" which aligns perfectly with the definition of ""Gateway Drug"".  
+
+Let me know if you have any other sentences you'd like me to analyze! 
+",gemma2:27b,2024-09-13T03:30:53.701430252Z,stop,2436876798,53855143,1799,115682000,82,2223497000,"It tends to be a starter drug for people who move on to heavier duty drugs — sometimes legal , sometimes illegal — and I do n't think this is something that we really want for our society to heathenistic [ sic ] activity and you know , it 's just , we 're changing so rapidly to a different type of society and nobody is getting a chance to discuss it .",['GATEWAY_DRUG'],1,['GATEWAY_DRUG']
+"The correct label is **MEDICAL_MARIJUANA** 
+
+
+Let me know if you have any more text snippets to code! I'm ready.  
+",gemma2:27b,2024-09-13T03:30:54.95648804Z,stop,1194289718,55392664,1752,76041000,35,929295000,"MDMA ( Ecstasy ) has been used for cognitive enhancement in people with Parkinson 's disease , and has shown potential in treating posttraumatic stress disorder .",['MEDICAL_MARIJUANA'],1,['MEDICAL_MARIJUANA']
+"The correct label is ILLEGAL_TRADE 
+",gemma2:27b,2024-09-13T03:30:55.447053359Z,stop,434777925,55961908,1737,64625000,11,270834000,"The dramatically lower level of marijuana use reflects its illegal status , not its appeal .",['COMMUNITY/SOCIETAL_EFFECTS'],1,['ILLEGAL_TRADE']
+"The correct label is NATIONAL_BUDGET 
+
+
+Let me know if you have any other text snippets you'd like to code! I'm ready for more.  
+",gemma2:27b,2024-09-13T03:30:56.62105471Z,stop,1116580285,54915471,1738,64384000,36,952462000,The argument that we can tax and regulate marijuana and derive income from it is false .,['NATIONAL_BUDGET'],1,['NATIONAL_BUDGET']
+"The correct label is ADDICTION
+
+
+Let me know if you have any other sentences you'd like me to code! I'm ready for more examples.",gemma2:27b,2024-09-13T03:30:57.715950193Z,stop,1039400157,61796648,1738,61839000,33,870641000,Research suggests as many as 10 % of users will develop dependence over time .,['ADDICTION'],1,['ADDICTION']
+"The correct label is MEDICAL_MARIJUANA 
+
+
+Let me know if you'd like me to analyze more text examples!  I'm ready.",gemma2:27b,2024-09-13T03:30:58.947402Z,stop,1130778038,56295797,1757,80684000,34,904478000,"Opinions on medical marijuana have shifted dramatically in the last two decades : this year , a slew of mostly conservative states passed laws permitting epilepsy patients to use strains of cannabis high in CBD .","['DRUG_POLICY', 'MEDICAL_MARIJUANA']",1,['MEDICAL_MARIJUANA']
+"The correct label is ILLEGAL_TRADE 
+",gemma2:27b,2024-09-13T03:30:59.444829555Z,stop,440193645,61148302,1737,62403000,11,271053000,Drug dealers ( including some terrorists ) would lose most or all of their business .,['ILLEGAL_TRADE'],1,['ILLEGAL_TRADE']
+"The correct label is MEDICAL_MARIJUANA 
+",gemma2:27b,2024-09-13T03:31:00.003224426Z,stop,502704409,57197369,1745,73110000,13,326517000,"Also , the National Cancer Institute announced in a study that patients who ingested a cannabis plant extract spray reported more restful sleep .",['MEDICAL_MARIJUANA'],1,['MEDICAL_MARIJUANA']
+"The correct label is MEDICAL_MARIJUANA 
+",gemma2:27b,2024-09-13T03:31:00.556976648Z,stop,496552172,59313404,1741,67746000,13,325865000,It can help treat Glaucoma by lowering the intraocular pressure ( IOP ) in people with glaucoma .,['MEDICAL_MARIJUANA'],1,['MEDICAL_MARIJUANA']
+"The correct label is HEALTH/PSYCHOLOGICAL_EFFECTS 
+
+
+Let me know if you have any other text snippets you'd like me to analyze!  I'm ready for more coding challenges.",gemma2:27b,2024-09-13T03:31:01.897618183Z,stop,1285239541,56202514,1741,66393000,42,1119568000,"So , there are lots of benefits to smoking pot with only a few non-beneficial issues .",['HARM'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"The correct label is GATEWAY_DRUG 
+
+
+Let me know if you have any other text snippets you'd like me to categorize! I'm ready for more. 
+",gemma2:27b,2024-09-13T03:31:03.254093922Z,stop,1252456214,53822384,1745,73759000,39,1037852000,There is no conclusive evidence that the drug effects of marijuana are causally linked to the subsequent abuse of other illicit drugs .,['GATEWAY_DRUG'],1,['GATEWAY_DRUG']
+"The correct label is DRUG_ABUSE 
+
+Let me know if you have more sentences to code!",gemma2:27b,2024-09-13T03:31:04.091377971Z,stop,823297861,55361213,1792,106411000,22,572971000,"R. Gil Kerlikowske , ONDCP Director , Remarks to the California Police Chiefs Conference : Why Marijuana Legalization Would Compromise Public Health and Public Safety ( March 4 , 2010 ) , available at http://www.ondcp.gov/news/speech10/030410_Chief.pdf .","['HEALTH/PSYCHOLOGICAL_EFFECTS', 'COMMUNITY/SOCIETAL_EFFECTS']",1,['DRUG_ABUSE']
+"The correct label is NATIONAL BUDGET 
+",gemma2:27b,2024-09-13T03:31:04.57366642Z,stop,381029394,56287867,1737,62177000,9,217172000,War on drugs and imprisonment of people for non violent offences would be significantly reduced .,['DRUG_POLICY'],1,['NATIONAL_BUDGET']
+"The correct label is NATIONAL_BUDGET 
+
+
+Let me know if you have any other text snippets you'd like me to code! I'm ready for more.  
+",gemma2:27b,2024-09-13T03:31:05.821520549Z,stop,1188575255,54417978,1782,103054000,37,986297000,"In her testimony before the committee , Dr. Pacula stated that prohibition raises the cost of production by at least 400 percent and that legalizing marijuana would cause the price of marijuana to fall considerably — much more than the 50 percent price reduction incorporated into the state ’s revenue model .",['NATIONAL_BUDGET'],1,['NATIONAL_BUDGET']
+"The correct label is HARM 
+
+
+Let me know if you'd like to try another example!",gemma2:27b,2024-09-13T03:31:06.623081666Z,stop,742453339,56803450,1742,67958000,22,570849000,"Even without the federal prohibition , most reputable producers would not survive the tort liability from such a dangerous product .",['HARM'],1,['HARM']
+"The correct label is HEALTH/PSYCHOLOGICAL_EFFECTS 
+",gemma2:27b,2024-09-13T03:31:07.300489985Z,stop,579962991,60350300,1754,74149000,14,355992000,"The endocannabinoid system influences our immune system , protects nerve cells from premature death , and influences mood , memory , appetite , sleep , sensation , and movement .",['MEDICAL_MARIJUANA'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"The correct label is **COMMUNITY/SOCIETAL_EFFECTS** 
+
+Let me know if you have any other text snippets you'd like coded!  I'm ready. 
+",gemma2:27b,2024-09-13T03:31:08.585927423Z,stop,1270467255,39096667,1732,51988000,41,1090281000,Legalization wo n’t lead to increased use .,['COMMUNITY/SOCIETAL_EFFECTS'],1,['COMMUNITY/SOCIETAL_EFFECTS']
+"The correct label is DRUG_POLICY 
+",gemma2:27b,2024-09-13T03:31:09.076926555Z,stop,431854683,60253628,1758,79690000,10,245129000,By far the best option is to commit itself seriously to the federal approach and pursue a strategy that attempts to prevent illegal drug use in the first place and reduce the number of drug users .,['DRUG_POLICY'],1,['DRUG_POLICY']
+"The correct label is CHILD_AND_TEEN_SAFETY 
+
+
+Let me know if you'd like to try another example!",gemma2:27b,2024-09-13T03:31:10.021041391Z,stop,888704642,57097667,1756,75517000,27,709424000,"Teen marijuana use has fallen slightly over the past five years , at a time when four states and the District of Columbia have legalized marijuana and 23 others allow medical use .","['CHILD_AND_TEEN_SAFETY', 'MEDICAL_MARIJUANA']",1,['CHILD_AND_TEEN_SAFETY']
+"The correct label is HARM 
+
+Let me know if you have more text snippets to code! I'm ready. 
+",gemma2:27b,2024-09-13T03:31:11.075931176Z,stop,959335657,58047432,1752,76087000,28,736484000,"The high itself does n’t inspire violence , and there is no real case to be made that smoking pot causes one to go on to worse crimes .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HARM']
+"The correct label is **ILLEGAL_TRADE** 
+
+Let me explain why this coding framework works well for analyzing arguments about marijuana legalization:
+
+
+* **Specificity:** Each aspect focuses on a distinct sub-topic within the broader debate. This helps avoid ambiguity and ensures consistent labeling.
+* **Contextual Understanding:** The codebook provides detailed explanations and example terms, enabling coders to grasp the nuances of each aspect.
+
+For your last input, ""Many people argue that only drug dealers should be fought and not the drug users themselves,""  the focus is on who should be targeted in law enforcement efforts related to marijuana. This aligns directly with the concept of **ILLEGAL_TRADE**, as it addresses the issue of criminal activity associated with the distribution and sale of marijuana. 
+
+Let me know if you have any other examples you'd like me to analyze!",gemma2:27b,2024-09-13T03:31:16.065272791Z,stop,4974193850,55552939,1738,57561000,175,4771997000,Many people argue that only drug dealers should be fought and not the drug users themselves .,['ILLEGAL_TRADE'],1,['ILLEGAL_TRADE']
+"The correct label is **GATEWAY_DRUG** 
+
+
+Let me know if you have any more text snippets you'd like me to analyze!",gemma2:27b,2024-09-13T03:31:17.190281546Z,stop,1021685987,56028360,1745,73541000,32,846453000,"Legalization , then , could increase societal and financial costs for treating those who are introduced to heavier drugs by smoking marijuana .","['NATIONAL_BUDGET', 'GATEWAY_DRUG']",1,['GATEWAY_DRUG']
+"The correct label is DRUG_ABUSE 
+
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-13T03:31:18.270590611Z,stop,1022585551,55634720,1745,73903000,29,762414000,Medical researchers at Columbia University found that drivers who had used marijuana were more than twice as likely to have a car crash .,['DRUG_ABUSE'],1,['DRUG_ABUSE']
+"The correct label is **NATIONAL_BUDGET**, **COMMUNITY/SOCIETAL_EFFECTS** 
+
+
+Let me know if you'd like to try another example!  
+",gemma2:27b,2024-09-13T03:31:19.527929974Z,stop,1199088767,64886417,1778,101262000,37,986887000,"Borghesani added , “ What I think the archdiocese is missing is the terrible harm that ( marijuana ) prohibition has done to people of color , to people who have chosen a substance that is less dangerous than alcohol and have had their lives ruined because they ’ve been arrested . ”","['LEGAL_DRUGS', 'COMMUNITY/SOCIETAL_EFFECTS']",2,"['NATIONAL_BUDGET', 'COMMUNITY/SOCIETAL_EFFECTS']"
+"The correct label is **HEALTH/PSYCHOLOGICAL_EFFECTS** 
+
+
+Let me know if you have any other text snippets to code!",gemma2:27b,2024-09-13T03:31:20.513122651Z,stop,928509920,58421851,1741,63604000,29,762129000,"Marijuana use is associated with cognitive difficulties and influences attention , concentration , and short-term memory .",['HEALTH/PSYCHOLOGICAL_EFFECTS'],1,['HEALTH/PSYCHOLOGICAL_EFFECTS']
+"The correct label is MEDICAL_MARIJUANA 
+
+Let me know if you'd like to try coding some more examples! I'm ready when you are.",gemma2:27b,2024-09-13T03:31:21.7867118Z,stop,1174113349,62089484,1743,68224000,36,954820000,There have been a handful of polls over the last year and all of them show overwhelming support for medical marijuana .,['MEDICAL_MARIJUANA'],1,['MEDICAL_MARIJUANA']
+"The correct label is DRUG_ABUSE 
+",gemma2:27b,2024-09-13T03:31:22.275346682Z,stop,473399923,56377489,1733,55105000,11,272320000,"In fact , compared to alcohol , marijuana is not safe .","['LEGAL_DRUGS', 'HARM']",1,['DRUG_ABUSE']

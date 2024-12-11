@@ -1,0 +1,1664 @@
+response,model,created_at,done_reason,total_duration,load_duration,prompt_eval_count,prompt_eval_duration,eval_count,eval_duration,input_text,gold_label,label_count,mentioned_labels
+"Here's why the label **ECONOMIC_IMPACT** is the best fit for this text:
+
+1. **Focus on Consumption:** The passage explicitly mentions how a minimum wage increase ""stimulates consumption"". This directly relates to economic activity and spending patterns within an economy.
+2. **Money Flow:**  The statement explains that increased wages allow low-paid workers to spend more, leading to ""more money into the economy."" This highlights the impact on overall economic circulation and growth. 
+3. **Supporters' Argument:** The text presents an argument made by supporters of minimum wage, indicating a discussion about the potential positive economic consequences of such a policy.
+
+Therefore, **ECONOMIC_IMPACT** accurately captures the core theme of this passage. 
+
+
+",gemma2:27b,2024-09-13T08:42:55.204015393Z,stop,5256947649,60705486,1026,943513000,153,4121772000,Supporters of minimum wage also believe that a minimum wage stimulates consumption and thus puts more money into the economy by allowing low paid workers to spend more .,['ECONOMIC_IMPACT'],1,['ECONOMIC_IMPACT']
+"Let's analyze the text and determine the appropriate label:
+
+1. **Expert Source:** The quote comes from Seth Zimmerman, PhD, an Assistant Professor of Economics at a renowned university. This establishes the context as academic and focused on economic principles.
+2. **""Labor Market Rigidities"":** This phrase indicates a discussion about how minimum wage laws might create obstacles or inefficiencies in the labor market. 
+3. **Impact on Economic Mobility:** The statement specifically mentions that these rigidities ""make it more difficult for people to move up the economic ladder.""
+
+Based on this analysis, the correct label is **ECONOMIC_IMPACT**.  The text focuses on how minimum wage laws can affect the fluidity and opportunities within the labor market, which directly ties into broader economic outcomes and individuals' potential for economic advancement. 
+
+
+",gemma2:27b,2024-09-13T08:43:00.801416672Z,stop,5550702902,55242922,1026,946238000,167,4503156000,"Seth Zimmerman , PhD , Assistant Professor of Economics at the University of Chicago , stated : "" minimum wage laws can lead to labor market rigidities that make it more difficult for people to move up the economic ladder .",['MOTIVATION/CHANCES'],1,['ECONOMIC_IMPACT']
+"The correct label for this text is **ECONOMIC_IMPACT**. Here's why:
+
+* **Focus on Labor Costs and Prices:** The text directly connects higher labor costs (resulting from things like minimum wage increases) with increased prices for goods and services. This is a core economic relationship.
+
+* **Impact on Consumers:**  It further emphasizes that these price increases disproportionately affect consumers with low incomes, highlighting the distributional consequences of such economic shifts.
+
+
+Let me know if you have any other text snippets you'd like me to analyze! 
+",gemma2:27b,2024-09-13T08:43:04.932279367Z,stop,4082410556,54919975,1026,945312000,113,3039272000,"Discussing the fact that higher labor costs often cause higher prices , Christina writes “ Often , the customers paying those prices — including some of the diners at McDonald ’s and the shoppers at Walmart — have very low family incomes .",['PRICES'],1,['ECONOMIC_IMPACT']
+"Let's analyze why **EMPLOYMENT** is the right label for this text:
+
+1. **Hiring Costs:** The text focuses on the increased cost of hiring ""younger and low-skill workers"" as a consequence of raising the minimum wage. 2. **Direct Impact on Labor Market:** This statement directly addresses the relationship between wages and employment, a key aspect within the **EMPLOYMENT** category.
+
+3. **Specific Worker Groups:**  Mentioning ""younger and low-skill workers"" highlights potential impacts on specific segments within the labor market.
+
+
+
+Therefore, the label **EMPLOYMENT** accurately captures the essence of the text.",gemma2:27b,2024-09-13T08:43:09.489653877Z,stop,4510494878,57903485,1026,944396000,129,3464851000,-SKILLED Raising the wage will make it more expensive to hire younger and low-skill workers .,['LOW-SKILLED'],0,[]
+"Let's analyze why the label **BUSINESS_IMPACTS** is fitting for this text:
+
+1. **Focus on Small Business Owners:** The text centers around the perspective of small business owners, a key stakeholder group within the economy.
+
+2. **Direct Benefits to Businesses:**  The survey results explicitly state that businesses would benefit from a higher minimum wage through ""lower employee turnover, increased productivity and customer satisfaction."" These are all outcomes directly impacting business performance and profitability.
+
+3. **No Broader Economic Discussion:** While minimum wage influences the broader economy, this specific text focuses on how it affects individual businesses rather than making generalized statements about economic impact.
+
+
+Therefore,  **BUSINESS_IMPACTS** is the most accurate label.",gemma2:27b,2024-09-13T08:43:14.690559491Z,stop,5109174423,56661177,1026,944809000,149,4018014000,"A 2014 survey found that 53 % of small business owners believed that "" with a higher minimum wage , businesses would benefit from lower employee turnover and increased productivity and customer satisfaction . ""","['TURNOVER', 'MOTIVATION/CHANCES']",0,[]
+"The text focuses on the relationship between minimum wage and employment. 
+
+Let's break it down:
+
+* **""increasing the minimum wage""**: This clearly refers to a policy change affecting wages.
+* **""increases the number of unemployed workers who find jobs""**:  This statement directly addresses the impact of minimum wage on employment levels, specifically suggesting that it could lead to more job opportunities for unemployed individuals.
+
+Therefore, the correct label is **EMPLOYMENT**. 
+
+
+",gemma2:27b,2024-09-13T08:43:18.415843021Z,stop,3676414501,56386092,1026,936740000,97,2595001000,But no one argues that increasing the minimum wage increases the number of unemployed workers who find jobs .,['UN/EMPLOYMENT_RATE'],0,[]
+"The text discusses the exploitation of undocumented immigrants to suppress wages and prevent unionization. This aligns with the **LABOR_MARKET** aspect. 
+
+Here's why:
+
+* **Exploitation:** The phrase ""been using undocumented immigrants...to keep wages down"" clearly points towards unfair labor practices aimed at reducing worker compensation.
+* **Union Suppression:**  The mention of ""unions out"" further indicates a direct impact on the dynamics of the labor market and workers' collective bargaining power. 
+
+Therefore, the correct label is **LABOR_MARKET**.",gemma2:27b,2024-09-13T08:43:22.586742055Z,stop,4082717631,56753401,1026,944661000,113,3035379000,"They 've been uusing undocumented immigrants for DECADES ( in violation of the law ) to keep wages down , and unions out .",['CAPITAL_VS_LABOR'],0,[]
+"The correct label is **INEQUALITY**. Here's why:
+
+1. **Focus on Income Inequality:** The text explicitly states that the US has ""one of the highest levels of income inequality"" among OECD countries. 2. **Comparison with Other Countries:**  Providing a list of countries with higher income inequality further emphasizes the discussion around income disparities. 3. **Relevance to Codebook:** This aligns directly with the definition of  **INEQUALITY**, which focuses on the distribution of wealth and income within a society.
+
+
+",gemma2:27b,2024-09-13T08:43:26.540536899Z,stop,3907036052,59276960,1026,940630000,107,2863945000,"Among the 34 Organisation for Economic Cooperation and Development ( OECD ) member countries , the United States has one of the highest levels of income inequality , with only Chile , Mexico , and Turkey having higher levels of income inequality .",['SOCIAL_JUSTICE/INJUSTICE'],0,[]
+"Let's analyze why ""ECONOMIC_IMPACT"" is the best label for this text:
+
+1. **Direct Link to Wages and Economy:** The text explicitly states that increased wages (""money that was paid in the form of higher wage"") would be spent, leading to positive economic consequences (""improve the economy""). 2. **Focus on Economic Cycle:**  The statement illustrates a fundamental economic principle: when people have more money (due to higher wages), they spend it, which stimulates demand and boosts the economy.
+
+Therefore, the correct label is **ECONOMIC_IMPACT**.
+
+
+",gemma2:27b,2024-09-13T08:43:30.775686357Z,stop,4188339375,56388264,1026,945292000,117,3142383000,Of course that money that was paid in the form of higher wage would be funneled back into the economy which was improve the economy .,['ECONOMIC_IMPACT'],1,['ECONOMIC_IMPACT']
+"Let's analyze why the best label here is **WAGES**:
+
+* **Focus on Raises:** The text explicitly mentions ""median raise,"" directly referencing wage increases.
+* **Quantitative Description:**  The statement quantifies the raise (""just 10 percent"") emphasizing the numerical aspect of wages.
+* **Contextual Clue:** The phrase ""kind of a pittance"" implies an evaluation of the adequacy of the raise, further reinforcing its connection to wages.
+
+
+Let me know if you'd like to analyze any more text snippets!",gemma2:27b,2024-09-13T08:43:34.929469128Z,stop,4066003206,56467056,1026,944579000,111,2978287000,"But the median raise for those lucky enough to get one was just 10 percent — which is to say , kind of a pittance , in terms of actual dollars and cents .",['SOCIAL_JUSTICE/INJUSTICE'],0,[]
+"The text discusses how an increase in minimum wage could lead to broader wage adjustments within companies. This directly relates to **ECONOMIC_IMPACT** because it explores:
+
+* **Wage Scale Adjustments:** Companies adjusting entire wage scales upwards indicates a ripple effect beyond just entry-level positions. 
+* **Potential Consequences:** Such adjustments have implications for labor costs, pricing strategies, and overall economic activity.
+
+Therefore, the correct label is **ECONOMIC_IMPACT**.",gemma2:27b,2024-09-13T08:43:38.507630383Z,stop,3529367684,56428656,1026,944926000,91,2438355000,"( Another 11.1 million might theoretically benefit if companies adjusted their whole wage scales upwards , which is what the light blue section on the chart shows .",['SOCIAL_JUSTICE/INJUSTICE'],1,['ECONOMIC_IMPACT']
+"The text discusses the effectiveness of raising the minimum wage as a tool for poverty reduction. This clearly falls under the **WELFARE** category as it analyzes a policy's impact on poverty levels, a key aspect of social welfare systems. 
+
+
+Let me know if you'd like to analyze more examples!",gemma2:27b,2024-09-13T08:43:41.323443793Z,stop,2722191027,57060570,1026,944245000,63,1676504000,"Furthermore , increasing the minimum wage has not proven to be effective at lowering the poverty rate , according to the business-backed nonprofit Employment Policies Institute .",['SOCIAL_JUSTICE/INJUSTICE'],1,['WELFARE']
+"Here's why the label **ECONOMIC_IMPACT** fits best for this text:
+
+1. **Direct Relationship:** The statement explicitly discusses the relationship between ""minimum wages"" and ""employment,"" two key economic indicators. 
+
+2. **Negative Association:**  The phrase ""negative association"" implies an analysis of whether raising minimum wage leads to job losses, a core concern within discussions about economic impact.
+
+3. **Empirical Evidence:** The use of ""the authors found"" suggests a research-based finding about the economic consequences of minimum wage policies.
+
+
+Let me know if you have any other text snippets you'd like me to analyze! 
+",gemma2:27b,2024-09-13T08:43:46.109374518Z,stop,4697002752,54812460,1026,935100000,133,3575634000,"The authors found "" little or no evidence of a negative association between minimum wages and employment . """,['UN/EMPLOYMENT_RATE'],1,['ECONOMIC_IMPACT']
+"The correct label for this text is **LABOR_MARKET**. Here's why:
+
+* **Focus on Worker Benefits:** The sentence explicitly discusses ""worker benefits"" such as paid vacation, parking reimbursement, and gym memberships. These are all elements directly related to the labor market. 
+* **Implication of Change:**  The phrase ""another casualty here could be..."" suggests a potential negative impact on worker benefits due to some external factor (likely a minimum wage increase). This emphasizes the dynamic relationship between wages, benefits, and the overall labor market.
+
+Let me know if you have any other text snippets you'd like to analyze! 
+",gemma2:27b,2024-09-13T08:43:50.754296834Z,stop,4597381623,56948710,1026,944548000,132,3549615000,"Another casualty here could be worker benefits , such as paid vacation , reimbursed parking , or even gym memberships .",['MOTIVATION/CHANCES'],0,[]
+"The correct label for this text is **WELFARE**. Here's why:
+
+* **Focus on Self-Sufficiency:** The phrase ""helping people, especially families, become more self-sufficient"" directly aligns with the goals of social safety net programs and welfare initiatives. 
+* **Shift in Focus:** The mention of a ""change in focus"" suggests an evolution in policy or approach towards assisting individuals and families, which is a key characteristic of welfare discussions.
+
+While the text doesn't explicitly mention specific welfare programs, its emphasis on enabling self-sufficiency strongly indicates a connection to the broader concept of welfare support. 
+",gemma2:27b,2024-09-13T08:43:55.402889044Z,stop,4558110777,56758475,1026,944714000,129,3466611000,"Over time , the focus changed to helping people , especially families , become more self-sufficient .",['SOCIAL_JUSTICE/INJUSTICE'],1,['WELFARE']
+"The correct label for this text is **ECONOMIC_IMPACT**. Here's why:
+
+* **Focus on Employment:** The text discusses the potential impact of a minimum wage increase on employment, specifically mentioning job losses. 
+* **Reference to Economic Model:**  The phrase ""Econ 101 model"" indicates a discussion rooted in economic theory and its predictions about labor markets.
+* **Implication for the Economy:**  Job losses directly affect unemployment rates and overall economic productivity, making it an issue of economic impact.
+
+
+Let me know if you have any other text snippets you'd like me to analyze! 
+",gemma2:27b,2024-09-13T08:43:59.978642037Z,stop,4528493715,53580773,1026,943997000,128,3441045000,"According to the Econ 101 model of the world , increasing the minimum wage should cost some people their jobs .",['UN/EMPLOYMENT_RATE'],1,['ECONOMIC_IMPACT']
+"The correct label for this input is **HISTORICAL_CONTEXT**. Here's why:
+
+* **Reference to a Past Event:** The text explicitly mentions the ""1968 minimum wage"" which is a specific historical point in time. 
+* **Comparison to Present Day:**  It then compares this past minimum wage to its equivalent value in ""real 2014 dollars,"" further emphasizing the historical context and changes over time.
+* **Establishing a Baseline:** This information serves as a historical baseline for understanding the evolution of minimum wage values, making it relevant to discussions about current minimum wage debates. 
+
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-13T08:44:05.01696926Z,stop,4949046566,56281406,1026,944363000,145,3901256000,"The 1968 minimum wage , to take a high-water mark , was , in real 2014 dollars , $ 10.95 an hour .",['SOCIAL_JUSTICE/INJUSTICE'],0,[]
+"Let's analyze why the correct label for this text is **CORPORATE_POWER**:
+
+1. **Focus on Large Companies:** The statement specifically mentions ""large companies"" and their profit margins. This centers the discussion around the power and financial capacity of corporations.
+
+2. **Ability to Absorb Wage Increases:**  The phrase ""easily withstand an increase in wages without having to pass it on to the consumer"" suggests that these large companies possess significant financial leverage. They are portrayed as capable of absorbing higher labor costs without negatively impacting their pricing strategies.
+
+3. **Implication of Market Power:** The ability to dictate prices and absorb wage increases points towards a discussion about corporate power and its influence on market dynamics.  
+
+
+
+Therefore, the label **CORPORATE_POWER** best captures the essence of this statement.",gemma2:27b,2024-09-13T08:44:10.66088031Z,stop,5555520063,55358337,1026,944436000,164,4425706000,The profit margins that these large companies experience can easily withstand an increase in wages without having to pass it on to the consumer .,"['COMPETITION/BUSINESS_CHALLENGES', 'PRICES']",0,[]
+"The correct label for this text is **ECONOMIC_IMPACT**. Here's why:
+
+1. **Focus on Minimum Wage and Employment:** The text explicitly discusses the relationship between minimum wage and employment, stating that there's ""little or no evidence of a negative association."" This directly falls under the realm of economic impact.
+2. **Publication Selection Bias:** While mentioning ""publication selection,"" the core message is about the lack of a negative correlation between minimum wage and employment levels – a key economic indicator.
+
+
+Let me know if you have any other text snippets you'd like help labeling! 
+",gemma2:27b,2024-09-13T08:44:15.059052396Z,stop,4350389874,54563889,1026,945822000,123,3305309000,"Moreover , they concluded , "" Once this publication selection is corrected , little or no evidence of a negative association between minimum wages and employment remains . """,['UN/EMPLOYMENT_RATE'],1,['ECONOMIC_IMPACT']
+"Here's why the label **ECONOMIC_IMPACT** is accurate for this text:
+
+1. **Price Increase as a Response:** The statement focuses on Seattle employers planning to increase prices in response to the minimum wage hike. This directly indicates an economic consequence – inflation.
+
+2. **Impact on Consumer Costs:** Raising prices affects consumer spending power and overall purchasing ability, which are key elements of economic analysis.
+
+3. **Chain Reaction:**  The text implies a chain reaction within the economy: higher wages lead employers to raise prices, potentially affecting consumer demand and broader market dynamics.
+
+
+
+Therefore, the correct label is **ECONOMIC_IMPACT**.",gemma2:27b,2024-09-13T08:44:19.734156387Z,stop,4585671498,53934175,1026,947062000,130,3496366000,And 62 percent of Seattle employers responded in an initial survey before the wage hike took effect that they would likely raise prices .,['PRICES'],1,['ECONOMIC_IMPACT']
+"Let's analyze why the label **INEQUALITY** is the most fitting for this text:
+
+1. **Focus on Inequality:** The statement explicitly mentions ""America's high levels of inequality"" as the central topic.
+2. **Minimum Wage and Inequality:** It directly links the decline in the inflation-adjusted minimum wage to rising inequality, highlighting a key socioeconomic issue. 3. **Historical Context:**  Referring to the decrease since the 1980s adds weight to the argument about long-term trends contributing to inequality.
+
+Therefore, the label **INEQUALITY** accurately captures the essence of the text's message.
+
+
+",gemma2:27b,2024-09-13T08:44:24.419780159Z,stop,4637787167,56144355,1026,944628000,132,3547127000,A 2015 study found that the decrease in the inflation-adjusted value of the minimum wage since the 1980s has been a contributor to America 's high levels of inequality .,['SOCIAL_JUSTICE/INJUSTICE'],0,[]
+"The text focuses on the pricing decisions made by different types of hotels (franchised vs. non-franchised) in response to a potential change (presumably an increase in minimum wage).
+
+Here's why **ECONOMIC_IMPACT** is the correct label:
+
+* **Price Changes:** The core information is about anticipated increases in room rates, which directly reflect economic impacts.
+* **Business Decisions:** The text highlights how businesses (hotels) are making decisions based on economic factors (likely labor costs associated with minimum wage). 
+* **Market Response:**  The comparison between franchised and non-franchised hotels suggests a broader market response to potential changes in labor costs, further emphasizing the economic implications.
+
+
+
+Let me know if you have any other text snippets you'd like labeled!",gemma2:27b,2024-09-13T08:44:29.931118856Z,stop,5423520328,56264940,1026,935226000,163,4389244000,"And nearly 90 percent of franchised hotels said they would raise room rates , compared with 70 percent of nonfranchised hotels .","['COMPETITION/BUSINESS_CHALLENGES', 'PRICES']",1,['ECONOMIC_IMPACT']
+"The correct label for this text is **WELFARE**. 
+
+Here's why:
+
+* **""Hopelessly inadequate""**  strongly implies that the current wages are insufficient to meet basic needs. This directly connects to the concept of welfare, which aims to provide support for those who struggle financially.
+
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-13T08:44:33.341424557Z,stop,3320639059,55617657,1026,943500000,82,2191236000,Their present wages are hopelessly inadequate .,['SOCIAL_JUSTICE/INJUSTICE'],1,['WELFARE']
+"Let's analyze why **ECONOMIC_IMPACT** is the most suitable label for this text:
+
+1. **Minimum Wage and Inflation:** The sentence directly addresses economic policies – raising the minimum wage and indexing it to inflation. These are classic economic tools aimed at managing wages and purchasing power. 
+2. **Standard of Living:**  The phrase ""standard of living commensurate with the current economy"" emphasizes the impact on individuals' economic well-being within the broader context of the economy.
+
+Therefore, the text primarily focuses on the economic implications of minimum wage policies and their effect on workers' ability to afford a decent standard of living in a given economic environment.  
+",gemma2:27b,2024-09-13T08:44:38.096462842Z,stop,4708858726,55955924,1026,951720000,136,3656784000,Raising the minimum wage and indexing it to inflation would ensure that low-wage workers could adopt a standard of living commensurate with the current economy .,['SOCIAL_JUSTICE/INJUSTICE'],1,['ECONOMIC_IMPACT']
+"Let's analyze the text to determine the appropriate label:
+
+1. **Focus on Workforce Dynamics:** The text discusses the potential impact of a higher minimum wage on the composition of the workforce. It suggests that more experienced workers might be drawn to lower-wage jobs, potentially hindering entry for younger or less experienced individuals.
+2. **Relevance to Skills and Chances:** This scenario directly relates to the **[SKILLS/CHANCES]** aspect because it highlights how a policy change (minimum wage) could influence opportunities for different groups of job seekers based on their skill level and experience.
+
+Therefore, the correct label is **[SKILLS/CHANCES]**. 
+
+
+",gemma2:27b,2024-09-13T08:44:42.92170966Z,stop,4737867136,56081777,1026,936557000,136,3657611000,"-SKILLED • The possibility that a higher minimum wage would attract more experienced workers and keep them in lower-wage jobs longer , blocking young people or people with limited work experience from entry-level jobs .","['LOW-SKILLED', 'MOTIVATION/CHANCES']",1,['MOTIVATION/CHANCES']
+"The best label for this text is **EMPLOYMENT**. 
+
+Here's why:
+
+* **Focus on Employment Opportunities:** The statement directly discusses giving part-time minimum wage workers ""full-time opportunity."" This clearly relates to employment status and potential changes in work arrangements.
+* **Employer Perspective:**  The text mentions the employer's benefit of saving costs associated with hiring and training. This further emphasizes the employment context, highlighting the potential impact on both employers and employees. 
+
+While there might be tangential connections to other aspects like economic impact, the core focus of this statement lies within the realm of employment practices and opportunities.",gemma2:27b,2024-09-13T08:44:47.507251945Z,stop,4537380170,55250439,1026,943636000,128,3443135000,Part-time workers making minimum wage could be given full-time opportunity to help save an employer the cost of hiring and training new employees .,"['TURNOVER', 'MOTIVATION/CHANCES']",0,[]
+"Let's analyze why the best label for this text is **WELFARE**: 
+
+* **Implied Struggle:** The phrase ""make ends meet"" strongly suggests a situation where individuals are facing financial hardship and difficulty affording basic necessities.
+
+* **Underlying Assumptions:**  The question implies a belief that those struggling should be able to solve their own problems, potentially overlooking systemic factors that contribute to poverty and economic inequality.
+
+* **Connection to Social Safety Nets:** The text indirectly references the idea of people needing assistance to ""make ends meet,"" which aligns with the purpose of social safety net programs like welfare.
+
+
+Let me know if you'd like to analyze any more examples! 
+",gemma2:27b,2024-09-13T08:44:52.377828067Z,stop,4781777026,56671003,1026,935441000,139,3743698000,""" Why ca n't they just figure it out and make ends meet ? """,['SOCIAL_JUSTICE/INJUSTICE'],1,['WELFARE']
+"Let's analyze why **ECONOMIC_IMPACT** is the most suitable label for this text:
+
+1. **Purchasing Power:** The statement focuses on the erosion of the ""purchasing power"" of the minimum wage due to inflation. 
+2. **Inflation and Economy:** Inflation is a key economic indicator, directly impacting the value of money and its ability to purchase goods and services.
+
+3. **Minimum Wage and Economic Well-being:**  The decline in purchasing power highlights the connection between the minimum wage and the overall economic well-being of low-wage earners.
+
+Therefore, the correct label is **ECONOMIC_IMPACT**. 
+",gemma2:27b,2024-09-13T08:44:57.108806491Z,stop,4639426291,57758918,1026,935980000,131,3514131000,"Between July 2015 and the last increase in the minimum wage in 2009 , the federal minimum wage lost 8.1 % of its purchasing power to inflation .",['SOCIAL_JUSTICE/INJUSTICE'],1,['ECONOMIC_IMPACT']
+"Here's the breakdown for labeling this text as **ECONOMIC_IMPACT**:
+
+1. **Direct Statement on Economic Prospects:** The phrase ""that increasing the minimum wage so dramatically will damage the economic prospects..."" explicitly connects a policy change (minimum wage increase) with potential negative consequences for individuals' economic well-being. 
+2. **Impact on Millions:**  The text emphasizes the scale of the impact, stating it will affect ""millions of vulnerable people."" This reinforces the broad economic implications of the minimum wage increase.
+
+Therefore, the correct label is **ECONOMIC_IMPACT**. 
+",gemma2:27b,2024-09-13T08:45:01.397562664Z,stop,4241892846,55020486,1026,945490000,119,3196169000,I can think of only one good reason : that increasing the minimum wage so dramatically will damage the economic prospects of millions of vulnerable people .,"['COMPETITION/BUSINESS_CHALLENGES', 'UN/EMPLOYMENT_RATE']",1,['ECONOMIC_IMPACT']
+"Let's break down why **HOUSING** is the most suitable label for this text:
+
+1. **Focus on Affordability:** The core message revolves around the cost of renting apartments and whether a worker earning the minimum wage can afford them. 2. **Housing Types:**  The text specifically mentions ""one-bedroom"" and ""two-bedroom"" apartments, clearly indicating a discussion about housing options.
+3. **Financial Thresholds:** The report highlights specific hourly wages required to afford these apartments, emphasizing the financial aspect of housing accessibility.
+
+Therefore, the correct label is **HOUSING**. 
+
+
+",gemma2:27b,2024-09-13T08:45:05.926698798Z,stop,4437889677,56212303,1026,936601000,125,3355379000,"According to a 2015 report from the National Low Income Housing Coalition , a worker must earn at least $ 15.50 an hour ( over twice the federal minimum wage ) to be able to afford to rent a "" modest "" one-bedroom apartment , and $ 19.35 for a two-bedroom unit ( more than 2.5 times the minimum wage ) .",['SOCIAL_JUSTICE/INJUSTICE'],0,[]
+"Let's analyze why the label **LABOR RIGHTS** is most fitting for this text:
+
+1. **Emphasis on Labor:** The phrase ""first claims of labor"" immediately centers the discussion around the rights and entitlements of workers. 
+2. **Priority over Profit:**  The statement explicitly declares that labor's claims take precedence over those of owners seeking profit. This highlights a fundamental tension in labor relations and underscores the importance of worker well-being.
+
+3. **Living Wage as a Right:** The text directly connects the concept of a ""living wage"" with the inherent rights of workers, further solidifying the connection to **LABOR RIGHTS**.
+
+
+Therefore, the correct label is **LABOR RIGHTS**.",gemma2:27b,2024-09-13T08:45:10.869164611Z,stop,4894454308,55896867,1026,945782000,143,3846408000,"In 1940 , US Catholic Bishops stated : "" The first claims of labor , WHICH TAKES PRIORITY OVER ANY CLAIMS OF THE OWNERS TO PROFITS , respects the right to a living wage . """,['SOCIAL_JUSTICE/INJUSTICE'],0,[]
+"The correct label for this text is **WELFARE**. Here's why:
+
+* **Reliance on Minimum Wage:** The phrase ""many households are relying either fully or substantially on full-time, minimum-wage work to pay the bills"" directly indicates that a significant number of families depend on minimum wage earnings for their essential needs.
+* **Implication for Social Safety Nets:** This reliance suggests that without a sufficient minimum wage, these households would likely struggle to meet basic living expenses and might require assistance from social welfare programs.
+
+
+Let me know if you'd like me to analyze any other text snippets!",gemma2:27b,2024-09-13T08:45:15.411615111Z,stop,4447679110,54725811,1026,944896000,125,3359167000,"In other words , minimum-wage work is n’t just supplemental ; many households are relying either fully or substantially on full-time , minimum-wage work to pay the bills .",['YOUTH_AND_SECONDARY_WAGE_EARNERS'],1,['WELFARE']
+"Let's analyze why ""ECONOMIC_IMPACT"" is the right label for this text:
+
+1. **Focus on Minimum Wage and Economy:** The sentence explicitly discusses the relationship between increasing the federal minimum wage and its potential impact on the economy (""the economy will be adversely affected"").
+
+2. **Small Businesses as Economic Actors:**  The argument mentions small businesses and their ability to adapt to a higher minimum wage, highlighting how economic actors within the system might be affected.
+
+3. **Chain Reaction of Wage Increases:** The phrase ""subsequently increase all workers' wages"" suggests a potential ripple effect across the economy, further emphasizing the broader economic implications.
+
+
+Therefore, the correct label is **ECONOMIC_IMPACT**. 
+",gemma2:27b,2024-09-13T08:45:20.485897018Z,stop,5027755975,56897071,1026,951650000,146,3930064000,"Some argue that by increasing the federal minimum wage , however , the economy will be adversely affected due to small businesses not being able to keep up with the need to subsequently increase all workers wages .","['COMPETITION/BUSINESS_CHALLENGES', 'ECONOMIC_IMPACT']",1,['ECONOMIC_IMPACT']
+"The correct label for this text is **POLICY**. 
+
+Here's why:
+
+* **Discussion of Policy Tools:** The text compares two different policy approaches to addressing economic issues: a tax credit and raising the minimum wage.
+* **Political Considerations:** It highlights the political feasibility (""palatable"") of each approach, suggesting a focus on the policymaking process and potential public perception.
+* **Government Finances:**  The mention of ""federal coffers"" and how the minimum wage doesn't directly show up on government books points to a discussion of budgetary implications and financial mechanisms associated with different policies. 
+
+
+Let me know if you have any other text snippets you'd like me to label!",gemma2:27b,2024-09-13T08:45:25.451646254Z,stop,4869094788,55105300,1026,948548000,142,3820284000,"A tax credit is less politically palatable because it takes money directly out of federal coffers , while the minimum wage can be raised without it showing up directly on the government ’s books .",['WELFARE'],0,[]
+"The correct label for this text is **BUSINESS**. Here's why:
+
+* **Focus on Businesses:** The phrase ""forces businesses to get thinner"" directly refers to the impact of a minimum wage increase on businesses. 
+* **Implication of Cost Reduction:**  Getting ""thinner"" implies businesses need to reduce costs, often through layoffs or efficiency measures, in response to increased labor expenses from a higher minimum wage.
+
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-13T08:45:29.52603684Z,stop,3980472141,54874436,1026,951329000,106,2839223000,"In other words , one theory holds that increasing the minimum wage forces businesses to get thinner .","['COMPETITION/BUSINESS_CHALLENGES', 'UN/EMPLOYMENT_RATE']",0,[]
+"Let's analyze why the best label for this text is **WELFARE**:
+
+1. **Focus on Low-Skilled Workers:** The text specifically mentions ""low-skilled workers"" as beneficiaries of the minimum wage.
+
+2. **Guaranteed Minimum Payment:**  The phrase ""ensures...they will be paid a guaranteed minimum"" highlights the safety net function often associated with welfare policies. 
+3. **Encouragement to Work:** The statement emphasizes that the minimum wage encourages these workers to seek employment and become self-sufficient. This aligns with the goal of many welfare programs to help individuals transition into productive roles in society.
+
+While there might be economic implications related to a minimum wage, the text's primary focus is on how it functions as a form of support for vulnerable workers, making **WELFARE** the most suitable label. 
+
+
+",gemma2:27b,2024-09-13T08:45:35.286614039Z,stop,5714356054,55848970,1026,951538000,173,4663159000,A minimum wage ensures low-skilled workers that they will be paid a guaranteed minimum and encourages them to find work and provide for themselves .,"['SOCIAL_JUSTICE/INJUSTICE', 'MOTIVATION/CHANCES']",1,['WELFARE']
+"The text clearly advocates for raising the minimum wage and tying it to inflation. This directly relates to **SOCIAL_ISSUES**, as it discusses fairness towards American workers, a key social concern. 
+
+Here's why:
+
+* **Focus on Workers:** The phrase ""fair thing to do for American workers"" centers the discussion around the well-being of laborers.
+* **Social Justice:**  Tying the minimum wage to inflation implies a desire for economic justice and protection against the eroding effects of rising prices on low-wage earners.
+
+Therefore, **SOCIAL_ISSUES** is the appropriate label. 
+
+
+",gemma2:27b,2024-09-13T08:45:39.826553706Z,stop,4449161175,54558570,1026,951485000,125,3355430000,"Proponents of an increase argue that the fair thing to do for American workers is to increase the minimum wage and , ideally , tie it to inflation , thus removing future increases from the realm of politics .",['SOCIAL_JUSTICE/INJUSTICE'],0,[]
+"Let's break down why **ECONOMIC_IMPACT** is the appropriate label for this statement:
+
+1. **Minimum Wage and Inflation:** The text directly connects the minimum wage to inflation, stating that the minimum wage ""hasn't kept up with inflation."" This implies a discussion about the purchasing power of the minimum wage over time.
+2. **Economic Consequences:**  The lack of alignment between the minimum wage and inflation has significant economic consequences. It can lead to decreased living standards for low-wage workers, potentially impacting consumer spending and overall economic growth.
+
+Therefore, the correct label is **ECONOMIC_IMPACT**. 
+
+
+",gemma2:27b,2024-09-13T08:45:44.401324313Z,stop,4527977157,57316345,1026,944563000,128,3436393000,"No matter how you slice it , the minimum wage has n’t kept up with inflation .",['SOCIAL_JUSTICE/INJUSTICE'],1,['ECONOMIC_IMPACT']
+"Let's analyze why the label **ECONOMIC_IMPACT** fits this text excerpt:
+
+1. **Focus on Wage Floors:** The text explicitly mentions ""wage floors,"" which are essentially minimum wages set by policy or legislation. 2. **Employment as a Consequence:**  The core concern raised is that wage floors ""reduce employment."" This directly connects the economic policy (minimum wage) with a potential consequence in the labor market (employment levels).
+
+3. **Historical Context:** While the text mentions historical skepticism, it's still discussing the fundamental economic impact – the perceived relationship between minimum wage and employment.
+
+
+Therefore, the correct label is **ECONOMIC_IMPACT**.",gemma2:27b,2024-09-13T08:45:49.209780423Z,stop,4712399662,56032845,1026,952004000,136,3659119000,"Historically , economists ' scepticism was rooted in the worry that wage floors reduce employment .",['UN/EMPLOYMENT_RATE'],1,['ECONOMIC_IMPACT']
+"The text focuses on the opposition to minimum wage increases from entities representing corporate interests.  Therefore, the correct label is **POWER_DYNAMICS**.
+
+Here's why:
+
+
+* **Identifies Stakeholders:** The text clearly identifies ""those predisposed to defending the interests of corporate America"" as a group opposing the increase.
+* **Power Imbalance:** This implies a power dynamic between corporations (retailers and restaurants) and those advocating for minimum wage hikes (likely workers or labor unions). 
+* **Political Influence:** The phrase ""defending the interests"" suggests lobbying efforts or attempts to influence policy decisions, highlighting the role of power in shaping economic outcomes. 
+
+Let me know if you have any other text snippets you'd like labeled!",gemma2:27b,2024-09-13T08:45:54.586519468Z,stop,5285817845,55150576,1026,951488000,154,4148402000,But those predisposed to defending the interests of corporate America – including retailers and fast-food restaurants – oppose any increase .,"['COMPETITION/BUSINESS_CHALLENGES', 'CAPITAL_VS_LABOR']",0,[]
+"The correct label for this text is **BUSINESS_COSTS**. Here's why:
+
+1. **Direct Reference to Costs:** The text explicitly states that high employee turnover incurs ""costs"" for businesses. 
+2. **Specific Business Impacts:** It outlines the financial consequences of turnover, mentioning  ""recruiting and training new workers,"" which are direct business expenses.
+3. **Absence of Broader Economic Context:** The focus is on the internal costs faced by individual businesses rather than broader economic trends or impacts.
+
+
+
+Let me know if you have any more text snippets to analyze!",gemma2:27b,2024-09-13T08:45:58.930134973Z,stop,4295829081,57359068,1026,944726000,121,3249362000,High employee turnover costs businesses time and money in recruiting and training new workers .,"['COMPETITION/BUSINESS_CHALLENGES', 'TURNOVER']",0,[]
+"Let's analyze the text and determine the best label according to your codebook:
+
+* **Focus on Costs:** The sentence explicitly mentions ""costs of living"" going up.
+* **Implication for Minimum Wage Effectiveness:** The phrase ""then we may end up right back where we started"" implies a discussion about the potential ineffectiveness of raising the minimum wage if it doesn't keep pace with rising costs of living.
+
+Therefore, considering these points, the most suitable label is likely **ECONOMIC_IMPACT**.  The text discusses the relationship between minimum wage and the cost of living, which are key economic factors.
+
+
+",gemma2:27b,2024-09-13T08:46:03.520887377Z,stop,4501191666,56044499,1026,944575000,127,3412614000,"Overall , if costs of living go up , then we may end up right back where we started .",['PRICES'],1,['ECONOMIC_IMPACT']
+"The correct label for this text is **ECONOMIC_IMPACT**. Here's why:
+
+* **Focus on Cost Pass-Through:** The text discusses how businesses, specifically fast-food restaurants, would respond to a minimum wage increase by raising prices (""pass on...increased labor costs on to consumers""). This directly addresses the economic consequence of price adjustments.
+* **Broader Economic Implications:** The statement also suggests that other firms might follow suit (""other firms may do the same""), indicating a potential widespread impact on consumer prices and inflation, key elements of economic analysis.
+
+
+Let me know if you'd like to analyze more text snippets! 
+",gemma2:27b,2024-09-13T08:46:08.181583149Z,stop,4614404451,54890290,1026,944614000,131,3525077000,"A 2013 article by the Federal Reserve Bank of Chicago stated that if the minimum wage is increased , fast-food restaurants would pass on almost 100 % of their increased labor costs on to consumers and that other firms may do the same .",['PRICES'],1,['ECONOMIC_IMPACT']
+"The correct label for this text is **ECONOMIC_IMPACT**. Here's why:
+
+* **Price Increases:** The text explicitly states that the cost of raising the minimum wage will be ""passed on to consumers in the form of higher prices."" This directly addresses the impact on consumer purchasing power and inflation, key economic indicators.
+* **Employer Response:** The mention of employers needing to ""raise their wages"" highlights how businesses adapt to policy changes like minimum wage increases. These adaptations have ripple effects throughout the economy. 
+* **State-Specific Example:** While using Mississippi as an example, the text addresses a broader economic principle: the potential for minimum wage hikes to lead to price increases.
+
+
+
+Let me know if you'd like to analyze more examples!",gemma2:27b,2024-09-13T08:46:13.466761867Z,stop,5193969307,55699241,1026,944535000,154,4146331000,"In Mississippi , by contrast , many employers will have to raise their wages , and it ’s a safe bet that virtually all of the cost of this minimum wage hike will be passed on to consumers in the form of higher prices .",['PRICES'],1,['ECONOMIC_IMPACT']
+"Let's analyze why **ECONOMIC_IMPACT** is the most fitting label for this text:
+
+1. **Focus on Wages and Employment:** The text centers around a specific group (9 million people) earning a low hourly wage ($9/hour) in two states. This directly relates to labor market conditions and income levels, key drivers of economic activity.
+2. **""Immediate Effects"":**  The phrase ""immediate effects"" emphasizes the direct and observable consequences of the wage increases on the economy.
+
+3. **Quantitative Data:** Using the figure of 9 million people underscores the substantial scale of the impact. Changes affecting such a large workforce will inevitably have ripple effects throughout the economy.
+
+Therefore, the statement primarily addresses the **ECONOMIC_IMPACT** of minimum wage increases.  
+
+
+",gemma2:27b,2024-09-13T08:46:19.020840097Z,stop,5464426525,57345300,1026,943885000,161,4325483000,"With an estimated 9 million people making as little as $ 9/hour in these two states , the immediate effects of the wage increases are undeniable .",['SOCIAL_JUSTICE/INJUSTICE'],1,['ECONOMIC_IMPACT']
+"The correct label for this text is **EMPLOYMENT**. Here's why:
+
+* **Focus on Employers and Workers:** The statement discusses how an increased minimum wage might influence employers' decisions regarding hiring unskilled workers. 
+* **Impact on Employment:** The phrase ""squeezed out of the job market"" directly points to potential consequences for employment opportunities, particularly for unskilled individuals.
+
+While there are elements related to skills (**SKILLED**), the primary concern raised in the text is about the *effect* of a minimum wage increase on *employment* prospects. 
+
+
+",gemma2:27b,2024-09-13T08:46:23.287009269Z,stop,4218835546,56017790,1026,944849000,118,3174479000,"-SKILLED If the minimum wage is increased , employers might not want to invest as much money in unskilled workers , which can lead to those employees being squeezed out of the job market .","['LOW-SKILLED', 'UN/EMPLOYMENT_RATE']",0,[]
+"The correct label for this text is **EMPLOYMENT**. Here's why:
+
+* **Focus on Job Acquisition:** The speaker directly connects their ability to get jobs with the wage they receive.
+* **Implication of Wage Level:** The statement implies that a higher wage might have prevented them from getting those jobs, suggesting a connection between wage levels and employment opportunities. 
+* **Personal Experience:**  The use of ""I"" indicates a personal anecdote about their own employment experiences, further reinforcing the focus on **EMPLOYMENT**. 
+
+
+Let me know if you'd like to analyze more text snippets!",gemma2:27b,2024-09-13T08:46:27.649779665Z,stop,4315372718,55342914,1026,944777000,122,3269017000,But I would not have gotten those jobs if someone had to pay me a large amount of money .,['MOTIVATION/CHANCES'],0,[]
+"The correct label for this text is **LABOR_MARKET**. Here's why:
+
+* **Focus on Agreements:** The text centers around ""voluntary labor agreements"" between employers and employees. This is a core element of the labor market.
+* **Minimum Wage as a Constraint:** It argues that minimum wage laws *prevent* these agreements, highlighting how minimum wage regulations directly impact the dynamics of the labor market.
+* **Emphasis on Voluntary Exchange:** The phrase ""mutually advantageous"" emphasizes the concept of free market exchange within the labor market, which is a key principle in economic theory. 
+
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-13T08:46:32.610006513Z,stop,4869419054,54991137,1026,945205000,141,3781178000,"Minimum wage laws prevent mutually advantageous , voluntary labor agreements between employers and employees from taking place .",['GOVERNMENT'],0,[]
+"Let's break down why the label **ECONOMIC_IMPACT** fits this text:
+
+1. **Price Increase:** The statement clearly indicates a potential consequence of raising the minimum wage – an increase in the cost of products. 
+2. **Broader Economic Effect:** This price increase would ripple through the economy, affecting consumer spending, business profits, and potentially inflation.
+
+Therefore, the correct label is **ECONOMIC_IMPACT**. 
+
+
+",gemma2:27b,2024-09-13T08:46:36.14724019Z,stop,3490554064,57737841,1026,944252000,90,2398889000,Raising minimum wage can increase the cost of product .,['PRICES'],1,['ECONOMIC_IMPACT']
+"The correct label for this text is **ECONOMIC_PHILOSOPHY**. Here's why:
+
+1. **Quote Focus:** The text centers around a quote from Robert Dresser,  representing a specific viewpoint on economic policy. 
+2. **Opposition to Intervention:** Dresser's statement ""you cannot legislate a nation into prosperity"" expresses a belief that government intervention (through legislation) is ineffective or detrimental to achieving economic well-being.
+3. **Philosophical Stance:** This reflects a broader philosophical stance about the role of government in the economy, aligning with ideas like free market economics and limited government intervention. 
+
+
+Let me know if you have any other text snippets you'd like to analyze!",gemma2:27b,2024-09-13T08:46:41.237864808Z,stop,5000457087,54418303,1026,945747000,147,3952379000,"As Robert Dresser of the National Association of Manufacturers ( NAM ) — an anti-union organization of assorted businesses that fought various New Deal laws — told the congressmen : "" you can not legislate a nation into prosperity . ""","['GOVERNMENT', 'CAPITAL_VS_LABOR']",0,[]
+"The statement highlights that **reduced employee turnover** leads to increased profits for businesses. This directly relates to **BUSINESS IMPACT**.
+
+
+Let's break it down:
+
+* **""They can make more money...""**:  Indicates a positive financial outcome for businesses. 
+* **""...because less people are likely to quit.""**: Explains the reason behind the increased profitability – lower turnover rates.
+
+Therefore, the correct label is **BUSINESS_IMPACT**.",gemma2:27b,2024-09-13T08:46:44.897143268Z,stop,3567402088,55361697,1026,944544000,91,2429884000,This important because they can make more money because less people are likely to quit .,['TURNOVER'],0,[]
+"Let's analyze why the text should be labeled **MARKET_SOLUTIONS**:
+
+1. **""Private industry""** explicitly refers to businesses operating within a market economy.
+2. **""Free market""** directly points towards the principles of capitalism and self-regulation through supply and demand. 
+3. **""Already taking care of it""** implies that private sector actors are addressing a problem or need without government intervention.
+
+This statement strongly suggests a belief in the ability of market forces to solve social or economic issues, aligning with the definition of  **MARKET_SOLUTIONS**.",gemma2:27b,2024-09-13T08:46:49.224269033Z,stop,4279631673,55112881,1026,944584000,121,3235984000,Private industry and the free market are already taking care of it .,['GOVERNMENT'],0,[]
+"Here's why the label **JOBS/EMPLOYMENT** is accurate for this text:
+
+1. **Direct Impact on Jobs:** The statement explicitly mentions job losses (""let go thousands of workers"") as a consequence of a potential minimum wage increase.
+
+2. **Business Closure:** Jamie Richardson also states that White Castle would be forced to close ""almost half its stores"". This directly relates to the impact on employment opportunities within the company. 
+
+3. **Focus on Workforce:** The text centers around the potential consequences for the workforce of a fast-food chain, making **JOBS/EMPLOYMENT** the most fitting label. 
+
+
+",gemma2:27b,2024-09-13T08:46:53.816382449Z,stop,4502839695,56263199,1026,944169000,127,3412595000,"Jamie Richardson , MBA , Vice President of fast food chain White Castle , said that the company would be forced to close almost half its stores and let go thousands of workers if the federal minimum wage were raised to $ 15 .","['COMPETITION/BUSINESS_CHALLENGES', 'UN/EMPLOYMENT_RATE']",0,[]
+"The correct label for this text is **ECONOMIC_IMPACT**. Here's why:
+
+* **Discussion of Income Changes:** The phrase ""the middle class and poor would still earn more income collectively"" directly addresses the potential impact of a policy (presumably raising minimum wage) on the income levels of different socioeconomic groups. 
+* **Implication for Overall Economy:** While mentioning job losses, the text focuses on the net effect:  whether the increased earnings for the middle class and poor outweigh potential job losses. This analysis inherently considers the broader economic consequences of the proposed policy.
+
+
+
+Let me know if you have any other text snippets you'd like help labeling!",gemma2:27b,2024-09-13T08:46:58.534171192Z,stop,4688198050,56112585,1026,943328000,134,3598572000,"And even if there are job some losses , the math seems to suggest that the middle class and poor would still earn more income collectively in the deal .","['UN/EMPLOYMENT_RATE', 'SOCIAL_JUSTICE/INJUSTICE']",1,['ECONOMIC_IMPACT']
+"Let's analyze why the label **ECONOMIC_IMPACT** is fitting for this text:
+
+1. **Direct Link to Jobs:** The statement explicitly connects minimum wage increases to ""More opportunity for jobs."" This demonstrates a clear link to economic outcomes like employment. 
+
+2. **Mechanism of Impact:**  The text explains the mechanism by which this occurs: increased spending by minimum wage earners leads to higher business earnings, necessitating more hiring.
+
+3. **Focus on Economic Activity:** The overall focus is on how minimum wage influences economic activity through consumer spending and subsequent business growth.
+
+Therefore, the correct label for this text is **ECONOMIC_IMPACT**. 
+",gemma2:27b,2024-09-13T08:47:03.286897167Z,stop,4662187483,56177727,1026,944772000,135,3615426000,"More opportunity for jobs : If these minimum wage employees are spending more , then businesses are earning more and need to hire more employees to keep up with the increased sales from the minimum wage employees who are buying more .","['UN/EMPLOYMENT_RATE', 'ECONOMIC_IMPACT']",1,['ECONOMIC_IMPACT']
+"The correct label for this text is **LABOR_MARKET**. Here's why:
+
+* **Focus on Workers:** The text directly discusses how a higher minimum wage could influence the type of workers attracted to the labor market (""more efficient workers""). 
+* **Labor Pool Dynamics:** It explores the potential impact of a policy change (minimum wage increase) on the composition and efficiency of the workforce.
+
+
+Let me know if you'd like to analyze more text snippets!",gemma2:27b,2024-09-13T08:47:07.067792591Z,stop,3691891255,57675373,1026,935392000,96,2564816000,But it ’s possible that productivity also rises because the higher minimum attracts more efficient workers to the labor pool .,['COMPETITION/BUSINESS_CHALLENGES'],0,[]
+"The correct label for this text is **ECONOMIC_IMPACT**. Here's why:
+
+* **Focus on Consumer Prices:** The statement directly addresses the impact of a minimum wage increase on ""consumer prices.""  
+* **Mechanism Explained:** It explains how this price increase occurs – companies raising prices to offset higher labor costs. This demonstrates a clear understanding of economic cause-and-effect relationships.
+* **Broader Economic Consequence:** Changes in consumer prices have widespread implications for the economy, affecting inflation, purchasing power, and consumer behavior. 
+
+
+Let me know if you'd like me to analyze any other examples!",gemma2:27b,2024-09-13T08:47:11.560690726Z,stop,4444938759,56197389,1026,942485000,127,3402353000,"• An increase in consumer prices , driven by companies offsetting increased labor costs .",['PRICES'],1,['ECONOMIC_IMPACT']
+"Here's why the label **MOTIVATION/CHANCES** fits best for this text:
+
+1. **Emphasis on Skill Development:** The phrase ""develop skills"" directly points to a desire for personal growth and improvement. This aligns with the motivational aspect of the codebook category.
+
+2. **Trajectory Beyond Minimum Wage:** The statement ""quickly work your way out of minimum wage and up the pay scale"" highlights aspirations for career advancement and increased earning potential, further reinforcing the chances element. 
+
+3. **Goal-Oriented Language:** Phrases like ""the goal"" and ""quickly work your way out"" suggest a proactive mindset focused on achieving better opportunities.
+
+
+Let me know if you'd like to analyze any other text snippets!",gemma2:27b,2024-09-13T08:47:16.765562099Z,stop,5118306811,54461969,1026,944850000,150,4029068000,"The goal , then , is to get in at that wage , develop skills and quickly work your way out of minimum wage and up the pay scale .",['MOTIVATION/CHANCES'],1,['MOTIVATION/CHANCES']
+"Let's analyze the text and determine the appropriate label:
+
+1. **Focus on Solutions:** The text presents two potential solutions to address poverty: creating more jobs and raising earnings.
+
+2. **Poverty Reduction:** The ultimate goal is stated as ""reducing the national poverty rate"". This clearly indicates a focus on social welfare and economic inequality.
+
+3. **Comparison of Approaches:**  The statement compares the effectiveness of job creation versus wage increases in tackling poverty, suggesting a debate within the context of socioeconomic policy.
+
+
+Therefore, the most suitable label for this text is **WELFARE**. 
+",gemma2:27b,2024-09-13T08:47:21.096251454Z,stop,4282240667,54244415,1026,944491000,121,3238714000,Some suggest that creating more jobs for people who need them rather than raising earnings for people who already have them is a better solution for reducing the national poverty rate .,"['UN/EMPLOYMENT_RATE', 'SOCIAL_JUSTICE/INJUSTICE']",1,['WELFARE']
+"Let's break down why **ECONOMIC_IMPACT** is the most fitting label for this statement:
+
+1. **Direct Relationship:** The myth directly connects raising the minimum wage with a potential consequence – job losses. This relationship signifies an economic impact. 
+2. **Employment Impact:** Job losses are a key indicator of economic health and are often analyzed within the context of minimum wage debates.
+3. **Broader Implications:** While focused on job losses, this statement implicitly touches upon other potential economic effects like business costs, hiring practices, and overall market adjustments.
+
+Therefore, classifying this as **ECONOMIC_IMPACT** accurately reflects the core theme of the statement.",gemma2:27b,2024-09-13T08:47:25.890942258Z,stop,4704798712,55252957,1026,941653000,135,3618644000,Myth : Increasing the minimum wage will cause people to lose their jobs .,['UN/EMPLOYMENT_RATE'],1,['ECONOMIC_IMPACT']
+"You're absolutely right! The text focuses on how raising the minimum wage could lead to reduced reliance on social programs, potentially lowering taxes or allowing for funding reallocation. This aligns perfectly with the **WELFARE** category.
+
+It seems like you have a good understanding of how to apply the codebook and identify the relevant aspects within each text snippet. Keep up the great work!  
+",gemma2:27b,2024-09-13T08:47:29.117340032Z,stop,3179863151,56282193,1026,944340000,80,2133396000,Raising minimum wage means some of these people would be able to better support themselves without leaning as heavily on social programs and this would ultimately mean lower taxes or a reallocation of those funds to support other needs .,['WELFARE'],1,['WELFARE']
+"The text directly states that raising the federal minimum wage ""is an important part of strengthening the economy."" This clearly falls under the **ECONOMIC_IMPACT** category. 
+
+Here's why:
+
+* **Direct Economic Claim:** The statement explicitly connects raising the minimum wage with a positive economic outcome (""strengthening the economy"").
+* **Focus on Macroeconomic Effect:**  The phrase ""strengthening the economy"" refers to a broad, macroeconomic impact rather than a specific microeconomic consequence like job losses or price increases. 
+
+
+Let me know if you have any other text snippets you'd like help categorizing!",gemma2:27b,2024-09-13T08:47:33.648559052Z,stop,4439050063,55220348,1026,943747000,125,3345148000,Raising the federal minimum wage is an important part of strengthening the economy .,['ECONOMIC_IMPACT'],1,['ECONOMIC_IMPACT']
+"Let's analyze the text to determine the appropriate label:
+
+1. **Focus on Social Perception:** The phrase ""false sense of superiority"" highlights a judgment about social status and how some people perceive fast-food workers. 2. **Opposition to Wage Increase:**  The statement emphasizes that individuals are rejecting a wage increase *specifically* to maintain this perceived social advantage. 
+3. **Class Dynamics:** The text implicitly discusses the dynamics between different socioeconomic groups, with those opposed to the wage increase seemingly believing they are superior to fast-food workers.
+
+Therefore, the most fitting label for this text is **SOCIAL_PERCEPTION**.
+
+
+",gemma2:27b,2024-09-13T08:47:38.302429835Z,stop,4606422548,55109607,1026,945000000,131,3513727000,"Yes , there are actually people so hell-bent on denigrating fast food workers they are willing to give up an increase in their own hourly wage purely to preserve a false sense of superiority .",['SOCIAL_JUSTICE/INJUSTICE'],0,[]
+"The correct label for this text is **WELFARE**. Here's why:
+
+* **Subsidizing Companies:** The statement implies that taxpayers are indirectly supporting companies with low wages through social programs.  
+* **""Large, Poorly Paid Workforce"":** This phrase directly points to the issue of low-wage employment and its reliance on government assistance for workers to make ends meet. 
+
+
+Let me know if you have any other text snippets you'd like labeled!",gemma2:27b,2024-09-13T08:47:41.998501245Z,stop,3624393754,56537701,1026,942024000,97,2581763000,"As a result , we end up subsidizing companies like McDonald ’s or Walmart that have a large , poorly paid work force .",['WELFARE'],1,['WELFARE']
+"The correct label for this text is **WELFARE**. 
+
+Here's why:
+
+* **Focus on Poverty:** The statement directly addresses individuals ""who live in poverty."" This sets the context within the realm of social welfare and support systems.
+* **Employment Status:** It highlights that ""many people who live in poverty do not work."" This implies a reliance on alternative sources of income, often associated with welfare programs.
+* **Minimum Wage Irrelevance:** The phrase ""would thus be unaffected by an increase in the minimum wage"" further strengthens the connection to welfare. Since these individuals are not employed, their earnings (and potential increase through minimum wage) are irrelevant.
+
+Therefore,  the text primarily concerns those who rely on welfare systems rather than traditional employment, making **WELFARE** the most suitable label. 
+",gemma2:27b,2024-09-13T08:47:47.735553099Z,stop,5648362467,55968867,1026,943109000,168,4512758000,"First , many people who live in poverty do not work , and would thus be unaffected by an increase in the minimum wage .",['SOCIAL_JUSTICE/INJUSTICE'],1,['WELFARE']
+"Let's analyze the text to determine the appropriate label:
+
+1. **Focus on Job Creation:** The statement specifically mentions ""job creation"" as a result of having a higher minimum wage in a particular state. 
+
+2. **Comparison and Evidence:** It compares job creation in a state with a high minimum wage to the rest of the United States, citing news organizations as evidence.
+
+3. **Relevance to Economic Impact:** Job creation is a key indicator of economic health and growth.  
+
+Therefore, the correct label is **ECONOMIC_IMPACT**. 
+",gemma2:27b,2024-09-13T08:47:51.906454243Z,stop,4122750581,60418143,1026,946443000,115,3072323000,"In 2014 , supporters of minimum wage cited news organizations who reported the state with the highest minimum-wage garnered more job creation than the rest of the United States .",['UN/EMPLOYMENT_RATE'],1,['ECONOMIC_IMPACT']
+"Let's analyze why **EMPLOYMENT** is the correct label for this text:
+
+1. **Teenage Employment Index:** The text explicitly mentions the ""teenage employment index"" and its decline following a minimum wage increase. 2. **Focus on Employment Levels:**  The statement directly addresses the impact of the minimum wage increase on teenage employment levels (""significantly reduce teenage employment"").
+
+3. **Expert Opinion:** The inclusion of Casey B. Mulligan, an economics professor, adds credibility to the claim about the relationship between minimum wage and employment.
+
+
+
+Therefore, the text primarily focuses on the **EMPLOYMENT** aspect, specifically how changes in the minimum wage affect teenage employment rates.",gemma2:27b,2024-09-13T08:47:56.661411037Z,stop,4665786494,54915084,1026,935510000,134,3586604000,"-SKILLED Casey B. Mulligan , PhD , economics professor at the University of Chicago , stated that the teenage employment index fell sharply after the minimum wage increase of July 2009 ( a fall of about 8 % in three months , while the previous drop of 8 % took over a year ) : "" This suggests that the 2009 minimum-wage increase did significantly reduce teenage employment . """,['LOW-SKILLED'],0,[]
+"Let's analyze why **JOBS** is the most fitting label for this text:
+
+1. **Direct Impact on Employment:** The statement explicitly addresses the potential consequences of raising the minimum wage on job relocation (""encourage companies to outsource jobs""). 
+2. **Focus on Job Movement:**  The core concern revolves around the movement of jobs from one location (presumably the country where the minimum wage is being raised) to another with lower labor costs.
+
+Therefore, the text directly deals with the implications of a policy change (minimum wage increase) on the availability and location of **JOBS**. 
+
+
+",gemma2:27b,2024-09-13T08:48:01.062514352Z,stop,4354064837,59922193,1026,934414000,122,3268705000,Raising the minimum wage would encourage companies to outsource jobs to countries where costs would be lower .,['UN/EMPLOYMENT_RATE'],0,[]
+"The text directly states that raising the minimum wage leads to increased costs. This falls under the **ECONOMIC_IMPACT** category because it discusses the consequences of a minimum wage hike on economic factors like business expenses. 
+
+
+Let me know if you'd like to analyze more examples!",gemma2:27b,2024-09-13T08:48:03.718728707Z,stop,2565228861,64764295,1026,945830000,57,1510217000,Raise the min wage and costs increase .,['PRICES'],1,['ECONOMIC_IMPACT']
+"Let's analyze the text and determine the appropriate label:
+
+1. **Focus on Employment:** The statement explicitly mentions the impact of a minimum wage increase on ""total employment"".
+
+2. **Quantitative Impact:** The text provides a specific estimate (""reduce total employment by about 500,000 workers""). This quantitative analysis is indicative of an economic impact assessment.
+
+3. **Source Credibility:** Citing the nonpartisan Congressional Budget Office adds weight to the claim and suggests a more objective evaluation of the economic consequences.
+
+
+Therefore, the correct label for this text is **ECONOMIC_IMPACT**.",gemma2:27b,2024-09-13T08:48:08.256542276Z,stop,4448581368,56128123,1026,943943000,124,3317951000,"The nonpartisan Congressional Budget Office estimated that President Obama ’s proposed $ 10.10 wage , once fully implemented , “ would reduce total employment by about 500,000 workers . ”",['UN/EMPLOYMENT_RATE'],1,['ECONOMIC_IMPACT']
+"The text clearly focuses on **ECONOMIC_IMPACT**. Here's why:
+
+* **Price Increases:** The statement begins by discussing price increases (""Restaurants... raise their prices incrementally""). Price changes are a fundamental economic indicator.
+* **Profit Margins:**  Mentioning ""extremely healthy profit margins"" directly relates to the financial health of businesses, a key aspect of economic impact. 
+* **Implied Relationship:** The text implies that restaurants can absorb price increases without significantly affecting their profitability, suggesting an analysis of how minimum wage changes might influence pricing and overall economic performance in the sector.
+
+
+Let me know if you'd like to analyze more examples!",gemma2:27b,2024-09-13T08:48:12.942742183Z,stop,4638673005,58951549,1026,945208000,134,3589718000,"Restaurants ( and in particular fast food eateries ) raise their prices incrementally all the time , and the vast majority of them still have extremely healthy profit margins .","['COMPETITION/BUSINESS_CHALLENGES', 'PRICES']",1,['ECONOMIC_IMPACT']
+"Here's why the label **WELFARE** is appropriate for the given text:
+
+1. **Focus on Minimum Wage:** The statement directly refers to the potential negative impact of a minimum wage increase (""this price effect"").
+2. **Target Beneficiaries:** It explicitly mentions the people who are supposed to benefit from the minimum wage, implying a discussion about social welfare programs aimed at helping low-income individuals.
+3. **Unintended Consequences:**  The phrase ""may harm"" suggests that the intended positive effects of the minimum wage might not materialize and could even lead to adverse outcomes for the target group. This aligns with concerns often raised within the context of welfare policies.
+
+
+
+Therefore, the correct label is **WELFARE**.",gemma2:27b,2024-09-13T08:48:18.009404813Z,stop,5018162786,55796886,1026,944430000,148,3971718000,Thus this price effect may harm the very people whom a minimum wage is supposed to help . ”,['PRICES'],1,['WELFARE']
+"Let's analyze the text to determine the most appropriate label:
+
+1. **Focus on Income:** The text explicitly mentions the annual earnings of a minimum wage worker ($15,080) and compares it to the federal poverty level.
+
+2. **Poverty Level as Reference:**  The inclusion of the poverty level indicates a discussion about economic well-being and whether the minimum wage provides sufficient income to avoid poverty. 
+
+3. **Economic Impact on Individuals:** While the text mentions an economic figure (minimum wage), its primary focus is on how that wage translates into the economic reality for individuals – are they above or below the poverty line?
+
+
+Therefore, the most suitable label is **WELFARE**.  
+",gemma2:27b,2024-09-13T08:48:23.131130856Z,stop,5030582432,54800894,1026,944753000,147,3939729000,"At $ 7.25 per hour a minimum wage workers earns $ 15,080 per year , which is already greater than the federally determined poverty level .",['SOCIAL_JUSTICE/INJUSTICE'],1,['WELFARE']
+"You're absolutely right! The correct label for this text is **ECONOMIC_IMPACT**. Here's why:
+
+* **Focus on Employment and Prices:** The statement directly addresses potential consequences of a minimum wage increase on employment levels (""force employers to hire fewer people"") and consumer prices (""pass the new costs... by raising prices"").
+* **Connection to Economic Effects:** Both hiring decisions and price changes are fundamental aspects of economic activity.
+
+The text clearly discusses how a policy change (raising the minimum wage) could ripple through the economy, affecting businesses, consumers, and ultimately the overall economic landscape. 
+
+
+Let me know if you have any other text snippets you'd like to analyze!",gemma2:27b,2024-09-13T08:48:27.987340783Z,stop,4828437452,56643227,1026,943598000,141,3784193000,Opponents say raising the minimum wage will force employers to hire fewer people or pass the new costs on to consumers by raising prices on goods and services .,"['UN/EMPLOYMENT_RATE', 'PRICES']",1,['ECONOMIC_IMPACT']
+"You're absolutely right! The correct label for this text is **WELFARE**. Here's why:
+
+* **Poverty Focus:**  The text directly addresses poverty as a factor influencing school attendance. Teens ""who live in poverty"" are highlighted.
+
+* **Minimum Wage as Poverty Relief:** It proposes raising the minimum wage as a solution to lift families out of poverty.
+
+* **Impact on Education:** The intended outcome is improved school attendance for children, which is a key indicator of well-being and future opportunities often addressed within welfare discussions.
+
+
+
+Let me know if you have any more text snippets you'd like to analyze! 
+",gemma2:27b,2024-09-13T08:48:32.589127449Z,stop,4572667389,55286166,1026,934374000,132,3538801000,Teens who live in poverty are twice as likely to miss three or more days of school per month compared to those who do not ; thus raising the minimum wage and lifting families out of poverty would mean children would miss fewer school days .,"['SOCIAL_JUSTICE/INJUSTICE', 'MOTIVATION/CHANCES']",1,['WELFARE']
+"The label **ECONOMIC_IMPACT** is most suitable here's why:
+
+1. **""Structural Unemployment""**: This term directly refers to a type of unemployment caused by fundamental shifts in the economy, such as changes in technology or industry demand. 
+2. **Impact on Labor Market:**  Structural unemployment has significant consequences for the overall labor market and economic performance. It indicates a mismatch between available skills and job requirements, leading to reduced productivity and potential economic stagnation.
+
+Therefore, the text focuses on a specific economic consequence – structural unemployment – resulting from an unspecified action (likely related to minimum wage changes based on the context). 
+",gemma2:27b,2024-09-13T08:48:37.252938045Z,stop,4572871418,57227241,1026,944533000,130,3480745000,It creates a certain amount of structural unemployment .,['UN/EMPLOYMENT_RATE'],1,['ECONOMIC_IMPACT']
+"You're right! The text clearly falls under the **ECONOMIC_IMPACT** category. Here's why:
+
+* **Causality:** The sentence explicitly states a cause-and-effect relationship: increased demand for goods and services  → stimulates the economy → leads to job creation. 
+* **Macroeconomic Effects:** These are classic macroeconomic concepts – changes in consumer spending driving economic growth and employment.
+
+
+Let me know if you have any other text snippets you'd like to analyze!",gemma2:27b,2024-09-13T08:48:41.084235629Z,stop,3784450308,45406573,1026,945582000,101,2698444000,"This increased demand for goods and services tends to stimulate the economy which , in turn , leads to job creation .","['UN/EMPLOYMENT_RATE', 'ECONOMIC_IMPACT']",1,['ECONOMIC_IMPACT']
+"Here's why the label **WELFARE** is appropriate for this text:
+
+1. **Poverty Reduction:** The text explicitly states that raising the minimum wage would lead to ""fewer [families] living in poverty."" This directly relates to the goals of welfare systems, which aim to alleviate poverty and improve the well-being of low-income individuals and families.
+2. **Income Increase for Families:** The study's finding emphasizes a direct impact on family incomes, suggesting that raising the minimum wage could reduce their reliance on social safety nets and other forms of assistance typically provided by welfare programs.
+
+Therefore, the focus on poverty reduction and increased family income aligns strongly with the **WELFARE** category.",gemma2:27b,2024-09-13T08:48:46.084926531Z,stop,4910658075,53999426,1026,941851000,144,3867568000,"A 2014 study found that raising the Californian minimum wage to $ 13 an hour would increase the incomes of 7.5 million families , meaning fewer would live in poverty .",['SOCIAL_JUSTICE/INJUSTICE'],1,['WELFARE']
+"The correct label for this text is **EMPLOYMENT**. Here's why:
+
+* **Focus on Hiring:** The text explicitly mentions the likelihood of ""reducing hiring"" as a response to increased franchise costs.  
+* **Specific Sectors:** It highlights the impact on specific sectors (fast food and hotels), further emphasizing the connection to employment practices within those industries. 
+* **Quantitative Data:** The use of percentages (""more than 80 percent"", ""58 percent"") underscores the measurable impact on hiring decisions.
+
+Therefore, the text clearly falls under the **EMPLOYMENT** category.",gemma2:27b,2024-09-13T08:48:50.486431244Z,stop,4314616898,58005830,1026,935914000,119,3187830000,"This trend was more pronounced in the fast food and hotel sectors — more than 80 percent of franchised fast food owners said they would be more likely to reduce hiring , versus 58 percent of non-fast-food restaurant owners .",['UN/EMPLOYMENT_RATE'],0,[]
+"Let's analyze why **[EMPLOYMENT]** is the most suitable label for this text:
+
+1. **Focus on Employment:** The passage directly addresses the potential impact of wage increases on employment levels within a lumber company.
+
+2. **""Labor-saving machinery"":** This phrase explicitly indicates a shift towards automation or technological solutions to replace human workers. 
+3. **""Eliminating over half of [their] men"":**  The manager's statement clearly predicts job losses as a consequence of wage hikes exceeding a certain threshold.
+
+Therefore, the text primarily deals with the relationship between minimum wage and employment levels, making **[EMPLOYMENT]** the most accurate label. 
+
+
+",gemma2:27b,2024-09-13T08:48:55.320223403Z,stop,4786030180,56868635,1026,946696000,139,3737814000,"The manager of one Louisiana lumber company claimed that while the low cost of living in the South meant employers had n’t resorted to “ labor-saving machinery ” thus far , wage increases beyond a certain point would force them into doing so and “ eliminating over half of [ their ] men . ”",['UN/EMPLOYMENT_RATE'],0,[]
+"The text clearly states that raising the minimum wage would have a positive impact on **reducing inequalities based on race and gender**.  
+
+Therefore, the correct label is **SOCIAL_INEQUALITY**. 
+
+
+Let me know if you'd like to analyze more examples!",gemma2:27b,2024-09-13T08:48:57.926224315Z,stop,2517337804,57091149,1026,942344000,54,1428229000,A minimum wage increase would help to reduce race and gender inequality .,['SOCIAL_JUSTICE/INJUSTICE'],0,[]
+"Let's analyze why **WELFARE** is the appropriate label for this text:
+
+1. **Focus on Low-Income Family:** The text describes a ""single parent with two children"" earning minimum wage. This clearly identifies a low-income family situation.
+
+2. **Poverty Level Mention:**  The reference to ""living at 76 percent of the federal poverty level"" directly links the scenario to welfare and poverty thresholds.
+
+3. **Implication of Need for Support:** The text implies that this single parent's income is insufficient, suggesting a potential reliance on social programs or other forms of assistance for basic needs.
+
+
+Therefore, the label **WELFARE** accurately captures the core theme of the text.",gemma2:27b,2024-09-13T08:49:03.022325708Z,stop,5048953238,65191113,1026,943724000,147,3945832000,"According to a 2013 Congressional Research Service report , a single parent with two children who works full time at the current minimum wage would be earning around $ 15,000 and living at 76 percent of the federal poverty level .",['SOCIAL_JUSTICE/INJUSTICE'],1,['WELFARE']
+"The correct label for this text is **BUSINESS/INDUSTRY**. Here's why:
+
+* **Focus on Business Costs:** The statement directly discusses the ""absence of price effects"" and the ""relative unimportance of labor in a business’s cost structure."" This centers on how businesses manage their expenses, which is a core concern within the BUSINESS/INDUSTRY domain.
+* **Implication for Pricing Decisions:** The phrase ""absence of price effects"" suggests that changes in labor costs may not significantly influence the prices businesses charge for their products or services. This insight relates to pricing strategies and competitive dynamics within an industry. 
+
+Let me know if you have any more text snippets you'd like analyzed!",gemma2:27b,2024-09-13T08:49:07.965980691Z,stop,4853899417,57358877,1026,944982000,142,3806261000,"However , the researchers note , “ in other cases … the absence of price effects shows the relative unimportance of labor in a business ’s cost structure . ”",['PRICES'],0,[]
+"Let's analyze why the label **EDUCATION** is fitting for this text excerpt:
+
+1. **Focus on Teenage School Enrollment:** The core of the passage is about how a change in the minimum wage affects ""teenage school enrollment."" This directly points to educational outcomes. 2. **Quantitative Impact:**  The study quantifies the relationship, stating that a 10% minimum wage increase led to a 2% decrease in teenage enrollment. This precise measurement further emphasizes the link to education.
+3. **Age Specificity:** The text explicitly mentions ""teens"" and highlights legal contexts where they can leave school early (before 18). This underscores the educational stage being examined.
+
+
+Therefore, the label **EDUCATION** is the most suitable choice.",gemma2:27b,2024-09-13T08:49:13.319409327Z,stop,5263996788,56105788,1026,944222000,154,4132524000,"According to a 2003 study by economists David Neumark , PhD , and William Wascher , PhD , in states where teens can leave school before 18 , a 10 % increase in the minimum wage caused teenage school enrollment to drop by 2 % .",['MOTIVATION/CHANCES'],0,[]
+"Here's why the label **ECONOMIC_IMPACT** is the most fitting for this text:
+
+1. **Direct Statement on Employment:** The text explicitly mentions the potential impact of raising minimum wages on ""employment."" This is a key economic indicator.
+2. **Cause-and-Effect Relationship:** It suggests a causal link between excessively high minimum wages and a reduction in employment opportunities (""choke off employment"").
+
+3. **Focus on Economic Consequences:**  The statement emphasizes the unintended negative consequences for workers, highlighting that the policy might harm those it aims to help. This underscores the broader economic implications of minimum wage decisions. 
+
+
+
+Let me know if you'd like to analyze any other text snippets!",gemma2:27b,2024-09-13T08:49:18.240452981Z,stop,4879594323,54174673,1026,945298000,143,3834713000,"Raise minimum wages too high , and you ’ll eventually choke off employment , harming the very people that the policy is intended to help .",['UN/EMPLOYMENT_RATE'],1,['ECONOMIC_IMPACT']
+"The text discusses a complex interplay between minimum wage, housing supply, and rental prices. Here's why **ECONOMIC_IMPACT** is the best fit:
+
+1. **Specific Economic Effect:** The text clearly states that raising the minimum wage *without* addressing housing shortages would lead to an increase in rental prices. This is a direct economic consequence.
+2. **Market Dynamics:**  The explanation involves market forces – increased demand (from higher-earning minimum wage workers) meeting limited supply (housing units). This dynamic is central to understanding economic impact.
+
+3. **Source Credibility:** The reference to researchers from UCLA lends weight to the analysis, further reinforcing the text's focus on economic consequences. 
+
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-13T08:49:23.797746248Z,stop,5469397125,55323460,1026,944907000,163,4382106000,"In cities such as Los Angeles with a limited housing supply , raising the minimum wage but not increasing housing stock would lead to an increase in rental prices as "" 700,000 minimum wage workers will have more money to compete for the same low inventory of rental units , "" according to researchers from the University of California in Los Angeles .",['PRICES'],1,['ECONOMIC_IMPACT']
+"Let's analyze why the label **LABOR_MARKET** is the most fitting for this text: 
+
+1. **Focus on Employment:** The passage directly addresses the relationship between employers, employees, and wages within a specific sector (""protected sector""). This core theme aligns with the definition of the labor market.
+
+2. **Legal Restrictions:**  The mention of legal restrictions on wages highlights how government regulations influence hiring practices and worker participation in the labor market.
+
+3. **Employer-Employee Dynamics:** The text implicitly discusses the power dynamics between employers (who set wages) and employees (who seek employment). This interplay is a key aspect of understanding the labor market.
+
+
+Therefore, the correct label for this text is **LABOR_MARKET**.",gemma2:27b,2024-09-13T08:49:28.958892079Z,stop,5113505402,56092630,1026,945225000,150,4021962000,The legal restriction that employers can not pay less than a legislated wage is equivalent to the legal restriction that workers can not work at all in the protected sector unless they can find employers willing to hire them at that wage .,['UN/EMPLOYMENT_RATE'],0,[]
+"The correct label for this text is **INFLATION**. 
+
+Here's why:
+
+* **Decreasing Purchasing Power:** The phrase ""it actually becomes worth a little bit less"" refers to the erosion of the minimum wage's buying power over time. This is a direct consequence of inflation, where prices rise and the value of money decreases.
+* **Staying the Same vs. Real Value:** The text explicitly contrasts the nominal minimum wage remaining unchanged with its actual decreasing value. This highlights the impact of inflation on the real purchasing power of wages. 
+
+
+
+Let me know if you have any other text snippets you'd like to label!",gemma2:27b,2024-09-13T08:49:33.631906614Z,stop,4582652672,55860384,1026,944020000,132,3537210000,"So it ’s not just that the minimum wage is staying the same : every day , it actually becomes worth a little bit less .",['SOCIAL_JUSTICE/INJUSTICE'],0,[]
+"Here's why the label **ECONOMIC_IMPACT** is suitable for this text:
+
+1. **Cost Shifting:** The statement explains how restaurants are dealing with increased labor costs (due to a higher minimum wage) by raising menu prices. This is a clear example of an economic consequence.
+2. **Impact on Consumers:**  The increase in menu prices directly affects consumers, who now have to pay more for their meals. This demonstrates the ripple effect of minimum wage changes on the broader economy.
+
+Therefore, the correct label is **ECONOMIC_IMPACT**.",gemma2:27b,2024-09-13T08:49:37.866871951Z,stop,4146841768,55179349,1026,935964000,113,3024174000,Restaurants especially have passed the cost of minimum wage onto consumers by increasing menu prices .,['PRICES'],1,['ECONOMIC_IMPACT']
+"Here's why the label **ECONOMIC_IMPACT** is fitting for this text:
+
+1. **Direct Mention of Economic Analysis:** The phrase ""economic analysis"" signals that the text is discussing economic considerations and implications.
+
+2. **Focus on Outcomes:** It poses questions about whether a higher minimum wage will lead to ""better outcomes for the economy."" This clearly indicates an examination of the potential effects on economic performance. 3. **Reduction of Poverty:** The mention of reducing poverty further emphasizes the broader economic impact, as poverty levels are often intertwined with overall economic health and well-being.
+
+Therefore, the correct label is **ECONOMIC_IMPACT**.",gemma2:27b,2024-09-13T08:49:42.497327366Z,stop,4583906930,55639348,1026,945510000,132,3539726000,"Rather , economic analysis raises questions about whether a higher minimum wage will achieve better outcomes for the economy and reduce poverty .","['ECONOMIC_IMPACT', 'SOCIAL_JUSTICE/INJUSTICE']",1,['ECONOMIC_IMPACT']
+"Here's the breakdown of why **ECONOMIC_IMPACT** is the appropriate label for this text:
+
+1. **Critique of Minimum Wage:** The passage directly challenges the concept of government-mandated minimum wages, arguing they lack economic basis.
+2. **Comparison with Market Wages:** It contrasts minimum wages with ""market-determined wages,"" highlighting the latter's connection to supply and demand forces – fundamental economic principles.
+3. **Focus on Economic Rationale:** The text emphasizes the absence of sound ""economic/cost-benefit analysis"" in setting minimum wages, pointing towards a core economic debate. 
+
+Therefore, the passage clearly falls under the **ECONOMIC_IMPACT** category as it discusses the economic rationale and implications of different wage determination mechanisms.",gemma2:27b,2024-09-13T08:49:47.760510559Z,stop,5170820281,55070836,1026,944192000,152,4081320000,"According to Mark J. Perry , PhD , of the American Enterprise Institute , government-mandated minimum wages "" are always arbitrary and almost never based on any sound economic/cost-benefit analysis ... [ I ] n contrast market-determined wages reflect supply and demand conditions that are specific to local market conditions and vary widely by geographic region and by industry . """,['GOVERNMENT'],1,['ECONOMIC_IMPACT']
+"Let's analyze why the text should be labeled **ECONOMIC_IMPACT**:
+
+1. **Tax Analogy:** The phrase ""a $15 minimum wage is a tax on everyone"" directly frames the discussion in terms of economic impact, specifically comparing it to a taxation policy.
+
+2. **Spending and Economic Stimulus:**  The sentence ""the worker will have more money to buy things for their family that adds to the economy"" explicitly links increased wages to consumer spending, a key driver of economic activity.
+
+3. **Broader Implications:** The text suggests a trade-off: while raising the minimum wage might feel like a tax on some, it ultimately leads to increased consumption and potentially boosts the overall economy.
+
+
+Therefore, the correct label is **ECONOMIC_IMPACT**. 
+",gemma2:27b,2024-09-13T08:49:53.18764575Z,stop,5374609195,49552016,1026,944807000,159,4290815000,"In essence , a $ 15 minimum wage is a tax on everyone , but the upside is that the worker will have more money to buy things for their family that adds to the economy .",['ECONOMIC_IMPACT'],1,['ECONOMIC_IMPACT']
+"The correct label for this text is **BUSINESS_PRACTICES**. Here's why:
+
+* **Focus on CFOs:** The study targets Chief Financial Officers (CFOs), key decision-makers within businesses regarding financial matters.
+
+* **Impact on Employee Benefits:**  The text explicitly mentions that CFOs would ""reduce employee benefits"" as a response to a minimum wage increase. This directly reflects potential changes in business practices and employment policies.
+* **Business Response to Policy Change:** The scenario presented illustrates how businesses might adapt their operations (specifically, benefit packages) in response to a change in government policy (minimum wage). 
+
+
+Let me know if you'd like to analyze any other text snippets!",gemma2:27b,2024-09-13T08:49:58.18473835Z,stop,4927565239,56794119,1026,947046000,144,3878988000,"A 2014 study of 400 US Chief Financial Officers ( CFOs ) by Campbell Harvey , PhD , J. Paul Sticht Professor of International Business at Duke University , found that 40 % of CFOs would reduce employee benefits if the minimum wage were raised to $ 10 an hour .",['MOTIVATION/CHANCES'],0,[]
+"Let's analyze why the label **[MOTIVATION/CHANCES]** fits this statement:
+
+1. **Entry-Level Jobs:** The text focuses on ""entry-level jobs,"" which are typically seen as stepping stones for career advancement.
+
+2. **Higher Pay and Potential Stagnation:**  The argument suggests that increased pay for these entry-level positions might make workers less inclined to seek out more challenging or rewarding roles.
+
+3. **Impact on Motivation and Career Progression:** This directly relates to the potential impact of higher wages on an individual's motivation to move up the career ladder, thus falling under the **[MOTIVATION/CHANCES]** category.
+
+
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-13T08:50:03.591521545Z,stop,5316774738,54756451,1026,945215000,155,4182326000,Making the entry-level jobs higher paying increases the risk that workers will get stuck in them for longer instead of moving on to something more rewarding .,['MOTIVATION/CHANCES'],1,['MOTIVATION/CHANCES']
+"Let's break down why **WELFARE** is the most suitable label for this text:
+
+1. **Price Effect:** The phrase ""price effect"" alludes to the potential increase in prices for goods and services due to higher labor costs resulting from a minimum wage hike.
+
+2. **Harm to Intended Beneficiaries:** The statement explicitly mentions that this price effect could ""harm the very people whom a minimum wage is supposed to help."" This implies a discussion about the unintended consequences of minimum wage on low-income individuals who are the target beneficiaries. 
+
+3. **Connection to Social Safety Nets:** While not explicitly stated, the implication that a higher minimum wage could harm those it intends to help suggests a potential for increased reliance on social safety nets if prices rise significantly, making the connection to **WELFARE**.
+
+
+Therefore, the correct label is **WELFARE**.",gemma2:27b,2024-09-13T08:50:09.410806205Z,stop,5769489506,55992420,1026,944296000,175,4718836000,Thus this price effect may harm the very people whom a minimum wage is supposed to help .,['PRICES'],1,['WELFARE']
+"Here's why the label **EMPLOYMENT** is most appropriate for this text:
+
+* **Focus on Employment Numbers:** The text directly addresses the impact of a minimum wage increase on ""low skill employment"" and ""total restaurant employment."" It quantifies these effects with specific percentages.
+
+* **Employment as a Key Economic Indicator:** Employment levels are fundamental to understanding economic health. Changes in employment rates, particularly in specific sectors like restaurants, have significant consequences for individuals and the broader economy.
+
+
+
+Let me know if you'd like to analyze more text examples! 
+",gemma2:27b,2024-09-13T08:50:13.685136116Z,stop,4185041730,63378827,1026,946236000,115,3087396000,"-SKILLED According to a Federal Reserve Bank of Chicago study , “ 10 percent increase in the minimum wage lowers low skill employment by 2 to 4 percent and total restaurant employment by 1 to 3 percent . ”","['LOW-SKILLED', 'UN/EMPLOYMENT_RATE']",0,[]
+"The correct label for this text is **FAIRNESS**.
+
+Here's why:
+
+* **Focus on Value:** The sentence emphasizes that the minimum wage should reflect ""work skills, education, and productivity."" This centers on the idea of fairness – ensuring that wages align with the value a worker brings to their job.
+* **Implied Equality:**  The phrase ""commensurate with... at that point in time"" suggests a belief that there should be a balance between worker contributions and compensation.
+
+While this text touches on economic concepts, the primary concern is establishing a fair and equitable relationship between wages and worker capabilities. 
+
+
+",gemma2:27b,2024-09-13T08:50:18.266546742Z,stop,4531554702,58700525,1026,943565000,128,3439424000,"The core of the argument here is that the minimum wage is meant to be commensurate with the work skills , education and productivity — at that point in time — of people entering the workforce .",['SOCIAL_JUSTICE/INJUSTICE'],0,[]
+"Let's analyze the text and determine the most fitting label:
+
+1. **Cost of Living:** The text explicitly mentions the ""cost of living"" increasing significantly.
+
+2. **Minimum Wage Ineffectiveness:** It contrasts this cost increase with the minimal impact of the minimum wage.
+
+3. **Economic Disparity:** This comparison highlights a disparity between rising expenses and stagnant wages, suggesting broader economic concerns.
+
+
+Therefore, the appropriate label is **ECONOMIC_IMPACT**.  The text discusses how the current minimum wage fails to keep pace with the rising cost of living, leading to potential negative consequences for low-wage earners.",gemma2:27b,2024-09-13T08:50:22.845459856Z,stop,4483888055,55990262,1026,944210000,128,3438582000,As the cost of living has jumped by leaps and bounds minimum wage has barely made an impact .,['SOCIAL_JUSTICE/INJUSTICE'],1,['ECONOMIC_IMPACT']
+"Let's analyze why **ECONOMIC_IMPACT** is the appropriate label for this text:
+
+1. **Spending Power:** The phrase ""consumers with higher wages have more spending power"" directly relates to economic activity and consumer behavior, key components of  economic impact.
+2. **Offsetting Price Increases:**  The statement suggests that increased spending due to higher wages can counterbalance potential price hikes resulting from a minimum wage increase. This demonstrates an understanding of the interplay between wages, prices, and overall economic balance. 
+
+Therefore, the text focuses on how changes in wages influence consumer behavior and ultimately impact the economy, making **ECONOMIC_IMPACT** the correct label. 
+",gemma2:27b,2024-09-13T08:50:27.760307457Z,stop,4821409149,57193080,1026,943554000,137,3684994000,"On the other hand , consumers with higher wages have more spending power , which may also offset price increases .",['PRICES'],1,['ECONOMIC_IMPACT']
+"The correct label here is **MORALITY/ETHICS**. Here's why:
+
+* **Focus on Fairness:** The text centers on the argument that workers deserve ""to earn enough to live on."" This speaks directly to concepts of fairness, justice, and what is considered right or wrong in terms of worker compensation.
+* **Ethical Considerations:**  The phrase ""it is right"" explicitly introduces an ethical judgment about the obligation to provide a living wage. 
+* **Beyond Economic Impact:** While raising the minimum wage has economic consequences, this statement focuses on the moral imperative behind such a policy.
+
+Let me know if you have any other text snippets you'd like help labeling!",gemma2:27b,2024-09-13T08:50:32.61790867Z,stop,4809710723,55254404,1026,945621000,140,3764376000,"Advocates for a higher wage floor argue , first and foremost , that it is right to ensure that workers to earn enough to live on .",['SOCIAL_JUSTICE/INJUSTICE'],0,[]
+"The correct label for this text is **EMPLOYMENT**. Here's why:
+
+* **Focus on Employment:** The phrase ""greatly reduce entry level employment"" explicitly discusses the impact on job opportunities. 
+
+* **Implication of Policy:**  The statement suggests that a specific action (likely related to skills requirements) would lead to a significant decrease in entry-level jobs. This implies a discussion about labor market dynamics and employment trends.
+
+
+
+Let me know if you have any other text snippets you'd like me to analyze! 
+",gemma2:27b,2024-09-13T08:50:36.66365876Z,stop,3998698622,55978432,1026,945442000,110,2954160000,"-SKILLED If we want to greatly reduce entry level employment , that ’s the way to do it .","['LOW-SKILLED', 'UN/EMPLOYMENT_RATE']",0,[]
+"Here's why the label **ECONOMIC_IMPACT** is correct for this text:
+
+* **Focus on Employment:** The statement directly addresses the impact of a minimum wage increase on ""employment"" in San Francisco.
+* **Quantitative Impact:**  The text provides a specific numerical estimate (""reduce the city's employment by about 15,270 private sector jobs"") showing the predicted economic consequence.
+* **Alignment with Codebook:** This aligns with the definition of `ECONOMIC_IMPACT` which considers the effects of minimum wage changes on factors like employment, business activity, and overall economic growth.
+
+Therefore, **ECONOMIC_IMPACT** is the most appropriate label for this text. 
+",gemma2:27b,2024-09-13T08:50:41.697606725Z,stop,4939328803,54982728,1026,945334000,143,3848670000,"San Francisco 's Office of Economic Analysis said that an increase to $ 15 would reduce the city 's employment by about "" 15,270 private sector jobs . """,['UN/EMPLOYMENT_RATE'],1,['ECONOMIC_IMPACT']
+"The text expresses concern about income inequality and the struggles of hardworking families despite earning a ""competitive wage"". This aligns with the **WELFARE** category as it focuses on the societal well-being and potential need for support systems to address the gap between wages and living standards. 
+
+Here's why:
+
+* **""Hard-working families still have very little""**: This phrase highlights the disparity between effort (hard work) and economic outcomes, suggesting a need for interventions to ensure basic needs are met.
+* **""Even if workers are getting a competitive wage""**: The fact that even a ""competitive wage"" is insufficient for some families further emphasizes the inadequacy of current systems in addressing poverty and economic hardship. 
+
+Therefore, the correct label is **WELFARE**.",gemma2:27b,2024-09-13T08:50:47.069443196Z,stop,5324624527,58595554,1026,945767000,157,4231195000,"Even if workers are getting a competitive wage , many of us are deeply disturbed that some hard-working families still have very little .",['SOCIAL_JUSTICE/INJUSTICE'],1,['WELFARE']
+"Let's analyze why **WELFARE** is the most suitable label for this text:
+
+1. **Rising Cost of Living:** The statement acknowledges the increasing difficulty of affording essential expenses, which often drives individuals towards social safety nets.
+2. **Minimum Wage Increase and Financial Security:**  The connection between a minimum wage increase and feeling ""financial security"" implies that this boost helps individuals cope with financial pressures, reducing their reliance on welfare programs for basic needs.
+
+While there are economic implications (cost of living), the core focus is on how a minimum wage increase impacts individuals' ability to meet their needs and potentially lessen their dependence on social support systems – hence **WELFARE**. 
+",gemma2:27b,2024-09-13T08:50:51.975280785Z,stop,4809752972,55638886,1026,941321000,140,3767264000,"With the rising cost of living , those who get a minimum wage increase are more likely to get a feeling of financial security ( at least to some degree ) .",['SOCIAL_JUSTICE/INJUSTICE'],1,['WELFARE']
+"Let's analyze why the label **ECONOMIC_POLICY** fits this statement best:
+
+1. **Intervention vs. Free Market:** The text explicitly contrasts the ""free market"" with intervention by the ""federal government"" in setting minimum wages. This highlights a debate about the role of government in economic affairs.
+
+2. **Policy Proposal:**  The statement presents an argument for letting the free market dictate minimum wages, effectively suggesting a policy change.
+
+3. **Alignment with Codebook:** The `ECONOMIC_POLICY` aspect focuses on discussions and arguments surrounding economic regulations, interventions, and decision-making frameworks. 
+
+
+Therefore, the correct label is **ECONOMIC_POLICY**.",gemma2:27b,2024-09-13T08:50:56.875489158Z,stop,4810615050,56352512,1026,935827000,137,3683933000,"The free market should determine minimum wages , not the federal government .",['GOVERNMENT'],0,[]
+"The correct label for this text is **WELFARE**. Here's why:
+
+* **Anti-Poverty Initiative:** The text explicitly mentions ""anti-poverty initiative"", which directly connects to the concept of welfare programs aimed at alleviating poverty. 
+* **Minimum Wage as a Tool:** The speaker frames raising the minimum wage as a potential tool for addressing poverty, further reinforcing its connection to welfare discussions.
+
+While the statement expresses conditional support (""If... I would support it""), the core focus remains on using minimum wage as a means to combat poverty, making **WELFARE** the most appropriate label. 
+",gemma2:27b,2024-09-13T08:51:01.343494862Z,stop,4421284272,59651692,1026,945929000,125,3369762000,"If a higher minimum wage were the only anti-poverty initiative available , I would support it .",['SOCIAL_JUSTICE/INJUSTICE'],1,['WELFARE']
+"The correct label for this text is **MOTIVATION/CHANCES**. Here's why:
+
+* **Focus on Career Progression:** The passage emphasizes starting at a lower wage and working towards a ""better paying job"" through skill development and education. 
+* **Emphasis on Upward Mobility:**  Phrases like ""build your skills,"" ""get an education,"" and ""move up the ladder"" clearly indicate a focus on improving one's position within the workforce. This aligns with the concept of motivation and chances for advancement.
+
+Let me know if you have any other text snippets you'd like to analyze! 
+",gemma2:27b,2024-09-13T08:51:05.966984916Z,stop,4534481643,56013185,1026,945650000,128,3445648000,"A more practical solution is to join the workforce at the low end of the wage scale , build your skills , get an education and move up the ladder to a better paying job just as members of the workforce have done for generations .",['MOTIVATION/CHANCES'],1,['MOTIVATION/CHANCES']
+"The correct label for this text is **EMPLOYMENT**. Here's why:
+
+* **Focus on Employer Actions:** The text discusses how employers might react to a significant minimum wage increase. It specifically mentions ""employers"" and their potential decisions regarding incentives, bonuses, and commissions. 
+
+* **Impact on Employment Practices:**  The phrases ""hard to offer sign-on incentives,"" ""Christmas bonuses,"" and ""extra commission"" directly relate to employment practices and compensation structures.
+
+* **Implied Link to Hiring:** While not explicitly stated, the text implies that if employers face higher labor costs due to a minimum wage hike, they might be less inclined to hire new employees or offer additional perks.
+
+
+Let me know if you'd like to analyze any more examples! 
+",gemma2:27b,2024-09-13T08:51:11.319528178Z,stop,5304800813,55549893,1026,945561000,158,4258153000,"What we mean by this is that if wages are risen too much , employers may find it hard to offer sign on incentives , Christmas bonuses or extra commission for projects well done .",['MOTIVATION/CHANCES'],0,[]
+"Here's why the label **ECONOMIC_IMPACT** is most suitable for this text:
+
+1. **Opposition Based on Economic Effects:** The statement explicitly mentions economists opposing minimum wages due to their perceived negative impact on ""employment.""
+
+2. **Employment as an Economic Indicator:** Employment levels are a key indicator of economic health. A reduction in employment can signal slower economic growth or even recession.
+
+3. **Intended vs. Actual Consequences:**  The phrase ""hurting many of those they are supposed to help"" suggests a discussion about the unintended consequences of minimum wage policies on the economy, specifically how they might harm some workers instead of benefiting them as intended.
+
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-13T08:51:16.612088072Z,stop,5203535663,56198350,1026,945232000,153,4112179000,"Economists have tended to oppose minimum wages on the grounds that they reduce employment , hurting many of those they are supposed to help .",['UN/EMPLOYMENT_RATE'],1,['ECONOMIC_IMPACT']
+"Let's analyze why the best label for this text is **WELFARE**: 
+
+1. **""Ease present hardship""**: This phrase directly alludes to alleviating challenging social and economic conditions often faced by low-income individuals.
+
+2. **""Not abolish it""**:  This acknowledgement implies that even with a minimum wage increase, certain difficulties will persist. The text implicitly recognizes the ongoing need for support systems beyond just wages.
+
+
+Therefore, the focus on hardship relief and the recognition of continued social needs strongly aligns with the **WELFARE** category.",gemma2:27b,2024-09-13T08:51:20.804223782Z,stop,4143975892,55813041,1026,945806000,114,3053687000,"The proposed hike would ease present hardship , not abolish it .",['SOCIAL_JUSTICE/INJUSTICE'],1,['WELFARE']
+"Let's analyze the text and determine the appropriate label:
+
+1. **Quote from Economist:** The text prominently features a quote from economist Thomas Sowell, known for his expertise in economic issues. This establishes an economic context for the discussion.
+2. **Minimum Wage Effect:** The quote specifically addresses the ""net economic effect of minimum wage laws."" This explicitly focuses on the impact of minimum wage on the economy.
+3. **Mechanism Explained:**  Sowell explains how increasing minimum wage makes ""less skilled, less experienced"" workers ""more expensive,"" potentially leading to job losses. This explanation delves into the mechanics of how minimum wage affects labor markets and overall economic activity.
+
+Therefore, the correct label is **ECONOMIC_IMPACT**. 
+
+
+",gemma2:27b,2024-09-13T08:51:26.010665661Z,stop,5118612924,56048507,1026,936485000,152,4079178000,"-SKILLED Economist Thomas Sowell sums it up well : “ The net economic effect of minimum wage laws is to make less skilled , less experienced , or otherwise less desired workers more expensive — thereby pricing many of them out of jobs . ”","['LOW-SKILLED', 'UN/EMPLOYMENT_RATE']",1,['ECONOMIC_IMPACT']
+"Let's analyze why ""EMPLOYMENT"" is the right label for this text:
+
+1. **Hiring Practices:** The statement focuses on employers' decisions regarding hiring (""Employers are disinclined to hire workers""). 
+2. **Minimum Wage Influence:**  The reason given for this reluctance is tied directly to the US federal minimum wage being ""very high relative to the local average."" This highlights a clear connection between minimum wage levels and employment outcomes.
+3. **Impact on Labor Market:** The text implies that a high minimum wage could potentially lead to reduced hiring, thus impacting the overall labor market.
+
+Therefore, the correct label is **EMPLOYMENT**. 
+
+
+",gemma2:27b,2024-09-13T08:51:30.831441368Z,stop,4730388910,57751619,1026,943718000,134,3596961000,One study concluded that 'Em ployers are disinclined to hire workers because the US federal minimum wage is very high relative to the local average ' .,['UN/EMPLOYMENT_RATE'],0,[]
+"Let's analyze why the label **ECONOMIC_IMPACT** is accurate for this text:
+
+1. **Price Changes:** The text explicitly mentions potential price increases by employers as a consequence of a higher minimum wage. This directly reflects an economic impact.
+
+2. **Ripple Effect:**  The phrase ""ripple effect"" emphasizes how price changes in one sector (due to the minimum wage) can spread and influence other industries, signifying a broader economic consequence.
+3. **Cost of Living:** The text points out that these price increases could lead to a higher cost of living, which is a key indicator of overall economic well-being.
+
+4. **Feedback Loop:** The mention of ""another push to raise minimum wage again"" suggests a cyclical relationship between minimum wage, prices, and the cost of living – a classic example of an economic phenomenon.
+
+
+
+Therefore, the correct label for this text is **ECONOMIC_IMPACT**.",gemma2:27b,2024-09-13T08:51:36.955875949Z,stop,6075705298,55380902,1026,941447000,187,5034512000,"Price increase : Employers might raise prices of their product in order to generate enough income to support their more highly paid minimum wage employees , which could ultimately create a ripple effect for other shops and industries , resulting in a slightly higher cost of living , resulting in another push to raise minimum wage again .",['PRICES'],1,['ECONOMIC_IMPACT']
+"The correct label for this text is **CRIME**. Here's why:
+
+* **Focus on Alternatives:** The text explicitly mentions ""other illegal means of earning money"" like ""selling drugs or prostitution"". 
+* **Implication of Reduced Crime:** By stating that increasing the minimum wage encourages people to join the workforce, it implies a reduction in these illegal activities.
+* **Social Impact:**  The statement addresses the broader social impact of minimum wage by linking it to potential decreases in crime rates. 
+
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-13T08:51:41.441277369Z,stop,4397029409,57619965,1026,945606000,123,3304096000,"It also encourages people to join the work force , rather than seek other illegal means of earning money such as selling drugs or prostitution .",['MOTIVATION/CHANCES'],0,[]
+"Let's analyze the text and determine the appropriate label:
+
+1. **Focus on Government Spending:** The text explicitly mentions a reduction in ""annual government spending on income-support programs"". This clearly indicates a discussion about fiscal policy and public expenditures. 
+
+2. **Impact of Minimum Wage Increase:** The phrase ""the increase would shave $7.6 billion"" suggests that this reduction in spending is a direct consequence of raising the minimum wage.
+
+3. **Alignment with Codebook Definition:**  The `WELFARE` label in your codebook likely encompasses discussions about social safety nets and income-support programs funded by the government.
+
+
+
+Therefore, the correct label for this text is **WELFARE**.",gemma2:27b,2024-09-13T08:51:46.427977512Z,stop,4937905737,56197940,1026,944237000,143,3846675000,They report the increase would shave $ 7.6 billion off annual government spending on income-support programs .,['WELFARE'],1,['WELFARE']
+"Let's analyze why **MOTIVATION/CHANCES** is the best label for this text:
+
+1. **Focus on Job Market Entry:** The speaker explicitly states their reason for not raising the minimum wage is tied to enabling people to ""enter the job market."" This directly relates to opportunities and chances for employment.
+2. **Taking Advantage of Opportunities:** The phrase ""take advantage of opportunities"" further emphasizes the link to motivation and seizing chances presented by the job market.
+
+Therefore, the text focuses on individual agency and the ability to utilize available opportunities within the context of employment, making **MOTIVATION/CHANCES** the most fitting label.",gemma2:27b,2024-09-13T08:51:51.098111699Z,stop,4581232274,54856269,1026,936330000,132,3547066000,"-SKILLED I would not raise it , specifically because I 'm interested in making sure that people are able to enter the job market and take advantage of opportunities . ""","['LOW-SKILLED', 'MOTIVATION/CHANCES']",1,['MOTIVATION/CHANCES']
+"Let's analyze why ""EMPLOYMENT"" is the best label for this text:
+
+1. **Focus on Hiring and Employment:** The passage directly addresses the effect of minimum wage on ""total employment"" and ""slowing down hiring."" These are key concepts related to the labor market and employment levels.
+2. **Impact on Jobs:**  The phrase ""noticeably bring reduce total employment"" explicitly states a potential negative impact of minimum wages on the number of available jobs.
+
+Therefore, the label **EMPLOYMENT** accurately reflects the core theme of this text. 
+
+
+",gemma2:27b,2024-09-13T08:51:55.411286766Z,stop,4223023542,55687230,1026,945150000,115,3089864000,"Meanwhile , Jonathan Meer and Jeremy West of Texas A&M University have recently added a new wrinkle to the controversy with a paper that says minimum wages can noticeably bring reduce total employment by slowing down hiring .",['UN/EMPLOYMENT_RATE'],0,[]
+"The text presents a controversial viewpoint on minimum wage and its intended effect. Let's analyze why the label **[WELFARE/SOCIAL]** is suitable:
+
+1. **""Unlivable Minimum Wage"":** The phrase directly implies hardship associated with earning minimum wage, suggesting it wouldn't be sufficient to meet basic needs. This links the discussion to social safety nets and welfare systems designed to support individuals struggling financially. 
+2. **Motivation through Hardship:**  The argument suggests that an ""unlivable"" minimum wage would motivate people to seek better opportunities. This implies a belief that the current system doesn't adequately incentivize upward mobility, leading to a discussion about social structures and support mechanisms.
+
+
+Therefore, the correct label is **[WELFARE/SOCIAL]**.",gemma2:27b,2024-09-13T08:52:00.81414805Z,stop,5354932919,57026803,1026,942162000,160,4312068000,"“ Minimum wage should be unlivable , so the people making it are motivated to do something better !","['SOCIAL_JUSTICE/INJUSTICE', 'MOTIVATION/CHANCES']",1,['WELFARE']
+"Let's analyze why **ECONOMIC_IMPACT** is the suitable label for this text:
+
+1. **Tipped Minimum Wage:** The sentence focuses on a specific aspect of minimum wage – the tipped minimum wage – and its potential impact.
+2. **Job Losses:** The myth claims that raising the tipped minimum wage would lead to job losses in the restaurant industry. This directly addresses the economic consequence of such a change.
+
+3. **Connection to Economy:** Job losses are a significant economic indicator, impacting unemployment rates, business revenue, and overall economic activity. Therefore, the correct label is **ECONOMIC_IMPACT**. 
+
+
+",gemma2:27b,2024-09-13T08:52:05.401607174Z,stop,4497641279,57239798,1026,944426000,127,3405634000,Myth : Raising the federal tipped minimum wage ( $ 2.13 per hour since 1991 ) would lead to restaurant job losses .,['UN/EMPLOYMENT_RATE'],1,['ECONOMIC_IMPACT']
+"Let's analyze why ""**POWER_DYNAMICS**"" is the appropriate label for this statement:
+
+1. **Direct Impact on Unions:** The text explicitly states that the minimum wage law ""actually hurts unions."" This indicates a direct relationship between the policy and the power dynamics of labor organizations. 2. **Shifting Balance:** Implying harm to unions suggests a potential shift in power from organized labor to employers or other stakeholders. Minimum wage laws often aim to empower workers, but this statement posits a counter-argument suggesting a negative impact on union influence.
+
+Therefore, the label ""**POWER_DYNAMICS**"" accurately reflects the text's focus on the interplay of power between unions and other actors in the labor market context.",gemma2:27b,2024-09-13T08:52:10.566533068Z,stop,5117697084,57183536,1026,951276000,151,4063320000,The minimum wage law actually hurts unions .,['CAPITAL_VS_LABOR'],0,[]
+"The correct label for this text is **DEMOGRAPHICS**. Here's why:
+
+* **Challenging Stereotypes:**  The statement directly aims to refute a common stereotype about minimum wage workers. 
+* **Focus on Worker Profile:** It emphasizes the characteristics of the ""typical"" minimum wage worker, moving beyond simplistic assumptions.
+* **Relevance to Policy Debates:** Understanding the demographics of minimum wage earners is crucial for informed policy discussions.
+
+Let me know if you'd like to analyze more text examples!",gemma2:27b,2024-09-13T08:52:14.538367642Z,stop,3882423536,56138421,1026,952125000,104,2787457000,Not true : The typical minimum wage worker is not a high school student earning weekend pocket money .,['YOUTH_AND_SECONDARY_WAGE_EARNERS'],0,[]
+"Let's analyze why the label **UNEMPLOYMENT** is the most fitting for this text:
+
+1. **""Price...out of the market""**: This phrase directly suggests the consequence of a higher minimum wage being job losses for low-wage workers.
+
+2. **""Least productive (and therefore lowest-wage) workers""**:  The text specifically targets the segment of the workforce that would be most vulnerable to displacement due to a minimum wage increase.
+
+3. **Implied Mechanism**: The statement implies that businesses, facing higher labor costs, would opt to reduce their workforce by laying off less productive, lower-wage employees.
+
+
+Therefore, the focus on job losses for a specific group due to a policy change aligns strongly with the **UNEMPLOYMENT** aspect. 
+",gemma2:27b,2024-09-13T08:52:19.95775192Z,stop,5371125844,55163969,1026,951134000,159,4274240000,-SKILLED The minimum wage will price the services of the least productive ( and therefore lowest-wage ) workers out of the market .,['LOW-SKILLED'],0,[]
+"Let's analyze why **MOTIVATION/CHANCES** is the appropriate label for this text:
+
+1. **Impact on Education:** The statement explicitly mentions the belief that raising the minimum wage ""discourages further education of the poor."" This focuses directly on educational attainment and aspirations, core elements of motivation and chances.
+2. **Targeting Low-Income Individuals:**  The phrase ""of the poor"" specifies that the impact is believed to affect individuals from disadvantaged backgrounds, highlighting concerns about equal opportunities and access to education.
+
+Therefore, the correct label is **MOTIVATION/CHANCES**.",gemma2:27b,2024-09-13T08:52:24.349801894Z,stop,4300482234,55939897,1026,944455000,121,3250535000,They also believe it discourages further education of the poor .,['MOTIVATION/CHANCES'],1,['MOTIVATION/CHANCES']
+"The correct label for this text is **ECONOMIC_IMPACT**. 
+
+Here's why:
+
+* **Focus on Inflation:** The statement directly claims that a minimum wage increase will ""foster more inflation."" Inflation is a key economic indicator.
+* **Cause-and-Effect Relationship:** The text establishes a cause-and-effect relationship between raising the minimum wage and the consequence of increased inflation. 
+
+
+Let me know if you have any other text snippets you'd like to analyze!",gemma2:27b,2024-09-13T08:52:27.385120559Z,stop,2943846628,56432882,1026,78515000,100,2675077000,A minimum wage hike will only help to foster more inflation .,['PRICES'],1,['ECONOMIC_IMPACT']
+"Let's break down why the label **ECONOMIC_IMPACT** fits this statement:
+
+1. **Increased Labor Costs:** The text mentions ""increased labor costs"" as a direct result of raising the minimum wage. 
+2. **Business Responses:** It then outlines potential business reactions to these increased costs, including absorbing them, cutting jobs, or raising prices. These are all economic decisions with tangible consequences for businesses and the broader economy.
+3. **Ripple Effects:** The statement implies that changes in labor costs can ripple through the economy, affecting employment levels, consumer spending, and overall price stability.
+
+Therefore, the correct label is **ECONOMIC_IMPACT**.",gemma2:27b,2024-09-13T08:52:32.081680843Z,stop,4649801385,55622371,1026,945250000,134,3604547000,"Some companies will be able to absorb the increased labor costs , while others with thin profit margins might cut their workforce or raise prices .","['COMPETITION/BUSINESS_CHALLENGES', 'UN/EMPLOYMENT_RATE', 'PRICES']",1,['ECONOMIC_IMPACT']
+"Let's break down why **LABOR_MARKET** is the most suitable label for this statement:
+
+1. **Relationship between Wage and Hours:** The text explicitly discusses the connection between ""wage"" (the price of labor) and ""hours demanded"" by employers. This directly falls under the realm of labor market dynamics.
+2. **Employer Decision-Making:**  The phrase ""fewer hours an employer will demand"" highlights how employers make decisions about hiring and working hours based on wage levels.
+
+Therefore, the statement focuses on fundamental relationships within the labor market, making **LABOR_MARKET** the correct label. 
+",gemma2:27b,2024-09-13T08:52:36.610946902Z,stop,4475005471,55276883,1026,936307000,128,3437429000,"It is assumed that the higher the wage , the fewer hours an employer will demand of an employee .",['UN/EMPLOYMENT_RATE'],0,[]
+"The correct label for this text is **ECONOMIC_IMPACT**. Here's why:
+
+* **""Government price controls""**: This phrase immediately signals a discussion about economic policy and its consequences. 
+* **""Distortionary""**:  This term implies that minimum wage laws, as a form of price control, disrupt the natural functioning of the market. The text is suggesting that these laws have unintended negative consequences on the economy.
+
+While there might be subtle social implications to minimum wage laws, the core focus of this statement is on their distortive effects within the economic system. 
+",gemma2:27b,2024-09-13T08:52:41.01714819Z,stop,4316531141,56181343,1026,925165000,121,3245277000,"Like all government price controls , minimum wage laws are distortionary .",['GOVERNMENT'],1,['ECONOMIC_IMPACT']
+"The correct label for this text is **FINANCIAL_WELL-BEING**. Here's why:
+
+1. **Focus on Financial Situation:** The text explicitly mentions someone being ""tight on finances"" and how an extra dollar per hour translates to a significant weekly amount ($40).
+
+2. **Impact on Individual's Life:**  The phrase ""really add up"" emphasizes the positive impact this additional income would have on the individual's financial situation.
+
+
+Let me know if you'd like to analyze more examples! 
+",gemma2:27b,2024-09-13T08:52:45.107953184Z,stop,4043408400,55166481,1026,944544000,110,2955377000,"While making a dollar more an hour may not sound like much to many of us , for someone who is tight on finances that forty dollars a week can really add up .",['SOCIAL_JUSTICE/INJUSTICE'],0,[]
+"The text discusses the broader impact of increasing the minimum wage beyond just those directly affected. This aligns with the **ECONOMIC_IMPACT** label because it talks about:
+
+* **Ripple Effect:** The phrase ""ripple effect"" indicates that the change in minimum wage would have cascading consequences on other income levels. 
+* **Income Increase for Others:** It explicitly states that those earning slightly above the minimum wage would also see their incomes rise, further demonstrating the widespread economic implications of such a policy.
+
+
+Let me know if you'd like to analyze more examples!",gemma2:27b,2024-09-13T08:52:49.272674555Z,stop,4076232772,54668209,1026,945184000,113,3031573000,"Increasing the minimum wage would have a ripple effect , raising the incomes of people who make slightly above the minimum wage .",['ECONOMIC_IMPACT'],1,['ECONOMIC_IMPACT']
+"Let's break down why **EMPLOYMENT** is the correct label for this text:
+
+1. **Direct Mention of Jobs:** The sentence explicitly states ""the loss of close to 500,000 jobs."" This directly focuses on the impact of minimum wage on employment levels.
+2. **Quantitative Impact:**  The text provides a specific figure (500,000) and percentage decrease (0.3%) quantifying the potential job losses associated with raising the minimum wage.
+3. **Core Concern:** The phrase ""main potential negative impact"" highlights that the primary concern being addressed is the effect on employment.
+
+Therefore, the text falls squarely under the **EMPLOYMENT** category. 
+
+
+",gemma2:27b,2024-09-13T08:52:54.453240623Z,stop,5093654367,56367980,1026,934758000,148,3971801000,"The main potential negative impact of raising the minimum wage is the loss of close to 500,000 jobs , which comes out to around 0.3 % decrease in employment .",['UN/EMPLOYMENT_RATE'],0,[]
+"The correct label for this text is **LABOR_MARKET**. Here's why:
+
+1. **Bargaining Power:** The text focuses on how a basic income would affect individuals' ability to negotiate wages with employers. This directly relates to labor market dynamics and power relationships between workers and employers. 2. **Employment Decisions:**  The mention of ""no risk of destitution for not taking the employment"" highlights how a basic income could influence individuals' decisions about whether or not to accept a job offer. This is a key aspect of the labor market. 3. **Impact on Wages:** The implication is that a basic income could lead to higher wages, as workers would have more leverage in negotiations.
+
+Therefore, the text clearly falls under the **LABOR_MARKET** category.",gemma2:27b,2024-09-13T08:52:59.804633521Z,stop,5304661158,55613782,1026,925856000,159,4278782000,It is argued that recipients of the basic income would have considerably more bargaining power when negotiating a wage with an employer as there would be no risk of destitution for not taking the employment .,['CAPITAL_VS_LABOR'],0,[]
+"The correct label for this text is **CORPORATE_INTERESTS**.
+
+Here's why:
+
+* **Direct Targeting:** The text explicitly states that raising the minimum wage ""ultimately really only hurts one group: major corporations and the assholes in charge of them."" This clearly identifies corporations as the primary entity negatively impacted by the policy.
+* **Negative Language:**  The use of strong, negative language (""hurts,"" ""assholes"") towards corporate leaders further emphasizes the antagonistic stance towards corporate interests.
+
+Let me know if you'd like to analyze any other text snippets!",gemma2:27b,2024-09-13T08:53:04.174797864Z,stop,4281201901,55202662,1026,936101000,119,3199886000,But it ’s still important to remember that raising the minimum wage ultimately really only hurts one group : major corporations and the assholes in charge of them .,['COMPETITION/BUSINESS_CHALLENGES'],0,[]
+"The text discusses how increased worker spending due to a higher minimum wage could offset the effects of higher labor costs for businesses. This clearly falls under **ECONOMIC_IMPACT**.
+
+Here's why:
+
+* **Spending and Labor Costs:** The sentence directly links increased worker spending (""workers will have more to spend"") with the impact of higher labor costs on businesses (""blunt any impact from higher labor costs"").
+* **Macroeconomic Effect:**  This relationship suggests a potential counterbalancing force within the broader economy. It implies that while raising the minimum wage might lead to higher expenses for employers, it could also stimulate consumer demand, potentially mitigating negative economic consequences.
+
+Therefore, the correct label is **ECONOMIC_IMPACT**. 
+
+
+",gemma2:27b,2024-09-13T08:53:09.222031243Z,stop,4999907474,56557025,1026,925271000,146,3928509000,Perhaps the fact that workers will have more to spend will blunt any impact from higher labor costs .,"['COMPETITION/BUSINESS_CHALLENGES', 'SOCIAL_JUSTICE/INJUSTICE']",1,['ECONOMIC_IMPACT']
+"The correct label for this text is **GOVERNMENT_INTERVENTION**. Here's why:
+
+1. **Direct Criticism of Government Involvement:** The speaker explicitly states ""when government gets involved in setting wages, there's no stopping what government will intervene in doing."" This clearly expresses a negative view on government intervention in the labor market.
+2. **Implied Consequences:**  The statement suggests that once the government starts setting minimum wages, it will lead to further interventions in other areas of the economy.
+
+While the text touches upon ideas related to work ethic and social expectations (""showing up on time""), the core argument revolves around the role and potential overreach of the government in determining wages. 
+
+
+",gemma2:27b,2024-09-13T08:53:14.173884279Z,stop,4861703645,56642397,1026,937606000,142,3821655000,"I mean , nobody works for minimum wage , back to this whole notion of showing up on time and wearing clean clothes gets you way above the minimum wage … I just think when government gets involved in setting wages , there 's no stopping what government will intervene in doing . """,['GOVERNMENT'],1,['GOVERNMENT']
+"Let's analyze the text and determine the appropriate label:
+
+1. **Source:** The statement originates from the Chamber of Commerce, an organization known for advocating business interests.
+
+2. **Content:** The text explicitly links minimum wage increases to job losses (""minimum wage rises would cost millions of jobs"").
+
+3. **Focus:** The core argument revolves around the potential negative consequences of a higher minimum wage on employment levels.
+
+Therefore, the correct label is **ECONOMIC_IMPACT**.  The text focuses on how policy changes (minimum wage) can impact economic factors like employment. 
+
+
+",gemma2:27b,2024-09-13T08:53:18.568102619Z,stop,4303097656,55421318,1026,924618000,119,3192759000,The Chamber of Commerce warned on no less than four separate occasions from 1975 to 1989 that minimum wage rises would cost millions of jobs .,['UN/EMPLOYMENT_RATE'],1,['ECONOMIC_IMPACT']
+"Here's why **ECONOMIC_IMPACT** is the best label for this text:
+
+1. **Explicit Economic Statement:** The phrase ""significant economic stimulus"" directly addresses the potential positive impact of a minimum wage increase on the economy. 
+
+2. **Job Loss as a Metric:**  Mentioning ""negligible job loss"" further reinforces the economic focus. Job creation and losses are key indicators of an economy's health.
+
+3. **Study Commissioned by Mayor:** The fact that Los Angeles Mayor Eric Garcetti commissioned a study on this issue highlights the political and economic relevance of minimum wage discussions.
+
+
+
+Let me know if you have any other text snippets you'd like to analyze!",gemma2:27b,2024-09-13T08:53:23.46339275Z,stop,4848175681,57286043,1026,924948000,142,3822655000,"It obviously varies by location — but Los Angeles Mayor Eric Garcetti commissioned a study on the issue , and found that a citywide minimum wage of $ 13.25 an hour would provide a significant economic stimulus with negligible job loss .","['UN/EMPLOYMENT_RATE', 'ECONOMIC_IMPACT']",1,['ECONOMIC_IMPACT']
+"Here's why **ECONOMIC_IMPACT** is the right label for this text:
+
+1. **Comparison of Economic Factors:** The statement directly compares two key economic indicators: ""improvements in productivity and economic growth"" versus ""increases in the minimum wage"".
+2. **Implication for Minimum Wage Debate:** This comparison is often used in discussions about the appropriateness of raising the minimum wage, suggesting a link between economic performance and wage levels.
+
+Therefore, the focus on the relationship between economic growth, productivity, and minimum wage increases clearly falls under the **ECONOMIC_IMPACT** category. 
+",gemma2:27b,2024-09-13T08:53:27.767847554Z,stop,4256091243,44131317,1026,925178000,121,3243024000,Improvements in productivity and economic growth have outpaced increases in the minimum wage .,['PRICES'],1,['ECONOMIC_IMPACT']
+"The text discusses the impact of minimum wage on employment opportunities for less skilled workers. This aligns with the **EMPLOYMENT** aspect, as it focuses on who gets hired (or excluded) due to skill levels. 
+
+Here's why:
+
+* **""Companies can be more selective...""**: This indicates a change in hiring practices potentially driven by increased labor costs.
+* **""...the least skilled and least experienced will typically be excluded.""**:  This directly addresses the impact on employment for those with lower skills.
+
+Therefore, the correct label is **EMPLOYMENT**.",gemma2:27b,2024-09-13T08:53:32.00498721Z,stop,4150502118,57166331,1026,937263000,114,3068145000,-SKILLED Companies can be more selective in those whom they employ thus the least skilled and least experienced will typically be excluded .,['LOW-SKILLED'],0,[]
+"Let's analyze why the correct label for this text is **EMPLOYMENT**.
+
+1. **Wage Increase and Employer Response:** The text discusses the impact of a wage increase on employers (""employers find that a wage increase..."").  This sets the stage for discussing potential employment consequences.
+2. **Financial Strain:** It mentions the possibility of financial hardship for the company (""financially hurt the company""). This financial pressure is often a key factor in employers making decisions about hiring and firing.
+3. **Layoffs as a Consequence:** The text explicitly states that layoffs (both temporary and permanent) become more likely when employers face this financial strain due to a wage increase.
+
+This clear connection between wage increases, employer finances, and the potential for layoffs strongly suggests the **EMPLOYMENT** label is most appropriate. 
+",gemma2:27b,2024-09-13T08:53:37.608474534Z,stop,5553559176,56553956,1026,933088000,166,4471931000,"If employers find that a wage increase for all their employees if going to financially hurt the company until it can adjust or permanently , employers are more likely to give temporary or permanent layoffs .","['COMPETITION/BUSINESS_CHALLENGES', 'UN/EMPLOYMENT_RATE']",0,[]
+"The text focuses on the demographic impact of the minimum wage. It points out that those most affected by a minimum wage increase are likely young, inexperienced workers rather than individuals facing unemployment.
+
+Therefore, the correct label is **DEMOGRAPHICS**. 
+
+
+Let me know if you'd like to analyze more examples!",gemma2:27b,2024-09-13T08:53:40.414814146Z,stop,2719031809,56769754,1026,937521000,63,1677601000,"Thus , minimum wage is more often imposed on the sixteen-year-old worker with his first job than on people who would otherwise be unemployed .",['YOUTH_AND_SECONDARY_WAGE_EARNERS'],0,[]
+"The correct label here is **POLITICS**. Here's why:
+
+* **Political Motivation:** The phrase ""a handful of Republicans looking to demonstrate..."" explicitly points to political maneuvering.  These Republicans are using support for low-wage workers as a way to achieve a political goal (showing they care). 
+
+Let me know if you have any other text snippets you'd like me to label! 
+",gemma2:27b,2024-09-13T08:53:43.87429264Z,stop,3370203402,57045010,1026,924265000,84,2251376000,So might a handful of Republicans looking to demonstrate that they too care about stagnant incomes for low-wage workers .,['SOCIAL_JUSTICE/INJUSTICE'],0,[]
+"Let's analyze why **ECONOMIC_IMPACT** is the suitable label for this text:
+
+1. **Focus on Labor Statistics:** The text cites data from the Department of Labor regarding minimum wage earners, including their working hours and contribution to household income. This directly relates to labor market dynamics and economic participation. 2. **Quantitative Impact:** The percentages mentioned (""over half"" work full-time, ""46 percent"" contribute to household income) highlight the quantitative impact of minimum wage on individual earnings and household financial stability.
+
+3. **Economic Implications:** The information presented suggests that a significant portion of the workforce relies on minimum wage for substantial income. This has broader implications for overall economic activity, consumer spending, and poverty levels.
+
+
+Therefore, the correct label is **ECONOMIC_IMPACT**.",gemma2:27b,2024-09-13T08:53:49.308550181Z,stop,5388116794,56708742,1026,946515000,161,4337492000,"According to the Department of Labor , over half of people paid at minimum wage work a full-time schedule , and minimum wage workers contribute 46 percent of their household ’s income .",['YOUTH_AND_SECONDARY_WAGE_EARNERS'],1,['ECONOMIC_IMPACT']
+"Let's analyze the text and determine why ""WELFARE"" is the most suitable label:
+
+1. **Focus on Poverty:** The text explicitly mentions offsetting ""poverty"" as a goal of the minimum wage. 
+
+2. **Raising People Out of Poverty:** It describes how the minimum wage aims to ""raise people up out of the poverty level.""
+
+3. **Reducing Government Assistance:**  The text highlights that the intended effect of the minimum wage is to ""remove the need for government assistance,"" which directly relates to welfare programs and social safety nets.
+
+
+Therefore, the correct label is **WELFARE**.",gemma2:27b,2024-09-13T08:53:53.85819869Z,stop,4460668193,54804365,1026,935766000,126,3378969000,When it was developed as a guideline the theory was that it would offset poverty by requiring business owners and corporate entities to pay a wage that would raise people up out of the poverty level and remove the need for government assistance .,"['SOCIAL_JUSTICE/INJUSTICE', 'WELFARE']",1,['WELFARE']
+"Let's analyze why **LABOR_CONDITIONS** is the most fitting label for this text:
+
+1. **Sweatshops:**  The mention of ""sweatshops"" immediately signals a context of potentially exploitative labor practices. Sweatshops are notorious for poor working conditions and low wages.
+
+2. **Employment of Vulnerable Groups:** The text highlights that sweatshops employed ""large numbers of women and young workers,"" indicating the exploitation of vulnerable populations often susceptible to unfair treatment.
+
+3. **Substandard Wages:**  The phrase ""substandard wages"" explicitly confirms the issue of inadequate compensation for the work performed.
+
+
+Therefore, the text clearly focuses on aspects of **LABOR_CONDITIONS**, making it the correct label.",gemma2:27b,2024-09-13T08:53:58.945724913Z,stop,5038554348,54735014,1026,937247000,147,3956358000,"The sweatshops employed large numbers of women and young workers , paying them what were considered to be substandard wages .",['CAPITAL_VS_LABOR'],0,[]
+"The text focuses on the relationship between **higher wages** and **reduced employee turnover**. This reduced turnover leads to lower costs for employers related to hiring and training new staff.  Therefore, the most appropriate label is **ECONOMIC_IMPACT**. 
+
+Here's why:
+
+* **Economic Consequences:** The text explicitly mentions cost reductions for businesses (employment and training costs), which are direct economic outcomes.
+* **Wage Influence:** The link between higher wages and reduced turnover implies a connection between labor market practices and overall economic efficiency.
+
+
+
+",gemma2:27b,2024-09-13T08:54:02.988140399Z,stop,3951443462,56461946,1026,951696000,108,2897730000,Academic research also has shown that higher wages sharply reduce employee turnover which can reduce employment and training costs .,['TURNOVER'],1,['ECONOMIC_IMPACT']
+"The text focuses on alternative solutions to poverty alleviation besides raising the minimum wage.  Therefore, the most appropriate label is **POLICY_SOLUTIONS**. 
+
+Here's why:
+
+* **Explicit Mention of Alternatives:** The phrase ""There are better ways to address poverty"" clearly signals a discussion about alternative policy approaches.
+* **Specific Examples:** The text provides concrete examples of such alternatives: income tax credits and tax policies encouraging asset development for low-income families. This further reinforces the focus on policy solutions.
+
+
+
+Let me know if you have any other text snippets you'd like to analyze!",gemma2:27b,2024-09-13T08:54:07.487366749Z,stop,4411432733,55566195,1026,944075000,122,3280623000,"There are better ways to address poverty , such as income tax credits for low-income workers or tax policies that encourage asset development and savings for low-income families .","['SOCIAL_JUSTICE/INJUSTICE', 'WELFARE']",0,[]
+"The correct label for this text is **BUSINESS_IMPACT**. Here's why:
+
+* **Direct Quote:** The text includes a direct quote from a business partner expressing their intention to raise prices.
+* **Business Decision:**  Increasing prices is a significant business decision driven by the anticipated change in minimum wage. 
+* **Impact on Operations:** This decision reflects how a minimum wage increase would directly affect the business partner's operational costs and pricing strategies. 
+
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-13T08:54:11.638433065Z,stop,4103411891,55943454,1026,946073000,114,3056291000,I have a business partner who said he will have to increase his prices by 40 percent if it happens . ”,['PRICES'],0,[]
+"The text presents **WELFARE** as the central theme. Here's why:
+
+* **""Minimum standard of living""**: This phrase directly connects to the concept of welfare, which aims to provide a basic level of economic security and well-being for individuals and families. 
+* **Implied Social Safety Net**: The statement implies that minimum wage serves as a safety net, ensuring a baseline income level for those in low-wage jobs.
+
+While minimum wage might have broader *ECONOMIC_IMPACT*, the core focus of this particular statement is on its role in supporting a basic standard of living, which aligns with **WELFARE**.",gemma2:27b,2024-09-13T08:54:16.301906026Z,stop,4573602161,55930972,1026,936596000,130,3493597000,Minimum wage has long been a minimum standard of living .,['SOCIAL_JUSTICE/INJUSTICE'],2,"['WELFARE', 'ECONOMIC_IMPACT']"
+"The text states that research shows ""such increases"" (referring to minimum wage increases) have ""small overall effects on employers' operating costs."" This directly relates to the **ECONOMIC_IMPACT** category. Here's why:
+
+* **Focus on Employers:** The statement discusses the impact of minimum wage increases on employers, a key actor within the economy.
+* **Operating Costs:** Operating costs are a fundamental aspect of business economics and reflect how efficiently a company functions.
+* **Quantifiable Impact:**  The phrase ""small overall effects"" implies a quantifiable economic consequence of minimum wage changes. 
+
+
+Let me know if you'd like to analyze more text snippets!",gemma2:27b,2024-09-13T08:54:21.130750596Z,stop,4781149694,57196573,1026,925107000,138,3709520000,Reich and Cooper both said research has shown such increases have small overall effects on employers ' operating costs .,['COMPETITION/BUSINESS_CHALLENGES'],1,['ECONOMIC_IMPACT']
+"Let's analyze why the label **ECONOMIC_IMPACT** is the most suitable for this text:
+
+1. **Comparison of Economies:** The text starts by positioning the United States as an ""outlier"" among advanced economies regarding minimum wage. This implies a discussion about economic structures and norms across different countries.
+
+2. **GDP per Person:**  The mention of GDP per person ($53,000) further emphasizes an economic metric used to gauge a country's overall wealth and productivity.
+
+3. **Expected Minimum Wage:** The statement ""one would expect America...to pay a minimum wage around $12 an hour"" connects the economic indicator (GDP per person) with a potential policy outcome (minimum wage).
+
+
+Therefore, the text clearly delves into the **ECONOMIC_IMPACT** of minimum wage by comparing it to GDP and suggesting an appropriate level based on economic factors. 
+",gemma2:27b,2024-09-13T08:54:27.222433708Z,stop,6001497225,56913118,1026,936939000,184,4962723000,"The Economist stated in 2015 that "" America as a whole is an outlier among advanced economies ... one would expect America , where GDP per person is $ 53,000 , to pay a minimum wage around $ 12 an hour .",['SOCIAL_JUSTICE/INJUSTICE'],1,['ECONOMIC_IMPACT']
+"The correct label for this text is **BUSINESS**. Here's why:
+
+* **Direct Quote:** The statement comes directly from Ngoussou, who identifies himself as a business owner (""businesses like his""). 
+* **Focus on Business Needs:**  Ngoussou expresses a desire for ""a break on taxes and fees,"" which are specific concerns faced by businesses.
+
+Let me know if you have any other text snippets you'd like labeled! 
+",gemma2:27b,2024-09-13T08:54:30.98993882Z,stop,3678027342,55548665,1026,945060000,95,2546228000,Ngoussou says businesses like his need a break on taxes and fees .,['COMPETITION/BUSINESS_CHALLENGES'],0,[]
+"Here's why **WELFARE** is the appropriate label for this text:
+
+1. **Emphasis on Employee Benefits:** The statement highlights positive outcomes for employees, specifically ""paid safe and sick leave."" This benefit directly addresses employee well-being and financial security. 2. **Connection to Business Success:**  The increased sales and profitability mentioned suggest that providing these benefits was a successful business strategy, potentially implying that investing in employee welfare can lead to positive economic outcomes for the company.
+
+3. **Broader Implications:** While focused on a specific business, Molly Moon's experience could be interpreted as supporting the argument that policies promoting employee welfare (like paid sick leave) are beneficial for both businesses and workers. 
+
+
+Let me know if you have any other text snippets you'd like to analyze!",gemma2:27b,2024-09-13T08:54:36.47435274Z,stop,5438273301,56126049,1026,946316000,163,4392108000,"“ Molly Moon 's has seen increased sales and increased profitability and my employees are so thankful for the paid safe and sick leave , ” said owner Molly Moon .","['COMPETITION/BUSINESS_CHALLENGES', 'SOCIAL_JUSTICE/INJUSTICE']",1,['WELFARE']
+"Let's analyze why the appropriate label for this text is **ECONOMIC_IMPACT**: 
+
+1. **Direct Link to Economic Activity:** The statement explicitly connects increased spending by individuals (""other people have more money"") with job creation, a key indicator of economic health.
+
+2. **Cause-and-Effect Relationship:** It establishes a clear cause-and-effect relationship: more money in consumers' pockets leads to higher spending, which in turn stimulates businesses to hire more employees.
+
+3. **Broader Economic Implications:** This reasoning goes beyond individual circumstances and speaks to the overall impact of consumer spending on economic growth and employment.
+
+
+Therefore, the correct label is **ECONOMIC_IMPACT**.",gemma2:27b,2024-09-13T08:54:41.414789104Z,stop,4850965193,55551736,1026,945230000,140,3761977000,We create more jobs when other people have more money in their pockets to spend at our businesses .,"['UN/EMPLOYMENT_RATE', 'ECONOMIC_IMPACT']",1,['ECONOMIC_IMPACT']
+"Let's analyze why the label **LABOR_MARKET** fits this text best:
+
+1. **Hiring Costs:** The phrase ""make it more expensive for businesses to hire"" directly points to changes in the labor market dynamics, particularly regarding hiring costs.
+
+2. **Impact on Specific Workers:**  The statement specifies the impact on ""young and low-skill workers,"" highlighting a subset of the workforce affected by potential minimum wage increases.
+
+3. **Unemployment Context:** The mention of ""crisis-level unemployment"" further emphasizes the labor market context, as it suggests concerns about job availability and the potential consequences of policy changes on employment levels. 
+
+Therefore, the text focuses on issues directly related to the labor market: hiring practices, worker categories (skilled vs. unskilled), and overall employment conditions.
+
+
+
+",gemma2:27b,2024-09-13T08:54:46.942911451Z,stop,5482181121,55842532,1026,945535000,163,4393055000,-SKILLED Because it will make it more expensive for businesses to hire young and low-skill workers at a time of crisis-level unemployment .,"['LOW-SKILLED', 'UN/EMPLOYMENT_RATE']",0,[]
+"The text focuses on the **impact of raising the minimum wage on businesses**. 
+
+Here's why **BUSINESS** is the best label:
+
+*  **Direct Effect:** The phrase ""when the minimum wage goes up"" explicitly states the action influencing the subject.
+* **Business Response:** The statement suggests a consequential reaction from businesses (""businesses shape up""). This implies a change in their behavior or practices due to the minimum wage increase.
+
+Therefore, the correct label is **BUSINESS**.",gemma2:27b,2024-09-13T08:54:50.745209079Z,stop,3711647448,56791555,1026,936268000,100,2674239000,"When the minimum wage goes up , the theory says , businesses shape up .",['COMPETITION/BUSINESS_CHALLENGES'],0,[]
+"The text focuses on the benefits of supporting ""the broader working class"". This aligns with the **WELFARE** category, which deals with social safety nets and policies aimed at improving the well-being of lower-income individuals and families. 
+
+
+Let me know if you'd like to analyze more examples!",gemma2:27b,2024-09-13T08:54:53.649983779Z,stop,2812914960,58150508,1026,945566000,63,1677701000,"But , if your goal is suring up the broader working class , they might seem like a rather good deal .",['SOCIAL_JUSTICE/INJUSTICE'],1,['WELFARE']
+"Here's why the label **WELFARE** is appropriate for this text:
+
+* **Direct Mention of Poverty:** The text explicitly states ""paying higher wages reduces poverty"". This immediately connects to the concept of welfare, which aims to alleviate poverty and hardship. 
+
+* **Strain on Social Safety Net:**  The phrase ""reduces the strain on the social safety net"" further reinforces the link to welfare programs. These programs are designed to support those who struggle financially and are often overburdened when poverty levels are high.
+
+
+Let me know if you have any other text snippets you'd like help labeling!",gemma2:27b,2024-09-13T08:54:58.035406857Z,stop,4355829727,56781087,1026,926056000,124,3329709000,"But in addition , paying higher wages reduces poverty and the strain on the social safety net .",['SOCIAL_JUSTICE/INJUSTICE'],1,['WELFARE']
+"Let's analyze why **SOCIAL_JUSTICE** is the most fitting label for this text:
+
+1. **""Don't Deserve"" Argument:** The passage criticizes the argument that fast food workers don't deserve a higher wage compared to other ""likewise underpaid workers.""  This directly addresses issues of fairness and equality in compensation.
+2. **Crab Bucket Mentality:** The text uses the metaphor of a ""crab bucket mentality,"" where individuals try to pull each other down rather than support collective progress. This highlights a societal issue of hindering others' advancement out of self-preservation or envy.
+
+3. **Implicit Critique of Inequality:** By challenging the notion that some workers deserve lower wages, the passage implicitly critiques broader systemic inequalities and power dynamics in the workforce. 
+
+
+Therefore, the focus on fairness, equality, and overcoming systems that perpetuate disadvantage aligns strongly with the concept of **SOCIAL_JUSTICE**.",gemma2:27b,2024-09-13T08:55:04.319033913Z,stop,6195675632,57335540,1026,945549000,189,5105938000,"When you see people arguing against a minimum wage increase on the grounds that fast food workers do n’t deserve to make what other likewise underpaid workers make , that is as soul-crushingly perfect an illustration of the crab bucket mentality as you ’ll ever see .",['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"The correct label here is **WELFARE**. Here's why:
+
+* **Dependence for Survival:** The text states that minimum wage labor ""is what they depend on to survive"" for millions of workers. This highlights the crucial role minimum wage plays in meeting basic needs, a key aspect of welfare systems. 
+* **Vulnerable Populations:**  The mention of ""agricultural workers, fast food workers, and retail workers"" points towards often lower-paid and less secure jobs, suggesting a population reliant on minimum wage for financial stability.
+
+
+Let me know if you have any other text snippets to analyze!",gemma2:27b,2024-09-13T08:55:08.789351877Z,stop,4421377136,54395229,1026,944242000,124,3332947000,"For millions of agricultural workers , fast food workers , and retail workers , minimum-wage labor is n’t just a supplement — it ’s what they depend on to survive .","['YOUTH_AND_SECONDARY_WAGE_EARNERS', 'SOCIAL_JUSTICE/INJUSTICE']",1,['WELFARE']
+"The label **MOTIVATION/CHANCES** is fitting for this text. Here's why:
+
+1. **Focus on Employment Opportunity:** The phrase ""Increasing employment opportunity"" directly addresses the availability of jobs.
+
+2. **Impact on Low-Skilled Workers:**  It specifically mentions how these opportunities benefit ""low-skilled workers,"" highlighting a group often facing challenges in the job market.
+
+3. **Climbing the Economic Ladder:** The text emphasizes that these opportunities provide ""the best chance...of climbing up the economic mobility ladder."" This clearly relates to increased motivation and improved chances for upward mobility, aligning with the  **MOTIVATION/CHANCES** category. 
+
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-13T08:55:14.130241341Z,stop,5249669318,56836678,1026,944659000,156,4202925000,-SKILLED Increasing employment opportunity gives low-skilled workers the best chance of finding employment and climbing up the economic mobility ladder .,"['LOW-SKILLED', 'MOTIVATION/CHANCES']",1,['MOTIVATION/CHANCES']
+"Let's analyze why the text falls under **BUSINESS/INDUSTRY**:
+
+1. **Specific Industry:** The statement explicitly targets ""restaurants"" as being potentially affected by a minimum wage change.
+
+2. **Impact on Business Operations:**  The phrase ""would hurt restaurants"" suggests a direct impact on the financial health and operational viability of businesses within the restaurant industry.
+
+
+3. **Focus on Labor Costs:** Raising the tipped minimum wage directly increases labor costs for restaurants, making it a key concern within that industry.
+
+Therefore, the correct label is **BUSINESS/INDUSTRY**.",gemma2:27b,2024-09-13T08:55:18.441003288Z,stop,4221375274,30625286,1026,946362000,116,3111914000,Myth : Raising the federal tipped minimum wage ( $ 2.13 per hour since 1991 ) would hurt restaurants .,['COMPETITION/BUSINESS_CHALLENGES'],0,[]
+"The correct label for this text is **WELFARE**. Here's why:
+
+* **Focus on Exploitation:** The phrase ""worker exploitation"" directly relates to unfair labor practices and inadequate working conditions, which are often concerns addressed by welfare policies.
+* **Minimum Wage as a Protective Measure:** The statement suggests that a ""reasonable minimum wage"" can mitigate worker exploitation and underemployment.  This implies a link between minimum wage and ensuring fair treatment and opportunities for workers, key aspects of welfare systems. 
+
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-13T08:55:22.784602801Z,stop,4294739385,54641295,1026,944487000,121,3251762000,Worker exploitation and underemployment can be avoided with reasonable minimum wages .,"['UN/EMPLOYMENT_RATE', 'CAPITAL_VS_LABOR']",1,['WELFARE']
+"The correct label for this text is **LABOR RIGHTS**. Here's why:
+
+* **Focus on Workplace Power:** The phrase ""more command in the workplace"" directly points towards a desire for increased worker agency and decision-making power.
+* **Wage as a Tool for Empowerment:**  The speaker links wanting higher wages (""much more than $7.25 an hour"") to having greater control in the workplace. This suggests that they view fair wages as essential for empowering workers. 
+
+While there might be economic implications, the core message revolves around advocating for better working conditions and worker empowerment, making **LABOR RIGHTS** the most fitting label. 
+",gemma2:27b,2024-09-13T08:55:27.57521024Z,stop,4697110359,56231554,1026,945957000,134,3606598000,"I want people to have more command in the workplace , and I want them to have much more than $ 7.25 an hour .",['MOTIVATION/CHANCES'],0,[]
+"The text clearly describes a potential consequence of raising the minimum wage: **increased prices**. This falls under the category of **ECONOMIC_IMPACT** because it discusses how a change in labor costs (minimum wage) could affect market prices for goods and services. 
+
+Let me know if you have any other text snippets you'd like to analyze!",gemma2:27b,2024-09-13T08:55:30.515845662Z,stop,2893746874,56507100,1026,924413000,70,1867589000,One potential effect could be higher prices at those businesses that now must pay their workers twice as much as before .,['PRICES'],1,['ECONOMIC_IMPACT']
+"Let's analyze why the label **JOBS/EMPLOYMENT** is appropriate for this text:
+
+1. **Focus on Outsourcing:** The text explicitly mentions ""US jobs were outsourced"" which directly relates to the movement and impact on employment. 2. **Quantifiable Data:** Providing the number ""2,382,000"" highlights the scale of job outsourcing, further emphasizing its relevance to employment trends. 3. **Motivations for Outsourcing:**  The statement ""44% of companies...to reduce or control costs"" explains a key driver behind outsourcing decisions, which directly affects job availability and stability.
+
+
+Therefore, the correct label is **JOBS/EMPLOYMENT**.",gemma2:27b,2024-09-13T08:55:35.407063272Z,stop,4802843180,53874677,1026,945549000,138,3710719000,"According to the Statistic Brain Research Institute , 2,382,000 US jobs were outsourced in 2015 with 44 % of companies saying they did so to reduce or control costs .",['UN/EMPLOYMENT_RATE'],0,[]
+"The correct label for this text is **WELFARE**. Here's why:
+
+* **Focus on Workers:** The phrase ""workers at the bottom"" explicitly refers to low-wage earners.
+* **Inequality and Social Safety Nets:** The statement ""fall farther and farther away from people in the middle"" highlights the growing gap between lower-income individuals and the rest of society. This implies a discussion about social inequality and the potential need for support systems like welfare programs. 
+
+The text suggests a concern for the well-being of low-wage workers who are struggling to keep up, which aligns with the core themes of welfare policies.
+
+
+",gemma2:27b,2024-09-13T08:55:40.067519538Z,stop,4613445744,42928555,1026,936749000,132,3546869000,""" We 've chosen to let workers at the bottom fall farther and farther away from people in the middle . """,['SOCIAL_JUSTICE/INJUSTICE'],1,['WELFARE']
+"Here's why the text should be labeled **ECONOMIC_IMPACT**:
+
+1. **Macroeconomic Context:** The text explicitly mentions ""macroeconomic conditions"" setting the unemployment rate, indicating a discussion about broader economic forces.
+
+2. **Inflation Control:** It states that minimum wages can help ""keep inflation from increasing too rapidly,"" highlighting a direct impact on a key economic indicator.
+
+3. **Relationship Between Minimum Wage and Inflation:** The text directly links the effect of minimum wage to controlling inflation, a crucial aspect of economic stability. 
+
+
+
+Therefore, the correct label is **ECONOMIC_IMPACT**.",gemma2:27b,2024-09-13T08:55:44.457462833Z,stop,4300196501,56191912,1026,944896000,121,3253923000,"In consumer economies where the unemployment rate is set by macroeconomic conditions , minimum wages help in keeping inflation from increasing too rapidly .",['SOCIAL_JUSTICE/INJUSTICE'],1,['ECONOMIC_IMPACT']
+"Here's why **ECONOMIC_IMPACT** is the correct label for this text:
+
+* **Price Increases:** The text explicitly mentions ""higher prices"" as a consequence of some unspecified action. 
+* **Broader Economic Effects:** It goes on to state that these price increases ""could spread further out in the economy."" This indicates a concern about inflationary pressures and potential ripple effects on various sectors.
+
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-13T08:55:48.388221927Z,stop,3838591412,54490711,1026,946329000,101,2705447000,That means higher prices for anyone stopping at the mall or Burger King — price bumps that could spread further out in the economy .,['PRICES'],1,['ECONOMIC_IMPACT']
+"Let's analyze the text to determine the best label:
+
+1. **Subject:** The text explicitly discusses the relationship between minimum wage increases and the poverty level.
+
+2. **Conclusion:**  It states that such increases will not have a ""significant impact"" on poverty.
+
+3. **Codebook Relevance:** This directly aligns with the definition of `SOCIAL_IMPACT`, which encompasses the effects of policies on social issues like poverty. 
+
+Therefore, the correct label is **SOCIAL_IMPACT**. 
+",gemma2:27b,2024-09-13T08:55:52.26788227Z,stop,3832626870,57012694,1026,946302000,104,2785653000,Studies from both sides of the debate make it relatively clear that increasing minimum wage will not make a significant impact on the poverty level .,['SOCIAL_JUSTICE/INJUSTICE'],0,[]
+"The correct label here is **WELFARE**. Here's why:
+
+* **Focus on Poverty:** The text explicitly mentions ""a family struggling to escape poverty."" This immediately points towards issues related to economic hardship and social safety nets.
+* **Jobs as a Solution:**  The statement suggests that obtaining a job is the ""most valuable thing"" for this family. Jobs provide income, which is crucial for escaping poverty and reducing reliance on welfare programs. 
+
+
+Let me know if you'd like to analyze any more examples!",gemma2:27b,2024-09-13T08:55:56.346939571Z,stop,3989185675,56792909,1026,942644000,108,2900830000,And a job may ultimately be the most valuable thing for a family struggling to escape poverty .,['SOCIAL_JUSTICE/INJUSTICE'],1,['WELFARE']
+"The text discusses the perceived trade-offs of raising the minimum wage. While acknowledging potential drawbacks (implied by ""narrow majority""), it emphasizes the positive impact on individuals who can secure employment (""benefits to those who could find work""). 
+
+Therefore, the correct label is **WELFARE**. 
+
+
+Let me know if you'd like to analyze more text snippets!",gemma2:27b,2024-09-13T08:55:59.478897263Z,stop,3083825312,53890879,1026,936095000,75,2003515000,"Yet a narrow majority also thought a rise would nonetheless be worthwhile , given the benefits to those who could find work .",['UN/EMPLOYMENT_RATE'],1,['WELFARE']
+"Let's analyze why **ECONOMIC_IMPACT** is the most fitting label for this statement:
+
+1. **Direct Relationship:** The text explicitly links ""higher wages"" to ""higher prices"" within a specific geographic context (Massachusetts). This connection points directly towards economic consequences.
+
+2. **Supply and Demand:**  The implied relationship suggests an understanding of basic economic principles. Higher wages increase consumer purchasing power, potentially leading to increased demand and subsequently, higher prices for goods and services.
+
+3. **Codebook Alignment:** The statement aligns with the definition of `ECONOMIC_IMPACT`, which focuses on the broader effects of minimum wage changes on factors like pricing, inflation, and overall economic activity.
+
+Therefore, the correct label is **ECONOMIC_IMPACT**.",gemma2:27b,2024-09-13T08:56:04.727754403Z,stop,5159273320,73166413,1026,943443000,152,4097671000,"In Massachusetts , wages are higher , and so are prices .",['PRICES'],1,['ECONOMIC_IMPACT']
+"Let's analyze why **WELFARE** is the most appropriate label for this text:
+
+1. **""Getting more money to the broader working class""**: This phrase directly implies a redistribution of wealth, aiming to improve the financial standing of lower-income workers.
+2. **Minimum Wage as a Tool**: The text suggests using the minimum wage as a mechanism to achieve this goal.
+
+Welfare programs are designed to provide financial assistance and support to individuals and families with low incomes. By framing the minimum wage increase as a way to get ""more money"" to the working class, the text aligns with the core purpose of welfare systems: alleviating economic hardship and supporting those in need.
+
+
+
+Therefore, the correct label is **WELFARE**.",gemma2:27b,2024-09-13T08:56:10.010779374Z,stop,5194953778,56125993,1026,944665000,151,4063326000,So maybe it 's better to think of the minimum wage as a way of getting more money to the broader working class .,['SOCIAL_JUSTICE/INJUSTICE'],1,['WELFARE']
+"The text covers multiple aspects related to the minimum wage debate, but the most prominent label is **ECONOMIC_IMPACT**. Here's why:
+
+* **Arguments for Economic Benefit:** The text explicitly mentions that proponents believe a higher minimum wage will ""help create jobs and grow the economy."" This directly addresses the economic consequences of such a policy.
+* **Wage Inequality:**  The statement about declining value leading to wage inequality further highlights the economic impact on different income groups.
+
+While other aspects like **WELFARE** (implied by the ability to live on the minimum wage) and **SOCIAL/POLITICAL** (mentioning public support) are touched upon, the core focus of the text is on the broader economic effects of a higher minimum wage. 
+",gemma2:27b,2024-09-13T08:56:15.235479925Z,stop,5171931759,45500856,1026,937380000,154,4146214000,"Proponents of a higher minimum wage state that the current federal minimum wage of $ 7.25 per hour is too low for anyone to live on ; that a higher minimum wage will help create jobs and grow the economy ; that the declining value of the minimum wage is one of the primary causes of wage inequality between low - and middle-income workers ; and that a majority of Americans , including a slim majority of self-described conservatives , support increasing the minimum wage .","['UN/EMPLOYMENT_RATE', 'ECONOMIC_IMPACT', 'SOCIAL_JUSTICE/INJUSTICE']",2,"['WELFARE', 'ECONOMIC_IMPACT']"
+"Let's analyze why **LIVING_WAGE** is the most appropriate label for the text:
+
+1. **Focus on Wage Level:** The statement explicitly mentions a ""proposed increased wage to $15."" This immediately focuses on the discussion about a specific wage level.
+
+2. **Goal of ""Living Wage"":** The phrase ""provide a living wage""  clearly states the intended outcome of this wage increase – to ensure individuals earn enough to meet their basic needs and live decently. 
+
+3. **Codebook Alignment:** This aligns perfectly with the definition of the `LIVING_WAGE` aspect in your codebook, which likely focuses on discussions related to minimum wages sufficient for a dignified standard of living.
+
+
+Therefore, the correct label is **LIVING_WAGE**.",gemma2:27b,2024-09-13T08:56:20.684169117Z,stop,5356888088,48106230,1026,943131000,159,4277307000,"Looking at the argument from this perspective , the proposed increased wage to $ 15 will provide a living wage .",['SOCIAL_JUSTICE/INJUSTICE'],0,[]
+"Let's analyze why ""ECONOMIC_IMPACT"" is the right label for this text:
+
+1. **Focus on Side Effects:** The text explicitly mentions potential ""side effects"" of increasing the minimum wage. These side effects are economic in nature. 
+2. **Specific Economic Concerns:** The mentioned side effects – ""job reduction"" and a ""rise in the cost of consumer goods and services"" – are classic examples of economic consequences associated with policy changes like minimum wage increases.
+
+3. **Opponent's Perspective:** While the text presents the perspective of opponents, the core concern revolves around the potential impact on the economy.
+
+
+
+Therefore,  **ECONOMIC_IMPACT** is the most accurate label.",gemma2:27b,2024-09-13T08:56:25.661583641Z,stop,4928828273,55517048,1026,942344000,143,3842978000,"Opponents of boosting the minimum wage focus mainly on the potentially detrimental side effects , like job reduction , and a rise in the cost of consumer goods and services .","['UN/EMPLOYMENT_RATE', 'PRICES']",1,['ECONOMIC_IMPACT']
+"The correct label for this text is **ECONOMIC_IMPACT**. Here's why:
+
+* **Direct Economic Consequence:** The sentence explicitly states the impact of an unspecified event (likely related to minimum wage or price changes) on poor consumers' purchasing power. It highlights a direct and negative economic consequence - reduced ability to buy goods and services.
+* **Focus on Consumer Welfare:**  While touching upon social aspects, the core message revolves around how economic conditions affect consumer well-being, which is a key element of economic impact analysis.
+
+Let me know if you have any other text snippets you'd like me to analyze! 
+",gemma2:27b,2024-09-13T08:56:30.235910496Z,stop,4527670530,55143701,1026,935890000,130,3492211000,"This makes poor consumers worse off in a direct sense , in that they can purchase less with their earnings .","['SOCIAL_JUSTICE/INJUSTICE', 'PRICES']",1,['ECONOMIC_IMPACT']
+"Let's analyze why **ECONOMIC_IMPACT** is the most suitable label for this text:
+
+1. **Focus on Profit Margins:** The text explicitly mentions the impact of a wage increase on ""the fast food industry's profit margins.""  Profit margin is a key economic indicator reflecting a business's profitability. 
+2. **Quantified Impact:** The statement provides specific details about the wage increase (""from $7.25/hour to $15/hour"") and its implementation (""phased in over a period of four years""). This quantitative approach further emphasizes the economic analysis being conducted.
+3. **""Little to no impact"":** This finding directly addresses the economic consequences of the proposed minimum wage increase on a specific industry.
+
+Therefore, the text clearly falls under the **ECONOMIC_IMPACT** category. 
+
+
+",gemma2:27b,2024-09-13T08:56:36.047567428Z,stop,5720821831,56188116,1026,942913000,172,4632996000,"This also is n’t particularly surprising considering the UMass-Amherst study which found that a wage increase from $ 7.25 / hour to $ 15/hour , phased in over a period of four years , would have little to no impact on the fast food industry ’s profit margins in general .",['COMPETITION/BUSINESS_CHALLENGES'],1,['ECONOMIC_IMPACT']
+"Let's analyze why **POLICY** is the best fit for this text:
+
+1. **Focus on Laws:** The phrase ""minimum wage laws"" explicitly mentions legal frameworks governing the minimum wage.
+
+2. **Policy Proposals:** The text discusses specific policy proposals, such as indexing the minimum wage to average wages. This points directly to discussions about shaping and enacting policy changes.
+
+3. **Impact and Relevance:**  The sentence highlights the potential impact of these policies on keeping the minimum wage ""relevant and predictable."" This further underscores the connection to policy design and its intended outcomes.
+
+Therefore, the correct label is **POLICY**. 
+",gemma2:27b,2024-09-13T08:56:40.609984887Z,stop,4515055446,46205104,1026,936729000,130,3485034000,"Minimum wage laws , for instance proposals to index the minimum wage to average wages , have the potential to keep the dollar value of the minimum wage relevant and predictable .",['SOCIAL_JUSTICE/INJUSTICE'],0,[]
+"The correct label for this text is **ECONOMIC_IMPACT**. Here's why:
+
+* **Focus on Business Costs:** The statement emphasizes how increased costs for businesses, including labor (implied by ""pay more...labor""), lead to consequences like price hikes or cost-cutting measures. 
+* **Chain Reaction:** It highlights a chain reaction within the economy – rising input costs for businesses translate into higher prices for consumers or potentially reduced employment opportunities.
+
+The quote directly addresses the economic ramifications of increased labor costs on businesses and, subsequently, on the broader economy. 
+
+
+",gemma2:27b,2024-09-13T08:56:44.930599124Z,stop,4228536245,55714284,1026,946618000,117,3136319000,"“ If a business has to pay more for anything , gasoline , produce , labor — they have to raise their prices or they have to cut costs , plain and simple , ” says Tom Scarda , a Certified Franchise Consultant .",['PRICES'],1,['ECONOMIC_IMPACT']
+"Let's analyze why **LABOR_MARKET** is the most fitting label for this text:
+
+1. **Focus on Teenagers and Labor Force:** The sentence specifically discusses teenagers withdrawing from the labor force in response to a minimum wage increase. This centers on the dynamics of employment and participation within the labor market.
+2. **Supply and Demand Dynamics:** The reference to ""simple supply and demand diagram"" explicitly highlights the economic principles governing the labor market –  the relationship between the quantity of labor supplied and the demand for labor.
+3. **Impact on Unemployment Rate:** The text mentions the potential impact of minimum wage on the unemployment rate, a key indicator within labor market analysis.
+
+Therefore, the core theme revolves around how labor market participation (teenagers withdrawing), supply and demand dynamics, and the unemployment rate are influenced by changes in the minimum wage. 
+",gemma2:27b,2024-09-13T08:56:50.800489405Z,stop,5822509207,55059197,1026,944709000,176,4732305000,"-SKILLED In contrast to the simple supply and demand diagram , it was commonly found that teenagers withdrew from the labor force in response to the minimum wage , which produced the possibility of equal reductions in the supply as well as the demand for labor at a higher minimum wage and hence no impact on the unemployment rate .","['LOW-SKILLED', 'UN/EMPLOYMENT_RATE']",0,[]
+"Let's analyze why ""ECONOMIC_IMPACT"" is the best fit for this text:
+
+1. **Price Increases:** The statement explicitly mentions businesses raising prices as a response to wage increases. This directly relates to inflation and price levels within an economy. 2. **Profit Maintenance:** The phrase ""maintain their profits"" highlights that the economic impact of wage hikes is seen through the lens of business profitability, which is a key element in overall economic health.
+
+Therefore, the text focuses on the potential ripple effect of minimum wage increases on prices and business profitability, making ""ECONOMIC_IMPACT"" the most appropriate label.",gemma2:27b,2024-09-13T08:56:55.300962261Z,stop,4412677998,55875869,1026,944572000,125,3365200000,"This is one of the critics ’ many go-to arguments : Raise wages , they say , and businesses will have to raise prices to maintain their profits .",['PRICES'],1,['ECONOMIC_IMPACT']
+"The correct label for this text is **EMPLOYMENT**. Here's why:
+
+* **Direct Focus:** The passage explicitly discusses the effect of a minimum wage increase on ""employment levels.""
+* **Specific Industries:** It mentions the restaurant and retail industries, further highlighting the connection to employment within specific sectors.
+* **Quantitative Findings:**  The text presents a quantifiable result – ""effectively no impact"" on employment levels – reinforcing its focus on employment outcomes. 
+
+While there might be underlying economic implications, the core subject matter revolves around the relationship between minimum wage and job opportunities.",gemma2:27b,2024-09-13T08:56:59.690724765Z,stop,4301685590,57602211,1026,944614000,118,3167330000,"Their work was published in 2010 in the journal Review of Economics and Statistics and found that , in the restaurant and retail industries , boosting the minimum wage by 10 percent had effectively no impact on employment levels .",['UN/EMPLOYMENT_RATE'],0,[]
+"The correct label for this text is **WELFARE**. Here's why:
+
+* **Implicit Critique of Market Solutions:** The phrase ""free market""  indicates a discussion about how the economy should function and provide for workers. 
+* **Challenging ""Taking Care"" Assumption:**  The statement directly challenges the idea that a free market alone will adequately support workers (""will take care of workers""). This suggests a belief that additional measures or safety nets (welfare) are necessary. 
+
+By questioning the sufficiency of a free market, the text implicitly raises concerns about worker well-being and the need for social support systems. 
+",gemma2:27b,2024-09-13T08:57:04.269981847Z,stop,4530855554,74508330,1026,944081000,129,3464901000,"Saying we have a "" free market "" that will take care of workers is a myth .",['GOVERNMENT'],1,['WELFARE']
+"The correct label for this text is **EMPLOYMENT**.
+
+Here's why:
+
+* **Focus on Hiring:** The phrase ""reduce incentive for employer to hire"" directly addresses the potential impact of a policy (likely minimum wage increase) on employers' hiring decisions.
+* **Employee Earnings:**  The statement ""it helps employees earn more"" explicitly discusses the effect on employee wages, which is a central aspect of employment. 
+
+
+Let me know if you have any other text snippets you'd like to label!",gemma2:27b,2024-09-13T08:57:08.261772946Z,stop,3902953334,50516500,1026,945801000,105,2816302000,""" It does n’t reduce incentive for employer to hire , and it helps employees earn more . ""","['UN/EMPLOYMENT_RATE', 'SOCIAL_JUSTICE/INJUSTICE']",0,[]
+"The correct label for this text is **ECONOMIC_IMPACT**. Here's why:
+
+* **Focus on Prices:** The statement directly addresses the ability of fast-food chains to increase prices.  
+* **Implication for Consumers and Market:** Raising prices is a key economic lever that affects consumer behavior and market dynamics. 
+* **Competitive Landscape:** The mention of two major competitors (""Burger King and McDonald's"") suggests a discussion about pricing strategies within a competitive marketplace, which has broader economic consequences.
+
+
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-13T08:57:12.716455261Z,stop,4406643816,57103150,1026,944774000,123,3315517000,"Meanwhile , Burger King and McDonald 's can raise their prices a little bit without scaring off customers .",['PRICES'],1,['ECONOMIC_IMPACT']
+"The text clearly falls under the **ECONOMIC_IMPACT** category for these reasons:
+
+1. **Impact on Businesses:** The statement directly addresses how mandatory wage increases affect businesses (""businesses will be forced to..."").
+
+2. **Consequences for Employment:** It outlines potential consequences like job cuts and reduced working hours, both of which are key indicators of economic impact.
+
+3. **Focus on ""Bottom Line"":** Mentioning the ""bottom line"" emphasizes the financial health of businesses, a central concern within economic discussions.
+
+
+
+Let me know if you'd like to analyze more examples!",gemma2:27b,2024-09-13T08:57:17.054101543Z,stop,4247220627,57949029,1026,942675000,119,3200684000,Mandatory increases in hourly wages mean that businesses will be forced to cut jobs or reduce hours to maintain their bottom line .,['UN/EMPLOYMENT_RATE'],1,['ECONOMIC_IMPACT']
+"Let's analyze why the label **LEGAL** is appropriate for this text:
+
+1. **Supreme Court Reference:**  The text explicitly mentions the Supreme Court and a specific case (Adkins v. Children's Hospital). This immediately signals a legal context.
+2. **Constitutional Argument:** The core of the argument revolves around the Fifth Amendment, focusing on due process, liberty, and property rights. These are fundamental legal concepts. 
+3. **Freedom of Contract:**  The discussion centers on whether a minimum wage violates the freedom of contract, a legal principle often debated in labor law.
+
+Therefore, the text clearly deals with legal arguments and interpretations, making **LEGAL** the correct label.",gemma2:27b,2024-09-13T08:57:22.151513668Z,stop,5007562704,56771290,1026,946093000,144,3869693000,"The Supreme Court , in its opinion in the 1923 case Adkins v. Children ’s Hospital of District of Columbia , made a strong argument that a minimum wage was a violation of the constitutionally guaranteed freedom of contract embedded in the Fifth Amendment ’s language about due process and the deprivation of liberty and property .",['GOVERNMENT'],0,[]
+"Let's analyze why the best label for this text is **CORPORATE_SOCIAL_RESPONSIBILITY**:
+
+1. **Focus on Employee Treatment:** The phrase ""treat our employees fairly"" highlights a core element of corporate social responsibility, which emphasizes ethical and responsible treatment of workers. 2. **Positive Customer Response:**  The statement mentions new customers expressing gratitude for the company's fair employee practices. This demonstrates that ethical behavior can positively influence customer perception and loyalty.
+
+Therefore, the text clearly aligns with the concept of **CORPORATE_SOCIAL_RESPONSIBILITY**.
+
+
+",gemma2:27b,2024-09-13T08:57:26.365091566Z,stop,4164047022,54541148,1026,943026000,116,3122034000,“ We ’ve gained many new customers who have written us notes telling us how grateful they are that we treat our employees fairly .,['SOCIAL_JUSTICE/INJUSTICE'],0,[]
+"Here's why the label **WELFARE** is appropriate for this text:
+
+1. **Wealth Distribution:** The statement focuses on how the benefits of increased productivity are being distributed.  It points out that a smaller share of wealth generated by productivity is going to workers.
+
+2. **Implication for Worker Well-being:** This unequal distribution directly affects the well-being and financial security of workers. When workers receive a smaller portion of the wealth they help create, it can lead to challenges in meeting basic needs and achieving a decent standard of living.
+
+3. **Connection to Social Safety Nets:** This situation often necessitates reliance on social safety nets and welfare programs to bridge the gap and support workers who are not receiving adequate compensation.
+
+
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-13T08:57:32.069744179Z,stop,5613971242,56131726,1026,945785000,168,4524157000,"Although companies are experiencing greater productivity , since the ‘ 70s , less of the share of wealth created from that productivity has been going towards workers ( Check out this EPI article for more details ) .",['CAPITAL_VS_LABOR'],1,['WELFARE']
+"The correct label for this text is **EMPLOYMENT**. 
+
+Here's why:
+
+* **Direct Focus on Employment:** The text explicitly mentions the impact of a minimum wage increase on ""teen employment,"" directly addressing a key aspect of labor market dynamics.
+* **Quantifiable Effect:** The study cites a correlation between a minimum wage hike and a decrease in teen employment, providing concrete evidence of the relationship.
+* **Relevance to Labor Market:**  Changes in teen employment rates are significant indicators of broader labor market trends and can influence overall economic activity. 
+
+
+Let me know if you have any other text snippets you'd like to analyze!",gemma2:27b,2024-09-13T08:57:36.727512432Z,stop,4609854147,55500111,1026,944943000,131,3518807000,"-SKILLED Another 2011 study by Sen , Rybczynski , and Van De Waal found that "" a 10 % increase in the minimum wage is significantly correlated with a 3 − 5 % drop in teen employment . """,['LOW-SKILLED'],0,[]
+"Here's why the text should be labeled as **ECONOMIC_IMPACT**:
+
+1. **Focus on Business Practices:** The statement discusses how raising wages affects business decisions, specifically mentioning ""forcing businesses to cut staff"" and becoming ""more efficient.""
+2. **Link to Efficiency and Employment:** This implies a discussion about the economic consequences of wage increases on productivity and employment levels. 
+3. **Implication for Overall Economy:** Changes in business efficiency and staffing directly impact economic output and growth.
+
+Therefore, the correct label is **ECONOMIC_IMPACT**.",gemma2:27b,2024-09-13T08:57:40.896677002Z,stop,4078476849,55773068,1026,942782000,113,3035192000,"They say that instead of forcing businesses to cut staff , raising wages simply spurs them to become more efficient .","['COMPETITION/BUSINESS_CHALLENGES', 'UN/EMPLOYMENT_RATE']",1,['ECONOMIC_IMPACT']
+"Let's analyze why the label **ECONOMIC_IMPACT** is fitting for this statement:
+
+1. **Price Adjustments:** The text explicitly mentions retailers potentially raising ""prices on their services and products."" This signifies a direct response to a change in labor costs (due to wage increase).
+
+2. **Chain Reaction:**  Increasing prices is a common economic reaction to higher input costs, such as wages. It demonstrates the interconnectedness of labor markets and consumer goods pricing within the broader economy.
+
+3. **Impact on Consumers:**  Ultimately, price increases affect consumers' purchasing power and overall spending patterns, further illustrating the economic ripple effect of minimum wage changes.
+
+
+Therefore, the correct label is **ECONOMIC_IMPACT**.",gemma2:27b,2024-09-13T08:57:46.017783157Z,stop,5033870377,55746387,1026,945717000,145,3901351000,Retailers may find that they will raise prices on their services and products with a wage increase .,['PRICES'],1,['ECONOMIC_IMPACT']
+"The text advocates for setting wages through free market forces (""mutual agreement"") rather than governmental intervention. This aligns with the **GOVERNMENT_ROLE** aspect, as it directly discusses the appropriate role of the government in determining wages. 
+
+Here's why:
+
+* **""Mutual agreement""**:  This phrase emphasizes a hands-off approach, suggesting that employers and employees should negotiate wages independently.
+* **""Not by government control and fiat""**: This explicitly rejects government intervention in setting wage levels.
+
+Therefore, the correct label is **GOVERNMENT_ROLE**. 
+
+
+",gemma2:27b,2024-09-13T08:57:50.223568533Z,stop,4158492683,55345388,1026,944470000,116,3115260000,"Let the terms and conditions of wages be set by mutual agreement , not by government control and fiat .",['GOVERNMENT'],1,['GOVERNMENT']

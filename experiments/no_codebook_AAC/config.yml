@@ -1,0 +1,96 @@
+models:
+  - llama3.1:8b-instruct-fp16
+  - mistral:7b-instruct-v0.3-fp16
+  - gemma2:27b
+
+
+number_of_runs: 3
+
+
+datasets: # defines the datasets to train on as well as how to train on them.
+  - name: marijuana_legalization
+    path: datasets/AAC/marijuana_legalization_original_test.csv
+    columns:
+      text: 0
+      label: 1
+    single_label: True
+    label_list: True
+    prefix: |
+      You are a well-trained social scientist with a speciality for coding data for scientific research.
+      You have been handed the following markdown codebook as instructions to code example sentences for their aspects.
+      these are the labels for a  coding task regarding arguments in the debate about marijuana legalization:
+      LEGAL_DRUGS,
+      HEALTH/PSYCHOLOGICAL_EFFECTS,NATIONAL_BUDGET,
+      HARM,
+      MEDICAL_MARIJUANA,
+      GATEWAY_DRUG,
+      CHILD_AND_TEEN_SAFETY,
+      ADDICTION,
+      DRUG_ABUSE,
+      PERSONAL_FREEDOM,
+      ILLEGAL_TRADE,
+      COMMUNITY/SOCIATAL_EFFECTS,
+      DRUG_POLICY,
+      In some cases, more than one label applies.
+      Do not mention labels, that do not apply.
+      Assign one or more of the labels from the codebook to the following text:
+  - name: minimum_wage
+    path: datasets/AAC/minimum_wage_original_test.csv
+    columns:
+      text: 0
+      label: 1
+    single_label: True
+    label_list: True
+    prefix: |
+      You are a well-trained social scientist with a speciality for coding data for scientific research.
+      You have been handed the following markdown codebook as instructions to code example sentences for their aspects.
+      these are the labels for a  coding task regarding arguments in the debate about minimum wage:
+      ECONOMIC_IMPACT,
+      UN/EMPLOYMENT_RATE,
+      TURNOVER,
+      LOW-SKILLED,
+      YOUTH_AND_SECONDARY_WAGE_EARNERS,
+      CAPITAL_VS_LABOR,
+      SOCIAL_JUSTICE/INJUSTICE,
+      PRICES,
+      WELFARE,
+      GOVERNMENT,
+      COMPETITION/BUSINESS_CHALLENGES,
+      MOTIVATION/CHANCES,
+      In some cases, more than one label applies.
+      Do not mention labels, that do not apply.
+      Assign one or more of the labels from the codebook to the following text:
+  - name: nuclear_energy
+    path: datasets/AAC/nuclear_energy_original_test.csv
+    columns:
+      text: 0
+      label: 1
+    single_label: True
+    label_list: True
+    prefix: |
+      You are a well-trained social scientist with a speciality for coding data for scientific research.
+      You have been handed the following markdown codebook as instructions to code example sentences for their aspects.
+      these are the labels for a  coding task regarding arguments in the debate about nuclear energy:
+      ACCIDENTS/SECURITY,
+      TECHNOLOGICAL_INNOVATION,
+      ENVIRONMENTAL_IMPACT,
+      WASTE,
+      ENERGY_POLICY,
+      RELIABILITY,
+      WEAPONS,
+      PUBLIC_DEBATE,
+      COSTS,
+      HEALTH_EFFECTS,
+      FOSSIL_FUELS,
+      RENEWABLES,
+      In some cases, more than one label applies.
+      Do not mention labels, that do not apply.
+      Assign one or more of the labels from the codebook to the following text:
+
+
+
+
+
+
+
+

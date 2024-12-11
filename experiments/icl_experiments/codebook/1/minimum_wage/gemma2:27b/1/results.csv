@@ -1,0 +1,793 @@
+response,model,created_at,done_reason,total_duration,load_duration,prompt_eval_count,prompt_eval_duration,eval_count,eval_duration,input_text,gold_label,label_count,mentioned_labels
+"The correct label is **ECONOMIC_IMPACT** 
+",gemma2:27b,2024-09-12T20:59:12.959954554Z,stop,1360269685,55365586,1026,919617000,12,297004000,Supporters of minimum wage also believe that a minimum wage stimulates consumption and thus puts more money into the economy by allowing low paid workers to spend more .,['ECONOMIC_IMPACT'],1,['ECONOMIC_IMPACT']
+"The correct label is **SOCIAL_JUSTICE/INJUSTICE** 
+
+Let me explain why:
+
+* The statement focuses on how minimum wage laws can create barriers (""labor market rigidities"")  that prevent people from advancing economically. This implies a concern for fairness and equal opportunity, core elements of social justice.  
+",gemma2:27b,2024-09-12T20:59:15.824010169Z,stop,2803418104,55467630,1026,919520000,67,1784910000,"Seth Zimmerman , PhD , Assistant Professor of Economics at the University of Chicago , stated : "" minimum wage laws can lead to labor market rigidities that make it more difficult for people to move up the economic ladder .",['MOTIVATION/CHANCES'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"The correct label is **PRICES** 
+
+Let me explain why:
+
+This passage focuses on the consequence of increased labor costs (from a higher minimum wage) leading to higher prices for consumers. It explicitly highlights that these price increases disproportionately affect low-income customers.  
+
+
+Let me know if you'd like me to analyze another text!",gemma2:27b,2024-09-12T20:59:18.908483562Z,stop,2983685766,53415376,1026,919087000,72,1922937000,"Discussing the fact that higher labor costs often cause higher prices , Christina writes “ Often , the customers paying those prices — including some of the diners at McDonald ’s and the shoppers at Walmart — have very low family incomes .",['PRICES'],1,['PRICES']
+"The correct label is **LOW-SKILLED** 
+
+Let me know if you'd like to try another example! 
+",gemma2:27b,2024-09-12T20:59:20.737367206Z,stop,1809268928,55549881,1026,910836000,29,754534000,-SKILLED Raising the wage will make it more expensive to hire younger and low-skill workers .,['LOW-SKILLED'],1,['LOW-SKILLED']
+"The correct labels are **TURNOVER** and  **COMPETITION/BUSINESS_CHALLENGES**. 
+
+
+Let's break down why:
+
+* **TURNOVER:** The statement directly addresses the impact of higher wages on employee turnover, stating that it would be sharply reduced.
+* **COMPETITION/BUSINESS_CHALLENGES:** The survey results highlight how small business owners perceive a higher minimum wage leading to benefits like lower turnover, increased productivity, and customer satisfaction. This implies businesses adapting to a changing labor market landscape – a key element of competition and business challenges. 
+
+Let me know if you'd like me to analyze any other text snippets!",gemma2:27b,2024-09-12T20:59:25.414838129Z,stop,4574112780,57283225,1026,918718000,132,3553738000,"A 2014 survey found that 53 % of small business owners believed that "" with a higher minimum wage , businesses would benefit from lower employee turnover and increased productivity and customer satisfaction . ""","['TURNOVER', 'MOTIVATION/CHANCES']",2,"['COMPETITION/BUSINESS_CHALLENGES', 'TURNOVER']"
+"The correct label is **UN/EMPLOYMENT_RATE** 
+
+
+Let me know if you'd like to try another example!",gemma2:27b,2024-09-12T20:59:27.288302452Z,stop,1812224695,57956762,1026,920478000,27,701382000,But no one argues that increasing the minimum wage increases the number of unemployed workers who find jobs .,['UN/EMPLOYMENT_RATE'],1,['UN/EMPLOYMENT_RATE']
+"The correct label is **CAPITAL_VS_LABOR** 
+
+Let me explain why:
+
+* The statement highlights the exploitation of undocumented immigrants by employers to suppress wages and prevent unionization.  
+* This directly pits the interests of ""capital"" (employers) against those of ""labor"" (workers, in this case both documented and undocumented).",gemma2:27b,2024-09-12T20:59:30.287135329Z,stop,2937000104,54286117,1026,919134000,72,1920521000,"They 've been uusing undocumented immigrants for DECADES ( in violation of the law ) to keep wages down , and unions out .",['CAPITAL_VS_LABOR'],1,['CAPITAL_VS_LABOR']
+"The correct label is **SOCIAL_JUSTICE/INJUSTICE** 
+",gemma2:27b,2024-09-12T20:59:31.886944753Z,stop,1498086964,57603403,1026,918633000,17,432661000,"Among the 34 Organisation for Economic Cooperation and Development ( OECD ) member countries , the United States has one of the highest levels of income inequality , with only Chile , Mexico , and Turkey having higher levels of income inequality .",['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"The correct labels are **ECONOMIC_IMPACT** and **SOCIAL_JUSTICE/INJUSTICE**. 
+
+Here's why:
+
+* **ECONOMIC_IMPACT:** The statement discusses how increased wages would be ""funneled back into the economy"" leading to improvement. This directly relates to the broader economic effects of a minimum wage increase.
+* **SOCIAL_JUSTICE/INJUSTICE:**  The phrasing ""Of course that money that was paid in the form of higher wage would be funneled back into the economy"" implies a sense of fairness and redistribution of wealth, which aligns with arguments for social justice often made in favor of minimum wage increases. 
+
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-12T20:59:37.142383161Z,stop,5236704045,56689940,1026,919750000,155,4171365000,Of course that money that was paid in the form of higher wage would be funneled back into the economy which was improve the economy .,['ECONOMIC_IMPACT'],2,"['ECONOMIC_IMPACT', 'SOCIAL_JUSTICE/INJUSTICE']"
+"The correct label is **WAGES** 
+
+
+Let me know if you'd like to try another example!",gemma2:27b,2024-09-12T20:59:38.849966101Z,stop,1644963167,56818744,1026,920504000,24,621362000,"But the median raise for those lucky enough to get one was just 10 percent — which is to say , kind of a pittance , in terms of actual dollars and cents .",['SOCIAL_JUSTICE/INJUSTICE'],0,[]
+"The correct label is **LOW-SKILLED**  
+
+Let me know if you'd like to try another example! 
+",gemma2:27b,2024-09-12T20:59:40.769997143Z,stop,1817417629,56011973,1026,918994000,29,756688000,"( Another 11.1 million might theoretically benefit if companies adjusted their whole wage scales upwards , which is what the light blue section on the chart shows .",['SOCIAL_JUSTICE/INJUSTICE'],1,['LOW-SKILLED']
+"The correct label is **POVERTY** 
+
+
+Let me know if you'd like me to analyze any other text snippets! 😊  
+",gemma2:27b,2024-09-12T20:59:42.652379006Z,stop,1863380833,53813646,1026,911074000,31,809683000,"Furthermore , increasing the minimum wage has not proven to be effective at lowering the poverty rate , according to the business-backed nonprofit Employment Policies Institute .",['SOCIAL_JUSTICE/INJUSTICE'],0,[]
+"The correct label is **ECONOMIC_IMPACT** 
+",gemma2:27b,2024-09-12T20:59:44.072095952Z,stop,1319472825,56367993,1026,918902000,12,297274000,"The authors found "" little or no evidence of a negative association between minimum wages and employment . """,['UN/EMPLOYMENT_RATE'],1,['ECONOMIC_IMPACT']
+"The correct label is **BENEFITS** 
+",gemma2:27b,2024-09-12T20:59:45.398756611Z,stop,1265937445,55212221,1026,919758000,10,247125000,"Another casualty here could be worker benefits , such as paid vacation , reimbursed parking , or even gym memberships .",['MOTIVATION/CHANCES'],0,[]
+"The correct label is **SOCIAL_JUSTICE/INJUSTICE** 
+
+
+Let me know if you have any other text snippets you'd like me to categorize!",gemma2:27b,2024-09-12T20:59:47.40181034Z,stop,1945321772,57047929,1026,923658000,35,916989000,"Over time , the focus changed to helping people , especially families , become more self-sufficient .",['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"The correct label is **UNEMPLOYMENT_RATE**  and **ECONOMIC_IMPACT**
+
+Let me know if you have any other text you'd like me to analyze!",gemma2:27b,2024-09-12T20:59:49.512248977Z,stop,2006925670,57251864,1026,915564000,36,945650000,"According to the Econ 101 model of the world , increasing the minimum wage should cost some people their jobs .",['UN/EMPLOYMENT_RATE'],2,"['ECONOMIC_IMPACT', 'UN/EMPLOYMENT_RATE']"
+"The correct label is **SOCIAL_JUSTICE/INJUSTICE** 
+
+
+Let me know if you'd like me to analyze any other text snippets!",gemma2:27b,2024-09-12T20:59:51.460513936Z,stop,1887679698,56934126,1026,919177000,33,866000000,"The 1968 minimum wage , to take a high-water mark , was , in real 2014 dollars , $ 10.95 an hour .",['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"The correct label is CAPITAL_VS_LABOR 
+",gemma2:27b,2024-09-12T20:59:52.918631891Z,stop,1361529707,56273209,1026,918935000,12,297355000,The profit margins that these large companies experience can easily withstand an increase in wages without having to pass it on to the consumer .,"['COMPETITION/BUSINESS_CHALLENGES', 'PRICES']",1,['CAPITAL_VS_LABOR']
+"The correct label is RESEARCH_FINDINGS 
+",gemma2:27b,2024-09-12T20:59:54.269818223Z,stop,1285986683,49287780,1026,919514000,11,270509000,"Moreover , they concluded , "" Once this publication selection is corrected , little or no evidence of a negative association between minimum wages and employment remains . """,['UN/EMPLOYMENT_RATE'],0,[]
+"The correct label is **PRICES** 
+
+Let me know if you'd like me to analyze any other text snippets! 
+",gemma2:27b,2024-09-12T20:59:56.10039458Z,stop,1771832715,53649721,1026,916285000,29,756794000,And 62 percent of Seattle employers responded in an initial survey before the wage hike took effect that they would likely raise prices .,['PRICES'],1,['PRICES']
+"The correct labels are **SOCIAL_JUSTICE/INJUSTICE** and **ECONOMIC_IMPACT**. 
+
+
+Let me know if you'd like to try labeling more examples!",gemma2:27b,2024-09-12T20:59:58.242722548Z,stop,2042546018,57535381,1026,919311000,37,976418000,A 2015 study found that the decrease in the inflation-adjusted value of the minimum wage since the 1980s has been a contributor to America 's high levels of inequality .,['SOCIAL_JUSTICE/INJUSTICE'],2,"['ECONOMIC_IMPACT', 'SOCIAL_JUSTICE/INJUSTICE']"
+"The correct labels are **PRICES** and **COMPETITION/BUSINESS_CHALLENGES**. 
+
+
+Let me know if you'd like me to analyze any other text snippets! 
+",gemma2:27b,2024-09-12T21:00:00.345786133Z,stop,2085279628,57171973,1026,911922000,39,1027000000,"And nearly 90 percent of franchised hotels said they would raise room rates , compared with 70 percent of nonfranchised hotels .","['COMPETITION/BUSINESS_CHALLENGES', 'PRICES']",2,"['PRICES', 'COMPETITION/BUSINESS_CHALLENGES']"
+"The correct label is SOCIAL_JUSTICE/INJUSTICE 
+
+
+",gemma2:27b,2024-09-12T21:00:01.843489238Z,stop,1394534728,54285749,1026,919817000,15,377416000,Their present wages are hopelessly inadequate .,['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"The correct labels are **SOCIAL_JUSTICE/INJUSTICE**, **LOW-SKILLED**. 
+
+
+Let's break down why:
+
+* **SOCIAL_JUSTICE/INJUSTICE:** The statement advocates for a living wage that allows low-wage workers to maintain a standard of living in line with the economy. This points towards a concern for fairness and equity for these workers.
+* **LOW-SKILLED:**  The phrase ""low-wage workers"" directly refers to individuals typically occupying less skilled positions. 
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-12T21:00:06.384122906Z,stop,4479195916,54427732,1026,917411000,129,3463335000,Raising the minimum wage and indexing it to inflation would ensure that low-wage workers could adopt a standard of living commensurate with the current economy .,['SOCIAL_JUSTICE/INJUSTICE'],2,"['LOW-SKILLED', 'SOCIAL_JUSTICE/INJUSTICE']"
+"The correct label is **LOW-SKILLED** 
+
+
+Let me know if you'd like to try another example! 
+",gemma2:27b,2024-09-12T21:00:08.30501848Z,stop,1820535860,56181328,1026,916861000,29,757801000,"-SKILLED • The possibility that a higher minimum wage would attract more experienced workers and keep them in lower-wage jobs longer , blocking young people or people with limited work experience from entry-level jobs .","['LOW-SKILLED', 'MOTIVATION/CHANCES']",1,['LOW-SKILLED']
+"The correct label is **YOUTH_AND_SECONDARY_WAGE_EARNERS** 
+
+Let me know if you'd like me to analyze any other text snippets! 
+",gemma2:27b,2024-09-12T21:00:10.415942508Z,stop,2092561765,54894693,1026,919991000,39,1027028000,Part-time workers making minimum wage could be given full-time opportunity to help save an employer the cost of hiring and training new employees .,"['TURNOVER', 'MOTIVATION/CHANCES']",1,['YOUTH_AND_SECONDARY_WAGE_EARNERS']
+"The correct label is **SOCIAL_JUSTICE/INJUSTICE** 
+
+
+Let me know if you have any other text snippets you'd like me to analyze! 
+",gemma2:27b,2024-09-12T21:00:12.50488839Z,stop,1988163735,55986541,1026,915081000,37,971469000,""" Why ca n't they just figure it out and make ends meet ? """,['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"The correct label is PRICES  
+",gemma2:27b,2024-09-12T21:00:13.858567476Z,stop,1294929332,56566957,1026,918770000,8,189540000,"Between July 2015 and the last increase in the minimum wage in 2009 , the federal minimum wage lost 8.1 % of its purchasing power to inflation .",['SOCIAL_JUSTICE/INJUSTICE'],1,['PRICES']
+"The correct label is ECONOMIC_IMPACT 
+",gemma2:27b,2024-09-12T21:00:15.179069847Z,stop,1262631880,55109578,1026,920182000,10,243389000,I can think of only one good reason : that increasing the minimum wage so dramatically will damage the economic prospects of millions of vulnerable people .,"['COMPETITION/BUSINESS_CHALLENGES', 'UN/EMPLOYMENT_RATE']",1,['ECONOMIC_IMPACT']
+"The correct label is **AFFORDABILITY** 
+",gemma2:27b,2024-09-12T21:00:16.5629636Z,stop,1320925782,55284014,1026,920187000,12,297874000,"According to a 2015 report from the National Low Income Housing Coalition , a worker must earn at least $ 15.50 an hour ( over twice the federal minimum wage ) to be able to afford to rent a "" modest "" one-bedroom apartment , and $ 19.35 for a two-bedroom unit ( more than 2.5 times the minimum wage ) .",['SOCIAL_JUSTICE/INJUSTICE'],0,[]
+"The correct labels are **CAPITAL_VS_LABOR** and **SOCIAL_JUSTICE/INJUSTICE**. 
+
+Here's why:
+
+* **CAPITAL_VS_LABOR:** The quote directly contrasts the claims of labor (workers deserving a living wage) with the claims of owners to profits. This highlights the inherent tension between those who own capital (businesses) and those who provide labor.
+* **SOCIAL_JUSTICE/INJUSTICE:**  The statement emphasizes the right to a ""living wage,"" implying a moral imperative for fair compensation that allows workers to meet their basic needs. This aligns with themes of social justice and addressing economic inequality. 
+
+
+Let me know if you'd like me to analyze any other text snippets!",gemma2:27b,2024-09-12T21:00:21.706514156Z,stop,5081918569,55666304,1026,918793000,151,4064132000,"In 1940 , US Catholic Bishops stated : "" The first claims of labor , WHICH TAKES PRIORITY OVER ANY CLAIMS OF THE OWNERS TO PROFITS , respects the right to a living wage . """,['SOCIAL_JUSTICE/INJUSTICE'],2,"['CAPITAL_VS_LABOR', 'SOCIAL_JUSTICE/INJUSTICE']"
+"The correct labels are **LOW-SKILLED** and **YOUTH_AND_SECONDARY_WAGE_EARNERS**. 
+
+
+Let's break down why:
+
+* **LOW-SKILLED:** The text emphasizes that many households rely ""either fully or substantially"" on minimum-wage work. This suggests a demographic likely comprised of low-skilled workers who depend on these jobs for their primary income.
+* **YOUTH_AND_SECONDARY_WAGE_EARNERS:** While the passage doesn't explicitly mention teenagers, the phrase ""supplemental""  hints at the possibility that some minimum wage earners are using these jobs as secondary sources of income, potentially including students or part-time workers. 
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-12T21:00:27.345626426Z,stop,5536858626,55680633,1026,919148000,166,4475161000,"In other words , minimum-wage work is n’t just supplemental ; many households are relying either fully or substantially on full-time , minimum-wage work to pay the bills .",['YOUTH_AND_SECONDARY_WAGE_EARNERS'],2,"['LOW-SKILLED', 'YOUTH_AND_SECONDARY_WAGE_EARNERS']"
+"The correct label is COMPETITION/BUSINESS_CHALLENGES 
+",gemma2:27b,2024-09-12T21:00:28.744088654Z,stop,1379501740,55863489,1026,911165000,13,325118000,"Some argue that by increasing the federal minimum wage , however , the economy will be adversely affected due to small businesses not being able to keep up with the need to subsequently increase all workers wages .","['COMPETITION/BUSINESS_CHALLENGES', 'ECONOMIC_IMPACT']",1,['COMPETITION/BUSINESS_CHALLENGES']
+"The correct label is TAX_POLICY 
+",gemma2:27b,2024-09-12T21:00:30.071734699Z,stop,1266417678,57359197,1026,919832000,10,244006000,"A tax credit is less politically palatable because it takes money directly out of federal coffers , while the minimum wage can be raised without it showing up directly on the government ’s books .",['WELFARE'],0,[]
+"The correct label is **BUSINESS_EFFICIENCY**. 
+",gemma2:27b,2024-09-12T21:00:31.476977071Z,stop,1344304232,53669301,1026,920336000,13,324582000,"In other words , one theory holds that increasing the minimum wage forces businesses to get thinner .","['COMPETITION/BUSINESS_CHALLENGES', 'UN/EMPLOYMENT_RATE']",0,[]
+"The correct label is **LOW-SKILLED** 
+
+
+Let me know if you have any other text snippets you'd like me to categorize! 
+",gemma2:27b,2024-09-12T21:00:33.435161106Z,stop,1898458955,40894562,1026,919765000,34,890885000,A minimum wage ensures low-skilled workers that they will be paid a guaranteed minimum and encourages them to find work and provide for themselves .,"['SOCIAL_JUSTICE/INJUSTICE', 'MOTIVATION/CHANCES']",1,['LOW-SKILLED']
+"The correct label is **SOCIAL_JUSTICE/INJUSTICE** 
+
+Let me know if you'd like me to analyze any other text snippets! 
+",gemma2:27b,2024-09-12T21:00:35.519013558Z,stop,1982232424,55962781,1026,918979000,35,917710000,"Proponents of an increase argue that the fair thing to do for American workers is to increase the minimum wage and , ideally , tie it to inflation , thus removing future increases from the realm of politics .",['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"The correct label is **SOCIAL_JUSTICE/INJUSTICE** 
+
+
+Let me know if you have any other text snippets you'd like me to classify!",gemma2:27b,2024-09-12T21:00:37.512957943Z,stop,1975809248,56174836,1026,912308000,35,917286000,"No matter how you slice it , the minimum wage has n’t kept up with inflation .",['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"The correct labels are **LOW-SKILLED** and  **UN/EMPLOYMENT_RATE**. 
+
+Here's why:
+
+* **LOW-SKILLED:** The phrase ""wage floors reduce employment"" directly relates to the potential impact of minimum wage increases on low-skilled workers. This is a common argument against raising the minimum wage – that it could lead to job losses, particularly for those with fewer skills.
+* **UN/EMPLOYMENT_RATE:**  The statement explicitly mentions economists' concern about ""wage floors reduce employment,"" which directly connects to the unemployment rate. 
+
+
+Let me know if you have any other text snippets you'd like labeled!",gemma2:27b,2024-09-12T21:00:42.308110076Z,stop,4695421434,56653150,1026,919800000,137,3673834000,"Historically , economists ' scepticism was rooted in the worry that wage floors reduce employment .",['UN/EMPLOYMENT_RATE'],2,"['LOW-SKILLED', 'UN/EMPLOYMENT_RATE']"
+"The correct label is **CAPITAL_VS_LABOR** 
+",gemma2:27b,2024-09-12T21:00:43.827564352Z,stop,1458032704,54731650,1026,920355000,14,351151000,But those predisposed to defending the interests of corporate America – including retailers and fast-food restaurants – oppose any increase .,"['COMPETITION/BUSINESS_CHALLENGES', 'CAPITAL_VS_LABOR']",1,['CAPITAL_VS_LABOR']
+"The correct label is **TURNOVER** 
+
+
+Let me know if you'd like to try another example!",gemma2:27b,2024-09-12T21:00:45.518595696Z,stop,1634225192,51946368,1026,920424000,24,618443000,High employee turnover costs businesses time and money in recruiting and training new workers .,"['COMPETITION/BUSINESS_CHALLENGES', 'TURNOVER']",1,['TURNOVER']
+"The correct label is PRICES 
+",gemma2:27b,2024-09-12T21:00:46.86800412Z,stop,1247193262,48825937,1026,920014000,8,189721000,"Overall , if costs of living go up , then we may end up right back where we started .",['PRICES'],1,['PRICES']
+"The correct label is **PRICES**. 
+",gemma2:27b,2024-09-12T21:00:48.223141873Z,stop,1294397628,56368021,1026,919539000,11,271517000,"A 2013 article by the Federal Reserve Bank of Chicago stated that if the minimum wage is increased , fast-food restaurants would pass on almost 100 % of their increased labor costs on to consumers and that other firms may do the same .",['PRICES'],1,['PRICES']
+"The correct labels are: **PRICES** and **COMPETITION/BUSINESS_CHALLENGES**. 
+
+Here's why:
+
+* **PRICES:** The statement explicitly mentions that the cost of the minimum wage hike will be passed on to consumers as higher prices.
+
+* **COMPETITION/BUSINESS_CHALLENGES:**  The scenario describes how Mississippi employers will have to raise wages, implying a competitive challenge for businesses in the state to adjust to the new minimum wage. 
+
+
+Let me know if you'd like me to analyze any other text examples!",gemma2:27b,2024-09-12T21:00:52.363543622Z,stop,4078327370,54696438,1026,919566000,114,3060535000,"In Mississippi , by contrast , many employers will have to raise their wages , and it ’s a safe bet that virtually all of the cost of this minimum wage hike will be passed on to consumers in the form of higher prices .",['PRICES'],2,"['PRICES', 'COMPETITION/BUSINESS_CHALLENGES']"
+"The correct label is **WAGE(INCREASES)** 
+
+
+",gemma2:27b,2024-09-12T21:00:53.881895239Z,stop,1417362245,57232643,1026,918946000,14,351334000,"With an estimated 9 million people making as little as $ 9/hour in these two states , the immediate effects of the wage increases are undeniable .",['SOCIAL_JUSTICE/INJUSTICE'],0,[]
+"The correct labels are: **LOW-SKILLED**, **COMPETITION/BUSINESS_CHALLENGES** 
+",gemma2:27b,2024-09-12T21:00:55.580659202Z,stop,1640068232,57859890,1026,914496000,24,622586000,"-SKILLED If the minimum wage is increased , employers might not want to invest as much money in unskilled workers , which can lead to those employees being squeezed out of the job market .","['LOW-SKILLED', 'UN/EMPLOYMENT_RATE']",2,"['LOW-SKILLED', 'COMPETITION/BUSINESS_CHALLENGES']"
+"The correct label is **LOW-SKILLED** 
+",gemma2:27b,2024-09-12T21:00:57.090744335Z,stop,1409950694,54891733,1026,916938000,14,351524000,But I would not have gotten those jobs if someone had to pay me a large amount of money .,['MOTIVATION/CHANCES'],1,['LOW-SKILLED']
+"The correct label is **CAPITAL_VS_LABOR** 
+",gemma2:27b,2024-09-12T21:00:58.527175461Z,stop,1373958757,56969718,1026,920452000,14,351203000,"Minimum wage laws prevent mutually advantageous , voluntary labor agreements between employers and employees from taking place .",['GOVERNMENT'],1,['CAPITAL_VS_LABOR']
+"The correct label is **PRICES**. 
+",gemma2:27b,2024-09-12T21:00:59.877153791Z,stop,1288359063,55359687,1026,918802000,11,270707000,Raising minimum wage can increase the cost of product .,['PRICES'],1,['PRICES']
+"The correct label is **GOVERNMENT** 
+
+
+Let me know if you'd like to try another example!",gemma2:27b,2024-09-12T21:01:01.554513443Z,stop,1617867339,57050149,1026,918700000,23,596425000,"As Robert Dresser of the National Association of Manufacturers ( NAM ) — an anti-union organization of assorted businesses that fought various New Deal laws — told the congressmen : "" you can not legislate a nation into prosperity . ""","['GOVERNMENT', 'CAPITAL_VS_LABOR']",1,['GOVERNMENT']
+"The correct label is **TURNOVER** 
+
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-12T21:01:03.476970838Z,stop,1820444728,56044744,1026,919624000,29,754936000,This important because they can make more money because less people are likely to quit .,['TURNOVER'],1,['TURNOVER']
+"The correct labels are **MARKET_MECHANISMS**. 
+
+Let me know if you'd like to try another example!",gemma2:27b,2024-09-12T21:01:05.223367717Z,stop,1727627316,55250982,1026,908963000,26,674746000,Private industry and the free market are already taking care of it .,['GOVERNMENT'],0,[]
+"The correct label is **JOB_LOSS/CREATION**  
+",gemma2:27b,2024-09-12T21:01:06.7256471Z,stop,1400987023,58612079,1026,915679000,15,383436000,"Jamie Richardson , MBA , Vice President of fast food chain White Castle , said that the company would be forced to close almost half its stores and let go thousands of workers if the federal minimum wage were raised to $ 15 .","['COMPETITION/BUSINESS_CHALLENGES', 'UN/EMPLOYMENT_RATE']",0,[]
+"The correct label is **INCOME_DISTRIBUTION**. 
+
+
+Let me know if you'd like me to analyze any other text snippets!",gemma2:27b,2024-09-12T21:01:08.557243165Z,stop,1772571825,55037877,1026,917531000,29,756252000,"And even if there are job some losses , the math seems to suggest that the middle class and poor would still earn more income collectively in the deal .","['UN/EMPLOYMENT_RATE', 'SOCIAL_JUSTICE/INJUSTICE']",0,[]
+"The correct label is JOB_CREATION 
+",gemma2:27b,2024-09-12T21:01:09.995691812Z,stop,1334956093,56303830,1026,918852000,11,270337000,"More opportunity for jobs : If these minimum wage employees are spending more , then businesses are earning more and need to hire more employees to keep up with the increased sales from the minimum wage employees who are buying more .","['UN/EMPLOYMENT_RATE', 'ECONOMIC_IMPACT']",0,[]
+"The correct labels are: 
+
+**LOW-SKILLED** (Higher wages could attract more skilled workers) 
+",gemma2:27b,2024-09-12T21:01:11.749022571Z,stop,1692187024,55057918,1026,919134000,26,674373000,But it ’s possible that productivity also rises because the higher minimum attracts more efficient workers to the labor pool .,['COMPETITION/BUSINESS_CHALLENGES'],1,['LOW-SKILLED']
+"The correct label is **PRICES** 
+",gemma2:27b,2024-09-12T21:01:13.180846108Z,stop,1331020111,58538208,1026,916018000,11,270400000,"• An increase in consumer prices , driven by companies offsetting increased labor costs .",['PRICES'],1,['PRICES']
+"The correct label is **LOW-SKILLED** 
+
+**Explanation:** The passage focuses on using a minimum wage job as a stepping stone to gain skills and move to higher paying positions. This implies the individual starts at a low-skilled, entry-level position. 
+
+
+",gemma2:27b,2024-09-12T21:01:15.807779247Z,stop,2567091548,62430659,1026,920139000,58,1539377000,"The goal , then , is to get in at that wage , develop skills and quickly work your way out of minimum wage and up the pay scale .",['MOTIVATION/CHANCES'],1,['LOW-SKILLED']
+"The correct label is **POVERTY**. 
+
+
+",gemma2:27b,2024-09-12T21:01:17.270963113Z,stop,1362386460,55673914,1026,919391000,12,297189000,Some suggest that creating more jobs for people who need them rather than raising earnings for people who already have them is a better solution for reducing the national poverty rate .,"['UN/EMPLOYMENT_RATE', 'SOCIAL_JUSTICE/INJUSTICE']",0,[]
+"The correct label is JOB_LOSS 
+
+Let me know if you'd like me to analyze any more text! 
+",gemma2:27b,2024-09-12T21:01:19.052244802Z,stop,1719845316,55969790,1026,919850000,27,700789000,Myth : Increasing the minimum wage will cause people to lose their jobs .,['UN/EMPLOYMENT_RATE'],0,[]
+"The correct label is **WELFARE**. 
+
+**Explanation:**
+
+This statement directly addresses the potential impact of a minimum wage increase on social programs. It argues that higher wages could reduce reliance on social assistance, leading to lower taxes or reallocation of funds. This clearly falls under the category of **Welfare**. 
+
+
+",gemma2:27b,2024-09-12T21:01:21.949710338Z,stop,2796709382,55502550,1026,920679000,65,1733798000,Raising minimum wage means some of these people would be able to better support themselves without leaning as heavily on social programs and this would ultimately mean lower taxes or a reallocation of those funds to support other needs .,['WELFARE'],1,['WELFARE']
+"The correct label is ECONOMIC_IMPACT 
+
+
+",gemma2:27b,2024-09-12T21:01:23.271504462Z,stop,1303271897,55832588,1026,915512000,10,244348000,Raising the federal minimum wage is an important part of strengthening the economy .,['ECONOMIC_IMPACT'],1,['ECONOMIC_IMPACT']
+"The correct label is **SOCIAL_JUSTICE/INJUSTICE** 
+
+
+Let me know if you'd like me to analyze any other text snippets!",gemma2:27b,2024-09-12T21:01:25.221674489Z,stop,1888155300,56686729,1026,919930000,33,866456000,"Yes , there are actually people so hell-bent on denigrating fast food workers they are willing to give up an increase in their own hourly wage purely to preserve a false sense of superiority .",['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"The correct label is **CORPORATE_WELFARE** 
+
+
+Let me explain why:
+
+* **Corporate Welfare:** This term refers to government subsidies, tax breaks, and other assistance given to corporations.  The statement argues that raising the minimum wage would reduce the need for taxpayers to subsidize companies that rely on a large, low-wage workforce. This directly aligns with the concept of corporate welfare. 
+",gemma2:27b,2024-09-12T21:01:28.646817317Z,stop,3321389914,55842277,1026,919113000,84,2256611000,"As a result , we end up subsidizing companies like McDonald ’s or Walmart that have a large , poorly paid work force .",['WELFARE'],1,['WELFARE']
+"The correct label is **POVERTY** 
+
+
+Let me know if you have any more text snippets you'd like labeled! 
+",gemma2:27b,2024-09-12T21:01:30.512169492Z,stop,1846920150,57375467,1026,916194000,30,782883000,"First , many people who live in poverty do not work , and would thus be unaffected by an increase in the minimum wage .",['SOCIAL_JUSTICE/INJUSTICE'],0,[]
+"The correct label is **JOB_CREATION**. 
+",gemma2:27b,2024-09-12T21:01:31.959540169Z,stop,1346715006,57413049,1026,916405000,13,328769000,"In 2014 , supporters of minimum wage cited news organizations who reported the state with the highest minimum-wage garnered more job creation than the rest of the United States .",['UN/EMPLOYMENT_RATE'],0,[]
+"The correct label is **LOW-SKILLED**  
+
+
+Let me know if you'd like to try another example! 
+",gemma2:27b,2024-09-12T21:01:33.800937236Z,stop,1780190000,57943772,1026,919883000,29,757452000,"-SKILLED Casey B. Mulligan , PhD , economics professor at the University of Chicago , stated that the teenage employment index fell sharply after the minimum wage increase of July 2009 ( a fall of about 8 % in three months , while the previous drop of 8 % took over a year ) : "" This suggests that the 2009 minimum-wage increase did significantly reduce teenage employment . """,['LOW-SKILLED'],1,['LOW-SKILLED']
+"The correct labels are  **COMPETITION/BUSINESS_CHALLENGES** and **JOB LOSS / CREATION**. 
+
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-12T21:01:36.101062327Z,stop,2200325020,56441163,1026,918453000,43,1136307000,Raising the minimum wage would encourage companies to outsource jobs to countries where costs would be lower .,['UN/EMPLOYMENT_RATE'],1,['COMPETITION/BUSINESS_CHALLENGES']
+"The correct labels are **COSTS** and **PRICES**. 
+",gemma2:27b,2024-09-12T21:01:37.588018096Z,stop,1468689718,56838423,1026,919437000,16,404731000,Raise the min wage and costs increase .,['PRICES'],1,['PRICES']
+"The correct label is UN/EMPLOYMENT_RATE 
+
+
+Let me know if you have any other text snippets you'd like labeled! I'm ready. 😊  
+",gemma2:27b,2024-09-12T21:01:39.613646887Z,stop,1964886037,54581706,1026,920265000,36,945635000,"The nonpartisan Congressional Budget Office estimated that President Obama ’s proposed $ 10.10 wage , once fully implemented , “ would reduce total employment by about 500,000 workers . ”",['UN/EMPLOYMENT_RATE'],1,['UN/EMPLOYMENT_RATE']
+"The correct label is PRICES 
+",gemma2:27b,2024-09-12T21:01:40.976794956Z,stop,1256377519,57348127,1026,920164000,8,190244000,"Restaurants ( and in particular fast food eateries ) raise their prices incrementally all the time , and the vast majority of them still have extremely healthy profit margins .","['COMPETITION/BUSINESS_CHALLENGES', 'PRICES']",1,['PRICES']
+"The correct label is **LOW-SKILLED**. 
+
+This statement directly addresses the potential negative impact of minimum wage increases on the least productive workers, who are often categorized as low-skilled. 
+",gemma2:27b,2024-09-12T21:01:43.191767034Z,stop,2155049265,55556811,1026,919383000,43,1136933000,Thus this price effect may harm the very people whom a minimum wage is supposed to help . ”,['PRICES'],1,['LOW-SKILLED']
+"The correct label is POVERTY_LEVEL  
+
+Let me know if you'd like to try another example!",gemma2:27b,2024-09-12T21:01:45.007642574Z,stop,1715132295,56351291,1026,920527000,25,648739000,"At $ 7.25 per hour a minimum wage workers earns $ 15,080 per year , which is already greater than the federally determined poverty level .",['SOCIAL_JUSTICE/INJUSTICE'],0,[]
+"The correct labels are **COMPETITION/BUSINESS_CHALLENGES** and **PRICES**. 
+
+
+Let me know if you'd like me to analyze more text examples! 
+",gemma2:27b,2024-09-12T21:01:47.083342665Z,stop,2057947584,56439903,1026,910468000,38,1000963000,Opponents say raising the minimum wage will force employers to hire fewer people or pass the new costs on to consumers by raising prices on goods and services .,"['UN/EMPLOYMENT_RATE', 'PRICES']",2,"['PRICES', 'COMPETITION/BUSINESS_CHALLENGES']"
+"The correct label is **MOTIVATION/CHANCES** 
+
+
+",gemma2:27b,2024-09-12T21:01:48.558809067Z,stop,1374178383,56125785,1026,920155000,14,352099000,Teens who live in poverty are twice as likely to miss three or more days of school per month compared to those who do not ; thus raising the minimum wage and lifting families out of poverty would mean children would miss fewer school days .,"['SOCIAL_JUSTICE/INJUSTICE', 'MOTIVATION/CHANCES']",1,['MOTIVATION/CHANCES']
+"The correct label is UN/EMPLOYMENT_RATE 
+",gemma2:27b,2024-09-12T21:01:49.940297038Z,stop,1318253412,56051323,1026,919211000,12,297550000,It creates a certain amount of structural unemployment .,['UN/EMPLOYMENT_RATE'],1,['UN/EMPLOYMENT_RATE']
+"The correct label is ECONOMIC_IMPACT 
+",gemma2:27b,2024-09-12T21:01:51.263768885Z,stop,1263265576,54924095,1026,920145000,10,243586000,"This increased demand for goods and services tends to stimulate the economy which , in turn , leads to job creation .","['UN/EMPLOYMENT_RATE', 'ECONOMIC_IMPACT']",1,['ECONOMIC_IMPACT']
+"The correct label is **SOCIAL_JUSTICE/INJUSTICE** 
+
+
+Let me know if you'd like me to analyze any other text snippets!",gemma2:27b,2024-09-12T21:01:53.212683791Z,stop,1891989510,56728922,1026,920365000,33,868017000,"A 2014 study found that raising the Californian minimum wage to $ 13 an hour would increase the incomes of 7.5 million families , meaning fewer would live in poverty .",['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"The correct label is **COMPETITION/BUSINESS_CHALLENGES** and **JOB LOSS / CREATION**.
+
+
+Let me explain why:
+
+* **COMPETITION/BUSINESS_CHALLENGES:** The text highlights how a minimum wage increase would disproportionately impact certain sectors (fast food, hotels)  making them more likely to reduce hiring. This points to the competitive challenges businesses in those sectors might face.
+* **JOB LOSS / CREATION:** The phrase ""more likely to reduce hiring"" directly suggests a potential consequence of a minimum wage increase - a decrease in job opportunities. 
+
+
+Let me know if you'd like me to analyze any other text snippets!",gemma2:27b,2024-09-12T21:01:57.901103445Z,stop,4628904511,60927280,1026,919236000,134,3601560000,"This trend was more pronounced in the fast food and hotel sectors — more than 80 percent of franchised fast food owners said they would be more likely to reduce hiring , versus 58 percent of non-fast-food restaurant owners .",['UN/EMPLOYMENT_RATE'],1,['COMPETITION/BUSINESS_CHALLENGES']
+"The correct label is **AUTOMATION** 
+
+
+Let me know if you'd like to try another example!",gemma2:27b,2024-09-12T21:01:59.720092995Z,stop,1715072624,56305381,1026,918619000,25,650086000,"The manager of one Louisiana lumber company claimed that while the low cost of living in the South meant employers had n’t resorted to “ labor-saving machinery ” thus far , wage increases beyond a certain point would force them into doing so and “ eliminating over half of [ their ] men . ”",['UN/EMPLOYMENT_RATE'],0,[]
+"The correct labels are SOCIAL_JUSTICE/INJUSTICE  and CAPITAL_VS_LABOR 
+
+",gemma2:27b,2024-09-12T21:02:01.386998018Z,stop,1648059198,78671286,1026,912536000,22,566566000,A minimum wage increase would help to reduce race and gender inequality .,['SOCIAL_JUSTICE/INJUSTICE'],2,"['CAPITAL_VS_LABOR', 'SOCIAL_JUSTICE/INJUSTICE']"
+"The correct label is **SOCIAL_JUSTICE/INJUSTICE** 
+
+
+Let me know if you have any other text snippets you'd like me to analyze! 😊  
+",gemma2:27b,2024-09-12T21:02:03.509434352Z,stop,2020650604,55570823,1026,917888000,38,1000716000,"According to a 2013 Congressional Research Service report , a single parent with two children who works full time at the current minimum wage would be earning around $ 15,000 and living at 76 percent of the federal poverty level .",['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"The correct label is PRICES 
+",gemma2:27b,2024-09-12T21:02:04.780940061Z,stop,1212311745,56842385,1026,918405000,8,189583000,"However , the researchers note , “ in other cases … the absence of price effects shows the relative unimportance of labor in a business ’s cost structure . ”",['PRICES'],1,['PRICES']
+"The correct label is **LOW-SKILLED**  and **YOUTH_AND_SECONDARY_WAGE_EARNERS**. 
+
+Here's why:
+
+* **LOW-SKILLED:** The study focuses on the impact of minimum wage increases on teenagers, a group often associated with entry-level and less skilled jobs.
+* **YOUTH_AND_SECONDARY_WAGE_EARNERS:** The study specifically mentions teenagers and their school enrollment, clearly placing it within the scope of youth employment. 
+
+
+Let me know if you'd like to analyze more text examples!",gemma2:27b,2024-09-12T21:02:09.134611093Z,stop,4293827881,55414827,1026,918686000,122,3276282000,"According to a 2003 study by economists David Neumark , PhD , and William Wascher , PhD , in states where teens can leave school before 18 , a 10 % increase in the minimum wage caused teenage school enrollment to drop by 2 % .",['MOTIVATION/CHANCES'],2,"['LOW-SKILLED', 'YOUTH_AND_SECONDARY_WAGE_EARNERS']"
+"The correct label is **LOW-SKILLED** 
+
+
+Let me know if you'd like me to analyze more text examples!",gemma2:27b,2024-09-12T21:02:11.055537768Z,stop,1822565211,56474284,1026,917117000,29,759434000,"Raise minimum wages too high , and you ’ll eventually choke off employment , harming the very people that the policy is intended to help .",['UN/EMPLOYMENT_RATE'],1,['LOW-SKILLED']
+"The correct label is **PRICES** and **COMPETITION/BUSINESS_CHALLENGES**. 
+
+
+Let me know if you'd like me to analyze any other text!",gemma2:27b,2024-09-12T21:02:13.081556371Z,stop,1964998101,55405937,1026,919111000,36,946957000,"In cities such as Los Angeles with a limited housing supply , raising the minimum wage but not increasing housing stock would lead to an increase in rental prices as "" 700,000 minimum wage workers will have more money to compete for the same low inventory of rental units , "" according to researchers from the University of California in Los Angeles .",['PRICES'],2,"['PRICES', 'COMPETITION/BUSINESS_CHALLENGES']"
+"The correct label is **LABOR_SUPPLY** 
+",gemma2:27b,2024-09-12T21:02:14.542642802Z,stop,1357791452,55473349,1026,918694000,12,296964000,The legal restriction that employers can not pay less than a legislated wage is equivalent to the legal restriction that workers can not work at all in the protected sector unless they can find employers willing to hire them at that wage .,['UN/EMPLOYMENT_RATE'],0,[]
+"The correct label is PRICES 
+",gemma2:27b,2024-09-12T21:02:15.812802945Z,stop,1211767720,57101381,1026,919532000,8,189875000,"So it ’s not just that the minimum wage is staying the same : every day , it actually becomes worth a little bit less .",['SOCIAL_JUSTICE/INJUSTICE'],1,['PRICES']
+"The correct labels are **PRICES** 
+
+Let me know if you'd like to analyze more text examples!",gemma2:27b,2024-09-12T21:02:17.535286449Z,stop,1662568931,54882184,1026,915207000,25,648557000,Restaurants especially have passed the cost of minimum wage onto consumers by increasing menu prices .,['PRICES'],1,['PRICES']
+"The correct label is **ECONOMIC_IMPACT** 
+",gemma2:27b,2024-09-12T21:02:18.996679278Z,stop,1359871103,55575400,1026,919740000,12,297663000,"Rather , economic analysis raises questions about whether a higher minimum wage will achieve better outcomes for the economy and reduce poverty .","['ECONOMIC_IMPACT', 'SOCIAL_JUSTICE/INJUSTICE']",1,['ECONOMIC_IMPACT']
+"The correct label is **MARKET_MECHANISMS** 
+",gemma2:27b,2024-09-12T21:02:20.400259779Z,stop,1343471383,56441115,1026,915020000,13,325472000,"According to Mark J. Perry , PhD , of the American Enterprise Institute , government-mandated minimum wages "" are always arbitrary and almost never based on any sound economic/cost-benefit analysis ... [ I ] n contrast market-determined wages reflect supply and demand conditions that are specific to local market conditions and vary widely by geographic region and by industry . """,['GOVERNMENT'],0,[]
+"The correct label is **SOCIAL_JUSTICE/INJUSTICE** and **PRICES**
+
+
+Let's break down why:
+
+* **SOCIAL_JUSTICE/INJUSTICE:** The statement frames a $15 minimum wage as a benefit for workers (""the worker will have more money""), implying a fairer distribution of wealth. This aligns with the concept of social justice.
+* **PRICES:** The phrase ""a tax on everyone"" suggests that the increased labor costs from a higher minimum wage will likely be passed onto consumers through higher prices for goods and services. 
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-12T21:02:25.162617207Z,stop,4702065425,56603768,1026,919051000,137,3679641000,"In essence , a $ 15 minimum wage is a tax on everyone , but the upside is that the worker will have more money to buy things for their family that adds to the economy .",['ECONOMIC_IMPACT'],2,"['PRICES', 'SOCIAL_JUSTICE/INJUSTICE']"
+"The correct label is **COMPETITION/BUSINESS_CHALLENGES**  and **CAPITAL_VS_LABOR**. 
+
+
+Let me explain why:
+
+* **COMPETITION/BUSINESS_CHALLENGES:** The study focuses on how CFOs would react to a minimum wage increase, specifically mentioning reductions in employee benefits. This directly relates to businesses adapting their strategies and potentially facing challenges due to increased labor costs.
+
+* **CAPITAL_VS_LABOR:**  The statement highlights the tension between capital (represented by CFOs and businesses) and labor (employees). The potential reduction in benefits underscores a dynamic where businesses might seek to protect their profit margins at the expense of worker compensation. 
+",gemma2:27b,2024-09-12T21:02:30.021757689Z,stop,4756738953,56446403,1026,919723000,137,3690429000,"A 2014 study of 400 US Chief Financial Officers ( CFOs ) by Campbell Harvey , PhD , J. Paul Sticht Professor of International Business at Duke University , found that 40 % of CFOs would reduce employee benefits if the minimum wage were raised to $ 10 an hour .",['MOTIVATION/CHANCES'],2,"['CAPITAL_VS_LABOR', 'COMPETITION/BUSINESS_CHALLENGES']"
+"The correct labels are **LOW-SKILLED** and  **TURNOVER**. 
+
+
+Here's why:
+
+* **LOW-SKILLED:** The statement directly addresses the potential impact of higher minimum wages on entry-level jobs, which are often filled by individuals with lower skill levels.  
+
+* **TURNOVER:** The argument that higher wages reduce employee turnover is explicitly mentioned. 
+",gemma2:27b,2024-09-12T21:02:33.31389472Z,stop,3272920586,50970732,1026,911695000,83,2222778000,Making the entry-level jobs higher paying increases the risk that workers will get stuck in them for longer instead of moving on to something more rewarding .,['MOTIVATION/CHANCES'],2,"['LOW-SKILLED', 'TURNOVER']"
+"The correct label is **LOW-SKILLED**. 
+
+This statement focuses on how a minimum wage increase could negatively impact ""the least productive (and therefore lowest-wage) workers"". This directly relates to the concerns about low-skilled workers being priced out of the job market due to higher labor costs.
+
+
+",gemma2:27b,2024-09-12T21:02:36.101812635Z,stop,2728893835,58616320,1026,918316000,64,1707573000,Thus this price effect may harm the very people whom a minimum wage is supposed to help .,['PRICES'],1,['LOW-SKILLED']
+"The correct label is **LOW-SKILLED** 
+",gemma2:27b,2024-09-12T21:02:37.620056639Z,stop,1415142069,57961414,1026,917206000,14,351600000,"-SKILLED According to a Federal Reserve Bank of Chicago study , “ 10 percent increase in the minimum wage lowers low skill employment by 2 to 4 percent and total restaurant employment by 1 to 3 percent . ”","['LOW-SKILLED', 'UN/EMPLOYMENT_RATE']",1,['LOW-SKILLED']
+"The correct label is **LOW-SKILLED** 
+",gemma2:27b,2024-09-12T21:02:39.054546615Z,stop,1373821603,58025044,1026,920457000,14,350499000,"The core of the argument here is that the minimum wage is meant to be commensurate with the work skills , education and productivity — at that point in time — of people entering the workforce .",['SOCIAL_JUSTICE/INJUSTICE'],1,['LOW-SKILLED']
+"The correct label is **SOCIAL_JUSTICE/INJUSTICE** 
+
+
+Let me know if you'd like to try another example!",gemma2:27b,2024-09-12T21:02:40.906119724Z,stop,1789327975,44517616,1026,915581000,30,782432000,As the cost of living has jumped by leaps and bounds minimum wage has barely made an impact .,['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"The correct label is **CONSUMER_SPENDING** 
+
+
+Let me know if you'd like to try labeling more examples! 
+",gemma2:27b,2024-09-12T21:02:42.858102498Z,stop,1848140609,60030396,1026,917020000,30,782699000,"On the other hand , consumers with higher wages have more spending power , which may also offset price increases .",['PRICES'],0,[]
+"The correct label is SOCIAL_JUSTICE/INJUSTICE 
+",gemma2:27b,2024-09-12T21:02:44.308931666Z,stop,1432396553,54470794,1026,911627000,15,377447000,"Advocates for a higher wage floor argue , first and foremost , that it is right to ensure that workers to earn enough to live on .",['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"The correct label is **LOW-SKILLED** 
+",gemma2:27b,2024-09-12T21:02:45.742234942Z,stop,1373260150,59270838,1026,919842000,14,350916000,"-SKILLED If we want to greatly reduce entry level employment , that ’s the way to do it .","['LOW-SKILLED', 'UN/EMPLOYMENT_RATE']",1,['LOW-SKILLED']
+"The correct labels are **JOB_LOSS** and  **UN/EMPLOYMENT_RATE**.
+
+Let me explain why:
+
+* **JOB_LOSS:** The statement explicitly mentions a reduction in employment (""reduce the city's employment""). This directly implies job losses. 
+* **UN/EMPLOYMENT_RATE:** The consequence of job losses is an increase in the unemployment rate.  
+
+While the example touches on the topic of minimum wage, the focus here is on the predicted economic outcome (job losses) rather than the debate surrounding the policy itself. 
+
+
+",gemma2:27b,2024-09-12T21:02:49.880585069Z,stop,4080091876,58439025,1026,920394000,114,3056489000,"San Francisco 's Office of Economic Analysis said that an increase to $ 15 would reduce the city 's employment by about "" 15,270 private sector jobs . """,['UN/EMPLOYMENT_RATE'],1,['UN/EMPLOYMENT_RATE']
+"The correct label is SOCIAL_JUSTICE/INJUSTICE 
+",gemma2:27b,2024-09-12T21:02:51.425825208Z,stop,1444997828,59650948,1026,920284000,15,378350000,"Even if workers are getting a competitive wage , many of us are deeply disturbed that some hard-working families still have very little .",['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"The correct label is **SOCIAL_JUSTICE/INJUSTICE** 
+
+
+Let me know if you'd like me to analyze any other text snippets! 
+",gemma2:27b,2024-09-12T21:02:53.421718183Z,stop,1936996788,56518025,1026,914247000,35,919490000,"With the rising cost of living , those who get a minimum wage increase are more likely to get a feeling of financial security ( at least to some degree ) .",['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"The correct label is **GOVERNMENT** 
+",gemma2:27b,2024-09-12T21:02:54.742222584Z,stop,1261379088,58980219,1026,915102000,10,243786000,"The free market should determine minimum wages , not the federal government .",['GOVERNMENT'],1,['GOVERNMENT']
+"The correct label is **POVERTY** 
+
+
+Let me know if you have any other text snippets you'd like labeled!",gemma2:27b,2024-09-12T21:02:56.546949417Z,stop,1746138343,55849437,1026,919485000,28,728189000,"If a higher minimum wage were the only anti-poverty initiative available , I would support it .",['SOCIAL_JUSTICE/INJUSTICE'],0,[]
+"The correct label is **MOTIVATION/CHANCES** 
+
+Let me know if you'd like to try another example!  
+",gemma2:27b,2024-09-12T21:02:58.468506688Z,stop,1819713609,55016258,1026,919627000,29,757569000,"A more practical solution is to join the workforce at the low end of the wage scale , build your skills , get an education and move up the ladder to a better paying job just as members of the workforce have done for generations .",['MOTIVATION/CHANCES'],1,['MOTIVATION/CHANCES']
+"The correct labels are **COMPETITION/BUSINESS_CHALLENGES** and **LOW-SKILLED**. 
+
+
+Let me know if you'd like me to analyze any other text snippets! 
+",gemma2:27b,2024-09-12T21:03:00.657918158Z,stop,2129148128,55666453,1026,919763000,42,1110444000,"What we mean by this is that if wages are risen too much , employers may find it hard to offer sign on incentives , Christmas bonuses or extra commission for projects well done .",['MOTIVATION/CHANCES'],2,"['LOW-SKILLED', 'COMPETITION/BUSINESS_CHALLENGES']"
+"The correct label is **UN/EMPLOYMENT_RATE** 
+
+
+Let me know if you'd like to try another example!",gemma2:27b,2024-09-12T21:03:02.527279394Z,stop,1766641951,56006873,1026,919043000,27,701939000,"Economists have tended to oppose minimum wages on the grounds that they reduce employment , hurting many of those they are supposed to help .",['UN/EMPLOYMENT_RATE'],1,['UN/EMPLOYMENT_RATE']
+"The correct label is **SOCIAL_JUSTICE/INJUSTICE** 
+",gemma2:27b,2024-09-12T21:03:04.031113867Z,stop,1485909601,55614373,1026,910663000,17,431861000,"The proposed hike would ease present hardship , not abolish it .",['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"The correct label is **LOW-SKILLED**. 
+
+Let's break down why:
+
+* **The Quote:** The quote directly addresses the impact of minimum wage laws on ""less skilled, less experienced, or otherwise less desired workers"". This phrasing clearly indicates a focus on individuals with lower skill levels in the workforce.
+* **Economic Impact:**  The statement emphasizes that raising the minimum wage makes these workers ""more expensive"" and potentially ""prices many of them out of jobs."" This aligns with the concerns often raised about minimum wage hikes disproportionately affecting low-skilled workers. 
+
+
+Let me know if you have any other text snippets you'd like to analyze!",gemma2:27b,2024-09-12T21:03:08.870201992Z,stop,4737368336,55357047,1026,919719000,138,3715967000,"-SKILLED Economist Thomas Sowell sums it up well : “ The net economic effect of minimum wage laws is to make less skilled , less experienced , or otherwise less desired workers more expensive — thereby pricing many of them out of jobs . ”","['LOW-SKILLED', 'UN/EMPLOYMENT_RATE']",1,['LOW-SKILLED']
+"The correct labels are **LOW-SKILLED** and **COMPETITION/BUSINESS_CHALLENGES**. 
+
+
+Let me explain why:
+
+* **LOW-SKILLED:** The statement highlights employers' reluctance to hire due to a high minimum wage, implying that the affected workers likely possess limited skills. This aligns with the ""LOW-SKILLED"" category.
+* **COMPETITION/BUSINESS_CHALLENGES:**  The phrase ""US federal minimum wage is very high relative to the local average"" suggests that businesses face competitive pressure from other regions with lower labor costs. This falls under the ""COMPETITION/BUSINESS_CHALLENGES"" label. 
+",gemma2:27b,2024-09-12T21:03:13.574094603Z,stop,4644880182,56495876,1026,913883000,135,3628685000,One study concluded that 'Em ployers are disinclined to hire workers because the US federal minimum wage is very high relative to the local average ' .,['UN/EMPLOYMENT_RATE'],2,"['LOW-SKILLED', 'COMPETITION/BUSINESS_CHALLENGES']"
+"The correct label is **PRICES** 
+
+
+Let me know if you'd like to analyze more text!",gemma2:27b,2024-09-12T21:03:15.368997234Z,stop,1688089838,56055943,1026,919490000,24,622175000,"Price increase : Employers might raise prices of their product in order to generate enough income to support their more highly paid minimum wage employees , which could ultimately create a ripple effect for other shops and industries , resulting in a slightly higher cost of living , resulting in another push to raise minimum wage again .",['PRICES'],1,['PRICES']
+"The correct label is **SOCIAL_JUSTICE/INJUSTICE** 
+
+Let me know if you'd like me to analyze any more text snippets!",gemma2:27b,2024-09-12T21:03:17.316072002Z,stop,1928836959,56279750,1026,920344000,33,864310000,"It also encourages people to join the work force , rather than seek other illegal means of earning money such as selling drugs or prostitution .",['MOTIVATION/CHANCES'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"The correct label is **WELFARE** 
+
+
+",gemma2:27b,2024-09-12T21:03:18.709212404Z,stop,1292502479,55955980,1026,919429000,11,271171000,They report the increase would shave $ 7.6 billion off annual government spending on income-support programs .,['WELFARE'],1,['WELFARE']
+"The correct label is **LOW-SKILLED** 
+
+Let's break down why:
+
+* **""I would not raise it, specifically because I'm interested in making sure that people are able to enter the job market...""** This statement directly addresses the concern that raising the minimum wage could make it harder for individuals, particularly those new to the workforce, to find jobs. 
+",gemma2:27b,2024-09-12T21:03:21.976428763Z,stop,3206556097,54769660,1026,914957000,82,2193976000,"-SKILLED I would not raise it , specifically because I 'm interested in making sure that people are able to enter the job market and take advantage of opportunities . ""","['LOW-SKILLED', 'MOTIVATION/CHANCES']",1,['LOW-SKILLED']
+"The correct label is **UN/EMPLOYMENT_RATE** 
+
+Let me know if you'd like me to analyze any other text snippets! 
+",gemma2:27b,2024-09-12T21:03:23.981267189Z,stop,1904258175,55819007,1026,920484000,32,838331000,"Meanwhile , Jonathan Meer and Jeremy West of Texas A&M University have recently added a new wrinkle to the controversy with a paper that says minimum wages can noticeably bring reduce total employment by slowing down hiring .",['UN/EMPLOYMENT_RATE'],1,['UN/EMPLOYMENT_RATE']
+"The correct label is **MOTIVATION/CHANCES** 
+",gemma2:27b,2024-09-12T21:03:25.408157971Z,stop,1414219316,58935449,1026,916887000,14,351776000,"“ Minimum wage should be unlivable , so the people making it are motivated to do something better !","['SOCIAL_JUSTICE/INJUSTICE', 'MOTIVATION/CHANCES']",1,['MOTIVATION/CHANCES']
+"The correct label is **WAGE(INCREASES)** 
+
+
+Let me know if you'd like me to analyze any more text!",gemma2:27b,2024-09-12T21:03:27.243984543Z,stop,1775190691,53454006,1026,920496000,29,755867000,Myth : Raising the federal tipped minimum wage ( $ 2.13 per hour since 1991 ) would lead to restaurant job losses .,['UN/EMPLOYMENT_RATE'],0,[]
+"The correct label is CAPITAL_VS_LABOR 
+",gemma2:27b,2024-09-12T21:03:28.703564966Z,stop,1358936730,54907323,1026,920274000,12,296897000,The minimum wage law actually hurts unions .,['CAPITAL_VS_LABOR'],1,['CAPITAL_VS_LABOR']
+"The correct label is LOW-SKILLED 
+",gemma2:27b,2024-09-12T21:03:30.081050054Z,stop,1316348473,54428081,1026,919979000,12,297367000,Not true : The typical minimum wage worker is not a high school student earning weekend pocket money .,['YOUTH_AND_SECONDARY_WAGE_EARNERS'],1,['LOW-SKILLED']
+"The correct labels are **LOW-SKILLED**. 
+
+
+",gemma2:27b,2024-09-12T21:03:31.507796891Z,stop,1367279515,54350810,1026,916689000,14,350633000,-SKILLED The minimum wage will price the services of the least productive ( and therefore lowest-wage ) workers out of the market .,['LOW-SKILLED'],1,['LOW-SKILLED']
+"The correct label is **MOTIVATION/CHANCES** 
+
+
+Let me know if you'd like to try another example!",gemma2:27b,2024-09-12T21:03:33.285029476Z,stop,1720549495,59800890,1026,916462000,27,701104000,They also believe it discourages further education of the poor .,['MOTIVATION/CHANCES'],1,['MOTIVATION/CHANCES']
+"The correct label is PRICES 
+
+
+",gemma2:27b,2024-09-12T21:03:33.777078679Z,stop,391707130,55139631,1026,61344000,8,188532000,A minimum wage hike will only help to foster more inflation .,['PRICES'],1,['PRICES']
+"The correct labels are **COMPETITION/BUSINESS_CHALLENGES** and **LOW-SKILLED**. 
+
+
+Let me know if you'd like me to analyze any more text!",gemma2:27b,2024-09-12T21:03:35.882831224Z,stop,2045998676,56233907,1026,915028000,39,1027785000,"Some companies will be able to absorb the increased labor costs , while others with thin profit margins might cut their workforce or raise prices .","['COMPETITION/BUSINESS_CHALLENGES', 'UN/EMPLOYMENT_RATE', 'PRICES']",2,"['LOW-SKILLED', 'COMPETITION/BUSINESS_CHALLENGES']"
+"The correct label is **LABOR_SUPPLY** 
+",gemma2:27b,2024-09-12T21:03:37.348439482Z,stop,1363722045,56187258,1026,918796000,12,299324000,"It is assumed that the higher the wage , the fewer hours an employer will demand of an employee .",['UN/EMPLOYMENT_RATE'],0,[]
+"The correct label is **GOVERNMENT_INTERVENTION** 
+
+Let me know if you'd like to try another example!",gemma2:27b,2024-09-12T21:03:39.102286064Z,stop,1693605091,55664595,1026,919534000,26,675074000,"Like all government price controls , minimum wage laws are distortionary .",['GOVERNMENT'],1,['GOVERNMENT']
+"The correct label is **INCOME_INEQUALITY** 
+
+
+Let me know if you have any other text snippets you'd like labeled!",gemma2:27b,2024-09-12T21:03:41.054677559Z,stop,1849974748,56562668,1026,919195000,30,785057000,"While making a dollar more an hour may not sound like much to many of us , for someone who is tight on finances that forty dollars a week can really add up .",['SOCIAL_JUSTICE/INJUSTICE'],0,[]
+"The correct label is **WAGES** 
+
+Let me know if you'd like to try another example! 
+",gemma2:27b,2024-09-12T21:03:42.811007115Z,stop,1738305901,54851381,1026,918470000,26,676743000,"Increasing the minimum wage would have a ripple effect , raising the incomes of people who make slightly above the minimum wage .",['ECONOMIC_IMPACT'],0,[]
+"The correct label is **UN/EMPLOYMENT_RATE** 
+
+
+",gemma2:27b,2024-09-12T21:03:44.282665128Z,stop,1370115898,56435303,1026,915980000,14,350874000,"The main potential negative impact of raising the minimum wage is the loss of close to 500,000 jobs , which comes out to around 0.3 % decrease in employment .",['UN/EMPLOYMENT_RATE'],1,['UN/EMPLOYMENT_RATE']
+"The correct label is BASIC_INCOME 
+
+Let me know if you'd like to try another example!",gemma2:27b,2024-09-12T21:03:45.983672269Z,stop,1638828199,54419342,1026,916944000,24,622430000,It is argued that recipients of the basic income would have considerably more bargaining power when negotiating a wage with an employer as there would be no risk of destitution for not taking the employment .,['CAPITAL_VS_LABOR'],0,[]
+"The correct label is CAPITAL_VS_LABOR 
+",gemma2:27b,2024-09-12T21:03:47.446833474Z,stop,1362003839,56361961,1026,918865000,12,297697000,But it ’s still important to remember that raising the minimum wage ultimately really only hurts one group : major corporations and the assholes in charge of them .,['COMPETITION/BUSINESS_CHALLENGES'],1,['CAPITAL_VS_LABOR']
+"The correct label is **CONSUMER_SPENDING**. 
+
+
+Let me know if you'd like me to analyze any other text snippets!",gemma2:27b,2024-09-12T21:03:49.307979369Z,stop,1799411275,57536243,1026,914050000,30,782298000,Perhaps the fact that workers will have more to spend will blunt any impact from higher labor costs .,"['COMPETITION/BUSINESS_CHALLENGES', 'SOCIAL_JUSTICE/INJUSTICE']",0,[]
+"The correct label is **SOCIAL_JUSTICE/INJUSTICE** 
+
+
+Let me know if you'd like to try another example!",gemma2:27b,2024-09-12T21:03:51.259664927Z,stop,1850788529,58265691,1026,919957000,30,785368000,"I mean , nobody works for minimum wage , back to this whole notion of showing up on time and wearing clean clothes gets you way above the minimum wage … I just think when government gets involved in setting wages , there 's no stopping what government will intervene in doing . """,['GOVERNMENT'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"The correct labels are:
+
+* **UN/EMPLOYMENT_RATE** 
+* **COMPETITION/BUSINESS_CHALLENGES**  
+
+
+
+Let me know if you have any other text snippets you'd like labeled! 
+",gemma2:27b,2024-09-12T21:03:53.583282283Z,stop,2304474424,55300255,1026,913539000,47,1246433000,The Chamber of Commerce warned on no less than four separate occasions from 1975 to 1989 that minimum wage rises would cost millions of jobs .,['UN/EMPLOYMENT_RATE'],2,"['COMPETITION/BUSINESS_CHALLENGES', 'UN/EMPLOYMENT_RATE']"
+"The correct label is **ECONOMIC_IMPACT** 
+
+
+Let's break down why:
+
+* The statement focuses on the broader economic effects of a minimum wage increase in Los Angeles.  
+* It mentions ""significant economic stimulus"" and ""negligible job loss,"" which are key indicators of economic impact.",gemma2:27b,2024-09-12T21:03:56.352022924Z,stop,2706883528,59884872,1026,918312000,63,1681728000,"It obviously varies by location — but Los Angeles Mayor Eric Garcetti commissioned a study on the issue , and found that a citywide minimum wage of $ 13.25 an hour would provide a significant economic stimulus with negligible job loss .","['UN/EMPLOYMENT_RATE', 'ECONOMIC_IMPACT']",1,['ECONOMIC_IMPACT']
+"The correct label is **ECONOMIC_IMPACT** 
+",gemma2:27b,2024-09-12T21:03:57.811985358Z,stop,1359027154,55146450,1026,919009000,12,297638000,Improvements in productivity and economic growth have outpaced increases in the minimum wage .,['PRICES'],1,['ECONOMIC_IMPACT']
+"The correct label is **LOW-SKILLED** 
+
+
+Let me know if you'd like to try another example!",gemma2:27b,2024-09-12T21:03:59.595499663Z,stop,1722906385,59550164,1026,920163000,27,699865000,-SKILLED Companies can be more selective in those whom they employ thus the least skilled and least experienced will typically be excluded .,['LOW-SKILLED'],1,['LOW-SKILLED']
+"The correct label is **JOB_LOSS/CREATION** 
+",gemma2:27b,2024-09-12T21:04:01.136214056Z,stop,1439494436,55699775,1026,918071000,15,378929000,"If employers find that a wage increase for all their employees if going to financially hurt the company until it can adjust or permanently , employers are more likely to give temporary or permanent layoffs .","['COMPETITION/BUSINESS_CHALLENGES', 'UN/EMPLOYMENT_RATE']",0,[]
+"The correct labels are **LOW-SKILLED** and **YOUTH_AND_SECONDARY_WAGE_EARNERS**. 
+",gemma2:27b,2024-09-12T21:04:02.970981061Z,stop,1774322449,56254959,1026,919841000,29,755508000,"Thus , minimum wage is more often imposed on the sixteen-year-old worker with his first job than on people who would otherwise be unemployed .",['YOUTH_AND_SECONDARY_WAGE_EARNERS'],2,"['LOW-SKILLED', 'YOUTH_AND_SECONDARY_WAGE_EARNERS']"
+"The correct labels are **LOW-SKILLED** and **SOCIAL_JUSTICE/INJUSTICE**. 
+
+
+Let's break down why:
+
+* **LOW-SKILLED:** The phrase ""stagnant incomes for low-wage workers"" directly refers to the group typically affected by minimum wage debates.
+* **SOCIAL_JUSTICE/INJUSTICE:** The statement implies a concern for fairness and equity in wages, which aligns with the concept of social justice.",gemma2:27b,2024-09-12T21:04:06.762134826Z,stop,3689429655,55361496,1026,920357000,98,2626721000,So might a handful of Republicans looking to demonstrate that they too care about stagnant incomes for low-wage workers .,['SOCIAL_JUSTICE/INJUSTICE'],2,"['LOW-SKILLED', 'SOCIAL_JUSTICE/INJUSTICE']"
+"The correct label is **LOW-SKILLED**  
+
+This statement focuses on the percentage of minimum wage earners who work full-time and the proportion of household income they contribute, highlighting the potential impact of minimum wage changes on a segment often considered low-skilled. 
+",gemma2:27b,2024-09-12T21:04:09.350820899Z,stop,2570747511,57036158,1026,910655000,57,1513062000,"According to the Department of Labor , over half of people paid at minimum wage work a full-time schedule , and minimum wage workers contribute 46 percent of their household ’s income .",['YOUTH_AND_SECONDARY_WAGE_EARNERS'],1,['LOW-SKILLED']
+"The correct label is **SOCIAL_JUSTICE/INJUSTICE** 
+
+
+Let me know if you'd like to try another example!",gemma2:27b,2024-09-12T21:04:11.254216693Z,stop,1800017431,55640274,1026,915881000,30,783946000,When it was developed as a guideline the theory was that it would offset poverty by requiring business owners and corporate entities to pay a wage that would raise people up out of the poverty level and remove the need for government assistance .,"['SOCIAL_JUSTICE/INJUSTICE', 'WELFARE']",1,['SOCIAL_JUSTICE/INJUSTICE']
+"The correct labels are **LOW-SKILLED** and **YOUTH_AND_SECONDARY_WAGE_EARNERS**. 
+
+Here's why:
+
+* **LOW-SKILLED:** The mention of ""substandard wages"" implies a lack of specialized skills and potentially lower bargaining power, characteristics often associated with low-skilled work.
+* **YOUTH_AND_SECONDARY_WAGE_EARNERS:** The phrase ""large numbers of women and young workers"" directly points to this demographic, who frequently occupy entry-level or less demanding positions. 
+
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-12T21:04:16.079698586Z,stop,4765126649,55960622,1026,919240000,136,3657985000,"The sweatshops employed large numbers of women and young workers , paying them what were considered to be substandard wages .",['CAPITAL_VS_LABOR'],2,"['LOW-SKILLED', 'YOUTH_AND_SECONDARY_WAGE_EARNERS']"
+"The correct label is **TURNOVER** 
+
+Let me know if you have any other text snippets you'd like me to categorize!",gemma2:27b,2024-09-12T21:04:17.920345603Z,stop,1779578715,64428060,1026,915550000,29,751934000,Academic research also has shown that higher wages sharply reduce employee turnover which can reduce employment and training costs .,['TURNOVER'],1,['TURNOVER']
+"The correct label is **WELFARE** 
+
+
+Let me know if you have any other text snippets you'd like me to categorize!",gemma2:27b,2024-09-12T21:04:19.837411079Z,stop,1816587368,53092607,1026,919096000,29,755953000,"There are better ways to address poverty , such as income tax credits for low-income workers or tax policies that encourage asset development and savings for low-income families .","['SOCIAL_JUSTICE/INJUSTICE', 'WELFARE']",1,['WELFARE']
+"The correct label is PRICES 
+",gemma2:27b,2024-09-12T21:04:21.110064947Z,stop,1254913291,56846044,1026,920477000,8,189900000,I have a business partner who said he will have to increase his prices by 40 percent if it happens . ”,['PRICES'],1,['PRICES']
+"The correct label is **SOCIAL_JUSTICE/INJUSTICE** 
+",gemma2:27b,2024-09-12T21:04:22.62285725Z,stop,1453666770,56469383,1026,920037000,17,431322000,Minimum wage has long been a minimum standard of living .,['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"The correct label is COSTS  
+
+
+
+Let me know if you'd like to test more examples! 
+",gemma2:27b,2024-09-12T21:04:24.379931334Z,stop,1651255119,55440178,1026,915581000,23,593120000,Reich and Cooper both said research has shown such increases have small overall effects on employers ' operating costs .,['COMPETITION/BUSINESS_CHALLENGES'],0,[]
+"The correct label is SOCIAL_JUSTICE/INJUSTICE 
+",gemma2:27b,2024-09-12T21:04:25.839103838Z,stop,1441519249,55216343,1026,919323000,15,378578000,"The Economist stated in 2015 that "" America as a whole is an outlier among advanced economies ... one would expect America , where GDP per person is $ 53,000 , to pay a minimum wage around $ 12 an hour .",['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"The correct label is **TAXES/FEES** 
+
+
+",gemma2:27b,2024-09-12T21:04:27.265245318Z,stop,1368655581,55018867,1026,918803000,14,351034000,Ngoussou says businesses like his need a break on taxes and fees .,['COMPETITION/BUSINESS_CHALLENGES'],0,[]
+"The correct labels are  **LOW-SKILLED, JOB_CREATION/LOSS ** 
+
+
+Let me know if you have any other text snippets you'd like labeled! 
+",gemma2:27b,2024-09-12T21:04:29.403054469Z,stop,2078343039,56366872,1026,919947000,40,1055075000,"“ Molly Moon 's has seen increased sales and increased profitability and my employees are so thankful for the paid safe and sick leave , ” said owner Molly Moon .","['COMPETITION/BUSINESS_CHALLENGES', 'SOCIAL_JUSTICE/INJUSTICE']",1,['LOW-SKILLED']
+"The correct label is **ECONOMIC_IMPACT** 
+
+
+Let me know if you'd like me to analyze any other text snippets! 😊 
+",gemma2:27b,2024-09-12T21:04:31.376095367Z,stop,1871936724,56347932,1026,919300000,31,810114000,We create more jobs when other people have more money in their pockets to spend at our businesses .,"['UN/EMPLOYMENT_RATE', 'ECONOMIC_IMPACT']",1,['ECONOMIC_IMPACT']
+"The correct labels are: **LOW-SKILLED** 
+
+
+Let me know if you'd like me to analyze any other text snippets! 
+",gemma2:27b,2024-09-12T21:04:33.313883337Z,stop,1919323835,55461739,1026,910470000,33,863570000,-SKILLED Because it will make it more expensive for businesses to hire young and low-skill workers at a time of crisis-level unemployment .,"['LOW-SKILLED', 'UN/EMPLOYMENT_RATE']",1,['LOW-SKILLED']
+"The correct label is **BUSINESS_IMPROVEMENT** 
+
+
+Let me know if you have more text snippets to analyze! I'm ready.",gemma2:27b,2024-09-12T21:04:35.239396729Z,stop,1826634137,57233255,1026,916792000,31,808162000,"When the minimum wage goes up , the theory says , businesses shape up .",['COMPETITION/BUSINESS_CHALLENGES'],0,[]
+"The correct label is **SOCIAL_JUSTICE/INJUSTICE** 
+
+
+Let me know if you'd like to try labeling more text examples!",gemma2:27b,2024-09-12T21:04:37.241998247Z,stop,1942207702,56206498,1026,918641000,32,835373000,"But , if your goal is suring up the broader working class , they might seem like a rather good deal .",['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"The correct label is **SOCIAL_JUSTICE/INJUSTICE** 
+
+
+Let me know if you'd like to try labeling more text examples!",gemma2:27b,2024-09-12T21:04:39.150080452Z,stop,1849589177,55344725,1026,915599000,32,834939000,"But in addition , paying higher wages reduces poverty and the strain on the social safety net .",['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"The correct label is SOCIAL_JUSTICE/INJUSTICE 
+",gemma2:27b,2024-09-12T21:04:40.697662981Z,stop,1444907734,58260120,1026,918472000,15,380053000,"When you see people arguing against a minimum wage increase on the grounds that fast food workers do n’t deserve to make what other likewise underpaid workers make , that is as soul-crushingly perfect an illustration of the crab bucket mentality as you ’ll ever see .",['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"The correct label is **LOW-SKILLED** 
+
+
+",gemma2:27b,2024-09-12T21:04:42.131171132Z,stop,1374548922,56614219,1026,919047000,14,351996000,"For millions of agricultural workers , fast food workers , and retail workers , minimum-wage labor is n’t just a supplement — it ’s what they depend on to survive .","['YOUTH_AND_SECONDARY_WAGE_EARNERS', 'SOCIAL_JUSTICE/INJUSTICE']",1,['LOW-SKILLED']
+"The correct label is **LOW-SKILLED** 
+",gemma2:27b,2024-09-12T21:04:43.560376143Z,stop,1367141912,58305762,1026,914855000,14,350100000,-SKILLED Increasing employment opportunity gives low-skilled workers the best chance of finding employment and climbing up the economic mobility ladder .,"['LOW-SKILLED', 'MOTIVATION/CHANCES']",1,['LOW-SKILLED']
+"The correct label is **RESTAURANT_INDUSTRY** 
+
+
+",gemma2:27b,2024-09-12T21:04:44.95915131Z,stop,1338668848,55292063,1026,915732000,13,323942000,Myth : Raising the federal tipped minimum wage ( $ 2.13 per hour since 1991 ) would hurt restaurants .,['COMPETITION/BUSINESS_CHALLENGES'],0,[]
+"The correct label is **SOCIAL_JUSTICE/INJUSTICE** 
+
+
+",gemma2:27b,2024-09-12T21:04:46.465010254Z,stop,1444245127,54917573,1026,914539000,17,430901000,Worker exploitation and underemployment can be avoided with reasonable minimum wages .,"['UN/EMPLOYMENT_RATE', 'CAPITAL_VS_LABOR']",1,['SOCIAL_JUSTICE/INJUSTICE']
+"The correct label is **SOCIAL_JUSTICE/INJUSTICE** 
+
+
+Let me know if you'd like me to analyze any other text snippets!",gemma2:27b,2024-09-12T21:04:48.489196659Z,stop,1924541598,53899497,1026,919059000,33,862908000,"I want people to have more command in the workplace , and I want them to have much more than $ 7.25 an hour .",['MOTIVATION/CHANCES'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"The correct label is **PRICES** 
+
+Let me know if you have any other text snippets you'd like to classify!",gemma2:27b,2024-09-12T21:04:50.299398882Z,stop,1750332711,56378591,1026,918691000,28,728130000,One potential effect could be higher prices at those businesses that now must pay their workers twice as much as before .,['PRICES'],1,['PRICES']
+"The correct labels are: **OUTSOURCING** and **COMPETITION/BUSINESS_CHALLENGES** 
+
+
+Let me know if you have any other text snippets you'd like labeled!",gemma2:27b,2024-09-12T21:04:52.535542916Z,stop,2134673551,47028362,1026,918067000,41,1082107000,"According to the Statistic Brain Research Institute , 2,382,000 US jobs were outsourced in 2015 with 44 % of companies saying they did so to reduce or control costs .",['UN/EMPLOYMENT_RATE'],1,['COMPETITION/BUSINESS_CHALLENGES']
+"The correct label is SOCIAL_JUSTICE/INJUSTICE 
+",gemma2:27b,2024-09-12T21:04:53.988674213Z,stop,1435784570,56551845,1026,911160000,15,378439000,""" We 've chosen to let workers at the bottom fall farther and farther away from people in the middle . """,['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"The correct label is **INFLATION** 
+",gemma2:27b,2024-09-12T21:04:55.337776389Z,stop,1288921997,57310866,1026,915666000,11,270699000,"In consumer economies where the unemployment rate is set by macroeconomic conditions , minimum wages help in keeping inflation from increasing too rapidly .",['SOCIAL_JUSTICE/INJUSTICE'],0,[]
+"The correct labels are PRICES 
+
+Let me know if you'd like to try another example!",gemma2:27b,2024-09-12T21:04:56.960155155Z,stop,1563219502,57437850,1026,919207000,21,541750000,That means higher prices for anyone stopping at the mall or Burger King — price bumps that could spread further out in the economy .,['PRICES'],1,['PRICES']
+"The correct label is POVERTY 
+",gemma2:27b,2024-09-12T21:04:58.364284009Z,stop,1302734802,54449582,1026,916743000,10,243999000,Studies from both sides of the debate make it relatively clear that increasing minimum wage will not make a significant impact on the poverty level .,['SOCIAL_JUSTICE/INJUSTICE'],0,[]
+"The correct label is **SOCIAL_JUSTICE/INJUSTICE** 
+
+
+Let me know if you have any other text snippets you'd like labeled!",gemma2:27b,2024-09-12T21:05:00.312875928Z,stop,1888309166,60869809,1026,917880000,33,862774000,And a job may ultimately be the most valuable thing for a family struggling to escape poverty .,['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"The correct labels are **SOCIAL_JUSTICE/INJUSTICE**  and **LOW-SKILLED**. 
+
+Here's why:
+
+* **SOCIAL_JUSTICE/INJUSTICE:** The statement highlights a perceived injustice in the current minimum wage not keeping pace with labor productivity, implying a need for fairness and better compensation.
+* **LOW-SKILLED:** The phrasing ""those who could find work"" suggests a focus on individuals potentially struggling to secure employment due to limited skills or experience, a common concern associated with minimum wage debates. 
+
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-12T21:05:05.073346908Z,stop,4660753043,50289146,1026,916889000,134,3605364000,"Yet a narrow majority also thought a rise would nonetheless be worthwhile , given the benefits to those who could find work .",['UN/EMPLOYMENT_RATE'],2,"['LOW-SKILLED', 'SOCIAL_JUSTICE/INJUSTICE']"
+"The correct label is **PRICES**. 
+",gemma2:27b,2024-09-12T21:05:06.416892391Z,stop,1279672720,55593343,1026,911786000,11,269724000,"In Massachusetts , wages are higher , and so are prices .",['PRICES'],1,['PRICES']
+"The correct label is **SOCIAL_JUSTICE/INJUSTICE** 
+
+
+Let me know if you have any other text snippets you'd like me to categorize!",gemma2:27b,2024-09-12T21:05:08.412246784Z,stop,1935489942,55769267,1026,918785000,35,917812000,So maybe it 's better to think of the minimum wage as a way of getting more money to the broader working class .,['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"The correct label is **SOCIAL_JUSTICE/INJUSTICE** 
+
+Let's break down why:
+
+* **Arguments for Social Justice:** The passage highlights that the current minimum wage is insufficient for a decent standard of living. This argument directly connects to the idea of social justice, advocating for fair wages and economic equity.
+* **Focus on Wage Inequality:**  The mention of wage inequality between low- and middle-income workers further emphasizes the social justice aspect. A higher minimum wage is presented as a solution to bridge this gap. 
+
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-12T21:05:13.094262233Z,stop,4581505361,54657898,1026,919871000,131,3519154000,"Proponents of a higher minimum wage state that the current federal minimum wage of $ 7.25 per hour is too low for anyone to live on ; that a higher minimum wage will help create jobs and grow the economy ; that the declining value of the minimum wage is one of the primary causes of wage inequality between low - and middle-income workers ; and that a majority of Americans , including a slim majority of self-described conservatives , support increasing the minimum wage .","['UN/EMPLOYMENT_RATE', 'ECONOMIC_IMPACT', 'SOCIAL_JUSTICE/INJUSTICE']",1,['SOCIAL_JUSTICE/INJUSTICE']
+"The correct label is LIVING_WAGE 
+",gemma2:27b,2024-09-12T21:05:14.442653911Z,stop,1329447721,54878494,1026,915898000,11,271222000,"Looking at the argument from this perspective , the proposed increased wage to $ 15 will provide a living wage .",['SOCIAL_JUSTICE/INJUSTICE'],0,[]
+"The correct labels are **COMPETITION/BUSINESS_CHALLENGES**, **PRICES**. 
+
+
+Let me know if you have any other text snippets you'd like labeled!",gemma2:27b,2024-09-12T21:05:16.463169741Z,stop,1958445331,54303959,1026,913844000,36,946077000,"Opponents of boosting the minimum wage focus mainly on the potentially detrimental side effects , like job reduction , and a rise in the cost of consumer goods and services .","['UN/EMPLOYMENT_RATE', 'PRICES']",2,"['PRICES', 'COMPETITION/BUSINESS_CHALLENGES']"
+"The correct label is **PURCHASING_POWER** 
+
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-12T21:05:18.462120336Z,stop,1897439781,54439563,1026,918256000,32,836455000,"This makes poor consumers worse off in a direct sense , in that they can purchase less with their earnings .","['SOCIAL_JUSTICE/INJUSTICE', 'PRICES']",0,[]
+"The correct label is **COMPETITION/BUSINESS_CHALLENGES** 
+",gemma2:27b,2024-09-12T21:05:19.94583874Z,stop,1464996442,57375207,1026,910137000,16,406595000,"This also is n’t particularly surprising considering the UMass-Amherst study which found that a wage increase from $ 7.25 / hour to $ 15/hour , phased in over a period of four years , would have little to no impact on the fast food industry ’s profit margins in general .",['COMPETITION/BUSINESS_CHALLENGES'],1,['COMPETITION/BUSINESS_CHALLENGES']
+"The correct label is **SOCIAL_JUSTICE/INJUSTICE** 
+
+
+Let me know if you'd like me to analyze any other text snippets! 
+",gemma2:27b,2024-09-12T21:05:21.937697413Z,stop,1932814142,57106021,1026,914122000,35,915982000,"Minimum wage laws , for instance proposals to index the minimum wage to average wages , have the potential to keep the dollar value of the minimum wage relevant and predictable .",['SOCIAL_JUSTICE/INJUSTICE'],1,['SOCIAL_JUSTICE/INJUSTICE']
+"The correct label is **PRICES** 
+",gemma2:27b,2024-09-12T21:05:23.375234177Z,stop,1334320816,58235349,1026,917003000,11,270892000,"“ If a business has to pay more for anything , gasoline , produce , labor — they have to raise their prices or they have to cut costs , plain and simple , ” says Tom Scarda , a Certified Franchise Consultant .",['PRICES'],1,['PRICES']
+"The correct label is **LOW-SKILLED**  and **YOUTH_AND_SECONDARY_WAGE_EARNERS**. 
+
+
+Let me explain why:
+
+* **LOW-SKILLED:** The passage discusses teenagers withdrawing from the labor force in response to a higher minimum wage. This directly relates to the impact of minimum wage on low-skilled and entry-level workers, who often include teenagers.
+
+* **YOUTH_AND_SECONDARY_WAGE_EARNERS:**  The text specifically mentions ""teenagers"" withdrawing from the labor force. This clearly falls under the category of youth and secondary wage earners. 
+",gemma2:27b,2024-09-12T21:05:27.964158818Z,stop,4527345935,45050811,1026,917113000,131,3519495000,"-SKILLED In contrast to the simple supply and demand diagram , it was commonly found that teenagers withdrew from the labor force in response to the minimum wage , which produced the possibility of equal reductions in the supply as well as the demand for labor at a higher minimum wage and hence no impact on the unemployment rate .","['LOW-SKILLED', 'UN/EMPLOYMENT_RATE']",2,"['LOW-SKILLED', 'YOUTH_AND_SECONDARY_WAGE_EARNERS']"
+"The correct label is PRICES 
+",gemma2:27b,2024-09-12T21:05:29.32351856Z,stop,1254698825,56347770,1026,918496000,8,189770000,"This is one of the critics ’ many go-to arguments : Raise wages , they say , and businesses will have to raise prices to maintain their profits .",['PRICES'],1,['PRICES']
+"The correct label is **ECONOMIC_IMPACT** 
+
+
+Let me know if you'd like me to analyze any other text snippets! 
+",gemma2:27b,2024-09-12T21:05:31.186044791Z,stop,1801382406,55727966,1026,918436000,30,784081000,"Their work was published in 2010 in the journal Review of Economics and Statistics and found that , in the restaurant and retail industries , boosting the minimum wage by 10 percent had effectively no impact on employment levels .",['UN/EMPLOYMENT_RATE'],1,['ECONOMIC_IMPACT']
+"The correct label is **GOVERNMENT** 
+
+Let me know if you'd like to try another example! 
+",gemma2:27b,2024-09-12T21:05:32.995186357Z,stop,1704907812,55669185,1026,913294000,25,646539000,"Saying we have a "" free market "" that will take care of workers is a myth .",['GOVERNMENT'],1,['GOVERNMENT']
+"The correct label is **MOTIVATION/CHANCES** 
+
+
+Let me know if you'd like me to analyze any other text!",gemma2:27b,2024-09-12T21:05:34.823938868Z,stop,1809771142,54639267,1026,912003000,29,756221000,""" It does n’t reduce incentive for employer to hire , and it helps employees earn more . ""","['UN/EMPLOYMENT_RATE', 'SOCIAL_JUSTICE/INJUSTICE']",1,['MOTIVATION/CHANCES']
+"The correct label is **PRICES** 
+
+Let me know if you have any other text snippets you'd like me to analyze!",gemma2:27b,2024-09-12T21:05:36.657875373Z,stop,1772996946,55413428,1026,918093000,29,755448000,"Meanwhile , Burger King and McDonald 's can raise their prices a little bit without scaring off customers .",['PRICES'],1,['PRICES']
+"The correct label is **JOB_LOSS/CREATION** 
+
+
+",gemma2:27b,2024-09-12T21:05:38.200487264Z,stop,1439870806,56816585,1026,915122000,15,378132000,Mandatory increases in hourly wages mean that businesses will be forced to cut jobs or reduce hours to maintain their bottom line .,['UN/EMPLOYMENT_RATE'],0,[]
+"The correct label is **LEGAL/CONSTITUTIONAL** 
+",gemma2:27b,2024-09-12T21:05:39.631624494Z,stop,1370689903,58260320,1026,914989000,14,353308000,"The Supreme Court , in its opinion in the 1923 case Adkins v. Children ’s Hospital of District of Columbia , made a strong argument that a minimum wage was a violation of the constitutionally guaranteed freedom of contract embedded in the Fifth Amendment ’s language about due process and the deprivation of liberty and property .",['GOVERNMENT'],0,[]
+"The correct label is **CORPORATE_SOCIAL_RESPONSIBILITY** 
+
+
+Let me know if you'd like me to analyze any other text snippets!",gemma2:27b,2024-09-12T21:05:41.634640013Z,stop,1901775291,56953316,1026,917790000,32,837393000,“ We ’ve gained many new customers who have written us notes telling us how grateful they are that we treat our employees fairly .,['SOCIAL_JUSTICE/INJUSTICE'],0,[]
+"The correct labels are **CAPITAL_VS_LABOR** and **SOCIAL_JUSTICE/INJUSTICE**. 
+
+Here's why:
+
+* **CAPITAL_VS_LABOR:** The statement highlights the discrepancy between rising CEO salaries and opposition to minimum wage increases, suggesting a tension between capital owners (CEOs) and laborers.
+* **SOCIAL_JUSTICE/INJUSTICE:**  The phrase ""less of the share of wealth created... has been going towards workers"" implies an unfair distribution of wealth, raising concerns about social justice. 
+
+
+Let me know if you'd like me to analyze any other text snippets!",gemma2:27b,2024-09-12T21:05:46.182545809Z,stop,4529783059,58599989,1026,910625000,129,3472060000,"Although companies are experiencing greater productivity , since the ‘ 70s , less of the share of wealth created from that productivity has been going towards workers ( Check out this EPI article for more details ) .",['CAPITAL_VS_LABOR'],2,"['CAPITAL_VS_LABOR', 'SOCIAL_JUSTICE/INJUSTICE']"
+"The correct label is **LOW-SKILLED** 
+
+Let me know if you'd like to try another example!",gemma2:27b,2024-09-12T21:05:48.012559161Z,stop,1723671123,59438540,1026,914464000,27,703096000,"-SKILLED Another 2011 study by Sen , Rybczynski , and Van De Waal found that "" a 10 % increase in the minimum wage is significantly correlated with a 3 − 5 % drop in teen employment . """,['LOW-SKILLED'],1,['LOW-SKILLED']
+"The correct label is **PRODUCTIVITY** 
+
+
+Let me know if you'd like me to analyze any other text snippets!",gemma2:27b,2024-09-12T21:05:49.789597001Z,stop,1716661133,57028068,1026,912619000,27,701366000,"They say that instead of forcing businesses to cut staff , raising wages simply spurs them to become more efficient .","['COMPETITION/BUSINESS_CHALLENGES', 'UN/EMPLOYMENT_RATE']",0,[]
+"The correct label is **PRICES** 
+",gemma2:27b,2024-09-12T21:05:51.224341454Z,stop,1330287354,53675102,1026,918163000,11,270915000,Retailers may find that they will raise prices on their services and products with a wage increase .,['PRICES'],1,['PRICES']
+"The correct label is **GOVERNMENT** 
+",gemma2:27b,2024-09-12T21:05:52.549778212Z,stop,1265267148,59020980,1026,919005000,10,243307000,"Let the terms and conditions of wages be set by mutual agreement , not by government control and fiat .",['GOVERNMENT'],1,['GOVERNMENT']
